@@ -1,0 +1,40 @@
+### YamlMime:Certification
+title: 'Microsoft Office Specialist: Microsoft Word 2016'
+metadata:
+  title: 'Microsoft Office Specialist: Microsoft Word 2016'
+  description: 'Microsoft Office Specialist: Microsoft Word 2016'
+uid: certification.mos-word-2016
+iconUrl: /media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  Demonstrate that you have the skills needed to get the most out of Word by earning a Microsoft Office Specialist (MOS) 2016 certification. Successful candidates for the Word 2016 certification have a fundamental understanding of the Word environment and the ability to complete tasks independently.
+subTitle: This certification demonstrates that you have the skills needed to get the most out of Office by earning a Microsoft Office Specialist (MOS) certification in a specific Office program.
+levels:
+- intermediate
+skills:
+- Create and manage documents 
+- Format text, paragraphs, and sections 
+- Create tables and lists 
+- Create and manage references
+- Insert and format graphic elements
+roles:
+- business-user
+type: mos
+products:
+- office-word
+exams:
+- uid: exam.77-725
+resources:
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

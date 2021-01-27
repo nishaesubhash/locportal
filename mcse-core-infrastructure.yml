@@ -1,0 +1,67 @@
+### YamlMime:Certification
+title: 'MCSE: Core Infrastructure'
+metadata:
+  title: 'MCSE: Core Infrastructure'
+  description: 'MCSE: Core Infrastructure'
+uid: certification.mcse-core-infrastructure
+iconUrl: /media/learn/certification/badges/mcse-badge.svg
+summary: |-
+  <div>
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  <div><strong>This certification retires on January 31, 2021. You will no longer be able to earn this certification after this date. Any certifications you earn prior to their retirement dates will continue to appear on your transcript in the <a href='https://www.microsoft.com/learning/dashboard.aspx'>Certification Dashboard</a>. You can also <a href='/learn/certifications/retired-certifications'>browse all retired certifications</a>.</strong><br/><br/></div>
+  </div>
+  
+  This certification validates that you have the skills needed to run a highly efficient and modern data center, identity management, systems management, virtualization, storage, and networking.
+
+  To earn the MCSE&#58; Core Infrastructure certification, complete the following requirements&#58;
+  - Earn one prerequisite certification&#58;
+    - Prerequisite Option 1&#58; [MCSA: Windows Server 2012](/learn/certifications/mcsa-windows-server-certification)
+    - Prerequisite Option 2&#58; [MCSA: Windows Server 2016](/learn/certifications/mcsa-windows-server-2016-certification)
+  - And pass one of the elective exams&#58;
+    - [70-744: Securing Windows Server 2016](/learn/certifications/exams/70-744)
+    - [70-745: Implementing a Software-Defined Datacenter](/learn/certifications/exams/70-745)
+    - [70-413: Designing and Implementing a Server Infrastructure](/learn/certifications/exams/70-413)
+    - [70-414: Implementing an Advanced Server Infrastructure](/learn/certifications/exams/70-414)
+    - [70-537: Configuring and Operating a Hybrid Cloud with Microsoft Azure Stack Hub](/learn/certifications/exams/70-537)
+subTitle: This certification validates that you have the skills needed to run a highly efficient and modern data center, identity management, systems management, virtualization, storage, and networking.
+levels:
+- advanced
+skills:
+- none
+roles:
+- administrator
+type: mcse
+products:
+- windows-server
+- windows-system-center
+courses:
+- uid: course.20744
+- uid: course.20745
+- uid: course.20413
+- uid: course.20414
+- uid: course.20537
+exams:
+- uid: exam.70-744
+- uid: exam.70-745
+- uid: exam.70-413
+prerequisites:
+- uid: certification.mcsa-windows-server-certification
+  isOptional: false
+- uid: certification.mcsa-windows-server-2016-certification
+  isOptional: false
+resources:
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

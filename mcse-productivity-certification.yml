@@ -1,0 +1,66 @@
+### YamlMime:Certification
+title: 'MCSE: Productivity Solutions Expert'
+metadata:
+  title: 'MCSE: Productivity Solutions Expert'
+  description: 'MCSE: Productivity Solutions Expert'
+uid: certification.mcse-productivity-certification
+iconUrl: /media/learn/certification/badges/mcse-badge.svg
+summary: |-
+  <div>
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  <div><strong>This certification retires on January 31, 2021 at 11:59 PM Central Time. You will no longer be able to earn this certification after this date. Learn more about <a href='/learn/certifications/retired-certifications'>upcoming certification retirements</a>.</strong><br/><br/></div>
+  </div>
+  
+  This certification validates that you have the skills needed to move your company to the cloud, increase user productivity and flexibility, reduce data loss, and improve data security for your organization. This certification can be used to satisfy one of the requirements to become a [Microsoft 365 Certified Enterprise Administrator Expert](/learn/certifications/m365-enterprise-administrator).
+  
+  To become an MCSE&#58; Productivity Solutions Expert, complete the following requirements&#58;
+  - Earn one prerequisite certification&#58;
+    - Prerequisite Option 1&#58; [MCSA: Windows Server 2012](/learn/certifications/mcsa-windows-server-certification)
+    - Prerequisite Option 2&#58; [MCSA: Windows Server 2016](/learn/certifications/mcsa-windows-server-2016-certification)
+  - And pass one of the elective exams&#58;
+    - [70-333&#58; Deploying Enterprise Voice with Skype for Business 2015](/learn/certifications/exams/70-333)
+    - [70-334&#58; Core Solutions of Microsoft Skype for Business](/learn/certifications/exams/70-334)
+    - [70-339&#58; Managing Microsoft SharePoint Server 2016](/learn/certifications/exams/70-339)
+    - [70-345&#58; Designing and Deploying Microsoft Exchange Server 2016](/learn/certifications/exams/70-345)
+subTitle: This certification validates that you have the skills needed to move your company to the cloud, increase user productivity and flexibility, reduce data loss, and improve data security for your organization. This certification can be used to satisfy one of the requirements to become a Microsoft 365 Certified Enterprise Administrator Expert
+levels:
+- advanced
+skills:
+- none
+roles:
+- administrator
+type: mcse
+products:
+- m365
+courses:
+- uid: course.20334
+- uid: course.20345-1
+- uid: course.20345-2
+- uid: course.20339-1
+- uid: course.20339-2
+- uid: course.40409
+exams:
+- uid: exam.70-345
+- uid: exam.70-339
+- uid: exam.70-333
+prerequisites:
+- uid: certification.mcsa-windows-server-certification
+  isOptional: false
+- uid: certification.mcsa-windows-server-2016-certification
+  isOptional: false
+resources:
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

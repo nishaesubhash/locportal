@@ -1,0 +1,43 @@
+### YamlMime:Certification
+title: 'MTA: Software Development Fundamentals'
+metadata:
+  title: 'MTA: Software Development Fundamentals'
+  description: 'MTA: Software Development Fundamentals'
+uid: certification.mta-software-development-fundamentals
+iconUrl: /media/learn/certification/badges/mta-badge.svg
+summary: |-
+  <div style='color&#58; red;'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong><br/><br/></div>
+  
+  MTA certifications are a great place to start if you would like to get into the technology field. MTA certifications address a wide spectrum of fundamental technical concepts, assess and validate core technical knowledge, and enhance technical credibility. Note&#58; MTA exams do not qualify for MCP certification, nor are they a prerequisite for MCSA or MCSD certification.
+subTitle: 'MTA certifications are a great place to start if you would like to get into the technology field. MTA certifications address a wide spectrum of fundamental technical concepts, assess and validate core technical knowledge, and enhance technical credibility. Note: MTA exams do not qualify for MCP certification, nor are they a prerequisite for MCSA or MCSD certification.'
+levels:
+- beginner
+skills:
+- none
+roles:
+- developer
+type: mta
+products:
+- vs
+courses:
+- uid: course.40361
+- uid: course.40035
+- uid: course.40034
+exams:
+- uid: exam.98-361
+resources:
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

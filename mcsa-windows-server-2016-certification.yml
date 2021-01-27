@@ -1,0 +1,48 @@
+### YamlMime:Certification
+title: 'MCSA: Windows Server 2016'
+metadata:
+  title: 'MCSA: Windows Server 2016'
+  description: 'MCSA: Windows Server 2016'
+uid: certification.mcsa-windows-server-2016-certification
+iconUrl: /media/learn/certification/badges/mcsa-badge.svg
+summary: |-
+  <div>
+  <div style='color&#58; red;'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong><br/><br/></div>
+  <div><strong>This certification retires on January 31, 2021. You will no longer be able to earn this certification after this date. Any certifications you earn prior to their retirement dates will continue to appear on your transcript in the <a href='https://www.microsoft.com/learning/dashboard.aspx'>Certification Dashboard</a>. You can also <a href='/learn/certifications/retired-certifications'>browse all retired certifications</a>.</strong><br/><br/></div>
+  </div>
+  
+  Prove your mastery of the primary set of Windows Server 2016 skills required to reduce IT costs and deliver more business value.
+subTitle: Prove your mastery of the primary set of Windows Server 2016 skills required to reduce IT costs and deliver more business value.
+levels:
+- intermediate
+skills:
+- none
+roles:
+- administrator
+type: mcsa
+products:
+- windows-server
+courses:
+- uid: course.20740
+- uid: course.20741
+- uid: course.20742
+exams:
+- uid: exam.70-740
+- uid: exam.70-741
+- uid: exam.70-742
+resources:
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

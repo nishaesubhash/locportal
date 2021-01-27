@@ -1,0 +1,54 @@
+### YamlMime:Certification
+title: 'Microsoft 365 Certified: Security Administrator Associate'
+metadata:
+  title: 'Microsoft 365 Certified: Security Administrator Associate'
+  description: 'Microsoft 365 Security Administrators proactively secure Microsoft 365 enterprise and hybrid environments, implement and manage security and compliance solutions, respond to threats, and enforce data governance.'
+uid: certification.m365-security-administrator
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div style='color&#58; red;'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong><br/><br/></div>
+  
+  Microsoft 365 Security Administrators proactively secure Microsoft 365 enterprise and hybrid environments, implement and manage security and compliance solutions, respond to threats, and enforce data governance.
+subTitle: Microsoft 365 Security Administrators proactively secure Microsoft 365 enterprise and hybrid environments, implement and manage security and compliance solutions, respond to threats, and enforce data governance.
+levels:
+- intermediate
+skills:
+- Implement and manage identity and access
+- Implement and manage threat protection
+- Implement and manage information protection
+- Manage governance and compliance features in Microsoft 365
+roles:
+- administrator
+type: role-based
+products:
+- m365
+courses:
+- uid: course.ms-500t00
+paths:
+- uid: learn-m365.identity-and-access
+- uid: learn-m365.m365-security-threat-protection
+- uid: learn-m365.m365-information-protection
+- uid: learn-m365.m365-security-management
+- uid: learn-m365.m365-compliance-insider
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VUiS
+exams:
+- uid: exam.ms-500
+resources:
+- title: Certification learning path
+  description: 'Discover training resources to become a Microsoft Certified: Security Administrator Associate.'
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE458DG
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

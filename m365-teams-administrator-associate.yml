@@ -1,0 +1,53 @@
+### YamlMime:Certification
+title: 'Microsoft 365 Certified: Teams Administrator Associate'
+metadata:
+  title: 'Microsoft 365 Certified: Teams Administrator Associate'
+  description: Microsoft Teams Administrators configure, deploy, and manage Office 365 workloads for Microsoft Teams that focus on efficient and effective collaboration and communication in an enterprise environment.
+uid: certification.m365-teams-administrator-associate
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div style='color&#58; red;'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong><br/><br/></div>
+  
+  Microsoft Teams Administrators configure, deploy, and manage Office 365 workloads for Microsoft Teams that focus on efficient and effective collaboration and communication in an enterprise environment.
+  
+  Microsoft Teams Administrators must be able to plan, deploy, and manage Teams&#58; chat, apps, channels, meetings, audio conferences, live events, and calls.
+subTitle: Microsoft Teams Administrators configure, deploy, and manage Office 365 workloads for Microsoft Teams that focus on efficient and effective collaboration and communication in an enterprise environment.
+levels:
+- intermediate
+skills:
+- Plan and Configure a Microsoft Teams Environment
+- Manage Chat, Calling, and Meetings
+- Manage Teams and App Policies
+roles:
+- administrator
+type: role-based
+products:
+- m365
+- office-teams
+courses:
+- uid: course.ms-700t00
+paths:
+- uid: learn-m365.m365-manage-team-collaboration
+- uid: learn-m365.m365-teams-upgrade
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE43Nnv
+exams:
+- uid: exam.ms-700
+resources:
+- title: Certification learning path
+  description: 'Discover training resources to become a Microsoft Certified: Teams Administrator Associate.'
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE45gtR
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

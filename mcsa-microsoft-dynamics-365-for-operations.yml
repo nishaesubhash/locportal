@@ -1,0 +1,53 @@
+### YamlMime:Certification
+title: 'MCSA: Microsoft Dynamics 365 for Operations'
+metadata:
+  title: 'MCSA: Microsoft Dynamics 365 for Operations'
+  description: 'MCSA: Microsoft Dynamics 365 for Operations'
+uid: certification.mcsa-microsoft-dynamics-365-for-operations
+iconUrl: /media/learn/certification/badges/mcsa-badge.svg
+summary: |-
+  <div>
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  <div><strong>This certification retires on January 31, 2021. You will no longer be able to earn this certification after this date. Any certifications you earn prior to their retirement dates will continue to appear on your transcript in the <a href='https://www.microsoft.com/learning/dashboard.aspx'>Certification Dashboard</a>. You can also <a href='/learn/certifications/retired-certifications'>browse all retired certifications</a>.</strong><br/><br/></div>
+  </div>
+  
+  This certification demonstrates your expertise in Microsoft Dynamics 365 technologies to implement the basic technical and development tasks required to customize Microsoft Dynamics 365 for Operations. This audience typically includes technical consultants, programmers, and IT personnel.
+  
+  To earn the MCSA&#58; Microsoft Dynamics 365 for Operations certification, complete the following requirements&#58;
+  - Pass exam [MB6-894: Development, Extensions, and Deployment for Microsoft Dynamics 365 Finance](/learn/certifications/exams/mb6-894)
+  - And pass one of the following exams&#58;
+    - [70-764: Administering a SQL Database Infrastructure](/learn/certifications/exams/70-764)
+    - [70-765: Provisioning SQL Databases](/learn/certifications/exams/70-765)
+subTitle: This certification demonstrates your expertise in Microsoft Dynamics 365 technologies to implement the basic technical and development tasks required to customize Microsoft Dynamics 365 for Operations. This audience typically includes technical consultants, programmers, and IT personnel.
+levels:
+- intermediate
+skills:
+- none
+roles:
+- business-analyst
+type: mcsa
+products:
+- dynamics
+courses:
+- uid: course.20764
+- uid: course.20765
+exams:
+- uid: exam.70-764
+- uid: exam.70-765
+- uid: exam.mb-6-894
+resources:
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

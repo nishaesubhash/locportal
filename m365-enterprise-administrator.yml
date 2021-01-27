@@ -1,0 +1,77 @@
+### YamlMime:Certification
+title: 'Microsoft 365 Certified: Enterprise Administrator Expert'
+metadata:
+  title: 'Microsoft 365 Certified: Enterprise Administrator Expert'
+  description: 'The Microsoft 365 Enterprise Administrator takes part in evaluating, planning, migrating, deploying, and managing Microsoft 365 services.'
+uid: certification.m365-enterprise-administrator
+iconUrl: /media/learn/certification/badges/microsoft-certified-expert-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  Microsoft 365 Enterprise Administrators evaluate, plan, migrate, deploy, and manage Microsoft 365 services.
+  
+  <div><br/><strong>The MCSE: Productivity Solutions Expert certification will be retired on January 31, 2021. It will continue to qualify as a prerequisite option for this certification until January 31, 2022 (one year after the certification has retired).</strong></div>
+subTitle: Microsoft 365 Enterprise Administrators evaluate, plan, migrate, deploy, and manage Microsoft 365 services.
+levels:
+- advanced
+skills:
+- Design and implement Microsoft 365 services
+- Manage user identity and roles
+- Manage access and authentication
+- Plan Office 365 workloads and applications
+- Implement modern device services
+- Implement Microsoft 365 security and threat management
+- Manage Microsoft 365 governance and compliance
+roles:
+- administrator
+type: role-based
+products:
+- m365
+courses:
+- uid: course.ms-100t00
+- uid: course.ms-101t00
+paths:
+- uid: learn-m365.identity-and-access
+- uid: learn.security.manage-identity-and-access
+- uid: learn-m365.microsoft-365-get-modern
+- uid: learn-m365.m365-stay-current
+- uid: learn-m365.manage-enterprise-deployment-m365
+- uid: learn-m365.m365-cloud-security
+- uid: learn-m365.m365-security-threat-protection
+- uid: learn-m365.m365-security-management
+- uid: learn.security.manage-security-operations
+- uid: learn-m365.m365-messaging-secure-environment
+- uid: learn-m365.m365-compliance-information
+- uid: learn-m365.audit-safeguard-customer-data
+- uid: learn-m365.compliance-discover
+prerequisites:
+- uid: certification.modern-desktop
+  isOptional: false
+- uid: certification.m365-security-administrator
+  isOptional: false
+- uid: certification.m365-messaging-administrator
+  isOptional: false
+- uid: certification.mcse-productivity-certification
+  isOptional: false
+- uid: certification.m365-teams-administrator-associate
+  isOptional: false
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VUi7
+exams:
+- uid: exam.ms-100
+- uid: exam.ms-101
+resources:
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

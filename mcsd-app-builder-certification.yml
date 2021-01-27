@@ -1,0 +1,61 @@
+### YamlMime:Certification
+title: 'MCSD: App Builder'
+metadata:
+  title: 'MCSD: App Builder'
+  description: 'MCSD: App Builder'
+uid: certification.mcsd-app-builder-certification
+iconUrl: /media/learn/certification/badges/mcsd-badge.svg
+summary: |-
+  <div>
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  <div><strong>This certification retires on January 31, 2021. You will no longer be able to earn this certification after this date. Any certifications you earn prior to their retirement dates will continue to appear on your transcript in the <a href='https://www.microsoft.com/learning/dashboard.aspx'>Certification Dashboard</a>. You can also <a href='/learn/certifications/retired-certifications'>browse all retired certifications</a>.</strong><br/><br/></div>
+  </div>
+  
+  This certification validates that you have the skills needed to build modern mobile and/or web applications and services.
+  
+  To earn the MCSD&#58; App Builder certification, complete the following requirements&#58;
+  - Earn one prerequisite certification&#58;
+    - Prerequisite Option 1&#58; [MCSA: Web Applications](/learn/certifications/mcsa-web-applications-certification)
+    - Prerequisite Option 2&#58; [MCSA: Universal Windows Platform](/learn/certifications/mcsa-universal-windows-platform)
+  - And pass one of the elective exams&#58;
+    - [70-357: Developing Mobile Apps](/learn/certifications/exams/70-357)
+    - [70-486: Developing ASP.NET MVC Web Applications](/learn/certifications/exams/70-486)
+    - [70-487: Developing Microsoft Azure and Web Services](/learn/certifications/exams/70-487)
+subTitle: This certification validates that you have the skills needed to build modern mobile and/or web applications and services.
+levels:
+- advanced
+skills:
+- none
+roles:
+- developer
+type: mcsd
+products:
+- azure
+courses:
+- uid: course.20486
+- uid: course.20487
+exams:
+- uid: exam.70-357
+- uid: exam.70-486
+- uid: exam.70-487
+prerequisites:
+- uid: certification.mcsa-web-applications-certification
+  isOptional: false
+- uid: certification.mcsa-universal-windows-platform
+  isOptional: false
+resources:
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

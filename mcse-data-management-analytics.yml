@@ -1,0 +1,81 @@
+### YamlMime:Certification
+title: 'MCSE: Data Management and Analytics'
+metadata:
+  title: 'MCSE: Data Management and Analytics'
+  description: 'MCSE: Data Management and Analytics'
+uid: certification.mcse-data-management-analytics
+iconUrl: /media/learn/certification/badges/mcse-badge.svg
+summary: |-
+  <div>
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  <div><strong>This certification retires on January 31, 2021. You will no longer be able to earn this certification after this date. Any certifications you earn prior to their retirement dates will continue to appear on your transcript in the <a href='https://www.microsoft.com/learning/dashboard.aspx'>Certification Dashboard</a>. You can also <a href='/learn/certifications/retired-certifications'>browse all retired certifications</a>.</strong><br/><br/></div>
+  </div>
+  
+  This certification validates that you have the skills needed to run a highly efficient and modern data center, identity management, systems management, virtualization, storage, and networking.
+
+  To earn the MCSE&#58; Data Management & Analytics certification, complete the following requirements&#58;
+  - Earn one prerequisite certification&#58;
+    - Prerequisite Option 1&#58; [MCSA: SQL Server 2012/2014](/learn/certifications/mcsa-sql-certification)
+    - Prerequisite Option 2&#58; [MCSA: SQL 2016 Database Development](/learn/certifications/mcsa-sql2016-database-development-certification)
+    - Prerequisite Option 3&#58; [MCSA: SQL 2016 Database Administration](/learn/certifications/mcsa-sql2016-database-administration-certification)
+    - Prerequisite Option 4&#58; [MCSA: SQL 2016 BI Development](/learn/certifications/mcsa-sql2016-business-intelligence-certification)
+    - Prerequisite Option 5&#58; [MCSA: BI Reporting](/learn/certifications/mcsa-bi-reporting)
+  - And pass one of the elective exams&#58;
+    - [70-464: Developing Microsoft SQL Server Databases](/learn/certifications/exams/70-464)
+    - [70-465: Designing Database Solutions for Microsoft SQL Server](/learn/certifications/exams/70-465)
+    - [70-466: Implementing Data Models and Reports with Microsoft SQL Server](/learn/certifications/exams/70-466)
+    - [70-467: Designing Business Intelligence Solutions with Microsoft SQL Server](/learn/certifications/exams/70-467)
+    - [70-762: Developing SQL Databases](/learn/certifications/exams/70-762)
+    - [70-767: Implementing a Data Warehouse using SQL](/learn/certifications/exams/70-767)
+    - [70-768: Developing SQL Data Models](/learn/certifications/exams/70-768)
+    - [70-777: Implementing Microsoft Azure Cosmos DB Solutions](/learn/certifications/exams/70-777)
+subTitle: Demonstrate your broad skill sets in SQL administration, building enterprise-scale data solutions, and leveraging business intelligence data - both on-premises and in cloud environments.
+levels:
+- intermediate
+skills:
+- none
+roles:
+- database-administrator
+type: mcse
+products:
+- sql-server
+courses:
+- uid: course.20464
+- uid: course.20465
+- uid: course.20466
+- uid: course.20467
+- uid: course.20762
+- uid: course.20767
+- uid: course.20768
+- uid: course.20777
+exams:
+- uid: exam.70-464
+- uid: exam.70-465
+- uid: exam.70-466
+prerequisites:
+- uid: certification.mcsa-sql-certification
+  isOptional: false
+- uid: certification.mcsa-sql2016-database-development-certification
+  isOptional: false
+- uid: certification.mcsa-sql2016-database-administration-certification
+  isOptional: false
+- uid: certification.mcsa-sql2016-business-intelligence-certification
+  isOptional: false  
+- uid: certification.mcsa-bi-reporting
+  isOptional: false
+resources:
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

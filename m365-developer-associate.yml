@@ -1,0 +1,55 @@
+### YamlMime:Certification
+title: 'Microsoft 365 Certified: Developer Associate'
+metadata:
+  title: 'Microsoft 365 Certified: Developer Associate'
+  description: Microsoft 365 Developers design, build, test, and maintain applications and solutions that are optimized for the productivity and collaboration needs of organizations using the Microsoft 365 platform.
+uid: certification.m365-developer-associate
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div style='color&#58; red;'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong><br/><br/></div>
+  
+  Microsoft 365 Developers design, build, test, and maintain applications and solutions that are optimized for the productivity and collaboration needs of organizations using the Microsoft 365 platform.
+  
+  Microsoft 365 Developers are proficient in the Microsoft identity and Microsoft Graph. They have general knowledge on UI elements (including Adaptive Cards and UI Fabric), Integration Points (including Microsoft Teams, Office Add-ins, SharePoint Framework, Actionable Messages), and determining workload platform targets.
+subTitle: Microsoft 365 Developers design, build, test, and maintain applications and solutions that are optimized for the productivity and collaboration needs of organizations using the Microsoft 365 platform.
+levels:
+- intermediate
+skills:
+- Implement Microsoft Identity
+- Build Apps with Microsoft Graph
+- Extend and Customize SharePoint
+- Extend Teams
+- Extend Office
+roles:
+- developer
+type: role-based
+products:
+- m365
+courses:
+- uid: course.ms-600t00
+paths:
+- uid: learn-m365.m365-extend-fundamental
+- uid: learn-m365.msgraph-associate
+- uid: learn-m365.identity-associate
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE43VcG
+exams:
+- uid: exam.ms-600
+resources:
+- title: Certification learning path
+  description: 'Discover training resources to become a Microsoft Certified: Developer Associate.'
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4561r
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

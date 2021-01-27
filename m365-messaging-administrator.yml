@@ -1,0 +1,49 @@
+### YamlMime:Certification
+title: 'Microsoft 365 Certified: Messaging Administrator Associate'
+metadata:
+  title: 'Microsoft 365 Certified: Messaging Administrator Associate'
+  description: 'Microsoft 365 Messaging Administrators deploy, configure, manage, troubleshoot, and monitor recipients, permissions, mail protection, mail flow, and public folders in hybrid and cloud enterprise environments.'
+uid: certification.m365-messaging-administrator
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  Microsoft 365 Messaging Administrators deploy, configure, manage, troubleshoot, and monitor recipients, permissions, mail protection, mail flow, and public folders in hybrid and cloud enterprise environments.
+subTitle: Microsoft 365 Messaging Administrators deploy, configure, manage, troubleshoot, and monitor recipients, permissions, mail protection, mail flow, and public folders in hybrid and cloud enterprise environments.
+levels:
+- intermediate
+skills:
+- Manage organizational settings and resources
+- Plan and manage the mail architecture
+- Plan and implement a hybrid configuration and migration
+- Secure the messaging environment
+roles:
+- administrator
+type: role-based
+products:
+- m365
+paths:
+- uid: learn-m365.m365-messaging-hybrid-migration
+- uid: learn-m365.m365-messaging-architecture
+- uid: learn-m365.m365-messaging-secure-environment
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VEHd
+courses:
+- uid: course.ms-203t00
+exams:
+- uid: exam.ms-203
+resources:
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx
