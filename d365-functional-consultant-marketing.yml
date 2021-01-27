@@ -1,0 +1,83 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Dynamics 365 Marketing Functional Consultant Associate'
+metadata:
+  title: 'Microsoft Certified: Dynamics 365 Marketing Functional Consultant Associate'
+  description: 'Microsoft Dynamics 365 Marketing Functional Consultants implement solutions that attract and convert leads, build brand awareness, standardize omnichannel messaging, and deliver marketing insights.'
+uid: certification.d365-functional-consultant-marketing
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div>
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  <div><strong>EXAM <a href="/learn/certifications/exams/mb-200">MB-200</a> IS BEING REPLACED WITH A NEW EXAM, <a href="/learn/certifications/exams/pl-200">PL-200</a>. You will be able to earn this certification by passing MB-200 or PL-200, plus MB-220, until MB-200 retires on December 31, 2020. After MB-200 retires, passing PL-200 and MB-220 will be required to earn this certification. Note: Exams retire at 11:59 PM Central Standard Time.</strong><br/><br/></div></div>
+  
+  Microsoft Dynamics 365 Marketing Functional Consultants implement solutions that attract and convert leads, build brand awareness, standardize omnichannel messaging, and deliver marketing insights.
+subTitle: Microsoft Dynamics 365 Marketing Functional Consultants implement solutions that attract and convert leads, build brand awareness, standardize omnichannel messaging, and deliver marketing insights.
+levels:
+- intermediate
+skills:
+- Configure the Common Data Service 
+- Create apps by using Power Apps 
+- Create and manage Power Automate 
+- Implement Power Virtual Agents chatbots 
+- Integrate Power Apps with other apps and services
+- Configure marketing applications
+- Manage segments and lists 
+- Create and manage marketing forms and pages 
+- Manage leads, contacts, and accounts 
+- Create and manage marketing emails 
+- Manage customer journeys 
+- Manage events and webinars 
+- Configure Dynamics 365 Customer Voice
+roles:
+- functional-consultant
+type: role-based
+products:
+- dynamics-365
+- dynamics-marketing
+courses:
+- uid: course.pl-200t00
+- uid: course.mb-220t00
+paths:
+- uid: learn-dynamics.get-started-using-common-data-service
+- uid: learn-dynamics.manage-permissions-and-administration-for-common-data-service
+- uid: learn-bizapps.create-powerapps
+- uid: learn-bizapps.create-app-models-business-processes
+- uid: learn-bizapps.create-business-process-flow
+- uid: learn-bizapps.automate-process-using-flow
+- uid: learn-bizapps.get-started-power-automate-buttons
+- uid: learn-bizapps.best-practices-environments
+- uid: learn-bizapps.create-use-analytics-reports-power-bi
+- uid: learn-dynamics.create-relationships-business-rules-calculations-and-rollups-in-common-data-service
+- uid: learn-bizapps.work-power-virtual-agents
+- uid: learn-bizapps.bring-ai
+- uid: learn-bizapps.improve-business-performance-ai-builder
+- uid: learn-dynamics.set-up-dynamics-365-marketing
+- uid: learn-dynamics.work-core-features-marketing
+- uid: learn-dynamics.manage-events-dynamics-marketing
+- uid: learn-dynamics.analyze-marketing-insights
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VUj1
+exams:
+- uid: exam.pl-200
+- uid: exam.mb-220
+resources:
+- title: Certification poster
+  description: Check out an overview including fundamentals, role-based and specialty certifications for Dynamics 365 and Power Platform.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CcQL
+- title: Journey to certification
+  description: Explore steps to get certified and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C55m
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification learning path
+  description: Recommended training resources to help you prepare for required exams and earn your certification.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CfjW
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md

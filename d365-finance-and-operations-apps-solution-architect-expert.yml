@@ -1,0 +1,75 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Dynamics 365: Finance and Operations Apps Solution Architect Expert'
+metadata:
+  title: 'Microsoft Certified: Dynamics 365: Finance and Operations Apps Solution Architect Expert'
+  description: Solution Architects for Finance and Operations apps in Microsoft Dynamics 365 are trusted advisors who understand business recommended practices and software capabilities. They lead team members to implement Dynamics solutions that can achieve the predefined implementation goals.
+uid: certification.d365-finance-and-operations-apps-solution-architect-expert
+iconUrl: /media/learn/certification/badges/microsoft-certified-expert-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  Are you a solution architect, functional or technical consultant, IT professional, or information worker who is familiar with Microsoft Dynamics 365 apps and Microsoft Power Platform? Do you have a deep understanding of Dynamics 365 finance and operations apps? Are you a trusted advisor who understands recommended business practices and software capabilities? If so, earning this expert certification can open doors that could take your career to the next level.
+  
+  As a candidate for this certification, you’re a Dynamics 365 professional who advises stakeholders and translates business requirements into secure, scalable, and reliable solutions. You design cohesive solutions for your customers because you know how to work with the essential architectural components of Dynamics 365 finance and operations apps. You have extensive domain knowledge in one or more industry verticals. Plus, you understand how decisions in each area affect the overall solution. In addition, you’re familiar with platforms, tools, and functional areas, such as finance, supply chain management, and manufacturing.
+  
+  The Dynamics 365: Finance and Operations Apps Solution Architect Expert certification is a good fit for you if:
+  - You have significant experience as a Dynamics 365 finance and operations apps functional consultant or technical consultant. 
+  - You aspire to be a solution architect or recently started that career journey. 
+  - You’re responsible for the successful design, implementation, deployment, and adoption of an overall technology solution in your organization.
+  - You have experience consulting with organizations and implementation team members to refine business needs into well-defined and cost-effective solutions.
+  
+  If you need more experience before you try to earn this certification, here are some suggestions:
+  - Shadow a solution architect or work as one on a few projects. 
+  - Volunteer to design and implement a finance and operations app solution. 
+  - Attend solution architecture workshops with other solution architects.
+subTitle: Solution Architects for Finance and Operations apps in Microsoft Dynamics 365 are trusted advisors who understand business recommended practices and software capabilities. They lead team members to implement Dynamics solutions that can achieve the predefined implementation goals.
+levels:
+- advanced
+skills:
+- Identify solution requirements
+- Design solution components
+- Define solution testing and management strategies
+roles:
+- functional-consultant
+- solution-architect
+type: role-based
+products:
+- dynamics-365
+courses:
+- uid: course.mb-700t00
+paths:
+- uid: learn-dynamics.become-solution-architect
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE44g0Q
+exams:
+- uid: exam.mb-700
+prerequisites:
+- uid: certification.d365-functional-consultant-financials
+  isOptional: false
+- uid: certification.d365-functional-consultant-manufacturing
+  isOptional: false
+- uid: certification.d365-functional-consultant-supply-chain-management
+  isOptional: false
+- uid: certification.d365-finance-and-operations-apps-developer-associate
+  isOptional: false
+resources:
+- title: Certification poster
+  description: Check out an overview including fundamentals, role-based and specialty certifications for Dynamics 365 and Power Platform.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CcQL
+- title: Journey to certification
+  description: Explore steps to get certified and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CcRK
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification learning path
+  description: Recommended training resources to help you prepare for required exams and earn your certification.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Gm
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
