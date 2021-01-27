@@ -1,0 +1,273 @@
+### YamlMime:Course
+title: Administering the Web Server (IIS) Role of Windows Server
+metadata:
+  title: 'Course 10972-B: Administering the Web Server (IIS) Role of Windows Server'
+  description: 'Course 10972-B: Administering the Web Server (IIS) Role of Windows Server'
+uid: course.10972
+courseNumber: '10972-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Install IIS
+- skill: Configure the default web site
+- skill: Configure and manage application pools
+- skill: Create additional web sites
+- skill: Configure web sites and application support
+- skill: Secure web sites and applications
+- skill: Secure web site data transmission
+- skill: Manage certificates in the Centralized Certificate Store
+- skill: Configure remote administration
+- skill: Implement FTP
+- skill: Monitor IIS
+- skill: Backup and restore IIS
+- skill: Build load-balanced web farms
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+summary: |-
+  This course provides students with the fundamental knowledge and skills to configure and manage Internet Information Services. This course is intended to help provide pre-requisite skills supporting a broad range of Internet web applications, security, and knowledge to help support other products that use IIS such as Exchange and SharePoint. In keeping with that goal, this course will not focus on any particular web application or development practice.
+
+  #### Audience profile
+  This course is intended for IT Professionals already experienced in general Windows Server and Windows Client administration. No prior experience with any version of Internet Information Services is assumed.
+prerequisitesSection: |-
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - Experience with Windows networking technologies and implementation.
+  - Experience with Windows Server administration, maintenance, and troubleshooting.
+  - Experience with Windows Client administration, maintenance, and troubleshooting.
+outlineSection: |-
+  ### Module 1&#58; Understanding and Installing Internet Information Services
+  In this module, you will learn about the infrastructure prerequisites for using Microsoft Internet Information Services (IIS) 8.5. Students will also learn about the high-level architecture of IIS, and will learn to perform a basic installation and configuration of IIS.
+  #### Lessons
+  - Understanding a Web Server infrastructure
+  - Installing Internet Information Services
+
+
+  #### Lab &#58; Installing Internet Information Services
+
+  After completing this module, students will be able to&#58;
+  - Describe the prerequisites for using IIS.
+  - Describe the architecture of IIS.
+  - Install IIS and configure basic security settings.
+
+
+  ### Module 2&#58; Configuring The Default Website
+  In this module students will learn to plan and implement network requirements for a public website. Students will configure Domain Name Service (DNS) records to support access to both internal and public websites, and create virtual directories and application folders for additional website content.
+  #### Lessons
+  - Examining the Default Website Using IIS Manager
+  - Examining the Default IIS File Structure
+  - Configuring DNS Records for a Website
+  - Creating Folders, Virtual Directories, and Applications
+
+
+  #### Lab &#58; Configuring the Default Website for Public Access
+
+  #### Lab &#58; Creating Virtual Directories and Applications
+
+  After completing this module, students will be able to&#58;
+  - Plan and configure the DNS records and networking requirements that support website access.
+  - Describe the default Microsoft Internet Information Services (IIS) folder structure for a website.
+  - Create a webpage that verifies website functionality.
+  - Install additional role services that support a web application.
+  - Create folders, virtual directories, and applications that can contain additional website content.
+
+
+  ### Module 3&#58; Configuring and Managing Application Pools
+  In this module students will learn the benefits to the application pool architecture. Students will create and configure application pools to support additional applications and configure application pool recycle settings. Students will perform recycle events and examine the event logs for recycle events.
+  #### Lessons
+  - Defining the Application Pool Architecture
+  - Creating and Managing Application Pools
+  - Configuring Application Pool Recycling
+
+
+  #### Lab &#58; Configuring and Managing Application Pools
+
+  #### Lab &#58; Configuring Application Pool Recycling
+
+  After completing this module, students will be able to&#58;
+  - Describe the benefits of the application pool architecture.
+  - Configure application pools to support web applications.
+  - Configure application pool recycling.
+  - Recycle application pools.
+  - Monitor application pool recycling by using event logs.
+
+
+  ### Module 4&#58; Creating Additional Websites
+  In this module students will learn how to examine and create new websites using unique bindings to avoid naming conflicts. Students will examine existing sites to determine and resolve binding conflicts then create new websites by using unique bindings.
+  #### Lessons
+  - Understanding Configurations for Multiple Websites
+  - Configuring Website Bindings
+  - Creating and Starting Websites
+
+
+  #### Lab &#58; Examining Existing Websites for Binding Conflicts
+
+  #### Lab &#58; Creating New Websites
+
+  After completing this module, students will be able to&#58;
+  - Describe the basic configuration of a server that hosts multiple websites.
+  - Configure website bindings.
+  - Create and configure new websites.
+
+
+  ### Module 5&#58; Configuring Website and Web Application Support
+  In this module students will learn to support additional application requirements including common configuration settings, platform support from the built-in web server, and include additional application support by using the Web Platform Installer.
+  #### Lessons
+  - Configuring Common Features
+  - Configuring Support for Web Applications
+
+
+  #### Lab &#58; Configuring Common Features
+
+  #### Lab &#58; Configuring Support for Web Applications
+
+  After completing this module, students will be able to&#58;
+  - Describe and configure common IIS features.
+  - Add support for web applications.
+
+
+  ### Module 6&#58; Securing Websites and Applications
+  In this module students will learn to secure internal and public websites for users and groups by using the built-in Windows and Basic authentication. Students will configure file system permissions for specific users and groups and secure a website using URL Authorization Rules.
+  #### Lessons
+  - Understanding IIS Authentication and Authorization
+  - Configuring Authentication and Authorization
+  - Configuring URL Authorization Rules
+
+
+  #### Lab &#58; Configuring Authentication and Access
+
+  #### Lab &#58; Configuring URL Authorization Rules
+
+  After completing this module, students will be able to&#58;
+  - Describe access control methods that are used in IIS.
+  - Configure authentication and authorization.
+  - Configure URL authorization rules.
+
+
+  ### Module 7&#58; Securing Website Data Transmission
+  In this module students will protect customer data using websites configured for SSL. Students will install and configure PKI certificates on a web server, create secured bindings, and verify that a website data transmissions are secured.
+  #### Lessons
+  - Understanding Certificates and SSL
+  - Creating and Managing Web Server Certificates
+  - Configuring HTTPS Bindings
+
+
+  #### Lab &#58; Creating and Managing Web Server Certificates
+
+  #### Lab &#58; Adding a Certificate to a Website
+
+  After completing this module, students will be able to&#58;
+  - Describe the benefits and function of digital certificates and Secure Sockets Layer (SSL).
+  - Create SSL certificates for a web server.
+  - Configure HTTPS bindings that use certificates.
+
+
+  ### Module 8&#58; Managing Certificates in the Centralized Certificate Store
+  In this module students will install and configure the IIS 8.5 Central Certificate Store to enable centralized and improved certificate management, Students will configure a website to use a secured binding with the Central Certificate Store.
+  #### Lessons
+  - Understanding the Centralized Certificate Store
+  - Installing and Configuring the Centralized Certificate Store
+
+
+  #### Lab &#58; Installing and Configuring the Centralized Certificate Store
+
+  After completing this module, students will be able to&#58;
+  - Explain the purpose of the Centralized Certificate Store
+  - Install and configure the Centralized Certificate Store
+
+
+  ### Module 9&#58; Configuring Remote Administration
+  In this module students will configure secured remote management of web servers and websites. Create and configure permissions for site level administrators and developers, and verify web server and website management.
+  #### Lessons
+  - Installing and Configuring the Management Service
+  - Connecting to Remote Web Servers and Websites
+  - Delegating Management Permissions
+
+
+  #### Lab &#58; Installing and Configuring the Management Service
+
+  #### Lab &#58; Connecting to Remote Web Servers and Websites
+
+  #### Lab &#58; Delegating Management Permissions
+
+  After completing this module, students will be able to&#58;
+  - Install and configure the IIS management service.
+  - Connect to remote web servers and websites.
+  - Delegate management permissions.
+
+
+  ### Module 10&#58; Implementing FTP
+  In this module students will learn configure a secured FTP site for users to store and retrieve files. Student will configure authentication, authorization and the FTP storage location. Students will retrieve and files using the native Windows FTP command.
+  #### Lessons
+  - Planning for FTP
+  - Implementing an FTP site
+  - Uploading and Downloading by Using FTP
+
+
+  #### Lab &#58; Installing and Configuring an FTP Site
+
+  After completing this module, students will be able to&#58;
+  - Describe the architecture and requirements of FTP.
+  - Implement anonymous and authenticated FTP sites.
+  - Upload and download files by using FTP.
+
+
+  ### Module 11&#58; Monitoring IIS
+  In this module students will learn to monitor IIS log files and performance counters using Log Parser and PerfMon. Students will identify common issues related to performance and attacks recorded in the log files.
+  #### Lessons
+  - Monitoring IIS Logs
+  - Analyzing Performance Counters
+
+
+  #### Lab &#58; Monitoring IIS Logs
+
+  #### Lab &#58; Analyzing Performance Counters
+
+  After completing this module, students will be able to&#58;
+  - Monitor IIS log files.
+  - Analyze IIS performance counters.
+
+
+  ### Module 12&#58; Backing Up and Restoring IIS
+  In this module students will learn to backup and recover form a website or web server failure. Students will learn the importance of using high available techniques to avoid the recovery process.
+  #### Lessons
+  - Understanding IIS Backup and Recovery Components
+  - Backing Up and Recovering a Website
+
+
+  #### Lab &#58; Backing Up and Recovering Configuration History
+
+  After completing this module, students will be able to&#58;
+  - Explain the components of IIS backup and recovery.
+  - Back up and recover a website.
+
+
+  ### Module 13&#58; Building Load-Balanced Web Farms
+  In this module students will learn to increase reliability and performance of website by creating a web farm. Students will improve the management and update capabilities of the websites by using shared content in both a network share and DFS-R. Student will improve web server and website management by using Shared Configurations.
+  #### Lessons
+  - Understanding Load-Balancing Mechanisms
+  - Building a Load-Balanced Web Farm by Using ARR
+  - Sharing Content in a Web Farm by Using Shared Folders
+  - Sharing Content in a Web Farm by Using DFS-R
+  - Sharing IIS Configurations in a Web Farm
+
+
+  #### Lab &#58; Building a Load-Balanced Web Farm by Using ARR
+
+  #### Lab &#58; Sharing Content in a Web Farm by Using Shared Folders
+
+  #### Lab &#58; Sharing Web Farm Content by Using DFS-R
+
+  #### Lab &#58; Sharing IIS Configurations in a Web Farm
+
+  After completing this module, students will be able to&#58;
+  - List load-balancing mechanisms that can be used in a web farm.
+  - Plan and deploy a load-balanced web farm that uses ARR.
+  - Centralize the content for a web farm by using shared folders.
+  - Centralize the content for a web farm by using Distributed File System-Replication (DFS-R).
+  - Centralize the configuration of a web farm.

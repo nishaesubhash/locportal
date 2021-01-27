@@ -1,0 +1,263 @@
+### YamlMime:Course
+title: Analyzing Data with SQL Server Reporting Services
+metadata:
+  title: 'Course 10990-C: Analyzing Data with SQL Server Reporting Services'
+  description: 'Course 10990-C: Analyzing Data with SQL Server Reporting Services'
+uid: course.10990
+courseNumber: '10990-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe reporting services and it’s components
+- skill: Describe reporting services data sources
+- skill: Implement paginated reports
+- skill: Work with reporting services data
+- skill: Visualize data with reporting services
+- skill: Aggregate report data
+- skill: Share reporting services reports
+- skill: Administer reporting services
+- skill: Expand and integrate reporting services
+- skill: Describe mobile reports
+- skill: Develop mobile reports.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- data-engineer
+products:
+- sql-server
+summary: |-
+  This five-day instructor-led course teaches students how to implement a SQL Server 2016 Reporting Services solution for data analysis in an organization. The course discusses how to use the Reporting Services development tools to create and manage reports and implement self-service BI solutions.
+
+  #### Audience profile
+  The primary audience for this course is database professionals who need to fulfil a BI developer role to create reports. Primary responsibilities will include implementing reports and mobile reports.
+  
+  The secondary audiences for this course are power information workers.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Basic knowledge of the Microsoft Windows operating system and its core functionality.
+  - Working knowledge of Transact-SQL, such as that taught in 20761C.
+outlineSection: |-
+  ### Module 1&#58; Introduction to Reporting Services
+  This module introduces Microsoft SQL Server Reporting Services, its components, and the tools used to work with it.
+
+  #### Lessons
+  - Introduction to reporting services
+  - Reporting services components
+  - Reporting services tools
+
+
+  #### Lab &#58; Exploring reporting services
+  - Exploring reports
+  - Reporting services configuration
+
+  After completing this module, students will be able to&#58;
+  - Give a context for Reporting Services.
+  - Describe the components of Reporting Services.
+  - Explain Reporting Services tools.
+
+
+  ### Module 2&#58; Reporting Services Data Sources
+  Almost every report that you publish by using SQL Server Reporting Services (SSRS) will be built using data that’s obtained from one or more source systems. This lesson explains how to configure SSRS to interact with source data systems by working with data sources.
+
+  #### Lessons
+  - Data sources
+  - Connection strings
+  - Datasets
+
+
+  #### Lab &#58; Configuring data access with report builder
+  - Configuring data access with report builder
+
+
+  #### Lab &#58; Configuring data access with report designer
+  - Configuring data access with report designer
+
+  After completing this module, you will be able to&#58;
+  - Describe data sources.
+  - Work with connection strings.
+  - Describe datasets.
+
+
+  ### Module 3&#58; Creating Paginated Reports
+  Now that you have learned about BI and data modelling, and how to access data from Report Designer and Report Builder, you need to learn how to create reports. This module shows you how to create different types of reports in both applications, in addition to using the Report Wizard.
+
+  #### Lessons
+  - Creating a report with the report wizard
+  - Creating a report
+  - Publishing a report
+
+
+  #### Lab &#58; Creating reports
+  - Use the report wizard – report designer
+  - Use the report wizard – report builder
+  - Creating and publishing a report – report designer
+  - Creating and publishing a report – report builder
+
+  After completing this module, you will be able to&#58;
+  - Create a report with the report wizard.
+  - Create a report using report builder or report designer.
+  - Publish a report to reporting services.
+
+
+  ### Module 4&#58; Working with Reporting Services Data
+  It is common for business requirements to change regarding the information they need and how they want data presented. On viewing a detailed report, senior management might ask for higher level, summarized, or filtered versions of the same report.
+
+  Report Builder and Report Designer support these scenarios via filtering, sorting, drilldowns, grouping and the parameterizing of reports.
+
+  In this module, you will see how to use filters and parameters to make reports more dynamic and useful to business users.
+
+
+  #### Lessons
+  - Data filters
+  - Report parameters
+  - Implementing report filters and parameters
+
+
+  #### Lab &#58; Create a parameterized report
+  - Using parameters in report designer
+  - Using parameters in report builder
+
+  After completing this module, students will be able to&#58;
+  - Filter data in reports
+  - Use parameters in reports
+
+
+  ### Module 5&#58; Visualizing Data with Report Services
+  As the amount of data being generated continues to grow, the need to make sense of its meaning increases. You use data visualization to make data easier to understand, and faster to interpret.
+
+  Data visualizations highlight comparisons, show trends, and convey scale much faster than a table of numbers could. The detail is important, but visualizations are a highly effective way of conveying meaning and insights quickly and accurately.
+
+
+  #### Lessons
+  - Formatting data
+  - Images and charts
+  - Databars, sparklines, indicators, gauges, and maps
+
+
+  #### Lab &#58; Manage formatting
+  - Report designer
+  - Report builder
+
+  After completing this module, you will be able to&#58;
+  - Format data in reports.
+  - Use images and charts in your reports.
+  - Use databars, sparklines, and indicators in reports.
+  - Explain what a KPI is and how it’s used.
+
+
+  ### Module 6&#58; Summarizing Report Data
+  As the amount of data we need to deal with increases, so does the requirement to manage data by grouping and summarizing. In this module, you will learn how to create group structures, summarize data, and provide interactivity in your reports, so that users see the level of detail or summary that they need.
+  #### Lessons
+  - Sorting and grouping
+  - Report sub-reports
+  - Drilldown and drill through
+
+
+  #### Lab &#58; Summarizing report data
+  - Sorting and grouping in report builder
+  - Sorting and grouping in report designer
+
+  After completing this module, students will be able to&#58;
+  - Group and sort data in reports.
+  - Create report sub-sections.
+  - Use drill down and drill through.
+
+
+  ### Module 7&#58; Sharing Reporting Services Reports
+  When you have published a Reporting Services report, users can view the report interactively. In some situations, it can be advantageous to run reports automatically, either to improve performance through caching and snapshots, or to deliver reports to users—by using e-mail or other mechanisms. To run reports automatically, you need to understand how Reporting Services manages scheduling.
+  This module covers report scheduling, caching and the report life cycle, and automatic subscription and delivery of reports.
+
+  #### Lessons
+  - Schedules
+  - Report caching, snapshots, and comments
+  - Report subscription and delivery
+
+
+  #### Lab &#58; Sharing reporting services reports
+  - Create a shared schedule
+  - Configure caching
+  - Subscribe to a report
+
+  After completing this module, students will be able to&#58;
+  - Explain schedules.
+  - Describe report caching, report snapshots, and report comments.
+  - Configure report subscriptions.
+
+
+  ### Module 8&#58; Administering Reporting Services
+  System administrators take responsibility for the configuration and day-to-day operations of IT systems. In SQL Server Reporting Services (SSRS), administrative tasks include the configuration of the web portal and web service, branding the web portal, and ensuring that access to sensitive reports is carefully controlled. Administrators also monitor and optimize performance.
+  #### Lessons
+  - Administering reporting services
+  - Reporting services configuration
+  - Reporting services performance
+
+
+  #### Lab &#58; Administering reporting services
+  - Authorize access to reports
+  - Web portal branding
+
+  After completing this module, students will be able to&#58;
+  - Secure access to reports by using authentication, permissions, and SSL encryption.
+  - Use report services configuration manager to reconfigure SSRS servers.
+  - Monitor and optimize the performance of SSRS on a given set of server hardware.
+
+
+  ### Module 9&#58; Extending and Integrating Reporting Services
+  Although Reporting Services is a powerful tool, its built-in capabilities might not always meet your needs. This module covers the methods for extending the functionality of Reporting Services with expressions and custom code. You will also learn about the methods for working with Reporting Services programmatically, and integrating Reporting Services reports into other applications.
+
+
+  #### Lessons
+  - Expressions and embedded code
+  - Extending reporting services
+  - Integrating reporting services
+
+
+  #### Lab &#58; Extending and integrating reporting services
+  - Custom code – report designer
+  - Custom code – report builder
+  - URL access
+
+  After completing this module, students will be able to&#58;
+  - Work with expressions and embedded code.
+  - Extend reporting services functionality with external assemblies.
+  - Integrate reporting services with other software.
+
+
+  ### Module 10&#58; Introduction to Mobile Reports
+  This module introduces the design and publication of reports that are intended for consumption on mobile devices, such as smartphones and tablets. Microsoft SQL Server Reporting Services (SSRS) includes support for mobile reports, although the tools that are used to design and publish mobile reports are different to the tools used for the paginated reports discussed in the earlier modules of this course.
+  #### Lessons
+  - Overview of mobile reports
+  - Preparing data for mobile reports
+  - Mobile report publisher
+
+
+  #### Lab &#58; Introduction to mobile reports
+  - Format data for a mobile report
+  - Create a mobile report
+  - Create KPIs
+
+  After completing this module, students will be able to&#58;
+  - Describe considerations for mobile reports.
+  - Prepare data for publication in mobile reports.
+  - Use SQL Server mobile report publisher to create mobile reports.
+
+
+  ### Module 11&#58; Developing Mobile Reports
+  In this module, you will learn about the element types that you can add to your Microsoft SQL Server Reporting Services mobile reports. You will also learn about working with dataset parameters, and how to add drillthrough actions to your reports.
+  #### Lessons
+  - Designing and publishing mobile reports
+  - Drillthrough in mobile reports
+
+
+  #### Lab &#58; Developing mobile reports
+  - Add a dataset with parameters
+  - Design a mobile report
+  - Publish a mobile report
+  - Add a drillthrough to a custom URL
+
+  After completing this module, students will be able to&#58;
+  - Describe how to design and publish mobile reports.
+  - Explain how to drillthrough from mobile reports.

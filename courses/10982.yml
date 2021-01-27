@@ -1,0 +1,298 @@
+### YamlMime:Course
+title: Supporting and Troubleshooting Windows 10
+metadata:
+  title: 'Course 10982-D: Supporting and Troubleshooting Windows 10'
+  description: 'Course 10982-D: Supporting and Troubleshooting Windows 10'
+uid: course.10982
+courseNumber: '10982-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the processes involved in planning and using a troubleshooting methodology for Windows 10.
+- skill: Troubleshoot startup issues and operating system services on a Windows 10 PC.
+- skill: Perform system recovery.
+- skill: Resolve issues related to hardware devices and device drivers.
+- skill: Administer Windows 10 devices.
+- skill: Troubleshoot issues related to network connectivity.
+- skill: Configure Windows 10 devices using group policies.
+- skill: Configure user settings.
+- skill: Implement remote connectivity.
+- skill: Configure and troubleshoot resource access.
+- skill: Deploy and troubleshoot applications.
+- skill: Maintain Windows 10 devices.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows
+summary: |-
+  This is a 5-day ILT course that is designed to provide students with the knowledge and skills required to support and troubleshoot Windows 10 PCs and devices in a Windows Server domain environment. These skills include understanding of Windows 10 features, how they can be used in an Active Directory environment and how to troubleshoot them.
+
+  #### Audience profile
+  The primary audience for this course is the Enterprise Desktop Support Technician (EDST), who provides Tier 2 support to users running Windows 10 personal computers (PCs) and devices in medium to large enterprise organizations, within a Windows domain environment. EDSTs focus on a broad range of technical issues for Windows operating systems (OSs), devices, cloud services, applications, networking, and hardware support. In the overarching scenario, if an enterprise offers the service, the EDST is asked to support it.
+  
+  The key responsibilities include resolving technical issues pertaining to Windows 10 installation and migration, activation, performance, profiles, settings; and device synchronization. Some other key responsibilities include local and remote network access; access to applications, access to data and printers; authentication, Endpoint security and policy; OS and data recovery.
+  
+  The secondary audience for this course are IT professionals who administer and support Windows 10 desktops, devices, users, and associated network and security resources. Students who seek certification in the following exams will also benefit from this course&#58;
+  - 70-697&#58; Configuring Windows Devices
+  - 70-698&#58; Installing and Configuring Windows 10
+prerequisitesSection: |-
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - Networking fundamentals, including Transmission Control Protocol/Internet Protocol (TCP/IP), User Datagram Protocol (UDP), and Domain Name System (DNS).
+  - Microsoft Active Directory Domain Services (AD DS) principles.
+  - Understanding of the Public Key Infrastructure (PKI) components.
+  - Windows Server 2016 fundamentals.
+  - Microsoft Windows Client essentials; for example, experience with Windows 10 or knowledge from the courses 20697-1 and 20697-2.
+outlineSection: |-
+  ### Module 1&#58; Implementing a Troubleshooting Methodology
+  This module introduces the new Windows 10 operating system features and devices; it also describes the process of developing and applying a Windows 10 troubleshooting methodology.
+  #### Lessons
+  - Overview of Windows 10
+  - Introduction to the EDST Job Role
+  - Overview of Troubleshooting Steps
+  - Troubleshooting Tools
+
+
+  #### Lab &#58; Using Troubleshooting Tools
+  - Using Troubleshooting Tools
+
+  After completing this module, you will be able to&#58;
+  - Describe the Windows 10 operating system, devices it supports, and the Windows 10 architecture.
+  - Describe the Enterprise Desktop Support Technician (EDST) job role in a Windows 10 environment.
+  - Explain the troubleshooting methodology for Windows 10.
+  - Describe Windows 10 troubleshooting tools.
+
+
+  ### Module 2&#58; Troubleshooting Startup Issues
+  This module describes how to identify and troubleshoot startup issues that affect - and problematic services that run on - a Windows 10 operating system. This module introduces potential problems that can cause startup issues in Windows 10. It also provides an overview of the Windows startup process, including the Windows Recovery Environment (Windows RE) and Boot Configuration Data (BCD).
+  #### Lessons
+  - Overview of the Windows 10 Startup Recovery Environment
+  - Troubleshooting Startup Settings
+  - Recovering BitLocker-Protected Drives
+  - Configuring the Registry
+
+
+  #### Lab &#58; Troubleshooting Startup Issues
+  - Exploring Windows RE
+  - Resolving a Startup Issue
+
+
+  #### Lab &#58; Recovering BitLocker-Encrypted Drives
+  - Recovering a BitLocker-Encrypted Drive
+  - Creating a New BitLocker Password
+
+  After completing this module, you will be able to&#58;
+  - Describe the Windows 10 startup recovery environment.
+  - Describe how to configure the registry.
+  - Explain how to troubleshoot startup settings.
+  - Recover drives encrypted with Windows BitLocker Drive Encryption.
+
+
+  ### Module 3&#58; Performing System Recovery
+  This module describes how to resolve issues related to operating system services and how to recover a computer.
+  #### Lessons
+  - Troubleshooting Operating System Service Issues
+  - Recovering a Computer
+
+
+  #### Lab &#58; Performing System Recovery
+  - Preparing for System Recovery
+  - Recovering a computer
+
+  After completing this module, you will be able to&#58;
+  - Troubleshoot operating system services.
+  - Recover a computer that is running Windows 10.
+
+
+  ### Module 4&#58; Troubleshooting Hardware and Device Drivers
+  This module explains how to resolve issues related to device drivers and hardware devices.
+  #### Lessons
+  - Troubleshooting Device Drivers Failures
+  - Overview of Hardware Troubleshooting
+
+
+  #### Lab &#58; Troubleshooting Hardware and Device Driver Issues
+  - Troubleshooting a Missing Device Driver
+  - Resolving Hardware Problems
+  - Resolving Device Driver Problems
+
+  After completing this module, you will be able to&#58;
+  - Troubleshoot device driver failures.
+  - Describe the process of troubleshooting hardware.
+
+
+  ### Module 5&#58; Administering Windows 10
+  This module describes how to use the various administration tools in Windows 10 to resolve issues. It describes the features and functionalities of tools such as Windows Admin Center, Remote Desktop, Quick Assist, and Windows PowerShell.
+  #### Lessons
+  - Overview of Administration Tools
+  - Using Remote Desktop
+  - Introduction to Windows PowerShell
+  - Remoting with Windows PowerShell
+  - Introduction to Provisioning
+
+
+  #### Lab &#58; Troubleshooting Remote Computers Through Remote Desktop
+  - Using Remote Desktop
+
+
+  #### Lab &#58; Troubleshooting a Remote Computer By Using Windows PowerShell
+  - Using Windows PowerShell Remoting
+
+  After completing this module, you will be able to&#58;
+  - Select a suitable remote management tool or technique.
+  - Use Remote Desktop to manage remote computers.
+  - Use Windows PowerShell cmdlets and scripts.
+  - Use Windows PowerShell remoting to manage remote computers.
+  - Implement provisioning packages.
+
+
+  ### Module 6&#58; Resolving Issues with Network Connectivity
+  This module explains how to identify network settings and troubleshoot issues related to network connectivity in wired and wireless networks, IPv4 and IPv6 connectivity, and name resolution.
+  #### Lessons
+  - Determining Network Settings
+  - Troubleshooting Network Connectivity
+  - Troubleshooting Name Resolution
+
+
+  #### Lab &#58; Resolving Network Connectivity Issues
+  - Configuring network settings
+  - Resolving a Network Problem (1)
+  - Resolving a Network Problem (2)
+
+  After completing this module, you will be able to&#58;
+  - Determine network settings in Windows 10.
+  - Troubleshoot issues with network connectivity.
+  - Troubleshoot name resolution issues.
+
+
+  ### Module 7&#58; Troubleshooting Group Policy
+  This module provides an overview of the Group Policy application and describes how to resolve issues in client configuration GPO application.
+  #### Lessons
+  - Overview of Group Policy Application
+  - Resolving Client-Configuration Failures and GPO Application Issues
+
+
+  #### Lab &#58; Troubleshooting Issues with Group Policy Application
+  - Working with GPOs
+  - Resolving Group Policy Application (1)
+  - Resolving Group Policy Application (2)
+  - Resolving Group Policy Application (3)
+
+  After completing this module, students will be able to&#58;
+  - Describe how you apply GPOs to computers.
+  - Resolve client-side configuration failures and GPO application issues.
+
+
+  ### Module 8&#58; Configuring and Troubleshooting User Settings
+  This module describes the common sign-in issues, how to detect them, and how to troubleshoot these issues. The module also provides an overview of user account types that are supported by Windows 10 and how authentication works for those accounts.
+  #### Lessons
+  - Troubleshooting Sign-In Issues
+  - Troubleshooting the Application of User Settings
+
+
+  #### Lab &#58; Troubleshooting Sign-In Issues
+  - Resolving a Sign-In Issue
+
+
+  #### Lab &#58; Configuring and Troubleshooting the Application of User Settings
+  - Optional&#58; Configuring UE-V
+  - Configuring Folder Redirection
+  - Resolving a Folder Redirection Issue
+
+  After completing this module, you will be able to&#58;
+  - Troubleshoot user sign-in issues.
+  - Troubleshoot the correct application of user settings.
+
+
+  ### Module 9&#58; Troubleshooting Remote Connectivity
+  This module provides an overview of Remote Access and describes how to troubleshoot issues with VPN connectivity.
+  #### Lessons
+  - Overview of Remote Access
+  - Troubleshooting Issues with VPN Connectivity
+
+
+  #### Lab &#58; Troubleshooting VPN Connectivity
+  - Troubleshoot VPN Connectivity Issue 1
+  - Troubleshoot VPN Connectivity Issue 2
+
+  After completing this module, you will be able to&#58;
+  - Describe common remote access technologies.
+  - Troubleshoot issues with VPN connectivity.
+
+
+  ### Module 10&#58; Configuring and Troubleshooting Resource Access
+  This module describes how to troubleshoot issues with file permissions and printer access. It also describes how to configure and manage file synchronization and file recovery in Windows 10.
+  #### Lessons
+  - Troubleshooting File Permissions Issues
+  - Troubleshooting Issues with Printer Access
+  - Configuring and Troubleshooting File Synchronization
+  - Performing file recovery in Windows 10
+
+
+  #### Lab &#58; Troubleshooting File-Access Issues
+  - Resolving a File-Access Issue (1)
+  - Resolving a File-Access Issue (2)
+  - Resolving a File-Access Issue (3)
+
+
+  #### Lab &#58; Troubleshooting Printer Issues
+  - Resolving a Printer Issue (1)
+  - Resolving a Printer Issue (2)
+
+
+  #### Lab &#58; Configuring and Troubleshooting File Synchronization
+  - Troubleshooting Work Folders
+
+
+  #### Lab &#58; Recovering data
+  - Preparing for file recovery
+  - Resolving issues by using Previous Versions
+
+  After completing this module, you will be able to&#58;
+  - Troubleshoot issues with file permissions.
+  - Troubleshoot issues with accessing printers.
+  - Configure and troubleshoot file synchronization.
+  - Configure and troubleshoot file recovery.
+
+
+  ### Module 11&#58; Troubleshooting Applications
+  This module explains how to troubleshoot application installation-issues and problems in desktop and Microsoft Store apps. This module also describes how to resolve issues with Internet Explorer and Microsoft Edge browsers.
+  #### Lessons
+  - Troubleshooting Desktop App Installation Issues
+  - Troubleshooting Desktop Apps
+  - Managing Universal Windows Apps
+
+
+  #### Lab &#58; Troubleshooting Desktop Apps
+  - Troubleshooting AppLocker Policy Applications
+  - Troubleshooting Application Compatibility Issues
+
+
+  #### Lab &#58; Provisioning a Kiosk device
+  - Creating a provisioning package
+  - Applying a provisioning package
+
+  After completing this module, you will be able to&#58;
+  - Troubleshoot desktop app installation issues.
+  - Troubleshoot desktop apps.
+  - Manage Universal Windows apps.
+
+
+  ### Module 12&#58; Maintaining Windows 10
+  This module describes how to troubleshoot activation and performance issues in Windows 10. It also explains how to apply and troubleshoot Windows updates.
+  #### Lessons
+  - Monitoring and Troubleshooting Computer Performance
+  - Applying Applications and Windows Updates
+
+
+  #### Lab &#58; Maintaining Windows 10
+  - Resolve a Performance-Related Issue
+  - Configure Windows Update Settings
+
+  After completing this module, you will be able to&#58;
+  - Monitor and troubleshoot Windows 10 performance.
+  - Update applications and Windows 10.

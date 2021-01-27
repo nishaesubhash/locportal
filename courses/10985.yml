@@ -1,0 +1,119 @@
+### YamlMime:Course
+title: Introduction to SQL Databases
+metadata:
+  title: 'Course 10985-C: Introduction to SQL Databases'
+  description: 'Course 10985-C: Introduction to SQL Databases'
+uid: course.10985
+courseNumber: '10985-C'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe key database concepts in the context of SQL Server 2016
+- skill: Describe database languages used in SQL Server 2016
+- skill: Describe data modelling techniques
+- skill: Describe normalization and denormalization techniques
+- skill: Describe relationship types and effects in database design
+- skill: Describe the effects of database design on performance
+- skill: Describe commonly used database objects
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- sql-server
+summary: |-
+  This three-day instructor-led course is aimed at people looking to move into a database professional role or whose job role is expanding to encompass database elements. The course describes fundamental database concepts including database types, database languages, and database designs.
+
+  #### Audience profile
+  The primary audience for this course is people who are moving into a database role, or whose role has expanded to include database technologies.
+prerequisitesSection: |-
+  This is a foundation level course and therefore only requires general computer literacy.
+outlineSection: |-
+  ### Module 1&#58; Introduction to databases
+  This module introduces key database concepts in the context of SQL Server 2016.
+  #### Lessons
+  - Introduction to relational databases
+  - Other types of database
+  - Data analysis
+  - Database languages in SQL Server
+
+
+  #### Lab &#58; Exploring and querying SQL Server databases
+  After completing this module, you will be able to&#58; 
+  - Describe what a database is 
+  - Understand basic relational aspects
+  - Describe database languages used in SQL Server 
+  - Describe data analytics
+
+  ### Module 2&#58; Data Modelling
+  This module describes data modelling techniques.
+  #### Lessons
+  - Data modelling
+  - ANSI/SPARC database model
+  - Entity relationship modelling
+
+
+  #### Lab &#58; Identify components in entity relationship modelling
+  After completing this module, you will be able to&#58; 
+  - Understand the common data modelling techniques
+  - Describe the ANSI/SPARC database model
+  - Describe entity relationship modelling
+
+  ### Module 3&#58; Normalization
+  This module describes normalization and denormalization techniques.
+  #### Lessons
+  - Fundamentals of Normalization
+  - Normal form
+  - Denormalization
+
+
+  #### Lab &#58; Normalizing data
+  After completing this module, you will be able to&#58; 
+  - Describe normalization benefits and notation
+  - Describe important normalization terms
+  - Describe the normalization levels
+  - Describe the role of denormalization
+
+  ### Module 4&#58; Relationships
+  This module describes relationship types and effects in database design.
+  #### Lessons
+  - Introduction to relationships
+  - Planning referential integrity
+
+
+  #### Lab &#58; Planning and implementing referential integrity
+  After completing this module, you will be able to&#58; 
+  - Describe relationship types
+  - Describe the use, types, and effects of referential integrity
+
+  ### Module 5&#58; Performance
+  This module introduces the effects of database design on performance.
+  #### Lessons
+  - Indexing
+  - Query performance
+  - Concurrency
+
+
+  #### Lab &#58; Performance issues
+  After completing this module, you will be able to&#58; 
+  - Discuss the performance effects of indexing
+  - Describe the performance effects of join and search types
+  - Describe the performance effects of concurrency
+
+  ### Module 6&#58; Database Objects
+  This module introduces commonly used database objects.
+  #### Lessons
+  - Tables
+  - Views
+  - Stored procedures, triggers and functions
+
+
+  #### Lab &#58; Using SQL server
+  After completing this module, you will be able to&#58; 
+  - Describe the use of tables in SQL Server 
+  - Describe the use of views in SQL Server 
+  - Describe the use of stored procedures in SQL Server 
+  - Describe other database objects commonly used in SQL Server

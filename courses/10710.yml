@@ -1,0 +1,277 @@
+### YamlMime:Course
+title: Configuración, administración y solución de problemas de Microsoft® Exchange Server 2010
+metadata:
+  title: 'Course 10710-A: Configuración, administración y solución de problemas de Microsoft® Exchange Server 2010'
+  description: 'Course 10710-A: Configuración, administración y solución de problemas de Microsoft® Exchange Server 2010'
+uid: course.10710
+courseNumber: '10710-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Instalar e implementar Exchange Server 2010.
+- skill: Configurar servidores de buzones de correo y sus componentes.
+- skill: Administrar objetos de destinatario.
+- skill: Configurar el rol de servidor Acceso de clientes.
+- skill: Administrar el transporte de mensajes.
+- skill: Configurar el flujo seguro de mensajes entre la organización de Exchange Server e Internet.
+- skill: Implementar una solución de alta disponibilidad para servidores de buzones de correo y otros roles de servidor.
+- skill: Diseñar e implementar copia de seguridad y restauración para los roles de servidor.
+- skill: Planear y configurar la directiva de mensajería y su cumplimiento.
+- skill: Configurar los permisos y la seguridad de Exchange Server para el acceso interno y externo.
+- skill: Supervisar y mantener el sistema de mensajería.
+- skill: Realizar la transición de una organización de Exchange Server 2003 o Exchange Server 2007 a Exchange 2010.
+- skill: Configurar el rol de servidor Mensajería unificada y sus componentes.
+- skill: Implementar alta disponibilidad en varios sitios y el uso compartido federado.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- es
+levels:
+- intermediate
+roles:
+- developer
+summary: |-
+  Este curso de cinco días impartido por un instructor le proporcionará las habilidades y los conocimientos necesarios para configurar y administrar un entorno de mensajería Exchange Server 2010. Para realizar este curso no es necesario tener experiencia previa con Exchange Server, pero los alumnos deben tener bastante experiencia en la administración de Windows Server® y de los servicios de directorio Active Directory® o de Servicios de dominio de Active Directory (AD DS). Este curso le enseñará a configurar Exchange Server 2010, y le proporcionará directrices, recomendaciones y consideraciones que le ayudarán a optimizar su implementación de Exchange Server.
+
+  #### Audience profile
+  Este curso está diseñado para personas que aspiran a ser administradores de mensajería de nivel empresarial. Puede que también deseen realizar este curso generalistas de TI y profesionales de soporte técnico que deseen adquirir conocimientos sobre Exchange Server 2010. Las personas que asistan a este curso deben tener al menos tres años de experiencia laboral en el campo de TI, normalmente en las áreas de administración de redes, soporte técnico o administración de sistemas. No es necesario que tengan experiencia con versiones anteriores de Exchange Server.
+prerequisitesSection: |-
+  Además de su experiencia profesional, los alumnos que asistan a este curso deben tener los conocimientos previos siguientes&#58;
+  - Conocimientos fundamentales de las tecnologías de red, incluido el Sistema de nombres de dominio (DNS) y las tecnologías de firewall.
+  - Experiencia con los sistemas operativos Windows Server 2003 y Microsoft Windows Server 2008.
+  - Experiencia con los servicios de directorio Active Directory en Windows Server 2003 o AD DS Windows Server 2008.
+  - Experiencia en administrar la copia de seguridad y la restauración en Windows Server.
+  - Experiencia en el uso de herramientas de administración y supervisión de Windows como Microsoft Management Console, Usuarios y equipos de Active Directory, Monitor de rendimiento, el Visor de eventos y el Administrador de Internet Information Services (IIS).
+  - Experiencia en el uso de herramientas de redes y solución de problemas de Windows como Monitor de red, Telnet y NSLookup.
+  - Conocimientos fundamentales de los certificados y la infraestructura de claves públicas (PKI).
+  - Experiencia básica con Windows Mobile®.
+outlineSection: |-
+  ### Módulo 1&#58; Implementar Microsoft Exchange Server 2010
+  En este módulo se describe cómo preparar y realizar una instalación de Exchange Server 2010. También se proporcionan detalles sobre la implementación de Exchange Server 2010.
+  #### Lecciones
+  - Introducción a los requisitos de Exchange Server 2010
+  - Instalación de los roles de servidor de Exchange Server 2010
+  - Finalización de una instalación de Exchange Server 2010
+
+
+  #### Lab &#58; Instalación de Exchange Server 2010
+
+  #### Lab &#58; Comprobación de una instalación de Exchange Server 2010
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Describir los requisitos de Exchange Server 2010.
+  - Instalar los roles de servidor de Exchange Server 2010.
+  - Realizar una instalación de Exchange Server 2010.
+
+
+  ### Módulo 2&#58; Configuración de servidores de buzones de correo
+  En este módulo se describen las herramientas de administración que puede utilizar para administrar Exchange Server 2010. También se describe el rol de servidor Buzón de correo, algunas de las características nuevas de Exchange Server 2010, las tareas posteriores a la instalación del rol de servidor Buzón de correo más habituales y las carpetas públicas.
+  #### Lecciones
+  - Introducción a las herramientas administrativas de Exchange Server 2010
+  - Configuración de los roles de servidor Buzón de correo
+  - Configuración de carpetas públicas
+
+
+  #### Lab &#58; Configuración de servidores de buzones de correo
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Describir las herramientas administrativas de Exchange Server 2010.
+  - Configurar los roles de servidor Buzón de correo.
+  - Configurar carpetas públicas.
+
+
+  ### Módulo 3&#58; Administración de objetos de destinatario
+  En este módulo se describe cómo administrar objetos, directivas de direcciones y listas de direcciones de destinatarios en Exchange Server 2010. También se describen los procedimientos para realizar tareas de administración masiva en Exchange Management Shell.
+  #### Lecciones
+  - Administración de buzones de correo
+  - Administración de otros destinatarios
+  - Configuración de directivas de direcciones de correo electrónico
+  - Configuración de listas de direcciones
+  - Realización de tareas de administración masiva de destinatarios
+
+
+  #### Lab &#58; Administración de objetos de destinatario
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Administrar buzones de correo en Exchange Server 2010.
+  - Administrar otros destinatarios en Exchange Server 2010.
+  - Configurar directivas de direcciones de correo electrónico.
+  - Configurar listas de direcciones.
+  - Realizar tareas masivas de administración de destinatarios.
+
+
+  ### Módulo 4&#58; Administración del acceso de cliente
+  En este módulo se proporcionan detalles acerca de cómo implementar el rol de servidor Acceso de clientes en Exchange Server 2010.
+  #### Lecciones
+  - Configuración del rol de servidor Acceso de clientes
+  - Configuración de los servicios de acceso de cliente para clientes de Outlook
+  - Configuración de Outlook Web App
+  - Configuración de mensajería para móviles
+
+
+  #### Lab &#58; Configuración de los servidores de acceso de cliente para acceder a Outlook en cualquier lugar
+
+  #### Lab &#58; Configuración de servidores de acceso de cliente para Outlook Web App y Exchange ActiveSync
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Configurar el rol de servidor Acceso de clientes.
+  - Configurar servicios de Acceso de cliente para clientes de Outlook.
+  - Configurar Outlook Web App.
+  - Configurar mensajería para móviles.
+
+
+  ### Módulo 5&#58; Administración del transporte de mensajes
+  En este módulo se explica cómo administrar el transporte de mensajes en Exchange Server 2010. También se describe cómo implementar y configurar el servidor de transporte de concentradores.
+  #### Lecciones
+  - Introducción al transporte de mensajes
+  - Configuración del transporte de mensajes
+
+
+  #### Lab &#58; Administración del transporte de mensajes
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Describir el transporte de mensajes en Exchange Server 2010.
+  - Configurar el transporte de mensajes.
+
+
+  ### Módulo 6&#58; Implementación de la seguridad de mensajería
+  En este módulo se describe cómo planear e implementar el rol de servidor Transporte perimetral y los problemas de seguridad relacionados con la implementación. También se describe cómo configurar la mensajería SMTP y seguridad de dominio.
+  #### Lecciones
+  - Implementación de servidores de transporte perimetral
+  - Implementación de una solución antivirus
+  - Configuración de una solución contra correo no deseado
+  - Configuración de una mensajería SMTP segura
+
+
+  #### Lab &#58; Configuración de servidores de transporte perimetral y Forefront Protection 2010
+
+  #### Lab &#58; Implementación de soluciones contra correo no deseado
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Implementar servidores de transporte perimetral.
+  - Implementar una solución antivirus.
+  - Configurar una solución contra correo no deseado.
+  - Configurar mensajería SMTP segura.
+
+
+  ### Módulo 7&#58; Implementación de alta disponibilidad
+  En este módulo se describe la tecnología de alta disponibilidad integrada en Exchange Server 2010 y algunos factores externos que afectan a las soluciones de alta disponibilidad.
+  #### Lecciones
+  - Introducción a las opciones de alta disponibilidad
+  - Configuración de bases de datos de buzones de correo de alta disponibilidad
+  - Implementación de servidores de alta disponibilidad que no son de buzones de correo
+
+
+  #### Lab &#58; Implementación de alta disponibilidad
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Describir las opciones de alta disponibilidad.
+  - Configurar bases de datos de buzones de correo de alta disponibilidad.
+  - Implementar servidores de alta disponibilidad que no son de buzones de correo.
+
+
+  ### Módulo 8&#58; Implementación de copia de seguridad y recuperación
+  En este módulo se describen las características de copia de seguridad y restauración integradas en Exchange Server 2010, y las consideraciones sobre la creación de un plan de copia de seguridad adecuado.
+  #### Lecciones
+  - Planeamiento de la copia de seguridad y la recuperación
+  - Copia de seguridad de Exchange Server 2010
+  - Restauración de Exchange Server 2010
+
+
+  #### Lab &#58; Implementación de copia de seguridad y recuperación
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Planear la copia de seguridad y la recuperación.
+  - Hacer una copia de seguridad de Exchange Server 2010.
+  - Restaurar Exchange Server 2010.
+
+
+  ### Módulo 9&#58; Configuración de la directiva de mensajería y su cumplimiento
+  En este módulo se describe cómo configurar la directiva de mensajería y las características de cumplimiento de Exchange Server 2010.
+  #### Lecciones
+  - Introducción a la directiva de mensajería y su cumplimiento
+  - Configuración de reglas de transporte
+  - Configuración del registro en diario y la búsqueda en varios buzones de correo
+  - Configuración de Administración de los registros de mensajería
+  - Configuración de archivos personales
+
+
+  #### Lab &#58; Configuración de reglas de transporte, reglas de diario y búsqueda en varios buzones de correo
+
+  #### Lab &#58; Configuración de Administración de los registros de mensajería y archivos personales
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Describir la directiva de mensajería y su cumplimiento.
+  - Configuración de reglas de transporte.
+  - Configurar el registro en diario y la búsqueda en varios buzones de correo.
+  - Configuración de Administración de los registros de mensajería.
+  - Configurar archivos personales.
+
+
+  ### Módulo 10&#58; Protección de Microsoft Exchange Server 2010
+  En este módulo se describe cómo configurar permisos administrativos con Control de acceso basado en roles (RBAC) y cómo proteger la configuración de Exchange Server.
+  #### Lecciones
+  - Configuración del control de acceso basado en roles
+  - Configuración de la seguridad de los roles de servidor en Exchange Server 2010
+  - Configuración del acceso seguro a Internet
+
+
+  #### Lab &#58; Protección de Exchange Server 2010
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Configurar permisos con control de acceso basado en roles.
+  - Configurar la seguridad de los roles de servidor de Exchange Server 2010.
+  - Configurar el acceso seguro a Internet.
+
+
+  ### Módulo 11&#58; Mantenimiento de Microsoft Exchange Server 2010
+  En este módulo se describe cómo supervisar y mantener Exchange Server 2010. También se describe cómo solucionar problemas de Exchange Server.
+  #### Lecciones
+  - Supervisión de Exchange Server 2010
+  - Mantenimiento de Exchange Server 2010
+  - Solución de problemas de Exchange Server 2010
+
+
+  #### Lab &#58; Mantenimiento de Exchange Server 2010
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Supervisar Exchange Server 2010.
+  - Mantener Exchange Server 2010.
+  - Solucionar problemas de Exchange Server 2010.
+
+
+  ### Módulo 12&#58; Actualización de Exchange Server 2003 o Exchange Server 2007 a Exchange Server 2010
+  En este módulo se describe cómo actualizar una organización existente de Exchange Server 2003 o Exchange Server 2007 a una organización de Exchange Server 2010. También se describen las distintas consideraciones sobre la implementación de la coexistencia entre los dos sistemas de mensajería después de una implementación de Exchange Server 2010.
+  #### Lecciones
+  - Introducción a la actualización a Exchange Server 2010
+  - Actualización de Exchange Server 2007 a Exchange Server 2003
+  - Actualización de Exchange Server 2007 a Exchange Server 2010
+
+
+  #### Lab &#58; (ninguna práctica)
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Describir los escenarios y las estrategias de actualización generales de Exchange Server 2010.
+  - Actualizar de Exchange Server 2007 a Exchange Server 2003.
+  - Actualizar de Exchange Server 2007 a Exchange Server 2010.
+
+
+  ### Módulo 13&#58; Implementación de la mensajería unificada
+  En este apéndice se describe cómo Mensajería unificada integra Exchange Server con redes de telefonía. También se describe cómo configurar la mensajería unificada.
+  #### Lecciones
+  - Introducción a la telefonía
+  - Introducción a la mensajería unificada
+  - Configuración de la mensajería unificada
+
+
+  #### Lab &#58; Implementación de la mensajería unificada
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Describir los sistemas de telefonía.
+  - Describir las características de la mensajería unificada y su integración con Exchange Server 2010.
+  - Configurar mensajería unificada.
+
+
+  ### Módulo 14&#58; Temas avanzados de Exchange Server 2010
+  Este apéndice ofrece una introducción a cómo realizar una implementación de Exchange Server 2010 de alta disponibilidad en varios centros de datos. También describe cómo implementar el uso compartido federado.
+  #### Lecciones
+  - Implementar soluciones de alta disponibilidad para varios sitios
+  - Implementación del uso compartido federado
+
+
+  #### Lab &#58; (ninguna práctica)
+  Después de completar este módulo, los alumnos podrán&#58;
+  - Implementar soluciones de alta disponibilidad para varios sitios.
+  - Implementar el uso compartido federado.
+
+  #### Additional Reading
+  
+  Para ayudarle a prepararse para esta clase, consulte los recursos siguientes&#58;
+  - Documentación de la Ayuda en pantalla de Microsoft Exchange Server 2010
+  - Microsoft Exchange Server 2010 Administrator's Pocket Consultant de William R. Stanek.

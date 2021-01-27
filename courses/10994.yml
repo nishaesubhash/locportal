@@ -1,0 +1,142 @@
+### YamlMime:Course
+title: Data Analysis Fundamentals using Excel
+metadata:
+  title: 'Course 10994-B: Data Analysis Fundamentals using Excel'
+  description: 'Course 10994-B: Data Analysis Fundamentals using Excel'
+uid: course.10994
+courseNumber: '10994-B'
+hoursToComplete: 48
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Create an Excel report
+- skill: Create an Excel table
+- skill: Create a pivot table and pivot chart
+- skill: Create a dashboard and analyze data
+- skill: Create Hierarchies
+- skill: Create an Excel data model and connect to external data
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- sql-server
+summary: |-
+  The main purpose of the course is to give students the ability to add analysis capabilities to Excel spreadsheets and to provide students with a foundation to learn about more advanced data analytics with Excel or Power BI.
+
+  #### Audience profile
+  This course is intended for anyone who wants to take the data analysis technologies in Excel beyond formulas and add more advanced capabilities such as dashboards, hierarchies, and relationships.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Basic knowledge of the Microsoft Windows operating system and its core functionality.
+  - Advanced working knowledge of Excel spreadsheets including formulas.
+outlineSection: |-
+  ### Module 1&#58; Reporting in Excel
+  This module explains how to create a report in Excel
+  #### Lessons
+  - Filtering and Formatting Data
+  - Charts
+
+
+  #### Lab &#58; Create an Excel report
+  - Filtering Excel Data
+  - Formatting Excel Data
+  - Create excel Charts
+
+  After completing this module, students will be able to&#58;
+  - Filter and format data.
+  - Create charts.
+
+
+  ### Module 2&#58; Excel Tables
+  This module explains how to create data tables in Excel
+  #### Lessons
+  - Excel Data Tables
+  - Summarizing Data
+
+
+  #### Lab &#58; Create an Excel Table
+  - Create an Excel Table
+  - Summarize Excel Data
+
+  After completing this module, students will be able to&#58;
+  - Explain what Excel Data tables are.
+  - Sort, filter, and validate data.
+  - Summarize data.
+  - Format summarized data.
+
+
+  ### Module 3&#58; Pivot Tables and Pivot Charts
+  This module describes pivot tables and pivot charts and how to work with them.
+  #### Lessons
+  - Pivot Tables
+  - Pivot Charts
+  - Editing Pivot Tables and Pivot Charts
+
+
+  #### Lab &#58; Importing Data from a CSV File
+  - Creating a Pivot Table
+  - Creating a Pivot Chart
+  - Editing Pivot Tables and Pivot Charts
+
+  After completing this module, students will be able to&#58;
+  - Describe pivot tables and how to create them.
+  - Describe the various elements of a pivot chart.
+  - Edit pivot tables and pivot charts.
+
+
+  ### Module 4&#58; Dashboards
+  This module describes Excel dashboards, how to create them and the role in data analysis in Excel pivot tables.
+  #### Lessons
+  - Creating a Dashboard
+  - Data Analysis in Excel Pivot Tables
+
+
+  #### Lab &#58; Create a Dashboard
+  - Arranging Tables and Charts
+  - Slicing Data
+  - Data Analysis
+
+  After completing this module, students will be able to&#58;
+  - Describe a dashboard.
+  - Filter data using a slicer.
+  - Add calculated columns to a dashboard.
+  - Find anomalies.
+
+
+  ### Module 5&#58; Hierarchies
+  This module describes hierarchies and time data.
+  #### Lessons
+  - Hierarchies
+  - Time Data
+
+
+  #### Lab &#58; Creating Hierarchies
+  - Create a Hierarchy
+  - Configure Time data
+  - Create an Animated Time Chart
+
+  After completing this module, students will be able to&#58;
+  - Describe hierarchies.
+  - Create levels within a hierarchy.
+  - Explain why time data is different and how to work with it.
+
+
+  ### Module 6&#58; The Excel Data Model
+  This module explores the Excel data model and looks at ways of extending it.
+  #### Lessons
+  - Using an Excel Data Model
+  - External Data
+
+
+  #### Lab &#58; Explore an Excel Data Model
+  - Add Multiple Tables
+  - Create Relationships
+  - Add External Data
+
+  After completing this module, students will be able to&#58;
+  - Explain an Excel Data Model and how to use it.
+  - Import External Data and use it.
+  - Link out to external data.

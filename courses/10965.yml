@@ -1,0 +1,326 @@
+### YamlMime:Course
+title: IT Service Management with System Center Service Manager
+metadata:
+  title: 'Course 10965-D: IT Service Management with System Center Service Manager'
+  description: 'Course 10965-D: IT Service Management with System Center Service Manager'
+uid: course.10965
+courseNumber: '10965-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe Service Manager 2016.
+- skill: Upgrade to Service Manager 2016.
+- skill: Install Service Manager 2016.
+- skill: Describe Service Manager usage cases.
+- skill: Configure base settings in Service Manager 2016.
+- skill: Configure Incident and Problem Management.
+- skill: Configure Activity, Change, and Release Management.
+- skill: Configure and Manage Service Requests.
+- skill: Automate business processes with Service Manager and Orchestrator.
+- skill: Configure Service Level Management.
+- skill: Customize the Self-Service Portal.
+- skill: Use Reports and Analyze Data in Service Manager.
+- skill: Perform advanced troubleshooting and disaster recovery in Service Manager.
+- skill: Customize Service Manager Forms.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- msc-service-manager
+summary: |-
+  This five-day course will provide students with the key knowledge required to deploy and configure
+  System Center 2016 Service Manager. Using hands-on labs, students will learn the following&#58;
+
+  - Where Service Manager sits within the System Center 2016 product.
+  - What business and technical needs Service Manager is designed to meet.
+  - How Service Manager aligns itself to ITIL and MOF.
+  - How to architect and implement a System Center 2016 Service Manager deployment.
+  - How to upgrade an existing Service Manager 2012 R2 environment to System Center 2016.
+  - How to customize System Center 2016 Service Manager to be in line with corporate standards.
+  - How to configure Incident and Problem Management.
+  - How to configure Activity, Change and Release Management.
+  - How to configure Service Requests.
+  - How to configure Service Level Management.
+  - How to customize the Self-Service Portal.
+  - How to configure Reporting and Analysis.
+  - How to troubleshoot Service Manager and perform disaster recovery.
+  - How to create customized Service Manager forms.
+
+  #### Audience profile
+  This course is intended for cloud and datacenter administrators who are new to System Center 2016 Service Manager and are responsible for deploying, configuring and operating it in their cloud or datacenter. This course is also intended for Cloud and datacenter administrators who are already familiar with Service Manager and want to upgrade their skills to include the new features found in System Center 2016 Service Manager.
+prerequisitesSection: |-
+  - Working knowledge of Windows Server 2012 R2 and Windows Server 2016.
+  - Working knowledge of SQL Server 2012 and SQL Server 2014.
+  - An understanding of the IT management processes that are included with ITIL and MOF.
+outlineSection: |-
+  ### Module 1&#58; Service Management Overview
+  In this module, you will learn many of the ITIL and MOF best practices and procedures in delivering effective IT Service Management and how System Center 2016 Service Manager can be used to implement them in your organization. You will also learn some of the key business drivers behind IT Service Management.
+  #### Lessons
+  - Business Drivers behind IT Service Management.
+  - Introduction to Microsoft System Center 2016.
+  - System Center 2016 Service Manager Overview and Key Features.
+  - Adopting ITIL/ MOF Best Practices with Service Manager.
+  - Aligning IT Service Management Requirements to Service Manager.
+
+  After completing this module, students will be able to&#58;
+  - Describe the business drivers behind IT Service Management.
+  - Describe, at a high-level, System Center 2016.
+  - Describe, at a high level, System Center 2016 Service Manager.
+  - Describe how Service Manager adopts best practices found in ITIL and MOF.
+
+
+  ### Module 2&#58; Installing System Center 2016 Service Manager
+  In this module, you will learn about the key components and architecture of Service Manager, including the hardware and software requirements. You will also learn about the security requirements and considerations that should be taken into account before, during and after deploying Service Manager.
+  #### Lessons
+  - System Center 2016 Service Manager Architecture and Core Components.
+  - Hardware, Software and Security Requirements.
+  - Planning and Sizing a System Center 2016 Service Manager Deployment.
+  - Installing System Center 2016 Service Manager.
+  - Installing and Configuring the Service Manager Self-Service Portal.
+  - Overview of the Service Manager Console.
+  - Upgrading to System Center 2016 Service Manager.
+
+
+  #### Lab &#58; Installing System Center 2016 Service Manager
+  - Installing the Service Manager Management Group.
+  - Installing the Data Warehouse Management Group and register the Service Manager Management Group wit
+  - Installing the Service Manager Self-Service Portal and confirming a successful installation.
+  - Customizing the Self-Service Portal.
+
+
+  #### Lab &#58; Upgrading to System Center 2016 Service Manager
+  - Backing up the Service Manager 2012 R2 environment.
+  - Upgrading Service Manager 2012 R2 to System Center 2016 Service Manager.
+
+  After completing this module, students will be able to&#58;
+  - Describe System Center 2016 Service Manager architecture and core components.
+  - Describe the Hardware, Software and Security requirements of System Center 2016 Service manager.
+  - Plan and size a System Center 2016 deployment.
+  - Install System Center 2016 Service Manager.
+  - Install and configure the Service Manager Self-Service Portal.
+  - Use the Service Manager Console to confirm a successful deployment.
+  - Upgrade Service Manager 2012 R2 to System Center 2016 Service Manager.
+
+
+  ### Module 3&#58; Key Concepts and Features
+  In this module, you will learn many of the key features and concepts that will help you understand how to configure important functions in Service Manager.
+  #### Lessons
+  - Overview of Management Packs.
+  - Overview of the Service Manager CMDB.
+  - Managing Activities.
+  - Managing Workflows.
+  - Managing Templates.
+  - Security and User Roles.
+
+
+  #### Lab &#58; Configuring Service Manager for StockTrader and DinnerNow
+  - Create a Management Pack, Work Item Templates and Configuration Items for DinnerNow.
+  - Create a Management Pack, Work Item Templates and Configuration Items for StockTrader.
+
+  After completing this module, students will be able to&#58;
+  - Understand Management Packs.
+  - Describe the Service Manager CMDB.
+  - Manage Activities.
+  - Manage Workflows.
+  - Manage Templates.
+  - Manage Security and User Roles.
+
+
+  ### Module 4&#58; Configuring Service Manager for Your Environment
+  In this module, you will learn some of the key configuration tasks that should be performed in Service Manager in order to customize it for your environment.
+  #### Lessons
+  - System Center 2016 Service Manager Initial Configuration.
+  - Configuring Business Services.
+  - Configuring Access for your Support Teams.
+  - Configuring Notifications.
+
+
+  #### Lab &#58; Configuring Service Manager For Your Environment
+  - Configuring Service Manager Settings.
+  - Configuring Business Services.
+  - Provisioning access for the DinnerNow and StockTrader support teams.
+  - Configuring Notifications.
+
+  After completing this module, students will be able to&#58;
+  - Perform initial configuration tasks in Service Manager.
+  - Configure Business Services.
+  - Configure Access for your support teams.
+  - Configure Notifications.
+
+
+  ### Module 5&#58; Populating the Service Manager CMDB using Connectors
+  Connectors in Service Manager provide a key function in populating the Service Manager CMDB. For example, the Operations Manager CI Connector imports discovered objects such as web sites and databases into Service Manger so that they can be added to work items such as Incidents and Change Requests
+  #### Lessons
+  - Integrating Service Manager with Active Directory and other System Center Components.
+  - Integrating Service Manager with Exchange.
+
+
+  #### Lab &#58; Configuring Connectors in Service Manager
+  - Configure System Center Connectors.
+  - Configure the Exchange Connector.
+
+  After completing this module, students will be able to&#58;
+  - Configure the Active Directory and System Center Connectors in Service Manager.
+  - Install and configure the Exchange Connector in Service Manager.
+
+
+  ### Module 6&#58; Managing Incidents and Problems
+  In this module, you will learn how to differentiate an issue that occurs in the IT environment between an incident and a problem. You will also learn how to configure incidents and problems, which includes creating templates that can be used to auto-populate Incident forms.
+  #### Lessons
+  - The Definition of an Incident and a Problem.
+  - Managing Incidents.
+  - Managing Problems.
+  - Using Queues and Views with Incidents and Problems.
+
+
+  #### Lab &#58; Configuring Incident and Problem Management
+  - Create an Incident using the Service Manager console.
+  - Using Incident Templates.
+  - Configuring an Incident Event Workflow to automatically update an Incident.
+  - Group Incidents and create a Problem Record.
+  - Creating Queues and Views to Filter Incidents.
+
+  After completing this module, students will be able to&#58;
+  - Describe the definition of an Incident and a Problem.
+  - Manage incidents.
+  - Manage problems.
+  - Use queues and views with incidents and problems.
+
+
+  ### Module 7&#58; Managing Changes and Releases
+  In this module, you will learn how Service Manager manages changes in the IT environment by using Change Requests. This includes creating and managing Activities such as Review Activities that are used to approve or reject changes.  You will also learn how Release Records are used to group, schedule and develop approved changes.
+  #### Lessons
+  - Managing Change Requests.
+  - Managing Release Records.
+
+
+  #### Lab &#58; Configuring Change and Release Management
+  - Create a Change Request with Review and Dependent Activities.
+  - Create a Release Record to manage changes.
+  - Configuring a Release Record Workflow Rule for Notification.
+
+  After completing this module, students will be able to&#58;
+  - Manage Change Requests in Service Manager.
+  - Manage Release Records in Service Manager.
+
+
+  ### Module 8&#58; Configuring and Managing the Service Catalog
+  In this module, you will learn all aspects of Service Request fulfillment within Service Manager with the exception of Service Level Management which is covered in module 10.
+  #### Lessons
+  - The Service Catalog, Request Offerings and Service Offerings.
+  - Managing Service Requests and Catalog Groups.
+  - The Self-Service Portal.
+
+
+  #### Lab &#58; Configuring Service Requests
+  - Create the Contoso Request Offering.
+  - Test the Contoso Request Offering.
+  - Create the StockTrader Request Offering.
+  - Test the StockTrader Request Offering.
+
+  After completing this module, students will be able to&#58;
+  - Describe the Service Catalog, Request Offerings and Service Offerings.
+  - Manage Service Requests and Catalog Groups.
+  - Use the Self-Service Portal.
+
+
+  ### Module 9&#58; Automating Business Processes with Orchestrator
+  In this module, you will learn how Orchestrator and Service Manager can be used to automate business processes.
+  #### Lessons
+  - Overview of Orchestrator.
+  - Configuring Runbooks in Orchestrator.
+  - Configuring Integration between Orchestrator and Service Manager.
+  - Creating a Request Offering in Service Manager to Initiate a Runbook in Orchestrator.
+
+
+  #### Lab &#58; Automating IT Processes in Service Manager
+  - Automating a Request Offering for Contoso.
+  - Automating a Service Request for StockTrader.
+
+  After completing this module, students will be able to&#58;
+  - Describe Orchestrator including its key features and components.
+  - Configure Runbooks in Orchestrator.
+  - Configure integration between Orchestrator and Service Manager.
+  - Create a Request Offering in Service Manager that initiates a Runbook in Service Manager.
+
+
+  ### Module 10&#58; Configuring Service Level Management
+  In this module, you will learn how Service Level Management is implemented in Service Manager.
+  #### Lessons
+  - Configuring Service Level Management.
+  - Viewing Service Level Agreement (SLA) Information in Service Manager.
+
+
+  #### Lab &#58; Configuring Service Level Management
+  - Create a Service Level Objective for an Incident SLA.
+  - Create a Service Level Objective for a Service Request SLA.
+  - Configure SLA Notifications.
+
+  After completing this module, students will be able to&#58;
+  - Configure Service Level Management.
+  - View SLA information in Service Manager.
+
+
+  ### Module 11&#58; Using Reports and Analyzing Data in Service Manager
+  In this module, you will learn how to run reports in Service Manager, including how to manage and maintain the data warehouse jobs and cubes on which reports rely on. Additionally, you will learn how to perform advanced analytics on cube data by using Excel and SharePoint.
+
+
+  #### Lessons
+  - Running Reports in System Center 2016 Service Manager.
+  - Configuring and Running Data Warehouse Jobs.
+  - Troubleshooting Failed Data Warehouse Jobs.
+  - Data Warehouse Cubes.
+
+
+  #### Lab &#58; Configuring Reports and Analyzing Service Manager Data
+  - Configuring, Running, and Exporting Reports.
+  - Creating a Custom Report.
+  - Configuring Data Warehouse Job Schedules.
+  - Viewing the Status of Data Warehouse Jobs.
+  - Managing the Analysis Library.
+  - Analyzing Cube Data.
+
+  After completing this module, students will be able to&#58;
+  - Describe how to run reports in Service Manager.
+  - Describe how to configure and run data warehouse jobs.
+  - Describe how to troubleshoot data warehouse jobs.
+  - Describe the data warehouse cubes in Service Manager.
+
+
+  ### Module 12&#58; Advanced Troubleshooting and Disaster Recovery
+  In this module, you will learn some of the advanced troubleshooting techniques used to resolve problems in Service Manager. You will also learn how to perform disaster recovery for failed Service Manager components, such as the Service Manager databases.
+  #### Lessons
+  - Performing Advanced Troubleshooting in Service Manager.
+  - Performing Disaster Recovery in Service Manager.
+
+
+  #### Lab &#58; Performing Disaster Recovery in Service Manager
+  - Recovering from a failed Service Manager Management Server.
+  - Recovering from a failed Service Manager Data Warehouse Management Server.
+  - Recovering from a failed Service Manager database.
+
+  After completing this module, students will be able to&#58;
+  - Perform advanced troubleshooting in Service Manager.
+  - Perform disaster recovery in Service Manager.
+
+
+  ### Module 13&#58; Creating Forms and Items in Service Manager Using the Service Manager Authoring Tool
+  In this final module, you will learn how to use the Service Manager Authoring Tool to create new and customized forms in Service Manager.
+  #### Lessons
+  - Key Concepts in Creating and Customizing Forms in the Service Manager Authoring Tool.
+  - Creating New and Customized Forms by Using the Service Manager Authoring Tool.
+
+
+  #### Lab &#58; Creating Customized Forms by Using the Authoring Tool
+  - Extending the Incident Class.
+  - Customizing the Default Incident Form.
+  - Seal the Management Pack.
+  - Import the Management Pack and use the updated Incident form.
+
+  After completing this module, students will be able to&#58;
+  - Describe the key concepts in creating customized forms in Service Manager.
+  - Create a customized form using the Authoring Tool.

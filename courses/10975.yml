@@ -1,0 +1,217 @@
+### YamlMime:Course
+title: Introduction to Programming
+metadata:
+  title: 'Course 10975-A: Introduction to Programming'
+  description: 'Course 10975-A: Introduction to Programming'
+uid: course.10975
+courseNumber: '10975-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Explain core programming fundamentals such as computer storage and processing.
+- skill: Explain computer number systems such as binary.
+- skill: Create and use variables and constants in programs.
+- skill: Explain how to create and use functions in a program.
+- skill: Create and use decisions structures in a computer program.
+- skill: Create and use repetition (loops) in a computer program.
+- skill: Explain pseudocode and its role in programming.
+- skill: Explain the basic computer data structures such as arrays, lists, stacks, and queues.
+- skill: Implement object-oriented programming concepts.
+- skill: Create and use classes in a computer program.
+- skill: Implement encapsulation, inheritance, and polymorphism.
+- skill: Describe the base class library (BCL) in the .NET Framework.
+- skill: Explain the application security concepts.
+- skill: Implement simple I/O in a computer program.
+- skill: Identify application errors and explain how to debug an application and handle errors.
+- skill: Identify the performance considerations for applications.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- developer
+summary: |-
+  In this 5-day course, students will learn the basics of computer programming through the use of Microsoft Visual Studio 2013 and either the Visual C# or Visual Basic programming languages. The course assumes no prior programming experience and introduces the concepts needed to progress to the intermediate courses on programming, such as 20483B&#58; Programming in C#.
+  
+  The focus will be on core programming concepts such as computer storage, data types, decision structures, and repetition by using loops. The course also covers an introduction to object-oriented programming covering classes, encapsulation, inheritance, and polymorphism. Coverage is also included around exception handling, application security, performance, and memory management.
+
+  #### Audience profile
+  This course is intended for anyone who is new to software development and wants, or needs, to gain an understanding of programming fundamentals and object-oriented programming concepts. They will typically be high school students, post-secondary school students, or career changers, with no prior programming experience. They might want to gain an understanding of the core programming fundamentals before moving on to more advanced courses such as 20483B&#58; Programming in C#.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Ability to use computers to start programs, open and save files, navigate application menus and interfaces
+  - Ability to understand logical concepts such as comparisons
+  - Understand number theory
+  - Ability to create, understand, and follow structured directions or step-by-step procedures
+  - Ability to understand and apply abstract concepts to concrete examples
+outlineSection: |-
+  ### Module 1&#58; Introduction to Core Programming Concepts
+  This module provides background and foundational information on how computers process information, discusses the different types of applications that a programmer might be creating, and then provides information on how code is compiled and interpreted by a computer.
+  #### Lessons
+  - Computer Data Storage and Processing
+  - Application Types
+  - Application Life-Cycle
+  - Code Compilation
+
+
+  #### Lab &#58; Thinking Like a Computer
+
+  After completing this module, students will be able to&#58;
+  - Describe computer data storage and processing concepts
+  - Describe application types
+  - Describe the lifecycle of an application
+  - Describe code compilation
+
+
+  ### Module 2&#58; Core Programming Language Concepts
+  This module covers programming language syntax and the importance of using good syntax and following the syntax rules for the chosen language. This module also discusses the core data types and how to store these data types in computer memory by using variables and constants.
+  #### Lessons
+  - Syntax
+  - Data Types
+  - Variables and Constants
+
+
+  #### Lab &#58; Working with Data Types
+
+  After completing this module, students will be able to&#58;
+  - Define syntax
+  - Explain the different types of core data used in programs
+  - Declare and use variables and constants in a computer program
+
+
+  ### Module 3&#58; Program Flow
+  This module covers how code is executed in a computer program, such as top to bottom, in structured programming and branching in code execution. The module teaches these concepts through the use of functions, decision structures, and looping constructs.
+  #### Lessons
+  - Introduction to Structured Programming Concepts
+  - Introduction to Branching
+  - Using Functions
+  - Using Decision Structures
+  - Introducing Repetition
+
+
+  #### Lab &#58; Creating Functions, Decisions, and Looping
+
+  After completing this module, students will be able to&#58;
+  - Describe structured programming
+  - Create and use functions in your code
+  - Create and use decision structures
+  - Create and use looping structures
+
+
+  ### Module 4&#58; Algorithms and Data Structures
+  This module introduces the concept of an algorithm by examining a daily routine such as a morning routine for getting up and going to work, outlining all the steps required including the decisions to be made as the routine progresses. The module also discusses how to translate these set of steps into pseudo code for evaluation of the algorithm that will be translated into actual code.
+  #### Lessons
+  - Understand How to Write Pseudo Code
+  - Algorithm Examples
+  - Introduction to Data Structures
+
+
+  #### Lab &#58; Working with Algorithms and Data Structures
+
+  After completing this module, you will be able to&#58;
+  - Transfer problem statements into pseudo code
+  - Create algorithms
+  - Translate pseudo code into programming code
+  - Create simple algorithms in code
+  - Create data structures to store data
+
+
+  ### Module 5&#58; Error Handling and Debugging
+  This module helps students understand that errors are a part of programming and they must understand how to anticipate errors, handle those errors in code, and present a good user experience with a program. This module introduces structured exception handling as the mechanism to deal with errors.
+  #### Lessons
+  - Introduction to Program Errors
+  - Introduction to Structured Error Handling
+  - Introduction to Debugging in Visual Studio
+
+
+  #### Lab &#58; Implementing Debugging and Error Handling
+
+  After completing this module, students will be able to&#58;
+  - Implement structured exception handling
+  - Debug applications by using Visual Studio 2013
+
+
+  ### Module 6&#58; Introduction to Object-Oriented Programming
+  This module covers an introduction to the concepts related to object-oriented programming (OOP). The content has been split across two modules with this module focusing on basic OOP concepts that will provide sufficient knowledge to understand complex data structures starting with structs and then moving onto classes. This module helps the students gain an understanding of how to encapsulate data and related functionality within a class.
+  #### Lessons
+  - Introduction to Complex Structures
+  - Introduction to Structs
+  - Introduction to Classes
+  - Introducing Encapsulation
+
+
+  #### Lab &#58; Implementing Complex Data Structures
+
+  After completing this module, students will be able to&#58;
+  - Create and use structure types
+  - Create and use basic class files
+  - Choose when to use a struct vs a class
+
+
+  ### Module 7&#58; More Object-Oriented Programming
+  This module teaches students about inheritance and polymorphism in classes and function overloading. Function overloading and polymorphism can go hand-in-hand as often times when you inherit from a class, you want to override or change the existing behavior to suit the needs of you class.
+  
+  The module also provides an introduction to the base class library in the .NET Framework so that students can start to think about the existence of functionality in other class files and how they can search the .NET Framework to find this functionality and take advantage of it.
+  #### Lessons
+  - Introduction to Inheritance
+  - Introduction to Polymorphism
+  - Introduction to the .NET Framework and the Base Class Library
+
+
+  #### Lab &#58; Implementing Inheritance
+
+  #### Lab &#58; Implementing Polymorphism
+
+  After completing this module, students will be able to&#58;
+  - Use inheritance in OOP
+  - Implement polymorphism in your classes
+  - Describe how the base class library is constructed
+  - Find class information by using the Object Browser
+
+
+  ### Module 8&#58; Introduction to Application Security
+  This module helps students think about security in their applications. This module introduces the concepts of authentication for users and also introduces the concept of permissions for the code that is running on a computer. It explains that operating systems might prevent certain aspects of the program from executing, such as saving a file to a directory to which the user running the app might not have permission to write. The module briefly covers code signing and why programmers might want to consider using code signing.
+  #### Lessons
+  - Authentication and Authorization
+  - Code Permissions on Computers
+  - Introducing Code Signing
+
+
+  After completing this module, students will be able to&#58;
+  - Describe how authorization and authentication work
+  - Describe how to apply access permissions for executing code on a computer
+  - Explain how code signing works
+
+
+  ### Module 9&#58; Core I/O Programming
+  This module introduces some core input/output (I/O) concepts that programmers will use while creating applications. Starting with console I/O, this module introduces input and output to the Console window.
+  
+  The module also talks about reading and writing files, which is an important concept to know because applications work with the files on the disk systems on computers.
+  #### Lessons
+  - Using Console I/O
+  - Using File I/O
+
+
+  #### Lab &#58; Core I/O Programming
+
+  After completing this module, students will be able to&#58;
+  - Read input from a console
+  - Output data to the console
+  - Read and write text files
+
+
+  ### Module 10&#58; Application Performance and Memory Management
+  This module enables students understand that memory on a computer is a finite resource. It talks about how good application design and good coding discipline with memory conservation and memory management will help programmers learn to develop applications that users will like. This is because these applications will be fast, responsive, and do not negatively impact other applications.
+  #### Lessons
+  - Value Types vs Reference Types
+  - Converting Types
+  - The Garbage Collector
+
+
+  #### Lab &#58; Using Value Types and Reference Types
+
+  After completing this module, students will be able to&#58;
+  - Implement value and reference types correctly in an application
+  - Convert between value types and reference types
+  - Use the garbage collector

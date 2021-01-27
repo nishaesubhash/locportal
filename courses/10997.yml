@@ -1,0 +1,213 @@
+### YamlMime:Course
+title: Office 365 Administration and Troubleshooting
+metadata:
+  title: 'Course 10997-C: Office 365 Administration and Troubleshooting'
+  description: 'Course 10997-C: Office 365 Administration and Troubleshooting'
+uid: course.10997
+courseNumber: '10997-C'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe Office 365 services.
+- skill: Administer Office 365 by using the graphical environment and Windows PowerShell.
+- skill: Administer and troubleshoot directory synchronization and directory objects.
+- skill: Administer and troubleshoot Exchange Online.
+- skill: Administer and troubleshoot Skype for Business Online and Microsoft Teams.
+- skill: Administer and troubleshoot SharePoint Online.
+- skill: Plan and deploy Microsoft Office 365 ProPlus.
+- skill: Administer and troubleshoot compliance and security in Office 365.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- office-365
+summary: |-
+  This is a three-day Instructor Led Training (ILT) course that targets the needs of information technology (IT) professionals who take part in administering, configuring, troubleshooting, and operating Office 365 services, including its identities, dependencies, requirements, and supporting technologies. This course focuses on skills required to administer and troubleshoot Office 365 tenant and key services of Office 365, such as Exchange Online, SharePoint Online and Skype for Business and Teams. It also covers security and compliance features of Office 365.
+
+  #### Audience profile
+  This course is intended for IT professionals and system administrators who want to learn about administration and troubleshooting techniques in Office 365. These professionals should have at least three years of experience working in their respective fields&#58; ideally in the areas of system administration, network administration, and messaging.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - A minimum of two years of experience administering the Windows Server operating system, including Windows Server 2012 or newer.
+  - A minimum of one year of experience working with Active Directory Domain Services (AD DS).
+  - A minimum of one year of experience working with name resolution, including DNS.
+  - Experience working with certificates, including public key infrastructure (PKI) certificates.
+  - Experience working with Windows PowerShell.
+  - Experience working with Microsoft Exchange Server 2013 or newer, Microsoft Lync 2013 Server or Skype for Business 2015 Server, and Microsoft SharePoint Server 2013 or newer is beneficial but not required.
+outlineSection: |-
+  ### Module 1&#58; Office 365 services overview
+  This module describes the features of Office 365 and identifies recent improvements to the service. It also identifies licensing options, describes the process of Office 365 tenant configuration, and lists appropriate Office 365 client options.
+  #### Lessons
+  - Overview of Office 365 services
+  - Office 365 licensing overview
+  - Office 365 tenant configuration
+  - Office 365 clients
+
+
+  #### Lab &#58; Office 365 services overview
+  - Setting up Office 365 lab environment
+  - Configuring Office 365 Services
+
+  After completing this module, students will be able to&#58;
+  - Describe Office 365 services.
+  - Explain Office 365 licensing options.
+  - Describe Office 365 tenant configuration.
+  - Describe the available Office 365 clients.
+
+
+  ### Module 2&#58; Office 365 administration, tools, and techniques
+  This module describes how to manage Office 365 by using the administrative portals and Windows PowerShell. It also explains how to manage administrative access and troubleshoot administration in Office 365.
+  #### Lessons
+  - Managing Office 365 with the administrative portals
+  - Managing Office 365 with Windows PowerShell
+  - Managing administrative access in Office 365
+  - Troubleshooting administration in Office 365
+
+
+  #### Lab &#58; Administering Office 365
+  - Using administrative portal
+  - Administering Office 365 with Windows PowerShell
+  - Configuring role-based administration
+  - Troubleshooting administrative access in Office 365
+
+  After completing this module, students will be able to&#58;
+  - Manage Office 365 by using the administrative portals.
+  - Manage Office 365 by using Windows PowerShell.
+  - Manage administrative access in Office 365.
+  - Troubleshoot administration in Office 365.
+
+
+  ### Module 3&#58; Administering and troubleshooting directory synchronization and directory objects
+  This module describes directory synchronization and federation. The module explains how to manage Microsoft Azure Active Directory Connect (Azure AD Connect) and user and group objects in Office 365. Additionally, it describes how to troubleshoot objects and directory synchronization in Office 365.
+  #### Lessons
+  - Overview of directory synchronization and federation overview
+  - Azure AD Connect management
+  - Managing users and groups objects in Office 365
+  - Troubleshooting objects and directory synchronization in Office 365
+
+
+  #### Lab &#58; Administering directory synchronization, users, and groups in Office 365
+  - Configuring Azure AD Connect
+  - Managing Office 365 users and groups by using the Office 365 admin center
+  - Managing Office 365 password policies
+  - Troubleshooting synchronization issues with user objects in Office 365
+
+  After completing this module, students will be able to&#58;
+  - Describe directory synchronization and federation.
+  - Manage Azure AD Connect.
+  - Manage user and group objects in Office 365.
+  - Troubleshoot objects and directory synchronization in Office 365
+
+
+  ### Module 4&#58; Administering and troubleshooting Exchange Online
+  This module describes the subscription options and roles in Exchange Online. It explains how to administer Exchange Online recipients and client access policies in Exchange Online and how to troubleshoot Exchange Online.
+  #### Lessons
+  - Exchange Online management overview
+  - Administering Exchange Online recipients
+  - Administering client access policies in Exchange Online
+  - Troubleshooting Exchange Online
+
+
+  #### Lab &#58; Administering and troubleshooting Exchange Online
+  - Configuring and administering Exchange Online recipients
+  - Configuring delegated administration
+  - Configuring client access policies
+  - Troubleshoot Exchange Online
+
+  After completing this module, students will be able to&#58;
+  - Describe the subscription options and roles in Exchange Online.
+  - Administer Exchange Online recipients.
+  - Administer client access policies in Exchange Online.
+  - Troubleshoot Exchange Online.
+
+
+  ### Module 5&#58; Administering and troubleshooting Skype for Business Online and Teams
+  This module describes Skype for Business Online and Teams. It explains how to administer, manage, and troubleshoot Skype for Business Online and Teams.
+  #### Lessons
+  - Skype for Business Online and Teams overview
+  - Administering and managing Skype for Business Online and Teams
+  - Troubleshooting Skype for Business Online and Teams
+
+
+  #### Lab &#58; Administering Skype for Business Online and Teams
+  - Configuring Skype for Business Online and Teams organization settings
+  - Configuring Skype for Business Online and Teams user settings
+  - Troubleshooting Skype for Business Online
+
+  After completing this module, students will be able to&#58;
+  - Describe Skype for Business Online and Teams.
+  - Administer and manager Skype for Business Online and Teams.
+  - Troubleshoot Skype for Business Online and Teams.
+
+
+  ### Module 6&#58; Administering and troubleshooting SharePoint Online
+  This module describes how to configure SharePoint Online settings and site collections and external user access to SharePoint Online. It also explains how to manage Microsoft OneDrive for Business synchronization and how to troubleshoot SharePoint Online.
+  #### Lessons
+  - SharePoint Online management overview
+  - Administering SharePoint Online site collections
+  - Administering external users in SharePoint Online
+  - Configuring OneDrive for Business
+  - Troubleshooting SharePoint Online
+
+
+  #### Lab &#58; Configuring and administering SharePoint Online
+  - Configuring SharePoint Online settings
+  - Creating and configuring a SharePoint site collection
+  - Configuring and verifying external user sharing
+  - Configuring OneDrive for Business
+  - Troubleshooting SharePoint Online
+
+  After completing this module, students will be able to&#58;
+  - Configure SharePoint Online settings.
+  - Configure SharePoint Online site collections.
+  - Configure external user access to SharePoint Online.
+  - Manage Microsoft OneDrive for Business synchronization.
+  - Troubleshoot SharePoint Online.
+
+
+  ### Module 7&#58; Planning and deploying Office 365 ProPlus
+  This module describes Office 365 ProPlus. It also explains how to plan and manage user-driven Office 365 ProPlus deployments and how to troubleshoot the deployments.
+  #### Lessons
+  - Overview of Office 365 ProPlus
+  - Managing user-driven Office 365 ProPlus deployments
+  - Troubleshooting Office 365 ProPlus deployments
+
+
+  #### Lab &#58; Managing Office 365 ProPlus installations
+  - Preparing Office 365 ProPlus installations
+  - Managing user-driven Office 365 ProPlus installations
+  - Managing centralized Office 365 ProPlus installations
+  - Troubleshooting Office 365 ProPlus deployments
+
+  After completing this module, students will be able to&#58;
+  - Describe Office 365 ProPlus.
+  - Plan and manage user-driven Office 365 ProPlus deployments.
+  - Troubleshoot Office 365 ProPlus deployments.
+
+
+  ### Module 8&#58; Administering and troubleshooting compliance and security in Office 365
+  This module describes the compliance features in Office 365. It explains how to administer Azure Information Protection and the compliance features in Office 365, how to configure and administer email security in Office 365, and how to troubleshoot Office 365 compliance and protection.
+  #### Lessons
+  - Overview of compliance features in Office 365
+  - Administering information protection in Office 365
+  - Administering compliance features in Office 365
+  - Configuring and administering email security in Office 365
+  - Troubleshooting Office 365 compliance and protection
+
+
+  #### Lab &#58; Configuring and troubleshooting compliance and security
+  - Configuring rights management in Office 365
+  - Configuring compliance features
+  - Configuring email protection
+  - Troubleshooting security and compliance
+
+  After completing this module, students will be able to&#58;
+  - Describe the compliance features in Office 365.
+  - Administer Azure Information Protection in Office 365.
+  - Administer the compliance features in Office 365.
+  - Configure and administer email security in Office 365.
+  - Troubleshoot Office 365 compliance and protection.

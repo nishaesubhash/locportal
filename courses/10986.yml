@@ -1,0 +1,161 @@
+### YamlMime:Course
+title: Updating Your Skills to SQL Server 2016
+metadata:
+  title: 'Course 10986-B: Updating Your Skills to SQL Server 2016'
+  description: 'Course 10986-B: Updating Your Skills to SQL Server 2016'
+uid: course.10986
+courseNumber: '10986-B'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describekey capabilities and components of SQL Server 2016
+- skill: Describe new and enhanced features in SQL Server performance
+- skill: Describes new and enhanced features in SQL Server security
+- skill: Describe what’s new inSQL Server Availability and Scalability
+- skill: Describe new and enhanced features in reporting and PowerBIin SQL Server 2016
+- skill: Describe new and enhanced data access features
+- skill: Describe new and enhanced features in SQL Server OLAP
+- skill: Describenew SQL Server cloud functionality
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- sql-server
+summary: |-
+  This three-day instructor-led course provides students moving from earlier releases of SQL Server with an introduction to the new features in SQL Server 2016.
+
+  #### Audience profile
+  The primary audience for this course are existing database professionals with experience of SQL Server 2014 who want to update their skills SQL Server 2016. Additionally this course is for existing SQL Server 2014 MCSAs who want to prepare for the Upgrade exam for SQL Server 2016 certification.
+prerequisitesSection: |-
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - Experience of building and managing database, data warehouse, and business intelligence (BI) solutions with SQL Server 2014.
+  - Familiarity with the Windows Server 2012 R2 operating system and networking.
+  - Familiarity with Microsoft Excel and Microsoft SharePoint Server 2013.
+outlineSection: |-
+  ### Module 1&#58; Introduction to SQL Server 2016
+  Describe key capabilities and components of SQL Server 2016
+  #### Lessons
+  - Overview of SQL Server 2016
+  - SQL Server 2016 Editions and Components
+  - Installing SQL Server 2016
+  - SQL Server Management Studio Enhancements
+
+
+  #### Lab &#58; Exploring SQL Server 2016
+  After completing this module, you will be able to&#58; 
+  - Describe the key elements of SQL Server 2016
+  - Describe the components and editions of SQL Server 2016
+  - Install SQL Server 2016
+  - Describe the enhancement to SQL Server Management Studio
+
+
+  ### Module 2&#58; What’s New in SQL Server Performance
+  This module describes new and enhanced features in SQL Server performance.
+  #### Lessons
+  - Operational Analytics
+  - In-memory OLTP Enhancements
+  - Query Store
+  - Live Query Statistics
+  - Native JSON
+  - Temporal Tables
+
+
+  #### Lab &#58; Implementing SQL Server 2016 Performance Improvements
+  After completing this module, you will be able to&#58; 
+  - Describe the use of Columnstore indexes for operational analytics
+  - Describe the enhancements to in-memory OLTP
+  - Use the query data store
+  - Use Native JSON
+  - Describe and use temporal tables
+
+
+  ### Module 3&#58; What’s New in SQL Server Security?
+  This module describes new and enhanced features in SQL Server security.
+  #### Lessons
+  - Using Always Encrypted
+  - Row-level Security
+  - Dynamic Data Masking
+
+
+  #### Lab &#58; Implementing SQL Server 2016 Security Improvements
+  After completing this module, you will be able to&#58; 
+  - Implement a logical design for a data warehouse
+  - Implement a physical design for a data warehouse
+
+
+  ### Module 4&#58; What’s New in SQL Server Availability and Scalability?
+  This module introduces what’s new in SQL Server Availability and Scalability.
+  #### Lessons
+  - Enhanced AlwaysOn Availability Groups
+  - What’s New with tempdb?
+  - Use Windows Server 2016 with SQL Server 2016
+  - PowerShell 5.0
+
+
+  #### Lab &#58; Monitoring tempdb
+  After completing this module, you will be able to&#58; 
+  - Describe the enhancements to AlwaysOn availability groups
+  - Describe what’s new in database caching
+  - Use Windows Server 2016 with SQL Server 2016
+
+
+  ### Module 5&#58; What’s New in SQL Server Reporting and BI
+  This module introduces reporting and BI enhancements and new features in SQL Server 2016.
+  #### Lessons
+  - Reporting Services Enhancements
+  - PowerBI Enhancements
+  - Mobile Report Publisher
+
+
+  #### Lab &#58; Implementing PowerBI
+  After completing this module, you will be able to&#58; 
+  - Describe the enhancements to reporting services
+  - Describe the enhancements to PowerBI
+
+
+  ### Module 6&#58; What’s New in SQL Server Data Access?
+  At the end of this module you will be able to describe data access enhancements in SQL Server 2016.
+  #### Lessons
+  - PolyBase
+  - What’s new in Integration Services
+  - Working with SSIS and Azure
+
+
+  #### Lab &#58; Exploring the new features of SQL Server Integrated services (SSIS)
+  After completing this module, you will be able to&#58; 
+  - Describe and install PolyBase
+  - Describe enhancements to SSIS
+
+
+  ### Module 7&#58; New and Enhanced Features in SQL Server OLAP
+  This module describes enhancements in SQL Server OLAP.
+  #### Lessons
+  - New and Enhanced Features in SQL Server OLAP
+  - What’s New in SQL Server Analysis Services
+
+
+  #### Lab &#58; OLAP with SQL Server
+  After completing this module, you will be able to&#58; 
+  - Describe new and enhanced features in SQL Server OLAP
+  - Describe new and enhanced features in SQL Server analysis services
+
+
+  ### Module 8&#58; What’s New for SQL Server in the Cloud?
+  This module describes new SQL Server cloud functionality.
+  #### Lessons
+  - Stretch Database
+  - Enhanced Backups to Azure
+  - Introduction to SQL Server 2016 Hybrid Cloud
+  - What’s New in SQL Server Azure Database
+
+
+  #### Lab &#58; Using Stretch Database
+  After completing this module, you will be able to&#58; 
+  - Describe stretch databases and why you would use them
+  - Understand the enhanced backup options 
+  - Be aware of SQL Server hybrid cloud
+  - Describe what’s new in SQL Server Azure database

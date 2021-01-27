@@ -1,0 +1,295 @@
+### YamlMime:Course
+title: Active Directory® Services with Windows Server®
+metadata:
+  title: 'Course 10969-B: Active Directory® Services with Windows Server®'
+  description: 'Course 10969-B: Active Directory® Services with Windows Server®'
+uid: course.10969
+courseNumber: '10969-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand available solutions for identity management and be able to address scenarios with appropriate solutions.
+- skill: Deploy and administer AD DS in Windows Server 2012.
+- skill: Secure AD DS deployment.
+- skill: Implement AD DS sites, configure and manage replication
+- skill: Implement and manage Group Policy
+- skill: Manage user settings with Group Policy
+- skill: Implement certification authority (CA) hierarchy with AD CS and how to manage CAs.
+- skill: Implement, deploy and manage certificates.
+- skill: Implement and manage AD RMS.
+- skill: Implement and administer AD FS.
+- skill: Secure and provision data access using technologies such as Dynamic Access Control, Work Folders and Workplace Join
+- skill: Monitor, troubleshoot and establish business continuity for AD DS services.
+- skill: Implement Windows Azure Active Directory.
+- skill: Implement and administer Active Directory Lightweight Directory Services (AD LDS).
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+summary: |-
+  Get Hands on instruction and practice administering Active Directory technologies in Windows Server 2012 and Windows Server 2012 R2 in this 5-day Microsoft Official Course. You will learn the skills you need to better manage and protect data access and information, simplify deployment and management of your identity infrastructure, and provide more secure access to data. You will learn how to configure some of the key features in Active Directory such as Active Directory Domain Services (AD DS), Group Policy, Dynamic Access Control (DAC), Work Folders, Work Place Join, Certificate Services, Rights Management Services (RMS), Federation Services, as well as integrating your on premise environment with cloud based technologies such as Windows Azure Active Directory. As part of the learning experience, you will perform hands-on exercises in a virtual lab environment.
+
+  #### Audience profile
+  This course is intended for Information Technology (IT) Professionals who have Active Directory Domain Services (AD DS) experience and are looking to for a single course that will further develop knowledge and skills using Access and Information Protection technologies in Windows Server 2012 and Windows Server 2012 R2. This would typically include&#58;
+  - AD DS Administrators who are looking to further develop skills in the latest Access and Information Protection technologies with Windows Server 2012 and Windows Server 2012 R2.
+  - System or Infrastructure administrators with general AD DS experience and knowledge who are lookig to build upon that core knowledge and cross-train into advanced Active Directory technologies in Windows Server 2012 and Windows Server 2012 R2.
+  - IT Professionals who have taken the 10967A&#58; Fundamentals of a Windows Server Infrastructure course and are looking to build upon that Active directory knowledge.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Experience working with Active Directory Domain Services (AD DS)
+  - Experience working in a Windows Server Infrastructure enterprise environment
+  - Experience working with and troubleshooting core networking infrastructure technologies such as name resolution, IP Addressing, Domain Name System (DNS) and Dynamic Host Configuration Protocol (DHCP)
+  - Experience working with Hyper-V and Server Virtualization concepts
+  - An awareness and understanding of general security best practices
+  - Experience working hands on with Windows client operating systems such as Windows Vista, Windows 7 or Windows 8
+outlineSection: |-
+  ### Module 1&#58; Overview of Access and Information Protection
+  This module provides an overview of multiple Access and Information Protection (AIP) technologies and services what are available with Windows Server 2012 and Windows Server 2012 R2 from a business perspective and maps business problems to technical solutions. It also includes coverage of Forefront Identify Manager (FIM).
+  #### Lessons
+  - Introduction to Access and Information Protection Solutions in Business
+  - Overview of AIP Solutions in Windows Server 2012
+  - Overview of FIM 2010 R2
+
+
+  #### Lab &#58; Choosing an Appropriate Access and Information Protection Management Solution
+
+  After completing this module students will be able to&#58;
+  - Describe Access and Information Protection solutions in business.
+  - Describe Access and Information Protection solutions in Windows Server 2012 and Windows Server 2012 R2.
+  - Describe Microsoft Forefront Identity Manager (FIM) 2010 R2.
+
+
+  ### Module 2&#58; Advanced Deployment and Administration of AD DS
+  This module explains how to deploy AD DS remotely and describes the virtualization safeguards, cloning abilities and extending AD DS to the cloud.
+  #### Lessons
+  - Deploying AD DS
+  - Deploying and Cloning Virtual Domain Controllers
+  - Deploying Domain Controllers in Windows Azure
+  - Administering AD DS
+
+
+  #### Lab &#58; Deploying and Administering AD DS
+
+  After completing this module, students will be able to&#58;
+  - Describe and perform various deployment techniques for AD DS.
+  - Describe virtual domain controller deployment considerations.
+  - Explain how new technologies in Windows Server 2012 and Windows Server 2012 R2 support virtual domain controllers.
+  - Describe Domain Controller cloning.
+  - Implement AD DS using the tools provided in Windows Server 2012 and Windows Server 2012 R2.
+
+
+  ### Module 3&#58; Securing AD DS
+  This module describes the threats to domain controllers and what methods can be used to secure the AD DS and its domain controllers.
+  #### Lessons
+  - Securing Domain Controllers
+  - Implementing Account Security
+  - Implementing Audit Authentication
+
+
+  #### Lab &#58; Securing AD DS
+
+  After completing this module, students will be able to&#58;
+  - Understand the importance of securing domain controllers.
+  - Describe the benefit of read-only domain controllers (RODCs).
+  - Explain and implement password and account lockout policies.
+  - Implement audit authentication.
+
+
+  ### Module 4&#58; Implementing and Administering AD DS Sites and Replication
+  This module explains how AD DS replicates information between domain controllers within a single site and throughout multiple sites. This module also explains how to create multiple sites and how to monitor replication to help optimize AD DS replication and authentication traffic.
+  #### Lessons
+  - Overview of AD DS Replication
+  - Configuring AD DS Sites
+  - Configuring and Monitoring AD DS Replication
+
+
+  #### Lab &#58; Implementing AD DS Sites and Replication
+
+  After completing this module, students will be able to&#58;
+  - Describe AD DS replication.
+  - Configure AD DS sites.
+  - Configure and monitor AD DS replication.
+
+
+  ### Module 5&#58; Implementing Group Policy
+  This module describes Group Policy, how it works, and how best to implement it within your organization.
+  #### Lessons
+  - Introducing Group Policy
+  - Implementing and Administering GPOs
+  - Group Policy Scope and Group Policy Processing
+  - Troubleshooting the Application of GPOs
+
+
+  #### Lab &#58; Implementing and Troubleshooting a Group Policy Infrastructure
+
+  After completing this module, students will be able to&#58;
+  - Describe Group Policy.
+  - Implement and administer GPOs.
+  - Describe Group Policy scope and Group Policy processing.
+  - Troubleshoot the application of GPOs.
+
+
+  ### Module 6&#58; Managing User Settings with Group Policy
+  This module describes how to how to use GPO Administrative Templates, Folder Redirection, and Group Policy features to configure users’ computer settings.
+  #### Lessons
+  - Implementing Administrative Templates
+  - Configuring Folder Redirection and Scripts
+  - Configuring Group Policy Preferences
+
+
+  #### Lab &#58; Managing User Desktops with Group Policy
+
+  After completing this module, students will be able to&#58;
+  - Implement Administrative Templates.
+  - Configure Folder Redirection and scripts.
+  - Configure Group Policy preferences.
+
+
+  ### Module 7&#58; Deploying and Managing AD CS
+  This module explain how to deploy and manage Certificate Authorities (CAs) with Active Directory Certificate Services (AD CS)
+  #### Lessons
+  - Deploying CAs
+  - Administering CAs
+  - Troubleshooting, Maintaining, and Monitoring CAs
+
+
+  #### Lab &#58; Deploying and Configuring a Two-Tier CA Hierarchy
+
+  After completing this module, students will be able to&#58;
+  - Deploy Certificate Authorities.
+  - Administer Certificate Authorities.
+  - Troubleshoot, maintain, and monitor Certificate Authorities.
+
+
+  ### Module 8&#58; Deploying and Managing Certificates
+  This module describes certificate usage in business environments and explains how to deploy and manage certificates, configure certificate templates and manage enrolment process. This module also covers the deployment and management of smart cards.
+  #### Lessons
+  - Using Certificates in a Business Environment
+  - Deploying and Managing Certificate Templates
+  - Managing Certificates Deployment, Revocation, and Recovery
+  - Implementing and Managing Smart Cards
+
+
+  #### Lab &#58; Deploying and Using Certificates
+
+  After completing this module, students will be able to&#58;
+  - Use certificates in business environments.
+  - Deploy and manage certificate templates.
+  - Manage certificates deployment, revocation and recovery.
+  - Implement and manage smart cards.
+
+
+  ### Module 9&#58; Implementing and Administering AD RMS
+  This module introduces Active Directory Rights Management Services (AD RMS). It also describes how to deploy AD RMS, how to configure content protection, and how to make AD RMS–protected documents available to external users.
+  #### Lessons
+  - Overview of AD RMS
+  - Deploying and Managing an AD RMS Infrastructure
+  - Configuring AD RMS Content Protection
+  - Configuring External Access to AD RMS
+
+
+  #### Lab &#58; Implementing an AD RMS Infrastructure
+
+  After completing this module, students will be able to&#58;
+  - Describe AD RMS.
+  - Explain how to deploy and manage an AD RMS infrastructure.
+  - Explain how to configure AD RMS content protection.
+  - Explain how to configure external access to AD RMS.
+
+
+  ### Module 10&#58; Implementing and Administering AD FS
+  This module explains AD FS, and then provides details on how to configure AD FS in both a single organization scenario and in a partner organization scenario. This module also describes the Web Application Proxy feature in Windows Server 2012 R2 that functions as an AD FS proxy and reverse proxy for web-based applications.
+  #### Lessons
+  - Overview of AD FS
+  - Deploying AD FS
+  - Implementing AD FS for a Single Organization
+  - Deploying AD FS in a Business-to-Business Federation Scenario
+  - Extending AD FS to External Clients
+
+
+  #### Lab &#58; Implementing AD FS
+
+  After completing this module, students will be able to&#58;
+  - Describe AD FS.
+  - Explain how to configure the AD FS prerequisites, and deploy AD FS services.
+  - Describe how to implement AD FS for a single organization.
+  - Deploy AD FS in a business-to-business federation scenario.
+  - Deploy the Web Application Proxy.
+
+
+  ### Module 11&#58; Implementing Secure Shared File Access
+  This module explains how to use Dynamic Access Control (DAC), Work Folders, Work place Join and how to plan and implement these technologies.
+  #### Lessons
+  - Overview of Dynamic Access Control
+  - Implementing DAC Components
+  - Implementing DAC for Access Control
+  - Implementing Access Denied Assistance
+  - Implementing and Managing Work Folders
+  - Implementing Workplace Join
+
+
+  #### Lab &#58; Implementing Secure File Access
+
+  After completing this module, students will be able to&#58;
+  - Describe DAC.
+  - Implement DAC components.
+  - Implement DAC for access control.
+  - Implement access-denied assistance.
+  - Implement and manage Work Folders.
+  - Implement Workplace Join.
+
+
+  ### Module 12&#58; Monitoring, Managing, and Recovering AD DS
+  This module explains how to use tools that help monitor performance in real time, and how to record performance over time to spot potential problems by observing performance trends. This module also explains how to optimize and protect your directory service and related identity and access solutions so that if a service does fail, you can restart it as quickly as possible.
+  #### Lessons
+  - Monitoring AD DS
+  - Managing the AD DS Database
+  - AD DS Backup and Recovery Options for AD DS and Other Identity and Access Solutions
+
+
+  #### Lab &#58; Monitoring AD DS
+
+  #### Lab &#58; Recovering Objects in AD DS
+
+  After completing this module, students will be able to&#58;
+  - Monitor AD DS.
+  - Manage the AD DS database.
+  - Recover objects from the AD DS database.
+
+
+  ### Module 13&#58; Implementing Windows Azure Active Directory
+  This module explains the concepts and technologies in Windows Azure Active Directory and how to implement and integrate it within your organization
+  #### Lessons
+  - Overview of Windows Azure AD
+  - Managing Windows Azure AD Accounts
+
+
+  #### Lab &#58; Implementing Windows Azure AD
+
+  After completing this module, students will be able to&#58;
+  - Describe Windows Azure AD.
+  - Administer Azure AD.
+
+
+  ### Module 14&#58; Implementing and Administering AD LDS
+  This module explains how to deploy and configure Active Directory Lightweight Directory Services (AD LDS)
+  #### Lessons
+  - Overview of AD LDS
+  - Deploying AD LDS
+  - Configuring AD LDS Instances and Partitions
+  - Configuring AD LDS Replication
+  - Integrating AD LDS with AD DS
+
+
+  #### Lab &#58; Implementing and Administering AD LDS
+
+  After completing this module, students will be able to&#58;
+  - Describe AD LDS.
+  - Explain how to deploy AD LDS.
+  - Explain how to configure AD LDS instances and partitions.
+  - Explain how to configure AD LDS replication.

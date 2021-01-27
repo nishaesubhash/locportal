@@ -1,0 +1,362 @@
+### YamlMime:Course
+title: Core Solutions of Skype for Business 2015/2019
+metadata:
+  title: 'Course 20334-C: Core Solutions of Skype for Business 2015/2019'
+  description: 'Course 20334-C: Core Solutions of Skype for Business 2015/2019'
+uid: course.20334
+courseNumber: '20334-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the architecture of Skype for Business and design a Skype for Business topology.
+- skill: Install and implement Skype for Business Server.
+- skill: Administer and manage Skype for Business Server by using the various available tools.
+- skill: Design and implement clients and users in Skype for Business.
+- skill: Implement conferencing in Skype for Business Server.
+- skill: Design and implement additional conferencing options.
+- skill: Design and implement monitoring and archiving in Skype for Business.
+- skill: Design and implement connectivity for external users and organizations.
+- skill: Implement Enterprise Voice in Skype for Business Server.
+- skill: Plan and implement high availability in Skype for Business.
+- skill: Design and implement disaster recovery scenarios for Skype for Business.
+- skill: Design and deploy Skype for Business hybrid.
+- skill: Plan and implement a migration to Skype for Business Server 2019 or Microsoft Teams.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- skype
+exams:
+- uid: exam.70-334
+summary: |-
+  This course provides students with the knowledge and skills required to plan, deploy, configure, and administer a Microsoft Skype for Business solution. Students will learn how to deploy a multi-site and highly available Skype for Business infrastructure that supports instant messaging (IM), conferencing, enterprise voice, archiving, and monitoring. Students will also learn how to manage, maintain, and troubleshoot issues in the infrastructure. 
+  
+  This course focuses primarily on the on-premises deployment of Skype for Business but does include information on how to integrate the on-premises deployment with Teams or Skype for Business Online as well as how to migrate from previous versions of Skype for Business Server. This course helps the students prepare for Exam 70-334&#58; Core Solutions of Skype for Business 2015.
+
+  #### Audience profile
+  The primary audience for this course is information technology (IT) professionals who are responsible for the Skype for Business deployment in their organizations. Experience with previous versions is beneficial but not required for students taking this course. Students should be proficient with Active Directory Domain Services (AD DS), data networks, and telecommunications standards and components that support the configuration of Skype for Business. Students should also be familiar with Microsoft Exchange Server and Microsoft 365.
+  
+  The secondary audience for this course includes IT professionals who are planning to take the exam 70- 334&#58; Core Solutions of Skype for Business 2015 as a stand-alone exam or as part of the requirement for the Microsoft Certified Solutions Expert (MCSE)&#58; Communications certification exam.
+prerequisitesSection: |-
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - Minimum of two years of experience administering Windows Server, including Windows Server 2016 or Windows Server 2019
+  - Minimum of two years of experience working with AD DS
+  - Minimum of two years of experience working with name resolution, including Domain Name System (DNS)
+  - Experience working with certificates, including public key infrastructure (PKI) certificates
+  - Experience working with Windows PowerShell
+  - Understanding of data networks and telecommunications standards and components
+outlineSection: |-
+  ### Module  1&#58; Design and architecture of Skype for Business Server
+  This module describes the high-level components and features of Skype for Business. It describes how to work with the Skype for Business administrative tools.
+  #### Lessons
+  - Overview of Skype for Business components and features
+  - Introduction to the Skype for Business administrative tools
+
+
+  #### Lab &#58; Designing and publishing a Skype for Business server topology
+  - Designing and creating the topology
+  - Updating the topology for the New York site
+
+  After completing this module, students will be able to&#58;
+  - Describe the high-level components and features of Skype for Business.
+  - Work with Skype for Business administrative tools.
+
+
+  ### Module  2&#58; Installing and Implementing Skype for Business Server
+  This module explains the external dependencies for Skype for Business Server. It describes the Session Initiation Protocol (SIP) domain requirements to ensure a successful implementation. It also explains how to install Skype for Business Server and describes how Skype for Business Server integrates with Exchange Server and Microsoft SharePoint Server.
+  #### Lessons
+  - Server and Service Dependencies
+  - Planning SIP Domains
+  - Installing Skype for Business Server
+  - Integrating Skype for Business Server with Exchange Server and SharePoint Server
+
+
+  #### Lab &#58; Configuring DNS and Simple URLs for Skype for Business Server
+  - Configuring the Required DNS Records and Simple URLs for Skype for Business Server
+
+
+  #### Lab &#58; Deploying Skype for Business Server
+  - Installing and Configuring Skype for Business Server
+  - Installing Skype for Business Server Certificates
+  - Updating Skype for Business Server
+
+  After completing this module, students will be able to&#58;
+  - Identify the external dependencies for Skype for Business Server.
+  - Identify the Session Initiation Protocol (SIP) domain requirements to ensure a successful implementation.
+  - Install Skype for Business Server.
+  - Describe how Skype for Business Server integrates with Microsoft Exchange Server and Microsoft SharePoint Server.
+
+
+  ### Module  3&#58; Administering Skype for Business Server
+  This module explains how to administer and manage Skype for Business Server by using Skype for Business Server Control Panel and the Skype for Business Server Management Shell. It also explains how to implement role-based access control (RBAC) in Skype for Business Server and how to use important Test cmdlets and tools to troubleshoot Skype for Business.
+
+  #### Lessons
+  - Skype for Business Server Control Panel
+  - Skype for Business Server Management Shell
+  - Implementing Role-Based Access Control
+  - Using Test Cmdlets
+  - Tools for Troubleshooting Skype for Business
+
+
+  #### Lab &#58; Using the Administrative Tools to Manage Skype for Business Server
+  - Installing the Skype for Business Control Panel on a Windows 10 Client
+  - Using Skype for Business Server Control Panel
+  - Using the Skype for Business Server Management Shell
+
+
+  #### Lab &#58; Using the Skype for Business Troubleshooting Tools
+  - Using Skype for Business Server Management Shell Cmdlets to Create an RBAC Structure
+  - Using the Centralized Logging Service
+  - Performing a Network Capture by Using Message Analyzer
+
+  After completing this module, students will be able to&#58;
+  - Administer Skype for Business Server by using the Skype for Business Server Control Panel.
+  - Manage Skype for Business Server by using the Skype for Business Server Management Shell.
+  - Implement RBAC in Skype for Business Server.
+  - Explain how to use important Test cmdlets.
+  - Use the various tools to troubleshoot Skype for Business.
+
+
+  ### Module  4&#58; Configuring Users and Clients in Skype for Business
+  This module explains how to configure users by using Skype for Business Server Control Panel and the Skype for Business Server Management Shell. It then describes how to deploy Skype for Business clients and explains the sign-in, registration, and authentication process for Skype for Business clients. It also explains how to configure client policies in Skype for Business Server. Finally, it explains how to manage the Skype for Business Address Book.
+
+
+
+  #### Lessons
+  - Configuring Users
+  - Deploying the Skype for Business Client
+  - The Registration, Sign-In, and Authentication Processes
+  - Configuring Skype for Business Client Policies
+  - Managing the Skype for Business Address Book
+
+
+  #### Lab &#58; Configuring Users and Clients in Skype for Business
+  - Enabling Users for Skype for Business by Using the Management Shell
+  - Troubleshooting a User Sign-In Issue
+
+
+  #### Lab &#58; Configuring Policies and the Address Book in Skype for Business Server
+  - Configuring Client Policies
+  - Configuring the Address Book
+
+  After completing this module, students will be able to&#58;
+  - Configure users for Skype for Business.
+  - Deploy Skype for Business clients.
+  - Explain the registration, authentication, and sign-in processes for Skype for Business clients.
+  - Configure client policies in Skype for Business Server.
+  - Manage the Skype for Business Address Book.
+
+
+  ### Module  5&#58; Configuring and Implementing Conferencing in Skype for Business
+  This module describes Skype for Business conferencing features and modalities. It explains how to integrate Skype for Business Server 2015 with Office Online Server. It also explains how to plan for conferencing bandwidth utilization. Finally, it explains how to configure conferencing settings and policies.
+  #### Lessons
+  - Introduction to Conferencing in Skype for Business
+  - Integrating Skype for Business Server and Office Online Server
+  - Bandwidth Planning
+  - Configuring Conferencing Settings
+
+
+  #### Lab &#58; Installing and Configuring Office Online Server
+  - Installing Office Online Server
+
+
+  #### Lab &#58; Configuring Conferencing in Skype for Business Server
+  - Configuring, Assigning, and Validating Conferencing Policies
+
+  After completing this module, students will be able to&#58;
+  - Describe Skype for Business conferencing features and modalities.
+  - Integrate Skype for Business Server with Microsoft Office Online Server.
+  - Plan for conferencing bandwidth utilization.
+  - Configure conferencing settings and policies.
+
+
+  ### Module  6&#58; Implementing Additional Conferencing Options in Skype for Business Server
+  This module explains the conferencing lifecycle. It also explains how to implement audio/video and Web conferencing policies and configure dial-in conferencing. Finally, it explains how to configure Microsoft Teams Rooms and configure large meetings and Skype meeting broadcasts.
+  #### Lessons
+  - Overview of the Conferencing Life Cycle
+  - Designing and Configuring Audio/Video and Web Conferencing Policies
+  - Deploying Dial-in Conferencing
+  - Configuring Miccrosoft Teams Rooms
+  - Configuring Large Meetings and Skype Meeting Broadcasts
+
+
+  #### Lab &#58; Implementing and Troubleshooting Conferencing Policies
+  - Creating and Editing Conferencing Policies
+  - Troubleshooting Conferencing Policies
+
+
+  #### Lab &#58; Configuring Additional Conferencing Modalities
+  - Deploying Dial-In Conferencing
+  - Deploying Microsoft Teams Rooms with Skpe for Buisness Server
+
+  After completing this module, students will be able to&#58;
+  - Explain the conferencing lifecycle.
+  - Implement audio/video and Web conferencing policies.
+  - Configure dial-in conferencing.
+  - Configure Microsoft Teams Rooms.
+  - Explain how to configure large meetings and Skype meeting broadcasts.
+
+
+  ### Module  7&#58; Designing and Implementing Monitoring and Archiving in Skype for Business
+  This module describes the components of the monitoring service in Skype for Business Server, and how to implement archiving in Skype for Business Server. It then describes how to design and implement an archiving policy.
+  #### Lessons
+  - Components of the Monitoring Service
+  - Implementing Archiving
+  - Designing an Archiving Policy
+  - Implementing an Archiving Policy
+
+
+  #### Lab &#58; Implementing Monitoring
+  - Enabling Monitoring Reports
+
+
+  #### Lab &#58; Implementing Archiving
+  - Experiencing Archiving of an IM Session to Exchange
+
+  After completing this module, students will be able to&#58;
+  - Describe the components of the monitoring service in Skype for Business Server.
+  - Implement archiving in Skype for Business Server.
+  - Explain how to design an archiving policy.
+  - Explain how to implement an archiving policy.
+
+
+  ### Module  8&#58; Deploying Skype for Business External Access
+  This module describes the modalities for external access and capabilities for remote users. It also explains how to implement External Access Policies and security to meet the needs of an organization. Additionally, it explains how to manage external network configurations and create and manage reverse proxy configurations. Finally, it explains how to design and manage the mobility service and how to design and configure federation.
+  #### Lessons
+  - External Access Overview
+  - Configuring External Access Policies and Security
+  - Configuring External Access Network and Certificates
+  - Configuring Reverse Proxy
+  - Designing Mobility in Skype for Business Server
+  - Designing Federation in Skype for Business Server
+
+
+  #### Lab &#58; Designing and Implementing External User Access
+  - Defining the Edge Server in the Topology
+  - Installing and Configuring the Edge Server
+
+
+  #### Lab &#58; Installing the Components for External Users
+  - Installing and Configuring Reverse Proxy
+  - Validate External Messaging
+
+  After completing this module, students will be able to&#58;
+  - Describe the modalities for external access and capabilities for remote users.
+  - Implement External Access Policies and security to meet the needs of an organization.
+  - Manage external network configurations.
+  - Create and manage reverse proxy configurations.
+  - Explain how to design and manage the mobility service.
+  - Explain how to design and configure federation.
+
+
+  ### Module  9&#58; Implementing Enterprise Voice in Skype for Business Server
+  This module explains how to connect to a PSTN. It then explains how to configure and manage Enterprise Voice. It also describes voice routing. Finally, it explains how to assign phone numbers, configure voicemail, and configure voice applications.
+  #### Lessons
+  - Connecting to the PSTN
+  - Configuring Enterprise Voice
+  - Configuring Voice Routing
+  - Assigning Phone Numbers
+  - Configuring Voicemail
+  - Voice Applications
+
+
+  #### Lab &#58; Deploying and Configuring Enterprise Voice
+  - Deploying Enterprise Voice
+  - Configuring Dial Plans
+  - Configuring a Voice Route, Voice Policy, PSTN Usage, and Trunk Configuration
+  - Assigning User Dial  Plans and Policies
+
+  After completing this module, students will be able to&#58;
+  - Describe how to connect to a PSTN.
+  - Configure and manage Enterprise Voice.
+  - Describe voice routing.
+  - Explain how to assign phone numbers.
+  - Describe how to configure voicemail.
+  - Describe how to configure voice applications.
+
+
+  ### Module  10&#58; Implementing High Availability in Skype for Business
+  This module describes how to plan for Front End pool high availability and high availability for Back End Servers. It also describes high-availability solutions for the other components of Skype for Business.
+
+  #### Lessons
+  - Planning for Front End Pool High Availability
+  - Planning for Back End Server High Availability
+  - High Availability for Other Component Servers
+
+
+  #### Lab &#58; Pre-Lab Configuration
+  - Preparing for the Lab
+
+
+  #### Lab &#58; Implementing High Availability
+  - Managing Front End Pools
+  - Configuring Hardware Load Balancing
+
+  After completing this module, students will be able to&#58;
+  - Plan for Front End pool high availability.
+  - Plan the high availability for Back End Servers.
+  - Describe high-availability solutions for the other components of Skype for Business.
+
+
+  ### Module  11&#58; Implementing Disaster Recovery in Skype for Business
+  This module describes the concepts of disaster recovery in Skype for Business Server. It then explains how to implement disaster recovery in Skype for Business Server. Finally, it describes how to plan additional disaster recovery scenarios.
+  #### Lessons
+  - Disaster Recovery Options in Skype for Business Server
+  - Implementing Disaster Recovery in Skype for Business Server
+  - Additional Disaster Recovery Options in Skype for Business Server
+
+
+  #### Lab &#58; Implementing and Performing Disaster Recovery
+  - Configuring Pool Pairing
+  - Perform Pool Failover and Failback
+
+  After completing this module, students will be able to&#58;
+  - Explain the concepts of disaster recovery in Skype for Business Server.
+  - Implement disaster recovery in Skype for Business Server.
+  - Explain how to plan additional disaster recovery scenarios.
+
+
+  ### Module  12&#58; Implementing a Skype for Business Server and Office 365 Hybrid Deployment
+  This module describes how to implement and manage Teams. It then explains how to prepare for a Skype for Business hybrid deployment. It also explains how to configure a Skype for Business hybrid environment.
+  #### Lessons
+  - Overview of Office 365
+  - Preparing for a Hybrid Deployment
+  - Configuring a Hybrid Skype for Business Environment
+
+
+  #### Lab &#58; Designing a Hybrid Skype for Business Server Environment
+  - Designing the Hybrid Skype for Business Deployment
+
+  After completing this module, students will be able to&#58;
+  - Explain how to implement and manage Teams.
+  - Explain how to prepare for a Skype for Business hybrid deployment.
+  - Explain how to configure a Skype for Business hybrid environment.
+
+
+  ### Module  13&#58; Planning and Implementing a Migration to Skype for Business Server or Microsoft Teams
+  This module describes supported migration and upgrade paths for Skype for Business Server 2015 and Skype for Business Server 2019. It also describes how to perform a migration from Lync Server 2013 to Skype for Business Server. Finally, it explains how to manage the user experience during an upgrade or migration.
+  #### Lessons
+  - Overview of Upgrade and Migration Paths
+  - Migrating to Skype for Business Server 2019
+  - Migrating to Microsoft Teams
+  - In-Place Upgrade to Skype for Business Server 2015
+
+
+  #### Lab &#58; Performing a Side-by-Side Migration of Lync Server 2013 to Skype for Business Server 2019
+  - Prepare Migration and Deploy Pilot Pool
+  - Move Pilot Users
+
+
+  #### Lab &#58; Performing an In-Place Upgrade of Lync Server 2013 to Skype for Business Server 2015
+  - Installing Skype for Business Administrative Tools
+  - Performing In-Place Upgrade from Lync Server 2013 to Skype for Business Server 2015
+
+  After completing this module, students will be able to&#58;
+  - Describe the migration paths from Lync Server 2013 and Skype for Business Server 2015.
+  - Migrate to Skype for Business Server 2019.
+  - Describe the migration path to Microsoft Teams.
+  - Describe the process for an in-place upgrade to Skype for Business Server 2015.

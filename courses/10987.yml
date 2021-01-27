@@ -1,0 +1,185 @@
+### YamlMime:Course
+title: Performance Tuning and Optimizing SQL Databases
+metadata:
+  title: 'Course 10987-C: Performance Tuning and Optimizing SQL Databases'
+  description: 'Course 10987-C: Performance Tuning and Optimizing SQL Databases'
+uid: course.10987
+courseNumber: '10987-C'
+hoursToComplete: 96
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the high level architectural overview of SQL Server and its various components.
+- skill: Describe the SQL Server execution model, waits and queues.
+- skill: Describe core I/O concepts, Storage Area Networks and performance testing.
+- skill: Describe architectural concepts and best practices related to data files for user databases and TempDB.
+- skill: Describe architectural concepts and best practices related to Concurrency, Transactions, Isolation Levels and Locking.
+- skill: Describe architectural concepts of the Optimizer and how to identify and fix query plan issues.
+- skill: Describe architectural concepts, troubleshooting scenarios and best practices related to Plan Cache.
+- skill: Describe architectural concepts, troubleshooting strategy and usage scenarios for Extended Events.
+- skill: Explain data collection strategy and techniques to analyze collected data.
+- skill: Understand techniques to identify and diagnose bottlenecks to improve overall performance.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- sql-server
+summary: |-
+  This four-day instructor-led course provides students who manage and maintain SQL Server databases with the knowledge and skills to performance tune and optimize their databases.
+
+  #### Audience profile
+  The primary audience for this course is individuals who administer and maintain SQL Server databases and are responsible for optimal performance of SQL Server instances that they manage. These individuals also write queries against data and need to ensure optimal execution performance of the workloads.
+  
+  The secondary audiences for this course are individuals who develop applications that deliver content from SQL Server databases.
+prerequisitesSection: |-
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - Basic knowledge of the Microsoft Windows operating system and its core functionality.
+  - Working knowledge of database administration and maintenance.
+  - Working knowledge of Transact-SQL.
+outlineSection: |-
+  ### Module 1&#58; SQL Server Architecture, Scheduling, and Waits
+  This module covers high level architectural overview of SQL Server and its various components. It dives deep into SQL Server execution model, waits and queues.
+  #### Lessons
+  - SQL Server Components and SQL OS
+  - Windows Scheduling vs SQL Scheduling
+  - Waits and Queues
+
+
+  #### Lab &#58; SQL Server Architecture, Scheduling, and Waits
+  After completing this module, you will be able to&#58; 
+  - Describe the SQL Server components and SQL OS
+  - Describe the differences between Windows Scheduling and SQL scheduling
+  - Describe waits and queues
+
+
+  ### Module 2&#58; SQL Server I/O
+  This module covers core I/O concepts, Storage Area Networks and performance testing. It focuses on SQL Server I/O operations and how to test storage performance.
+  #### Lessons
+  - Core Concepts
+  - Storage Solutions
+  - I/O Setup and Testing
+
+
+  #### Lab &#58; Testing Storage Performance
+  After completing this module, you will be able to&#58; 
+  - Describe the core concepts of SQL I/O
+  - Describe storage solutions
+  - Setup and test I/O
+
+
+  ### Module 3&#58; Database Structures
+  This module covers Database Structures, Data File and TempDB Internals. It focuses on architectural concepts and best practices related to data files for user databases and TempDB.
+  #### Lessons
+  - Database Structure Internals
+  - Data File Internals
+  - TempDB Internals
+
+
+  #### Lab &#58; Database Structures
+  After completing this module, you will be able to&#58; 
+  - Describe the internal setup of database structures
+  - Describe the internal setup of data files. 
+  - Describe the internal setup of TempDB
+
+
+  ### Module 4&#58; SQL Server Memory
+  This module covers Windows and SQL Server Memory internals. It focuses on architectural concepts and best practices related to SQL Server Memory Configuration.
+  #### Lessons
+  - Windows Memory
+  - SQL Server Memory
+  - In-Memory OLTP
+
+
+  #### Lab &#58; SQL Server Memory
+  After completing this module, you will be able to&#58; 
+  - Describe the components of Windows memory
+  - Describe the components of SQL Server memory
+  - Describe In-Memory OLTP
+
+
+  ### Module 5&#58; SQL Server Concurrency
+  This module covers Transactions and Locking Internals. It focuses on architectural concepts and best practices related to Concurrency, Transactions, Isolation Levels and Locking.
+  #### Lessons
+  - Concurrency and Transactions
+  - Locking Internals
+
+
+  #### Lab &#58; SQL Server Concurrency
+  After completing this module, you will be able to&#58; 
+  - Explain concurrency and transactions
+  - Describe locking
+
+
+  ### Module 6&#58; Statistics and Index Internals
+  This module covers Statistics and Index Internals. It focuses on architectural concepts and best practices related to Statistics and Indexes.
+  #### Lessons
+  - Statistics Internals and Cardinality Estimation
+  - Index Internals
+  - Columnstore Indexes
+
+
+  #### Lab &#58; Statistics and index Internals
+  After completing this module, you will be able to&#58; 
+  - Describe statistics internals
+  - Explain cardinality estimation
+  - Describe why you would use Columnstore indexes and be able to implement one
+
+
+  ### Module 7&#58; Query Execution and Query Plan Analysis
+  This module covers Query Execution and Query Plan Analysis. It focuses on architectural concepts of the Optimizer and how to identify and fix query plan issues.
+  #### Lessons
+  - Query execution and optimizer internals
+  - Query execution plans
+  - Analyzing query execution plans
+  - Adaptive query processing
+
+
+  #### Lab &#58; Query execution and query plan analysis
+  After completing this module, you will be able to&#58; 
+  - Describe query execution and optimizer
+  - Analyze query plans and resolve common issues
+
+
+  ### Module 8&#58; Plan Caching and Recompilation
+  This module covers Plan Caching and Recompilation. It focuses on architectural concepts, troubleshooting scenarios and best practices related to Plan Cache.
+  #### Lessons
+  - Plan cache internals
+  - Troubleshooting plan cache issues
+  - Automatic tuning
+  - Query store
+
+
+  #### Lab &#58; Plan caching and recompilation
+  After completing this module, you will be able to&#58; 
+  - Describe plan cache
+  - Troubleshoot plan cache issues
+  - Describe query store and why you would use it
+
+
+  ### Module 9&#58; Extended Events
+  This module covers Extended Events. It focuses on architectural concepts, troubleshooting strategy and usage scenarios for Extended Events.
+  #### Lessons
+  - Extended events core concepts
+  - Working with extended events
+
+
+  #### Lab &#58; Extended events
+  After completing this module, you will be able to&#58; 
+  - Describe the core concepts of extended events
+  - Implement extended events
+
+
+  ### Module 10&#58; Monitoring, Tracing, and Baselining
+  This module covers tools and techniques to monitor, trace and baseline SQL Server performance data. It focuses on data collection strategy and techniques to analyze collected data.
+  #### Lessons
+  - Monitoring and tracing
+  - Baselining and benchmarking
+
+
+  #### Lab &#58; Monitoring, Tracing and Baselining
+  After completing this module, you will be able to&#58; 
+  - Describe various options for monitoring and tracing
+  - Describe various options for benchmarking and baselining

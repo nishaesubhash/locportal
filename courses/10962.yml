@@ -1,0 +1,214 @@
+### YamlMime:Course
+title: Advanced Automated Administration With Windows PowerShell
+metadata:
+  title: 'Course 10962-C: Advanced Automated Administration With Windows PowerShell'
+  description: 'Course 10962-C: Advanced Automated Administration With Windows PowerShell'
+uid: course.10962
+courseNumber: '10962-C'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Create advanced functions.
+- skill: Use Microsoft .NET Framework and REST API in Windows PowerShell.
+- skill: Write controller scripts.
+- skill: Handle script errors.
+- skill: Use XML, JSON, and custom formatted data.
+- skill: Enhance server management with Desired State Configuration and Just Enough Administration.
+- skill: Analyze and debug scripts
+- skill: Understand Windows PowerShell workflow.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+summary: |-
+  This is a three-day course that will teach students how to automate administrative tasks using Windows PowerShell 5.1. Students will learn core scripting skills such as creating advanced functions, writing controller scripts, and handling script errors. Students will learn how to works with Windows PowerShell Workflow, the REST API and XML and JSON formatted data files, Students will also learn how to use new administration tools such Desired State Configuration (DSC) and Just Enough Administration (JEA) to configure and secure servers.
+
+  #### Audience profile
+  This course is intended for IT professionals who are experienced in general Windows Server and Windows Client administration. Students should have a foundational knowledge of Windows PowerShell, which they can obtain by taking course 10961C&#58; Automating Administration with Windows PowerShell.
+  
+  In addition, this course provides scripting guidance for developers who support development environments and deployment processes.
+prerequisitesSection: |-
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - Experience with Windows networking technologies and implementation.
+  - Experience with Windows Server administration, maintenance, and troubleshooting.
+  - Experience with Windows Client administration, maintenance, and troubleshooting.
+  - Experience with using Windows PowerShell to run commands and to create basic non-modularized scripts.
+  
+  Students who attend this training can meet the prerequisites by obtaining equivalent knowledge and skills through practical experience as a Windows System Administrator. Course 10961&#58; Automating Administration with Windows PowerShell is strongly recommended to obtain prerequisite skills in Windows PowerShell.
+outlineSection: |-
+  ### Module 1&#58; Creating advanced functions
+  This module explains how to parameterize a command into an advanced function.
+  #### Lessons
+  - Converting a command into an advanced function
+  - Creating a script module
+  - Defining parameter attributes and input validation
+  - Writing functions that accept pipeline input
+  - Producing complex pipeline output
+  - Documenting functions by using comment-based help
+  - Supporting -WhatIf and -Confirm
+
+
+  #### Lab &#58; Converting a command into an advanced function
+  - Converting a command into an advanced function
+
+
+  #### Lab &#58; Creating a script module
+  - Creating a script module
+
+
+  #### Lab &#58; Defining parameter attributes and input validation
+  - Defining parameter attributes and input validation
+
+
+  #### Lab &#58; Writing functions that accept pipeline input
+  - Writing functions that accept pipeline input
+
+
+  #### Lab &#58; Producing complex pipeline output
+  - Producing complex pipeline output
+
+
+  #### Lab &#58; Documenting functions by using comment-based help
+  - Documenting functions by using comment-based help
+
+
+  #### Lab &#58; Supporting -WhatIf and -Confirm
+  - Supporting -WhatIf and -Confirm
+
+  After completing this module, students will be able to&#58;
+  - Convert a command into an advanced function.
+  - Create a script module.
+  - Define parameter attributes and input validation.
+  - Write functions that accept pipeline input.
+  - Produce complex pipeline output.
+  - Document functions by using comment-based help.
+  - Support -WhatIf and -Confirm.
+
+
+  ### Module 2&#58; Using Microsoft .NET Framework and REST API in Windows PowerShell
+  This module explains how to use Microsoft .NET Framework and REST API to supplement functionality that Windows PowerShell commands provide.
+  #### Lessons
+  - Using Microsoft .NET Framework in Windows PowerShell
+  - Using REST API in Windows PowerShell
+
+
+  #### Lab &#58; Using Microsoft .NET Framework in Windows PowerShell
+  - Using Microsoft .NET Framework in Windows PowerShell
+
+
+  #### Lab &#58; Using REST API in Windows PowerShell
+  - Using REST API in Windows PowerShell
+
+  After completing this module, students will be able to&#58;
+  - Use Microsoft .NET Framework in Windows PowerShell.
+  - Use REST API in Windows PowerShell.
+
+
+  ### Module 3&#58; Writing controller scripts
+  This module explains how to combine advanced functions that perform a specific task and a controller script that provides a user interface or automates a business process.
+  #### Lessons
+  - Introducing controller scripts
+  - Writing controller scripts that display a user interface
+  - Writing controller scripts that produce reports
+
+
+  #### Lab &#58; Writing controller scripts
+  - Writing controller scripts that display a user interface
+  - Writing controller scripts that implement a text-based menu
+
+
+  #### Lab &#58; Writing controller scripts that produce HTML reports
+  - Writing functions to be used in the controller script
+  - Writing a controller script that produces HTML reports
+
+  After completing this module, students will be able to&#58;
+  - Describe controller scripts.
+  - Write controller scripts that display a user interface.
+  - Write controller scripts that produce reports.
+
+
+  ### Module 4&#58; Handling script errors
+  This module explains how to perform basic error handling in scripts.
+  #### Lessons
+  - Understanding error handling
+  - Handling errors and timeouts in a script
+
+
+  #### Lab &#58; Handling errors in a script
+  - Handling errors in a script
+
+  After completing this module, students will be able to&#58;
+  - Describe error handling.
+  - Handle errors and timeouts in a script.
+
+
+  ### Module 5&#58; Using XML, JSON, and custom-formatted data
+  This module explains how to read, manipulate, and write data in XML and JSON format.
+  #### Lessons
+  - Reading, manipulating, and writing XML-formatted data
+  - Reading, manipulating, and writing JSON-formatted  data
+  - Reading and manipulating custom-formatted data
+
+
+  #### Lab &#58; Reading, manipulating, and writing XML-formatted data
+  - Testing the provided tools
+  - Updating an XML inventory document
+
+  After completing this module, students will be able to&#58;
+  - Read, manipulate, and write XML-formatted data.
+  - Read, manipulate, and write JSON-formatted data.
+  - Read and manipulate custom-formatted data.
+
+
+  ### Module 6&#58; Enhancing server management with Desired State Configuration and Just Enough Administration
+  This module explains how to write Desired State Configuration (DSC) configuration files, deploy those files to servers, and monitor server's configurations. This module also explains how to restrict administrative access with Just Enough Administration (JEA).
+  #### Lessons
+  - Understanding Desired State Configuration
+  - Creating and deploying a DSC configuration
+  - Implementing Just Enough Administration
+
+
+  #### Lab &#58; Creating and deploying a DSC configuration
+  - Creating and deploying a DSC configuration
+
+
+  #### Lab &#58; Configuring and using JEA
+  - Configuring and using JEA
+
+  After completing this module, students will be able to&#58;
+  - Understand DSC.
+  - Create and deploy a DSC configuration.
+  - Implement JEA.
+
+
+  ### Module 7&#58; Analyzing and debugging scripts
+  This module explains how to use native Windows PowerShell features to analyze and debug existing scripts.
+  #### Lessons
+  - Debugging in Windows PowerShell
+  - Analyzing and debugging an existing script
+
+
+  #### Lab &#58; Analyzing and debugging an existing script
+  - Analyzing and debugging an existing script
+
+  After completing this module, students will be able to&#58;
+  - Debug in Windows PowerShell.
+  - Analyze and debug an existing script.
+
+
+  ### Module 8&#58; Understanding Windows PowerShell Workflow
+  This module explains the features of the Windows PowerShell Workflow technology.
+  #### Lessons
+  - Understanding Windows PowerShell Workflow
+
+
+  #### Lab &#58; Creating and running a Windows PowerShell Workflow
+  - Creating and running a Windows PowerShell Workflow
+
+  After completing this module, students will be able to&#58;
+  - Describe and implement the Workflow feature of Windows PowerShell.

@@ -1,0 +1,297 @@
+### YamlMime:Course
+title: Automating Administration With Windows PowerShell
+metadata:
+  title: 'Course 10961-C: Automating Administration With Windows PowerShell'
+  description: 'Course 10961-C: Automating Administration With Windows PowerShell'
+uid: course.10961
+courseNumber: '10961-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the functionality of Windows PowerShell and use it to run and find basic commands.
+- skill: Identify and run cmdlets for server administration.
+- skill: Work with Windows PowerShell pipeline.
+- skill: Describe the techniques Windows PowerShell pipeline uses.
+- skill: Use PSProviders and PSDrives to work with other forms of storage.
+- skill: Query system information by using WMI and CIM.
+- skill: Work with variables, arrays, and hash tables.
+- skill: Write basic scripts in Windows PowerShell.
+- skill: Write advanced scripts in Windows PowerShell.
+- skill: Administer remote computers.
+- skill: Use background jobs and scheduled jobs.
+- skill: Use advanced Windows PowerShell techniques.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+summary: |-
+  This course provides students with the fundamental knowledge and skills to use Windows PowerShell for administering and automating administration of Windows servers. This course provides students the skills to
+  identify and build the command they require to perform a specific task. In addition, students learn how to build scripts to accomplish advanced tasks such as automating repetitive tasks and generating reports. This course provides prerequisite skills supporting a broad range of Microsoft products, including Windows Server, Windows Client, Microsoft Exchange Server, Microsoft SharePoint Server, Microsoft SQL Server, System Center, and more. In keeping with that goal, this course will not focus on any one of those products, although Windows
+  Server, which is the common platform for all of those products, will serve as the example for the techniques this course teaches.
+
+  #### Audience profile
+  This course is intended for IT Professionals who are already experienced in general Windows Server and Windows Client administration, and who want to learn more about using Windows PowerShell for administration. No prior experience with any version of Windows PowerShell, or any scripting language, is assumed. This course is also suitable for IT Professionals already experienced in server administration, including Exchange Server, SharePoint Server, SQL Server, System Center, and others.
+prerequisitesSection: |-
+  - Experience with Windows networking technologies and implementation.
+  - Experience with Windows Server administration, maintenance, and troubleshooting.
+  - Experience with Windows Client administration, maintenance, and troubleshooting
+  - Students who attend this training can meet the prerequisites by obtaining equivalent knowledge and skills through practical experience as a Windows system administrator. No prerequisite courses are required.
+outlineSection: |-
+  ### Module 1&#58; Getting started with Windows PowerShell
+  This module will introduce you to Windows PowerShell and provide an overview of the product's functionality. The module shows you how to open and configure the shell for use and how to run commands within the shell. The module also introduces the built-in Help system in Windows PowerShell.
+  #### Lessons
+  - Overview and background of Windows PowerShell
+  - Understanding command syntax
+  - Finding commands
+
+
+  #### Lab &#58; Configuring Windows PowerShell
+  - Configuring the Windows PowerShell console
+  - Configuring the Windows PowerShell ISE application
+
+
+  #### Lab &#58; Finding and running basic commands
+  - Finding commands
+  - Running commands
+  - Using the About files
+
+  After completing this module, students will be able to&#58;
+  - Open and configure Windows PowerShell.
+  - Find and run Windows PowerShell commands.
+  - Run commands by using the correct command and parameter syntax.
+
+
+  ### Module 2&#58; Cmdlets for administration
+  This module introduces you to the cmdlets commonly used for administration. While you can search for cmdlets each time you need to accomplish a task, it is more efficient to have at least a basic understanding of the cmdlets available for system administration.
+  #### Lessons
+  - Active Directory administration cmdlets
+  - Network configuration cmdlets
+  - Other server administration cmdlets
+
+
+  #### Lab &#58; Windows Administration
+  - Creating and managing Active Directory objects
+  - Configuring network settings on Windows Server
+  - Creating a web site
+
+  After completing this module, students  will be able to&#58;
+  - Identify and use cmdlets for Active Directory administration.
+  - Identify and use cmdlets for network configuration.
+  - Identify and use cmdlets for other server administration tasks.
+
+
+  ### Module 3&#58; Working with the Windows PowerShell pipeline
+  This module introduces the pipeline feature of Windows PowerShell. Although the pipeline feature is included in several command-line shells such as the command prompt in the Windows operating system, the pipeline feature in Windows PowerShell provides more complex, more flexible, and more capable functionalities compared to other shells. This module provides you with the skills and knowledge that will help you use the shell more effectively and efficiently.
+  #### Lessons
+  - Understanding the pipeline
+  - Selecting, sorting, and measuring objects
+  - Filtering objects out of the pipeline
+  - Enumerating objects in the pipeline
+  - Sending pipeline data as output
+
+  #### Lab &#58; Using the pipeline
+  - Selecting, sorting, and displaying data
+
+
+  #### Lab &#58; Filtering objects
+  - Filtering objects
+
+
+  #### Lab &#58; Enumerating objects
+  - Enumerating objects
+
+
+  #### Lab &#58; Sending output to a file
+  - Exporting user information to a file
+
+  After completing this module, students will be able to&#58;
+  - Describe the purpose of the Windows PowerShell pipeline.
+  - Select, sort, and measure objects in the pipeline.
+  - Filter objects out of the pipeline.
+  - Enumerate objects in the pipeline.
+  - Send output consisting of pipeline data.
+
+
+  ### Module 4&#58; Understanding how the pipeline works
+  This module shows you how Windows PowerShell passes objects from one command to another in the pipeline. The shell provides two techniques that you can use. Knowing how these techniques work, and which one will be used in a given scenario, lets you construct more useful and complex command lines.
+  #### Lessons
+  - Passing the pipeline data
+  - Advanced considerations for pipeline data
+
+
+  #### Lab &#58; Working with pipeline parameter binding
+  - Predicting pipeline behaviour
+
+  After completing this module, students will be able to&#58;
+  - Pass data by using the ByValue technique.
+  - Describe the advanced techniques for passing pipeline data.
+
+
+  ### Module 5&#58; Using PSProviders and PSDrives
+  This module introduces the PSProviders and PSDrives adapters. A PSProvider is basically a Windows PowerShell adapter that makes some form of storage resemble a disk drive. A PSDrive is an actual connection to a form of storage. You can use these two adapters to work with various forms of storage by using the same commands and techniques that you use to manage the file system.
+  #### Lessons
+  - Using PSProviders
+  - Using PSDrives
+
+
+  #### Lab &#58; Using PSProviders and PSDrives
+  - Creating files and folders on a remote computer
+  - Creating a registry key for your future scripts
+  - Create a new Active Directory group
+
+  After completing this module, students will be able to&#58;
+  - Use PSProviders.
+  - Use PSDrives.
+
+
+  ### Module 6&#58; Querying system information by using WMI and CIM
+  This module introduces you to two parallel technologies&#58; Windows Management Instrumentation (WMI) and Common Information Model (CIM). Both these technologies provide local and remote access to a repository of management information including access to robust information available from the operating system, computer hardware, and installed software.
+  #### Lessons
+  - Understanding WMI and CIM
+  - Querying data by using WMI and CIM
+  - Making changes with WMI/CIM
+
+
+  #### Lab &#58; Working with WMI and CIM
+  - Querying information by using WMI
+  - Querying information by using CIM
+  - Invoking methods
+
+  After completing this module, students will be able to&#58;
+  - Explain the differences between Common Information Model (CIM) and Windows Management Instrumentation (WMI).
+  - Query management information by using CIM and WMI.
+  - Invoke methods by using CIM and WMI.
+
+
+  ### Module 7&#58; Working with variables, arrays, and hash tables
+  This module provides you the skills and knowledge required to use variables, arrays, and hash tables in Windows PowerShell.
+  #### Lessons
+  - Using variables.
+  - Manipulating variables.
+  - Manipulating arrays and hash tables.
+
+
+  #### Lab &#58; Working with variables
+  - Working with variable types
+  - Using arrays
+  - Using hash tables
+
+  After completing this module, students will be able to&#58;
+  - Assign a value to variables.
+  - Describe how to manipulate variables.
+  - Describe how to manipulate arrays and hash tables.
+
+
+  ### Module 8&#58; Basic scripting
+  This module shows you how to package a Windows PowerShell command in a script. Scripts allow you to perform repetitive tasks and more complex tasks than cannot be accomplished in a single command.
+  #### Lessons
+  - Introduction to scripting
+  - Scripting constructs
+  - Importing data from files
+
+
+  #### Lab &#58; Basic scripting
+  - Setting a script
+  - Processing an array with a ForEach loop
+  - Processing items by using If statements
+  - Creating a random password
+  - Creating users based on a CSV file
+
+  After completing this module, students will be able to&#58;
+  - Run a Windows PowerShell script.
+  - Use Windows PowerShell scripting constructs.
+  - Import data from a file.
+
+
+  ### Module 9&#58; Advanced scripting
+  This module introduces you to more advanced techniques that you can use in scripts. These techniques includes gathering user input, reading input from files, documenting scripts with help information and error handling.
+  #### Lessons
+  - Accepting user input
+  - Overview of script documentation
+  - Troubleshooting and error handling
+  - Functions and modules
+
+
+  #### Lab &#58; Accepting data from users
+  - Querying disk information from remote computers
+  - Updating the script to use alternate credentials
+  - Documenting a script
+
+
+  #### Lab &#58; Implementing functions and modules
+  - Creating a logging function
+  - Adding error handling to a script
+  - Converting a function to a module
+
+  After completing this module, students will be able to&#58;
+  - Accept user input for a script.
+  - Explain script documentation.
+  - Implement error handling for a script.
+  - Explain functions and modules.
+
+  ### Module 10&#58; Administering Remote Computers
+  This module introduces you to the Windows PowerShell remoting technology that enables you to connect to one or more remote computers and instruct them to run commands on your behalf.
+  #### Lessons
+  - Using basic Windows PowerShell remoting
+  - Using advanced Windows PowerShell remoting techniques
+  - Using PSSessions
+
+
+  #### Lab &#58; Using basic remoting
+  - Enabling remoting on the local computer
+  - Performing one-to-one remoting
+  - Performing one-to-many remoting
+
+
+  #### Lab &#58; Using PSSessions
+  - Using implicit remoting
+  - Managing multiple computers
+
+  After completing this module, students will be able to&#58;
+  - Describe remoting architecture and security.
+  - Use advanced remoting techniques.
+  - Create and manage persistent remoting sessions.
+
+
+  ### Module 11&#58; Using background jobs and scheduled jobs
+  This module provides information about the job features of Windows PowerShell. Jobs are an extension point in Windows PowerShell, and there are many different kinds of jobs. Each kind of job can work slightly differently, and has different capabilities.
+  #### Lessons
+  - Using background jobs
+  - Using scheduled jobs
+
+
+  #### Lab &#58; Using background jobs and scheduled jobs
+  - Starting and managing jobs
+  - Creating a scheduled job
+
+  After completing this module, students will be able to&#58;
+  - Create and manage background jobs.
+  - Create and manage scheduled jobs.
+
+
+  ### Module 12&#58; Using advanced Windows PowerShell techniques
+  This module covers several advanced Windows PowerShell techniques and features. Many of these techniques and features extend functionality that you have learned about in previous modules. Some of these techniques are new and provide additional capabilities.
+  #### Lessons
+  - Creating profile scripts
+  - Using advanced techniques
+
+
+  #### Lab &#58; Practicing advanced techniques
+  - Creating a profile script
+  - Verifying the validity of an IP address
+  - Reporting disk information
+  - Configuring NTFS permissions
+  - Creating user accounts with passwords from a CSV file
+
+
+  #### Lab &#58; Practicing script development (optional)
+  - TBA
+
+  After completing this module, students will be able to&#58;
+  - Create and manage profile scripts.
+  - Use advanced techniques to work with data.
