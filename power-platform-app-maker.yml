@@ -1,0 +1,97 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Power Platform App Maker Associate'
+metadata:
+  title: 'Microsoft Certified: Power Platform App Maker Associate'
+  description: The app maker builds solutions to simplify, automate, and transform tasks and processes for themselves and their team where they have deep expertise in the solution domain. They are skilled in key technical business analyst tasks such as data modeling, basic UX design, requirements analysis, and process analysis.
+uid: certification.power-platform-app-maker
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong><br/><br/></font></div>
+  
+  The app maker builds solutions to simplify, automate, and transform tasks and processes for themselves and their team where they have deep expertise in the solution domain. They are skilled in key technical business analyst tasks such as data modeling, basic UX design, requirements analysis, and process analysis.
+subTitle: The app maker builds solutions to simplify, automate, and transform tasks and processes for themselves and their team where they have deep expertise in the solution domain. They are skilled in key technical business analyst tasks such as data modeling, basic UX design, requirements analysis, and process analysis.
+levels:
+- intermediate
+skills:
+- Design solutions
+- Create solutions
+- Analyze and visualize data
+- Implement and manage solutions
+roles:
+- business-analyst
+- business-owner
+- business-user
+- data-analyst
+- developer
+- devops-engineer
+- maker
+- technology-manager
+type: role-based
+products:
+- dynamics-365
+- office
+- office-access
+- office-excel
+- office-exchange-server
+- office-365
+- office-365-atp
+- office-add-ins
+- office-onedrive
+- office-onenote
+- office-outlook
+- office-planner
+- office-powerpoint
+- office-project
+- office-project-server
+- office-publisher
+- office-sp
+- office-sp-designer
+- office-teams
+- office-visio
+- office-word
+- power-platform
+- ai-builder
+- common-data-service
+- power-automate
+- power-bi
+- power-apps
+- power-virtual-agents
+courses:
+- uid: course.pl-100t00
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wAsW
+paths:
+- uid: learn-bizapps.create-powerapps
+- uid: learn-bizapps.create-app-models-business-processes
+- uid: learn-bizapps.automate-process-using-flow
+- uid: learn-dynamics.manage-permissions-and-administration-for-common-data-service
+- uid: learn-dynamics.get-started-using-common-data-service
+- uid: learn-bizapps.understand-advanced-topics
+- uid: learn-bizapps.best-practices-environments
+- uid: learn-bizapps.create-use-analytics-reports-power-bi
+- uid: learn-bizapps.bring-ai
+- uid: learn-bizapps.ui-controls-canvas-app-powerapps
+- uid: learn-bizapps.create-business-process-flow
+exams:
+- uid: exam.pl-100
+resources:
+- title: Certification poster
+  description: Check out an overview including fundamentals, role-based and specialty certifications for Dynamics 365 and Power Platform.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CcQL
+- title: Journey to certification
+  description: Explore steps to get certified and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CfjG
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification learning path
+  description: Recommended training resources to help you prepare for required exams and earn your certification.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CkBF
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md

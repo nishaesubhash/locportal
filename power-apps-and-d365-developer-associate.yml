@@ -1,0 +1,78 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Power Apps + Dynamics 365 Developer Associate'
+metadata:
+  title: 'Microsoft Certified: Power Apps + Dynamics 365 Developer Associate'
+  description: Developers who work with Microsoft Power Apps and Dynamics 365 are responsible for designing, developing, securing, and extending a Dynamics 365 implementation. Candidates implement components of the solution that include application enhancements, custom user experience, system integrations, data conversions, custom process automation, and custom visualizations.
+uid: certification.power-apps-and-d365-developer-associate
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div>
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  <div><strong>THIS CERTIFICATION WILL RETIRE ON DECEMBER 31, 2020. You will no longer be able to earn this certification after this date. Any certifications you earn prior to their retirement dates will continue to appear on your transcript in the <a href="https://aka.ms/certdashboard">Certification Dashboard</a>.</strong><br/><br/></div></div>
+  
+  Developers who work with Microsoft Power Apps and Dynamics 365 are responsible for designing, developing, securing, and extending a Dynamics 365 implementation. Candidates implement components of the solution that include application enhancements, custom user experience, system integrations, data conversions, custom process automation, and custom visualizations.
+  
+  <div><strong><br/>Because this certification is retiring on December 31, 2020, Microsoft will not be updating references of "Common Data Service" to "Microsoft Dataverse."</strong></div>
+subTitle: Developers who work with Microsoft Power Apps and Dynamics 365 are responsible for designing, developing, securing, and extending a Dynamics 365 implementation.
+levels:
+- intermediate
+skills:
+- Perform discovery, planning, and analysis 
+- Manage user experience design 
+- Manage entities and data 
+- Implement security 
+- Implement integration 
+- Perform solutions deployment and testing 
+- Create a technical design 
+- Configure Common Data Service 
+- Create and configure Power Apps 
+- Configure business process automation 
+- Extend the user experience 
+- Extend the platform 
+- Develop integrations
+roles:
+- developer
+type: role-based
+products:
+- dynamics-365
+- dynamics-customer-engagement
+courses:
+- uid: course.mb-400t00
+- uid: course.mb-200t00
+paths:
+- uid: learn-bizapps.create-powerapps
+- uid: learn-bizapps.create-app-models-business-processes
+- uid: learn-dynamics.implementing-customer-engagement-online
+- uid: learn-bizapps.automate-process-using-flow
+- uid: learn-bizapps.create-use-analytics-reports-power-bi
+- uid: learn-bizapps.get-started-power-apps-portals
+- uid: learn-bizapps.extend-power-apps-portals
+- uid: learn-dynamics.introduction-development
+- uid: learn-dynamics.extend-power-platform-model-driven-apps
+- uid: learn-dynamics.extend-power-platform-common-data-service
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE42Fcm
+exams:
+- uid: exam.mb-200
+- uid: exam.mb-400
+resources:
+- title: Certification poster
+  description: Check out an overview including fundamentals, role-based and specialty certifications for Dynamics 365 and Power Platform.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CcQL
+- title: Journey to certification
+  description: Explore steps to get certified and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CkSW
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification learning path
+  description: Recommended training resources to help you prepare for required exams and earn your certification.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C5rO
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md

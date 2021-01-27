@@ -1,0 +1,69 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Power Platform Fundamentals'
+metadata:
+  title: 'Microsoft Certified: Power Platform Fundamentals'
+  description: Prove you understand the core capabilities of the Power Platform–from business value and core product capabilities to building a simple Power Apps canvas app, connecting data sources, automating basic business processes with Power Automate, creating a Power BI dashboard, and creating powerful chatbots with Power Virtual Agents.
+uid: certification.power-platform-fundamentals
+iconUrl: /media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  If you’re a student, business user, or beginning technical professional, this certification can accelerate your progress and give your career a boost, as you use your Microsoft Power Platform skills to improve your team’s productivity. No experience is necessary to train for it—just basic familiarity with computer technology, data analytics, cloud computing, and the internet. Think of a fundamentals certification as the first step in growing your skill set and advancing to other certifications, such as Microsoft Power Platform Functional Consultant.
+  
+  The Microsoft Power Platform Fundamentals certification could be a great fit for you, if you’d like to&#58;
+  - Build solutions with Microsoft Power Platform.
+  - Automate basic business processes with Power Automate.
+  - Perform data analysis with Power BI. 
+  - Create simple Power Apps experiences.
+  - Build practical chatbots with Power Virtual Agents.
+  
+  This certification has no prerequisites. However, if you’d like to gain some more experience, you could&#58;
+  - Shadow a person on your team who works with Microsoft Power Platform.
+  - Explore available learning paths on Microsoft Learn.
+  - Sign up for an instructor-led training course.
+subTitle: Prove you understand the core capabilities of the Power Platform–from business value and core product capabilities to building a simple Power Apps canvas app, connecting data sources, automating basic business processes with Power Automate, creating a Power BI dashboard, and creating powerful chatbots with Power Virtual Agents.
+levels:
+- beginner
+skills:
+- Describe the business value of Power Platform 
+- Identify the core components of Power Platform 
+- Demonstrate the capabilities of Power BI 
+- Describe the capabilities of Power Apps 
+- Demonstrate the capabilities of Power Automate 
+- Demonstrate the business value of Power Virtual Agents
+roles:
+- business-user
+- functional-consultant
+- student
+type: fundamentals
+products:
+- power-platform
+courses:
+- uid: course.pl-900t00
+paths:
+- uid: learn-bizapps.wwl.power-plat-fundamentals
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE43KLw
+exams:
+- uid: exam.pl-900
+resources:
+- title: Certification poster
+  description: Check out an overview including fundamentals, role-based and specialty certifications for Dynamics 365 and Power Platform.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CcQL
+- title: Journey to certification
+  description: Explore steps to get certified and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4HabX
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification learning path
+  description: Recommended training resources to help you prepare for required exams and earn your certification.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Gn
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md

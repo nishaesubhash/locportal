@@ -1,0 +1,81 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Power Platform Functional Consultant Associate'
+metadata:
+  title: 'Microsoft Certified: Power Platform Functional Consultant Associate'
+  description: As a functional consultant, use this certification to market yourself more effectively for projects and other engagements. The Microsoft Power Platform Functional Consultant Associate certification lets organizations know that—with no code or low code—you can build solutions that would normally require developer expertise.
+uid: certification.power-platform-functional-consultant-associate
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong><br/><br/></font></div>
+  
+  Are you a functional consultant, data analyst, or developer looking to hone your consulting and configuration skills, or solution architect on a path to the solution architect certification? Or maybe you’re an IT professional with knowledge and experience configuring Microsoft Power Platform. If this describes you and you’re familiar with Microsoft Dynamics 365 model-driven applications and data modeling principles, explore how the Microsoft Power Platform Functional Consultant Associate certification can help enhance your career and make you a key member of your team. This certification indicates to the world that you’re considered qualified to build and implement solutions that use Power Apps, Power BI, and Power Virtual Agents.
+  
+  As a candidate for this certification, you work with an organization’s stakeholders and subject matter experts, such as solution architects, developers, and testers, to gather requirements and then implement Microsoft Power Platform solutions. You build model-driven, canvas, and portal apps. And you create Power Automate flows, design chatbots using Power Virtual Agents, and analyze data using Power BI visualization and dashboards. You even create application enhancements, custom user experiences, system integrations, data conversions, custom process automation, and custom visualizations.
+  
+  As a functional consultant, use this certification to market yourself more effectively for projects and other engagements. The Microsoft Power Platform Functional Consultant Associate certification lets organizations know that—with no code or low code—you can build solutions that would normally require developer expertise.
+  
+  If you need more experience before you try to earn this certification, here are some suggestions&#58;
+  - Build a basic dashboard using Power BI.
+  - Take available learning paths on Microsoft Learn.
+  - Sign up for an instructor-led training course.
+subTitle: As a functional consultant, use this certification to market yourself more effectively for projects and other engagements. The Microsoft Power Platform Functional Consultant Associate certification lets organizations know that—with no code or low code—you can build solutions that would normally require developer expertise.
+levels:
+- intermediate
+skills:
+- Configure the Common Data Service
+- Create apps by using Power Apps
+- Create and manage Power Automate
+- Implement Power Virtual Agents chatbots
+- Integrate Power Apps with other apps and services 
+roles:
+- business-analyst
+- developer
+- functional-consultant
+type: role-based
+products:
+- power-apps
+- power-bi
+- power-automate
+- common-data-service
+- ai-builder
+- power-platform
+- office-teams
+- power-virtual-agents
+courses:
+- uid: course.pl-200t00
+paths:
+- uid: learn-dynamics.get-started-using-common-data-service
+- uid: learn-dynamics.manage-permissions-and-administration-for-common-data-service
+- uid: learn-bizapps.create-powerapps
+- uid: learn-bizapps.create-app-models-business-processes
+- uid: learn-bizapps.create-business-process-flow
+- uid: learn-bizapps.automate-process-using-flow
+- uid: learn-bizapps.get-started-power-automate-buttons
+- uid: learn-bizapps.best-practices-environments
+- uid: learn-bizapps.create-use-analytics-reports-power-bi
+- uid: learn-dynamics.create-relationships-business-rules-calculations-and-rollups-in-common-data-service
+- uid: learn-bizapps.work-power-virtual-agents
+- uid: learn-bizapps.bring-ai
+- uid: learn-bizapps.improve-business-performance-ai-builder
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4D1eL
+exams:
+- uid: exam.pl-200
+resources:
+- title: Certification poster
+  description: Check out an overview including fundamentals, role-based and specialty certifications for Dynamics 365 and Power Platform.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CcQL
+- title: Journey to certification
+  description: Explore steps to get certified and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Gn93
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md

@@ -1,0 +1,275 @@
+- name: Microsoft Certifications
+  href: index.yml
+- name: Announcements
+  expanded: false
+  items:
+  - name: June 2020
+    items:
+    - name: Learn Microsoft Power Platform ...
+      href: posts/learn-microsoft-power-platform-from-an-mct-and-get-inspired.md
+  - name: May 2020
+    items:
+    - name: Level up with Microsoft ...
+      href: posts/level-up-with-microsoft-certified-azure-ai-engineer-associate.md
+    - name: Level up with Microsoft ...
+      href: posts/level-up-with-microsoft-certified-devops-engineer-expert.md
+    - name: Level up with Microsoft ...
+      href: posts/level-up-with-microsoft-certified-azure-developer-associate.md
+    - name: Finding the right Microsoft ...
+      href: posts/finding-the-right-microsoft-azure-certification-for-you.md
+    - name: Understanding Microsoft Azure ...
+      href: posts/understanding-microsoft-azure-certifications.md
+    - name: Microsoft Build 2020 ...
+      href: posts/microsoft-build-2020-a-new-level-of-digital-skilling-with-microsoft-learn.md
+    - name: Microsoft 365 Certification ...
+      href: posts/microsoft-365-certification-and-exam-updates.md
+    - name: The Azure DevOps Expert ...
+      href: posts/the-azure-devops-expert-certification-will-have-a-new-name.md
+    - name: Finance and Operations Skills ...
+      href: posts/finance-and-operations-skills-needed-get-certified-in-dynamics-365-now.md
+  - name: April 2020
+    items:
+    - name: Global Knowledge - a world leader ...
+      href: posts/global-knowledge-a-world-leader-in-innovative-comprehensive-tech-training.md
+    - name: Learning Partners Offer Vital ...
+      href: posts/learning-partners-offer-vital-virtual-dynamics-365-training.md
+    - name: 'DBAs: Show the world you’re ...'
+      href: posts/dbas-show-the-world-you-re-a-cloud-ready-database-champion.md
+    - name: 'Data Analysts: It’s time ...'
+      href: posts/data-analysts-its-time-to-earn-your-microsoft-certification.md
+    - name: 'Azure Administrators: Show ...'
+      href: posts/azure-administrators-show-off-your-skills-with-exam-az-104.md
+  - name: March 2020
+    items:
+    - name: Real-world learning in ...
+      href: posts/real-world-learning-in-dynamics-365-gives-you-the-edge-you-need.md
+    - name: An Important Update on ...
+      href: posts/an-important-update-on-microsoft-training-and-certification.md
+    - name: How Microsoft Dynamics 365 ...
+      href: posts/how-microsoft-dynamics-365-certification-can-help-women-achieve-more.md
+  - name: February 2020
+    items:
+    - name: Get a sneak peek at upcoming Microsoft ...
+      href: posts/get-a-sneak-peek-at-upcoming-microsoft-certifications-for-data-and-ai.md
+    - name: MCSA, MCSD, MCSE certifications retire ...
+      href: posts/mcsa-mcsd-mcse-certifications-retire-with-continued-investment-to-role-based-certifications.md
+    - name: Azure developers, beta exam ...
+      href: posts/azure-developers-beta-exam-az-204-is-just-for-you.md
+  - name: January 2020
+    items:
+    - name: Updates to Several Azure and Data ...
+      href: posts/updates-to-several-azure-and-data-ai-certifications-are-coming-soon.md
+    - name: Are you a Microsoft Dynamics 365 ...
+      href: posts/are-you-a-microsoft-dynamics-365-finance-and-operations-apps-solution-architect-validate-your-expertise-today.md
+    - name: Are you a Microsoft Power Apps ...
+      href: posts/are-you-a-microsoft-power-apps-dynamics-365-solution-architect-validate-your-expertise-today.md 
+    - name: Why get certified? ...
+      href: posts/microsoft-learn-why-get-certified.md
+    - name: Microsoft Azure IoT Developers ...
+      href: posts/microsoft-azure-iot-developers-i-ve-got-something-for-you.md
+  - name: December 2019
+    items:
+    - name: Share your insights on cloud ...
+      href: posts/share-your-insights-on-cloud-and-workplace-technologies.md
+    - name: We’ve Updated Microsoft Dynamics ...
+      href: posts/we-ve-updated-microsoft-dynamics-365-fundamentals-exam-take-the-mb-901-beta-exam-today.md
+    - name: Wherever you are in your career ...
+      href: posts/wherever-you-are-in-your-career-learning-new-skills-should-be-on-your-list.md
+  - name: November 2019
+    items:
+    - name: Are you a Microsoft 365 Developer ...
+      href: posts/are-you-a-microsoft-365-developer.md
+    - name: Are you a Microsoft 365 Teams ...
+      href: posts/are-you-a-microsoft-365-teams-administrator.md
+    - name: Continue your learning journey ...
+      href: posts/continue-your-learning-journey.md
+    - name: Do you Implement Azure for SAP ...
+      href: posts/do-you-implement-azure-for-sap-workloads.md
+    - name: Microsoft Power Platform Fundamentals ...
+      href: posts/microsoft-power-platform-fundamentals-beta-exam-now-available.md    
+  - name: October 2019
+    items:
+    - name: Dynamics 365 certification and ...
+      href: posts/dynamics-365-certification-and-exam-names-are-changing.md
+    - name: Attending Microsoft Ignite? You ...
+      href: posts/you-will-want-to-stop-by-the-microsoft-learn-booth.md      
+    - name: Are you a PowerApps Developer ...
+      href: posts/powerapps-developer-it-is-time-to-be-certified.md      
+    - name: Are you a Microsoft Dynamics ...
+      href: posts/finance-and-operations-apps-developer-beta-exam-now-available.md
+  - name: September 2019
+    items:
+    - name: Learn how and when you ...
+      href: posts/learn-how-and-when-you-want.md
+  - name: August 2019
+    items:
+    - name: Chart your course to success
+      href: posts/chart-your-course-to-success.md
+    - name: Microsoft Professional Program is ...
+      href: posts/microsoft-professional-program-is-retiring-explore-our-new-role-based-training-and-certifications.md
+    - name: Your path to success
+      href: posts/your-path-to-success.md
+  - name: July 2019
+    items:
+    - name: Exam and Certification Retirement ...
+      href: posts/exam-and-certification-retirement-roundup-july-2019.md
+    - name: Help Us Create Exams and Learning ...
+      href: posts/help-us-create-exams-and-learning-content.md
+    - name: Build and certify expertise with ...
+      href: posts/build-and-certify-expertise-with-microsoft-dynamics-365-intelligent-business-apps.md
+    - name: Mapping Microsoft 70-xxx Exams ...
+      href: posts/mapping-microsoft-70-xxx-exams-to-new-role-based-certifications.md
+  - name: June 2019
+    items:      
+    - name: It’s Back! Get a Retake on ...
+      href: posts/get-a-retake-on-certification-exams-with-exam-replay.md
+  - name: May 2019
+    items:
+    - name: Transition Exams Are Retiring Soon
+      href: posts/transition-exams-are-retiring-soon.md
+    - name: Exam and Certification Retirement ... 
+      href: posts/exam-and-certification-retirement-roundup-may-2019.md
+  - name: April 2019
+    items:  
+    - name: Answering Your Questions About AZ-103
+      href: posts/answering-your-questions-about-az-103.md
+    - name: Performance Testing Is Coming ...
+      href: posts/performance-testing-is-coming-to-microsoft-exams.md
+    - name: Why Microsoft Beta Exams Are ...
+      href: posts/why-microsoft-beta-exams-are-no-longer-free.md       
+  - name: March 2019
+    items:  
+    - name: Simplifying the Certification Path ...
+      href: posts/simplifying-the-certification-path-for-microsoft-certified-azure-administrator-associate.md       
+  - name: February 2019
+    items:
+    - name: Introducing the Microsoft DevOps ...
+      href: posts/introducing-the-microsoft-devops-engineer-expert-certification.md
+    - name: Wow! A Summary of All Exams ...
+      href: posts/a-summary-of-all-exams-and-certifications-launched-in-january-2019.md
+  - name: January 2019
+    items:  
+    - name: Announcing New Certifications for ...
+      href: posts/announcing-new-certifications-for-microsoft-dynamics-365-financial-and-operations-functional-consultants.md
+    - name: Announcing New Data and AI ...
+      href: posts/announcing-new-data-and-ai-certifications-from-microsoft.md
+    - name: Catching up - continuing our journey ...
+      href: posts/continuing-our-journey-with-new-role-based-certifications-and-training.md
+    - name: Introducing New Certifications for ...
+      href: posts/introducing-new-certifications-for-microsoft-dynamics-365-customer-engagement-functional-consultants.md      
+  - name: December 2018
+    items:  
+    - name: Great News, Azure Developers! ...
+      href: posts/microsoft-is-simplifying-your-path-to-certification.md
+    - name: Becoming a Microsoft 365 Certified ...
+      href: posts/becoming-a-microsoft-365-certified-enterprise-administrator-expert.md
+    - name: Start with Our New Workload ...
+      href: posts/start-with-our-new-workload-certifications-to-become-a-m365-enterprise-administrator.md
+  - name: November 2018
+    items:
+    - name: Our New Fundamentals Certification ...
+      href: posts/our-new-fundamentals-certification-program-launches-with-azure-and-m365.md
+  - name: October 2018
+    items:
+    - name: How to Claim Your Digital Badge ...
+      href: posts/how-to-claim-your-digital-badge-and-why.md
+    - name: Unlock Active Job Postings ...
+      href: posts/unlock-active-job-postings-with-your-microsoft-certification.md
+    - name: Microsoft Certification - Simplifying ...
+      href: posts/microsoft-certification-simplifying-the-journey.md
+  - name: September 2018
+    items:
+    - name: New role-based certification ...
+      href: posts/new-role-based-certification-and-training-is-here.md
+    - name: Skill up and stand out, with ...
+      href: posts/skill-up-and-stand-out-with-new-role-based-training-and-certification.md
+  - name: March 2018
+    items:
+    - name: How to Think About Exam Preparation ...
+      href: posts/how-to-think-about-exam-preparation-in-this-new-world.md
+  - name: January 2018
+    items:
+    - name: Cloud vs. On-Premises Certification ...
+      href: posts/cloud-vs-on-premise-certifications-guest-blog.md
+  - name: December 2017
+    items: 
+    - name: Whiteboard Feature Now Available ...
+      href: posts/whiteboard-feature-now available-in-online-proctored-exams.md
+    - name: Our Best-Kept Secret - Remote ...
+      href: posts/our-best-kept-secret-remote-online-exam-proctoring.md
+  - name: November 2017
+    items:
+    - name: Updates on Microsoft Beta Exam ...
+      href: posts/updates-on-microsoft-beta-exam-program.md
+    - name: Revisiting a New(ish) Question ...
+      href: posts/understanding-questions-that-you-cannot-review.md
+  - name: September 2016
+    items:
+    - name: More Tips About Beta Exams ...
+      href: posts/more-tips-about-beta-exams.md    
+  - name: July 2016
+    items:
+    - name: The Path from Beta Exam ...
+      href: posts/the-path-from-beta-exam-to-live-exam.md
+  - name: December 2015
+    items:
+    - name: Just How Does One Prep ...
+      href: posts/just-how-does-one-prepare-for-beta-exams-without-preparation-materials.md  
+- name: Offers
+  href: deals.md
+- name: Volume licensing
+  href: volume-licensing-program.md
+- name: Microsoft Learning Partners
+  href: partners.md
+- name: Retired certifications, exams, and courses
+  expanded: false
+  items:
+  - name: Retired certifications
+    href: retired-certifications.md
+  - name: Retired exams
+    href: retired-certification-exams.md 
+  - name: Retired courses
+    href: retired-courses.md
+- name: Become a Microsoft Certified Trainer
+  href: mct-certification.md
+- name: About Microsoft certification exams
+  href: certification-exams.md
+- name: Microsoft Exam and Certification Badges
+  href: badges.md
+- name: About online exams with Pearson VUE
+  href: online-exams.md
+- name: About online exams with PSI
+  href: online-exams-psi.md
+- name: Exam policies and FAQs
+  expanded: false
+  items:
+  - name: Frequently asked questions
+    href: frequently-asked-questions.md  
+  - name: Exam security policy and exam retake policy
+    href: exam-security-policy-and-exam-retake-policy.md
+  - name: Exam reschedule and cancellation policy
+    href: exam-reschedule-and-cancellation-policy.md
+  - name: Microsoft certification program agreement
+    href: microsoft-certification-program-agreement.md
+  - name: Microsoft exam non-disclosure agreement
+    href: microsoft-exam-non-disclosure-agreement.md
+  - name: Request accommodations
+    href: request-accommodations.md
+  - name: Exam item challenge process
+    href: exam-item-challenge-process.md
+  - name: Beta exams
+    href: beta-exams.md
+  - name: ACE college credit for certification exams
+    href: ace-credit-for-certification-exams.md
+  - name: NCCRS college credit for certification exams
+    href: college-credit-for-certification-exams.md
+  - name: Student discounts
+    href: student-discounts.md
+- name: Certification help
+  href: help.md
+- name: Microsoft Official Courseware (MOC) help
+  href: certification-and-training-help.md
+- name: Microsoft Certification Program FAQs 
+  href: microsoft-certification-program-faqs.md
+- name: Moving Microsoft Learning ...
+  href: learnfaq.md
