@@ -1,0 +1,66 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Azure AI Engineer Associate'
+metadata:
+  title: 'Microsoft Certified: Azure AI Engineer Associate'
+  description: 'Azure AI Engineers use Cognitive Services, Machine Learning, and Knowledge Mining to architect and implement Microsoft AI solutions involving natural language processing, speech, computer vision, bots, and agents.'
+uid: certification.azure-ai-engineer
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  Candidates for the Azure AI Engineer Associate certification should have subject matter expertise using cognitive services, machine learning, and knowledge mining to architect and implement Microsoft AI solutions involving natural language processing, speech, computer vision, and conversational AI.
+  
+  Responsibilities for this role include analyzing requirements for AI solutions, recommending the appropriate tools and technologies, and designing and implementing AI solutions that meet scalability and performance requirements.
+  
+  Azure AI Engineers translate the vision from solution architects and work with data scientists, data engineers, IoT specialists, and software developers to build complete end-to-end solutions.
+  
+  A candidate for this certification should have knowledge and experience designing and implementing AI apps and agents that use Microsoft Azure Cognitive Services, Azure Bot Service, Azure Cognitive Search, and data storage in Azure. In addition, a candidate should be able to recommend solutions that use open source technologies, understand the components that make up the Azure AI portfolio and the available data storage options, and understand when a custom API should be developed to meet specific requirements.
+subTitle: Azure AI Engineers use Cognitive Services, Machine Learning, and Knowledge Mining to architect and implement Microsoft AI solutions involving natural language processing, speech, computer vision, bots, and agents.
+levels:
+- intermediate
+skills:
+- Analyze solution requirements
+- Design AI solutions
+- Implement and monitor AI solutions
+roles:
+- ai-engineer
+type: role-based
+products:
+- azure
+- azure-cognitive-services
+- azure-bot-service
+- azure-machine-learning-service
+- azure-machine-learning-studio
+- azure-search
+courses:
+- uid: course.ai-100t01
+paths:
+- uid: learn.data-ai.evaluate-text-with-language-services
+- uid: learn.wwl.process-translate-speech-azure-cognitive-speech-services
+- uid: learn.data-ai.create-bots-with-the-azure-bot-service
+- uid: learn.data-ai.classify-images-with-vision-services
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VEHf
+exams:
+- uid: exam.ai-100
+resources:
+- title: Azure certifications poster
+  description: Check out an overview including fundamentals, role-based, and specialty certifications for Azure.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wyqh
+- title: Journey to certification
+  description: Explore steps to get certified as an Azure AI Engineer Associate and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ww2u
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

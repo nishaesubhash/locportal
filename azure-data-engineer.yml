@@ -1,0 +1,74 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Azure Data Engineer Associate'
+metadata:
+  title: 'Microsoft Certified: Azure Data Engineer Associate'
+  description: 'Azure Data Engineers design and implement the management, monitoring, security, and privacy of data using the full stack of Azure data services to satisfy business needs.'
+uid: certification.azure-data-engineer
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  Azure Data Engineers design and implement the management, monitoring, security, and privacy of data using the full stack of Azure data services to satisfy business needs.
+subTitle: Azure Data Engineers design and implement the management, monitoring, security, and privacy of data using the full stack of Azure data services to satisfy business needs.
+levels:
+- intermediate
+skills:
+- Implement data storage solutions
+- Manage and develop data processing
+- Monitor and optimize data solutions
+- Design Azure data storage solutions
+- Design data processing solutions
+- Design for data security and compliance
+roles:
+- data-engineer
+type: role-based
+products:
+- azure
+- azure-cosmos-db
+- azure-data-lake
+- azure-sql-data-warehouse
+- azure-databricks
+- azure-notebooks
+- azure-stream-analytics
+- azure-sql-database
+- azure-storage
+- azure-monitor
+- azure-hdinsight
+courses:
+- uid: course.dp-200t01
+- uid: course.dp-201t01
+paths:
+- uid: learn.data-ai.azure-for-the-data-engineer
+- uid: learn.store-data-in-azure
+- uid: learn.work-with-relational-data-in-azure
+- uid: learn.work-with-nosql-data-in-azure-cosmos-db
+- uid: learn.data-ai.data-processing-with-azure-adls
+- uid: learn.data-ai.implement-data-streaming-with-asa
+- uid: learn.data-ai.implement-sql-data-warehouse
+- uid: learn.wwl.data-engineer-azure-databricks
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUG
+exams:
+- uid: exam.dp-200
+- uid: exam.dp-201
+resources:
+- title: Azure certifications poster
+  description: Check out an overview including fundamentals, role-based, and specialty certifications for Azure.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wyqh
+- title: Journey to certification
+  description: Explore steps to get certified as an Azure Data Engineer Associate and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ARli
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

@@ -1,0 +1,69 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Azure Fundamentals'
+metadata:
+  title: 'Microsoft Certified: Azure Fundamentals'
+  description: 'Azure Fundamentals validates foundational knowledge of cloud services and how those services are provided with Microsoft Azure.'
+uid: certification.azure-fundamentals
+iconUrl: /media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  Candidates for the Azure Fundamentals certification should have foundational knowledge of cloud services and how those services are provided with Microsoft Azure. This certification is intended for candidates who are just beginning to work with cloud-based solutions and services or are new to Azure.
+  
+  Azure Fundamentals certification is an opportunity to prove knowledge of cloud concepts, Azure services, Azure workloads, security and privacy in Azure, as well as Azure pricing and support. Candidates should be familiar with the general technology concepts, including concepts of networking, storage, compute, application support, and application development.
+  
+  Azure Fundamentals can be used to prepare for other Azure role-based or specialty certifications, but it is not a prerequisite for any of them.
+subTitle: Azure Fundamentals validates foundational knowledge of cloud services and how those services are provided with Microsoft Azure.
+levels:
+- beginner
+skills:
+- Describe cloud concepts
+- Describe core Azure services
+- Describe core solutions and management tools on Azure
+- Describe general security and network security features
+- Describe identity, governance, privacy, and compliance features
+- Describe Azure cost management and Service Level Agreements
+roles:
+- administrator
+- business-user
+- developer
+- student
+- technology-manager
+type: fundamentals
+products:
+- azure
+courses:
+- uid: course.az-900t01
+- uid: course.az-900t00
+paths:
+- uid: learn.az-900-describe-cloud-concepts
+- uid: learn.az-900-describe-core-azure-services
+- uid: learn.az-900-describe-core-solutions-management-tools-azure
+- uid: learn.az-900-describe-general-security-network-security-features
+- uid: learn.az-900-describe-identity-governance-privacy-compliance-features
+- uid: learn.az-900-describe-azure-cost-management-service-level-agreements
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3WzVA
+exams:
+- uid: exam.az-900
+resources:
+- title: Azure certifications poster
+  description: Check out an overview including fundamentals, role-based, and specialty certifications for Azure.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wyqh
+- title: Journey to certification
+  description: Explore steps to get certified in Azure Fundamentals and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AElB
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

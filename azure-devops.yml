@@ -1,0 +1,69 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Azure DevOps Engineer Expert'
+metadata:
+  title: 'Microsoft Certified: Azure DevOps Engineer Expert'
+  description: 'Azure DevOps professionals combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives.'
+uid: certification.azure-devops
+iconUrl: /media/learn/certification/badges/microsoft-certified-expert-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  Candidates for the DevOps Engineer Expert certification should have subject matter expertise working with people, processes, and technologies to continuously deliver business value.
+  
+  Responsibilities for this role include designing and implementing strategies for collaboration, code, infrastructure, source control, security, compliance, continuous integration, testing, delivery, monitoring, and feedback.
+  
+  A candidate for this certification must be familiar with both Azure administration and development and must be expert in at least one of these areas.
+subTitle: Azure DevOps professionals combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives.
+levels:
+- advanced
+skills:
+- Develop an instrumentation strategy
+- Develop a Site Reliability Engineering (SRE) strategy 
+- Develop a security and compliance plan 
+- Manage source control 
+- Facilitate communication and collaboration 
+- Define and implement continuous integration 
+- Define and implement a continuous delivery and release management strategy
+roles:
+- devops-engineer
+type: role-based
+products:
+- azure
+- azure-devops
+- azure-kubernetes-service
+- azure-container-instances
+- azure-automation
+paths:
+- uid: learn.azdo.evolve-your-devops-practices
+- uid: learn.azdo.build-applications-with-azure-devops
+- uid: learn.azdo.deploy-applications-with-azure-devops
+- uid: learn.azdo.automate-deployments-azure-devops
+courses:
+- uid: course.az-400t00
+prerequisites:
+- uid: certification.azure-administrator
+  isOptional: false
+- uid: certification.azure-developer
+  isOptional: false
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VP84
+exams:
+- uid: exam.az-400
+resources:
+- title: Certification learning path
+  description: 'Discover training resources to become a Microsoft Certified: Azure DevOps Engineer Expert.'
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE41muG
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

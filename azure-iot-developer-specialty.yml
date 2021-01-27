@@ -1,0 +1,66 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Azure IoT Developer Specialty'
+metadata:
+  title: 'Microsoft Certified: Azure IoT Developer Specialty'
+  description: Azure IoT Developers develop cloud and edge components of an Azure IoT solution.
+uid: certification.azure-iot-developer-specialty
+iconUrl: /media/learn/certification/badges/microsoft-certified-specialty-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  Candidates for the Azure IoT Developer Specialty certification should have subject matter expertise developing cloud and edge components of an Azure IoT solution.
+  
+  Responsibilities for this role include managing the device lifecycle–set up, configuration, and maintenance–using cloud services and other tools. You implement designs for Azure IoT solutions including device topology, connectivity, debugging, and security, as well as solutions to manage, monitor, and transform IoT-related data pipelines. You also deploy Azure IoT Edge components and configure device networking on the edge.
+  
+  An Azure IoT Developer works with data engineers and other stakeholders to ensure successful business integration.
+  
+  A candidate for this certification should have experience implementing the Azure services that form an IoT solution, including data storage options, data analysis, data processing, and platform-as-a-service options. This role should also be able to recognize Azure IoT service configuration settings within the code portion of an IoT solution and perform specific IoT coding tasks in at least one Azure-supported language, including C#, Node, C, or Python.
+subTitle: Azure IoT Developers develop cloud and edge components of an Azure IoT solution.
+levels:
+- intermediate
+skills:
+- Implement the IoT solution infrastructure
+- Provision and manage devices
+- Implement Edge
+- Process and manage data
+- Monitor, troubleshoot, and optimize IoT solutions 
+- Implement security
+roles:
+- developer
+type: specialty
+products:
+- azure
+- azure-iot-central
+- azure-iot-hub
+courses:
+- uid: course.az-220t00
+paths:
+- uid: learn.introduction-to-azure-iot
+- uid: learn.securely-connect-iot-devices-to-cloud
+- uid: learn.build-intelligent-edge-with-azure-iot-edge
+- uid: learn-develop-solutions-with-azure-iot-central
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4nw1V
+exams:
+- uid: exam.az-220
+resources:
+- title: Azure certifications poster
+  description: Check out an overview including fundamentals, role-based, and specialty certifications for Azure.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wyqh
+- title: Journey to certification
+  description: Explore steps to get certified in Azure IoT Developer Specialty and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wyqz
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

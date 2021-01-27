@@ -1,0 +1,69 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Azure Security Engineer Associate'
+metadata:
+  title: 'Microsoft Certified: Azure Security Engineer Associate'
+  description: 'Azure Security Engineers implement security controls and threat protection, manage identity and access, and protect data, applications, and networks in cloud and hybrid environments as part of an end-to-end infrastructure.'
+uid: certification.azure-security-engineer
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  Candidates for the Azure Security Engineer certification should have subject matter expertise implementing security controls and threat protection, managing identity and access, and protecting data, applications, and networks in cloud and hybrid environments as part of an end-to-end infrastructure.
+  
+  Responsibilities for this role include maintaining the security posture, identifying, and remediating vulnerabilities by using a variety of security tools, implementing threat protection, and responding to security incident escalations.
+  
+  Azure Security Engineers often serve as part of a larger team dedicated to cloud-based management and security or hybrid environments as part of an end-to-end infrastructure.
+  
+  A candidate for this certification should have strong skills in scripting and automation; a deep understanding of networking, virtualization, and cloud N-tier architecture; and a strong familiarity with cloud capabilities and products and services for Azure, plus other Microsoft products and services.
+subTitle: Azure Security Engineers implement security controls and threat protection, manage identity and access, and protect data, applications, and networks in cloud and hybrid environments as part of an end-to-end infrastructure.
+levels:
+- intermediate
+skills:
+- Manage identity and access
+- Implement platform protection
+- Manage security operations
+- Secure data and applications
+roles:
+- security-engineer
+type: role-based
+products:
+- azure
+- azure-active-directory
+- azure-policy
+- azure-virtual-network
+- azure-monitor
+- azure-key-vault
+courses:
+- uid: course.az-500t00
+paths:
+- uid: learn.security.secure-your-cloud-apps
+- uid: learn.security.implement-resource-mgmt-security
+- uid: learn.security.implement-network-security
+- uid: learn.security.implement-host-security
+- uid: learn.security.manage-identity-and-access
+- uid: learn.security.manage-security-operations
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUH
+exams:
+- uid: exam.az-500
+resources:
+- title: Azure certifications poster
+  description: Check out an overview including fundamentals, role-based, and specialty certifications for Azure.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wyqh
+- title: Journey to certification
+  description: Explore steps to get certified as an Azure Security Engineer Associate and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AJyG
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

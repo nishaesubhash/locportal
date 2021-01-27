@@ -1,0 +1,73 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Azure Database Administrator Associate'
+metadata:
+  title: 'Microsoft Certified: Azure Database Administrator Associate'
+  description: 'The Azure Database Administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions built on Microsoft Azure data services and Microsoft SQL Server.'
+uid: certification.azure-database-administrator-associate
+iconUrl: /media/learn/certification/badges/microsoft-certified-associate-badge.svg
+summary: |-
+  <div><font color='red'><strong>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</strong></font><br/><br/></div>
+  
+  The Azure Database Administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions built with Microsoft SQL Server and Microsoft Azure Data Services. The Azure Database Administrator uses a variety of methods and tools to perform day-to-day operations, including applying knowledge of using T-SQL for administrative management purposes.
+  
+  <div></br>
+  Candidates for this role should understand all concepts covered in <a href='/learn/certifications/exams/dp-900'>Exam DP-900: Microsoft Azure Data Fundamentals</a>.
+  </div>
+subTitle: The Azure Database Administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions built on Microsoft Azure data services and Microsoft SQL Server.
+levels:
+- intermediate
+skills:
+- Plan and implement data platform resources 
+- Implement a secure environment 
+- Monitor and optimize operational resources 
+- Optimize query performance 
+- Perform automation of tasks
+- Plan and implement a High Availability and Disaster Recovery (HADR) environment 
+- Perform administration by using T-SQL
+roles:
+- database-administrator
+type: role-based
+products:
+- azure
+- azure-automation
+- azure-database-mysql
+- azure-database-postgresql
+- azure-sql-database
+- azure-storage
+- azure-virtual-machines
+- sql-server
+courses:
+- uid: course.dp-300t00
+paths:
+- uid: learn.azure-sql-fundamentals
+- uid: learn.wwl.plan-implement-data-platform-resources
+- uid: learn.wwl.implement-secure-environment-database-service
+- uid: learn.wwl.monitor-optimize-operational-resources-sql-server
+- uid: learn.wwl.optimize-query-performance-sql-server
+- uid: learn.wwl.automate-tasks-sql-server
+- uid: learn.wwl.plan-implement-ha-dr-environment
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4qjf6
+exams:
+- uid: exam.dp-300
+resources:
+- title: Azure certifications poster
+  description: Check out an overview including fundamentals, role-based, and specialty certifications for Azure.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wyqh
+- title: Journey to certification
+  description: Explore steps to get certified as an Azure Database Administrator Associate and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AGXA
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

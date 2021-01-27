@@ -1,0 +1,66 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Azure Data Fundamentals'
+metadata:
+  title: 'Microsoft Certified: Azure Data Fundamentals'
+  description: Azure Data Fundamentals validates foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.
+uid: certification.azure-data-fundamentals
+iconUrl: /media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg
+summary: |-
+  <div><strong><font color='red'>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</font></strong><br/><br/></div>
+  
+  Candidates for the Azure Data Fundamentals certification should have foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.  
+
+  This certification is intended for candidates beginning to work with data in the cloud.  
+
+  Candidates should be familiar with the concepts of relational and non-relational data, and different types of data workloads such as transactional or analytical.  
+
+  Azure Data Fundamentals can be used to prepare for other Azure role-based certifications like Azure Database Administrator Associate or Azure Data Engineer Associate, but it’s not a prerequisite for any of them.
+subTitle: Azure Data Fundamentals validates foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.
+levels:
+- beginner
+skills:
+- Describe core data concepts
+- Describe how to work with relational data on Azure
+- Describe how to work with non-relational data on Azure
+- Describe an analytics workload on Azure
+roles:
+- database-administrator
+- data-analyst
+- data-engineer
+- developer
+- student
+type: fundamentals
+products:
+- azure
+courses:
+- uid: course.dp-900t00
+paths:
+- uid: learn.wwl.azure-data-fundamentals-explore-core-data-concepts
+- uid: learn.wwl.azure-data-fundamentals-explore-relational-data
+- uid: learn.wwl.azure-data-fundamentals-explore-non-relational-data
+- uid: learn.wwl.azure-data-fundamentals-explore-data-warehouse-analytics
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wqeZ
+exams:
+- uid: exam.dp-900
+resources:
+- title: Azure certifications poster
+  description: Check out an overview including fundamentals, role-based, and specialty certifications for Azure.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wyqh
+- title: Journey to certification
+  description: Explore steps to get certified in Azure Data Fundamentals and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AM8g
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx

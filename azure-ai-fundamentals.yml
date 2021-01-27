@@ -1,0 +1,81 @@
+### YamlMime:Certification
+title: 'Microsoft Certified: Azure AI Fundamentals'
+metadata:
+  title: 'Microsoft Certified: Azure AI Fundamentals'
+  description: Azure AI Fundamentals validates foundational knowledge of machine learning and artificial intelligence concepts and related Microsoft Azure services.
+uid: certification.azure-ai-fundamentals
+iconUrl: /media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg
+summary: |-
+  <div><strong><font color='red'>In response to the coronavirus (COVID-19) situation, Microsoft is implementing several temporary changes to our training and certification program. <a href='https://www.microsoft.com/en-us/learning/community-blog-post.aspx?BlogId=8&amp;Id=375289'>Learn more</a>.</font></strong><br/><br/></div>
+  
+  Candidates for the Azure AI Fundamentals certification should have foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services.  
+
+  This certification is an opportunity to demonstrate knowledge of common ML and AI workloads and how to implement them on Azure.  
+
+  This certification is intended for candidates with both technical and non-technical backgrounds. Data science and software engineering experience are not required; however, some general programming knowledge or experience would be beneficial.  
+
+  Azure AI Fundamentals can be used to prepare for other Azure role-based certifications like Azure Data Scientist Associate or Azure AI Engineer Associate, but it’s not a prerequisite for any of them.
+subTitle: Azure AI Fundamentals validates foundational knowledge of machine learning and artificial intelligence concepts and related Microsoft Azure services.
+levels:
+- beginner
+skills:
+- Describe AI workloads and considerations
+- Describe fundamental principles of machine learning on Azure
+- Describe features of computer vision workloads on Azure
+- Describe features of Natural Language Processing (NLP) workloads on Azure
+- Describe features of conversational AI workloads on Azure
+roles:
+- ai-engineer
+- developer
+- data-scientist
+- student
+type: fundamentals
+products:
+- azure
+- azure-bot-service
+- azure-cognitive-search
+- azure-cognitive-services
+- azure-computer-vision
+- azure-form-recognizer
+- azure-language-understanding
+- azure-machine-learning
+- azure-qna-maker
+- azure-speech-text
+- azure-speech-translation
+- azure-text-analytics
+- azure-text-speech
+- azure-translator-speech
+- azure-translator-text
+courses:
+- uid: course.ai-900t00
+paths:
+- uid: learn.wwl.get-started-with-artificial-intelligence-on-azure
+- uid: learn.wwl.create-no-code-predictive-models-with-azure-machine-learning
+- uid: learn.wwl.explore-computer-vision-microsoft-azure
+- uid: learn.wwl.explore-natural-language-processing
+- uid: learn.wwl.explore-conversational-ai
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wAEF
+exams:
+- uid: exam.ai-900
+resources:
+- title: Azure certifications poster
+  description: Check out an overview including fundamentals, role-based, and specialty certifications for Azure.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wyqh
+- title: Journey to certification
+  description: Explore steps to get certified in Azure AI Fundamentals and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ARlg
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtQJJ
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: deals.md
+- title: Support for certifications
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx
