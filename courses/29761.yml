@@ -1,0 +1,215 @@
+### YamlMime:Course
+title: 使用T-SQL查詢資料
+metadata:
+  title: 'Course 29761-A: 使用T-SQL查詢資料'
+  description: 'Course 29761-A: 使用T-SQL查詢資料'
+uid: course.29761
+courseNumber: '29761-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 敘述 Microsoft SQL Server 2016 的基本架構和概念。
+- skill: 了解 Transact-SQL 和其他計算機語言之間的相似性與差異性
+- skill: 撰寫 SELECT 選取查詢語法
+- skill: 針對多個資料表進行資料的查詢
+- skill: 排序資料，以及過濾資料
+- skill: 說明 SQL Server 所支援的資料型別
+- skill: 運用 Transact-SQL 查詢修改資料
+- skill: 運用內建函數
+- skill: 針對資料進行分群與彙總計算
+- skill: 運用子查詢
+- skill: 運用集合運算子
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-tw
+levels:
+- advanced
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-761
+summary: |-
+  這個為期 5 天由授課講師指導的課程，主要的目的是讓學員們能夠具備運用 Transact-SQL 語言的能力，並藉由所學得的知識銜接 SQL Server 相關的進階課程，像是，資料庫管理，資料庫開發，以及商業智慧等課程。 因此，本課程的主要目標學員是&#58; 資料庫管理師，資料庫開發人員，以及商業智慧 (BI) 應用相關的專業人士。
+  
+  當然，參與本課程的學員中，將會包含對資料庫應用或是對 SQL 查詢語言不熟悉者，像是撰寫報表人員，營運分析師，以及終端應用程式開發人員等。
+
+  #### Audience profile
+  本課程的目標學員為資料庫管理師，資料庫開發人員，以及商業智慧 (BI) 應用相關的專業人士等。當然，參與本課程的學員中，將會包含對資料庫應用或是對 SQL 查詢語言不熟悉者，像是撰寫報表人員，營運分析師，以及終端應用程式開發人員等。
+prerequisitesSection: |-
+  本課程期望您在確定選修課程之前，先評估自己是否具備下列的先備條件&#58; 
+  - 具備關聯式資料庫的相關知識 
+  - 具備 Microsoft Windows 作業系統，以及其核心功能的基礎知識
+outlineSection: |-
+  ### Module 1&#58; 微軟SQL Server 2016介紹
+  在這個模組課程中，將介紹SQL Server，SQL Server的版本，包含雲端版本，以及如何利用SQL Server Management Studio平台，與SQL Server 連線。
+  #### Lessons
+  - SQL Server 的基本架構
+  - SQL Server 功能性版本 ( Editions ) 和產品版本( Versions )
+  - 以 SQL Server Management Studio 作為 SQL Server 的使用入門
+
+
+  #### Lab &#58; 使用 SQL Server 2016 工具
+  完成本模組課程後，學員們將能夠擁有下列能力&#58; 
+  - 敘述 SQL Server 2012 功能性版本及其架構
+  - 運用 SQL Server Management Studio 平台
+
+
+  ### Module 2&#58; T-SQL 查詢介紹
+  在這個模組課程中，將介紹T-SQL的元素，以及各元素在撰寫查詢語法時的作用。同時，將介紹 SQL Server的集合運用，主要是為了說明如何在SQL Server中，運用謂詞邏輯，以及它們在SELECT語法中的操作邏輯次序。
+  #### Lessons
+  - 介紹 T-SQL
+  - 瞭解集合 ( Sets )
+  - 瞭解謂詞邏輯 ( Predicate Logic )
+  - 瞭解在 SELECT 指令式中運算的邏輯順序
+
+
+  #### Lab &#58; T-SQL 查詢介紹
+  完成本模組課程後，學員們將能夠擁有下列能力&#58; 
+  - 說明在撰寫查詢語法時，T-SQL 的元素以及元素的功能
+  - 說明 SQL Server 的集合運用
+  - 說明 SQL Server 的謂詞邏輯
+  - 說明 SELECT 選取語法中的操作邏輯次序
+
+
+  ### Module 3&#58; 編寫 SELECT 查詢指令式
+  本模組課程中，將介紹基本的 SELECT 選取陳述式，其著重在針對單一資料表的查詢。
+  #### Lessons
+  - 編寫簡單的 SELECT 指令式
+  - 使用 DISTINCT 線索來清除重覆的資料
+  - 使用資料表和欄位別名
+  - 編寫簡單的 CASE 表達式
+
+
+  #### Lab &#58; 編寫基本的 SELECT 指令式
+  完成本模組課程後，學員們將能夠擁有下列能力&#58;
+  - 編寫簡單的 SELECT 指令式
+  - 使用 DISTINCT 線索來清除重覆的資料
+  - 使用資料表和欄位別名
+  - 編寫簡單的 CASE 表達式
+
+
+  ### Module 4&#58; 查詢多個資料表
+  在這個模組課程中，將說明如何撰寫查詢語法，以結合 SQL Server 中多個資料來源的資料。同時，將介紹如何在 T-SQL 查詢中運用 JOINs，從多個資料表中進行資料的萃取。
+  #### Lessons
+  - 瞭解聯結 (Join)
+  - 使用內部聯結 (Inner Join) 來查詢
+  - 使用外部聯結 (Outer Join) 來查詢
+  - 使用交叉聯結 (Cross Join) 和自我聯結 (Self Join) 來查詢
+
+
+  #### Lab &#58; 查詢多個資料表
+  完成本模組課程後，學員們將能夠擁有下列能力&#58; 
+  - 描述如何在 SELECT 陳述式中，使用聯結來查詢多個資料表
+  - 撰寫使用內部聯結的查詢
+  - 撰寫使用外部聯結的查詢
+  - 撰寫使用交叉聯結和自我聯結的查詢
+
+
+  ### Module 5&#58; 排序和篩選資料
+  在這個模組課程中，將說明學習如何強化查詢語法，以針對回傳的記錄值進行條件式的限制，同時，控制回傳資料的顯示次序。本模組課程也將針對如何處理遺失值與未知值的方式進行討論。
+  #### Lessons
+  - 排序資料
+  - 利用述詞篩選資料
+  - 利用 TOP 和 OFFSET-FETCH 子句篩選資料
+  - 操作未知值 (Unknown Values)
+
+
+  #### Lab &#58; 排序和篩選資料
+  完成本模組課程後，學員們將能夠擁有下列能力&#58; 
+  - 在 WHERE 子句中，運用述詞進行資料的過濾。
+  - 運用 ORDER BY 排序資料
+  - 在 SELECT 子句中使用 TOP 篩選資料
+  - 使用 OFFSET 和 FETCH 篩選資料
+
+
+  ### Module 6&#58; 運用 SQL Server 2016 資料型別
+  在本模組課程中，將說明 SQL Server 用來儲存資料的資料型別種類。內容包含多個數值型別，以及特殊用途 (special-use) 的資料型別。另外，也會針對不同資料型別之間的轉換，以及轉換資料型別時的優先次序進行說明。
+  #### Lessons
+  - 簡介 SQL Server 2016 資料型別
+  - 運用字元資料
+  - 運用日期與時間資料
+
+
+  #### Lab &#58; 運用 SQL Server 2016 資料型別
+  完成本模組課程後，學員們將能夠擁有下列能力&#58; 
+  - 敘述 SQL Server 的資料型別，型別間的優先次序 (type precedence)，以及型別間的轉換 (type conversions)
+  - 撰寫運用字元型別 (character data types) 的查詢語法
+  - 撰寫運用日期與時間型別 (date and time data types) 的查詢語法
+
+
+  ### Module 7&#58; 運用DML 修改資料
+  在這個模組課程內容中，將說明如何運用 Transact-SQL DML (Data Manipulation Language) 指令，針對資料執行 INSERT 指令，UPDATE 指令，以及 DELETE 指令，以獲得想要的結果。
+  #### Lessons
+  - 新增資料到資料表中
+  - 修改資料以及刪除資料
+  - 自動產生欄位值
+
+
+  #### Lab &#58; 運用 DML 修改資料
+  完成本模組課程後，學員們將能夠擁有下列能力&#58; 
+  - 插入新值到資料表中
+  - 更新與刪除資料表中既存的記錄值
+
+
+  ### Module 8&#58; 使用內建函數
+  在這個模組課程中，將介紹 SQL Server Denali 中的內建函數的運用，並將討論一些常見的用法，包含資料型別的轉換，邏輯結果測試以及 nullability。
+  #### Lessons
+  - 利用 SQL Server 的內建函數撰寫查詢語法
+  - 使用轉換函數
+  - 使用邏輯函數
+  - 在函數應用中加入 NULL
+
+
+  #### Lab &#58; 使用內建函數
+  完成本模組課程後，學員們將能夠擁有下列能力&#58; 
+  - 利用內建函純量值函數，撰寫查詢語法
+  - 運用轉換函數
+  - 運用邏輯函數
+
+  在運用函數時搭配NULL 值，發揮更廣的用途
+
+  ### Module 9&#58; 針對資料進行分群與彙總計算
+  在這個模組課程中，介紹幾個萃取資料的方法，包含如何在查詢中進行資料的分群，如何對分群資料進行聚合計算，以及運用 HAVING 子句進行群組資料的過濾。本模組課程的內容設計，主要的目的在於幫助學員們理解幾個要點，像是，為什麼 SELECT 選取子句，對 GROUP BY 子句中所列出的欄位有所限制，以及哪些欄位可能被放置於 SELECT 子句中。
+  #### Lessons
+  - 使用聚合函數
+  - 運用 GROUP BY 子句
+  - 運用 HAVING 子句過濾群組資料
+
+
+  #### Lab &#58; 針對資料進行分群與彙總計算
+  完成本模組課程後，學員們將能夠擁有下列能力&#58; 
+  - 運用內建聚合函數撰寫選取語法，列出輸入集合中的所有記錄的總結
+  - 運用 GROUP BY 子句，進行記錄值的分群
+  - 運用 HAVING 子句，依據查詢條件過濾出分群資料
+
+
+  ### Module 10&#58; 運用子查詢
+  在這個模組課程中，將介紹如何在不同的 SELECT 選取語法中的各個部分，運用子查詢。內容將包含如何運用純量值與多結果子查詢，以及如何運用 IN 運算子以及 EXISTS 運算子。
+  #### Lessons
+  - 撰寫獨立且自足的子查詢
+  - 撰寫關聯子查詢語法
+  - 在子查詢語法中，運用 EXISTS 述詞
+
+
+  #### Lab &#58; 運用子查詢
+  完成本模組課程後，學員們將能夠擁有下列能力&#58; 
+  - 說明子查詢的運用，也就是，如何將一段查詢語法嵌入另一段查詢語法之中
+  - 撰寫獨立且自足的子查詢，以回傳純量值或多值的結果
+  - 撰寫關聯子查詢語法，以回傳純量值或多值結果
+  - 在一段子查詢語法中，透過 EXISTS 述詞的應用，有效率地查核特定記錄是否存在
+
+
+  ### Module 11&#58; 運用集合運算子
+  在這個模組課程中，將針對不同的集合運算子進行介紹，包含 UNION 運算子，INTERSECT 運算子，以及 EXCEPT 運算子。並透過集合運算子的運用，針對兩個輸入集合的記錄資料進行比較。
+  #### Lessons
+  - 撰寫運用 UNION 運算子的查詢語法
+  - 運用 EXCEPT 運算子以及 INTERSECT 運算子
+  - 運用 APPLY 運算子
+
+
+  #### Lab &#58; 運用集合運算子
+  完成本模組課程後，學員們將能夠擁有下列能力&#58; 
+  - 運用 UNION 運算子，INTERSECT 運算子，以及 EXCEPT 運算子，撰寫查詢語法
+  - 運用 APPLY 運算子

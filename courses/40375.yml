@@ -1,0 +1,61 @@
+### YamlMime:Course
+title: 'HTML5 Application Development Fundamentals: MTA Exam 98-375'
+metadata:
+  title: 'Course 40375-A: HTML5 Application Development Fundamentals: MTA Exam 98-375'
+  description: 'Course 40375-A: HTML5 Application Development Fundamentals: MTA Exam 98-375'
+uid: course.40375
+courseNumber: '40375-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Manage the Application Life Cycle
+- skill: Build the User Interface by Using HTML5
+- skill: Format the User Interface by Using CSS
+- skill: Code by Using JavaScript
+learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+products:
+- vs
+exams:
+- uid: exam.98-375
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-375, and build an understanding of these topics&#58; Manage the Application Life Cycle, Build the User Interface by Using HTML5, Format the User Interface by Using CSS, Code by Using JavaScript. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module  1&#58; Managing the Application Life Cycle
+
+
+  ### Module  2&#58; Building the User Interface by Using HTML5&#58; Text, Graphics, and Media
+
+
+  ### Module  3&#58; Building the User Interface by Using HTML5&#58; Organization, Input, and Validation
+
+
+  ### Module  4&#58; Understanding CSS Essentials&#58; Content Flow, Positioning, and Styling
+
+
+  ### Module  5&#58; Understanding CSS Essentials&#58; Layouts
+
+
+  ### Module  6&#58; Managing Text Flow by Using CSS
+
+
+  ### Module  7&#58; Managing the Graphical Interface by Using CSS
+
+
+  ### Module  8&#58; Understanding JavaScript and Coding Essentials
+
+
+  ### Module  9&#58; Creating Animations, Working with Graphics, and Accessing Data
+
+
+  ### Module  10&#58; JavaScript Coding for the Touch Interface, Device and Operating System Resources, and More

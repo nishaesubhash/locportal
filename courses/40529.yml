@@ -1,0 +1,40 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: High Performance Computing'
+metadata:
+  title: 'Course 40529-G: Microsoft Cloud Workshop: High Performance Computing'
+  description: 'Course 40529-G: Microsoft Cloud Workshop: High Performance Computing'
+uid: course.40529
+courseNumber: '40529-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: At the end of this workshop, you will have a deeper understanding of how to use the core capabilities of Azure Batch, understand how to author Custom Pool and Job templates, work with Job input and output files, author Batch auto-scale formulas, leverage Batch Labs and the Azure Portal for management and monitoring, and use Marketplace applications to simplify common big compute tasks, such as 3D rendering.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will setup and configure a scale-out media processing architecture using Azure Batch. You'll discover how to use big compute (scale out compute, embarrassingly parallel processing) techniques without having to write a lot of code, and learn how these tasks can be accomplished declaratively.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Real-time data with Azure Database for PostgreSQL Hyperscale
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on Lab - Real-time data with Azure Database for PostgreSQL Hyperscale
+  #### Lessons
+  - Connect to and set up your database
+  - Add secrets to Key Vault and configure Azure Databricks
+  - Send clickstream data to Kafka and process it in real time
+  - Rollup real-time data in PostgreSQL
+  - Create advanced visualizations in Power BI

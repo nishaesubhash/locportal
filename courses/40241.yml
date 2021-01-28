@@ -1,0 +1,112 @@
+### YamlMime:Course
+title: MTA クラウドの基礎
+metadata:
+  title: 'Course 40241-A: MTA クラウドの基礎'
+  description: 'Course 40241-A: MTA クラウドの基礎'
+uid: course.40241
+courseNumber: '40241-A'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: クラウド コンピューティングの特徴と種類を理解することができます。
+- skill: Microsoft が提供するクラウド コンピューティングのサービスを理解することができます。
+- skill: Office 365 で提供する各サービスの管理概要を理解することができます。
+- skill: Microsoft Intune の管理概要を理解することができます。
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- ja
+levels:
+- beginner
+roles:
+- developer
+summary: |-
+  MTA クラウドの基礎 (98-369) で要求される内容に対応した項目と、SaaS 型クラウド コンピューティングに関する基礎知識を習得します。
+
+  #### Audience profile
+  このコースは、SaaS 型クラウド コンピューティング サービスを利用する上で必要となる基礎知識と技術を証明しようとしている方を対象としています。また、次の分野における知識と技術の向上を図っている方も対象としています。
+  - Office 365/Microsoft Intune で使用する ID 基盤の管理
+  - Office 365 で提供される各サービス (Exchange Online/SharePoint Online/Lync Online) の基本的な管理
+  - Microsoft Intune を利用したデバイスの管理
+prerequisitesSection: |-
+  「MTA ネットワークの基礎 (#40038)」コースを修了、または同等知識をお持ちの方。
+outlineSection: |-
+  ### セクション 1&#58; クラウド コンピューティングの概要
+  この章では、クラウド コンピューティングの概要として、クラウド コンピューティングの特徴と主な分類、そして Microsoft が提供するクラウド コンピューティングのサービスについて学びます。
+  #### レッスン
+  - クラウド コンピューティング
+  - クラウドの一般的な運用
+
+
+  この章により、次のことを習得できます。
+  - クラウド コンピューティングの特徴を理解します。
+  - クラウド コンピューティングの一般的な運用方法を理解します。
+
+
+  ### セクション 2&#58; Office 365/Microsoft Intune を支える ID 基盤
+  この章では、Microsoft の SaaS 型クラウド サービスである Office 365 と Microsoft Intune で利用する ID 基盤である Azure Active Directory (Azure AD) について学びます。
+  #### レッスン
+  - Azure Active Directory の特徴
+  - Azure Active Directory を利用した ID 管理方法
+
+
+  この章により、次のことを習得できます。
+  - Azure Active Directory の特徴を理解します。
+  - Azure Active Directory を利用した ID 管理方法を理解します。
+
+
+  ### セクション 3&#58; Office 365 の実装
+  この章では、SaaS 型クラウド サービスのうち、Office 365 について、サービス概要と Office 365 全体の初期構成を行う上で必要な設定について学びます。
+  #### レッスン
+  - Office 365 の実装
+  - Office 365 実装後の運用
+
+
+  この章により、次のことを習得できます。
+  - Office 365 の実装方法を理解します。
+  - Office 365 実装後の運用に必要な要素を理解します。
+
+
+  ### セクション 4&#58; Exchange Online の管理
+  この章では、Office 365 で提供するメール サービスである Exchange Online について、メールを利用する上で必要なメールボックスの管理と、メールの送受信を適切に実行できるようにするために必要な設定について学びます。
+  #### レッスン
+  - メールボックスの管理
+  - メール サービス全体の管理
+
+
+  この章により、次のことを習得できます。
+  - メールボックスの管理方法を理解します。
+  - メール サービス全体の管理方法を理解します。
+
+
+  ### セクション 5&#58; SharePoint Online の管理
+  この章では、Office 365 で提供するポータル サイトやストレージの機能を提供する SharePoint Online について、ポータル サイトを構築する上で必要な要素と、サイト内の構成について学びます。
+  #### レッスン
+  - サイトの構築
+  - サイト コンポーネントの管理
+
+
+  この章により、次のことを習得できます。
+  - サイトの構築方法を理解します。
+  - サイト コンポーネントの管理方法を理解します。
+
+
+  ### セクション 6&#58; Skype for Business の管理
+  この章では、かつて Lync Online と呼ばれていた、Office 365 の Web 会議や在席情報などの機能を提供する Skype for Business について、運用管理方法を学びます。
+  #### レッスン
+  - Skype for Business の運用管理
+
+
+  この章により、次のことを習得できます。
+  - Skype for Business の運用管理を理解します。
+
+
+  ### セクション 7&#58; Microsoft Intune の管理
+  この章では、Microsoft が提供するクラウド ベースのデバイス (PC、スマートフォン、タブレット) の管理サービスである Microsoft Intune を利用したデバイス管理の方法について、実装方法と実装後の運用管理に分けてそれぞれ学びます。
+  #### レッスン
+  - Microsoft Intune の実装
+  - Microsoft Intune 実装後の運用
+
+
+  この章により、次のことを習得できます。
+  - Microsoft Intune の実装方法を理解します。
+  - Microsoft Intune 実装後の運用方法を理解します。

@@ -1,0 +1,112 @@
+### YamlMime:Course
+title: JavaScript, HTML and CSS Web Development
+metadata:
+  title: 'Course 40410-A: JavaScript, HTML and CSS Web Development'
+  description: 'Course 40410-A: JavaScript, HTML and CSS Web Development'
+uid: course.40410
+courseNumber: '40410-A'
+hoursToComplete: 48
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Explore the historical context and justification for HTML
+- skill: Create HTML5 documents
+- skill: Use HTML elements to add content to a HTML page
+- skill: User hyperlinks to connect various HTML pages together
+- skill: Capture user input using forms
+- skill: Create content using HTML5 semantic elements
+- skill: Create SVG Graphics
+- skill: Create CSS stylesheets
+- skill: Author sophisticated CSS rule sets and selectors
+- skill: Lay out HTML elements using CSS margin and padding
+- skill: Implement program logic using JavaScript
+- skill: Leverage HTML5 APIs using JavaScript
+- skill: Implement advanced web applications using jQuery, AngularJS, Bootstrap, TypeScript or Sass
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+summary: |-
+  This course introduces HTML, JavaScript and CSS as programming and markup languages that are used to create web applications. The learner will gain experience with each language individually and then combine them together to create compelling web application solutions. The learner will have an opportunity to use Visual Studio Code on their operating system of choice to create and test their web applications. This course teaches basic tasks that are necessary to create web applications with a strong semantic structure, re-usable style components and custom interactive features. This course includes hands-on labs that enables the learner to build basic HTML pages that are the components of a web application used to solve real world problems.
+
+  #### Audience profile
+  The target audience for this training course is individuals who are interested in learning about the core skills necessary for web development. This course is intended for individuals of all levels. Some light experience with software development is helpful but not necessary.
+prerequisitesSection: |-
+  To have success in completing this workshop, students should either complete the related free [edX course on JavaScript, HTML, and CSS Web Development](https://www.edx.org/course/javascript-html-css-web-development-microsoft-dev211-1x) or have the equivalent background knowledge. Some light experience with software development is helpful but not necessary.
+outlineSection: |-
+  ### Module 1&#58; Creating Web Pages using Hypertext Markup Language (HTML)
+  In this module, you will learn how to create a basic HTML document using the core HTML elements. You will learn about the basic structure of an HTML element (content, attributes, etc.) and how they are used in the context of your HTML web pages.
+  #### Lessons
+  - Introduction to HTML
+  - Document Structure and Layout
+  - Basic HTML Elements
+  - Formatting HTML Elements
+  - Hyperlinks
+
+
+  #### Lab &#58; Creating Web Pages using HTML
+  - Configure your Development Environment
+  - Using Various HTML Elements on a HTML Page
+
+  You will learn how to create a basic HTML document using the core HTML elements.
+
+  ### Module 2&#58; Creating Sophisticated Document Structures using HTML
+  In this module, you will learn how to use advanced features of HTML such as forms and semantic elements to create more sophisticated HTML documents. You will learn when each of these components are used and their significance in the HTML markup spec. You will also learn how to use components such as SVG and media elements.
+  #### Lessons
+  - Capturing User Input
+  - HTML5 Semantic Elements
+  - Scalable Vector Graphics (SVG)
+  - Implementing Media Controls
+
+
+  #### Lab &#58; Creating Sophisticated Document Structures
+  - Adding Additional HTML Features to Your Web Page
+
+  You will learn how to use advanced features of HTML such as forms and semantic elements to create more sophisticated HTML documents.
+
+  ### Module 3&#58; Designing Web Pages Elements using Cascading Style Sheets (CSS)
+  In this module, you will learn how to use CSS to design your HTML web page. You will be introduced to the basic CSS concepts (declaration, rule set, rule, selector, etc.) and implement basic designs using CSS. You will also be introduced to the CSS box model.
+  #### Lessons
+  - Introduction to CSS
+  - Style Definitions
+  - Style Inheritance
+  - Box Model
+  - Fonts
+
+
+  #### Lab &#58; Designing Web Page Elements using CSS
+  - Styling Your Web Page Using CSS
+
+  You will learn how to use CSS to design your HTML web page.
+
+  ### Module 4&#58; Implementing Program Flow using JavaScript (JS)
+  In this module, you will learn how to use JavaScript to add a logical flow to your web page. You will first learn the basics of the JavaScript language and then implement simple JavaScript applications through hands-on exercises.
+  #### Lessons
+  - Introduction to JavaScript
+  - JavaScript Types
+  - JavaScript Callbacks
+  - Advanced JavaScript
+  - HTML5 APIs
+
+
+  #### Lab &#58; Implementing Program Flow using JavaScript
+  - Implement An Image Carousel in JavaScript
+
+  You will learn how to use JavaScript to add a logical flow to your web page.
+
+  ### Module 5&#58; Adding External Libraries to Enhance HTML Applications
+  In this module, you will briefly learn about various external libraries that can be used to enhance your HTML content, CSS stylesheets and JavaScript code. Featured libraries include&#58; AngularJS, Bootstrap, jQuery, TypeScript and Sass.
+  #### Lessons
+  - jQuery
+  - AngularJS
+  - Bootstrap
+  - TypeScript
+  - Sass
+
+
+  #### Lab &#58; Adding External Libraries to HTML
+  - Modernize Your Web Page
+
+  You will get an overview about various external libraries that can be used to enhance your HTML content, CSS stylesheets and JavaScript code.

@@ -1,0 +1,42 @@
+### YamlMime:Course
+title: Migrating SQL databases to Azure
+metadata:
+  title: 'Course 40562-G: Migrating SQL databases to Azure'
+  description: 'Course 40562-G: Migrating SQL databases to Azure'
+uid: course.40562
+courseNumber: '40562-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Design a cloud migration solution for business-critical applications and databases.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will work as a group to setup and configure a serverless architecture within Azure using a combination of Azure Functions, Logic Apps, Event Grid, Cosmos DB, and Azure Storage. The focus is on removing server management from the equation, breaking down the solution into smaller components that are individually scalable, and allowing the customer to only pay for what they use.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas.  Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Migrating SQL databases to Azure
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-On lab - Migrating SQL databases to Azure
+  #### Lessons
+  - Perform database assessments
+  - Migrate the database to SQL MI
+  - Update the web application to use the new SQL MI database
+  - Integrate App Service with the virtual network
+  - Improve database security posture with Advanced Data Security
+  - Enable Dynamic Data Masking
+  - Use online secondary for read-only queries

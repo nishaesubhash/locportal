@@ -1,0 +1,40 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Modern Cloud Apps'
+metadata:
+  title: 'Course 40508-G: Microsoft Cloud Workshop: Modern Cloud Apps'
+  description: 'Course 40508-G: Microsoft Cloud Workshop: Modern Cloud Apps'
+uid: course.40508
+courseNumber: '40508-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: At the end of this workshop, you will be better able to deploy and configure Azure Web Apps and associated services. In addition, you will learn to configure Web Apps for authentication with Azure AD, instrument and load-test the application with App Insights, and automate back-end services using Azure Functions and Logic Apps.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will work as a group to implement an end-to-end solution for e-commerce that is based on Azure App Services, Azure Active Directory, and Visual Studio Team Services. You will ensure the solution is PCI compliant, and appropriate security measures are put into place for both on-premises and public access scenarios.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Modern cloud apps
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on Lab - Modern cloud apps
+  #### Lessons
+  - Proof of concept deployment
+  - Identity and security
+  - Enable Azure B2C for customer site
+  - Enabling Telemetry with Application Insights
+  - Automating backend processes with Azure Functions and Logic Apps

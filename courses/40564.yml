@@ -1,0 +1,41 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Securing the IoT end to end'
+metadata:
+  title: 'Course 40564-G: Microsoft Cloud Workshop: Securing the IoT end to end'
+  description: 'Course 40564-G: Microsoft Cloud Workshop: Securing the IoT end to end'
+uid: course.40564
+courseNumber: '40564-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Architect a comprehensive and secure oil and gas manufacturing IoT solution.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will look at the process for designing and implementing an oil and gas manufacturing IoT solution that is secured end-to-end following best practices. At the end of this workshop, you will be better able to architect a comprehensive and secure oil and gas manufacturing IoT solution.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas.  Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Securing the IoT end to end
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on Lab - Securing the IoT end to end
+  #### Lessons
+  - Secure and configure IoT Hub and Device Provisioning Service
+  - Enroll and provision IoT devices
+  - Install and configure IoT Edge
+  - Install Azure Security IoT Agent
+  - Simulate IoT attacks
+  - Configure security and alerts

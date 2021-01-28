@@ -1,0 +1,92 @@
+### YamlMime:Course
+title: "Partner Applied Workshop: What's New in Windows® 10"
+metadata:
+  title: "Course 40332-A: Partner Applied Workshop: What's New in Windows® 10"
+  description: "Course 40332-A: Partner Applied Workshop: What's New in Windows® 10"
+uid: course.40332
+courseNumber: '40332-A'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand what is new when deploying Windows 10
+- skill: Using MDT
+- skill: Using System Center Configuration Manager
+- skill: List and explain the new features of Windows10 UI across multiple devices
+- skill: Use and customize the new user interface in Windows10
+- skill: Use the new Windows Imaging and Configuration Designer (ICD)
+- skill: Use Device Guard for Windows 10
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows
+summary: |-
+  This Microsoft Partner Applied Workshop introduces IT Professionals to the new features and capabilities of Windows 10. The workshop combines video, and uses the Enterprise Edition of Windows 10 to cover what’s new in Windows 10 for IT Professionals, as well as the key Windows 10 ecosystem consisting of Windows Assessment and Deployment Kit(ADK) for Windows 10, Microsoft Deployment Toolkit 2013 Update 1 Preview, System Center 2012 R2 Configuration Manager Technical Preview, and MDT 2013 Update 1.
+  
+  This workshop is designed to enhance and extend the learning from the selected video content hosted for IT Pros on Microsoft Virtual Academy (MVA). In this workshop, students will explore the new user interface features of
+  Windows 10, the deployment and management tools listed above, and a deep dive intoDevice Guard forWindows 10.
+
+  #### Audience profile
+  This workshop is intended for IT professionals who are interested in learning about the new features and functionality in Windows10.In general, adopters of new technology or people looking to gain early insight into functionality of Windows 10, and related support services, and tools will benefit from attending this workshop. People who are key technical influencers and technology decision-makers in an IT organization also may attend this clinic, as they can benefit from gaining early insight into some of the latest features and technologies that Windows 10 includes
+outlineSection: |-
+  ### Module 1&#58; Deploying Windows 10 using the Microsoft Deployment Toolkit
+  The exercises in this lab focus on deploying Windows 10 by using MDT to a new computer and refreshing the operating system on an existing device running Windows 7 to Windows 10 by using Lite Touch Installation (LTI). The big takeaway from the exercises in this lab is that you can deploy Windows 10 by using highly automated processes that help minimize the use of IT resources, reduce configuration errors, reduce complexity, and reduce the overall effort required to deploy Windows 10 and apps.
+
+  #### Lab &#58; Deploying Windows 10 to a new computer (or “bare metal” deployment)
+
+  #### Lab &#58; Deploying Windows 10 to an existing device running Windows 7
+  After completing this module, you will be able to&#58;
+  - Understand how to deploy Windows 10 to a new computer using MDT
+  - Understand how to refresh a computer running Windows 7 to Windows 10
+
+
+  ### Module 2&#58; Windows 10 across the  Desktop, Tablets, and Phones
+  Windows 10 is designed for use with many different devices. Desktops, tablets, phones, Xbox 1, and embedded devices like the Raspberry Pi. This session gives you the overview you need to understand what Windows 10 brings to mobile devices. The videos demonstrate the user experience on multiple devices, while the hands-on lab offers the student access to using the new universal apps and the Windows 10 user interface.
+
+  #### Lab &#58; Exploring the new User Interface (UI) of Windows 10
+  After completing this lab, you will be able to&#58;
+  - Know the features of the key pieces of the new Windows 10 UI
+  - Use the new Start Screen and Menu
+  - How to configure and use Cortana
+  - Use Action Center functionality
+  - Use IE 11 and the new Microsoft Edge 
+  - Configure and use the new mail and calendar universal app
+  - How to use Task View and multiple desktops
+
+
+
+  ### Module 3&#58; Staying Current with Windows 10
+  The videos for this module discussed how System Center Configuration Manager (CM), Windows Server Update Services (WSUS), as well as Mobile Device Management tools like Microsoft Intune can all be used to keep your Windows 10 systems up to date. The exercises in this unit's labs show how to deploy Windows 10 by using System Center 2012 R2 Configuration Manager Technical Preview. In the first exercise, you will see how to deploy Windows 10 to a new computer. In the second exercise, you will see how to deploy Windows 10 to a device running Windows 8.1, while retaining the user settings and data. Updates and patches would be deployed in a similar manner using CM for Windows 10 systems. Finally, in Exercise 3 you will create a Provisioning Package using the new Windows Imaging and Configuration Designer (ICD) tool. ICD is used to customize Windows 10 images and is included in the free Windows Assessment and Deployment Kit (ADK) for Windows 10. A provisioning package can include policies, and management instructions, installation of specific apps, customization of network connections, and more.
+
+
+  #### Lab &#58; Deploying Windows 10 to a new computer using Configuration Manager
+
+  #### Lab &#58; Deploying Windows 10 to an existing device running Windows 8.1
+
+  #### Lab &#58; Understanding and using the Windows Imaging and Configuration Designer (ICD) tool
+  After completing this module, you will be able to&#58;
+  - Learn how to manage Configuration Manager deployment content and tasks sequences in the Configuration Manager Console
+  - Deploy Windows 10 to a new computer
+  - Deploy Windows 10 to a computer running Windows 8.1 using Configuration Manager
+  - Use ICD to build a provisioning package
+
+
+  ### Module 4&#58; A New Era of Threat Resistance for the Windows 10 Platform
+  Windows 10 protects you from modern security treats and we’ve organized our efforts around the following pillars including secure device/hardware, secure identities, information protection and threat resistance.
+
+  Microsoft Device Guard, is an umbrella term that covers the integration of security features of Windows 10. Some of these features were introduced in earlier versions of Windows, and some are new to this release. These features take advantage of new virtualization-based security (VBS) options and the trust-nothing mobile device operating system model. This makes Windows 10 defenses much more difficult for malware to penetrate.
+
+  #### Lab &#58; Working with Device Guards Catalog Files
+
+  #### Lab &#58; Configure Windows SmartScreen settings
+
+  #### Lab &#58; Configure Windows Defender settings
+  After completing this module, you will be able to&#58;
+  - Understand the features of Device Guard
+  - Configure Device Guard Catalog Files
+  - Configure Windows SmartScreen
+  - Configure Windows Defender

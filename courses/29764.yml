@@ -1,0 +1,290 @@
+### YamlMime:Course
+title: 管理SQL 資料庫基礎結構
+metadata:
+  title: 'Course 29764-A: 管理SQL 資料庫基礎結構'
+  description: 'Course 29764-A: 管理SQL 資料庫基礎結構'
+uid: course.29764
+courseNumber: '29764-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 驗證與授予使用者使用權限
+- skill: 指派伺服器與資料庫角色
+- skill: 授權使用者存取資源
+- skill: 運用加密以及稽核手法保護資料
+- skill: 說明復原模式以及備份策略
+- skill: 備份 SQL Server 資料庫
+- skill: 還原SQL Server 資料庫
+- skill: 自動化資料庫管理作業
+- skill: 配置SQL Server Agent 的安全性
+- skill: 管理警訊以及通知
+- skill: 運用 PowerShell，管理 SQL Server
+- skill: 追蹤SQL Server 的存取行為
+- skill: 監測 SQL Server 結構
+- skill: SQL Server 建設的故障排除
+- skill: 匯入與匯出資料
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-tw
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-764
+summary: |-
+  這個為期 5 天由授課講師指導的課程，是專為管理以及維護 SQL Server 資料庫的學員們，提供管理SQL Server資料庫結構的相關知識與技能。此外，它將被應用於開發由 SQL Server 資料庫提供資料的個別應用程式。
+
+  #### Audience profile
+  本培訓課程的主要目標學員，是針對專門管理與維護 SQL Server 資料庫的個人，或是資料庫在其主要的職責中扮演重要的角色。這些人員將資料庫管理以及維護作為其主要的責任領域，或在資料庫在其主要的工作中發揮關鍵作用的環境中工作。
+  
+  再來，就是開發擷取 SQL Server 資料庫中的內容的應用程式的個人。
+prerequisitesSection: |-
+  除了參與本培訓課程的學員們，本身的領域專業經驗之外，最好具備下面所列出的技術性知識項目&#58; 
+  - 微軟Windows作業系統的基礎知識，以及其核心功能
+  - 運用 Transact-SQL的應用知識
+  - 運用關聯性資料庫的應用知識
+  - 擁有某些資料庫領域的設計經驗
+outlineSection: |-
+  ### Module 1&#58; SQL Server 安全性
+  本模組課程單元的內容，包含 SQL Server的安全性模型、登入、以及使用者等內容。
+  #### Lessons
+  - 驗證連線到SQL Server
+  - 授權登入連線到資料庫
+  - 跨伺服器授權
+  - 部分自主資料庫
+
+
+  #### Lab &#58; 驗證使用者
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 說明伺服器層級安全性
+  - 說明資料庫層級安全性
+  - 說明跨伺服器授權
+  - 說明部分自主資料庫
+
+
+  ### Module 2&#58; 指派伺服器與資料庫角色
+  本模組課程單元的內容，包含固定伺服器角色、使用者自訂伺服器角色、固定資料庫角色、以及使用者自訂資料庫角色。
+  #### Lessons
+  - 使用伺服器角色
+  - 使用固定資料庫角色
+  - 使用者定義資料庫角色
+
+
+  #### Lab &#58; 指派伺服器與資料庫角色
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 說明伺服器角色
+  - 說明固定資料庫角色
+  - 說明使用者自訂資料庫角色
+
+
+  ### Module 3&#58; 授權使用者存取資源
+  本模組課程單元的內容，包含使用權限以及指派使用權限。
+  #### Lessons
+  - 授權使用者存取物件
+  - 授權使用者執行程式碼
+  - 在結構描述層級設定權限
+
+
+  #### Lab &#58; 授權使用者存取資源
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 說明如何授權使用者存取物件
+  - 說明如何授權使用者執行程式碼
+  - 說明如何在綱要層級配置使用權限
+
+
+  ### Module 4&#58; 使用加密與稽核保護資料
+  本模組課程單元的內容，包含SQL Server稽核
+  #### Lessons
+  - 在SQL Server中稽核資料存取的選項
+  - 實作SQL Server稽核
+  - 管理SQL Server稽核
+  - 使用加密保護資料
+
+
+  #### Lab &#58; 使用稽核與加密
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 說明稽核資料存取的選項
+  - 實作SQL Server稽核
+  - 管理SQL Server稽核
+  - 說明如何運用自訂稽核事件
+  - 實作加密
+
+
+  ### Module 5&#58; 復原模式與備份策略
+  本模組課程單元的內容，主要是說明交易記錄檔的概念，以及SQL Server 的復原模式。此外，也簡介了 SQL Server 所提供的不同的備份策略。
+  #### Lessons
+  - 瞭解備份策略
+  - SQL Server 交易記錄
+  - 規劃備份策略
+
+
+  #### Lab &#58; 瞭解SQL Server 復原模式
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 說明不同的備份策略
+  - 說明資料庫交易記錄如何運作
+  - 規劃SQL Server備份策略
+
+
+  ### Module 6&#58; SQL Server 資料庫備份
+  本模組課程單元的內容，主要是說明 SQL Server 備份以及備份的類別。
+  #### Lessons
+  - 備份資料庫以及備份交易記錄
+  - 管理資料庫的備份方式
+  - 進階的備份選項
+
+
+  #### Lab &#58; 備份資料庫
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 執行SQL Server資料庫以及交易記錄檔的備份
+  - 管理資料庫備份
+  - 敘述進階的備份選項
+  - 敘述如何備份Azure Windows Blob Store
+
+
+  ### Module 7&#58; 還原 SQL Server 2016 資料庫
+  本模組課程單元的內容，主要是說明資料庫的還原運用。
+  #### Lessons
+  - 認識還原流程
+  - 還原作業
+  - 進階的還原方案
+  - 時間點復原作業
+
+
+  #### Lab &#58; 還原SQL Server 資料庫
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 說明資料庫還原流程
+  - 說明時間點還原觀念
+  - 說明進階的還原作業觀念
+
+
+  ### Module 8&#58; 自動化 SQL Server 管理作業
+  本模組課程單元的內容，主要是說明如何運用SQL Server Agent自動化作業 (job)。此外，還簡介了運用主要的 (master) 伺服器以及目標伺服器以集中自動化作業管理的優點。
+  #### Lessons
+  - 自動化 SQL Server 管理作業
+  - 運用 SQL Server Agent
+  - 管理 SQL Server Agent 作業
+  - 多伺服器管理
+
+
+  #### Lab &#58; 自動化 SQL Server 管理作業
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 說明SQL Server自動化管理的方法
+  - 配置作業，作業步驟類型 (job step type)，以及排程
+  - 管理SQL Server Agent 作業
+  - 配置master伺服器以及目標伺服器
+
+
+  ### Module 9&#58; SQL Server Agent 的安全性配置
+  本模組課程單元的內容，主要是說明SQL Server Agent 安全性的顧慮，包含 proxy 帳號以及認證。
+  #### Lessons
+  - 了解SQL Server Agent 的安全性議題
+  - 配置認證
+  - 配置Proxy 帳號
+
+
+  #### Lab &#58; 替 SQL Server Agent 配置安全性
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 說明 SQL Server Agent 的安全性議題
+  - 配置認證
+  - 配置 Proxy 帳號
+
+
+  ### Module 10&#58; 用警訊以及通知監測 SQL Server
+  本模組課程單元的內容，主要是說明配置資料庫信件、警訊、以及通知。
+  #### Lessons
+  - 配置資料庫郵件
+  - 監測 SQL Server 的錯誤
+  - 操作員、警訊、以及通知
+  - Azure SQL 資料庫的警訊
+
+
+  #### Lab &#58; 用警訊以及通知監測 SQL Server
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 配置資料庫郵件
+  - 監測SQL Server 錯誤
+  - 配置操作員、警訊、以及通知
+
+
+  ### Module 11&#58; 簡介運用 PowerShell 管理 SQL Server
+  本模組課程單元的內容，主要是說明為搭配SQL Server 的應用簡介 PowerShell。
+  #### Lessons
+  - 從 Windows PowerShell 開始
+  - 運用 PowerShell 配置 SQL Server
+  - 運用PowerShell管理以及維護SQL Server
+  - 運用 PowerShell 管理  Azure SQL 資料庫
+
+
+  #### Lab &#58; 運用 PowerShell 管理 SQL Server
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 運用PowerShell配置SQL Server
+  - 運用PowerShell，執行SQL Server 的管理和維護
+  - 運用PowerShell，維護SQL Server 運作的環境
+
+
+  ### Module 12&#58; 運用擴充事件追蹤存取  SQL Server 狀態
+  本模組課程單元的內容，主要是說明如何運用SQL Profiler 以及SQL Trace 預存程序，擷取 SQL Server 中的資訊。此外，還說明如何運用 Distributed Replay 從多個伺服器中擷取出追蹤的資料，以及監控鎖定狀態。
+  #### Lessons
+  - 擴充事件的核心概念
+  - 運用擴充事件
+
+
+  #### Lab &#58; 擴充事件
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 配置 SQL Profiler 追蹤以及檢視所擷取出方資訊
+  - 運用Database Engine Tuning Advisor
+  - 理解SQL Server 進階追蹤運用觀念
+  - 運用 Distributed Replay
+  - 監控鎖定
+
+
+  ### Module 13&#58; 監控SQL Server 的特殊事件活動分析
+  本模組課程單元的內容，主要是說明如何運Distributed Management Views 監控 SQL Server。此外，還簡介資料蒐集配置以及 SQL Server 公用程式。
+  #### Lessons
+  - 監控活動
+  - 擷取以及管理效能資料
+  - 分析所蒐集的效能資料
+  - SQL Server 公用程式
+
+
+  #### Lab &#58; 監控SQL Server 的特殊事件活動分析
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 監控 SQL Server 中的活動狀態
+  - 配置資料蒐集
+  - 從蒐集的資料中檢視報告
+  - 配置 SQL Server 公用程式
+
+
+  ### Module 14&#58; 疑難排解 SQL Server 的問題
+  本模組課程單元的內容，主要是說明SQL Server疑難排解的方法，以及討論當運用 SQL Server 系統時最常面臨的問題。
+  #### Lessons
+  - SQL Server 疑難排解的方法
+  - 解決服務相關的問題
+  - 解決連線以及登入的相關問題
+
+
+  #### Lab &#58; 疑難排除常見的問題
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 敘述SQL Server的故障排除的方法
+  - 解決服務相關的問題
+  - 解決登錄以及連接相關的問題
+
+
+  ### Module 15&#58; 匯入以及匯出資料
+  這個模組課程中的內容涵蓋了運用匯入/匯出精靈，以及說明他們與SSIS之間的關聯性。此外，這個模組課程單元中還納入了BCP以及BULK INSERT 的簡介。
+  #### Lessons
+  - 從 SQL Server 傳送和接收資料
+  - 匯入和匯出資料表資料
+  - 使用 bcp 和 大量插入 匯入資料
+  - 部署和升級資料層應用程式
+
+
+  #### Lab &#58; 匯入以及匯出資料
+  完成本模組後，學員們將能夠擁有下列能力&#58; 
+  - 說明應用於傳輸資料的工具和技術
+  - 匯入和匯出資料表資料
+  - 使用 bcp 和大量插入匯入資料
+  - 使用資料層應用程式匯入和匯出資料庫應用程式

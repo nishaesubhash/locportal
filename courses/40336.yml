@@ -1,0 +1,81 @@
+### YamlMime:Course
+title: 'First Look Clinic: Windows 10 for IT Professionals'
+metadata:
+  title: 'Course 40336-A: First Look Clinic: Windows 10 for IT Professionals'
+  description: 'Course 40336-A: First Look Clinic: Windows 10 for IT Professionals'
+uid: course.40336
+courseNumber: '40336-A'
+hoursToComplete: 12
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: List and explain the new features of Windows 10.
+- skill: Understand those features that are available now and in what version.
+- skill: Use and customize the new user interface in Windows 10
+- skill: Describe the preparations required for deploying and managing Windows 10
+- skill: Understand the Deployment Choices
+- skill: Understand the Management Options
+- skill: Understand the overall security features of Windows 10
+- skill: List the features of Device Guard
+- skill: Understand a methodology to deploy Device Guard
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows
+summary: |-
+  This Microsoft First Look Clinic introduces IT Professionals to the new features and capabilities of Windows 10, using the Enterprise Edition of Windows 10. It also covers the key Windows 10 ecosystems of Identity Management, cloud services like Azure Active Directory (AAD), deployment/management tools, and the new User Interface. No topic is covered in depth, but students will finish the clinic with an understanding of the new features and capabilities of Windows 10 and related services and administration tools.
+
+  #### Audience profile
+  This clinic is intended for IT professionals who are interested in learning about the new features and functionality in Windows 10. In general, adopters of new technology or people looking to gain early insight into functionality of Windows 10 and related cloud services and tools will benefit from attending this First Look Clinic. People who are key technical influencers and technology decision-makers in an IT organization also may attend this clinic, as they can benefit from gaining early insight into some of the latest features and technologies that Windows 10 includes.
+outlineSection: |-
+  ### Module 1&#58; Introduction to Windows 10
+  Windows 10 is the latest version of the Windows client operating system. It includes the same core functionality as Windows 8.1, as well as several important enhancements and functionality improvements that impact the enterprise environment, especially around security. The Windows 10 design meets a wide range of computing needs, and enable users to perform tasks efficiently. This module introduces you to the key new features of Windows 10.
+  #### Lessons
+  - New Features of Windows 10
+  - Windows 10 Features not Available with the Initial Release
+  - Exploring the new User Interface (UI) of Windows 10
+  - Windows 10 Desktop and Tablet Editions
+  - Windows 10 Hardware Requirements
+
+  After completing this lesson, you will be able to&#58;
+  - List and explain the new features of Windows 10.
+  - List those features that are available now and in what version.
+  - Use the new user interface in Windows 10.
+  - List and describe the devices that can run Windows 10.
+  - List Windows 10 hardware requirements.
+  - Explain the various Windows 10 editions
+  
+  
+  ### Module 2&#58; Deployment and Management of Windows 10
+  Assessing an enterprise’s deployment requirements begins with understanding its hardware and infrastructure environment, and determining whether that hardware can support Windows 10, and the features of Windows 10 deemed important for the enterprise. Moving to Windows 10 in most cases will be very straight forward and require minimal updates to an enterprises’ existing deployment process, though they will now have more options. The recommended strategy is to deploy Windows 10 as the base platform, then through Windows as a service, new features will be delivered. Moving to Windows 10 as mentioned earlier, will not be as expensive or time consuming as an upgrade from Windows XP to Windows 7. In most cases, hardware and software will be compatible with Windows 10.  In this module we will look at the capabilities of  management and deployment tools to address this evolution.
+  #### Lessons
+  - Deployment of Windows 10
+  - Provisioning for Windows 10
+  - Managing Windows 10
+  - Supporting Windows 10
+  
+  After completing this module, you will be able to&#58;
+  - Describe the preparations required for deploying and managing Windows 10
+  - Understand the Deployment Choices
+  - Understand the Management Options
+  
+  
+  ### Module 3&#58; Security Features of Windows 10
+  Windows 10 is designed to protect you from modern security threats and we’ve organized our efforts around the following pillars&#58; secure device/hardware, secure identities, information protection, and threat resistance.
+  
+  In this module we will look at an overview of Windows 10 security features, and then take a deep dive into facets of Device Guard.
+  #### Lessons
+  - Windows 10 Security Overview
+  - Overview of Device Guard
+  - Configurable code integrity
+  - Planning for Device Guard
+  - Device Guard Catalog files
+  - Using Device Guard
+  
+  After completing this module, you will be able to&#58;
+  - Understand the overall security features of Windows 10
+  - Understand the features of Device Guard

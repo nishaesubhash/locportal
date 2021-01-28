@@ -1,0 +1,321 @@
+### YamlMime:Course
+title: Proteger Windows Server 2016
+metadata:
+  title: 'Course 26744-B: Proteger Windows Server 2016'
+  description: 'Course 26744-B: Proteger Windows Server 2016'
+uid: course.26744
+courseNumber: '26744-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Proteger Windows Server.
+- skill: Proteger el desarrollo de aplicaciones y la infraestructura de la carga de trabajo del servidor.
+- skill: Administrar líneas base de seguridad.
+- skill: Configurar y administrar perfiles de administración JEA (Just Enough Administration) y JIT (Just-in-time Administration).
+- skill: Administrar la seguridad de los datos.
+- skill: Configurar el Firewall de Windows y un firewall distribuido definido por software.
+- skill: Proteger el tráfico de red.
+- skill: Proteger su infraestructura de virtualización.
+- skill: Gestionar malware y amenazas.
+- skill: Configurar las opciones avanzadas de auditoría.
+- skill: Administrar actualizaciones de software.
+- skill: Gestionar las amenazas mediante el uso de Microsoft Advanced Threat Analytics (ATA) Microsoft Operations Management Suite (OMS).
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- es
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-744
+summary: |-
+  Este curso de cinco días impartido por un instructor, enseña a los profesionales de la tecnología de la información (IT) cómo pueden mejorar la seguridad de la infraestructura de IT que administran. Este curso comienza destacando la importancia de dar por hecho que ya se han producido infracciones en la red y después le enseña cómo proteger las credenciales administrativas y los derechos para garantizar que los administradores solo puedan realizar las tareas que necesitan, cuando las necesiten.
+  
+  Este curso también explica cómo puede mitigar las amenazas de malware, identificar problemas de seguridad mediante el uso de la auditoría y la característica Advanced Threat Analysis en Windows Server 2016, proteger su plataforma de virtualización y utilizar las nuevas opciones de implementación, tales como Nano Server y los contenedores para mejorar la seguridad. El curso también explica cómo puede ayudar a proteger el acceso a los archivos mediante el cifrado y Control de acceso dinámico y cómo puede mejorar la seguridad de su red.
+
+  #### Audience profile
+  Este curso está destinado a profesionales de IT que necesitan administrar redes de Windows Server 2016 de forma segura. Estos profesionales suelen trabajar con redes que se configuran como entornos basados en el dominio Windows Server, con acceso controlado a Internet y servicios en la nube.
+  
+  También se beneficiarán de este curso los estudiantes que quieran obtener la certificación del examen 70-744 Proteger Windows Server.
+prerequisitesSection: |-
+  Los estudiantes deben tener al menos dos años de experiencia en el campo de las tecnologías de la información y deben&#58;
+  - Haber terminado los cursos 740, 741 y 742 o su equivalente.
+  - Tener una sólida comprensión práctica de fundamentos de redes, incluidos TCP/IP, Protocolo de datagramas de usuario (UDP) y Sistema de nombres de dominio (DNS).
+  - Tener una sólida comprensión práctica de los principios de los Active Directory Domain Services (AD DS).
+  - Tener una sólida comprensión práctica de los fundamentos de virtualización de Microsoft Hyper-V.
+  - Conocer los principios de seguridad de Windows Server.
+outlineSection: |-
+  ### Module 1&#58; Ataques, deteccin de infracciones y herramientas de Sysinternals
+  En este mdulo, los estudiantes aprendern sobre la deteccin de infracciones, los tipos de ataques y vectores, la delincuencia informtica y cmo se puede analizar la actividad del sistema utilizando la herramienta Sysinternals Suite.
+  #### Lessons
+  - Descripcin de los ataques
+  - Detectar infracciones de seguridad
+  - Examinar la actividad con la herramienta Sysinternals
+
+
+  #### Lab &#58; Deteccin bsica de infracciones y estrategias de respuesta a los incidentes
+  - Identificacin de los tipos de ataques
+  - Explorando las herramientas de Sysinternals
+
+  Una vez finalizado este curso, los alumnos podrn&#58;
+  - Describir la deteccin de infracciones.
+  - Describir cmo detectar una infraccin mediante el uso de las herramientas de Sysinternals.
+
+  ### Module 2&#58; Proteccin de credenciales y del acceso con privilegios
+  Este mdulo explica cmo puede configurar los derechos de usuario y opciones de seguridad, proteger las credenciales mediante Credential Guard, implementar estaciones de trabajo de acceso con privilegios y administrar e implementar una solucin de contrasea de administrador local para que poder administrar las contraseas de las cuentas de administrador local.
+  #### Lessons
+  - Descripcin de los derechos de usuario
+  - Cuentas de servicio y de equipo
+  - Proteccin de credenciales
+  - Estaciones de trabajo de acceso con privilegios y servidores de salto
+  - Solucin de contrasea de administrador local (LAPS)
+
+
+  #### Lab &#58; Implementar derechos de usuario, opciones de seguridad y cuentas de servicio administradas de grupo
+  - Configurar las opciones de seguridad
+  - Configurar grupos de equipos
+  - Delegar privilegios
+  - Crear y administrar grupos de cuentas de servicio administradas (MSA)
+  - Configurar la caracterstica Credential Guard
+  - Localizacin de cuentas problemticas
+
+
+  #### Lab &#58; Configurar e implementar LAPS
+  - Instalacin y configuracin de LAPS
+  - Implementar y probar LAPS
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Describir los derechos de usuario.
+  - Implementar cuentas de servicio y de equipo.
+  - Ayudar a proteger las credenciales.
+  - Comprender el acceso con privilegios de las estaciones de trabajo y los servidores de salto.
+  - Entender cmo utilizar una solucin de contrasea de administrador local (LAPS).
+
+  ### Module 3&#58; Limitacin de los derechos del administrador con Just Enough Administration (JEA)
+  Este mdulo explica cmo implementar y configurar Just Enough Administration (JEA).
+  #### Lessons
+  - Descripcin de JEA
+  - Verificar e implementar JEA
+
+
+  #### Lab &#58; Limitar los privilegios del administrador con JEA
+  - Crear un archivo de capacidad de rol
+  - Crear un archivo de configuracin de sesin
+  - Crear un punto de conexin de JEA
+  - Conectar y probar un punto de conexin de JEA
+  - Implementar una configuracin de JEA en otro equipo
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Descripcin de JEA
+  - Verificar e implementar JEA.
+
+  ### Module 4&#58; Privileged Access Management (PAM) y bosques de administracin
+  En este mdulo se explican los conceptos de los bosques de Entorno administrativo de seguridad mejorada (ESAE), Microsoft Identity Manager (MIM) y Just In Time (JIT) Administration o Privileged Access Management.
+  #### Lessons
+  - Bosques de ESAE
+  - Descripcin general de Microsoft Identity Manager
+  - Descripcin general de la administracin de JIT y de PAM
+
+
+  #### Lab &#58; Limitar los privilegios del administrador con PAM
+  - Enfoque de seguridad basado en capas
+  - Configurar relaciones de confianza y entidad de seguridad de instantneas
+  - Solicitar acceso con privilegios
+  - Administrar roles de PAM
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Descripcin de los bosques de ESAE.
+  - Descripcin de MIM.
+  - Descripcin de la administracin de JIT y PAM.
+
+  ### Module 5&#58; Mitigar malware y amenazas
+  Este mdulo explica cmo configurar Windows Defender, AppLocker y las caractersticas de Device Guard.
+  #### Lessons
+  - Configuracin y administracin de Windows Defender
+  - Restringir el software
+  - Configuracin y uso de la caracterstica Device Guard
+  - Implementacin y uso del kit de herramientas de experiencia de mitigacin mejorada (EMET)
+
+
+  #### Lab &#58; Proteger las aplicaciones con AppLocker, Windows Defender, las reglas de Device Guard y EMET
+  - Configurar Windows Defender
+  - Configurar AppLocker
+  - Configuracin de Device Guard
+  - Implementacin y uso del kit de herramientas de experiencia de mitigacin mejorada (EMET)
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Configurar y administrar Windows Defender.
+  - Restringir el software.
+  - Configuracin y uso de la caracterstica Device Guard.
+  - Uso e implementacin de EMET.
+
+  ### Module 6&#58; Anlisis de la actividad con auditora avanzada y Log Analytics
+  Este mdulo explica cmo utilizar la auditora avanzada y las transcripciones de Windows PowerShell.
+  #### Lessons
+  - Descripcin de la auditora
+  - Auditora avanzada
+  - Auditora y registro en Windows PowerShell
+
+
+  #### Lab &#58; Configurar las opciones avanzadas de auditora
+  - Configurar la auditora del acceso al sistema de archivos
+  - Auditar los inicios de sesin en el dominio
+  - Administrar la configuracin de directiva de auditora avanzada
+  - Registro y auditora de Windows PowerShell
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Comprensin de la auditora.
+  - Configurar las opciones avanzadas de auditora.
+  - Auditora y registro de Windows PowerShell.
+
+  ### Module 7&#58; Implementacin y configuracin de Microsoft Advanced Threat Analytics (ATA) y Microsoft Operations M
+  Este mdulo explica la herramienta Microsoft Advanced Threat Analytics (ATA) y Microsoft Operations Management Suite (OMS) y detalla cmo se pueden utilizar para supervisar y analizar la seguridad de una implementacin de Windows Server.
+  #### Lessons
+  - Implementacin y configuracin de ATA
+  - Implementacin y configuracin de Microsoft Operations Management Suite
+
+
+  #### Lab &#58; Implementar ATA y Microsoft Operations Management Suite
+  - Preparar e implementar ATA
+  - Preparacin y configuracin de Microsoft Operations Management Suite
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Implementar y configurar ATA.
+  - Implementar y configurar Microsoft Operations Management Suite.
+
+  ### Module 8&#58; Proteger la infraestructura de virtualizacin
+  Este mdulo explica cmo configurar mquinas virtuales (VM) de tejido protegido, incluidos los requisitos para VM blindadas y VM compatibles con cifrado.
+  #### Lessons
+  - Tejido protegido
+  - Mquinas virtuales blindadas y compatibles con cifrado
+
+
+  #### Lab &#58; Tejido protegido con atestacin de administrador de confianza y VM blindadas
+  - Implementar un tejido protegido con atestacin de administrador de confianza
+  - Implementar una VM blindada
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Descripcin de las VM de tejido protegido
+  - Descripcin de las VM blindadas y las VM compatibles con cifrado.
+
+  ### Module 9&#58; Proteger el desarrollo de aplicaciones y la infraestructura de la carga de trabajo del servidor
+  Este mdulo explica Security Compliance Manager, incluyendo cmo se puede usar para configurar, administrar e implementar lneas base. Adems, los estudiantes aprendern a implementar y configurar Nano Server, Microsoft Hyper-V y contenedores de Windows Server.
+  #### Lessons
+  - Uso de SCM
+  - Introduccin a Nano Server
+  - Descripcin de los contenedores
+
+
+  #### Lab &#58; Uso de SCM
+  - Configurar una lnea base de seguridad para Windows Server 2016
+  - Implementar una lnea base de seguridad para Windows Server 2016
+
+
+  #### Lab &#58; Implementar y configurar Nano Server
+  - Implementar, administrar y proteger Nano Server
+  - Implementar, administrar y proteger Contenedores de Windows
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Descripcin de SCM.
+  - Implementar Nano Server.
+  - Descripcin de los contenedores.
+
+  ### Module 10&#58; Planificacin y proteccin de datos
+  Este mdulo explica cmo configurar el Sistema de cifrado de archivos (EFS) y el cifrado de unidad de BitLocker para proteger los datos en reposo.
+  #### Lessons
+  - Planificacin e implementacin de cifrado
+  - Planificacin e implementacin de BitLocker
+
+
+  #### Lab &#58; Proteccin de datos mediante el cifrado y BitLocker
+  - Cifrar y recuperar el acceso a archivos cifrados
+  - Uso de BitLocker para proteger los datos
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Planificar e implementar cifrado. 
+  - Planificar e implementar BitLocker.
+
+  ### Module 11&#58; Optimizar y proteger los servicios de archivo
+  Este mdulo explica cmo optimizar sus servicios de archivos mediante la configuracin del Administrador de recursos del servidor de archivos (FSRM) y el Sistema de archivos distribuido (DFS). Los estudiantes aprendern a proteger los datos de un dispositivo utilizando el cifrado o BitLocker. Los estudiantes tambin aprendern a administrar el acceso a los archivos compartidos mediante la configuracin de Control de acceso dinmico (DAC).
+  #### Lessons
+  - Administrador de recursos del servidor de archivos (FSRM)
+  - Implementacin de las tareas de administracin y clasificacin de archivos
+  - Control de acceso dinmico
+
+
+  #### Lab &#58; Las cuotas y el filtrado de archivos
+  - Configurar las cuotas del Administrador de recursos del servidor de archivos
+  - Configuracin del filtrado de archivos e informes de almacenamiento
+
+
+  #### Lab &#58; Implementar Control de acceso dinmico
+  - Preparacin para la implementacin de Control de acceso dinmico
+  - Implementar Control de acceso dinmico
+  - Validar y corregir Control de acceso dinmico
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Descripcin del Administrador de recursos del servidor de archivos (FSRM).
+  - Implementar las tareas de administracin y clasificacin de archivos.
+  - Descripcin de Control de acceso dinmico.
+
+  ### Module 12&#58; Proteger el trfico de red con firewalls y cifrado
+  Este mdulo explica los firewalls que incluye Windows Server.
+  #### Lessons
+  - Descripcin de las amenazas de seguridad relacionadas con la red
+  - Introduccin a Firewall de Windows con Seguridad avanzada
+  - Configuracin de IPsec
+  - Datacenter Firewall
+
+
+  #### Lab &#58; Configurar Firewall de Windows con Seguridad avanzada
+  - Crear y probar reglas de entrada
+  - Crear y probar reglas de salida
+  - Crear y probar reglas de seguridad de conexin
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Descripcin de las amenazas de seguridad relacionadas con la red.
+  - Descripcin de Firewall de Windows con Seguridad avanzada.
+  - Configuracin de IPsec.
+  - Descripcin de Datacenter Firewall.
+
+  ### Module 13&#58; Proteger el trfico de red
+  Este mdulo explica cmo proteger el trfico de red y cmo utilizar el Analizador de mensajes de Microsoft, el cifrado Bloque de mensajes del servidor (SMB) y las extensiones de seguridad del Sistema de nombres de dominio (DNSSEC).
+  #### Lessons
+  - Configuracin avanzada de DNS
+  - Examinar el trfico de red con el Analizador de mensajes
+  - Proteccin y anlisis del trfico SMB
+
+
+  #### Lab &#58; Proteccin de DNS
+  - Configuracin y prueba de DNSSEC
+  - Configuracin de directivas de DNS y RRL
+
+
+  #### Lab &#58; Analizador de mensajes de Microsoft y cifrado SMB
+  - Instalacin y uso del Analizador de mensajes
+  - Configuracin y comprobacin de SMB cifrado en recursos compartidos SMB
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Configuracin avanzada de DNS.
+  - Examinar el trfico de red con el Analizador de mensajes.
+  - Proteger y analizar el trfico SMB.
+
+  ### Module 14&#58; Actualizar Windows Server
+  Este mdulo explica cmo utilizar Windows Server Update Services (WSUS) para implementar actualizaciones a clientes y en Windows Server.
+  #### Lessons
+  - Descripcin general de WSUS
+  - Implementacin de las actualizaciones con WSUS
+
+
+  #### Lab &#58; Implementar la Administracin de actualizaciones
+  - Implementacin del rol de servidor de WSUS
+  - Configuracin de los ajustes de actualizaciones
+  - Aprobar e implementar una actualizacin mediante WSUS
+
+  Una vez finalizado este mdulo, los alumnos podrn&#58;
+  - Descripcin de WSUS.
+  - Implementacin de las actualizaciones con WSUS.

@@ -1,0 +1,39 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Cognitive Services and Deep Learning'
+metadata:
+  title: 'Course 40530-G: Microsoft Cloud Workshop: Cognitive Services and Deep Learning'
+  description: 'Course 40530-G: Microsoft Cloud Workshop: Cognitive Services and Deep Learning'
+uid: course.40530
+courseNumber: '40530-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: At the end of this workshop, you will be better able to present solutions leveraging Azure Machine Learning services and Cognitive Services.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will learn to combine both pre-built artificial intelligence (AI) (in the form of various Cognitive Services) with custom AI (in the form of services built and deployed with Azure Machine Learning services). You will learn to create intelligent solutions atop unstructured text data by designing and implementing a text analytics pipeline. You will also learn how to build a binary classifier using a simple neural network that can be used to classify the textual data. Also, you will learn how to deploy multiple kinds of predictive services using Azure Machine Learning and learn to integrate with the Computer Vision API and the Text Analytics API from Cognitive Services.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Cognitive Services and deep learning
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on lab - Cognitive Services and deep learning
+  #### Lessons
+  - Setup Azure Machine Learning accounts
+  - Create and Deploy an Unsupervised Model
+  - Applying TensorFlow
+  - Completing the solution

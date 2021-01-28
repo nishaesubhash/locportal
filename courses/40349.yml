@@ -1,0 +1,50 @@
+### YamlMime:Course
+title: 'Windows Operating System Fundamentals: MTA Exam 98-349'
+metadata:
+  title: 'Course 40349-B: Windows Operating System Fundamentals: MTA Exam 98-349'
+  description: 'Course 40349-B: Windows Operating System Fundamentals: MTA Exam 98-349'
+uid: course.40349
+courseNumber: '40349-B'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand Operating System Configurations
+- skill: Install and Upgrade Client Systems
+- skill: Manage Applications
+- skill: Manage Files and Folders
+- skill: Manage Devices
+- skill: Understand Operating System Maintenance
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+exams:
+- uid: exam.98-349
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-349 and build an understanding of these topics&#58; Operating System Configurations, Installing and Upgrading Client Systems, Managing Applications, Managing Files and Folders, Managing Devices, and Operating System Maintenance. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam.This course is updated in support of Windows 10.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module 1&#58; Installing and Upgrading Client Systems
+
+  ### Module 2&#58; Understanding Operating System Configurations
+
+  ### Module 3&#58; Understanding Native Applications, Tools, Mobility, and Remote Management and Assistance
+
+  ### Module 4&#58; Managing Applications, Services, and Disks
+
+  ### Module 5&#58; Managing Devices
+
+  ### Module 6&#58; Understanding File and Print Sharing
+
+  ### Module 7&#58; Maintaining, Updating, and Protecting Windows 10
+
+  ### Module 8&#58; Understanding Backup and Recovery Methods

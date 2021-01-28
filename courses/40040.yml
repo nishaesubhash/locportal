@@ -1,0 +1,133 @@
+### YamlMime:Course
+title: MTA Windows サーバー管理の基礎
+metadata:
+  title: 'Course 40040-A: MTA Windows サーバー管理の基礎'
+  description: 'Course 40040-A: MTA Windows サーバー管理の基礎'
+uid: course.40040
+courseNumber: '40040-A'
+hoursToComplete: 48
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Windows Serverのエディションの考え方とインストール方法を理解することができます。
+- skill: Windows Serverの記憶域管理を理解することができます。
+- skill: Windows Serverの管理ツールを理解することができます。
+- skill: Windows Serverのパフォーマンス管理手法を理解することができます。
+- skill: Windows Serverの保守作業を理解することができます。
+- skill: Active Directoryの必要性と機能の概要を理解することができます。
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- ja
+- en
+levels:
+- beginner
+roles:
+- developer
+products:
+- windows-server
+summary: |-
+  MTA Windowsサーバー管理の基礎(98-365)で要求される内容に対応した項目と、Windowsのサーバー管理に関する基礎知識を習得します。
+
+  #### Audience profile
+  このコースは、Windows Serverを管理する上で必要となる基礎知識と技術を証明しようとしている方を対象としています。また、次の分野における知識と技術の向上を図っている方も対象としています。
+  - Windows Serverのエディションとインストール
+  - Windows Serverの記憶域管理（記憶域の種類、ディスクの管理、RAID）
+  - Windows Serverの管理（サーバーマネージャー、サービスマネージャー、ユーザーとグループ、仮想化など）
+  - Windows Serverのパフォーマンスの管理（サーバーのハードウェアの理解、監視方法、ログ）
+  - Windows Serverの保守（OSの保守作業、ドライバーの保守、更新の保守、スタートアッププロセス理解、バックアップと復元など）
+  - Active Directoryの概要（ドメインユーザー管理、ADとDNSとの関係、ドメインの構造、フェデレーションサービスなど）
+prerequisitesSection: |-
+  特に問いません。
+outlineSection: |-
+  ### セクション 1&#58; Windows Server のインストール
+  この章では、Windows Serverのインストール方法とWindows Serverの概要について学びます。
+  #### レッスン
+  - Windows Server のエディション
+  - Windows Server のインストール要件
+  - Windows Server のインストール方法
+
+  この章を終了すると、次のことが修得できます。
+  - Windows Serverのエディションの種類と違いを理解し、必要なエディションの選択ができます。
+  - Windows Serverのインストール要件を理解し、正しいハードウェアの選定ができます。
+  - Windows Serverのインストール方法と種類を理解し、様々なパターンのインストールができます。
+
+
+  ### セクション 2&#58; Windows Server の記憶域の管理
+  この章では、サーバー上のデータを管理する記憶域について学びます。サーバーをセットアップするうえで記憶域の管理は重要です。正しくデータを管理するために記憶域の種類を理解しデータの保存方法を学習します。
+  #### レッスン
+  - 記憶域とは
+  - 記憶域の種類
+  - ディスクの管理
+  - RAID
+
+  この章を終了すると、次のことが修得できます。
+  - 記憶域の種類とそれぞれの特徴を理解します。
+  - ディスクの管理方法を学びサーバーの記憶域を準備する方法を理解します。
+  - RAIDの種類と必要性を理解します。
+
+
+  ### セクション 3&#58; Windows Server の管理
+  この章では、Windows Serverの基本操作と管理方法について学びます。
+  #### レッスン
+  - サーバー マネージャーの利用
+  - サービスの管理
+  - ユーザーとグループの管理
+  - 仮想化
+
+  この章を終了すると、次のことが修得できます。
+  - サーバーマネージャーの位置づけと利用方法を理解します。
+  - サービスの管理を理解し適切なスタートアップオプションの選択ができます。
+  - Windows Serverのユーザーとグループを理解し適切な設定ができます。
+  - 仮想化ソリューションを理解し説明ができます。
+
+
+  ### セクション 4&#58; Windows Server のパフォーマンスの管理
+  この章では、Windows Serverのパフォーマンスについて学びます。ボトルネックの確認とシステムの監視について学びます。
+  #### レッスン
+  - サーバーのハードウェアの理解
+  - システムの監視
+  - ログと警告
+
+  この章を終了すると、次のことが修得できます。
+  - システムのボトルネックを確認し問題を発見できます。
+  - システムの監視に利用できるツールを判定し設定できます。
+  - ログを正しく設定しベースラインを策定できます。
+  - ベースラインに沿った警告を設定できます。
+
+
+  ### セクション 5&#58; Windows Server の保守
+  この章では、Windows Serverの保守作業について学びます。Windows Serverを正しく利用し、運用し続けるためには保守が欠かせません。ここでは一般的な保守に必要な知識を習得します。
+  #### レッスン
+  - デバイスドライバーの保守
+  - 更新プログラムの適用
+  - Windows Server Update Services（WSUS）
+  - スタートアッププロセス
+  - バックアップと復元
+  - 障害からの回復方法
+  - トラブルシューティングツール
+
+  この章を終了すると、次のことが修得できます。
+  - 保守作業の全体を理解し必要性を説明できます。
+  - デバイスドライバーの役割を理解し正しく管理できます。
+  - 更新プログラムの適用方法を理解できます。
+  - Windows OSの起動の仕組みを理解できます。
+  - 障害からの回復手順を理解できます。
+
+
+  ### セクション 6&#58; Active Directory
+  この章では、ディレクトリ サービスについて学びます。また、ドメインを使用したユーザー管理、Active Directory の構造、Active Directory と DNS の関係などについて学びます。
+  #### レッスン
+  - ネットワーク上のリソース管理への要求
+  - ディレクトリ サービスと
+  - Active Directory
+  - ユーザー管理 (ドメイン ユーザーの管理)
+  - Active Directory サービスと DNS サービスの関係
+  - Active Directory ドメインの内部構造
+  - Active Directory ドメインの外部構造
+  - Active Directory フェデレーションサービス
+
+  この章を終了すると、次のことが修得できます。
+  - ディレクトリ サービスとは何かを理解します。
+  - ユーザー、管理者、開発者のメリットを理解します。
+  - ドメインを使用したユーザー管理のメリットを理解します。
+  - Active Directory の構造を理解します。
+  - Active Directoryフェデレーションサービスの機能を理解します。

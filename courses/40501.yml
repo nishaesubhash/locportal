@@ -1,0 +1,43 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Cloud-native applications'
+metadata:
+  title: 'Course 40501-G: Microsoft Cloud Workshop: Cloud-native applications'
+  description: 'Course 40501-G: Microsoft Cloud Workshop: Cloud-native applications'
+uid: course.40501
+courseNumber: '40501-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: At the end of this workshop, you will be better able to improve the reliability of and increase the release cadence of your container-based applications through time-tested DevOps practices.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will build a proof of concept (POC) that will transform an existing PaaS application to a container-based application. This POC will deliver a multi-tenant web app hosting solution leveraging Azure Kubernetes Service (AKS), Docker containers on Linux nodes, and a migration from MongoDB to CosmosDB.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "summary and "Skills gained" areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+prerequisitesSection: |-
+  Workshop content presumes 300-level of architectural expertise of infrastructure and solutions design. We suggest students take this prerequisite prior to attending this workshop.
+  - Microsoft Azure Essentials course, http://www.microsoft.com/en-US/azureessentials
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Cloud-native applications
+  #### Lessons
+  - Review the customer case study
+  - Call to action&#58; Design a proof of concept solution
+  - Call to action&#58; Present the solution
+
+
+  ### Module 2&#58; Hands-on Lab - Cloud-native applications
+  #### Lessons
+  - Create and run a Docker application
+  - Deploy the solution to Azure Kubernetes Service
+  - Scale the application and test HA
+  - Setup load balancing and service discovery (Infrastructure Edition)
+  - Working with services and routing application traffic (Developer Edition)

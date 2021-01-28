@@ -1,0 +1,301 @@
+### YamlMime:Course
+title: Windows Server 2016安装，存储和计算
+metadata:
+  title: 'Course 28740-B: Windows Server 2016安装，存储和计算'
+  description: 'Course 28740-B: Windows Server 2016安装，存储和计算'
+uid: course.28740
+courseNumber: '28740-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 准备并安装Nano Server和Server Core，并规划服务器升级和迁移策略。
+- skill: 描述各种存储选项，包括分区表格式，基本和动态磁盘，文件系统，虚拟硬盘和驱动器硬件，并说明如何管理磁盘和卷。
+- skill: 描述企业存储解决方案，并为给定场景选择适当的解决方案。
+- skill: 实施和管理存储空间和重复数据删除。
+- skill: 安装和配置 Microsoft Hyper-V，并配置虚拟机。
+- skill: 部署，配置和管理 Windows 和 Hyper-V 容器。
+- skill: 描述 Windows Server 2016 中的高可用性和灾难恢复技术。
+- skill: 规划，创建和管理故障转移群集。
+- skill: 为 Hyper-V 虚拟机实施故障转移群集
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-cn
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-740
+summary: |-
+  本课程面向具有Windows Server工作经验的IT专业人员，以及正在寻找涵盖Windows Server 2016中的存储和计算技术的单一五天课程的人员。本课程将帮助他们更新与Windows Server 2016存储和计算相关的知识和技能
+
+  #### Audience profile
+  本课程面向具有Windows Server工作经验的IT专业人员，以及正在寻找涵盖Windows Server 2016中的存储和计算技术的单一五天课程的人员。本课程将帮助他们更新与Windows Server 2016存储和计算相关的知识和技能。
+  适合本课程的学员将是&#58; 
+  - 具备初级Windows Server基础知识的Windows Server管理员，需要了解有关Windows Server 2016中的存储和计算功能的更多信息
+  - 具有一般IT知识的IT专业人士，希望学习Windows Server的知识，特别是Windows Server 2016中的存储和计算技术。
+  
+  本课程的次要受众是IT专业人士，希望参加Microsoft 70-740认证考试， “使用Windows Server 2016进行安装，存储和计算”
+prerequisitesSection: |-
+  在参加本课程之前，学生必须有&#58; 
+  - 对网络基础知识的基本了解。
+  - 对安全最佳做法的认识和理解。
+  - 了解基本的 AD DS 概念。
+  - 服务器硬件的基本知识。
+  - 支持和配置 Windows 客户端操作系统（如Windows 8或Windows 10）。
+  - 此外，学生将受益于以前的 Windows Server 操作系统体验，例如Windows Server系统管理员的体验。
+outlineSection: |-
+  ### Module 1&#58; 安装，升级和迁移服务器和工作负载
+  本单元介绍了Windows Server 2016的新功能，并介绍了如何准备和安装Nano Server和Server Core。此模块还介绍了如何规划服务器升级和迁移策略，并解释如何在域内和跨域中执行服务器角色和工作负载的迁移。最后，本模块介绍了如何根据您的环境特征选择激活模型
+  #### Lessons
+  - Windows Server 2016简介
+  - 准备和安装Nano Server和Server Core
+  - 为升级和迁移做准备
+  - 迁移服务器角色和工作负载
+  - Windows Server 激活模式
+
+
+  #### Lab &#58; 安装和配置Nano 服务器
+  - 安装Nano服务器
+  - 在Nano Server上完成安装后的任务
+  - 执行远程管理
+
+  完成本单元后，您将能够&#58; 
+  - 描述 Windows Server 2016 的新功能。
+  - 准备并安装 Nano 服务器（Nano Server）和服务器核心
+  - 规划服务器升级和迁移策略
+  - 在域内和跨域执行服务器角色和工作负载的迁移。
+  - 选择合适的激活模型
+
+  ### Module 2&#58; 配置本地存储
+  本单元介绍如何在Windows Server 2016中管理磁盘和卷。
+  #### Lessons
+  - 在Windows Server中管理磁盘
+  - 在Windows Server中管理卷
+
+
+  #### Lab &#58; 配置本地存储
+  - 创建和管理卷
+  - 调整卷大小
+  - 管理虚拟硬盘
+
+  完成本单元后，学生将能够&#58; 
+  - 在 Windows Server 中管理磁盘
+  - 在 Windows Server 中管理卷
+
+  ### Module 3&#58; 实现企业存储解决方案
+  本单元讨论了直连存储（DAS），网络存储（NAS）和存储区域网络（SAN）。它还解释了Microsoft Internet存储名称服务（iSNS）服务器，数据中心桥接和多路径I / O（MPIO）的目的。另外，该模块比较了光纤通道，互联网小型计算机系统接口（iSCSI）和以太网光纤通道（FCoE），并介绍了如何在Windows Server 2016中配置共享。
+  #### Lessons
+  - DAS，NAS和SAN概述
+  - 比较以太网上的光纤通道，iSCSI和光纤通道
+  - 了解iSNS，DCB和MPIO
+  - 在Windows Server 2016中配置共享
+
+
+  #### Lab &#58; 规划和配置存储技术和组件
+  - 规划存储需求
+  - 配置iSCSI存储
+  - 配置和管理共享基础架构
+
+  完成本单元后，学生将能够&#58; 
+  - 描述DAS，NAS和SAN。
+  - 比较光纤通道，iSCSI和FCoE。
+  - 说明使用iSNS，DCB和MPIO。
+  - 在Windows Server中配置共享。
+
+  ### Module 4&#58; 实现存储空间和重复数据删除
+  本单元介绍了如何实现和管理存储空间，该模块还解释了如何实现数据重复数据删除。
+  #### Lessons
+  - 实现存储空间
+  - 管理存储空间
+  - 实施重复数据删除
+
+
+  #### Lab &#58; 实现存储空间
+  - 创建存储空间
+
+
+  #### Lab &#58; 实现重复数据删除
+  - 安装重复数据删除
+  - 配置重复数据消除
+
+  完成本单元后，学生将能够&#58; 
+  - 在企业存储需求的上下文中描述和实现存储空间功能。
+  - 管理和维护存储空间。
+  - 描述和实现重复数据删除。
+
+  ### Module 5&#58; 安装和配置Hyper-V和虚拟机
+  该单元概述了 Hyper-V 和虚拟化，介绍了如何安装Hyper-V以及如何在 Hyper-V 主机服务器上配置存储和网络，它解释了如何配置和管理 Hyper-V 虚拟机。
+  #### Lessons
+  - Hyper-V概述
+  - 安装Hyper-V
+  - 在 Hyper-V 主机服务器上配置存储
+  - 在 Hyper-V 主机服务器上配置网络
+  - 配置 Hyper-V 虚拟机
+  - 管理虚拟机
+
+
+  #### Lab &#58; 安装和配置Hyper-V
+  - 验证Hyper-V服务器角色的安装
+  - 配置Hyper-V网络
+  - 创建和配置虚拟机
+  - 为虚拟机启用嵌套虚拟化
+
+  完成本单元后，学生将能够&#58; 
+  - 描述Hyper-V和虚拟化。
+  - 安装Hyper-V。
+  - 在Hyper-V主机服务器上配置存储。
+  - 在Hyper-V主机服务器上配置网络。
+  - 配置Hyper-V虚拟机。
+  - 管理Hyper-V虚拟机。
+
+  ### Module 6&#58; 部署和管理Windows和Hyper-V容器
+  本单元概述了 Windows Server 2016 中的容器。此外，该单元介绍了如何部署Windows Server和Hyper-V容器，还介绍了如何安装，并使用 Docker 管理容器。
+  #### Lessons
+  - Windows Server 2016中的容器概述
+  - 准备容器
+  - 使用Docker安装，配置和管理容器
+
+
+  #### Lab &#58; 安装和配置容器
+  - 安装Docker
+  - 安装和配置容器
+
+  完成本单元后，学生将能够&#58; 
+  - 描述Windows Server 2016中的容器。
+  - 说明如何部署容器。
+  - 说明如何使用Docker安装，配置和管理容器
+
+  ### Module 7&#58; 高可用性和灾难恢复概述
+  该单元概述了 Windows Server 2016 中故障转移群集的高可用性和高可用性。它进一步解释了如何使用Hyper-V虚拟机来规划高可用性和灾难恢复解决方案。 该单元介绍如何使用Windows Server Backup备份和还原Windows Server 2016操作系统和数据。
+  #### Lessons
+  - 定义可用性级别
+  - 使用Hyper-V虚拟机规划高可用性和灾难恢复解决方案
+  - 使用Windows Server Backup备份和还原
+  - Windows Server 2016高可用性和故障转移群集
+
+
+  #### Lab &#58; 规划和实施高可用性和灾难恢复解决方案
+  - 确定适当的高可用性和灾难恢复解决方案
+  - 实现存储迁移
+  - 配置 Hyper-V 副本
+
+  完成本单元后，学生将能够&#58; 
+  - 定义可用性级别。
+  - 使用 Hyper-V 虚拟机规划高可用性和灾难恢复解决方案。
+  - 使用 Windows Server Backup 备份和还原数据。
+  - 在 Windows Server 2016 中使用故障转移群集定义高可用性。
+
+  ### Module 8&#58; 实现故障转移群集
+  本单元介绍了如何规划故障转移群集，还介绍了如何创建，管理和故障转移群集的故障排除。此外，它介绍了如何为站点实现高可用性和拉伸群集。
+  #### Lessons
+  - 规划故障转移群集
+  - 创建和配置新的故障转移群集
+  - 维护故障转移群集
+  - 故障转移群集故障诊断
+  - 通过拉伸群集实现站点高可用性
+
+
+  #### Lab &#58; 实现故障转移群集
+  - 创建故障转移群集
+  - 验证仲裁设置并添加节点
+
+
+  #### Lab &#58; 管理故障转移群集
+  - 驱逐节点并验证仲裁设置
+  - 将仲裁从磁盘见证更改为文件共享见证并定义节点投票
+  - 验证高可用性
+
+  完成本单元后，学生将能够&#58; 
+  - 规划故障转移集群实现。
+  - 创建并配置故障转移群集。
+  - 维护故障转移群集。
+  - 故障转移群集故障诊断。
+  - 实现高可用性和拉伸群集。
+
+  ### Module 9&#58; 使用 Windows Server 2016 Hyper-V 实现故障转移群集
+  本单元介绍了 Hyper-V 与故障转移群集的集成方式，并介绍了如何在故障转移群集中实现 Hyper-V 虚拟机，此外还描述了虚拟机集群环境中的计算机。
+  #### Lessons
+  - Hyper-V Server 2016与故障转移群集集成概述
+  - 在故障转移群集上实现Hyper-V VM
+  - 集群环境中的VM的主要功能
+
+
+  #### Lab &#58; 实现Windows Server 2016 Hyper-V故障转移群集
+  - 配置虚拟环境
+  - 为Hyper-V配置故障转移群集
+  - 配置高可用性的VM
+
+  完成本单元后，学生将能够&#58; 
+  - 描述Hyper-V如何与故障转移群集集成。
+  - 在故障转移群集上实现Hyper-V虚拟机。
+  - 描述群集环境中虚拟机的主要功能。
+
+  ### Module 10&#58; 实现网络负载平衡
+  本单元提供了 NLB 和 NLB 集群的概述，并介绍了如何规划和配置NLB集群实现。
+  #### Lessons
+  - NLB概述
+  - 配置NLB群集
+  - 规划NLB实现
+
+
+  #### Lab &#58; 实现 NLB
+  - 实现网络负载平衡（NLB）集群
+  - 配置和管理NLB群集
+  - 验证NLB群集的高可用性
+
+  完成本单元后，学生将能够&#58; 
+  - 描述NLB。
+  - 配置NLB群集。
+  - 说明如何规划NLB实现。
+
+  ### Module 11&#58; 创建和管理部署映像
+  本单元概述了 Windows Server 2016 映像部署过程，并介绍了如何使用Microsoft部署工具包（MDT）创建和管理部署映像，另外还描述了不同的工作负载虚拟机环境。
+  #### Lessons
+  - 部署映像简介
+  - 使用MDT创建和管理部署映像
+  - 适用于不同工作负载的虚拟机环境
+
+
+  #### Lab &#58; 使用 MDT 部署 Windows Server 2016
+  - 配置MDT
+  - 创建并部署映像
+
+  完成本单元后，学生将能够&#58; 
+  - 描述 Windows Server 2016 映像部署过程。
+  - 使用 MDT 创建和管理部署映像。
+  - 描述虚拟机环境中的不同工作负载。
+
+  ### Module 12&#58; 管理，监控和维护虚拟机安装
+  本单元提供了 Windows Server Update Services（WSUS） 的概述以及实现WSUS的要求，介绍了如何使用 WSUS 管理更新过程，此外，该单元还提供了 Windows PowerShell所需状态配置（DSC）和 Windows Server 2016 监视工具概述，最后介绍如何使用性能监视器以及如何管理事件日志。
+  #### Lessons
+  - WSUS概述和部署选项
+  - 使用WSUS更新管理流程
+  - Windows PowerShell DSC概述
+  - Windows Server 2016监控工具概述
+  - 使用性能监视器
+  - 监控事件日志
+
+
+  #### Lab &#58; 实现WSUS并部署更新
+  - 实现WSUS
+  - 配置更新设置
+  - 通过使用WSUS来批准和部署更新
+
+
+  #### Lab &#58; Windows Server 2016 监视和故障诊断
+  - 建立性能基线
+  - 确定性能问题的根源
+  - 查看和配置集中式事件日志
+
+  完成本单元后，学生将能够&#58; 
+  - 描述WSUS的目的和实现WSUS的要求。
+  - 使用WSUS管理更新过程。
+  - 描述Windows PowerShell DSC的目的和优点。
+  - 描述Windows Server 2016中可用的监视工具。
+  - 使用性能监视器。
+  - 管理事件日志。
+  #### Additional Reading

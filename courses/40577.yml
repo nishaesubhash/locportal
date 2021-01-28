@@ -1,0 +1,53 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Innovate and modernize apps with Data and AI'
+metadata:
+  title: 'Course 40577-G: Microsoft Cloud Workshop: Innovate and modernize apps with Data and AI'
+  description: 'Course 40577-G: Microsoft Cloud Workshop: Innovate and modernize apps with Data and AI'
+uid: course.40577
+courseNumber: '40577-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Capture Internet of Things (IoT) device data with Azure IoT Hub
+- skill: Process device data with Azure Stream Analytics
+- skill: Apply the Command and Query Responsibility Segregation (CQRS) pattern with Azure Functions
+- skill: Build a predictive maintenance model using Azure Synapse Analytics Spark notebooks
+- skill: Deploy the model to an Azure Machine Learning model registry
+- skill: Deploy the model to an Azure Container Instance
+- skill: Generate predictions with Azure Functions accessing a Cosmos DB change feed
+- skill: Modernize applications and integrate Artificial Intelligence into the application
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- data-engineer
+products:
+- azure
+summary: |-
+  In this workshop, you will look at the process of implementing a modern application with Azure services. The workshop will cover event sourcing and the Command and Query Responsibility Segregation (CQRS) pattern, data loading, data preparation, data transformation, data serving, anomaly detection, creation of a predictive maintenance model, and real-time scoring of a predictive maintenance model.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the ‘About this Course’ and ‘At Course Completion’ areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+prerequisitesSection: |-
+  Workshop content presumes 300-level of architectural expertise of infrastructure and solutions design. We suggest students take this prerequisite prior to attending this workshop.
+  - Microsoft Azure Essentials course, http://www.microsoft.com/en-US/azureessentials
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Innovate and modernize apps with Data and AI
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-On Lab - Innovate and modernize apps with Data and AI
+  #### Lessons
+  - Deploy a factory load simulator
+  - Use Azure Machine Learning to train and register a predictive maintenance model
+  - Create an Azure Function to send event telemetry to Cosmos DB
+  - Enrich event telemetry with predictive maintenance results
+  - Enrich event telemetry with automated anomaly detection
+  - Send scored telemetry data to PostgreSQL
+  - Modernize services logic to use event sourcing and CQRS
+  - View the factory status in a Power BI report

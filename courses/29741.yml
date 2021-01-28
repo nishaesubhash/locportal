@@ -1,0 +1,272 @@
+### YamlMime:Course
+title: Windows Server 2016 的網路功能
+metadata:
+  title: 'Course 29741-B: Windows Server 2016 的網路功能'
+  description: 'Course 29741-B: Windows Server 2016 的網路功能'
+uid: course.29741
+courseNumber: '29741-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 完成此課程後，學員將具備下列能力
+- skill: 規劃及建置一個 IPv4 網路
+- skill: 實作動態主機設定通訊協定（Dynamic Host Configuration Protocol，DHCP）
+- skill: 實作 IPv6
+- skill: 實作網域名稱系統（Domain Name System，DNS）
+- skill: 實作及管理 IP 位址管理（IP address management，IPAM）
+- skill: 規劃遠存取
+- skill: DirectAccess 實作
+- skill: 實作虛擬私人網路（virtual private networks，VPN）
+- skill: 為分公司實作網路
+- skill: 設定進階網路功能
+- skill: 建置軟體定義網路（Software Defined Networking）
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-tw
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-741
+summary: |-
+  這個為期 5 天由講師指導教授的課程，可提供您在大多數組織中部署及支援 Windows Server 2016 所需的基本網路技能。它涵蓋了 IP 基礎知識、遠程存取技術，以及包括軟體定義網絡這類較進階的內容。
+
+  #### Audience profile
+  本課程主要適合於擁有一些網路知識與經驗，以及在尋找一個可以深入了解Windows Server 2016的核心及進階網路技術的單一課程之IT專業人士。這個對象通常指的是&#58; 希望加強現有技能，並了解Windows Server 2016新變更的網路技術及功能之網路系統管理員。希望接受有關 Windows Server 2016 的核心及進階網路知識和技能，且具有一般網路知識的系統或基礎架構系統管理員。
+  
+  這個課程第二種適合對象包為想要準備 70-741&#58; Networking with Windows Server 2016 測驗的IT 專業人士。
+prerequisitesSection: |-
+  除了您的專業經驗外，本課程還需要您事先具有下列預備知識&#58; 
+  - 使用 Windows Server 2012或Windows Server 2016 的工作經驗。
+  - 在 Windows Server 基礎架構企業環境中工作的經驗。
+  - 開放系統互相連線（Open Systems Interconnection，OSI）模型的知識。
+  - 了解核心網絡 - 基礎架構組件及技術，例如&#58; 佈線、路由器、集線器及交換器。
+  - 熟悉網路拓撲及架構，例如&#58; 區域網路（local area network，LAN）、廣域網路（wide area network，WAN）和無線網路。
+  - 基本 TCP / IP協定堆疉、定址及名稱解析的一些基本知識。
+  - 對 Microsoft Hyper-V及虛擬化有一定的概念及經驗。
+  - 使用Windows客戶端操作系統（如Windows 8.1或Windows 10）的實踐經驗。
+  - 具有 Windows 用戶端作業系統（例如&#58; Windows 8.1 或 Windows 10）的實際工作經驗。
+  
+  學生可以參加下列課程或擁有相當於該課程的知識及技能，以符合預備知識的需求&#58; 10967A&#58; Fundamentals of a Windows Server Infrastructure
+outlineSection: |-
+  ### Module 1&#58; 規劃及建置一個 IPv4 網路
+  在這個章節中，您將會學習到如何規劃及建置 IPv4 定址配置，以及確定疑難排解網路相關問題之原因。
+  #### Lessons
+  - 規劃 IPv4 定址
+  - 設定一台 IPv4 主機
+  - 管理與疑難排解 IPv4 網路連線
+
+
+  #### Lab &#58; 規劃一個 IPv4 網路
+  - 規劃 IPv4 位址指派
+
+
+  #### Lab &#58; 實作及疑難排解 IPv4 網路
+  - 確認 IPv4 通訊
+  - 疑難排解 IPv4
+
+  完成這個單元之後，學員將可以&#58; 
+  - 規劃 IPv4 定址。
+  - 設定一台 IPv4 主機。
+  - 管理與疑難排解 IPv4 網路連線。
+
+  ### Module 2&#58; 實作 DHCP
+  這個章節將會解釋如何規劃與實作支援IPv4 基礎架構的DHCP 環境。
+  #### Lessons
+  - DHCP 伺服器角色的概觀
+  - 部署 DHCP
+  - 管理和疑難排解 DHCP
+
+
+  #### Lab &#58; 實作 DHCP
+  - 規劃一個 DHCP 伺服器的實作。
+  - 實作 DHCP 的組態。
+  - 驗證 DHCP 的佈署。
+
+  完成這個單元之後，學員將可以&#58; 
+  - 解說 DHCP伺服器角色。
+  - 部署 DHCP. 
+  - 管理及疑難排解 DHCP。
+
+  ### Module 3&#58; 實作 IPv6
+  這個章節將會說明如何實作 IPv6 及如何整合 IPv6 與 IPv4 的網路。
+  #### Lessons
+  - IPv6 定址概觀
+  - 設定 IPv6 主機
+  - 實作 IPv6 和 IPv4 共存
+  - 從 IPv4 到 IPv6 轉換
+
+
+  #### Lab &#58; 設定和評估 IPv6 轉換技術
+  - 複習預設 IPv6 設定。
+  - 建立和設定 IPv6 設定。
+  - 使用 ISATAP 設定網路整合。
+  - 設定原生 IPv6 連線能力。
+  - 使用 6to4 整合設定網路整合。
+
+  完成這個單元之後，學員將可以&#58; 
+  - 說明 IPv6 的特性和優點。
+  - 設定一台 IPv6 主機。
+  - 在 IPv4 和 IPv6 網路之間實作共存。
+  - 從一個 IPv4 網路轉換到一個 IPv6 網路。
+
+  ### Module 4&#58; 實作 DNS
+  這個章節將會解釋如何在組織網路中安裝、設定及疑難排解 DNS。
+  #### Lessons
+  - 實作 DNS 伺服器
+  - 在 DNS 中組態區域
+  - 在 DNS 區域之間組態名稱解析
+  - 組態 DNS 與 AD DS 的整合
+  - 組態進階性 DNS 的設定
+
+
+  #### Lab &#58; 使用 DNS 規劃及實作名稱解析
+  - 規劃 DNS 基礎結構。
+  - 實作 DNS 伺服器和區域。
+
+
+  #### Lab &#58; DNS 與 AD DS 的整合
+  - 整合 DNS 與 AD DS。
+
+
+  #### Lab &#58; 組態進階性的 DNS 設定
+  - 組態 DNS 原則。
+  - 驗證 DNS 實作。
+  - 對 DNS 做故障排除。
+
+  完成這個單元之後，學員將可以&#58; 
+  - 安裝及管理 DNS 伺服器。
+  - 組態 DNS 區域。
+  - 在區域之間組態名稱解析。
+  - DNS 與 AD DS的整合。
+  - 組態進階性的 DNS 設定。
+
+  ### Module 5&#58; 建置及管理IPAM
+  這個章節將會說明如何實作及管理在 Windows Server 2016 中的 IPAM。本章節還會介紹如何使用 IPAM 來管理服務（例如&#58; DHCP 及 DNS）。
+  #### Lessons
+  - IPAM概觀
+  - 佈署IPAM
+  - 使用 IPAM 來管理 IP 位址空間
+
+
+  #### Lab &#58; 佈署IPAM
+  - 安裝 IPAM 伺服器功能。
+  - 佈建 IPAM 以管理伺服器。
+  - 使用 IPAM 來管理 IP 位址空間
+
+  完成這個單元之後，學員將可以&#58; 
+  - 說明IPAM 功能及元件。
+  - 佈署IPAM。
+  - 使用IPAM管理IP位址空間。
+
+  ### Module 6&#58; Windows Server 2016 中的遠端存取
+  這個章節將會解釋如何在 Windows Server 2016 規劃端存取及如何實作 Web 應用程式 Proxy。
+  #### Lessons
+  - 遠端存取的概觀
+  - 實作 Web Application Proxy
+
+
+  #### Lab &#58; 實作 Web Application Proxy
+  - 實作 Web Application Proxy。
+  - 驗證 Web Application Proxy 部署。
+
+  完成這個單元之後，學員將可以&#58; 
+  - 說明遠端存取實作 Web Application Proxy。
+
+  ### Module 7&#58; DirectAccess 實作
+  這個章節將會說明如何在 Windows Server 2016 實作及管理 DirectAccess。
+  #### Lessons
+  - 綜覽 DirectAccess
+  - 實作 DirectAccess 是使用「快速入門」精靈
+  - 實作與管理的進階 DirectAccess 基礎架構
+
+
+  #### Lab &#58; 使用「快速入門」精靈實作 DA
+  - 檢閱已經準備完成DirectAccess佈署的基礎架構。
+  - 執行快速入門精靈。
+  - 檢閱DirectAccess的佈署。
+
+
+  #### Lab &#58; 部署進階DA的解決方案
+  - 針對進階 DirectAccess 的部署來準備所需要的基礎架構環境。
+  - 實作進階的 DirectAccess 基礎架構。
+  - 檢查並驗證DirectAccess的佈署。
+
+  完成這個單元之後，學員將可以&#58; 
+  - 解釋什麼是DirectAccess以及它的運作方式。
+  - 在 Windows Server 2016 中，如何使用「快速入門精靈」來實作。
+  - 在 Windows Server 2016中，實作和管理進階型的DirectAccess 基礎架構。
+
+  ### Module 8&#58; 實作 VPN
+  這個章節將會解釋如何使用 Windows Server 2016 的 VPN 來實作及管理遠端存取。
+  #### Lessons
+  - 規劃 VPN
+  - 實作 VPN
+
+
+  #### Lab &#58; 實作 VPN
+  - 實作 VPN 解決方案。
+  - 驗證 VPN 部署的結果。
+  - 疑難排解 SSTP VPN 連線的問題
+
+  完成這個單元之後，學員將可以&#58; 
+  - 規劃 VPN 解決方案。
+  - 實作 VPN 存取。
+
+  ### Module 9&#58; 為分公司實作網路
+  這個章節將會說明如何在分公司實作網路服務。
+  #### Lessons
+  - 分公司的網路功能和顧慮
+  - 為分公司實作 DFS
+  - 為分公司實作 BranchCache
+
+
+  #### Lab &#58; 為分公司實作 DFS
+  - 實作 DFS。
+  - 驗證部署。
+
+
+  #### Lab &#58; 實作 BranchCache
+  - 實作 BranchCache。
+  - 驗證部署。
+
+  完成這個單元之後，學員將可以&#58; 
+  - 說明分公司的網路功能和顧慮。
+  - 說明如何為分公司實作分散式檔案系統（DFS）。
+  - 說明如何為分公司實作 Windows BranchCache。
+
+  ### Module 10&#58; 設定進階網路功能
+  這個章節將會解釋如何實作一個進階的網路基礎架構。
+  #### Lessons
+  - 高效能的網路功能概觀
+  - 設定進階 Hyper-V 網路功能
+
+
+  #### Lab &#58; 設定進階 Hyper-V 網路功能
+  - 建立並使用 Hyper-V 虛擬交換器。
+  - 設定頻寬管理與 DHCP 防護。
+
+  完成這個單元之後，學員將可以&#58; 
+  - 描述 Windows Server 2016 的高效能網路強化。
+  - 設定進階 Hyper-V 網路功能。
+
+  ### Module 11&#58; 建置軟體定義網路
+  這個章節將會說明如何實作軟體定義網路。
+  #### Lessons
+  - SDN 概觀
+  - 建置網路虛擬化
+  - 建置網路控制器
+
+
+  #### Lab &#58; 部署網路控制器
+  - 準備部署網路控制器。
+  - 部署網路控制器。
+
+  完成這個單元之後，學員將可以&#58; 
+  - 說明 SDN 。
+  - 建置網路虛擬化。
+  - 建置網路控制器。

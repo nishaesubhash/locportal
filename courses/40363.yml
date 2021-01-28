@@ -1,0 +1,49 @@
+### YamlMime:Course
+title: 'Web Development Fundamentals: MTA Exam 98-363'
+metadata:
+  title: 'Course 40363-A: Web Development Fundamentals: MTA Exam 98-363'
+  description: 'Course 40363-A: Web Development Fundamentals: MTA Exam 98-363'
+uid: course.40363
+courseNumber: '40363-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Program Web Applications
+- skill: Work with Data and Services
+- skill: Troubleshoot and Debug Web Applications
+- skill: Work with Client-Side Scripting
+- skill: Configure and Deploy Web Applications
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-363, and build an understanding of these topics&#58; Programming Web Applications, Working with Data and Services, Troubleshooting and Debugging Web Applications, Working with Client-Side Scripting, and Configuring and Deploying Web Applications. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module 1&#58; Creating a Web Page
+
+
+  ### Module 2&#58; Creating an Interactive Web Page
+
+
+  ### Module 3&#58; Working with XML, Data Objects, and WCF
+
+
+  ### Module 4&#58; Working with Data
+
+
+  ### Module 5&#58; Working with Client-Side Scripting
+
+
+  ### Module 6&#58; Troubleshooting and Debugging Web Applications
+
+
+  ### Module 7&#58; Configuring and Deploying Web Applications

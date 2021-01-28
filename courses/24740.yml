@@ -1,0 +1,274 @@
+### YamlMime:Course
+title: Instalação, armazenamento e computação com o Windows Server 2016
+metadata:
+  title: 'Course 24740-B: Instalação, armazenamento e computação com o Windows Server 2016'
+  description: 'Course 24740-B: Instalação, armazenamento e computação com o Windows Server 2016'
+uid: course.24740
+courseNumber: '24740-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Preparar e instalar o Nano Server, uma instalação Server Core, além de planejar uma estratégia de atualização e migração do servidor.
+- skill: Descrever as diversas opções de armazenamento, inclusive formatos de tabela de partição, discos básicos e dinâmicos, sistemas de arquivos, discos rígidos virtuais e hardware de unidade, além de explicar como gerenciar discos e volumes.
+- skill: Descrever as soluções de armazenamento corporativo e escolher a solução apropriada para determinada situação.
+- skill: Implementar e gerenciar Espaços de Armazenamento e Eliminação de Duplicação de Dados.
+- skill: Instalar e configurar o Microsoft Hyper-V, além de configurar máquinas virtuais.
+- skill: Implantar, configurar e gerenciar de contêineres do Windows e do Hyper-V.
+- skill: Descrever as tecnologias de alta disponibilidade e recuperação de desastre do Windows Server 2016.
+- skill: Planejar, criar e gerenciar um cluster de failover.
+- skill: Implementar o clustering de failover para máquinas virtuais do Hyper-V.
+- skill: Configurar um cluster de NLB (Balanceamento de Carga de Rede) e planejar uma implementação de NLB.
+- skill: Criar e gerenciar imagens de implantação.
+- skill: Gerenciar, monitorar e manter instalações de máquinas virtuais.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- pt-br
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-740
+summary: |-
+  Este curso de cinco dias destina-se principalmente a profissionais de TI que tenham experiência com o Windows Server. Ele foi elaborado para os profissionais que serão responsáveis pelo gerenciamento do armazenamento e da computação usando o Windows Server 2016 e que precisam compreender os cenários, os requisitos e o uso das opções de armazenamento e computação disponíveis e que são aplicáveis ao Windows Server 2016.
+
+  #### Audience profile
+  Este curso destina-se a profissionais de TI com experiência de trabalho com o Windows Server e que desejam fazer um curso de cinco dias que aborde as tecnologias de armazenamento e computação do Windows Server 2016. Este curso os ajudará a atualizar seu conhecimento e suas habilidades relacionadas ao armazenamento e à computação no Windows Server 2016. Os candidatos adequados para este curso seriam&#58;
+  - Administradores do Windows Server relativamente inexperientes com a administração do Windows Server e as tecnologias relacionadas e que desejam saber mais sobre os recursos de armazenamento e computação do Windows Server 2016.
+  - Profissionais de TI com conhecimento geral de TI que desejam conhecer o Windows Server, especialmente em relação às tecnologias de armazenamento e computação do Windows Server 2016.
+  
+  O público-alvo secundário deste curso é formado por profissionais de TI que desejam fazer o exame de certificação da Microsoft 70-740, Instalação, armazenamento e computação com o Windows Server 2016.
+prerequisitesSection: |-
+  Antes de participar deste curso, os alunos devem ter&#58;
+  - Conhecimento dos princípios básicos de rede.
+  - Conhecimento e entendimento das práticas recomendadas de segurança.
+  - Entendimento dos conceitos básicos do AD DS.
+  - Conhecimento básico do hardware de servidor.
+  - Experiência em suporte e configuração de sistemas operacionais cliente Windows, como Windows 8 ou Windows 10.
+  - Além disso, seria ótimo se os alunos tivessem experiência anterior com o sistema operacional Windows Server, por exemplo, como administrador de sistemas do Windows Server.
+outlineSection: |-
+  ### Módulo 1&#58; Instalação, atualização e migração de servidores e cargas de trabalho
+  Este módulo descreve os novos recursos do Windows Server 2016 e explica como se preparar e instalar o Nano Server e o Server Core. O módulo também descreve como planejar uma estratégia de atualização e migração do servidor, além de explicar como realizar a migração de funções de servidor e cargas de trabalho em um domínio e entre domínios. Por fim, este módulo explica como escolher um modelo de ativação de acordo com as características do ambiente.
+  #### Lições
+  - Apresentação do Windows Server 2016
+  - Preparação e instalação do Nano Server e do Server Core
+  - Preparação para atualizações e migrações
+  - Migração das funções de servidor e das cargas de trabalho
+  - Modelos de ativação do Windows Server
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Instalação e configuração do Nano Server
+  - Instalação do Nano Server
+  - Execução de tarefas de pós-instalação no Nano Server
+  - Execução do gerenciamento remoto
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever os novos recursos do Windows Server 2016.
+  - Preparar-se para e instalar o Nano Server e o Server Core.
+  - Planejar uma estratégia de atualização e migração de servidores.
+  - Executar uma migração de funções do servidor e cargas de trabalho em um domínio e entre domínios.
+  - Escolher um modelo de ativação apropriado.
+
+  ### Módulo 2&#58; Configuração do armazenamento local
+  Este módulo explica como gerenciar discos e volumes no Windows Server 2016.
+
+  #### Lições
+  - Gerenciamento de discos no Windows Server
+  - Gerenciamento de volumes no Windows Server
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Configuração do armazenamento local
+  - Criação e gerenciamento de volumes
+  - Redimensionamento de volumes
+  - Gerenciamento de discos rígidos virtuais
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Gerenciar discos no Windows Server.
+  - Gerenciar volumes no Windows Server.
+
+  ### Módulo 3&#58; Implementação de soluções de armazenamento corporativo
+  Este módulo aborda o armazenamento anexado direto (DAS), o NAS e as redes de área de armazenamento (SANs). Ele também explica a finalidade do servidor do serviço Microsoft iSNS, da Ponte de Data Center (DCB) e do Multipath I/O (MPIO). Além disso, o módulo compara Fibre Channel, iSCSI (Internet Small Computer System Interface), FCoE (Fibre Channel por Ethernet) e descreve como configurar o compartilhamento no Windows Server 2016.
+  #### Lições
+  - Visão geral de DAS, NAS e SANs
+  - Comparação entre Fibre Channel, iSCSI e Fibre Channel por Ethernet
+  - Noções básicas sobre iSNS, DCB e MPIO
+  - Configuração do compartilhamento no Windows Server 2016
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58;	Planejamento e configuração de componentes e tecnologias de armazenamento
+  - Planejamento dos requisitos de armazenamento
+  - Configuração do armazenamento iSCSI
+  - Configuração e gerenciamento da infraestrutura de compartilhamento,
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;Descrever o DAS, o NAS e as SANs.Comparar Fibre Channel, iSCSI e FCoE.Explicar o uso de iSNS, DCB e MPIO.Configurar o compartilhamento no Windows Server.
+
+  ### Módulo 4&#58; Implementação de Espaços de Armazenamento e Eliminação de Duplicação de Dados
+  Este módulo explica como implementar e gerenciar Espaços de Armazenamento. Este módulo também explica como implementar a Eliminação de Duplicação de Dados.
+  #### Lições
+  - Implementação de Espaços de Armazenamento
+  - Gerenciamento de Espaços de Armazenamento
+  - Implementação da Eliminação de Duplicação de Dados
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Implementação de Espaços de Armazenamento
+  - Criação de um Espaço de Armazenamento
+  - Habilitação e configuração da camada de armazenamento
+
+
+  #### Laboratório&#58; &#58; Laboratório 2&#58; Implementação da Eliminação de Duplicação de Dados
+  - Instalação da Eliminação de Duplicação de Dados
+  - Configuração da Eliminação de Duplicação de Dados
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;Descrever e implementar o recurso de Espaços de Armazenamento no contexto das necessidades de armazenamento corporativo.Gerenciar e manter Espaços de Armazenamento.Descrever e implementar a Eliminação de Duplicação de Dados.
+
+  ### Módulo 5&#58; Instalação e configuração de máquinas virtuais e Hyper-V
+  Este módulo apresenta uma visão geral do Hyper-V e da virtualização. Ele explica como instalar o Hyper-V e como configurar o armazenamento e a rede em servidores host do Hyper-V. Além disso, explica como configurar e gerenciar máquinas virtuais do Hyper-V.
+  #### Lições
+  - Visão geral do Hyper-V
+  - Instalação do Hyper-V
+  - Configuração de armazenamento em servidores host do Hyper-V
+  - Configuração de rede em servidores host do Hyper-V
+  - Configuração de máquinas virtuais do Hyper-V
+  - Gerenciamento de máquinas virtuais
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Instalação e configuração do Hyper-V
+  - Verificação da instalação da função de servidor do Hyper-V
+  - Configuração de redes do Hyper-V
+  - Criação e configuração de máquinas virtuais
+  - Habilitação de virtualização aninhada para uma máquina virtual
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;Descrever o Hyper-V e a virtualização.Instalar o Hyper-V.Configurar o armazenamento em servidores host do Hyper-V.Configurar a rede em servidores host do Hyper-V.Configurar máquinas virtuais do Hyper-V.Gerenciar máquinas virtuais do Hyper-V.
+
+  ### Módulo 6&#58; Implantação e gerenciamento de contêineres do Windows  e do Hyper-V
+  Este módulo apresenta uma visão geral dos contêineres no Windows Server 2016.
+  Além disso, explica como implantar contêineres do Windows Server e do Hyper-V.
+  Ele também explica como instalar, configurar e gerenciar contêineres usando o Docker.
+
+  #### Lições
+  - Visão geral de contêineres no Windows Server 2016
+  - Preparação para contêineres
+  - Instalação, configuração e gerenciamento de contêineres usando o Docker
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Instalação e configuração de contêineres
+  - Instalação do Docker
+  - Instalação e configuração de um contêiner
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;Descrever contêineres no Windows Server 2016.Explicar como implantar contêineres.Explicar como instalar, configurar e gerenciar contêineres usando o Docker.
+
+  ### Módulo 7&#58; Visão geral da alta disponibilidade e da recuperação de desastre
+  Este módulo apresenta uma visão geral da alta disponibilidade e da alta disponibilidade com clustering de failover no Windows Server 2016. Ele explica melhor como planejar soluções de alta disponibilidade e recuperação de desastre com máquinas virtuais do Hyper-V. Além disso, este módulo explica como fazer backup e restaurar o sistema operacional Windows Server 2016 e os dados usando o Backup do Windows Server.
+
+  #### Lições
+  - Definição dos níveis de disponibilidade
+  - Planejamento soluções alta disponibilidade e recuperação desastre com máquinas virtuais do Hyper-V
+  - Backup e restauração usando o Backup do Windows Server
+  - Alta disponibilidade com clustering de failover no Windows Server 2016
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Planejamento e implementação solução alta disponibilidade e recuperação de desastre
+  - Como determinar a solução adequada de alta disponibilidade e recuperação de desastre
+  - Implementação da migração de armazenamento
+  - Configuração de réplicas do Hyper-V
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;Definir os níveis de disponibilidade.Planejar soluções de alta disponibilidade e recuperação de desastre com máquinas virtuais do Hyper-V.Fazer backup e restaurar dados usando o Backup do Windows Server.Descrever a alta disponibilidade com clustering de failover no Windows Server 2016.
+
+  ### Módulo 8&#58; Implementação do clustering de failover
+  Este módulo explica como planejar o clustering de failover. Também explica como criar, gerenciar e solucionar problemas de um cluster de failover.
+  #### Lições
+  - Planejamento de um cluster de failover
+  - Criação e configuração de um novo cluster de failover
+  - Manutenção de um cluster de failover
+  - Solução de problemas de um cluster de failover
+  - Implementação de alta disponibilidade de site com clustering estendido
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Implementação do clustering de failover
+  - Criação de um cluster de failover
+  - Verificação das configurações de quorum e adição de um nó
+
+
+  #### Laboratório&#58; &#58; Laboratório 2&#58;	Gerenciamento de um cluster de failover
+  - Remoção de um nó e verificação das configurações do quorum
+  - Alteração quorum testemunha disco para testemunha compartilhamento arquivo e definição votação de nó
+  - Verificação da alta disponibilidade
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58; Planejar uma implementação do clustering de failover.Criar e configurar um cluster de failover.Manter um cluster de failover.Solucionar problemas de um cluster de failover.Implementar a alta disponibilidade e o clustering estendido para um site.
+
+  ### Módulo 9&#58; Implementação do clustering de failover com o Hyper-V do Windows Server 2016
+  Este módulo descreve como o Hyper-V se integra com o clustering de failover. Também explica como implementar máquinas virtuais (VMs) do Hyper-V em clusters de failover.
+  #### Lições
+  - Visão geral da integração do Hyper-V Server 2016 com o clustering de failover
+  - Implementação de VMs do Hyper-V em clusters de failover
+  - Principais recursos para VMs em um ambiente clusterizado
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Implementação do clustering de failover com o Hyper-V do Windows Server 2016
+  - Configuração do ambiente virtual
+  - Configuração de um cluster de failover para o Hyper-V
+  - Configuração de uma VM altamente disponível
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;Descrever a integração do Hyper-V com o clustering de failover.Implementar máquinas virtuais (VMs) em clusters de failover.Descrever os principais recursos para VMs em um ambiente clusterizado.
+
+  ### Módulo 10&#58; Implementação do balanceamento de carga de rede
+  Este módulo apresenta uma visão geral de clusters de NLB. Também explica como planejar e configurar a implementação de um cluster de NLB.
+  #### Lições
+  - Visão geral do NLB
+  - Configuração de um cluster de NLB
+  - Planejamento de uma implementação do NLB
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Implementação do NLB
+  - Implementação de um cluster de NLB (balanceamento de carga de rede)
+  - Configuração e gerenciamento do cluster de NLB
+  - Validação da alta disponibilidade do cluster de NLB
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;Descrever o NLB.Configurar um cluster de NLB.Explicar como planejar uma implementação do NLB.
+
+  ### Módulo 11&#58; Criação e gerenciamento de imagens de implantação
+  Este módulo apresenta uma visão geral do processo de implantação de imagens do Windows Server 2016. Também explica como criar e gerenciar imagens de implantação usando o MDT (Microsoft Deployment Toolkit). Além disso, descreve as diferentes cargas de trabalho no ambiente de máquina virtual.
+  #### Lições
+  - Introdução às imagens de implantação
+  - Criação e gerenciamento de imagens de implantação usando o MDT
+  - Ambientes de máquinas virtuais para diferentes cargas de trabalho
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Como usar o MDT para implantar o Windows Server 2016
+  - Configuração do MDT
+  - Criação e implantação de uma imagem
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;Descrever o processo de implantação de imagens do Windows Server 2016.Criar e gerenciar imagens de implantação usando o MDT.Descrever as diferentes cargas de trabalho no ambiente de máquina virtual.
+
+  ### Módulo 12&#58; Gerenciamento, monitoramento e manutenção de instalações de máquinas virtuais
+  Este módulo apresenta uma visão geral do Windows Server Update Services (WSUS) e os requisitos para implementar o WSUS. Ele explica como gerenciar o processo de atualização com o WSUS. Além disso, este módulo apresenta uma visão geral da DSC (Configuração de Estado Desejado) do Windows PowerShell e das ferramentas de monitoramento do Windows Server 2016. Por fim, o módulo descreve como usar o monitor de desempenho e como gerenciar logs de eventos.
+  #### Lições
+  - Visão geral e opções de implantação do WSUS
+  - Processo de gerenciamento de atualizações com o WSUS
+  - Visão geral do Windows PowerShell DSC
+  - Visão geral das ferramentas de monitoramento do Windows Server 2016
+  - Uso do Monitor de Desempenho
+  - Monitoramento de logs de eventos
+
+
+  #### Laboratório&#58; &#58; Laboratório 1&#58; Implementação do WSUS e implantação de atualizações
+  - Implementação do WSUS
+  - Definição das configurações de atualização
+  - Aprovação e implantação de uma atualização usando o WSUS
+
+
+  #### Laboratório&#58; &#58; Laboratório 2&#58; Monitoramento e solução de problemas do Windows Server 2016
+  - Estabelecimento de uma linha de base de desempenho
+  - Identificação da origem de um problema de desempenho
+  - Exibição e configuração de logs de eventos centralizados
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever o objetivo do WSUS e os requisitos para implementá-lo.
+  - Gerenciar processo de atualizações do WSUS.
+  - Descrever a finalidade e os benefícios do DSC do Windows PowerShell.
+  - Descrever as ferramentas de monitoramento disponíveis no Windows Server 2016.
+  - Usar o Monitor de Desempenho.
+  - Gerenciar logs de eventos.

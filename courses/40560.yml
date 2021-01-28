@@ -1,0 +1,45 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Predictive Maintenance for remote field devices'
+metadata:
+  title: 'Course 40560-G: Microsoft Cloud Workshop: Predictive Maintenance for remote field devices'
+  description: 'Course 40560-G: Microsoft Cloud Workshop: Predictive Maintenance for remote field devices'
+uid: course.40560
+courseNumber: '40560-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Design an IoT-based predictive maintenance solution in Azure.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will learn how to evaluate Microsoft's catalog of PaaS and SaaS-based IoT products to determine the optimal combination of tools to fulfill Fabrikam's needs. You will design and implement a solution that simplifies IoT device management and reporting, providing Fabrikam with a faster path to realizing their IoT strategy without requiring a lot of custom development. Next, you will learn how to deploy a trained predictive maintenance Machine Learning model and design a stream processing pipeline that makes predictions with the model in near real-time. At the end of this pipeline is an alert that is sent to the oil pump maintenance team when a pump failure is imminent.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas.  Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+prerequisitesSection: |-
+  Workshop content presumes 300-level of architectural expertise of infrastructure and solutions design. We suggest students take this prerequisite prior to attending this workshop.
+  - Microsoft Azure Essentials course, http://www.microsoft.com/en-US/azureessentials
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Predictive Maintenance for remote field devices
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on Lab - Predictive Maintenance for remote field devices
+  #### Lessons
+  - Configuring IoT Central with devices and metadata
+  - Run the Rod Pump Simulator
+  - Creating a device set
+  - Creating a useful dashboard
+  - Create an Event Hub and continuously export data from IoT Central
+  - Use Azure Databricks and Azure Machine Learning service to train and deploy predictive model
+  - Create an Azure Function to predict pump failure

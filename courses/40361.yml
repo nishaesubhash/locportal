@@ -1,0 +1,48 @@
+### YamlMime:Course
+title: 'Software Development Fundamentals: MTA Exam 98-361'
+metadata:
+  title: 'Course 40361-A: Software Development Fundamentals: MTA Exam 98-361'
+  description: 'Course 40361-A: Software Development Fundamentals: MTA Exam 98-361'
+uid: course.40361
+courseNumber: '40361-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand Core Programming
+- skill: Understand Object-Oriented Programming
+- skill: Understand General Software Development
+- skill: Understand Web Applications
+- skill: Understand Desktop Applications
+- skill: Understand Databases
+learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+products:
+- vs
+exams:
+- uid: exam.98-361
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-361, and build an understanding of these topics&#58; Core Programming, Object-Oriented Programming, General Software Development, Web Applications, Desktop Applications, and Databases. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module  1&#58; Introduction to Object-Oriented Programming
+
+
+  ### Module  2&#58; Understanding General Software Development
+
+
+  ### Module  3&#58; Understanding Web Applications
+
+
+  ### Module  4&#58; Understanding Desktop Applications
+
+
+  ### Module  5&#58; Understanding Databases

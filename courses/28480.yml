@@ -1,0 +1,269 @@
+### YamlMime:Course
+title: HTML5 程序设计 – 使用 JavaScript 与CSS3
+metadata:
+  title: 'Course 28480-B: HTML5 程序设计 – 使用 JavaScript 与CSS3'
+  description: 'Course 28480-B: HTML5 程序设计 – 使用 JavaScript 与CSS3'
+uid: course.28480
+courseNumber: '28480-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 说明如何使用Visual Studio2012建立和执行Web应用程序。
+- skill: 说明HTML5的新特性，以及建立和样式化HTML5网页。
+- skill: 利用JavaScript新增与HTML5网页的交互性。
+- skill: 使用不同的输入类型建立HTML5的格式，同时利用HTML5的属性以及JavaScript程序代码验证用户输入的数据。
+- skill: 由XMLHTTPRequest 对象以及jQuery AJAX操作，传送信息给远程的数据源，或是接收来自远程数据源所传递过来的数据。
+- skill: 通过CSS3设计HTML5网页的样式。
+- skill: 建立具备良好结构以及易于维护的JavaScript程序代码。
+- skill: 在交互式网络应用中，运用常见的HTML5 API。
+- skill: 建立一个支持离线运行的Web应用程序。
+- skill: 建立可以自适应不同的联机设备与客户端因素的HTML5网页。
+- skill: 利用Canvas元素以及可缩放矢量图形 ( Scalable Vector Graphics)，强化HTML5网页的高级图形应用。
+- skill: 由新增 HTML5 网页的动画效果，强化用户的体验。
+- skill: 使用WebSockets在Web应用程序与服务器之间，传送和接收数据。
+- skill: 由 Web Worker 程序，改善Web应用程序长时间运行的响应能力。
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-cn
+- en
+levels:
+- intermediate
+roles:
+- developer
+exams:
+- uid: exam.70-480
+summary: |-
+  本课程帮助学员能够取得中级与高级的HTML5 / CSS3 / JavaScript程序设计能力。本课程是Web应用程序与Windows商店应用程序的学习起点，选读本课程日后将能双向或分流发展高级的学习路径。本课程内容聚焦在程序结构，声明与使用变量，循环与分支，程序设计逻辑，自适应UI开发，获取输入值，储存数据，应用程序的生命周期等基本知识。此外，选读本课程的学员，最好具备至少六个月左右的程序开发经验。虽然，我们预期选读课程的学员中可能会有一些HTML5程序设计的经验，甚至完全没有任何HTML5程序设计的经验，但是，至少应该具备HTML4的程序设计经验。若选读本课程的学员，不具备任何程序开发的经验，那么，应该要特别注意一下参与本课程的培训先决条件。若学员拥有超过5年以上的程序设计经验，那么，他可能会发现本次培训课程的部分内容属于基础知识，尤其是学习的语法应用与其实务应用中的任务相关连时。本课程所选择的实验 (lab) 单元，所支持的内容与演示的结构，是特别针对广泛的应用场景所设计的。其聚焦于建立HTML5应用程序的规则以及程序设计的元素/结构的学习。本课程内容映对70-480认证考试。
+
+  #### Audience profile
+  本课程主要针对拥有 6-12 个月程序设计经验的专业程序开发人员，同时，对使用HTML5和JavaScript与CSS3 开发程序有兴趣的学员们所设计的。无论是Windows 8的Windows 商店应用程序，或是Web应用程序。
+  选读本课程的学员们，应该具备以下经验&#58;
+  - 拥有1 – 3个月，开发Web应用程序的经验，包含编写过简单的JavaScript程序代码
+  - 拥有1 个月，开发Windows客户端应用程序的经验
+  - 拥有1个月，使用 Visual Studio 2010或是2012版本的经验
+  
+  本课程不适合具备拥有三个月或三个月以上开发HTML5程序设计经验的学员选读。
+
+  选择参与本课程的学员若不具备开发程序的经验时，应该特别注意培训的先决条件再做后续建议。若有学员拥有超过5年以上的程序设计经验，那么，他可能会发现本培训课程的部分内容属于基础知识，尤其是学习的语法应用与其实务应用中的任务相关连时。
+  
+  若是对考取70-480 检定考试学员&#58; Programming in HTML5 with JavaScript and CSS3，也适合参与本课程。
+prerequisitesSection: |-
+  参与本课程之前，学员必须具备至少三个月的开发程序相关经验。
+  除了自己本身的专业经验之外，参与本培训课程的学员应具备结合HTML5相关的程序设计经验，以及相关的知识应用。这个部份说明如下所示&#58;
+  - 知道基本的HTML文件文件结构&#58;
+  - 如何使用HTML tag 以呈现文字内容
+  - 如何使用HTML tag 以展示图形
+  - 如何使用HTML API
+  - 知道如何使用CSS样式设计HTML元素&#58;
+  - 如何切割内容的呈现
+  - 如何管理控制流程
+  - 如何控制个别元素的位置
+  - 如何实现基本的CSS 样式
+  - 知道如何编写JavaScript程序代码新增网页的功能性&#58;
+  - 如何声明与使用变量
+  - 如何使用&#58;
+  - 数学运算符执行算术计算，包含一个或多个变量的使用
+  - 关系运算符测试两个变量或表示式之间的关系
+  - 逻辑运算符整合表示式，包含关系运算符
+  - 如何由if … else 叙述，控制程序的执行流程
+  - 如何使用循环实现重复执行的应用
+  - 如何编写简单的函式
+outlineSection: |-
+  ### Module 1&#58; HTML 及 CSS 概述
+  本模块课程内容提供了HTML和CSS的概述，同时，叙述了如何通过Visual Studio 2012建立Web应用程序。
+  #### Lessons
+  - HTML 概述
+  - CSS概述
+  - 使用Visual Studio 2012 产生一个网页应用程序
+
+
+  #### Lab &#58; 探索 Contoso 研讨会应用程序
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 说明基本的HTML元素以及属性。
+  - 说明 CSS 结构。
+  说明 Microsoft Visual Studio 用来建构Web应用程序的工具。
+
+  ### Module 2&#58; HTML 网页的创建及样式设计
+  本模块课程内容介绍了HTML5的新功能特性，同时说明如何建立以及样式化 HTML5网页。
+  #### Lessons
+  - 创建一个HTML5网页
+  - HTML5网页的样式设计
+
+
+  #### Lab &#58; HTML 网页的创建及样式设计
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 使用 HTML5 的新功能建立静态网页。
+  - 利用 CSS3 针对 HTML5 的元素提供基本的样式设计。
+
+  ### Module 3&#58; JavaScript 介绍
+  本模块课程内容提供 JavaScript 语言的介绍，同时展示如何通过 JavaScript 新增 HTML5 的交互性。
+  #### Lessons
+  - JavaScript 语法概述
+  - 使用JavaScript 设计 HTML DOM
+  - jQuery介绍
+
+
+  #### Lab &#58; 使用JavaScript显示数据以及处理事件
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 叙述基本的JavaScript语法，以及说明如何在HTML5中使用JavaScript。
+  - 编写 JavaScript 程序代码，用来操作 HTML DOM 以及处理事件的发生。
+  - 使用 jQuery简化许多常用的JavaScript程序开发任务。
+
+
+
+  ### Module 4&#58; 产生窗体收集和验证用户的输入
+  本模块课程内容叙述了HTML5的新类型输入功能，以及说明如何由JavaScript程序以及 HTML5 的新属性，建立窗体搜集用户输入的数据，并进行数据的验证。
+  #### Lessons
+  - 窗体与输入类型概述
+  - 使用HTML5属性来验证用户的输入
+  - 使用JavaScript来验证使用者的输入
+
+
+  #### Lab &#58; 建立一个表单，同时验证用户的输入
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 通过 HTML5 的新输入类型建立窗体。
+  - 通过 HTML5 的新输入类型，验证用户输入的数据以及提供信息回馈。
+  - 编写 JavaScript 程序，验证用户输入的数据并不符合 HTML5属性的状况，同时提供信息的回馈。
+
+
+  ### Module 5&#58; 与远程数据源互动
+  本模块课程内容叙述了如何由XMLHTTPRequest  对象以及执行jQuery AJAX 的操作，传送数据给远程的数据源，以及接收从远程数据源传送过来的数据。
+  #### Lessons
+  - XMLHTTPRequest 对象传送与接收数据
+  - jQuery AJAX 的操作对象传送与接收数据
+
+
+  #### Lab &#58; 与远程数据源通信
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 由XMLHTTPRequest对象，序列化、反序列化以及传送与接收数据
+  - 由jQuery AJAX 的方法，进行序列化、反序列化以及传送与接收数据
+
+
+  ### Module 6&#58; 使用 CSS3 设计 HTML5 样式
+  本模块课程内容叙述了如何由 CSS3的新功能，样式化HTML5 网页与元素。
+  #### Lessons
+  - 使用CSS3设计文字的样式
+  - 设计块元素的样式
+  - CSS3选择器 (selectors)
+  - 使用CSS3强化图形的特效
+
+
+  #### Lab &#58; 使用CSS3设计文字和区块元素的样式
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 使用CSS3的新功能设计文字元素的样式。
+  - 使用CSS3的新功能设计区块元素的样式。
+  - 使用CSS3选择器 (selectors) 指定Web应用程序元素的样式。
+  - 使用CSS3的新功能，实现与转换图形化效果。
+
+
+  ### Module 7&#58; 使用 JavaScript 产生对象和方法
+  本模块课程内容说明如何编写具备定义良好的结构以及易于维护的JavaScript 程序，以及如何提供Web应用程序中的 JavaScript面向对象的规则。
+  #### Lessons
+  - 编写结构良好的JavaScript程序代码
+  - 产生自定义的对象
+  - 扩展对象
+
+
+  #### Lab &#58; 强化程序代码的维护性和扩展性
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 说明良好的JavaScript程序代码结构的好处，有益于日后的维护性与扩展性。
+  - 说明建立JavaScript自定义对象的最佳方式。
+  - 说明如何延展自定义与原生对象，以增加功能性。
+
+
+  ### Module 8&#58; 使用 HTML5 API 建立交互式网页
+  本模块课程内容内容叙述如何使用一些常见的HTML5 API 新增Web应用程序的互动性。同时说明如何针对Web应用程序进行调试与分析。
+  #### Lessons
+  - 如何让 HTML5与文件互动
+  - 整合多媒体文件
+  - 在浏览器上显示出所获取到的地理位置信息与内容
+  - Web应用程序的调试与分析
+
+
+  #### Lab &#58; 用HTML5 API 建立交互式网页
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 在Web应用程序中使用拖曳功能，以及通过File API 存取本地文件。
+  - 将声音文件与影片文件整合进Web应用程序中。
+  - 由Geolocation API检测用户执行Web应用程序的所在位置。
+  - 说明如何利用Web Timing API网以及因特网开发者工具，进行Web应用程序的调试与分析。
+
+
+  ### Module 9&#58; 新增支持Web应用程序的离线访问功能
+  本模块课程内容说明了如何新增支持Web应用程序的离线访问功能，让用户即使在其所使用的设备无法联机时，仍然能够继续使用网络程序。
+  #### Lessons
+  - 读取与写入本地数据
+  - 使用新的应用程序缓存支持离线访问功能
+
+
+  #### Lab &#58; 新增支持Web应用程序的离线访问功能
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 由Local Storage API，在用户的设备上存储与读取本地性数据。
+  - 由Application Cache API，提供用应用程序缓存，让Web应用程序即使在脱机状态也能执行。
+
+
+  ### Module 10&#58; 实现一个可以自适应的用户接口
+  本模块课程内容叙述了如何建立一个能够进行动态检测，以及依据联机用户的不同设备与因素做自适应的HTML5 网页。
+  #### Lessons
+  - 支持多种设备因素
+  - 建立一个可以自适应的用户界面
+
+
+  #### Lab &#58; 实现一个可以自我适应的用户界面
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 叙述Web应用程序中，为了针对不同的因素 (指不同的用户设备) 对网站所提出的请求，做出适当的响应。
+  - 建立可以依据不同的因素，进行自适应的网页。
+
+
+  ### Module 11&#58; 建立高级图形
+  本模块课程内容叙述如何由Canvas 元素，以及可缩放矢量图 (Scalable Vector Graphics)， 针对 HTML5 Web应用程序建立高级图形应用。
+  #### Lessons
+  - 利用SVG建立交互式图形
+  - 使用Canvas API 绘制图形
+
+
+  #### Lab &#58; 建立高级图形
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 使用SVG，新增应用程序的交互式的图形内容。
+  - 使用JavaScript 程序代码，在HTML5 Canvas 元素上，绘制复杂的图形内容。
+
+  ### Module 12&#58; 用户界面动画
+  本模块课程内容叙述如何在 HTML5网络应用程中加入动画效果，以强化使用者的体验。
+  #### Lessons
+  - 应用CSS转换
+  - 变化元素
+  - 应用CSS关键帧动画
+
+
+  #### Lab &#58; 用户界面动画
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 在 HTML5 网页的元素上应用 CSS转换，同时，编写 JavaScript 程序代码进行转换发生的检测。
+  - 叙述2D和3D随着 CSS3变化的差异性。
+  - 利用关键帧动画以及JavaScript
+  - 程序代码，实现复杂的动画效果。
+
+
+  ### Module 13&#58; 利用 Web Socket 实现实时通讯
+  本模块课程内容说明了如何利用Web Sockets，在 HTML5 Web应用程序与服务器之间传送与接收数据。
+  #### Lessons
+  - 简介Web Sockets
+  - 使用WebSocket API
+
+
+  #### Lab &#58; 利用Web Sockets 实现实时通讯
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 叙述Web Socket 的运作原理，以及说明如何通过 Web Socket传送与接收数据。
+  - 在 JavaScript中使用Web Sockets API，联机 Web Socket server，传送与接收数据，以及处理在传送/接收资料的过程中所发生的不同事件。
+
+
+  ### Module 14&#58; 利用 web workers 执行背景程序
+  本模块课程内容叙述如何通过Web Worker 程序执行长时间的异步操作，同时由其特性改善HTML5 Web应用程序的响应执行效能。
+  #### Lessons
+  - 认识 Web Workers
+  - 利用Web Workers 执行异步程序
+
+
+  #### Lab &#58; 建立一个Web Worker程序
+  After completing this module，学员将能够拥有下列能力&#58; 
+  - 说明 Web Worker 程序的功能与特性，以及某些敏感性作业如何由隔离性方式应用其执行异步处理作业，以改善执行效能。
+  - 利用Web Worker API在 JavaScript程序代码中建立、执行程序以及监测 Web
+  Worker 程序。

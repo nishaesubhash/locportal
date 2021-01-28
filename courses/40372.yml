@@ -1,0 +1,50 @@
+### YamlMime:Course
+title: 'Microsoft .NET Fundamentals: MTA Exam 98-372'
+metadata:
+  title: 'Course 40372-A: Microsoft .NET Fundamentals: MTA Exam 98-372'
+  description: 'Course 40372-A: Microsoft .NET Fundamentals: MTA Exam 98-372'
+uid: course.40372
+courseNumber: '40372-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand .NET Framework Concepts
+- skill: Understand Namespaces and Classes in the .NET Framework
+- skill: Understand.NET Code Compilation
+- skill: Understand I/O Classes in the .NET Framework
+- skill: Understand Security
+- skill: Understand.NET Languages
+- skill: Understand Memory Management
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+products:
+- dotnet
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-372, and build an understanding of these topics&#58; .NET Framework Concepts, Namespaces and Classes in the .NET Framework, .NET Code Compilation, I/O Classes in the .NET Framework, Security, .NET Languages, and Memory Management. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module 1&#58; Understanding Object-Oriented Programming
+
+
+  ### Module 2&#58; Understanding Data Types and Collections
+
+
+  ### Module 3&#58; Understanding Events and Exceptions
+
+
+  ### Module 4&#58; Understanding Code Compilation and Deployment
+
+
+  ### Module 5&#58; Understanding Input/Output (I/O) Classes
+
+
+  ### Module 6&#58; Understanding Security

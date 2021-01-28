@@ -1,0 +1,43 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Security baseline on Azure'
+metadata:
+  title: 'Course 40527-G: Microsoft Cloud Workshop: Security baseline on Azure'
+  description: 'Course 40527-G: Microsoft Cloud Workshop: Security baseline on Azure'
+uid: course.40527
+courseNumber: '40527-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: At the end of this workshop, you will be better able to secure your cloud-based applications and services, while ensuring privacy standards are followed and your architecture is compliant.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In course, you will work with a group to design an end-to-end solution that leverages many of Microsoft Azure's security features.
+  
+  At the end of this session, you will be better able to design and recommend solutions that help organizations properly secure their cloud-based applications while protecting their sensitive data.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Security baseline on Azure
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-On Lab - Security baseline on Azure
+  #### Lessons
+  - Implementing Just-In-Time (JIT) access
+  - Securing the Web Application and Database
+  - Migrating to Azure Key Vault
+  - Securing the Network
+  - Azure Sentinel logging and reporting
+  - Using Compliance Tools (Azure Policy, Secure Score and Compliance Manager)

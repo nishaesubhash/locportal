@@ -1,0 +1,49 @@
+### YamlMime:Course
+title: 'Windows Development Fundamentals: MTA Exam 98-362'
+metadata:
+  title: 'Course 40362-A: Windows Development Fundamentals: MTA Exam 98-362'
+  description: 'Course 40362-A: Windows Development Fundamentals: MTA Exam 98-362'
+uid: course.40362
+courseNumber: '40362-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand Windows Programming Basics
+- skill: Create Windows Services Applications
+- skill: Create Windows Services Applications
+- skill: Access Data in a Windows Forms Application
+- skill: Deploy a Windows Application
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-362, and build an understanding of these topics&#58; Windows Programming Basics, Creating Windows Forms Applications, Creating Windows Services Applications, Accessing Data in a Windows Forms Application, and Deploying a Windows Application. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module 1&#58; Introducing Windows Applications
+
+
+  ### Module 2&#58; Creating a Windows Application Project in Visual Studio
+
+
+  ### Module 3&#58; Creating a Windows Forms User Interface
+
+
+  ### Module 4&#58; Controlling Application Execution
+
+
+  ### Module 5&#58; Validating User Input
+
+
+  ### Module 6&#58; Integrating Data
+
+
+  ### Module 7&#58; Packaging and Deploying Windows Applications

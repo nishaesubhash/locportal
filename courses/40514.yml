@@ -1,0 +1,52 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Migrating Oracle to Azure SQL or Postgre SQL'
+metadata:
+  title: 'Course 40514-G: Microsoft Cloud Workshop: Migrating Oracle to Azure SQL or Postgre SQL'
+  description: 'Course 40514-G: Microsoft Cloud Workshop: Migrating Oracle to Azure SQL or Postgre SQL'
+uid: course.40514
+courseNumber: '40514-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: At the end of this workshop, you will be better able to conduct a site analysis for compare cost, performance, and level of effort required to migrate from Oracle to SQL Server or PostgreSQL. Given the time required to complete the workshop, it is recommended the student and trainer pick a single migration path.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you gain a better understanding of how to conduct a site analysis for a customer to compare cost, performance, and level of effort required to migrate from Oracle to SQL Server or PostgreSQL. There are two migration paths included in this workshop and the training files are named appropriately for each path. Both workshops share a common customer Oracle migration scenario. Each workshop path has tailored database platform migration steps to assist you in this learning journey. You will evaluate the dependent applications and reports that need to be updated and come up with a migration plan. Also, you will design and build a proof of concept (POC) to help the customer take advantage of new SQL Server or PostgreSQL features to improve performance and resiliency.
+  
+  For those students focusing on the SQL Server migration, you will explore ways to migrate from an old version of SQL Server to the latest version and consider the impact of migrating from on-premises to the cloud.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the ‘About this Course’ and ‘At Course Completion’ areas.  Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Migrating Oracle to Azure SQL or Postgre SQL
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on Lab - Migrating Oracle to Azure SQL or Postgre SQL
+
+  #### Lab &#58; Migrating Oracle to Azure SQL
+
+  - Configure SQL Server instances
+  - Migrate SQL Server to Azure SQL Database using DMS
+  - Post upgrade enhancement
+  - Setup Oracle 11g Express Edition
+  - Migrate the Oracle database to SQL Server 2017
+  - Migrate the Application
+  
+  #### Lab &#58; Migrating Oracle to Postgre SQL
+  
+  - Setup Oracle 11g Express Edition
+  - Assess the Oracle 11g Database before Migrating to PostgreSQL
+  - Prepare to Migrate the Oracle database to PostgreSQL
+  - Migrate the Database and Application

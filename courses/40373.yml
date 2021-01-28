@@ -1,0 +1,53 @@
+### YamlMime:Course
+title: 'Mobile Development Fundamentals: MTA Exam 98-373'
+metadata:
+  title: 'Course 40373-A: Mobile Development Fundamentals: MTA Exam 98-373'
+  description: 'Course 40373-A: Mobile Development Fundamentals: MTA Exam 98-373'
+uid: course.40373
+courseNumber: '40373-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Work with Physical Devices
+- skill: Use Data with Mobile Services
+- skill: Use a Mobile Application Development Environment
+- skill: Develop Mobile Applications
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+products:
+- windows
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-373, and build an understanding of these topics&#58; Work with Physical Devices, Use Data with Mobile Services, Use a Mobile Application Development Environment, Develop Mobile Applications. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module 1&#58; Understanding Mobile Devices, Interactions, and Tools
+
+
+  ### Module 2&#58; Working in a Mobile App Development Environment
+
+
+  ### Module 3&#58; Exploring Networked Data and Data Stores
+
+
+  ### Module 4&#58; Exploring Mobile Device Networking
+
+
+  ### Module 5&#58; Understanding Silverlight and Mobile Code
+
+
+  ### Module 6&#58; Understanding Mobile App Development Concepts and Working with APIs
+
+
+  ### Module 7&#58; Using Mobile Device Controls and Creating User Interfaces
+
+
+  ### Module 8&#58; Testing, Debugging, and Deploying a Mobile App

@@ -1,0 +1,43 @@
+### YamlMime:Course
+title: 'Database Administration Fundamentals: MTA Exam 98-364'
+metadata:
+  title: 'Course 40364-A: Database Administration Fundamentals: MTA Exam 98-364'
+  description: 'Course 40364-A: Database Administration Fundamentals: MTA Exam 98-364'
+uid: course.40364
+courseNumber: '40364-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand Core Database Concepts
+- skill: Create Database Objects
+- skill: Manipulate Data
+- skill: Understand Data Storage
+- skill: Administer a Database
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.98-364
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-364, and build an understanding of these topics&#58; Core Database Concepts, Creating Database Objects, Manipulating Data, Data Storage, and Administering a Database. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module 1&#58; Understanding Core Database Concepts
+
+  ### Module 2&#58; Creating Database Objects
+
+  ### Module 3&#58; Manipulating Data
+
+  ### Module 4&#58; Understanding Data Storage
+
+  ### Module 5&#58; Administering a Database

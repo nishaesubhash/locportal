@@ -1,0 +1,216 @@
+### YamlMime:Course
+title: 使用T-SQL查询数据
+metadata:
+  title: 'Course 28761-A: 使用T-SQL查询数据'
+  description: 'Course 28761-A: 使用T-SQL查询数据'
+uid: course.28761
+courseNumber: '28761-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 介绍Microsoft SQL Server 2016 的基本架构和概念。
+- skill: 了解Transact-SQL 和其他计算器语言之间的相似性与差异性
+- skill: 编写 SELECT 选取查询语句
+- skill: 根据多个数据表进行数据的查询
+- skill: 排序数据，以及过滤数据
+- skill: 说明 SQL Server 所支持的数据类型
+- skill: 使用 Transact-SQL 查询修改数据
+- skill: 使用内置函数
+- skill: 根据数据进行分组与汇总计算
+- skill: 使用子查询
+- skill: 使用集合运算符
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-cn
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-761
+summary: |-
+  这个为期 5 天由授课讲师指导的课程，主要的目的是让学员们能够具备使用 Transact-SQL 语言的能力，并根据所学得的知识衔接 SQL Server 相关的进阶课程，像是，数据库管理，数据库开发，以及商业智能等课程。 因此，本课程的主要目标学员是&#58; 数据库管理师，数据库开发人员，以及商业智能 (BI) 应用相关的专业人士。
+  
+  当然，参与本课程的学员中，将会包含对数据库应用或是对 SQL 查询语言不熟悉者，像是编写报表人员，营运分析师，以及终端应用程序开发人员等。
+
+  #### Audience profile
+  本课程的目标学员为数据库管理师，数据库开发人员，以及商业智能 (BI) 应用相关的专业人士等。当然，参与本课程的学员中，将会包含对数据库应用或是对 SQL 查询语言不熟悉者，像是编写报表人员，营运分析师，以及终端应用程序开发人员等。
+prerequisitesSection: |-
+  本课程期望您在确定选修课程之前，先评估自己是否具备下列的先备条件&#58; 
+  - 具备关系数据库的相关知识 
+  - 具备 Microsoft Windows 操作系统，以及其核心功能的基础知识
+outlineSection: |-
+  ### Module 1&#58; 微软SQL Server 2016介绍
+  在这个课程单元中，将介绍SQL Server，SQL Server的版本，包含云端版本，以及如何利用SQL Server Management Studio平台，与SQL Server 连接。
+  #### Lessons
+  - SQL Server 的基本架构
+  - SQL Server 功能性版本 ( Editions ) 和产品版本( Versions )
+  - 以 SQL Server Management Studio 作为 SQL Server 的使用入门
+
+
+  #### Lab &#58; 使用 SQL Server 2016 工具
+  完成本课程单元后，学员们将能够拥有下列能力&#58; 
+  - 介绍 SQL Server 2012 功能性版本及其架构
+  - 使用 SQL Server Management Studio 平台
+
+
+  ### Module 2&#58; T-SQL 查询介绍
+  在这个课程单元中，将介绍T-SQL的元素，以及各元素在编写查询语句时的作用。同时，将介绍 SQL Server的集合使用，主要是为了说明如何在SQL Server中，使用谓词逻辑，以及它们在SELECT语法中的操作逻辑顺序。
+  #### Lessons
+  - 介绍 T-SQL
+  - 了解集合 ( Sets )
+  - 了解谓词逻辑 ( Predicate Logic )
+  - 了解在 SELECT 命令中运算的逻辑顺序
+
+
+  #### Lab &#58; T-SQL 查询介绍
+  完成本课程单元后，学员们将能够拥有下列能力&#58; 
+  - 说明在编写查询语句时，T-SQL 的元素以及元素的功能
+  - 说明 SQL Server 的集合使用
+  - 说明 SQL Server 的谓词逻辑
+  - 说明 SELECT 选取语法中的操作逻辑顺序
+
+
+  ### Module 3&#58; 编写 SELECT 查询命令
+  本课程单元中，将介绍基本的 SELECT 选取语句，其着重在根据单一数据表的查询。
+  #### Lessons
+  - 编写简单的 SELECT 命令
+  - 使用 DISTINCT 线索来清除重复的数据
+  - 使用数据表和字段别名
+  - 编写简单的 CASE 表达式
+
+
+  #### Lab &#58; 编写基本的 SELECT 命令
+  -完成本课程单元后，学员们将能够拥有下列能力&#58; 
+  - 编写简单的 SELECT 命令
+  - 使用DISTINCT 线索来清除重复的数据
+  - 使用数据表和字段别名
+  - 编写简单的 CASE 表达式
+
+
+  ### Module 4&#58; 查询多个数据表
+  在这个课程单元中，将说明如何编写查询语句，以结合 SQL Server 中多个数据源的数据。同时，将介绍如何在 T-SQL 查询中使用 JOINs，从多个数据表中进行数据的获取。
+  #### Lessons
+  - 了解连接 (Join)
+  - 使用内连接 (Inner Join) 来查询
+  - 使用外联接 (Outer Join) 来查询
+  - 使用交叉连接 (Cross Join) 和自连接 (Self Join) 来查询
+
+
+  #### Lab &#58; 查询多个数据表
+  完成本课程单元后，学员们将能够拥有下列能力&#58;
+  - 描述如何在 SELECT 语句中，使用连接来查询多个数据表
+  - 编写使用内连接的查询
+  - 编写使用外联接的查询
+  - 编写使用交叉连接和自连接的查询
+
+
+  ### Module 5&#58; 排序和筛选数据
+  在这个课程单元中，将说明学习如何强化查询语句，以根据返回的记录值进行条件式的限制，同时，控制返回数据的显示顺序。本课程单元也将根据如何处理遗失值与未知值的方式进行讨论。
+  #### Lessons
+  - 排序数据
+  - 利用参数筛选数据
+  - 利用 TOP 和 OFFSET-FETCH 子句筛选数据
+  - 操作未知值 (Unknown Values)
+
+
+  #### Lab &#58; 排序和筛选数据
+  完成本课程单元后，学员们将能够拥有下列能力&#58;
+  - 在 WHERE 子句中，使用参数进行数据的过滤。
+  - 使用 ORDER BY 排序数据
+  - 在 SELECT 子句中使用 TOP 筛选数据
+  - 使用 OFFSET 和 FETCH 筛选数据
+
+
+  ### Module 6&#58; 使用 SQL Server 2016 数据类型
+  在本课程单元中，将说明 SQL Server 用来储存数据的数据类型种类。内容包含多个值类型，以及特殊用途 (special-use) 的数据类型。另外，也会根据不同数据类型之间的转换，以及转换数据类型时的优先顺序进行说明。
+  #### Lessons
+  - 简介 SQL Server 2016 数据类型
+  - 使用字符数据
+  - 使用日期与时间数据
+
+
+  #### Lab &#58; 使用 SQL Server 2016 数据类型
+  完成本课程单元后，学员们将能够拥有下列能力&#58; 
+  - 介绍 SQL Server 的数据类型，类型间的优先顺序 (type precedence)，以及类型间的转换 (type conversions)
+  - 编写使用字符类型 (character data types) 的查询语句
+  - 编写使用日期与时间类型 (date and time data types) 的查询语句
+
+
+  ### Module 7&#58; 使用DML 修改数据
+  在这个课程单元内容中，将说明如何使用 Transact-SQL DML (Data Manipulation Language) 命令，根据数据执行 INSERT 命令，UPDATE 命令，以及 DELETE 命令，以获得想要的结果。
+  #### Lessons
+  - 添加数据到数据表中
+  - 修改数据以及删除数据
+  - 自动产生域值
+
+
+  #### Lab &#58; 使用 DML 修改数据
+  完成本课程单元后，学员们将能够拥有下列能力&#58; 
+  - 插入新值到数据表中
+  - 更新与删除数据表中现有的记录值
+
+
+  ### Module 8&#58; 使用内置函数
+  在这个课程单元中，将介绍 SQL Server Denali 中的内置函数的使用，并将讨论一些常见的用法，包含数据类型的转换，逻辑结果测试以及 nullability。
+  #### Lessons
+  - 利用 SQL Server 的内置函数编写查询语句
+  - 使用转换函数
+  - 使用逻辑函数
+  - 在函数应用中加入 NULL
+
+
+  #### Lab &#58; 使用内置函数
+  完成本课程单元后，学员们将能够拥有下列能力&#58; 
+  - 利用内置函单一值函数，编写查询语句
+  - 使用转换函数
+  - 使用逻辑函数
+  
+  在使用函数时搭配 NULL 值，发挥更广的用途
+
+  ### Module 9&#58; 根据数据进行分组与汇总计算
+  在这个课程单元中，介绍几个获取数据的方法，包含如何在查询中进行数据的分组，如何对分组数据进行聚合计算，以及使用 HAVING 子句进行群组数据的过滤。本课程单元的内容设计，主要的目的在于帮助学员们理解几个要点，像是，为什么 SELECT 选取子句，对 GROUP BY 子句中所列出的字段有所限制，以及哪些字段可能被放置于 SELECT 子句中。
+  #### Lessons
+  - 使用聚合函数
+  - 使用 GROUP BY 子句
+  - 使用 HAVING 子句过滤群组数据
+
+
+  #### Lab &#58; 根据数据进行分组与汇总计算
+  完成本课程单元后，学员们将能够拥有下列能力&#58; 
+  - 使用内置聚合函数编写选取语法，列出输入集合中的所有记录的总结
+  - 使用 GROUP BY 子句，进行记录值的分组
+  - 使用 HAVING子句，依据查询条件过滤出分组数据
+
+
+  ### Module 10&#58; 使用子查询
+  在这个课程单元中，将介绍如何在不同的 SELECT 选取语法中的各个部分，使用子查询。内容将包含如何使用单一值与多结果子查询，以及如何使用 IN 运算符以及 EXISTS 运算符。
+  #### Lessons
+  - 编写嵌套子查询
+  - 编写相关子查询语句
+  - 在子查询语句中，使用 EXISTS 参数
+
+
+  #### Lab &#58; 使用子查询
+  完成本课程单元后，学员们将能够拥有下列能力&#58;
+  - 说明子查询的使用，也就是，如何将一段查询语句嵌入另一段查询语句之中
+  - 编写嵌套子查询，以返回单一值或多值的结果
+  - 编写相关子查询语句，以返回单一值或多值结果
+  - 在一段子查询语句中，通过 EXISTS 参数的应用，有效率地查核特定记录是否存在
+
+
+  ### Module 11&#58; 使用集合运算符
+  在这个课程单元中，将根据不同的集合运算符进行介绍，包含 UNION 运算符，INTERSECT 运算符，以及 EXCEPT 运算符。并通过集合运算符的使用，根据两个输入集合的记录数据进行比较。
+  #### Lessons
+  - 编写使用 UNION 运算符的查询语句
+  - 使用 EXCEPT 运算符以及 INTERSECT 运算符
+  - 使用 APPLY 运算符
+
+
+  #### Lab &#58; 使用集合运算符
+  完成本课程单元后，学员们将能够拥有下列能力&#58; 
+  - 使用UNION 运算符，INTERSECT 运算符，以及 EXCEPT 运算符，编写查询语句
+  - 使用 APPLY运算符

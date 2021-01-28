@@ -1,0 +1,73 @@
+### YamlMime:Course
+title: 'Networking and Security Fundamentals: Training 2-Pack for MTA Exams 98-366 and 98-367'
+metadata:
+  title: 'Course 40032-A: Networking and Security Fundamentals: Training 2-Pack for MTA Exams 98-366 and 98-367'
+  description: 'Course 40032-A: Networking and Security Fundamentals: Training 2-Pack for MTA Exams 98-366 and 98-367'
+uid: course.40032
+courseNumber: '40032-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand Network Infrastructures
+- skill: Understand Network Hardware
+- skill: Understand Protocols and Services
+- skill: Understand Security Layers
+- skill: Understand Operating System Security
+- skill: Understand Network Security
+- skill: Understand Security Software
+learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows-server
+exams:
+- uid: exam.98-366
+summary: |-
+  This five-day Training 2-Pack helps you prepare for Microsoft Technology Associate Exams 98-366 and 98-367, and build an understanding of these topics&#58; Network Infrastructures, Network Hardware, Protocols and Services, Security Layers, Operating System Security, Network Security, Security Software. These courses leverage the same content as found in the Microsoft Official Academic Courses (MOAC) for these exams.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module  1&#58; Understanding Local Area Networking
+
+
+  ### Module  2&#58; Defining Networks with the OSI Model
+
+
+  ### Module  3&#58; Understanding Wired and Wireless Networks
+
+
+  ### Module  4&#58; Understanding Internet Protocol
+
+
+  ### Module  5&#58; Implementing TCP/IP in the Command Line
+
+
+  ### Module  6&#58; Working with Networking Services
+
+
+  ### Module  7&#58; Understanding Wide Area Networks
+
+
+  ### Module  8&#58; Defining Network Infrastructures and Network Security
+
+
+  ### Module  9&#58; Understanding Security Layers
+
+
+  ### Module  10&#58; Authentication, Authorization, and Accounting
+
+
+  ### Module  11&#58; Understanding Security Policie
+
+
+  ### Module  12&#58; Understanding Network Security
+
+
+  ### Module  13&#58; Protecting the Server and Client

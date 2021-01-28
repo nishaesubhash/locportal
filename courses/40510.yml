@@ -1,0 +1,40 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: SQL Server Hybrid Cloud'
+metadata:
+  title: 'Course 40510-G: Microsoft Cloud Workshop: SQL Server Hybrid Cloud'
+  description: 'Course 40510-G: Microsoft Cloud Workshop: SQL Server Hybrid Cloud'
+uid: course.40510
+courseNumber: '40510-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: At the end of this workshop, you will be better able to design a hybrid disaster recovery solution between an on-premises VMWare environment and Azure. In addition, you will design a SQL Server scale-out solution, protect database backups from local failures, archive cold data from an on-premises SQL Server, and perform end-to-end encryption on sensitive application data.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will work with a media publishing company to design a hybrid cloud disaster recovery solution. You will design the solution to handle large spikes in load and harden the security to include encryption of Payment Card Industry (PCI) data. Additionally, you will implement an archival strategy to keep databases sizes in check.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - SQL Server hybrid cloud
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on Lab - SQL Server hybrid cloud
+  #### Lessons
+  - SQL Backup solution
+  - Implement a Data Archive Strategy with SQL Server Stretch Database
+  - Build SQL Availability Group for Database Disaster Recovery
+  - Configure Azure Site Recovery for Web Tier DR
+  - Failing Over to the Disaster Recovery Site

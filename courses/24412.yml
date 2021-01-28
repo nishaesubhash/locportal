@@ -1,0 +1,252 @@
+### YamlMime:Course
+title: Configuração de serviços avançados do Windows Server® 2012
+metadata:
+  title: 'Course 24412-B: Configuração de serviços avançados do Windows Server® 2012'
+  description: 'Course 24412-B: Configuração de serviços avançados do Windows Server® 2012'
+uid: course.24412
+courseNumber: '24412-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Implementar serviços de rede avançados.
+- skill: Implementar serviços de arquivo avançados.
+- skill: Implementar o Controle de Acesso Dinâmico.
+- skill: Implementar implantações distribuídas dos Serviços de Domínio do Active Directory (AD DS).
+- skill: Implementar de sites e replicação do AD DS.
+- skill: Implementar os Serviços de Certificação do Active Directory (AD CS).
+- skill: Implementar o Active Directory Rights Management Services (AD RMS).
+- skill: Implementar os Serviços de Federação do Active Directory (AD FS).
+- skill: Implementar o balanceamento de carga de rede (NLB).
+- skill: Implementar o cluster de failover.
+- skill: Implementar o cluster de failover com o Hyper-V.
+- skill: Implementar a recuperação de desastres.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- pt-br
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-412
+summary: |-
+  Esta versão deste curso é baseada na versão de lançamento final do Windows Server 2012.
+  Saiba como provisionar e configurar serviços avançados usando o Windows Server 2012 com este curso de cinco dias. Este curso é a terceira parte de uma série de três cursos, que oferece as habilidades e o conhecimento necessários para a implementação de uma infraestrutura central do Windows Server 2012 em um ambiente corporativo existente. Os três cursos abordarão coletivamente a implementação, o gerenciamento, a manutenção e o provisionamento de serviços e da infraestrutura em um ambiente do Windows Server 2012. Embora haja algumas semelhanças em habilidades e tarefas pelos três cursos, este curso aborda basicamente a configuração avançada dos serviços necessários para implantar, gerenciar e manter uma infraestrutura do Windows Server 2012, como serviços de rede avançados, Serviços de Domínio do Active Directory (AD DS), gerenciamento de identidade, gerenciamento de direitos, serviços federados, balanceamento de carga de rede, cluster de failover, continuidade dos negócios e recuperação de desastres.
+  
+  Este curso é mapeado diretamente para o Microsoft Certified Solutions Associate (MCSA)&#58; Windows Server 2012, exame "70-412&#58; Configuração de serviços avançados do Windows Server 2012", cujos detalhes estão disponíveis aqui http&#58;//www.microsoft.com/learning/exam-70-412.aspx
+
+  #### Audience profile
+  Este curso é destinado a profissionais de TI com experiência prática em implementação, gerenciamento e manutenção de uma infraestrutura do Windows Server 2012 em um ambiente corporativo existente, que desejam adquirir as habilidades e o conhecimento necessário para executar gerenciamento avançado e provisionamento de serviços nesse ambiente do Windows Server 2012. Os candidatos ideais são normalmente administradores de sistema experientes com experiência real em um ambiente do Windows Server 2008, Windows Server 2008 R2 ou Windows Server 2012.
+
+  O público-alvo secundário para este curso são candidatos que planejam fazer o Exame 70-412&#58; Configuração de serviços avançados do Windows Server 2012, ou que desejam adquirir a credencial MCSA (Microsoft Certified Solutions Associate).
+prerequisitesSection: |-
+  Antes de participar deste curso, os alunos devem ter&#58;
+  - Boa experiência prática com um ambiente corporativo do Windows Server 2008, Windows server 2008 R2 ou Windows Server 2012.
+  - Experiência real em implantação, gerenciamento e configuração do AD DS e da infraestrutura de rede em um ambiente corporativo.
+  - Conhecimento equivalente aos cursos&#58; 24410B&#58; Instalação e configuração do Windows Server 2012, e 24411B&#58; Administração do Windows Server 2012.
+outlineSection: |-
+  ### Módulo 1&#58; Implementação de serviços de rede avançados
+  Este módulo descreve como configurar recursos avançados no DNS (Sistema de Nomes de Domínio) e no Protocolo DHCP com o Windows Server 2012 e abrange o IPAM (Gerenciamento de Endereços IP).
+  #### Lições
+  - Configuração de recursos avançados de DHCP
+  - Definição das configurações avançadas de DNS
+  - Implementação de IPAM
+
+
+  #### Laboratório&#58;&#58; Implementação de serviços de rede avançados
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Configurar serviços avançados de DNS.
+  - Configurar serviços avançados de DHCP.
+  - Implemente o IPAM.
+
+
+  ### Módulo 2&#58; Implementação de serviços de arquivo avançados
+  Este módulo descreve como configurar e gerenciar o iSCSI e o BranchCache, e como implementar recursos do Windows 2012 que otimizam a utilização do armazenamento, como Gerenciador de Recursos do Servidor de Arquivos, classificação de arquivos e duplicação de dados.
+  #### Lições
+  - Configuração do armazenamento iSCSI
+  - Configuração de BranchCache
+  - Otimização do uso de armazenamento
+
+
+  #### Laboratório&#58;&#58; Implementação de serviços de arquivo avançados
+
+  #### Laboratório&#58;&#58; Implementação do BranchCache
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Configurar o armazenamento iSCSI.
+  - Configurar o BranchCache.
+  - Otimizar o uso de armazenamento.
+
+
+  ### Módulo 3&#58; Implementação do Controle de Acesso Dinâmico
+  Este módulo descreve como planejar e implementar o Controle de Acesso Dinâmico.
+  #### Lições
+  - Visão geral do Controle de Acesso Dinâmico
+  - Planejamento do Controle de Acesso Dinâmico
+  - Implantação do Controle de Acesso Dinâmico
+
+
+  #### Laboratório&#58;&#58; Implementação do Controle de Acesso Dinâmico
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Planejar-se para o Controle de Acesso Dinâmico.
+  - Implantar o Controle de Acesso Dinâmico.
+
+
+  ### Módulo 4&#58; Implementação de implantações distribuídas dos Serviços de Domínio do Active Directory
+  Este módulo descreve os componentes de uma implantação altamente complexa do AD DS, que inclui a implementação de uma implantação distribuída do AD DS e a configuração de relações de confiança entre florestas do AD DS.
+  #### Lições
+  - Visão geral de implantações distribuídas do AD DS
+  - Implantação de um ambiente distribuído do AD DS
+  - Configuração de relações de confiança do AD DS
+
+
+  #### Laboratório&#58;&#58; Implementação de implantações complexas do AD DS
+
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever e entender implantações distribuídas do AD DS.
+  - Implementar uma implantação distribuída do AD DS.
+  - Configurar relações de confiança do AD DS.
+
+
+  ### Módulo 5&#58; Implementação de sites e da replicação dos Serviços de Domínio do Active Directory
+  Este módulo descreve como a replicação trabalha em um ambiente do AD DS no Windows Server 2012, inclusive como configurar sites do AD DS de forma que você possa otimizar o tráfego de rede do AD DS e como configurar e monitorar a replicação do AD DS.
+  #### Lições
+  - Visão geral da replicação do AD DS
+  - Configuração de sites do AD DS
+  - Configuração e monitoramento da replicação do AD DS
+
+
+  #### Laboratório&#58;&#58; Implementação de sites e replicação do AD DS
+
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever a replicação do AD DS.
+  - Configurar sites do AD DS.
+  - Configurar e monitorar a replicação do AD DS.
+
+
+  ### Módulo 6&#58; Implementação dos Serviços de Certificados do Active Directory
+  Este módulo descreve os componentes e os conceitos da PKI (infraestrutura de chave pública). Ele abrange a implementação de uma infraestrutura de autoridade de certificação, o planejamento e a implementação de uma implantação de modelo de certificado usando uma autoridade de certificação do AD CS, e o planejamento e a implementação da distribuição e revogação de certificados.
+  #### Lições
+  - Visão geral do PKI
+  - Implantação de autoridades de certificação
+  - Implantação e configuração da hierarquia de autoridades de certificação
+  - Implantação e gerenciamento de modelos de certificados
+  - Implementação da distribuição e revogação de certificados
+  - Gerenciamento da recuperação de certificados
+
+
+  #### Laboratório&#58;&#58; Implantação e gerenciamento de certificados
+
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever a PKI.
+  - Implantar autoridades de certificação.
+  - Implantar e configurar a hierarquia de autoridades de certificação.
+  - Implantar e gerenciar os modelos de certificados.
+  - Implementar a distribuição e a revogação de certificados.
+  - Gerenciar a recuperação de certificados.
+
+
+  ### Módulo 7&#58; Implementação do Active Directory Rights Management Services
+  Este módulo descreve os recursos e a funcionalidade do AD RMS. Ele explica como usar o AD RMS para configurar a proteção de conteúdo, bem como implantar e gerenciar uma infraestrutura do AD RMS.
+  #### Lições
+  - Visão geral do AD RMS
+  - Implantação e gerenciamento de uma infraestrutura do AD RMS
+  - Configuração da proteção de conteúdo do AD RMS
+  - Configuração do acesso externo ao AD RMS
+
+
+  #### Laboratório&#58;&#58; Implementação do AD RMS
+
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever o AD RMS.
+  - Implantar e gerenciar uma infraestrutura do AD RMS.
+  - Configurar a proteção de conteúdo do AD RMS.
+  - Configurar o acesso externo ao AD RMS.
+
+
+  ### Módulo 8&#58; Implementação dos Serviços de Federação do Active Directory
+  Este módulo fornece cenários comerciais para federação de identidade e descreve como usar o AD FS para lidar com tais cenários. Ele explica como configurar os pré-requisitos do AD FS, implantar os serviços do AD FS, habilitar o logon único (SSO) para uma organização e habilitar o SSO entre parceiros comerciais federados.
+  #### Lições
+  - Visão geral do AD FS
+  - Implantação do AD FS
+  - Implementação do AD FS para uma única organização
+  - Implantação do AD FS em um cenário de federação B2B
+
+
+  #### Laboratório&#58;&#58; Implementação do AD FS
+
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever o AD FS.
+  - Implantar o AD FS.
+  - Implementar o AD FS para uma única organização.
+  - Implantar o AD FS em um cenário de federação B2B.
+
+
+  ### Módulo 9&#58; Implementação do balanceamento de carga de rede
+  Este módulo descreve como planejar e implementar o NLB. Ele abrangerá o gerenciamento e a configuração de um cluster NLB, bem como a validação da alta disponibilidade para um cluster NLB.
+  #### Lições
+  - Visão geral do NLB
+  - Configuração de um cluster NLB
+  - Planejamento de uma implementação do NLB
+
+
+  #### Laboratório&#58;&#58; Implementação do balanceamento de carga de rede
+
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Configurar um cluster NLB.
+  - Planejar uma implementação do NLB.
+
+
+  ### Módulo 10&#58; Implementação do cluster de failover
+  Este módulo descreve os recursos de cluster de failover no Windows Server 2012. Ele explica como implementar um cluster de failover, configurar aplicativos e serviços altamente disponíveis em um cluster de failover, manter um cluster de failover e usar novos recursos de manutenção como a Atualização com Suporte a Cluster (CAU). Também abrangerá como implementar o cluster de failover para vários locais.
+  #### Lições
+  - Visão geral do cluster de failover
+  - Implementação de um cluster de failover
+  - Configuração de aplicativos e serviços altamente disponíveis em um cluster de failover
+  - Manutenção de um cluster de failover
+  - Implementação de um cluster de failover para vários locais
+
+
+  #### Laboratório&#58;&#58; Implementação do cluster de failover
+
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Implementar um cluster de failover.
+  - Configurar aplicativos e serviços altamente disponíveis em um cluster de failover.
+  - Manter um cluster de failover.
+  - Implementar um cluster de failover para vários locais.
+
+
+  ### Módulo 11&#58; Implementação do cluster de failover com o Hyper-V
+  Este módulo descreve as opções para tornar máquinas virtuais altamente disponíveis. Ele explicacomo implementar máquinas virtuais em um cluster de failover que foi implantado em um host e como você pode mover uma máquina virtual ou seu armazenamento. Além disso, fornece uma visão geral de alto nível do SCVMM (System Center Virtual Machine Manager) 2012.
+  #### Lições
+  - Visão geral da integração do Hyper-V com o cluster de failover
+  - Implementação de máquinas virtuais do Hyper-V em clusters de failover
+  - Implementação da movimentação de máquinas virtuais do Hyper-V
+  - Gerenciamento de ambientes virtuais do Hyper-V usando o VMM
+
+
+  #### Laboratório&#58;&#58; Implementação do cluster de failover com o Hyper-V
+
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever a integração do Hyper-V com o cluster de failover.
+  - Implementar máquinas virtuais do Hyper-V em clusters de failover.
+  - Implementar a movimentação de máquinas virtuais do Hyper-V.
+  - Gerenciar ambientes virtuais do Hyper-V usando o VMM.
+
+
+  ### Módulo 12&#58; Implementação da recuperação de desastres
+  Este módulo descreve considerações para implementar uma solução de recuperação de desastres e como planejar e implementar uma solução de backup para o Windows Server 2012. Além disso, explica como planejar e implementar a recuperação de dados e servidor usando o backup do Windows Server e do Microsoft Online.
+  #### Lições
+  - Visão geral da recuperação de desastres
+  - Implementação do backup do Windows Server
+  - Implementação da recuperação de dados e de servidor
+
+
+  #### Laboratório&#58;&#58; Implementação do backup e restauração do Windows Server
+
+  Ao concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever a recuperação de desastres.
+  - Implementar o backup do Windows Server usando o backup do Windows Server e do Microsoft Online.
+  - Implementar a recuperação de dados e de servidor.

@@ -1,0 +1,47 @@
+### YamlMime:Course
+title: 'Networking Fundamentals: MTA Exam 98-366'
+metadata:
+  title: 'Course 40366-B: Networking Fundamentals: MTA Exam 98-366'
+  description: 'Course 40366-B: Networking Fundamentals: MTA Exam 98-366'
+uid: course.40366
+courseNumber: '40366-B'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand Network Infrastructures 
+- skill: Understand Network Hardware 
+- skill: Understand Protocols and Services
+learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows-server
+exams:
+- uid: exam.98-361
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-366, and build an understanding of these topics&#58; Network Infrastructures, Network Hardware, and Protocols and Services. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam. This course is updated in support of Windows 10.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module  1&#58; Understanding Local Area Networking
+
+  ### Module  2&#58; Defining Networks with the OSI Model
+
+  ### Module  3&#58; Understanding Wired and Wireless Networks
+
+  ### Module  4&#58; Understanding Internet Protocol
+
+  ### Module  5&#58; Implementing TCP/IP in the Command Line
+
+  ### Module  6&#58; Working with Networking Services
+
+  ### Module  7&#58; Understanding Wide Area Networks
+
+  ### Module  8&#58; Defining Network Infrastructures and Network Security

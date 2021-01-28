@@ -1,0 +1,276 @@
+### YamlMime:Course
+title: 管理SQL 数据库基础结构
+metadata:
+  title: 'Course 28764-A: 管理SQL 数据库基础结构'
+  description: 'Course 28764-A: 管理SQL 数据库基础结构'
+uid: course.28764
+courseNumber: '28764-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 验证与授予用户权限
+- skill: 指派服务器与数据库角色
+- skill: 授权用户读写数据
+- skill: 使用加密以及审核方法保护数据
+- skill: 掌握恢复模式以及备份策略
+- skill: 备份 SQL Server 数据库
+- skill: 还原SQL Server 数据库
+- skill: 自动化数据库管理作业
+- skill: 配置SQL Server Agent 的安全性
+- skill: 管理警告以及通知
+- skill: 使用 PowerShell，管理 SQL Server
+- skill: 追踪SQL Server 的读写操作
+- skill: 监测 SQL Server 结构
+- skill: SQL Server 建设的故障排除
+- skill: 导入与导出数据
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-cn
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-764
+summary: |-
+  这个为期 5 天由授课讲师指导的课程，是专为管理以及维护 SQL Server 数据库的学员们，提供管理SQL Server数据库结构的相关知识与技能。此外，它将被应用于开发由 SQL Server 数据库提供数据的个别应用程序。
+
+  #### Audience profile
+  本培训课程的主要目标学员，是针对专门管理与维护 SQL Server 数据库的个人，或是数据库在其主要的职责中扮演重要的角色。这些人员将数据库管理以及维护作为其主要的责任领域，或在数据库在其主要的工作中发挥关键作用的环境中工作。
+  
+  再来，就是开发获取 SQL Server 数据库中的内容的应用程序的个人。
+prerequisitesSection: |-
+  除了参与本培训课程的学员们，本身的领域专业经验之外，最好具备下面所列出的技术性知识项目&#58;
+  - 微软Windows操作系统的基础知识，以及其核心功能
+  - 使用 Transact-SQL的应用知识
+  - 使用关联性数据库的应用知识
+  - 拥有某些数据库领域的设计经验
+outlineSection: |-
+  ### Module 1&#58; SQL Server 安全性
+  本单元课程单元的内容，包含 SQL Server的安全性模型、登录名、以及用户等内容。
+  #### Lessons
+  - 验证连接到SQL Server
+  - 授权登录名连接到数据库
+  - 跨服务器授权
+  - 部分自主数据库
+
+
+  #### Lab &#58; 验证用户
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 掌握服务器级别安全性
+  - 掌握数据库级别安全性 
+  - 掌握跨服务器授权
+  - 掌握部分自主数据库
+
+  ### Module 2&#58; 指派服务器与数据库角色
+  本单元课程单元的内容，包含固定服务器角色、用户自定义服务器角色、固定数据库角色、以及用户自定义数据库角色。
+  #### Lessons
+  - 使用服务器角色
+  - 使用固定数据库角色
+  - 用户自定义数据库角色
+
+
+  #### Lab &#58; 指派服务器与数据库角色
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 掌握服务器角色
+  - 掌握固定数据库角色
+  - 掌握用户自定义数据库角色
+
+  ### Module 3&#58; 授权用户读写数据
+  本单元课程单元的内容，包含权限以及指派权限。
+  #### Lessons
+  - 授权用户读写物件
+  - 授权用户执行程序代码
+  - 在架构级别设定权限
+
+
+  #### Lab &#58; 授权用户读写数据
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 掌握如何授权用户读写对象
+  - 掌握如何授权用户执行程序代码 
+  - 掌握如何在纲要级别配置权限
+
+  ### Module 4&#58; 使用加密与审核保护数据
+  本单元课程单元的内容，包含SQL Server审核
+  #### Lessons
+  - 在SQL Server中审核数据读写的选项
+  - 实现SQL Server审核
+  - 管理SQL Server审核
+  - 使用加密保护数据
+
+
+  #### Lab &#58; 使用审核与加密
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 掌握审核数据读写的选项
+  - 实现SQL Server审核
+  - 管理SQL Server审核
+  - 掌握如何使用自定义审核事件
+  - 实现加密
+
+  ### Module 5&#58; 恢复模式与备份策略
+  本单元课程单元的内容，主要是掌握事务日志档的概念，以及SQL Server 的恢复模式。此外，也简介了 SQL Server 所提供的不同的备份策略。
+  #### Lessons
+  - 了解备份策略
+  - SQL Server 事务日志
+  - 规划备份策略
+
+
+  #### Lab &#58; 了解SQL Server 恢复模式
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 掌握不同的备份策略
+  - 掌握数据库事务日志如何工作
+  - 规划SQL Server备份策略
+
+  ### Module 6&#58; SQL Server 数据库备份
+  本单元课程单元的内容，主要是掌握 SQL Server 备份以及备份的类别。
+  #### Lessons
+  - 备份数据库以及备份事务日志
+  - 管理数据库的备份方式
+  - 更多的备份选项
+
+
+  #### Lab &#58; 备份数据库
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 执行SQL Server数据库以及事务日志文件的备份
+  - 管理数据库备份
+  - 讲授更多的备份选项
+  - 讲授如何备份Azure Windows Blob Store
+
+  ### Module 7&#58; 还原 SQL Server 2016 数据库
+  本单元课程单元的内容，主要是掌握数据库的还原使用。
+  #### Lessons
+  - 认识还原流程
+  - 还原作业
+  - 更多的还原方案
+  - 实现恢复作业
+
+
+  #### Lab &#58; 还原SQL Server 数据库
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 掌握数据库还原流程
+  - 掌握时间点还原观念
+  - 掌握更多的还原作业观念
+
+  ### Module 8&#58; 自动化 SQL Server 管理作业
+  本单元课程单元的内容，主要是掌握如何使用SQL Server Agent自动化作业 (job)。此外，还简介了使用主要的 (master) 服务器以及目标服务器以集中自动化作业管理的优点。
+  #### Lessons
+  - 自动化 SQL Server 管理作业
+  - 使用 SQL Server Agent
+  - 管理 SQL Server Agent 作业
+  - 多服务器管理
+
+
+  #### Lab &#58; 自动化 SQL Server 管理作业
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 掌握SQL Server自动化管理的方法
+  - 配置作业，作业步骤类型 (job step type)，以及排程
+  - 管理SQL Server Agent 作业
+  - 配置master服务器以及目标服务器
+
+  ### Module 9&#58; SQL Server Agent 的安全性配置
+  本单元课程单元的内容，主要是掌握SQL Server Agent 安全性的顾虑，包含 proxy 账号以及认证。
+  #### Lessons
+  - 了解SQL Server Agent 的安全性
+  - 配置认证
+  - 配置Proxy 账号
+
+
+  #### Lab &#58; SQL Server Agent 配置安全性
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 掌握 SQL Server Agent 的安全性
+  - 配置认证
+  - 配置 Proxy 账号
+
+  ### Module 10&#58; 用警告以及通知监测 SQL Server
+  本单元课程单元的内容，主要是掌握配置数据库信件、警告、以及通知。
+  #### Lessons
+  - 配置数据库邮件
+  - 监测 SQL Server 的错误
+  - 操作员、警告、以及通知
+  - Azure SQL 数据库的警告
+
+
+  #### Lab &#58; 用警告以及通知监测 SQL Server
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 配置数据库邮件
+  - 监测SQL Server 错误
+  - 配置操作员、警告、以及通知
+
+  ### Module 11&#58; 简介使用 PowerShell 管理 SQL Server
+  本单元课程单元的内容，主要是掌握为搭配SQL Server 的应用简介 PowerShell。
+  #### Lessons
+  - 从 Windows PowerShell 开始
+  - 使用 PowerShell 配置 SQL Server
+  - 使用PowerShell管理以及维护SQL Server
+  - 使用 PowerShell 管理  Azure SQL 数据库
+
+
+  #### Lab &#58; 使用 PowerShell 管理 SQL Server
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 使用PowerShell配置SQL Server
+  - 使用PowerShell，执行SQL Server 的管理和维护
+  - 使用PowerShell，维护SQL Server 工作的环境
+
+  ### Module 12&#58; 使用扩展事件追踪读写  SQL Server 状态
+  本单元课程单元的内容，主要是掌握如何使用SQL Profiler 以及SQL Trace 预存程序，获取 SQL Server 中的信息。此外，还掌握如何使用 Distributed Replay 从多个服务器中获取出追踪的数据，以及监控锁定状态。
+  #### Lessons
+  - 扩展事件的核心概念
+  - 使用扩展事件
+
+
+  #### Lab &#58; 扩展事件
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 配置 SQL Profiler 追踪以及查看所获取出方信息
+  - 使用Database Engine Tuning Advisor
+  - 理解SQL Server 更多追踪使用观念
+  - 使用 Distributed Replay
+  - 监控锁定
+
+  ### Module 13&#58; 监控SQL Server 的特殊事件活动分析
+  本单元课程单元的内容，主要是掌握如何运Distributed Management Views 监控 SQL Server。此外，还简介数据搜集配置以及 SQL Server 实用工具控制点。
+  #### Lessons
+  - 监控活动
+  - 获取以及管理效能数据
+  - 分析所搜集的效能数据
+  - SQL Server 实用工具控制点
+
+
+  #### Lab &#58; 监控SQL Server 的特殊事件活动分析
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 监控 SQL Server 中的活动状态
+  - 配置数据搜集
+  - 从搜集的数据中查看报告
+  - 配置 SQL Server 实用工具控制点
+
+  ### Module 14&#58; 疑难解答 SQL Server 的问题
+  本单元课程单元的内容，主要是掌握SQL Server疑难解答的方法，以及讨论当使用 SQL Server 系统时最常面临的问题。
+  #### Lessons
+  - SQL Server 疑难解答的方法
+  - 解决服务相关的问题
+  - 解决联机以及登录名的相关问题
+
+
+  #### Lab &#58; 疑难排除常见的问题
+  完成本单元后，学员们将能够拥有下列能力&#58;  
+  - 讲授SQL Server的故障排除的方法
+  - 解决服务相关的问题
+  - 解决登录以及连接相关的问题
+
+  ### Module 15&#58; 导入以及导出数据
+  这个单元课程中的内容涵盖了使用导入/汇出精灵，以及掌握他们与SSIS之间的关联性。此外，这个单元课程单元中还纳入了BCP以及BULK INSERT 的简介。
+  #### Lessons
+  - 从 SQL Server 传送和接收数据
+  - 导入和导出数据表数据
+  - 使用 bcp 和 大量插入 导入数据
+  - 部署和升级数据层应用程序
+
+
+  #### Lab &#58; 导入以及导出数据
+  完成本单元后，学员们将能够拥有下列能力&#58; 
+  - 掌握应用于传输数据的工具和技术
+  - 导入和导出数据表数据
+  - 使用 bcp 和 大量插入 导入数据
+  - 使用数据层应用程序导入和导出数据库应用程序

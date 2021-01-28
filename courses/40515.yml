@@ -1,0 +1,48 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Enterprise-Class Networking in Azure'
+metadata:
+  title: 'Course 40515-G: Microsoft Cloud Workshop: Enterprise-Class Networking in Azure'
+  description: 'Course 40515-G: Microsoft Cloud Workshop: Enterprise-Class Networking in Azure'
+uid: course.40515
+courseNumber: '40515-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: At the end of the workshop, you will be better able to plan and design virtual networks in Azure with multiple subnets to filter and control network traffic. In addition, you will learn to create a virtual network and provision subnets, create route tables with required routes, build a management jump box, configure firewalls to control traffic flow, and configure site-to-site connectivity.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will learn to setup and configure a virtual network with subnets in Azure. You will learn how to secure the virtual network by deploying a network virtual appliance and configure firewall rules and route tables. Additionally, you will set up access to the virtual network with a jump box and a site-to-site VPN connection.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+prerequisitesSection: |-
+  Workshop content presumes 300-level of architectural expertise of infrastructure and solutions design. We suggest students take this prerequisite prior to attending this workshop&#58;
+  - Microsoft Azure Essentials course, http://www.microsoft.com/en-US/azureessentials
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Enterprise Class Networking in Azure
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on Lab - Enterprise Class Networking in Azure
+  #### Lessons
+  - Create a virtual network and provision subnets
+  - Create second Virtual Network and provision subnets
+  - Create route tables with required routes
+  - Deploy n-tier application and validate functionality
+  - Build the management station
+  - Virtual Network Peering
+  - Provision and configure partner firewall solution
+  - Configure the firewall to control traffic flow
+  - Configure Site-to-Site connectivity
+  - Validate connectivity from 'on-premises' to Azure

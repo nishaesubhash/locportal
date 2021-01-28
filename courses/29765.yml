@@ -1,0 +1,231 @@
+### YamlMime:Course
+title: 佈建 SQL 資料庫
+metadata:
+  title: 'Course 29765-B: 佈建 SQL 資料庫'
+  description: 'Course 29765-B: 佈建 SQL 資料庫'
+uid: course.29765
+courseNumber: '29765-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 佈建資料庫伺服器
+- skill: 升級 SQL Server
+- skill: 配置 SQL Server
+- skill: 管理資料庫和檔案 (共用)
+- skill: 在雲端系統中建佈、移轉、以及管理資料庫
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-tw
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-765
+summary: |-
+  本培訓課程的定位在指導學員們如何在內部部署和SQL Azure系統中配置SQL Server資料庫。
+
+  #### Audience profile
+  本培訓課程的主要目標學員，主要針對負責管理和維護SQL Server資料庫的相關人員。這些人員主要負責執行資料庫管理和維護作業，或是在資料庫相關的領域中擔任重要的角色。
+  
+  而本培訓課程的次要目標學員，是開發SQL Server資料庫應用程式的程式開發人員。
+prerequisitesSection: |-
+  在參加本培訓課程之前，學員們必須具備下列資格&#58; 
+  - 具備Microsoft Windows作業系統，以及其核心功能的基本知識。
+  - 具備Transact-SQL 相關的知識
+  - 具備關聯式資料庫相關的知識。
+  - 具備一些與資料庫設計相關的經驗。
+outlineSection: |-
+  ### Module 1&#58; SQL Server 2016 Components
+  本模組單元內容介紹了多種SQL Server 2016元件以及版本。
+  #### Lessons
+  - SQL Server 平台簡介
+  - SQL Server 架構概述
+  - SQL Server 服務與配置選項
+
+
+  #### Lab &#58; 討論&#58; SQL Server版本
+  - 使用個別的SQL Server安裝的時機，以及利用個別的執行個體的時機？
+  - 你所服務的企業，最適合採用哪一個版本的SQL Server？
+
+  完成本模組單元後，學員們將擁有下列能力&#58; 
+  - 描述SQL Server元件和版本。
+  - 描述SQL Server架構和資源使用情況。
+  - 描述SQL Server服務以及如何管理這些服務的配置。
+
+  ### Module 2&#58; Installing SQL Server 2016
+  本模組單元內容主要為說明安裝SQL Server 2016版本的流程。
+  #### Lessons
+  - 安裝SQL Server的注意事項
+  - tempdb檔案
+  - 安裝 SQL Server 2016
+  - 自動安裝
+
+
+  #### Lab &#58; 安裝SQL Server
+  - 存取可用的資源
+  - 安裝 SQL Server 執行個體
+  - 執行後續安裝查核
+  - 自動化安裝
+
+  完成本模組單元後，學員們將擁有下列能力&#58; 
+  - 描述安裝SQL Server時的注意事項。
+  - 描述TempDB檔案。
+  - 安裝SQL Server 2016 版本。
+  - 自動執行SQL Server安裝。
+
+  ### Module 3&#58; Upgrading SQL Server to SQL Server 2016v
+  本模組單元內容主要為說明升級到SQL Server 2016 版本的流程。
+  #### Lessons
+  - 升級需求
+  - 升級 SQL Server 服務
+  - 移轉SQL Server資料和應用程式
+
+
+  #### Lab &#58; 升級 SQL Server
+  - 建立應用程式登入
+  - 還原資料庫備份
+  - 被孤立的使用者和資料庫兼容性層級
+
+  完成本模組單元後，學員們將擁有下列能力&#58; 
+  - 描述SQL Server的升級需求。
+  - 升級 SQL Server.
+  - 移轉SQL Server資料和應用程式。
+
+  ### Module 4&#58; Working with Databases
+  本模組單元內容主要為說明預安裝系統資料庫、資料庫、資料庫的實體結構、以及最常見的相關配置選項。
+  #### Lessons
+  - 簡介SQL Server資料儲存裝置
+  - 管理系統資料庫儲存裝置
+  - 管理使用者資料庫儲存裝置
+  - 資料庫檔案的移動與複製
+  - 並行升級&#58; 移轉SQL Server 資料和應用程式
+  - 緩衝集區擴充
+
+
+  #### Lab &#58; 管理資料庫儲存裝置
+  - 配置tempdb儲存體
+  - 建立資料庫
+  - 附加資料庫
+  - 啟用緩衝集區擴充
+
+  完成本模組單元後，學員們將擁有下列能力&#58; 
+  - 說明運用SQL Server的資料儲存體。
+  - 管理系統資料庫的儲存體。
+  - 管理使用者資料庫的儲存體。
+  - 移動和複製資料庫檔案。
+  - 描述並行升級&#58; 移轉SQL Server資料和應用程式流程。
+  - 描述和使用緩衝集區擴充。
+
+  ### Module 5&#58; Performing Database Maintenance
+  本模組單元內容主要為說明資料庫維護計劃。
+
+  #### Lessons
+  - 確認資料庫完整性
+  - 維護索引
+  - 自動化例行性維護工項
+
+
+  #### Lab &#58; 執行資料庫維護作業
+  - 利用DBCC CHECKDB 指令驗證資料庫的完整性
+  - 重新建立索引
+  - 建立資料庫維護計劃
+
+  完成本模組單元後，學員們將擁有下列能力&#58; 
+  - 確認資料庫的完整性
+  - 維護索引
+  - 自動化例行性維護工項
+
+  ### Module 6&#58; Database Storage Options
+  本模組單元內容主要為說明SQL Server 儲存體相關選項。
+  #### Lessons
+  - SQL Server 儲存體效能
+  - SMB檔案共用
+  - Microsoft Azure 中的 SQL Server儲存體
+  - 延展資料庫
+
+
+  #### Lab &#58; 實作延展資料庫
+  - 執行Stretch Database Advisor 程式
+  - 實作延展資料庫
+
+  完成本模組單元後，學員們將擁有下列能力&#58; 
+  - 描述SQL Server儲存體效能。
+  - 描述SMB檔案共享。
+  - 說明Microsoft Azure中的SQL Server儲存體。
+  - 描述延展資料庫。
+
+  ### Module 7&#58; Planning to Deploy SQL Server on Microsoft Azure
+  本模組單元內容主要為說明如何規劃在Azure上部署SQL Server。
+  #### Lessons
+  - Azure 系統中的SQL Server 虛擬機器
+  - Azure儲存體
+  - Azure SQL Server 驗證
+  - 部署Azure SQL 資料庫
+
+
+  #### Lab &#58; 規劃和部署Azure SQL資料庫
+  - 規劃Azure SQL資料庫、網路、效能層、安全性
+  - 佈建Azure SQL資料庫
+  - 連線到Azure SQL資料庫
+
+  完成本模組單元後，學員們將擁有下列能力&#58; 
+  - 在Azure系統中描述SQL Server虛擬機器。
+  - 描述Azure儲存體。
+  - 說明Azure SQL驗證、稽核、以及法規。
+  - 部署Azure SQL資料庫。
+
+  ### Module 8&#58; Migrating Databases to Azure SQL Database
+  本模組單元內容主要為說明如何將資料庫移轉到Azure SQL資料庫。
+  #### Lessons
+  - 資料庫移轉測試工具
+  - 資料庫移轉兼容性問題
+  - 將內部部署資料庫移轉到Azure SQL資料庫
+
+
+  #### Lab &#58; 移轉資料庫到Azure SQL 資料庫
+  - 執行移轉測試
+  - 將SQL Server資料庫移轉到Azure SQL資料庫
+  - 測試移轉資料庫
+
+  完成本模組單元後，學員們將擁有下列能力&#58; 
+  - 描述各種資料庫移轉測試工具。
+  - 說明資料庫移轉兼容性的相關問題。
+  - 將SQL Server資料庫移轉到Azure SQL資料庫。
+
+  ### Module 9&#58; Deploying SQL Server on a Microsoft Azure Virtual Machine
+  本模組單元內容主要為說明如何在Microsoft Azure VM上部署SQL Server。
+  #### Lessons
+  - 在 Azure 虛擬機器上部署SQL Server
+  - 將資料庫移轉到 Microsoft Azure虛擬機器
+
+
+  #### Lab &#58; 在 Azure 虛擬機器上部署SQL Server
+  - 佈建 Azure 虛擬機器
+  - 應用部署資料庫Azure VM Wizard
+
+  完成本模組單元後，學員們將擁有下列能力&#58; 
+  - 在 Azure 虛擬機器上部署SQL Server
+  - 應用部署資料庫Azure VM Wizard
+
+  ### Module 10&#58; Managing databases in the Cloud
+  本模組單元內容主要為說明如何管理 Azure 中的 SQL Server。
+  #### Lessons
+  - 管理Azure SQL 資料庫的安全性
+  - 配置 Azure 儲存體
+  - Azure 自動化
+
+
+  #### Lab &#58; 管理雲端架構中的資料庫
+  - 配置 Azure 系統的安全性
+  - 自動化Azure 部署
+
+  完成本模組單元後，學員們將擁有下列能力&#58; 
+  - 管理Azure SQL 資料庫的安全性
+  - 配置 Azure 儲存體
+  - 實作Azure 自動化
+  #### Additional Reading
+  為協助你準備本培訓課程，請檢視下面所展示的資源&#58; 

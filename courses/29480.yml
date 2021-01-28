@@ -1,0 +1,262 @@
+### YamlMime:Course
+title: HTML5 程式設計 - 混搭 JavaScript 與 CSS3
+metadata:
+  title: 'Course 29480-B: HTML5 程式設計 - 混搭 JavaScript 與 CSS3'
+  description: 'Course 29480-B: HTML5 程式設計 - 混搭 JavaScript 與 CSS3'
+uid: course.29480
+courseNumber: '29480-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 說明如何使用Visual Studio2012建立和執行網路應用程式。
+- skill: 說明HTML5的新特性，以及建立和樣式化HTML5網頁。
+- skill: 藉由利用JavaScript新增與HTML5網頁的交談性。
+- skill: 藉由使用不同的輸入型別建立HTML5的格式，同時，利用HTML5的屬性以及JavaScript程式碼驗證使用者輸入的資料。
+- skill: 藉由XMLHTTPRequest 物件以及jQuery AJAX操作，傳送訊息給遠端的資料來源，或是接收來自遠端資料來源所傳遞過來的資料。
+- skill: 透過CSS3設計HTML5網頁的樣式。
+- skill: 建立具備良好結構以及易於維護的JavaScript程式碼。
+- skill: 在交談式網路應用中，運用常見的HTML5 API。
+- skill: 建立一個支援離線作業的網路應用程式。
+- skill: 建立可以自我調適不同的連線設備與形態因子的HTML5網頁。
+- skill: 利用Canvas元件以及可縮放向量圖形 ( Scalable Vector Graphics)，強化HTML5網頁的進階圖形應用。
+- skill: 藉由新增 HTML5 網頁的動態化效果，強化使用者的體驗。
+- skill: 使用WebSockets在網路應用程式與伺服器之間，傳送和接收資料。
+- skill: 藉由 Web Worker 程序，改善網路應用程式長時間運作的回應能力。
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-tw
+- en
+levels:
+- intermediate
+roles:
+- developer
+exams:
+- uid: exam.70-480
+summary: |-
+  本課程的內容包含HTML5、CSS3以及JavaScript。其宗旨是為了幫助學員取得基本的HTML5 /
+  CSS3/ JavaScript程式設計技巧。同時，本課程是進入網路應用程式與視窗儲存應用程式的起點，選讀本課程日後將能雙軌或分流發展進階的學習路徑。本課程聚焦於透過HTML5/ CSS3/ JavaScript實作程式設計邏輯，宣告與使用變數，執行迴圈與分支，設計使用者介面，捉取與驗證使用者的輸入資料，儲存資料，以及建立具有正確結構的應用程式。
+
+  本課程所選擇的實驗 (lab) 單元，所支援的內容與示範的結構，是特別針對廣泛的應用情境所設計的。其聚焦於建立HTML5應用程式的規則以及程式設計的元件/結構的學習。
+  
+  本課程使用的軟體工具是執行在 Window 8 作業系統上的Visual Studio2012平台。
+
+  #### Audience profile
+  本課程主要針對擁有 6-12 個程式設計經驗的專業程式開發人員，同時，對使用HTML5混搭JavaScript與CSS3 開發程式有興趣的學員們所設計的。無論是Windows 8的Windows 儲存應用程式，或是網路應用程式。選讀本課程的學員們，應該具備以下經驗&#58;  
+  - 擁有1 – 3個月，開發網路應用程式的經驗，包含撰寫過簡單的JavaScript程式碼 
+  - 擁有1 個月，開發Windows客戶端應用程式的經驗 
+  - 擁有1個月，使用 Visual Studio 2010或是2012版本的經驗
+  
+  本課程不適合具備擁有三個月或三個月以上開發HTML5程式設計經驗的學員選讀。
+  
+  選擇參與本課程的學員若不具備開發程式的經驗時，應該特別注意培訓的先決條件再做後續建議。
+  
+  若有學員擁有超過5年以上的程式設計經驗，那麼，他可能會發現本培訓課程的部分內容屬於基礎知識，尤其是學習的語法應用與其實務應用中的任務相關連時。
+  
+  若是對考取70-480 檢定考試學員&#58; Programming in HTML5 with JavaScript and CSS3，也適合參與本課程。
+  
+  - 擁有1 – 3個月，開發網路應用程式的經驗，包含撰寫過簡單的JavaScript程式碼
+prerequisitesSection: |-
+  參與本課程之前，學員必須具備至少三個月的開發程式相關經驗。除了自己本身的專業經驗之外，參與本培訓課程的學員應具備結合HTML5相關的程式設計經驗，以及相關的知識應用。這個部份說明如下所示&#58; 
+  - 知道基本的HTML文件檔結構&#58; 
+  - 如何使用HTML tag 以呈現文字內容 
+  - 如何使用HTML tag 以展示圖形
+  - 如何使用HTML API
+  - 知道如何使用CSS樣式設計HTML元件&#58; 
+  - 如何切割內容的呈現
+  - 如何管理控制流程
+  - 如何控制個別元件的位置
+  - 如何實作基本的CSS 樣式
+  - 知道如何撰寫JavaScript程式碼新增網頁的功能性&#58; 
+  - 如何宣告與使用變數
+  - 如何使用&#58; 
+  - 數學運算子執行算術計算，包含一個或多個變數的使用
+  - 關係運算子測試兩個變數或表示式之間的關係
+  - 邏輯運算子整合表示式，包含關係運算子
+  - 如何藉由if … else 敘述，控制程式的執行流程
+  - 如何使用迴圈實作重複執行的應用
+  - 如何撰寫簡單的函式
+outlineSection: |-
+  ### Module 1&#58; HTML 及 CSS 概述
+  本模組課程內容提供了HTML和CSS的概述，同時，敘述了如何透過Visual Studio 2012建立網路應用程式。
+  #### Lessons
+  - HTML 概述
+  - CSS概述
+  - 使用Visual Studio 2012 產生一個網頁應用程式
+
+
+  #### Lab &#58; 探索 Contoso 研討會應用程式
+  After completing this module，學員將能夠擁有下列能力&#58;  
+  - 說明基本的HTML元件以及屬性。 
+  - 說明 CSS 結構。  
+  - 說明 Microsoft Visual Studio 用來建構網路應用程式的工具。
+
+  ### Module 2&#58; HTML 網頁的建置及樣式編排
+  本模組課程內容介紹了HTML5的新功能特性，同時，說明如何建立以及樣式化 HTML5網頁。
+  #### Lessons
+  - 建置一個HTML5網頁
+  - HTML5網頁的樣式編排
+
+
+  #### Lab &#58; HTML 網頁的建置及樣式編排
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 使用 HTML5 的新功能建立靜態網頁。 
+  - 利用 CSS3 針對 HTML5 的元件提供基本的樣式設計。
+
+  ### Module 3&#58; JavaScript 介紹
+  本模組課程內容提供 JavaScript 語言的介紹，同時展示如何透過 JavaScript 新增 HTML5 的交談性。
+  #### Lessons
+  - JavaScript  語法概述
+  - 使用JavaScript  設計  HTML DOM
+  - jQuery介紹
+
+
+  #### Lab &#58; 使用JavaScript顯示資料以及處理事件
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 敘述基本的JavaScript語法，以及 說明如何在HTML5中使用JavaScript。 
+  - 撰寫 JavaScript 程式碼，用來操作 HTML DOM 以及處理事件的發生。 
+  - 使用 jQuery簡化許多常用的JavaScript程式開發任務。
+
+  ### Module 4&#58; 產生表單收集和驗證使用者的輸入 - 本模組課程內容敘述了HTML5的新類型輸入功能，以及說明如何藉由JavaScript程式以及 HTML5 的新屬性，建立表單蒐集使用者輸入的資料，並進行資料的驗證。
+  本模組課程內容敘述了HTML5的新類型輸入功能，以及說明如何藉由JavaScript程式以及 HTML5 的新屬性，建立表單蒐集使用者輸入的資料，並進行資料的驗證。
+  #### Lessons
+  - 表單與輸入類型概述
+  - 使用HTML5屬性來驗證使用者的輸入
+  - 使用JavaScript來驗證使用者的輸入
+
+
+  #### Lab &#58; 產生一個表單，同時驗證使用者的輸入
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 透過 HTML5 的新輸入類型建立表單。
+  - 透過 HTML5 的新輸入類型，驗證使用者輸入的資料以及提供訊息回饋。 
+  - 撰寫 JavaScript 程式，驗證使用者輸入的資料並不符合 HTML5屬性的狀況，同時提供訊息的回饋。
+
+  ### Module 5&#58; 與遠端資料來源互動
+  本模組課程內容敘述了如何藉由XMLHTTPRequest  物件以及執行jQuery AJAX 的操作，傳送資料給遠端的資料來源，以及接收從遠端資料來源傳送過來的資料。
+  #### Lessons
+  - 藉由XMLHTTPRequest 物件傳送與接收資料
+  - 藉由jQuery AJAX 的操作物件傳送與接收資料
+
+
+  #### Lab &#58; 藉由jQuery AJAX 的操作物件傳送與接收資料
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 藉由XMLHTTPRequest物件，序列化、反序列化以及傳送與接收資料 
+  - 藉由jQuery AJAX 的方法，進行序列化、反序列化以及傳送與接收資料
+
+  ### Module 6&#58; 使用 CSS3 設計 HTML5 樣式
+  本模組課程內容敘述了如何藉由 CSS3的新功能，樣式化HTML5 網頁與元件。
+  #### Lessons
+  - 使用CSS3設計文字的樣式
+  - 設計方塊元件的樣式
+  - CSS3選擇器 (selectors)
+  - 使用CSS3強化圖形的特效
+
+
+  #### Lab &#58; 使用CSS3設計文字和區塊元件的樣式
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 使用CSS3的新功能設計文字元件的樣式。
+  - 使用CSS3的新功能設計區塊元件的樣式。
+  - 使用CSS3選擇器 (selectors) 指定網路應用程式元件的樣式。 
+  - 使用CSS3的新功能，實作與轉換圖形化效果。
+
+  ### Module 7&#58; 使用 JavaScript 產生物件和方法
+  本模組課程內容說明如何撰寫具備定義良好的結構以及易於維護的JavaScript 程式，以及，如何提供網路應用程式中的 JavaScript物件導向的規則。
+  #### Lessons
+  - 編寫結構良好的JavaScript程式碼
+  - 產生自訂的物件
+  - 擴展物件
+
+
+  #### Lab &#58; 強化程式碼的維護性和擴展性
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 說明 良好的JavaScript程式碼結構的好處，有益於日後的維護性與擴展性。 
+  - 說明建立JavaScript自訂物件的最佳方式。 
+  - 說明如何延展自訂與原生物件，以增加功能性。
+
+  ### Module 8&#58; 使用 HTML5 API 建立互動式網頁
+  本模組課程內容內容敘述如何使用一些常見的HTML5 API 新增網路應用程式的互動性。同時說明如何針對網路應用程式進行偵錯與分析。
+  #### Lessons
+  - 如何讓 HTML5與檔案互動
+  - 整合多媒體檔案
+  - 在瀏覽器上顯示出所擷取到的地理位置資訊與內容
+  - 網路應用程式的偵錯與分析
+
+
+  #### Lab &#58; 用HTML5 API 建立互動式網頁
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 在網路應用程式中使用拖曳功能，以及透過File API 存取區域檔案。 
+  - 將聲音檔與影片檔整合進網路應用程式中。 
+  - 藉由Geolocation API偵測使用者執行網路應用程式的所在位置。 
+  - 說明如何利用Web Timing API網以及網際網路開發者工具，進行網路應用程式的偵錯與分析。
+
+  ### Module 9&#58; 新增支援網路應用程式的離線運作功能
+  本模組課程內容說明了如何新增支援網路應用程式的離線運作功能，讓使用者即使在其所使用的連線裝置無法連線時，仍然能夠繼續使用網路程式。
+  #### Lessons
+  - 讀取與寫入區域性資料
+  - 使用應用程式快取新增支援離線運作功能
+
+
+  #### Lab &#58; 新增支援網路應用程式的離線運作功能
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 藉由 Local Storage API，在使用者的裝置上儲存與萃取區域性資料。 
+  - 藉由Application Cache API，提供用應用程式快取，讓網路應用程式即使在離線狀態也能執行。
+
+  ### Module 10&#58; 實作一個可以自我調適的使用者介面
+  本模組課程內容敘述了如何建立一個能夠進行動態偵測，以及依據連線使用者的不同裝置與形態因子做自我調適的HTML5 網頁。
+  #### Lessons
+  - 支援多形態因子
+  - 建立一個可以自我調適的使用者介面
+
+
+  #### Lab &#58; 實作一個可以自我適應的使用者介面
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 敘述網路應用程式中，為了針對不同的形態因子 (指不同的使用者裝置) 對網站所提出的請求，做出適當的回應。 
+  - 建立可以依據不同的形態因子，進行自我調適的網頁。
+
+  ### Module 11&#58; 建立進階圖形
+  #### Lessons
+  - 利用SVG建立互動式圖形
+  - 使用Canvas API 繪製圖形
+
+
+  #### Lab &#58; 建立進階圖形
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 使用SVG，新增應用程式的互動式的圖形內容。 
+  - 使用JavaScript 程式碼，在HTML5 Canvas 元件上，繪制複雜的圖形內容。
+
+  ### Module 12&#58; 使用者介面動態化
+  本模組課程內容敘述如何在 HTML5網路應用程中加入動態化效果，以強化使用者的體驗。
+  #### Lessons
+  - 應用CSS轉換
+  - 變化元件
+  - 應用CSS鍵框動畫
+
+
+  #### Lab &#58; 使用者介面動態化
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 在 HTML5 網頁的元件上應用 CSS轉換，同時，撰寫 JavaScript 程式碼進行轉換發生的偵測。 
+  - 敘述2D和3D隨著 CSS3變化的差異性。 
+  - 利用鍵框動畫以及JavaScript 程式碼，實作複雜的動態化效果。
+
+  ### Module 13&#58; 利用 Web Socket 實作及時通訊
+  本模組課程內容說明了如何利用Web Sockets，在 HTML5 網路應用程式與伺服器之間傳送與接收資料。
+  #### Lessons
+  - 簡介Web Sockets
+  - 使用WebSocket API
+
+
+  #### Lab &#58; 利用Web Sockets 執行及時通訊
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 敘述Web Socket 的運作原理，以及說明如何透過 Web Socket傳送與接收資料。 
+  - 在 JavaScript中使用Web Sockets API，連線 Web Socket server，傳送與接收資料，以及處理在傳送/接收資料的過程中所發生的不同事件。
+
+  ### Module 14&#58; 利用 web workers 執行背景程序
+  本模組課程內容敘述如何透過Web Worker 程序執行長時間的非同步作業，同時，藉由其特性改善HTML5 網路應用程式的回應執行效能。
+  #### Lessons
+  - 認識 Web Workers
+  - 利用Web Workers 執行非同步程序
+
+
+  #### Lab &#58; 建立一個Web Worker程序
+  After completing this module，學員將能夠擁有下列能力&#58; 
+  - 說明 Web Worker 程序的功能與特性，以及某些敏感性作業如何藉由隔離性方式應用其執行非同步處理作業，以改善執行效能。 
+  - 利用Web Worker API在 JavaScript程式碼中建立、執行程式以及監測 Web Worker 程序。

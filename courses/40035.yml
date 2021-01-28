@@ -1,0 +1,76 @@
+### YamlMime:Course
+title: 'Software Development Fundamentals with .NET: Training 2-Pack for MTA Exams 98-361 and 98-372'
+metadata:
+  title: 'Course 40035-A: Software Development Fundamentals with .NET: Training 2-Pack for MTA Exams 98-361 and 98-372'
+  description: 'Course 40035-A: Software Development Fundamentals with .NET: Training 2-Pack for MTA Exams 98-361 and 98-372'
+uid: course.40035
+courseNumber: '40035-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand Core Programming
+- skill: Understand Object-Oriented Programming
+- skill: Understand General Software Development
+- skill: Understand Web Applications
+- skill: Understand Desktop Applications
+- skill: Understand Databases
+- skill: Understand .NET Framework Concepts
+- skill: Understand Namespaces and Classes in the .NET Framework
+- skill: Understand .NET Code Compilation
+- skill: Understand I/O Classes in the .NET Framework
+- skill: Understand Security
+- skill: Understand .NET Languages
+- skill: Understand Memory Management
+learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+products:
+- dotnet
+exams:
+- uid: exam.98-361
+summary: |-
+  This five-day Training 2-Pack course helps you prepare for Microsoft Technology Associate Exams 98-361 and 98-372, and build an understanding of these topics&#58; Core Programming, Object-Oriented Programming, General Software Development, Web Applications, Desktop Applications, Databases, .NET Framework Concepts, Namespaces and Classes in the .NET Framework, .NET Code Compilation, I/O Classes in the .NET Framework, Security, .NET Languages, and Memory Management. These courses leverage the same content as found in the Microsoft Official Academic Courses (MOAC) for these exams.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module  1&#58; Introduction to Programming
+
+
+  ### Module  2&#58; Introduction to Object-Oriented Programming
+
+
+  ### Module  3&#58; Understanding General Software Development
+
+
+  ### Module  4&#58; Understanding Web Applications
+
+
+  ### Module  5&#58; Understanding Desktop Applications
+
+
+  ### Module  6&#58; Understanding Databases
+
+
+  ### Module  7&#58; Understanding Object-Oriented Programming
+
+
+  ### Module  8&#58; Understanding Data Types and Collections
+
+
+  ### Module  9&#58; Understanding Events and Exceptions
+
+
+  ### Module  10&#58; Understanding Code Compilation and Deployment
+
+
+  ### Module  11&#58; Understanding Input/Output (I/O) Classes
+
+
+  ### Module  12&#58; Understanding Security

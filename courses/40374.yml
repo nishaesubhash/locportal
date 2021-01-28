@@ -1,0 +1,40 @@
+### YamlMime:Course
+title: 'Gaming Development Fundamentals: MTA Exam 98-374'
+metadata:
+  title: 'Course 40374-A: Gaming Development Fundamentals: MTA Exam 98-374'
+  description: 'Course 40374-A: Gaming Development Fundamentals: MTA Exam 98-374'
+uid: course.40374
+courseNumber: '40374-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand game design
+- skill: Understand hardware
+- skill: Understand graphics
+- skill: Understand animation
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-374, and build an understanding of these topics&#58; Game Design, Hardware, Graphics, and Animation. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  None
+outlineSection: |-
+  ### Module 1&#58; Ideating and Conceptualizing a Game
+
+  ### Module 2&#58; Identifying and Managing Game Requirements
+
+  ### Module 3&#58; Creating the Game Output Design
+
+  ### Module 4&#58; Designing Specific Game Components
+
+  ### Module 5&#58; Developing the Game User Interface (UI)
+
+  ### Module 6&#58; Developing the Game Functionality

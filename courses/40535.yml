@@ -1,0 +1,43 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Serverless Architecture'
+metadata:
+  title: 'Course 40535-G: Microsoft Cloud Workshop: Serverless Architecture'
+  description: 'Course 40535-G: Microsoft Cloud Workshop: Serverless Architecture'
+uid: course.40535
+courseNumber: '40535-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: At the end of this workshop, you will have learned how to use a series of Azure Functions that independently scale and break down business logic to discrete components, use computer vision algorithms within an Azure Function to accurately detect license plates in car images at scale, provision and use Cosmos DB as a highly available NoSQL data store for processed data, create a Logic App that contains a workflow to export processed license plates and conditionally send alerts based on successful or unsuccessful operation, use App Insights to monitor the serverless topology, observing how well the solution scales when under load, and implement a Continuous Deployment DevOps process to automatically publish changes to Function Apps.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will work as a group to setup and configure a serverless architecture within Azure using a combination of Azure Functions, Logic Apps, Event Grid, Cosmos DB, and Azure Storage. The focus is on removing server management from the equation, breaking down the solution into smaller components that are individually scalable, and allowing the customer to only pay for what they use.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Serverless Architecture
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-On lab - Serverless Architecture
+  #### Lessons
+  - Azure data, storage, and serverless environment setup
+  - Develop and publish the photo processing and data export functions
+  - Create functions in the portal
+  - Monitor your functions with Application Insights
+  - Explore your data in Azure Cosmos DB
+  - Create the data export workflow
+  - Configure continuous deployment for your Function App
+  - Rerun the workflow and verify data export

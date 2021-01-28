@@ -1,0 +1,63 @@
+### YamlMime:Course
+title: 'Cloud Fundamentals: MTA Exam 98-369'
+metadata:
+  title: 'Course 40369-A: Cloud Fundamentals: MTA Exam 98-369'
+  description: 'Course 40369-A: Cloud Fundamentals: MTA Exam 98-369'
+uid: course.40369
+courseNumber: '40369-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand the cloud
+- skill: Enable, use, and configureMicrosoft Cloud Services
+- skill: Administer Office 365 and Microsoft Intune
+- skill: Support cloud users
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-369, and build an understanding of these topics&#58; The cloud, enabling, using and configuring cloud services, supporting cloud users, and administering Office 365 and Microsoft Intune. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+outlineSection: |-
+  ### Module 1&#58; Understanding the Cloud
+  #### Lessons
+  - Understanding Cloud Principles and Delivery Mechanisms
+  - Understanding Cloud Security Requirements and Policies
+  - Understanding How a Cloud Service Stays Up to Date and Available
+  - Understanding the Different Types of Cloud Services
+
+
+  ### Module 2&#58; Enabling Microsoft Cloud Services
+  #### Lessons
+  - Enabling Microsoft Office 365
+  - Enabling Microsoft Intune
+  - Understanding Microsoft Azure
+
+
+  ### Module 3&#58; Administering Office 365 and Microsoft Intune
+  #### Lessons
+  - Administering Office 365
+  - Administering Microsoft Intune
+
+
+  ### Module 4&#58; Using and Configuring Microsoft Cloud Services
+  #### Lessons
+  - Configuring Exchange Online
+  - Configuring SharePoint Online
+  - Configuring OneDrive
+  - Configuring Skype for Business Online
+  - Configuring Microsoft Intune
+
+
+  ### Module 5&#58; Supporting Cloud Users
+  #### Lessons
+  - Resolving Issues with Installing Office Applications and Signing In
+  - Resolving Issues with Emails and Calendars
+  - Resolving Issues with SharePoint and OneDrive
+  - Resolving Issues with Skype for Business Online

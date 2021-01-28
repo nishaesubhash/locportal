@@ -1,0 +1,315 @@
+### YamlMime:Course
+title: Identidade com o Windows Server 2016
+metadata:
+  title: 'Course 24742-B: Identidade com o Windows Server 2016'
+  description: 'Course 24742-B: Identidade com o Windows Server 2016'
+uid: course.24742
+courseNumber: '24742-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Instalar e configurar controladores de domínio
+- skill: Gerenciar objetos no AD DS usando ferramentas gráficas e o Windows PowerShell
+- skill: Implementar o AD DS em ambientes complexos
+- skill: Implementar sites do AD DS, configurar e gerenciar a replicação
+- skill: Implementar e gerenciar GPOs (Objetos de Política de Grupo)
+- skill: Gerenciar as configurações do usuário usando GPOs
+- skill: Proteger o AD DS e as contas de usuários
+- skill: Implementar e gerenciar uma hierarquia de autoridades de certificação (CA) com o AD CS
+- skill: Implantar e gerenciar certificados
+- skill: Implementar e administrar o AD FS
+- skill: Implementar e administrar o AD RMS (Active Directory Rights Management Services)
+- skill: Implementar a sincronização entre o AD DS e o Azure AD
+- skill: Monitorar, solucionar problemas e estabelecer a continuidade dos negócios para os serviços do AD DS
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- pt-br
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-742
+summary: |-
+  Este curso de cinco dias ministrado por um instrutor ensina os profissionais de TI como implantar e configurar o AD DS (Active Directory Domain Services) em um ambiente distribuído, como implementar a Política de Grupo, como executar o backup e a restauração e como monitorar e solucionar problemas relacionados ao Active Directory com o Windows Server 2016. Além disso, o curso mostra aos alunos como implantar outras funções de servidor do
+  Active Directory, como o AD FS (Serviços de Federação do Active Directory) e o AD CS (Serviços de Certificados do Active Directory).
+
+  #### Audience profile
+  Este curso destina-se principalmente a profissionais de TI em atividade que têm conhecimento e experiência com o AD DS e querem ampliar seus conhecimentos sobre tecnologias de identidade e acesso do Windows Server 2016. Esse público-alvo costuma incluir&#58; 
+  - Administradores do AD DS que desejam ampliar seus conhecimentos em tecnologias de identidade e acesso com o Windows Server 2016.
+  - Administradores de sistemas ou de infraestrutura com experiência e conhecimento geral do AD DS que desejam um treinamento transversal nas tecnologias básicas e avançadas de identidade e acesso do Windows Server 2016.
+  
+  O público-alvo secundário deste curso inclui profissionais de TI que querem consolidar seu conhecimento sobre o AD DS e as tecnologias relacionadas, além de profissionais de TI que desejam se preparar para o exame 70-742.
+prerequisitesSection: |-
+  Antes de participar deste curso, os alunos devem ter&#58;
+  - Contato e experiência com os conceitos e as tecnologias do AD DS no Windows Server 2012 ou Windows Server 2016.
+  - Experiência de trabalho e configuração do Windows Server 2012 ou Windows Server 2016.
+  - Experiência e entendimento das tecnologias de rede básicas, como endereçamento IP, resolução de nomes e protocolo DHCP.
+  - Experiência de trabalho e entendimento do Microsoft Hyper-V e dos conceitos básicos de virtualização de servidores.
+  - Conhecimento das práticas recomendadas básicas de segurança.
+  - Experiência prática trabalhando com sistemas operacionais cliente do Windows, como Windows 7, Windows 8, Windows 8.1 ou Windows 10.
+  - Experiência básica com a interface de linha de comando do Windows PowerShell.
+outlineSection: |-
+  ### Módulo 1&#58; Instalação e configuração de controladores de domínio
+  Este módulo descreve os recursos do AD DS e como instalar DCs (controladores de domínio). Também aborda as considerações para a implantação de DCs.
+  #### Lições
+  - Visão geral do AD DS
+  - Visão geral de controladores de domínio do AD DS
+  - Implantação de um controlador de domínio
+
+
+  #### Laboratório&#58; Implantação e administração do AD DS
+  - Implantação do AD DS
+  - Implantação de controladores de domínio executando a clonagem do controlador de domínio
+  - Administração do AD DS
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever o AD DS e seus principais componentes.
+  - Descrever a finalidade e as funções dos controladores de domínio.
+  - Descrever as considerações de implantação de controladores de domínio.
+
+  ### Módulo 2&#58; Gerenciamento de objetos no AD DS
+  Este módulo descreve como usar várias técnicas para gerenciar objetos no AD DS. Elas incluem a criação e configuração dos objetos de usuário, grupo e computador.
+
+  #### Lições
+  - Gerenciamento de contas de usuário
+  - Gerenciamento de grupos no AD DS
+  - Gerenciamento de objetos de computador no AD DS
+  - Uso do Windows PowerShell para a administração do AD DS
+  - Implementação e gerenciamento de UOs
+
+
+  #### Laboratório&#58; Gerenciamento de objetos do AD DS
+  - Criação e gerenciamento de grupos no AD DS
+  - Criação e configuração de contas de usuário no AD DS
+  - Gerenciamento de objetos de computador no AD DS
+
+
+  #### Laboratório&#58; Administração do AD DS
+  - Delegação da administração para UOs
+  - Criação e modificação de objetos do AD DS com o Windows PowerShell
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Gerenciar contas de usuário no AD DS.
+  - Gerenciar grupos no AD DS.
+  - Gerenciar objetos de computador no AD DS.
+  - Usar o Windows PowerShell para a administração do AD DS.
+  - Implementar e gerenciar UOs.
+  - Administrar o AD DS.
+
+  ### Módulo 3&#58; Gerenciamento avançado de infraestrutura do AD DS
+  Este módulo descreve como planejar e implementar uma implantação do AD DS que inclui vários domínios e florestas. O módulo apresenta uma visão geral dos componentes de uma implantação avançada do AD DS, o processo de implementação de um ambiente distribuído do AD DS e o procedimento de configuração de relações de confiança do AD DS.
+
+  #### Lições
+  - Visão geral de implantações avançadas do AD DS
+  - Implantação de um ambiente distribuído do AD DS
+  - Configuração de relações de confiança do AD DS
+
+
+  #### Laboratório&#58; Gerenciamento de domínios e relações de confiança no AD DS
+  - Implementação de relações de confiança da floresta
+  - Implementação de domínios filho no AD DS
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever os componentes de implantações avançadas do AD DS. 
+  - Implantar um ambiente distribuído do AD DS. 
+  - Configurar relações de confiança do AD DS.
+
+  ### Módulo 4&#58; Implementação e administração de replicação e sites do AD DS
+  Este módulo descreve como planejar e implementar uma implantação do AD DS que inclui vários locais. O módulo explica como funciona a replicação em um ambiente do AD DS do Windows Server 2016.
+  #### Lições
+  - Visão geral da replicação do AD DS
+  - Configuração de sites do AD DS
+  - Configuração e monitoramento da replicação do AD DS
+
+
+  #### Laboratório&#58; Implementação de sites e replicação do AD DS
+  - Modificação do site padrão
+  - Criação de sites e sub-redes adicionais
+  - Configuração da replicação do AD DS
+  - Monitoramento e solução de problemas da replicação do AD DS
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever como funciona a replicação do AD DS.
+  - Configurar sites do AD DS para ajudar a otimizar o tráfego de autenticação e replicação.
+  - Configurar e monitorar a replicação do AD DS.
+
+  ### Módulo 5&#58; Implementação da Política de Grupo
+  Este módulo descreve como implementar uma infraestrutura do GPO. O módulo apresenta uma visão geral dos componentes e das tecnologias que compõem a estrutura da Política de Grupo.
+  #### Lições
+  - Introdução à Política de Grupo
+  - Implementação e administração de GPOs
+  - Escopo e processamento da Política de Grupo
+  - Solução de problemas da aplicação de GPOs
+
+
+  #### Laboratório&#58; Implementação de uma infraestrutura de Política de Grupo
+  - Criação e configuração de GPOs
+  - Gerenciamento do escopo do GPO
+
+
+  #### Laboratório&#58; Solução de problemas da infraestrutura da Política de Grupo
+  - Verificação da aplicação de GPOs
+  - Solução de problemas de GPOs
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Explicar o que é a Política de Grupo
+  - Implementar e administrar GPOs.
+  - Descrever o escopo e o processamento da Política de Grupo.
+  - Solucionar problemas de aplicação do GPO.
+
+  ### Módulo 6&#58; Gerenciamento de configurações de usuários com a Política de Grupo
+  Este módulo descreve como definir as configurações e preferências da Política de Grupo. Isso inclui a implementação de modelos administrativos, a configuração do Redirecionamento de Pasta e de scripts, além da configuração das preferências da Política de Grupo.
+  #### Lições
+  - Implementação de modelos administrativos
+  - Configuração de Redirecionamento de Pasta, instalação de software e scripts
+  - Configuração de preferências de Política de Grupo
+
+
+  #### Laboratório&#58; Gerenciamento de configurações de usuários com a Política de Grupo
+  - Uso de modelos administrativos para gerenciar as configurações de usuário
+  - Implementação de configurações usando as preferências de Política de Grupo
+  - Configuração do Redirecionamento de pasta
+  - Planejamento da Política de Grupo (opcional)
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Implementar modelos administrativos.
+  - Configurar o Redirecionamento de Pasta, a instalação de software e scripts.
+  - Configurar preferências da Política de Grupo.
+
+  ### Módulo 7&#58; Proteção do Active Directory Domain Services
+  Este módulo descreve como configurar a segurança de controladores de domínio, contas, senhas e gMSAs (Contas de Serviço Gerenciado de Grupo).
+
+  #### Lições
+  - Proteção dos controladores de domínio
+  - Implementação de segurança da conta
+  - Implementação da autenticação de auditoria
+  - Configuração de contas de serviço gerenciado
+
+
+  #### Laboratório&#58; Segurança do AD DS
+  - Implementação de políticas de segurança para contas, senhas e grupos administrativos
+  - Implantação e configuração de um RODC
+  - Criação e associação de uma MSA de grupo
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Proteger controladores de domínio.
+  - Implementar a segurança de conta.
+  - Implementar a auditoria de autenticação.
+  - Configurar contas de serviço gerenciado (MSAs).
+
+  ### Módulo 8&#58; Implantação e gerenciamento do AD CS
+  Este módulo descreve como implementar uma implantação do AD CS. Isso inclui a implantação, administração e solução de problemas de autoridades de certificação.
+  #### Lições
+  - Implantação de ACs
+  - Administração de ACs
+  - Solução de problemas e manutenção de ACs
+
+
+  #### Laboratório&#58; Implantação e configuração de uma hierarquia de AC de duas camadas
+  - Implantação de uma AC raiz offline
+  - Implantação de uma AC subordinada corporativa
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Implantar ACs.
+  - Administrar ACs.
+  - Solucionar problemas e fazer a manutenção de ACs.
+
+  ### Módulo 9&#58; Implantação e gerenciamento de certificados
+  Este módulo descreve como implantar e gerenciar certificados em um ambiente do AD DS. Isso envolve a implantação e o gerenciamento de modelos de certificado, o gerenciamento da revogação e recuperação de certificados, a utilização de certificados em um ambiente corporativo e a implementação de cartões inteligentes.
+  #### Lições
+  - Implantação e gerenciamento de modelos de certificado
+  - Gerenciamento de implantação, revogação e recuperação de certificados
+  - Uso de certificados em um ambiente de negócios
+  - Implementação e gerenciamento de cartões inteligentes
+
+
+  #### Laboratório&#58; Implantação e uso de certificados
+  - Configuração dos modelos de certificado
+  - Registro e uso de certificados
+  - Configuração e implementação da recuperação de chaves
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Implantar e gerenciar modelos de certificado.
+  - Gerenciar a implantação, revogação e recuperação de certificados.
+  - Usar certificados em um ambiente de negócios.
+  - Implementar e gerenciar cartões inteligentes.
+
+  ### Módulo 10&#58; Implementação e administração do AD FS
+  Este módulo descreve o AD FS e como configurá-lo em um cenário de organização única e em um cenário de organização de parceiro.
+  #### Lições
+  - Visão geral do AD FS
+  - Requisitos e planejamento do AD FS
+  - Implantação e configuração do AD FS
+  - Visão geral do Proxy de Aplicativo Web
+
+
+  #### Laboratório&#58; Implementação do AD FS
+  - Configuração dos pré-requisitos do AD FS
+  - Instalação e configuração do AD FS
+  - Configuração de um aplicativo interno para o AD FS
+  - Configuração do AD FS para parceiros de negócios federados
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever o AD FS.
+  - Explicar como implantar o AD FS.
+  - Explicar como implementar o AD FS para uma única organização.
+  - Explicar como estender o AD FS para clientes externos.
+  - Implementar o SSO (logon único) para dar suporte a serviços online.
+
+  ### Módulo 11&#58; Implementação e administração do AD RMS
+  Este módulo descreve como implementar uma implantação do AD RMS. O módulo apresenta uma visão geral do AD RMS, explica como implantar e gerenciar uma infraestrutura do AD RMS e como configurar a proteção de conteúdo do AD RMS.
+  #### Lições
+  - Visão geral do AD RMS
+  - Implantação e gerenciamento de uma infraestrutura do AD RMS
+  - Configuração da proteção de conteúdo do AD RMS
+
+
+  #### Laboratório&#58; Implementação de uma infraestrutura do AD RMS
+  - Instalação e configuração do AD RMS
+  - Configuração de modelos do AD RMS
+  - Uso do AD RMS em clientes
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Descrever o AD RMS.
+  - Implantar e gerenciar uma infraestrutura do AD RMS. 
+  - Configurar a proteção de conteúdo do AD RMS.
+
+  ### Módulo 12&#58; Implementação da sincronização do AD DS com o Microsoft Azure AD
+  Este módulo descreve como planejar e configurar a sincronização de diretório entre o Microsoft Azure Active Directory (Azure AD) e o AD DS local. O módulo descreve vários cenários de sincronização, como do Azure AD Sync, AD FS e Azure AD, e Azure AD Connect.
+  #### Lições
+  - Planejamento e preparação para a sincronização de diretório
+  - Implementação da sincronização de diretório usando o Azure AD Connect
+  - Gerenciamento de identidades com a sincronização de diretório
+
+
+  #### Laboratório&#58; Configuração da sincronização de diretório
+  - Preparação para a sincronização de diretório
+  - Configuração da sincronização de diretório
+  - Gerenciamento de usuários e grupos do Active Directory
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Planejar e preparar a sincronização de diretório.
+  - Implementar a sincronização de diretório usando o Microsoft Azure Active Directory Connect (Azure AD Connect).
+  - Gerenciar identidades com a sincronização de diretório.
+
+  ### Módulo 13&#58; Monitoramento, gerenciamento e recuperação do AD DS
+  Este módulo descreve como monitorar, gerenciar e fazer a manutenção do AD DS para ajudar a alcançar a alta disponibilidade do AD DS.
+
+  #### Lições
+  - Monitoramento do AD DS
+  - Gerenciamento do banco de dados do Active Directory
+  - Opções de backup e recuperação do Active Directory para o AD DS e outras soluções de identidade e ac
+
+
+  #### Laboratório&#58; Recuperação de objetos no AD DS
+  - Backup e restauração do AD DS
+  - Recuperação de objetos no AD DS
+
+  Depois de concluir este módulo, os alunos estarão aptos a&#58;
+  - Monitorar o AD DS.
+  - Gerenciar o banco de dados do Active Directory.
+  - Descrever as opções de backup e recuperação do AD DS e outras soluções de identidade e acesso.

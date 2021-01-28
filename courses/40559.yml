@@ -1,0 +1,44 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: MLOps'
+metadata:
+  title: 'Course 40559-G: Microsoft Cloud Workshop: MLOps'
+  description: 'Course 40559-G: Microsoft Cloud Workshop: MLOps'
+uid: course.40559
+courseNumber: '40559-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Design and implement end-to-end solutions that fully operationalize deep learning models.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- data-engineer
+products:
+- azure
+summary: |-
+  In this workshop, you will learn how Trey Research can leverage Deep Learning technologies to scan through their vehicle specification documents to find compliance issues with new regulations, and manage the classification through their web application. The entire process from model creation, application packaging, model deployment and application deployment needs to occur as one unified repeatable, pipeline.
+  At the end of this workshop, you will be better able to design and implement end-to-end solutions that fully operationalize deep learning models, inclusive of all application components that depend on the model.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas.  Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - MLOps
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on lab - MLOps
+  #### Lessons
+  - Creating and evaluating compliance classification models
+  - Registering the model
+  - Setup New Project in Azure DevOps
+  - Setup and Run the Build Pipeline
+  - Setup the Release Pipeline
+  - Test Build and Release Pipelines
+  - Testing the deployed solution
+  - Examining deployed model performance

@@ -1,0 +1,279 @@
+### YamlMime:Course
+title: Windows Server 2016 的网络功能
+metadata:
+  title: 'Course 28741-B: Windows Server 2016 的网络功能'
+  description: 'Course 28741-B: Windows Server 2016 的网络功能'
+uid: course.28741
+courseNumber: '28741-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 规划及建置一个 IPv4 网络
+- skill: 实作动态主机配置协议（Dynamic Host Configuration Protocol，DHCP）
+- skill: 实作 IPv6
+- skill: 实作域名系统（Domain Name System，DNS）
+- skill: 实作及管理 IP 地址管理（IP address management，IPAM）
+- skill: 规划远存取
+- skill: DirectAccess 实作
+- skill: 实作虚拟专用网（virtual private networks，VPN）
+- skill: 为分公司实作网络
+- skill: 设定进阶网络功能
+- skill: 建置软件定义网络（Software Defined Networking）
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-cn
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-741
+summary: |-
+  這個為期 5 天由講師指導教授的課程，可提供您在大多數組織中部署及支援 Windows Server 2016 所需的基本網路技能。它涵蓋了 IP 基礎知識、遠程存取技術，以及包括軟體定義網絡這類較進階的內容。
+
+  #### Audience profile
+  本课程主要适合于拥有一些网络知识与经验，以及在寻找一个可以深入了解Windows Server 2016的核心及进阶网络技术的单一课程之IT专业人士。这个对象通常指的是&#58; 
+  
+  希望加强现有技能，并了解Windows Server 2016新变更的网络技术及功能之网络管理员。
+  
+  希望接受有关 Windows Server 2016 的核心及进阶网络知识和技能，且具有一般网络知识的系统或基础架构系统管理员。
+  
+  这个课程第二种适合对象包为想要准备 70-741&#58; Networking with Windows Server 2016 测验的IT 专业人士。
+prerequisitesSection: |-
+  除了您的专业经验外，本课程还需要您事先具有下列预备知识&#58; 
+  - 使用 Windows Server 2012或Windows Server 2016 的工作经验。
+  - 在 Windows Server 基础架构企业环境中工作的经验。
+  - 开放系统互连（Open Systems Interconnection，OSI）模型的知识。
+  - 了解核心网络 - 基础架构组件及技术，例如&#58; 布线、路由器、集线器及交换器。
+  - 熟悉网络拓扑及架构，例如&#58; 局域网络（local area network，LAN）、广域网（wide area network，WAN）和无线网络。
+  - 基本 TCP / IP协议堆疉、寻址及名称解析的一些基本知识。
+  - 对 Microsoft Hyper-V及虚拟化有一定的概念及经验。
+  - 使用Windows客户端操作系统（如Windows 8.1或Windows 10）的实践经验。
+  - 具有 Windows 客户端操作系统（例如&#58; Windows 8.1 或 Windows 10）的实际工作经验。
+  
+  学生可以参加下列课程或拥有相当于该课程的知识及技能，以符合预备知识的需求&#58; 
+
+  10967A&#58; Fundamentals of a Windows Server Infrastructure
+outlineSection: |-
+  ### Module 1&#58; 规划及建置一个 IPv4 网络
+  在这个章节中，您将会学习到如何规划及建置 IPv4 寻址配置，以及确定疑难解答网络相关问题之原因。
+  #### Lessons
+  - 规划 IPv4 寻址
+  - 设定一台 IPv4 主机
+  - 管理与疑难解答 IPv4 网络联机
+
+
+  #### Lab &#58; 规划一个 IPv4 网络
+  - 规划 IPv4 地址指派
+
+
+  #### Lab &#58; 实作及疑难解答 IPv4 网络
+  - 确认 IPv4 通讯
+  - 疑难解答 IPv4
+
+  完成这个单元之后，学员将可以&#58; 
+  - 规划 IPv4 寻址。
+  - 设定一台 IPv4 主机。
+  - 管理与疑难解答 IPv4 网络联机。
+
+  ### Module 2&#58; 实作 DHCP
+  这个章节将会解释如何规划与实作支持IPv4 基础架构的DHCP 环境。
+  #### Lessons
+  - DHCP 服务器角色的概观
+  - 部署 DHCP
+  - 管理和疑难解答 DHCP
+
+
+  #### Lab &#58; 实作 DHCP
+  - 规划一个 DHCP 服务器的实作。
+  - 实作 DHCP 的组态。
+  - 验证 DHCP 的布署。
+
+  完成这个单元之后，学员将可以&#58; 
+  - 解说 DHCP服务器角色。
+  - 部署 DHCP。
+  - 管理及疑难解答 DHCP。
+
+  ### Module 3&#58; 实作 IPv6
+  这个章节将会说明如何实作 IPv6 及如何整合 IPv6 与 IPv4 的网络。
+  #### Lessons
+  - IPv6 寻址概观
+  - 设定 IPv6 主机
+  - 实作 IPv6 和 IPv4 共存
+  - 从 IPv4 到 IPv6 转换
+
+
+  #### Lab &#58; 设定和评估 IPv6 转换技术
+  - 复习预设 IPv6 设定。
+  - 建立和设定 IPv6 设定。
+  - 使用 ISATAP 设定网络整合。
+  - 设定原生 IPv6 联机能力。
+  - 使用 6to4 整合设定网络整合。
+
+  完成这个单元之后，学员将可以&#58; 
+  - 说明 IPv6 的特性和优点。
+  - 设定一台 IPv6 主机。
+  - 在 IPv4 和 IPv6 网络之间实作共存。
+  - 从一个 IPv4 网络转换到一个 IPv6 网络。
+
+  ### Module 4&#58; 实作 DNS
+  这个章节将会解释如何在组织网络中安装、设定及疑难解答 DNS。
+  #### Lessons
+  - 实作 DNS 服务器
+  - 在 DNS 中组态区域
+  - 在 DNS 区域之间组态名称解析
+  - 组态 DNS 与 AD DS 的整合
+  - 组态进阶性 DNS 的设定
+
+
+  #### Lab &#58; 使用 DNS 规划及实作名称解析
+  - 规划 DNS 基础结构。
+  - 实作 DNS 服务器和区域。
+
+
+  #### Lab &#58; DNS 与 AD DS 的整合
+  - 整合 DNS 与 AD DS。
+
+
+  #### Lab &#58; 组态进阶性的 DNS 设定
+  - 组态 DNS 原则。
+  - 验证 DNS 实作。
+  - 对 DNS 做故障排除。
+
+  完成这个单元之后，学员将可以&#58; 
+  - 安装及管理 DNS 服务器。
+  - 组态 DNS 区域。
+  - 在区域之间组态名称解析。
+  - DNS 与 AD DS的整合。
+  - 组态进阶性的 DNS 设定。
+
+  ### Module 5&#58; 建置及管理IPAM
+  这个章节将会说明如何实作及管理在 Windows Server 2016 中的 IPAM。本章节还会介绍如何使用 IPAM 来管理服务（例如&#58; DHCP 及 DNS）。
+  #### Lessons
+  - IPAM概观
+  - 布署IPAM
+  - 使用 IPAM 来管理 IP 地址空间
+
+
+  #### Lab &#58; 布署IPAM
+  - 安装 IPAM 服务器功能。
+  - 布建 IPAM 以管理服务器。
+  - 使用 IPAM 来管理 IP 地址空间
+
+  完成这个单元之后，学员将可以&#58; 
+  - 说明 IPAM 功能及组件。
+  - 布署IPAM。
+  - 使用IPAM管理IP地址空间。
+
+  ### Module 6&#58; Windows Server 2016 中的远程访问
+  这个章节将会解释如何在 Windows Server 2016 规划端存取及如何实作 Web 应用程序 Proxy。
+  #### Lessons
+  - 远程访问的概观
+  - 实作 Web Application Proxy
+
+
+  #### Lab &#58; 实作 Web Application Proxy
+  - 实作 Web Application Proxy。
+  - 验证 Web Application Proxy 部署。
+
+  完成这个单元之后，学员将可以&#58; 
+  - 说明远程访问实作 Web Application Proxy。
+
+  ### Module 7&#58; DirectAccess 实作
+  这个章节将会说明如何在 Windows Server 2016 实作及管理 DirectAccess。
+  #### Lessons
+  - 综览 DirectAccess
+  - 实作 DirectAccess 是使用「快速入门」精灵
+  - 实作与管理的进阶 DirectAccess 基础架构
+
+
+  #### Lab &#58; 使用「快速入门」精灵实作 DA
+  - 检阅已经准备完成DirectAccess布署的基础架构。
+  - 执行快速入门精灵。
+  - 检阅DirectAccess的布署。
+
+
+  #### Lab &#58; 部署进阶DA的解决方案
+  - 针对进阶 DirectAccess 的部署来准备所需要的基础架构环境。
+  - 实作进阶的 DirectAccess 基础架构。
+  - 检查并验证DirectAccess的布署。
+
+  完成这个单元之后，学员将可以&#58; 
+  - 解释什么是DirectAccess以及它的运作方式。
+  - 在 Windows Server 2016 中，如何使用「快速入门精灵」来实作。
+  - 在 Windows Server 2016中，实作和管理进阶型的DirectAccess 基础架构。
+
+  ### Module 8&#58; 实作 VPN
+  这个章节将会解释如何使用 Windows Server 2016 的 VPN 来实作及管理远程访问。
+  #### Lessons
+  - 规划 VPN
+  - 实作 VPN
+
+
+  #### Lab &#58; 实作 VPN
+  - 实作 VPN 解决方案。
+  - 验证 VPN 部署的结果。
+  - 疑难解答 SSTP VPN 联机的问题
+
+  完成这个单元之后，学员将可以&#58; 
+  - 规划 VPN 解决方案。
+  - 实作 VPN 存取。
+
+  ### Module 9&#58; 为分公司实作网络
+  这个章节将会说明如何在分公司实作网络服务。
+  #### Lessons
+  - 分公司的网络功能和顾虑
+  - 为分公司实作 DFS
+  - 为分公司实作 BranchCache
+
+
+  #### Lab &#58; 为分公司实作 DFS
+  - 实作 DFS。
+  - 验证部署。
+
+
+  #### Lab &#58; 实作 BranchCache
+  - 实作 BranchCache。
+  - 验证部署。
+
+  完成这个单元之后，学员将可以&#58; 
+  - 说明分公司的网络功能和顾虑。
+  - 说明如何为分公司实作分布式文件系统（DFS）。
+  - 说明如何为分公司实作 Windows BranchCache。
+
+  ### Module 10&#58; 设定进阶网络功能
+  这个章节将会解释如何实作一个进阶的网络基础架构。
+  #### Lessons
+  - 高效能的网络功能概观
+  - 设定进阶 Hyper-V 网络功能
+
+
+  #### Lab &#58; 设定进阶 Hyper-V 网络功能
+  - 建立并使用 Hyper-V 虚拟交换器。
+  - 设定带宽管理与 DHCP 防护。
+
+  完成这个单元之后，学员将可以&#58; 
+  - 描述 Windows Server 2016 的高效能网络强化。
+  - 设定进阶 Hyper-V 网络功能。
+
+  ### Module 11&#58; 建置软件定义网络
+  这个章节将会说明如何实作软件定义网络。
+  #### Lessons
+  - SDN 概观
+  - 建置网络虚拟化
+  - 建置网络控制器
+
+
+  #### Lab &#58; 部署网络控制器
+  - 准备部署网络控制器。
+  - 部署网络控制器。
+
+  完成这个单元之后，学员将可以&#58; 
+  - 说明 SDN 。
+  - 建置网络虚拟化。
+  - 建置网络控制器。
+  #### Additional Reading
+  Microsoft Windows SDK

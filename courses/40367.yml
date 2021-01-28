@@ -1,0 +1,42 @@
+### YamlMime:Course
+title: 'Security Fundamentals: MTA Exam 98-367'
+metadata:
+  title: 'Course 40367-B: Security Fundamentals: MTA Exam 98-367'
+  description: 'Course 40367-B: Security Fundamentals: MTA Exam 98-367'
+uid: course.40367
+courseNumber: '40367-B'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand Security Layers 
+- skill: Understand Operating System Security 
+- skill: Understand Network Security 
+- skill: Understand Security Software
+learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows-server
+exams:
+- uid: exam.98-367
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-367, and build an understanding of these topics&#58; Security Layers, Operating System Security, Network Security, Security Software. This course leverages the same content as found in the Microsoft Official Academic Course (MOAC) for this exam. This course is updated in support of Windows 10.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+prerequisitesSection: |-
+  There are no prerequisites for this course.
+outlineSection: |-
+  ### Module  1&#58; Understanding Security Layers
+
+  ### Module  2&#58; Understanding Authentication, Authorization, and Accounting
+
+  ### Module  3&#58; Understanding Security Policies
+
+  ### Module  4&#58; Understanding Network Security
+
+  ### Module  5&#58; Protecting the Server and Client

@@ -1,0 +1,232 @@
+### YamlMime:Course
+title: 部署 SQL 数据库
+metadata:
+  title: 'Course 28765-B: 部署 SQL 数据库'
+  description: 'Course 28765-B: 部署 SQL 数据库'
+uid: course.28765
+courseNumber: '28765-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: 部署数据库服务器
+- skill: 升级 SQL Server
+- skill: 配置 SQL Server
+- skill: 管理数据库和文件 (共享)
+- skill: 在云系统中部署、迁移、以及管理数据库
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- zh-cn
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-765
+summary: |-
+  本培训课程的定位在指导学员们如何在内部部署和SQL Azure系统中配置SQL Server数据库。
+
+  #### Audience profile
+  本培训课程的主要目标学员，主要针对负责管理和维护SQL Server数据库的相关人员。这些人员主要负责执行数据库管理和维护作业，或是在数据库相关的领域中担任重要的角色。
+  
+  而本培训课程的次要目标学员，是开发SQL Server数据库应用程序的程序开发人员。
+prerequisitesSection: |-
+  在参加本培训课程之前，学员们必须具备下列资格&#58; 
+  - 具备Microsoft Windows操作系统，以及其核心功能的基本知识。
+  - 具备Transact-SQL 相关的知识具备关系数据库相关的知识。
+  - 具备一些与数据库设计相关的经验。
+outlineSection: |-
+  ### Module 1&#58; SQL Server 2016 Components
+  本单元内容介绍了多种SQL Server 2016组件以及版本。
+  #### Lessons
+  - SQL Server 平台简介
+  - SQL Server 架构概述
+  - SQL Server 服务与配置选项
+
+
+  #### Lab &#58; 讨论&#58; SQL Server版本
+  - 使用个别的SQL Server安装的时机，以及利用个别的实例的时机？
+  - 你所服务的企业，最适合采用哪一个版本的SQL Server？
+
+  完成本单元后，学员们将拥有下列能力&#58; 
+  - 描述SQL Server组件和版本。
+  - 描述SQL Server架构和数据使用情况。
+  - 描述SQL Server服务以及如何管理这些服务的配置。
+
+  ### Module 2&#58; Installing SQL Server 2016
+  本单元内容主要为说明安装SQL Server 2016版本的流程。
+
+  #### Lessons
+  - 安装SQL Server的注意事项
+  - tempdb文件
+  - 安装 SQL Server 2016
+  - 自动安装
+
+
+  #### Lab &#58; 安装SQL Server
+  - 读写可用的数据
+  - 安装 SQL Server 实例
+  - 执行后续安装检查
+  - 自动化安装
+
+  完成本单元后，学员们将拥有下列能力&#58; 
+  - 描述安装SQL Server时的注意事项。
+  - 描述TempDB文件。
+  - 安装SQL Server 2016 版本。
+  - 自动执行SQL Server安装。
+
+  ### Module 3&#58; Upgrading SQL Server to SQL Server 2016v
+  本单元内容主要为说明升级到SQL Server 2016 版本的流程。
+  #### Lessons
+  - 升级需求
+  - 升级 SQL Server 服务
+  - 迁移SQL Server数据和应用程序
+
+
+  #### Lab &#58; 升级 SQL Server
+  - 建立应用程序登录
+  - 还原数据库备份
+  - 被孤立的用户和数据库兼容性层级
+
+  完成本单元后，学员们将拥有下列能力&#58; 
+  - 描述SQL Server的升级需求。
+  - 升级 SQL Server。
+  - 迁移SQL Server数据和应用程序。
+
+  ### Module 4&#58; Working with Databases
+  本单元内容主要为说明预安装系统数据库、数据库、数据库的实体结构、以及最常见的相关配置选项。
+
+  #### Lessons
+  - 简介 SQL Server数据存储设备
+  - 管理系统数据库存储设备
+  - 管理用户数据库存储设备
+  - 数据库文件的移动与复制
+  - 并行升级&#58; 迁移 SQL Server 数据和应用程序
+  - 缓冲池扩展
+
+
+  #### Lab &#58; 管理数据库存储设备
+  - 配置tempdb存储
+  - 建立数据库
+  - 附加数据库
+  - 启用缓冲池扩展
+
+  完成本单元后，学员们将拥有下列能力&#58; 
+  - 说明运用SQL Server的资料存储。
+  - 管理系统数据库的存储。
+  - 管理用户数据库的存储。
+  - 移动和复制数据库文件。
+  - 描述并行升级&#58; 迁移SQL Server数据和应用程序流程。
+  - 描述和使用缓冲池扩展。
+
+  ### Module 5&#58; Performing Database Maintenance
+  本单元内容主要为说明数据库维护计划。
+
+  #### Lessons
+  - 确认数据库完整性
+  - 维护索引
+  - 自动化例行性维护工项
+
+
+  #### Lab &#58; 执行数据库维护作业
+  - 利用DBCC CHECKDB 指令验证数据库的完整性
+  - 重新建立索引
+  - 建立数据库维护计划
+
+  完成本单元后，学员们将拥有下列能力&#58; 
+  - 确认数据库的完整性
+  - 维护索引
+  - 自动化例行性维护工项
+
+  ### Module 6&#58; Database Storage Options
+  本单元内容主要为说明SQL Server 存储相关选项。
+  #### Lessons
+  - SQL Server 存储性能
+  - SMB文件共享
+  - Microsoft Azure 中的 SQL Server存储
+  - 扩展数据库
+
+
+  #### Lab &#58; 实作扩展数据库
+  - 执行Stretch Database Advisor 程序
+  - 实作扩展数据库
+
+  完成本单元后，学员们将拥有下列能力&#58; 
+  - 描述SQL Server存储性能。
+  - 描述SMB文件共享。
+  - 说明Microsoft Azure中的SQL Server存储。
+  - 描述扩展数据库。
+
+  ### Module 7&#58; Planning to Deploy SQL Server on Microsoft Azure
+  本单元内容主要为说明如何规划在Azure上部署SQL Server。
+  #### Lessons
+  - Azure 系统中的SQL Server 虚拟机
+  - Azure存储
+  - Azure SQL Server 验证
+  - 部署Azure SQL 数据库
+
+
+  #### Lab &#58; 规划和部署Azure SQL数据库
+  - 规划Azure SQL数据库、网络、性能层、安全性
+  - 部署Azure SQL数据库
+  - 联机到Azure SQL数据库
+
+  完成本单元后，学员们将拥有下列能力&#58; 
+  - 在Azure系统中描述SQL Server虚拟机。
+  - 描述Azure存储。
+  - 说明Azure SQL验证、审核、以及法规。
+  - 部署Azure SQL数据库。
+
+  ### Module 8&#58; Migrating Databases to Azure SQL Database
+  本单元内容主要为说明如何将数据库迁移到Azure SQL数据库。
+  #### Lessons
+  - 数据库迁移测试工具
+  - 数据库迁移兼容性问题
+  - 将内部部署数据库迁移到Azure SQL数据库
+
+
+  #### Lab &#58; 迁移数据库到Azure SQL 数据库
+  - 执行迁移测试
+  - 将SQL Server数据库迁移到Azure SQL数据库
+  - 测试迁移数据库
+
+  完成本单元后，学员们将拥有下列能力&#58; 
+  - 描述各种数据库迁移测试工具。
+  - 说明数据库迁移兼容性的相关问题。
+  - 将SQL Server数据库迁移到Azure SQL数据库。
+
+  ### Module 9&#58; Deploying SQL Server on a Microsoft Azure Virtual Machine
+  本单元内容主要为说明如何在Microsoft Azure VM上部署SQL Server。
+  #### Lessons
+  - 在 Azure 虚拟机上部署SQL Server
+  - 将数据库迁移到 Microsoft Azure虚拟机
+
+
+  #### Lab &#58; 在 Azure 虚拟机上部署SQL Server
+  - 部署 Azure 虚拟机
+  - 应用部署数据库Azure VM Wizard
+
+  完成本单元后，学员们将拥有下列能力&#58; 
+  - 在 Azure 虚拟机上部署SQL Server应用部署数据库Azure VM Wizard
+
+  ### Module 10&#58;  Managing databases in the Cloud
+  本单元内容主要为说明如何管理 Azure 中的 SQL Server。
+  #### Lessons
+  - 管理Azure SQL 数据库的安全性
+  - 配置 Azure 存储
+  - Azure 自动化
+
+
+  #### Lab &#58; 管理云架构中的数据库
+  - 配置 Azure 系统的安全性
+  - 自动化Azure 部署
+
+  完成本单元后，学员们将拥有下列能力&#58; 
+  - 管理Azure SQL 数据库的安全性
+  - 配置 Azure 存储
+  - 实作Azure 自动化
+
+  #### Additional Reading
+  为协助你准备本培训课程，请检视下面所展示的数据

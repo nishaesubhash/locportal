@@ -1,0 +1,40 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Line-of-business application migration'
+metadata:
+  title: 'Course 40558-G: Microsoft Cloud Workshop: Line-of-business application migration'
+  description: 'Course 40558-G: Microsoft Cloud Workshop: Line-of-business application migration'
+uid: course.40558
+courseNumber: '40558-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Evaluate environment readiness for migration to Azure.
+- skill: Design and implement the discovery and assessment of such environments.
+- skill: Use services including Azure Migrate, Azure Database Migration Service and Azure Site Recovery
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this course, you will look at how to design an Azure migration for a heterogenous customer environment. The existing infrastructure comprises both Windows and Linux servers running on both VMWare and physical machines, and includes some legacy servers. Throughout the whiteboard design session, you will look at the various options and services available to migrate heterogenous environments to Azure. At the end of this workshop, you will be better able to design and implement the discovery and assessment of environments to evaluate their readiness for migrating to Azure using services including Azure Migrate, Azure Database Migration Service, and Azure Site Recovery.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas.  Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Line-of-business application migration
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-On Lab - Line-of-business application migration
+  #### Lessons
+  - Discover and assess the on-premises environment
+  - Migrate the Application Database
+  - Migrate the application and web tiers using Azure Site Recovery

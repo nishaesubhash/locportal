@@ -1,0 +1,56 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Azure Stack'
+metadata:
+  title: 'Course 40522-G: Microsoft Cloud Workshop: Azure Stack'
+  description: 'Course 40522-G: Microsoft Cloud Workshop: Azure Stack'
+uid: course.40522
+courseNumber: '40522-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Recommend and design hybrid cloud systems that leverage one application and deployment model, Azure
+- skill: Understand when the Azure public cloud versus Azure Stack is appropriate based on customer requirements
+- skill: Describe possible integrations between Azure public cloud solutions and Azure Stack
+- skill: Understand the taxonomy of Azure Stack (tenants, regions, subscriptions, offers, plans, services and quotas)
+- skill: Describe the resource providers that are available for use with Azure Stack
+- skill: Design and deploy hybrid connectivity between Azure public cloud and Azure Stack
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop, you will learn how to design a hybrid cloud architecture using a combination of the Azure public cloud and Azure Stack. This functional architecture will enable customers to leverage their investments in Azure as a "cloud platform," rather than Azure as a "place." You will learn to determine which systems are good candidates for the Azure public cloud and which are better suited on Azure Stack.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the ‘About this Course’ and ‘At Course Completion’ areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Azure Stack Migrate or Azure Stack Operate
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on Lab - Azure Stack
+
+  #### Lab &#58; Azure Stack Migrate
+
+  - Create Azure Stack Hub Deployment Taxonomy for Tenants
+  - Deploy Contoso Financial Web Application
+  - Deploy the customer offers Web API
+  - Automating backend processes with Azure functions
+  - Deploy Contoso Finance Admin website
+  
+  #### Lab &#58; Azure Stack Operate
+  
+  - Create and publish an Azure Stack Hub Marketplace item
+  - Implement multi-tenancy
+  - Implement delegated management of plans, offers, and subscriptions
+  - Configure Role Based Access Control RBAC
+  - Connect to and work with the Privileged Endpoint
+  - Implement Azure Stack Hub infrastructure backup

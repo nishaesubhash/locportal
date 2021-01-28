@@ -1,0 +1,42 @@
+### YamlMime:Course
+title: Windows Server 2016 のネットワーク
+metadata:
+  title: 'Course 23741-A: Windows Server 2016 のネットワーク'
+  description: 'Course 23741-A: Windows Server 2016 のネットワーク'
+uid: course.23741
+courseNumber: '23741-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: IPv4 ネットワークを計画し、実装することができます。
+- skill: 動的ホスト構成プロトコル (DHCP) を実装することができます。
+- skill: IPv6 を実装することができます。
+- skill: ドメイン ネーム システム (DNS) を実装することができます。
+- skill: IP アドレス管理 (IPAM) を実装し、管理することができます。
+- skill: リモート アクセスの計画を立てることができます。
+- skill: DirectAccess を実装することができます。
+- skill: 仮想プライベート ネットワーク (VPN) を実装することができます。
+- skill: ブランチ オフィスのネットワークを実装することができます。
+- skill: 高度なネットワーク機能を構成することができます。
+- skill: ソフトウェア定義ネットワークを実装することができます。
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- ja
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-741
+summary: |-
+  この5 日間のコースでは、ほとんどの組織で Windows Server 2016 の展開とサポートに必要とされる基本的なネットワーク スキルを習得することができます。IP の基礎、リモート アクセス テクノロジ、さらにソフトウェア定義ネットワーク (SDN) を含めたより高度な内容を習得します。
+
+  #### Audience profile
+  このコースは、ネットワークの知識と経験を備え、Windows Server 2016 のコア ネットワークおよび高度なネットワークのテクノロジについて見識を深めることができる単一のコースを求めている IT プロを対象としています。次のような方が対象となります。
+  - 既に持っているスキルを強化し、新しいネットワーク テクノロジの変化と Windows Server 2016 の機能について知りたいと考えているネットワーク管理者
+  - ネットワーク全般の知識を持ち、Windows Server 2016 のコア ネットワークおよび高度なネットワーク機能について、知識とスキルを得たいと考えているシステム管理者やインフラストラクチャ管理者
+  
+  また、Microsoft 試験「70-741&#58; Windows Server 2016 のネットワーク」の認定を目指す受講者

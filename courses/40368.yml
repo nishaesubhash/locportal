@@ -1,0 +1,103 @@
+### YamlMime:Course
+title: 'Mobility & Devices Fundamentals: MTA Exam 98-368'
+metadata:
+  title: 'Course 40368-A: Mobility & Devices Fundamentals: MTA Exam 98-368'
+  description: 'Course 40368-A: Mobility & Devices Fundamentals: MTA Exam 98-368'
+uid: course.40368
+courseNumber: '40368-A'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Understand device configurations
+- skill: Understand data access and management
+- skill: Understand device security
+- skill: Understand cloud services
+- skill: Understand enterprise mobility
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+exams:
+- uid: exam.98-368
+summary: |-
+  This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-368, and build an understanding of these topics&#58; Device configurations, data access and management, device security, cloud services, and enterprise mobility.
+
+  #### Audience profile
+  The Microsoft Technology Associate (MTA) is Microsoft's newest suite of technology certification exams that validate fundamental knowledge needed to begin building a career using Microsoft technologies. This program provides an appropriate entry point to a future career in technology and assumes some hands-on experience or training but does not assume on-the-job experience.
+outlineSection: |-
+  ### Module 1&#58; Understanding Device Configurations
+  #### Lessons
+  - Configuring Device Options
+  - Configuring Desktop Settings
+  - Configuring Drive Encryption
+  - Configuring Updates
+
+  After completing this module, you will be able to&#58;
+  - Configure device options
+  - Configure desktop settings
+  - Configure drive encryption
+  - Configure updates
+
+
+  ### Module 2&#58; Understanding Data Access and Management
+  #### Lessons
+  - Understanding Cloud Storage Services
+  - Understanding Local Storagea
+  - Understanding File Systems
+  - Understanding File and Print Sharing
+  - Understanding Data Encryption
+
+  After completing this modules, you will be able to&#58;
+  - Understand cloud storage services
+  - Understand local storage
+  - Understand file systems
+  - Understand file and print sharing
+  - Understand data encryption
+
+
+  ### Module 3&#58; Understand Device Security
+  #### Lessons
+  - Understanding the Differences Between the Internet, an Intranet, and an Extranet
+  - Understanding User Authentication
+  - Understanding Permissions
+  - Understanding Malware
+
+  After completing this module, you will be able to&#58;
+  - Understand the differences between the Internet, an Intranet, and an Extranet
+  - Understand user authentication
+  - Understand permissions
+  - Understand malware
+
+
+  ### Module 4&#58; Understanding Cloud Services
+  #### Lessons
+  - Understanding the Types of Cloud Services
+  - Understanding Microsoft Intune
+  - Understanding Microsoft Intune Capabilities
+  - Understanding Microsoft Azure
+  - Understanding Virtual Machines
+  - Understanding Disaster Recovery, HIgh Availability, Redundancy, and Fault Tolerance
+
+  After completing this module, you will be able to&#58;
+  - Understand the types of cloud services
+  - Understand Microsoft Intune and it's capabilities
+  - Understand Microsoft Azure
+  - Understand virtual machines
+  - Understand disaster recovery, high availability, redundancy, and fault tolerance
+
+
+  ### Module 5&#58; Understanding Enterprise Mobility
+  #### Lessons
+  - Understanding Identity Services
+  - Understanding Business Data Access
+  - Understanding Bring Your Own Device (BYOD)
+
+  After completing this module, you will be able to&#58;
+  - Understand Identity Services
+  - Understand Business Data Access
+  - Understand Bring Your Own Device (BYOD)

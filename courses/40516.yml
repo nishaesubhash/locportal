@@ -1,0 +1,46 @@
+### YamlMime:Course
+title: 'Microsoft Cloud Workshop: Intelligent Analytics'
+metadata:
+  title: 'Course 40516-G: Microsoft Cloud Workshop: Intelligent Analytics'
+  description: 'Course 40516-G: Microsoft Cloud Workshop: Intelligent Analytics'
+uid: course.40516
+courseNumber: '40516-G'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: At the end of this workshop, you will better understand how to leverage Cognitive Services (LUIS & Text Analytics API), process events with Azure functions, index with Search Archive and Cosmos DB, visualize with Power BI Q&A, use Bot Framework for questions and answers, and send notifications with Logic App.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- azure
+summary: |-
+  In this workshop you will learn real-time analytics without IoT.You'll enable intelligent conversation in a machine learning enabled, real-time chat pipeline, and apply analytics to visualize customer sentiment in real time for hotel guests, allowing them to chat with one another, and to communicate directly with the concierge. You'll apply analytics to visualize customer sentiment in real-time, as well as view trending sentiment over time and create a bot that can answer questions and embed it in the custom web app.
+  
+  You will be able to implement a lambda architecture, and enable web-based, real-time messaging through Web Sockets, Event Hubs, and Services Bus.
+
+  #### Audience profile
+  This workshop is intended for Cloud Architects and IT professionals who have architectural expertise of infrastructure and solutions design in cloud technologies and want to learn more about Azure and Azure services as described in the "Summary" and "Skills gained" areas. Those attending this workshop should also be experienced in other non-Microsoft cloud technologies, meet the course prerequisites, and want to cross-train on Azure.
+outlineSection: |-
+  ### Module 1&#58; Whiteboard Design Session - Intelligent analytics
+  #### Lessons
+  - Review the customer case study
+  - Design a proof of concept solution
+  - Present the solution
+
+
+  ### Module 2&#58; Hands-on Lab - Intelligent analytics
+  #### Lessons
+  - Environment setup
+  - Implement message forwarding
+  - Configure the Chat Web App settings
+  - Deploying the App Services
+  - Add intelligence
+  - Create Logic App for sending SMS notifications
+  - Building the Power BI dashboard
+  - Enabling search indexing
+  - Add a bot using Bot service and QnA Maker
