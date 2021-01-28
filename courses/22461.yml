@@ -1,0 +1,359 @@
+### YamlMime:Course
+title: Interrogation de Microsoft® SQL Server® 2012
+metadata:
+  title: 'Course 22461-A: Interrogation de Microsoft® SQL Server® 2012'
+  description: 'Course 22461-A: Interrogation de Microsoft® SQL Server® 2012'
+uid: course.22461
+courseNumber: '22461-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: écrire des requêtes SELECT
+- skill: interroger plusieurs tables à la fois
+- skill: utiliser les fonctions intégrées
+- skill: utiliser des sous-requêtes
+- skill: exécuter des procédures stockées
+- skill: utiliser des opérateurs de jeu
+- skill: implémenter la gestion des erreurs
+- skill: implémenter des transactions
+- skill: utiliser des expressions de table
+- skill: trier et filtrer des données
+- skill: utiliser les fonctions de classement, de décalage et d'agrégation de fenêtres
+- skill: interroger des métadonnées SQL Server
+- skill: programmer à l'aide de T-SQL
+- skill: améliorer les performances des requêtes
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- fr
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-461
+summary: |-
+  Ce cours de cinq jours dispensé par un instructeur permet aux stagiaires d'acquérir les compétences techniques nécessaires à l'écriture de requêtes Transact-SQL de base pour Microsoft SQL Server 2012. Il constitue une base pour toutes les disciplines SQL Server, à savoir, administration de bases de données, développement de bases de données et Business Intelligence. Ce cours aide les stagiaires à préparer l'examen [70-461](http://www.microsoft.com/learning/exam-70-461.aspx).
+  
+  Tous les ateliers de ce cours peuvent être réalisés sur les ordinateurs virtuels fournis. Toutefois, si vous disposez d'un compte Microsoft Windows® Azure™, et si les ordinateurs virtuels de la classe sont connectés à Internet, vous pourrez vous connecter à votre serveur et à votre base de données Windows Azure. La plupart des ateliers de ce cours peuvent être réalisés en étant connecté à votre propre base de données Windows Azure dans le nuage. Le formateur doit pouvoir vous fournir la liste des ateliers actuellement compatibles avec Windows Azure. Pour obtenir un compte d'essai Windows Azure, cliquez [ici](http://www.windowsazure.com/en-us/pricing/free-trial/).
+
+  #### Audience profile
+  Ce cours s'adresse aux administrateurs et développeurs de bases de données, ainsi qu'aux professionnels Business Intelligence. Ce cours sera très probablement suivi par des utilisateurs SQL avec pouvoir qui ne sont pas nécessairement spécialistes des bases de données ou qui souhaitent se préparer à l'examen. Il peut s'agir de créateurs de rapports, d'analystes d'entreprise et de développeurs d'applications clientes.
+prerequisitesSection: |-
+  Pour suivre ce cours, les stagiaires doivent posséder les connaissances suivantes&#58;
+  - Connaissances pratiques en matière de bases de données relationnelles
+  - Connaissances de base du système d'exploitation Microsoft Windows et de ses fonctionnalités principales
+  
+  Pour suivre ce cours, les stagiaires doit posséder les connaissances suivantes&#58;
+  - Notions de base de la technologie de virtualisation (des ordinateurs virtuels sont utilisés lors des ateliers en classe) 
+  
+  Pour vous préparer à ce cours, consultez les ressources suivantes&#58;
+  - Ouvrage &#58; T-SQL Fundamentals for Microsoft SQL Server 2012 and Base de données SQL Windows Azure (en anglais)
+  - Kit de formation à l'examen MCTS 70-461 (en anglais)
+outlineSection: |-
+  ### Module 1&#58; Introduction à Microsoft SQL Server 2012
+  Ce module présente la plateforme SQL Server, ainsi que ses principaux outils. Il traite des éditions, des versions, des outils utilisés pour les requêtes, des sources de documentation, ainsi que de la structure logique des bases de données.
+  #### Leçons
+  - Introduction à Microsoft SQL Server 2012
+  - Prise en main de SQL Server Management Studio
+
+
+  #### Atelier &#58; Utilisation des outils SQL Server 2012
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire l'architecture et les éditions de SQL Server 2012
+  - utiliser SQL Server Management Studio.
+
+
+  ### Module 2&#58; Mise en route avec Base de données SQL Windows Azure
+  Ce module présente aux stagiaires les concepts de Base de données SQL Windows Azure. Toutefois, si vous disposez d'un compte Microsoft Windows Azure, et si les ordinateurs virtuels de la classe sont connectés à Internet, vous pourrez vous connecter à votre serveur et à votre base de données Windows Azure. La plupart des ateliers de ce cours peuvent être réalisés en étant connecté à votre propre base de données Windows Azure dans le nuage.
+  #### Leçons
+  - Vue d'ensemble de Base de données SQL Windows Azure
+  - Utilisation de Base de données SQL Windows Azure
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les fonctionnalités de base de Base de données SQL Windows Azure
+  - approvisionner un serveur Base de données SQL Windows Azure et configurer sa sécurité
+
+
+  ### Module 3&#58; Présentation des requêtes T-SQL
+  Ce module présente Transact-SQL comme étant le principal langage de requête de SQL Server. Il aborde la structure de base des requêtes T-SQL et le flux logique de l'instruction SELECT, et présente des concepts tels que les prédicats et les opérations basées sur jeu de données.
+  #### Leçons
+  - Présentation de T-SQL
+  - Présentation des jeux
+  - Présentation de la logique des prédicats
+  - Présentation de l'ordre logique des opérations dans les instructions SELECT
+
+
+  #### Atelier &#58; Introduction aux requêtes Transact-SQL
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les éléments de T-SQL et expliquer leur rôle dans l'écriture de requêtes
+  - décrire l'utilisation des jeux dans SQL Server
+  - décrire l'utilisation de la logique des prédicats dans SQL Server
+  - expliquer ce qu'est l'ordre logique des opérations dans les instructions SELECT
+
+
+  ### Module 4&#58; Écriture des requêtes SELECT
+  Ce module présente les notions de base relatives à l'instruction SELECT, et se concentre tout particulièrement sur les requêtes exécutées sur des tables simples.
+  #### Leçons
+  - Écriture d'instructions SELECT simples
+  - Suppression des doublons à l'aide de la clause DISTINCT
+  - Utilisation d'alias de colonne et de table
+  - Écriture d'expressions CASE simples
+
+
+  #### Atelier &#58; Écriture d'instructions SELECT de base
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - écrire des instructions SELECT simples
+  - supprimer des doublons à l'aide de la clause DISTINCT
+  - utiliser des alias de colonne et de table
+  - écrire des expressions CASE simples
+
+
+  ### Module 5&#58; Interrogation de plusieurs tables
+  Ce module explique comment écrire des requêtes dans SQL Server qui combinent des données provenant de plusieurs sources. Ce module explique comment utiliser des jointures dans les requêtes T-SQL comme mécanismes de récupération des données provenant de plusieurs tables.
+  #### Leçons
+  - Fonctionnement des jointures
+  - Interrogation à l'aide de jointures internes
+  - Interrogation à l'aide de jointures externes
+  - Interrogation à l'aide de jointures croisées et de jointures réflexives
+
+
+  #### Atelier &#58; Interrogation de plusieurs tables
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - expliquer comment plusieurs tables peuvent être interrogées à l'aide d'une même instruction SELECT utilisant des jointures
+  - écrire des requêtes utilisant des jointures internes
+  - écrire des requêtes utilisant des jointures externes
+  - écrire des requêtes utilisant des jointures réflexives et des jointures croisées
+
+
+  ### Module 6&#58; Tri et filtrage des données
+  Ce module explique comment améliorer les requêtes en limitant le nombre de lignes retournées, et comment contrôler l'ordre dans lequel s'affichent les lignes. Il aborde également la résolution des problèmes liés aux résultats manquants ou inconnus.
+  #### Leçons
+  - Tri des données
+  - Filtrage de données à l'aide d'une clause WHERE
+  - Filtrage à l'aide des options TOP et OFFSET-FETCH
+  - Utilisation des valeurs inconnues et manquantes
+
+
+  #### Atelier &#58; Tri et filtrage des données
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - filtrer des données à l'aide de prédicats au sein d'une clause WHERE
+  - trier des données à l'aide de la clause ORDER BY
+  - filtrer les données d'une clause SELECT à l'aide de l'option TOP
+  - filtrer des données à l'aide des options TOP et OFFSET-FETCH
+
+
+  ### Module 7&#58; Utilisation des types de données de SQL Server 2012
+  Ce module décrit les types de données qui sont utilisés par SQL Server pour stocker des données. Il aborde également les nombreux types de données numériques et à usage spécial. Enfin, il traite des conversions des types de données, ainsi que de l'importance de la priorité de type.
+  #### Leçons
+  - Introduction aux types de données SQL Server 2012
+  - Utilisation de données caractères
+  - Utilisation des données de date et d'heure
+
+
+  #### Atelier &#58; Utilisation des types de données de SQL Server 2012
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les types de données numériques, expliquer ce qu'est la priorité de type et effectuer des conversions de types de données
+  - écrire des requêtes utilisant des types de données caractères
+  - écrire des requêtes utilisant des types de données de date et d'heure
+
+
+  ### Module 8&#58; Utilisation des fonctions intégrées
+  Ce module traite de l'utilisation des fonctions intégrées à SQL Server Denali et aborde certaines des utilisations courantes de ces fonctions, comme par exemple, pour la conversion de types de données et le test des résultats logiques et de la possibilité de valeur Null.
+  #### Leçons
+  - Écriture de requêtes à l'aide des fonctions intégrées
+  - Utilisation des fonctions de conversion
+  - Utilisation des fonctions logiques
+  - Utilisation de fonctions prenant en charge les valeurs NULL
+
+
+  #### Atelier &#58; Utilisation des fonctions intégrées
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - écrire des requêtes à l'aide des fonctions scalaires intégrées
+  - utiliser des fonctions de conversion
+  - utiliser des fonctions logiques
+  - utiliser des fonctions qui prennent en charge la valeur NULL
+
+
+  ### Module 9&#58; Regroupement et agrégation de données
+  Ce module présente les méthodes de regroupement des données au sein d'une requête, d'agrégation de données groupées et de filtrage des groupes à l'aide de la clause HAVING. Ce module a pour but d'aider les stagiaires à comprendre la raison pour laquelle la clause SELECT possède des restrictions au niveau des noms de colonnes dans la clause GROUP BY, ainsi qu'à connaître les colonnes pouvant être répertoriées dans la clause SELECT.
+  #### Leçons
+  - Utilisation des fonctions d'agrégation
+  - Utilisation de la clause GROUP BY
+  - Filtrage des groupes à l'aide de la clause HAVING
+
+
+  #### Atelier &#58; Regroupement et agrégation de données
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - écrire des requêtes permettant de synthétiser des données à l'aide des fonctions d'agrégation intégrées
+  - utiliser la clause GROUP BY pour regrouper les lignes en groupes
+  - utiliser la clause HAVING pour exclure des groupes sur la base d'une condition de recherche
+
+
+  ### Module 10&#58; Utilisation des sous-requêtes
+  Ce module aborde l'utilisation des sous-requêtes à différents endroits de l'instruction SELECT. Il aborde également l'utilisation des sous-requêtes scalaires et à résultats multiples, ainsi que celle des opérateurs IN et EXISTS.
+  #### Leçons
+  - Écriture de sous-requêtes autonomes
+  - Écriture de sous-requêtes corrélées
+  - Utilisation du prédicat EXISTS dans les sous-requêtes
+
+
+  #### Atelier &#58; Utilisation des sous-requêtes
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les différentes utilisations des requêtes imbriquées dans d'autres requêtes
+  - écrire des sous-requêtes autonomes retournant des résultats scalaires et à valeurs multiples
+  - écrire des sous-requêtes corrélées retournant des résultats scalaires et à valeurs multiples
+  - utiliser le prédicat EXISTS pour vérifier de manière efficace l'existence de lignes dans une sous-requête
+
+
+  ### Module 11&#58; Utilisation des expressions de table
+  Ce module traite des expressions T-SQL qui retournent une table relationnelle valide, généralement, afin de les utiliser dans la requête. Il traite également des vues, des tables dérivées, des expressions de table communes, ainsi que des fonctions table inline.
+  #### Leçons
+  - Utilisation des tables dérivées
+  - Utilisation d'expressions de table communes
+  - Utilisation des vues
+  - Utilisation des fonctions table inline
+
+
+  #### Atelier &#58; Utilisation des expressions de table
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - écrire des requêtes utilisant des tables dérivées
+  - écrire des requêtes utilisant des expressions de table communes
+  - créer des vues simples et écrire des requêtes dont elles feront l'objet
+  - créer des fonctions table inline simples et écrire des requêtes dont elles feront l'objet
+
+
+  ### Module 12&#58; Utilisation des opérateurs de jeu
+  Ce module traite des opérations impliquant plusieurs jeux de données. Il aborde l'utilisation des opérateurs UNION, UNION ALL, APPLY, CROSS APPLY, OUTER APPLY, EXCEPT et INTERSECTS.
+  #### Leçons
+  - Écriture de requêtes avec l'opérateur UNION
+  - Utilisation des opérateurs EXCEPT et INTERSECT
+  - Utilisation de l'opérateur APPLY
+
+
+  #### Atelier &#58; Utilisation des opérateurs de jeu
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Écrire des requêtes combinant des données à l'aide de l'opérateur UNION
+  - écrire des requêtes permettant de comparer des jeux de données à l'aide des opérateurs EXCEPT et INTERSECT
+  - écrire des requêtes permettant de manipuler les lignes d'une table à l'aide de l'opérateur APPLY concernant les résultats d'une table dérivée ou d'une fonction
+
+
+  ### Module 13&#58; Utilisation des fonctions de classement, de décalage et d'agrégation de fenêtres
+  Ce module traite des fonctions de fenêtre, telles que les fonctions de classement, d'agrégation et de décalage des fenêtres. La plupart de ces fonctionnalités sont nouvelles dans SQL Server 2012. Le module aborde l'utilisation des fonctions T-SQL, telles que ROW_NUMBER, RANK, DENSE_RANK, NTILE, LAG, LEAD, FIRST_VALUE et LAST_VALUE pour effectuer des calculs sur un jeu de données, une fenêtre ou une ligne.
+  #### Leçons
+  - Création de fenêtres à l'aide de la clause OVER
+  - Exploration des fonctions de fenêtre
+
+
+  #### Atelier &#58; Utilisation des fonctions de classement, de décalage et d'agrégation de fenêtres
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les avantages que présentent les fonctions de fenêtre
+  - limiter les fonctions de fenêtre aux lignes définies dans une clause OVER, y compris les partitions et les cadres
+  - écrire des requêtes utilisant des fonctions de fenêtre afin de réaliser une opération sur une fenêtre de lignes et retourner les résultats de la comparaison de classement, d'agréation et de décalage
+
+
+  ### Module 14&#58; Utilisation de l'opérateur PIVOT et de la clause GROUPING SETS
+  Ce module aborde les différentes utilisations de l'opérateur PIVOT sur les données dans T-SQL et présente les notions de base relatives à la clause GROUPING SETS. Il traite également de l'utilisation de la syntaxe de GROUP BY ROLLUP et GROUP BY CUBE dans SQL Server 2012.
+  #### Leçons
+  - Écriture de requêtes à l'aide des opérateurs PIVOT et UNPIVOT
+  - Utilisation de la clause GROUPING SETS
+
+
+  #### Atelier &#58; Utilisation de l'opérateur PIVOT et de la clause GROUPING SETS
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - écrire des requêtes utilisant les opérateurs PIVOT et UNPIVOT sur les jeux de résultats
+  - écrire des requêtes spécifiant plusieurs regroupements à l'aide de la clause GROUPING SETS
+
+
+  ### Module 15&#58; Interrogation de métadonnées SQL Server
+  Ce module traite de l'utilisation des objets système SQL Server dans les requêtes T-SQL. Il aborde l'utilisation des affichages catalogue système, des procédures stockées système, des fonctions système, ainsi que des objets de gestion dynamique.
+  #### Leçons
+  - Interrogation des affichages catalogue et des fonctions système
+  - Exécution des procédures stockées système
+  - Interrogation d'objets de gestion dynamique
+
+
+  #### Atelier &#58; Interrogation de métadonnées SQL Server
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - écrire des requêtes permettant de récupérer des métadonnées système à l'aide de vues et de fonctions système
+  - exécuter des procédures stockées système pour retourner des informations système
+  - écrire des requêtes permettant de récupérer des métadonnées système et des informations d'état à l'aide de vues de gestion dynamique et de fonctions système
+
+
+  ### Module 16&#58; Exécution des procédures stockées
+  Ce module traite de l'utilisation des procédures stockées dans un environnement d'interrogation T-SQL. Il aborde l'utilisation de l'instruction EXECUTE et explique comment passer des paramètres d'entrée et de sortie à une procédure, et comment appeler des procédures stockées.
+  #### Leçons
+  - Interrogation de données à l'aide de procédures stockées
+  - Passage de paramètres à des procédures stockées
+  - Création de procédures stockées simples
+  - Utilisation du SQL dynamique
+
+
+  #### Atelier &#58; Exécution des procédures stockées
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - retourner des résultats en exécutant des procédures stockées
+  - passer des paramètres à des procédures stockées
+  - créer des procédures stockées simples qui encapsulent une instruction SELECT
+  - créer et exécuter du code SQL dynamique avec EXEC et sp_executesql
+
+
+  ### Module 17&#58; Programmation avec T-SQL
+  Ce module constitue une introduction aux concepts et objets de programmation T-SQL. Il traite des lots, des variables, des éléments de contrôle de flux tels que les boucles et les conditionnelles, ainsi que de la création et de l'exécution des instructions SQL dynamique et de l'utilisation des synonymes.
+  #### Leçons
+  - Éléments de programmation T-SQL
+  - Contrôle du flux de programme
+
+
+  #### Atelier &#58; Programmation avec T-SQL
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les éléments de langage T-SQL utilisés pour les tâches de programmation simples
+  - expliquer ce que sont les lots et comment ils sont gérés par SQL Server
+  - déclarer et attribuer des variables et des synonymes
+  - utiliser les blocs IF et WHILE pour contrôler le flux de programme
+
+
+  ### Module 18&#58; Implémentation de la gestion des erreurs
+  Ce module traite de l'utilisation des gestionnaires d'erreurs dans le code T-SQL. Il explique la différence entre les erreurs de compilation et les erreurs d'exécution, ainsi que la façon dont les lots sont affectés par ces erreurs. Il explique également comment contrôler la gestion des erreurs à l'aide des blocs TRY/CATCH, comment utiliser la classe ERROR des fonctions et comment utiliser la nouvelle instruction THROW.
+  #### Leçons
+  - Utilisation des blocs TRY/CATCH
+  - Utilisation des informations sur les erreurs
+
+
+  #### Atelier &#58; Implémentation de la gestion des erreurs
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire le comportement de SQL Server en cas d'erreurs dans le code T-SQL
+  - implémenter la gestion structurée des exceptions dans T-SQL
+  - retourner des informations sur les erreurs relatives aux objets système
+  - déclencher des erreurs définies par l'utilisateur et passer les erreurs système dans le code T-SQL
+
+
+  ### Module 19&#58; Implémentation des transactions
+  Ce module présente les concepts de la gestion des transactions dans SQL Server. Il constitue une vue d'ensemble générale des propriétés des transactions et aborde les notions de base relatives au marquage des transactions à l'aide de BEGIN, COMMIT et ROLLBACK.
+  #### Leçons
+  - Transactions et moteur de base de données
+  - Contrôle des transactions
+
+
+  #### Atelier &#58; Implémentation des transactions
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les transactions, ainsi que ce qui les différencie des lots
+  - expliquer ce que sont les lots et comment ils sont gérés par SQL Server
+  - créer et gérer des transactions à l'aide d'instructions de langage de gestion des transactions
+  - utiliser XACT_ABORT SET pour définir la manière dont SQL Server gère les transactions en dehors des blocs TRY/CATCH
+
+
+  ### Module 20&#58; Amélioration des performances des requêtes
+  Ce module présente les concepts de l'utilisation des ressources système, ainsi que l'impact sur les performances des requêtes exécutées dans SQL Server 2012. Il constitue une vue d'ensemble de l'utilisation des index dans SQL Server, de l'utilisation des plans d'exécution dans SQL Server Management Studio, ainsi que de l'utilisation des options SET pour afficher l'utilisation des ressources système lors de l'exécution de requêtes. Il explique également les différences qui existent entre les opérations basées sur jeu de données et les opérations basées sur curseur.
+  #### Leçons
+  - Facteurs déterminant les performances des requêtes
+  - Affichage des données relatives aux performances des requêtes
+
+
+  #### Atelier &#58; Amélioration des performances des requêtes
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les composants des requêtes performantes
+  - décrire le rôle des index et des statistiques dans SQL Server
+  - afficher et interpréter les plans de requête de base
+  - afficher et interpréter les données de base relatives aux performances des requêtes

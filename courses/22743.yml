@@ -1,0 +1,297 @@
+### YamlMime:Course
+title: 'Mise à niveau de vos connaissances vers le MCSA : Windows Server 2016'
+metadata:
+  title: 'Course 22743-C: Mise à niveau de vos connaissances vers le MCSA : Windows Server 2016'
+  description: 'Course 22743-C: Mise à niveau de vos connaissances vers le MCSA : Windows Server 2016'
+uid: course.22743
+courseNumber: '22743-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Installer et configurer de Windows Server 2016
+- skill: Décrire le stockage de Windows Server 2016
+- skill: Mettre en œuvre les services d’annuaire
+- skill: Mettre en œuvre les services de fédération Active Directory (AD FS)
+- skill: Décrire la mise en réseau
+- skill: Mettre en œuvre Hyper-V
+- skill: Configurer les fonctionnalités réseau avancées
+- skill: Mettre en œuvre la mise en réseau définie par le logiciel
+- skill: Mettre en œuvre l’accès à distance
+- skill: Déployer et gérer les conteneurs Windows et Hyper-V
+- skill: Mettre en œuvre le clustering de basculement
+- skill: Mettre en œuvre le clustering de basculement en utilisant des ordinateurs virtuels
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- fr
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-743
+summary: |-
+  Ce cours de cinq jours, dirigé par un instructeur, explique comment mettre en œuvre et configurer de nouvelles caractéristiques et fonctionnalités sur Windows Server 2016. Ce cours est destiné aux professionnels de l’informatique qui veulent améliorer les compétences techniques acquises avec Windows Server 2008 ou Windows Server 2012 pour utiliser Windows Server 2016. Ce cours requiert un niveau élevé de connaissances des précédentes technologies de Windows Server et des compétences équivalentes au Microsoft Certified Solutions Associate (MCSA) &#58; Informations d’identification de Windows Server 2008 ou de Windows Server 2012.
+  
+  Ce cours n’est pas un cours de remise à niveau pour un produit, détaillant comment migrer et mettre à niveau l’environnement spécifique des stagiaires vers Windows Server 2016. Ce cours met plutôt à jour les connaissances et les compétences des stagiaires sur Windows Server se rapportant à Windows Server 2016.
+
+  #### Audience profile
+  Ce cours est destiné aux professionnels de l’informatique, administrateurs système expérimentés de Windows Server 2012 ou de Windows Server 2008, avec une véritable expérience professionnelle dans un environnement d’entreprise utilisant Windows Server 2008 R2 ou Windows Server 2008. En outre, les stagiaires doivent avoir obtenu le certificat MCSA pour Windows Server 2008 ou Windows Server 2012 ou ils doivent posséder des connaissances équivalentes.
+  
+  En outre, les professionnels de l’informatique qui souhaitent passer les examens MCSE (Microsoft Certified Solutions Expert) peuvent eux aussi être intéressés par ce cours comme préparation aux examens MCSA, qui sont obligatoires pour les spécialisations MCSE.
+prerequisitesSection: |-
+  Pour suivre ce cours, les stagiaires doivent avoir&#58;
+  - Au minimum deux ans d’expérience dans le déploiement et la gestion d’environnements Windows Server 2012 ou Windows Server 2008, une expérience des services réseau avec tâches administrateur quotidiennes de gestion et de maintenance dans Windows Server 2012 ou Windows Server 2008.
+  - Une expérience des technologies et de la mise en réseau Windows
+  - Une expérience des technologies et de la mise en œuvre d’Active Directory.
+  - Une expérience des technologies et de la virtualisation de Windows Server.
+  - Des connaissances équivalentes aux informations d’identification MCSA de Windows Server 2008 ou Windows Server 2012.
+outlineSection: |-
+  ### Module 1&#58; Installation et configuration de Windows Server 2016
+  Ce module explique comment installer et effectuer les étapes de configuration des serveurs Windows Server 2016.
+  #### Leçons
+  - Introduction à Windows Server 2016
+  - Installation de Windows Server 2016
+  - ConfConfiguration de Windows Server 2016
+  - Préparation pour les mises à niveau et les migrations
+  - Migration des rôles de serveur et des charges de travail
+  - Modèles d’activation de Windows Server
+
+
+  #### Atelier &#58; Installation et configuration de Server Core
+  - Installation de Server Core
+  - Réalisation de tâches de post-installation sur Windows Server Core 2016
+  - Gestion à distance
+
+  À la fin de ce cours, les stagiaires seront à même d’effectuer les tâches suivantes &#58;
+  - Expliquer le fonctionnement de Windows Server 2016.
+  - Installer Windows Server 2016.
+  - Configurer Windows Server 2016.
+  - Préparer les mises à niveau et les migrations.
+  - Effectuer la migration des rôles de serveur et des charges de travail.
+  - Décrire les modèles d’activation de Windows Server.
+
+
+  ### Module 2&#58; Présentation du stockage dans Windows Server 2016
+  Ce module explique comment configurer le stockage dans Windows Server 2016.
+  #### Leçons
+  - Présentation du stockage dans Windows Server 2016
+  - Mise en œuvre de la déduplication des données
+  - Configuration du stockage iSCSI
+  - Configuration des fonctionnalités des espaces de stockage sur Windows Server 2016
+
+
+  #### Atelier &#58; Mise en œuvre et gestion du stockage
+  - Mise en œuvre du File Server Resource Manager (FSRM)
+  - Mise en œuvre de la déduplication des données
+  - Configuration du stockage iSCSI
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire le stockage dans Windows Server 2016.
+  - Mettre en œuvre la déduplication des données.
+  - Configurer le stockage iSCSI.
+  - Configurer les fonctionnalités des espaces de stockage sur Windows Server 2016.
+
+
+  ### Module 3&#58; Implémentation des services d’annuaire
+  Ce module explique comment Mettre en œuvre les services d’annuaire.
+  #### Leçons
+  - Déploiement de contrôleurs de domaine Active Directory
+  - Mise en œuvre des comptes de service
+  - Azure AD
+
+
+  #### Atelier &#58; Mise en œuvre et gestion d’AD DS
+  - Clonage d’un contrôleur de domaine
+  - Mise en œuvre des comptes de service
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Déployer les contrôleurs de domaine AD DS.
+  - Mettre en œuvre des comptes de service.
+  - Expliquer Azure AD.
+
+
+  ### Module 4&#58; Mise en œuvre AD FS
+  Ce module explique comment Mettre en œuvre un déploiement AD FS.
+
+
+  #### Leçons
+  - Vue d’ensemble de AD FS
+  - Déploiement d’AD FS
+  - Mise en œuvre d’AD FS pour une seule organisation
+  - Mise en œuvre du proxy d’application Web
+  - Mise en œuvre de SSO avec Microsoft online services
+
+
+  #### Atelier &#58; Mise en œuvre AD FS
+  - Installation et configuration AD FS
+  - Configuration d’une application interne pour AD FS
+
+
+  #### Atelier &#58; Mise en œuvre du proxy d’application Web &#58;
+  - Mise en œuvre du proxy d’application Web &#58;
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire AD DS.
+  - Déployer AD FS.
+  - Mettre en œuvre AD FS pour une seule organisation.
+  - Mettre en œuvre le proxy d’application Web.
+  - De mettre en œuvre SSO avec Microsoft online services.
+
+
+  ### Module 5&#58; Mise en œuvre des services réseau
+  Ce module explique comment configurer les fonctionnalités avancées de DHCP (Dynamic Host Configuration Protocol) et configurer la gestion des adresses IP (IPAM).
+  #### Leçons
+  - Présentation des améliorations de mise en réseau
+  - Mise en œuvre d’IPAM
+  - Gestion des espaces d’adressage IP avec IPAM
+
+
+  #### Atelier &#58; Mise en œuvre des services réseau
+  - Configuration des stratégies DNS
+  - Configuration du basculement DHCP
+  - Configuration d’IPAM
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire les améliorations réseau.
+  - Mettre en œuvre la gestion des adresses IP.
+  - Gérer les espaces d’adressage IP avec IPAM
+
+
+  ### Module 6&#58; Mise en œuvre d’Hyper-V
+  Ce module explique comment installer et configurer les ordinateurs virtuels Hyper-V.
+  #### Leçons
+  - Configuration du rôle Hyper-V dans Windows Server 2016
+  - Configuration du stockage Hyper-V
+  - Configuration de la mise en réseau Hyper-V
+  - Configuration des ordinateurs virtuels Hyper-V
+
+
+  #### Atelier &#58; Mise en œuvre de la virtualisation des serveurs avec Hyper-V
+  - Installation du rôle serveur Hyper-V
+  - Configuration de la mise en réseau virtuel
+  - Création et configuration d’un ordinateur virtuel
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Configurer le rôle Hyper-V dans Windows Server 2016.
+  - Configurer le stockage Hyper-V.
+  - Configurer la mise en réseau Hyper-V.
+  - Configurer les ordinateurs virtuels Hyper-V.
+
+
+  ### Module 7&#58; Configuration des fonctionnalités réseau avancées.
+  Ce module explique comment mettre en œuvre une infrastructure réseau de pointe.
+  #### Leçons
+  - Présentation des fonctionnalités de mise en réseau de haute performance
+  - Configuration des fonctionnalités réseau avancées de Hyper-V
+
+
+  #### Atelier &#58; Configuration des fonctionnalités réseau avancées de Hyper-V
+  - Création et utilisation des commutateurs virtuels Hyper-V
+  - Configuration et utilisation des fonctionnalités avancées d’un commutateur virtuel
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Présenter les fonctionnalités de mise en réseau de haute performance.
+  - Configurer les fonctionnalités avancées de réseau Hyper-V
+
+
+  ### Module 8&#58; Mise en œuvre de la mise en réseau SDN (Software Defined Networking)
+  Ce module explique comment Mettre en œuvre le SDN (Software Defined Networking).
+  #### Leçons
+  - Vue d’ensemble de SDN
+  - Mise en œuvre de la virtualisation du réseau
+  - Mise en œuvre du Contrôleur du réseau
+
+
+  #### Atelier &#58; Déploiement Network Controller
+  - Préparation du déploiement Network Controller
+  - Déploiement Network Controller
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire le software-defined networking (SDN).
+  - Mettre en œuvre la virtualisation du réseau.
+  - Mettre en œuvre le contrôleur du réseau.
+
+
+  ### Module 9&#58; Mise en œuvre de l’accès à distance
+  Ce module explique comment configurer la connectivité pour les utilisateurs avec la fonctionnalité DirectAccess.
+  #### Leçons
+  - Présentation de l’accès à distance
+  - Mise en œuvre de DirectAccess
+  - Mise en œuvre de VPN
+
+
+  #### Atelier &#58; Mise en œuvre de DirectAccess
+  - Configuration de DirectAccess à l’aide de Getting Started Wizard
+  - Test de DirectAccess
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire les solutions d’accès à distance et les technologies communes.
+  - Mettre en œuvre DirectAccess.
+  - Mettre en œuvre des VPN.
+
+
+  ### Module 10&#58; Déploiement et gestion de Windows et des conteneurs Hyper-V
+  Ce module décrit les conteneurs Windows Server 2016. En outre, il explique comment déployer, installer, configurer et gérer des conteneurs dans Windows Server 2016.
+  #### Leçons
+  - Vue d’ensemble des conteneurs dans Windows Server 2016
+  - Préparation des conteneurs
+  - Installation, configuration et gestion des conteneurs en utilisant Docker
+
+
+  #### Atelier &#58; Installation et configuration de conteneurs
+  - Installation de Docker Enterprise Edition pour Windows serveur 2016
+  - Installation et configuration d’un conteneur IIS
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire les conteneurs dans Windows Server 2016
+  - Expliquer comment déployer des conteneurs
+  - Expliquer comment installer, configurer et gérer des conteneurs à l’aide de Docker
+
+
+  ### Module 11&#58; Mise en œuvre d’un clustering de basculement
+  Ce module explique comment mettre en œuvre le clustering de basculement afin de fournir une haute disponibilité aux services réseau et aux applications.
+  #### Leçons
+  - Présentation du clustering de basculement
+  - Mise en œuvre d’un cluster de basculement
+  - Configuration des applications et des services à haut niveau de disponibilité sur un cluster de basc
+  - Maintien d’un cluster de basculement
+  - Mise en œuvre d’un cluster étendu
+
+
+  #### Atelier &#58; Mise en œuvre d’un clustering de basculement
+  - Configuration du stockage iSCSI
+  - Configuration d’un cluster de basculement
+  - Déploiement et configuration d’un serveur de fichiers à haut niveau de disponibilité
+  - Validation du déploiement d’un serveur de fichiers hautement disponible
+  - Configuration de la mise à jour adaptée aux clusters sur le cluster de basculement
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Expliquer le concept du clustering de basculement.
+  - Mettre en œuvre un cluster de basculement.
+  - Configurer des applications et des services à haut niveau de disponibilité sur un cluster de basculement.
+  - Assurer la maintenance d’un cluster de basculement.
+  - Mettre en œuvre un cluster de basculement étendu.
+
+
+  ### Module 12&#58; Mise en œuvre d’un clustering de basculement avec Windows Server 2016 Hyper-V
+  Ce module explique comment déployer et gérer des ordinateurs virtuels Hyper-V dans un cluster de basculement.
+  #### Leçons
+  - Vue d’ensemble de l’intégration d’Hyper-V Server 2016 avec clustering de basculement
+  - Mise en œuvre des ordinateurs virtuels Hyper-V sur les clusters de basculement
+  - Mise en œuvre de la migration des ordinateurs virtuels Windows Server 2016 Hyper-V
+  - Mise en œuvre du réplica Hyper-V
+
+
+  #### Atelier &#58; Mise en œuvre d’un clustering de basculement avec Windows Server 2016 Hyper-V
+  - Environnement de test du clustering de basculement Hyper-V
+  - Configuration du réplica Hyper-V
+  - Configuration d’un cluster avec basculement pour Hyper-V
+  - Configuration d’un ordinateur virtuel à haut niveau de disponibilité
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire comment Windows Server 2016 Hyper-V intègre le clustering de basculement
+  - Mettre en œuvre des ordinateurs virtuels Hyper-V sur les clusters de basculement
+  - Mettre en œuvre la migration des ordinateurs virtuels Hyper-V
+  - Mettre en œuvre le réplica Hyper-V

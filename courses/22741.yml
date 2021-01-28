@@ -1,0 +1,283 @@
+### YamlMime:Course
+title: Mise en réseau avec Windows Server 2016
+metadata:
+  title: 'Course 22741-B: Mise en réseau avec Windows Server 2016'
+  description: 'Course 22741-B: Mise en réseau avec Windows Server 2016'
+uid: course.22741
+courseNumber: '22741-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: planifier et implémenter un réseau IPv4
+- skill: implémenter le protocole DHCP (Dynamic Host Configuration Protocol)
+- skill: implémenter IPv6
+- skill: implémenter le DNS (Domain Name System)
+- skill: implémenter et gérer la gestion des adresses IP (IPAM)
+- skill: préparer un accès à distance
+- skill: implémenter DirectAccess
+- skill: implémenter des réseaux privés virtuels (Virtual Private Network)
+- skill: implémenter la mise en réseau pour les succursales
+- skill: configurer les fonctionnalités réseau avancées
+- skill: implémenter le Software Defined Networking
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- fr
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-741
+summary: |-
+  Ce cours en salle de classe de 5 jours fournit les connaissances réseau fondamentales nécessaires au déploiement et à la prise en charge de Windows Server 2016 dans la plupart des organisations. Il couvre les fondamentaux IP, les technologies d’accès à distance et du contenu plus avancé, y compris le Software Defined Networking.
+
+  #### Audience profile
+  Ce cours s’adresse aux professionnels de l’informatique existants qui ont une certaine connaissance et de l’expérience en réseau et qui recherchent un cours unique de cinq jours donnant un aperçu des technologies réseau de base et avancées dans Windows Server 2016. Cette audience comprend généralement des&#58;
+  - les administrateurs réseau qui cherchent à approfondir leurs connaissances et à en apprendre davantage sur les nouveaux changements technologiques de mise en réseau et sur les fonctionnalités Windows Server 2016;
+  - les administrateurs de systèmes ou d’infrastructures ayant une connaissance générale des réseaux qui cherchent à acquérir des connaissances sur les réseaux de base et de pointe et des compétences sur Windows Server 2016; 
+  
+  le public secondaire de ce cours est constitué des professionnels de l’informatique qui souhaitent passer l’examen MCSA 70-741&#58; Mise en réseau avec Windows Server 2016.
+prerequisitesSection: |-
+  In addition to professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - Experience working with Windows Server 2008 or Windows Server 2012
+  - Experience working in a Windows Server infrastructure enterprise environment
+  - Knowledge of the Open Systems Interconnection (OSI) model
+  - Understanding of core networking infrastructure components and technologies such as cabling, routers, hubs, and switches
+  - Familiarity with networking topologies and architectures such as local area networks (LANs), wide area networks (WANs) and wireless networking
+  - Some basic knowledge of the TCP/IP protocol stack, addressing and name resolution
+  - Experience with and knowledge of Hyper-V and virtualization
+  - Hands-on experience working with the Windows client operating systems such as Windows 8.1 or Windows 10
+  
+  Students can meet the prerequisites by attending the following course, or by having knowledge and skills equivalent to&#58;
+  - [10967A&#58; Fundamentals of a Windows Server Infrastructure](https://www.microsoft.com/learning/course.aspx?cid=10967)
+outlineSection: |-
+  ### Module 1&#58; Planification et implémentation d’un réseau IPv4
+  Ce module explique comment planifier et mettre en œuvre un schéma d’adressage IPv4 pour répondre aux besoins organisationnels. Il explique également comment utiliser des outils et des techniques de mise en réseau essentiels pour configurer et dépanner les problèmes liés aux réseaux basés sur IPv4.
+  #### Leçons
+  - Planification de l’adressage IPv4
+  - Configuration d’un hôte IPv4
+  - Gestion et résolution des problèmes de connectivité réseau IPv4
+
+
+  #### Atelier &#58; Planification d’un réseau IPv4
+  - Planification d’affectations d’adresses IPv4
+
+
+  #### Atelier &#58; Mise en œuvre et dépannage d’un réseau IPv4
+  - Vérification de la communication IPv4
+  - Résolution des problèmes liés à IPv4
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Planifier l’adressage IPv4.
+  - Configurer un hôte IPv4.
+  - Gérer et résoudre les problèmes liés à la connectivité réseau IPv4.
+
+
+  ### Module 2&#58; Implémentation de DHCP
+  Ce module explique comment planifier et implémenter DHCP pour prendre en charge l’infrastructure IPv4.
+  #### Leçons
+  - Présentation du rôle serveur DHCP
+  - Déploiement de DHCP
+  - Gestion et dépannage DHCP
+
+
+  #### Atelier &#58; Implémentation de DHCP
+  - Planification de la mise en œuvre d’un serveur DHCP
+  - Implémentation de la configuration DHCP
+  - Validation de la mise en œuvre DHCP
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Expliquer le rôle du serveur DHCP
+  - Déployer DHCP
+  - Gérer et dépanner DHCP
+
+
+  ### Module 3&#58; Implémentation de IPv6
+  Ce module explique comment implémenter IPv6, et comment intégrer les réseaux IPv6 et IPv4.
+  #### Leçons
+  - Vue d’ensemble de l’adressage IPv6
+  - Configuration d’un hôte IPv6
+  - Implémentation de la cohabitation des protocoles IPv4 et IPv6
+  - La transition d’IPv4 à IPv6
+
+
+  #### Atelier &#58; Configuration et évaluation des technologies de transition IPv6
+  - Examen de la configuration IPv6 par défaut
+  - Implémentation de DHCPv6
+  - Configuration de l’intégration réseau en utilisant ISATAP
+  - Configuration de la connectivité native IPv6
+  - Configuration de la connectivité 6to4
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire les fonctionnalités et les avantages d’IPv6
+  - Configurer un hôte IPv6
+  - Mettre en œuvre la cohabitation des réseaux IPv4 et IPv6
+  - Passer d’un réseau IPv4 à un réseau IPv6
+
+
+  ### Module 4&#58; Implémentation de DNS
+  Ce module explique comment installer, configurer et dépanner le système DNS dans le réseau de l’organisation.
+  #### Leçons
+  - Implémentation de serveurs DNS
+  - La configuration des zones dans DNS
+  - La configuration de la résolution de noms entre les zones DNS
+  - Configuration de l’intégration de DNS avec Active Directory Domain Services (AD DS)
+  - Configuration des paramètres DNS avancés
+
+
+  #### Atelier &#58; La planification et l’implémentation de la résolution de noms en utilisant DNS
+  - Planification de la résolution de noms DNS
+  - Implémentation des serveurs et des zones DNS
+
+
+  #### Atelier &#58; Intégration du système DNS avec Active Directory
+  - Intégration du système DNS avec Active Directory
+
+
+  #### Atelier &#58; Configuration des paramètres DNS avancés
+  - Configuration des stratégies DNS
+  - Validation de la mise en œuvre DNS
+  - Résolution des problèmes DNS
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - implémenter des serveurs DNS
+  - configurer des zones dans DNS
+  - configurer la résolution de noms entre les zones DNS
+  - configurer l’intégration de DNS avec AD DS
+  - configurer les paramètres DNS avancés
+
+
+  ### Module 5&#58; Implémentation et gestion de IPAM
+  Ce module explique comment implémenter et gérer la fonctionnalité IPAM dans Windows Server 2016. Ce module présente également l’utilisation de IPAM pour gérer des services comme DHCP et DNS.
+  #### Leçons
+  - Vue d’ensemble d’IPAM
+  - Déploiement d’IPAM
+  - Gestion des espaces d'adressage IP en utilisant IPAM
+
+
+  #### Atelier &#58; Implémentation d’IPAM
+  - Installation du composant serveur IPAM
+  - Approvisionnement du serveur IPAM
+  - Gestion des espaces d'adressage IP en utilisant IPAM
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire la fonctionnalité et les composants IPAM
+  - Déploiement d’IPAM
+  - Gérer les espaces des adresses IP en utilisant IPAM
+
+
+  ### Module 6&#58; Accès à distance à Windows Server 2016
+  Ce module explique comment planifier l’accès à distance dans Windows Server 2016 et comment implémenter le proxy d’application Web.
+  #### Leçons
+  - Vue d’ensemble de l’accès à distance
+  - Implémentation du proxy d’application Web
+
+
+  #### Atelier &#58; Implémentation du proxy d’application Web
+  - Implémentation du proxy d’application Web
+  - Validation du déploiement du proxy d’application Web
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - décrire l’accès à distance
+  - implémenter le proxy d’application Web.
+
+
+  ### Module 7&#58; Implémentation de DirectAccess
+  Ce module explique comment implémenter et gérer DirectAccess dans Windows Server 2016.
+  #### Leçons
+  - Vue d’ensemble de DirectAccess
+  - Implémentation DirectAccess à l’aide de l’Assistant Mise en route
+  - Mise en œuvre et gestion d'une infrastructure DirectAccess avancée
+
+
+  #### Atelier &#58; Implémentation DirectAccess à l’aide de l’Assistant Mise en route
+  - Vérification de la disponibilité pour un déploiement DirectAccess
+  - Configuration de DirectAccess
+  - Validation du déploiement DirectAccess
+
+
+  #### Atelier &#58; Déploiement d’une solution DirectAccess avancée
+  - Préparation de l’environnement pour DirectAccess
+  - Implémentation de l’infrastructure DirectAccess avancée
+  - Validation du déploiement DirectAccess
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Expliquer DirectAccess et comment il fonctionne
+  - Implémentation de DirectAccess à l’aide de l’Assistant de Mise en route
+  - Implémenter et gérer une infrastructure DirectAccess avancée
+
+
+  ### Module 8&#58; Implémentation de VPN
+  Ce module explique comment mettre en œuvre et gérer l’accès à distance dans Windows Server 2016 à l’aide de réseaux privés virtuels.
+  #### Leçons
+  - Planification de VPN
+  - Implémentation de VPN
+
+
+  #### Atelier &#58; Implémentation de VPN
+  - Implémentation de VPN
+  - Validation du déploiement des VPN
+  - Dépannage de l’accès VPN
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Planifiez une solution VPN
+  - Implémenter des VPN
+
+
+  ### Module 9&#58; Implémentation de la mise en réseau pour les succursales.
+  Ce module explique comment mettre en œuvre des services de réseau pour les succursales.
+  #### Leçons
+  - Fonctionnalités et considérations de la mise en réseau des succursales
+  - Mise en œuvre du système de fichiers distribués (DFS) pour les succursales
+  - Implémentation de BranchCache dans les succursales.
+
+
+  #### Atelier &#58; Implémentation de DFS dans les succursales.
+  - Implémentation de DFS
+  - Validation du déploiement
+
+
+  #### Atelier &#58; Implémentation de BranchCache
+  - Implémentation de BranchCache
+  - Validation du déploiement
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - décrire les caractéristiques et les considérations de mise en réseau pour les succursales
+  - implémenter le DFS dans les succursales
+  - implémenter BranchCache dans les succursales
+
+
+  ### Module 10&#58; Configuration des fonctionnalités réseau avancées.
+  Ce module explique comment mettre en œuvre une infrastructure réseau de pointe.
+  #### Leçons
+  - Présentation des fonctionnalités de mise en réseau de haute performance
+  - Configuration des fonctionnalités réseau avancées de Microsoft Hyper-V
+
+
+  #### Atelier &#58; Configuration des fonctionnalités réseau avancées de Hyper-V
+  - Création et utilisation des commutateurs virtuels Hyper-V
+  - Configuration et utilisation des fonctionnalités avancées d’un commutateur virtuel
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire l’amélioration du travail en réseau à haute performance dans Windows Server 2016.
+  - Configurer les fonctionnalités réseau avancées de Microsoft Hyper-V.
+
+
+  ### Module 11&#58; Implémentation de la mise en réseau SDN (Software Defined Networking)
+  Ce module explique comment mettre en œuvre le SDN.
+  #### Leçons
+  - Vue d’ensemble de SDN
+  - Implémentation de la virtualisation du réseau
+  - Implémentation du Contrôleur du réseau
+
+
+  #### Atelier &#58; Déploiement Network Controller
+  - Préparation du déploiement Network Controller
+  - Déploiement Network Controller
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire SDN
+  - Implémenter la virtualisation du réseau
+  - Implémenter le contrôleur du réseau

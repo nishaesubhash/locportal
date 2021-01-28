@@ -1,0 +1,284 @@
+### YamlMime:Course
+title: Designing and Deploying Microsoft Exchange Server 2016/2019
+metadata:
+  title: 'Course 20345-2-B: Designing and Deploying Microsoft Exchange Server 2016/2019'
+  description: 'Course 20345-2-B: Designing and Deploying Microsoft Exchange Server 2016/2019'
+uid: course.20345-2
+courseNumber: '20345-2-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Plan for Exchange Server deployments.
+- skill: Plan and deploy Exchange Server hardware, virtualization, mailbox databases, and public folders.
+- skill: Plan message transport in Exchange Server.
+- skill: Plan and deploy Client Access services in Exchange Server.
+- skill: Design and implement a highly available Exchange Server environment.
+- skill: Maintain Exchange Server by using Managed Availability and Desired State Configuration (DSC).
+- skill: Plan for messaging security and design and implement Active Directory Rights Management Services (AD RMS) and Microsoft Azure RMS in Exchange Server.
+- skill: Design and implement message retention and archiving.
+- skill: Design and implement data loss prevention policies, In-Place Hold, and eDiscovery.
+- skill: Design and implement messaging coexistence among Exchange Server organizations.
+- skill: Plan and implement the upgrade from previous versions of Exchange Server to Exchange Server 2019.
+- skill: Plan a hybrid Exchange deployment.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365
+exams:
+- uid: exam.70-345
+summary: |-
+  This course provides experienced Exchange Server administrators with the knowledge to design and implement an Exchange Server messaging environment. The course covers how to design and configure advanced components in an Exchange Server deployment such as site resiliency, advanced security, compliance, archiving and discovery solutions, coexistence with other Exchange organizations or Exchange Online, and migration from previous versions of Exchange server. The course also provides guidelines, best practices, and considerations that will help optimize Exchange Server deployments.
+
+  #### Audience profile
+  The audience for this course includes IT professionals who are experienced messaging administrators, messaging architects, or consultants. This course is designed for people in an enterprise environment who are responsible for designing and deploying Exchange Server solutions, including environments that contain previous versions of Exchange Server or Exchange Online. Students taking this course are expected to have experience with Exchange Server 2019 or previous versions of Exchange Server.
+prerequisitesSection: |-
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+   - Attended course 20345-1B&#58; Administering Microsoft Exchange Server 2016/2019 or have equivalent knowledge
+   - Minimum of two years of experience working with any version of Exchange Server
+   - Minimum of six months of experience working with Exchange Server 2013 or Exchange Server 2016
+   - Minimum of two years of experience administering the Windows Server operating system, including Windows Server 2016 or Windows Server 2019
+   - Minimum of two years of experience working with Active Directory Domain Services (AD DS)
+   - Minimum of two years of experience working with name resolution, including Domain Name System (DNS)
+   - Experience working with certificates, including public key infrastructure (PKI) certificates
+   - Experience working with Windows PowerShell
+outlineSection: |-
+  ### Module  1&#58; Planning Exchange Server deployments
+  This module explains the key features of Exchange Server and explains how to gather business requirements. It also explains how to plan for an Exchange Server deployment and the migration of Unified Messaging to Cloud Voicemail.
+  
+  #### Lessons
+  - New features in Exchange Server 2019
+  - Gathering business requirements for an Exchange Server deployment
+  - Planning for an Exchange Server deployment
+  - Planning the migration of Unified Messaging(UM) to Cloud Voicemail
+
+
+  #### Lab &#58; Planning Exchange Server 2019 deployments
+  - Evaluating an existing messaging infrastructure
+  - Identifying requirements
+  - Discussion&#58; Deployment design for Exchange Server 2019
+
+  After completing this module, students will be able to&#58;
+  - Describe the new features in Exchange Server 2019
+  - Describe how to gather business requirements for an Exchange Server deployment
+  - Plan for an Exchange Server deployment
+  - Plan how to migrate Exchange Server 2016 UM to Cloud Voicemail
+
+
+  ### Module  2&#58; Planning and deploying Exchange Server Mailbox services
+  This module explains how to plan and implement Exchange Server hardware, Exchange Server virtualization, Azure integration, and public folders.
+  #### Lessons
+  - Planning Exchange Server hardware requirements
+  - Planning Exchange Server for virtualization and Microsoft Azure integration
+  - Planning and implementing public folders
+
+
+  #### Lab &#58; Planning and implementing Exchange Server mailbox servers, databases, and public folders
+  - Planning mailbox server configuration and location
+  - Planning for mailbox databases
+  - Implementing mailbox databases
+  - Planning and implementing public folders
+
+  After completing this module, students will be able to&#58;
+  - Plan and implement Exchange Server hardware
+  - Plan for Exchange Server virtualization and Microsoft Azure integration
+  - Plan and implement public folders
+
+
+  ### Module  3&#58; Planning message transport
+  This module explains how to plan and implement mail routing internally as well as from and to the internet. This module also describes transport-related tasks in the organization.
+  #### Lessons
+  - Designing message routing
+  - Designing transport services
+  - Designing the message-routing perimeter
+  - Designing and implementing transport compliance
+
+
+  #### Lab &#58; Planning message transport
+  - Planning for a redundant and secure message transport
+  - Planning for transport compliance
+  - Implementing transport compliance
+
+  After completing this module, students will be able to&#58;
+  - Design message routing
+  - Design transport services
+  - Design external message routing
+  - Design and implement transport compliance
+
+
+  ### Module  4&#58; Planning and deploying client access
+  This module explains how to plan and implement Exchange Server clients, client access, Microsoft Office Online Server, and coexistence of Microsoft SharePoint with Exchange Server. It also explains the design and implementation of external client access.
+  #### Lessons
+  - Planning for Exchange Server clients
+  - Planning for client access
+  - Planning and implementing Office Online Server
+  - Planning and implementing coexistence of SharePoint 2019 with Exchange Server 2019
+  - Designing external client access
+
+
+  #### Lab &#58; Planning and deploying client access solutions
+  - Planning and configuring namespaces
+  - Planning and configuring client access services options
+  - Planning and deploying Office Online Server
+  - Planning and implementing reverse proxy
+
+  After completing this module, students will be able to&#58;
+  - Plan for Exchange Server clients
+  - Plan for client access
+  - Plan and implement Office Online Server
+  - Plan and implement SharePoint and with Exchange Server coexistence
+  - Design external client access
+
+
+  ### Module  5&#58; Designing and implementing high availability
+  This module explains how to plan and implement high availability for Exchange Server. It also explains how to plan for load balancing. Finally, it explains how to plan and implement site resilience.
+  #### Lessons
+  - Planning high availability for Exchange Server
+  - Planning for load balancing
+  - Planning for site resilience
+
+
+  #### Lab &#58; Designing and implementing high availability
+  - Planning high availability and site resilience
+  - Creating a site-resilient DAG
+  - Validating site resilience
+  - Creating a lagged database copy
+  - Recovering data from a lagged database copy
+
+  After completing this module, students will be able to&#58;
+  - Plan high availability for an Exchange Server
+  - Plan for load balancing in an Exchange Server deployment
+  - Plan for site resilience in an Exchange Server deployment
+
+
+  ### Module  6&#58; Maintaining Exchange Server
+  This module explains how to maintain Exchange Server by using Managed Availability and DSC.
+  #### Lessons
+  - Using Managed Availability to improve high availability
+  - Implementing DSC
+
+
+  #### Lab &#58; Maintaining Exchange Server
+  - Using Windows PowerShell to investigate and configure Managed Availability
+  - Implementing DSC
+
+  After completing this module, students will be able to&#58;
+  - Use Managed Availability to improve high availability
+  - Implement DSC
+
+
+  ### Module  7&#58; Designing messaging security
+  This module explains how to plan for messaging security, and how to design and implement AD RMS and Azure RMS in an Exchange Server organization.
+  #### Lessons
+  - Planning messaging security
+  - Designing and implementing AD RMS and Azure RMS
+
+
+  #### Lab &#58; Designing messaging security
+  - Planning messaging security
+  - Implementing AD RMS
+  - Integrating AD RMS with Exchange Server
+  - Creating a message transport rule to protect email
+
+  After completing this module, students will be able to&#58;
+  - Plan messaging security
+  - Design and implement AD RMS and Azure RMS
+
+
+  ### Module  8&#58; Designing and implementing message retention and archiving
+  This module explains the purpose of archiving and messaging records management. It also explains how to design and implement In-Place archiving and message retention.
+  #### Lessons
+  - Overview of archiving and messaginng records management
+  - Designing In-Place Archiving
+  - Designing and implementing message retention
+
+
+  #### Lab &#58; Designing and implementing message retention and archiving
+  - Designing message retention and archiving
+  - Implementing message retention and archiving
+
+  After completing this module, students will be able to&#58;
+  - Explain the purpose of archiving and messaging records management
+  - Design and implement In-Place archiving
+  - Design and implement message retention
+
+
+  ### Module  9&#58; Designing and implementing messaging compliance
+  This module explains how to design and implement data loss prevention policies, In-Place Hold, and In-Place eDiscovery.
+  #### Lessons
+  - Designing and implementing data loss prevention policies
+  - Designing and implementing In-Place Hold
+  - Designing and implementing In-Place eDiscovery
+
+
+  #### Lab &#58; Designing and implementing messaging compliance
+  - Designing messaging compliance
+  - Implementing data los prevention
+  - Implementing In-Place eDiscovery
+  - Comparing messaging policy and compliance options
+
+  After completing this module, students will be able to&#58;
+  - Design and implement data los prevention
+  - Design and implement In-Place Hold
+  - Design and implement In-Place eDiscovery
+
+
+  ### Module  10&#58; Designing and implementing messaging coexistence
+  This module explains how to design and implement federation. It also explains how to design coexistence between Exchange Server organizations. Finally, it explains how to design and implement cross-forest mailbox moves.
+  #### Lessons
+  - Designing and implementing federation
+  - Designing coexistence between Exchange organizations
+  - Designing and implementing cross-forest mailbox moves
+
+
+  #### Lab &#58; Implementing messaging coexistence
+  - Implementing message-routing coexistence
+  - Migrating user mailboxes
+
+  After completing this module, students will be able to&#58;
+  - Design and implement federation
+  - Design the coexistence between Exchange Server organizations
+  - Design and implement cross-forest mailbox moves
+
+
+  ### Module  11&#58; Upgrading to Exchange Server 2019
+  This module provides an overview of the options you have when choosing to implement Exchange Server 2019, and provides details on how to upgrade an existing Exchange Server 2013 or Exchange Server 2016 organization to Exchange Server 2019.
+  #### Lessons
+  - Planning an upgrade from previous Exchange Server versions
+  - Implementing the upgrade from previous Exchange Server versions
+
+
+  #### Lab &#58; Upgrading from Exchange Server 2013 to Exchange Server 2019
+  - Documenting the Exchange Server 2013 organization
+  - Deploying Exchange Server 2019
+  - Upgrading from Exchange Server 2013 to Exchange Server 2019
+  - Removing Exchange Server 2013
+
+  After completing this module, students will be able to&#58;
+  - Plan an upgrade to Exchange Server 2019
+  - Implement the upgrade to Exchange Server 2019
+
+
+  ### Module  12&#58; Planning a hybrid Exchange Server deployment
+  This module explains the basics of a hybrid deployment and how to plan for authentication in a hybrid deployment. It also explains how to implement Microsoft Azure Active Directory (Azure AD) Connect, a hybrid development, and advanced functionality for hybrid deployments.
+  #### Lessons
+  - Basics of a hybrid deployment
+  - Planning and implementing a hybrid deployment
+  - Implementing Azure AD Connect
+  - Implementing a hybrid deployment
+  - Implementing advanced functionality for hybrid deployments
+
+
+  #### Lab &#58; Planning a hybrid Exchange deployment
+  - Creating a plan for hybrid Exchange deployment
+
+  After completing this module, students will be able to&#58;
+  - Explain the basics of a hybrid deployment
+  - Plan for authentication in a hybrid environment
+  - Implement Azure AD Connect
+  - Implement a hybrid deployment
+  - Implement advanced functionality for hybrid deployments

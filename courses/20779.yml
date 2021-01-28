@@ -1,0 +1,192 @@
+### YamlMime:Course
+title: Analyzing Data with Excel
+metadata:
+  title: 'Course 20779-B: Analyzing Data with Excel'
+  description: 'Course 20779-B: Analyzing Data with Excel'
+uid: course.20779
+courseNumber: '20779-B'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Explore and extend a classic Excel dashboard.
+- skill: Explore and extend an Excel data model.
+- skill: Pre-format and import a .CSV file.
+- skill: Import data from a SQL Server database
+- skill: Import data from a report.
+- skill: Create measures using advanced DAX functions.
+- skill: Create data visualizations in Excel.
+- skill: Create a Power BI dashboard with Excel.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- data-analyst
+products:
+- office-excel
+exams:
+- uid: exam.70-779
+summary: |-
+  The main purpose of the course is to give students the ability to add BI techniques to Excel data analysis. The course goes beyond the capabilities of tables and charts and uses Pivot Charts, the Excel Data Model, and Power BI.
+
+  #### Audience profile
+  This course is intended for students who are experienced with analyzing data with Excel and who wish to add BI techniques. 
+  
+  The course will likely be attended by SQL Server report creators who are interested in alternative methods of presenting data.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Basic knowledge of the Microsoft Windows operating system and its core functionality.
+  - Working knowledge of relational databases.
+  - Extensive knowledge of Excel spreadsheets including formulas, charts, filtering, sorting, and sub-totals.
+  - Basic knowledge of data analytics equivalent to having attended course 10994.
+outlineSection: |-
+  ### Module 1&#58; Data Analysis in Excel
+  This module looks at the classic Excel dashboard and at ways to extend it.
+  #### Lessons
+  - Classic Data Analysis with Excel
+  - Excel Pivot Tables
+  - Limitations of Classic Data Analysis
+
+
+  #### Lab &#58; Building a Classic Excel Dashboard
+  - Formatting Data
+  - Building a Pivot Table
+  - Adding pivot charts and a slicer
+
+  After completing this module, students will be able to&#58;
+  - Describe classic data analysis with Excel
+  - Describe Excel pivot tables
+  - Describe the limitations of classic data analysis with Excel
+
+
+  ### Module 2&#58; The Excel Data Model
+  This module looks at the classic Excel data model and at ways to extend it.
+  #### Lessons
+  - Using an Excel Data Model
+  - DAX
+
+
+  #### Lab &#58; Explore an Excel Data Model
+  - Create Calculated Columns
+  - Format Data Model Data
+  - Create Measures
+  - Analyze the Data
+
+  After completing this module, students will be able to&#58;
+  - Describe an Excel data model
+  - View data within an Excel data table
+  - Describe DAX
+
+
+  ### Module 3&#58; Importing Data from Files
+  This module looks at pre-formatting and importing CSV files.
+  #### Lessons
+  - Importing Data into Excel
+  - Shaping and Transforming Data
+  - Loading Data
+
+
+  #### Lab &#58; Importing Data from a CSV File
+  - Import and Transform Data from a CSV File
+  - Add Data from a Folder
+
+  After completing this module, students will be able to&#58;
+  - Import data into excel.
+  - Shape and transform data.
+  - Load data.
+
+
+  ### Module 4&#58; Importing Data from Databases
+  This module looks at how to import data into Excel from a SQL Server database.
+  #### Lessons
+  - Available Data Sources
+  - Previewing, Shaping, and Transforming Data
+  - Table Relationships and Hierarchies
+  - Loading Data
+
+
+  #### Lab &#58; Import Data from Multiple Sources
+  - Import Data from SQL Server
+  - Import Data from a CSV File
+  - Create a Data Table
+
+  After completing this module, students will be able to&#58;
+  - Identify available data sources.
+  - Preview, shape, and transform data.
+  - Explain table relationships and hierarchies.
+  - Load data from various sources.
+
+
+  ### Module 5&#58; Importing Data from Excel Reports
+  This module describes how to import data from a report.
+  #### Lessons
+  - Importing Data from Excel Reports
+  - Transforming Excel report Data
+
+
+  #### Lab &#58; Importing Data from a Report
+  - Import Data from Excel
+  - Transform the Excel Data
+  - Load the Data into an Excel Data Model
+
+  After completing this module, students will be able to&#58;
+  - Import data from Excel reports.
+  - Transform Excel report data.
+
+
+  ### Module 6&#58; Creating and Formatting Measures
+  This module describes how to create and format measures.
+  #### Lessons
+  - DAX
+  - Measures
+  - Advanced DAX Functions
+
+
+  #### Lab &#58; Creating Measures using Advanced DAX Functions
+  - Last year comparison
+  - Year to date
+  - Market Share
+
+  After completing this module, students will be able to&#58;
+  - Explain what DAX is and when to use it.
+  - Describe a measure.
+  - Use some of the advanced functions within DAX.
+
+
+  ### Module 7&#58; Visualizing Data in Excel
+  This module describes how to visualize data in Excel.
+  #### Lessons
+  - Pivot Charts
+  - Cube Functions
+  - Charts for Cube Functions
+
+
+  #### Lab &#58; Data Visualization in Excel
+  - Create a Tabular Report
+  - Create a Pivot Chart
+  - Add Slicers to Charts
+
+  After completing this module, students will be able to&#58;
+  - Create and refine a pivot chart.
+  - Describe cube functions and when to use them.
+  - Describe a number of charts for use with cube functions.
+
+
+  ### Module 8&#58; Using Excel with Power BI
+  This module describes how to use Excel with Power BI.
+  #### Lessons
+  - Power BI
+  - Uploading Excel Data to Power BI
+  - Power BI Mobile App
+
+
+  #### Lab &#58; Creating a Power BI Dashboard with Excel
+  - Uploading Excel Data
+  - Creating a Power BI Dashboard
+  - Using Power BI desktop
+
+  After completing this module, students will be able to&#58;
+  - Describe Power Bi and the various versions available.
+  - Upload Excel data to Power BI.
+  - Describe the Power BI App.

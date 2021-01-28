@@ -1,0 +1,252 @@
+### YamlMime:Course
+title: Configuration des services avancés de Windows Server® 2012
+metadata:
+  title: 'Course 22412-B: Configuration des services avancés de Windows Server® 2012'
+  description: 'Course 22412-B: Configuration des services avancés de Windows Server® 2012'
+uid: course.22412
+courseNumber: '22412-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: implémenter des services réseau avancés
+- skill: implémenter des services de fichiers avancés
+- skill: implémenter le contrôle d'accès dynamique
+- skill: implémenter des déploiements Active Directory Domain Services (AD DS) distribués
+- skill: implémenter des sites et de la réplication AD DS
+- skill: implémenter des services de certificats Active Directory (AD CS)
+- skill: implémenter des services AD RMS (Active Directory Rights Management Services)
+- skill: implémenter des services AD FS (Active Directory Federation Services)
+- skill: implémenter l'équilibrage de charge réseau (NLB)
+- skill: implémenter un clustering avec basculement
+- skill: implémenter le clustering avec basculement à l’aide d’Hyper-V
+- skill: implémenter une récupération d'urgence
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- fr
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-412
+summary: |-
+  La version de ce cours est établie sur la version finale de Windows Server 2012.
+  Apprenez comment mettre en service et configurer des services avancés à l'aide de Windows Server 2012, grâce à ce cours de cinq jours. Ce cours constitue la troisième partie d'une série de trois cours, qui fournit les qualifications et connaissances nécessaires pour implémenter une infrastructure principale de Windows Server 2012 dans un environnement d'entreprise existant. L'intégralité des trois cours couvrira l'implémentation, la gestion, la maintenance et la mise en route des services et de l'infrastructure dans un environnement de Windows Server 2012. Bien que les compétences et les tâches abordées dans ces trois cours se recoupent, ce cours couvrira principalement la configuration avancée et les tâches de services nécessaires pour déployer, gérer et entretenir une infrastructure Windows Server 2012, tels que les services de réseau avancés, les services de domaine Active Directory (AD DS), la gestion des identités, la gestion des droits, les services AD FS (Active Directory Federated Services), l'équilibrage de la charge réseau, le clustering avec basculement, la continuité des activités et la récupération d'urgence.
+  
+  Ce cours est destiné à préparer l'examen de Microsoft Certified Solutions Associate (MCSA) pour Windows Server 2012 &#58; « 70-412 &#58; Configuration des services avancés de Windows Server 2012 ». dont vous pouvez consulter les détails ici http://www.microsoft.com/learning/exam-70-412.aspx
+
+  #### Audience profile
+  Ce cours s'adresse à des professionnels de l'informatique possédant une expérience pratique d'implémentation, de gestion et de maintenance d'une infrastructure Windows Server 2012 dans un environnement d'entreprise existant, et souhaitant acquérir les qualifications et les connaissances nécessaires pour effectuer la gestion et l'approvisionnement de services avancés dans cet environnement Windows Server 2012. Les candidats appropriés sont en général des administrateurs système expérimentés qui possèdent une expérience réelle de travail dans un environnement Windows Server 2008, Windows Server 2008 R2 ou Windows Server 2012.
+  
+  Ce cours peut s'adresser en second lieu à des candidats qui prévoient de passer l'examen 70-412&#58; Configuration des services avancés de Windows Server 2012 ; ou qui souhaitent acquérir le diplôme de Microsoft Certified Solutions Associate (MCSA).
+prerequisitesSection: |-
+  Pour suivre ce cours, les stagiaires doivent posséder &#58;
+  - Une solide expérience de travail dans un environnement d'entreprise Windows Server 2008, Windows Server 2008 R2 ou Windows Server 2012
+  - Une expérience réelle d'implémentation, de gestion et de configuration d'une infrastructure de réseau AD DS dans un environnement d'entreprise
+  - Des connaissances correspondant aux cours&#58; 22410B&#58; Installation et configuration de Windows Server 2012 ; et 22411B &#58; Administration de Windows Server 2012
+outlineSection: |-
+  ### Module 1&#58; Implémentation des services réseau avancés
+  Ce module décrit la configuration des fonctionnalités avancée dans le système DNS (Domain Name System) et le protocole DHCP (Dynamic Host Configuration Protocol) avec Windows Server 2012, et couvre la gestion des adresses IP (IPAM).
+  #### Leçons
+  - Configuration des fonctionnalités DHCP avancées
+  - Configuration des paramètres DNS avancés
+  - Implémentation de la réplication IPAM
+
+
+  #### Atelier &#58; Implémentation des services réseau avancés
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Configurer les services DNS avancés
+  - Configurer les services DHCP avancés
+  - Implémentez la protection IPAM
+
+
+  ### Module 2&#58; Implémentation des services de fichiers avancés
+  Ce module décrit la configuration et la gestion de iSCSI et BranchCache, et l'implémentation des fonctionnalités Windows 2012 qui optimisent l'utilisation du stockage, tels que le Gestionnaire de ressources du serveur de fichiers, la classification des fichiers et duplication de données.
+  #### Leçons
+  - Configuration du stockage iSCSI
+  - Configuration de la fonctionnalité BranchCache
+  - Optimisation de l'utilisation du stockage
+
+
+  #### Atelier &#58; Implémentation des services de fichiers avancés
+
+  #### Atelier &#58; Implémentation de la fonctionnalité BranchCache
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - configurer le stockage iSCSI
+  - configurer la fonctionnalité BranchCache
+  - optimiser l'utilisation du stockage
+
+
+  ### Module 3&#58; Implémentation du contrôle d'accès dynamique
+  Ce module décrit l'organisation et l'implémentation du contrôle d'accès dynamique.
+  #### Leçons
+  - Vue d'ensemble du contrôle d'accès dynamique
+  - Planification du contrôle d'accès dynamique
+  - Déploiement du contrôle d'accès dynamique
+
+
+  #### Atelier &#58; Implémentation du contrôle d'accès dynamique
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Planifier le contrôle d'accès dynamique
+  - Déployer le contrôle d'accès dynamique
+
+
+  ### Module 4&#58; Implémentation des déploiements de services de domaine Active Directory distribués
+  Ce module décrit les composants d'un déploiement AD DS extrêmement complexe qui comprend l'implémentation d'un déploiement AD DS distribué et la configuration d'approbations de forêt AD DS.
+  #### Leçons
+  - Vue d'ensemble des déploiements AD DS distribués
+  - Déploiement d'un environnement AD DS distribué
+  - Configuration d'approbations AD DS
+
+
+  #### Atelier &#58; Implémentation des déploiements AD DS complexes
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Décrire et comprendre les déploiements AD DS distribués
+  - Implémenter un déploiement AD DS distribué
+  - Configurer des approbations AD DS
+
+
+  ### Module 5&#58; Mise en œuvre des sites Active Directory Domain Services (AD DS) et de la réplication
+  Ce module décrit le fonctionnement de la réplication dans un environnement AD DS de Windows Server 2012, notamment via la configuration des sites AD DS vous permettant d'optimiser le trafic réseau AD DS ainsi que la configuration et le contrôle de la réplication AD DS.
+  #### Leçons
+  - Vue d'ensemble de la réplication AD DS
+  - Configuration des sites AD DS
+  - Configuration et contrôle de la réplication AD DS
+
+
+  #### Atelier &#58; Implémentation des sites et de la réplication AD DS
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Décrire la réplication AD DS
+  - Configurer des sites AD DS
+  - Configurez et surveillez la réplication des services de domaine Active Directory
+
+
+  ### Module 6&#58; Implémentation des services de certificats Active Directory
+  Ce module décrit les composants et les concepts de l'infrastructure à clé publique (PKI). Il couvre l'implémentation d'une infrastructure d'autorité de certification, la planification et l'implémentation du déploiement d'un modèle de certificat à l'aide d'une autorité de certification AD CS, et la planification et l'implémentation de la distribution et la révocation de certificats.
+  #### Leçons
+  - Présentation de l'infrastructure à clé publique (PKI)
+  - Déploiement d'autorités de certification
+  - Déploiement et configuration de la hiérarchie d'autorités de certification
+  - Déploiement et gestion de modèles de certificats
+  - Implémentation de la distribution et de la révocation de certificats
+  - Gestion de la récupération de certificats
+
+
+  #### Atelier &#58; Déploiement et gestion de certificats
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire PKI
+  - déployer des autorités de certification
+  - déployer et configurer la hiérarchie d'autorités de certification 
+  - déployer et gérer des modèles de certificats
+  - implémenter la distribution et la révocation de certificats
+  - gérer la récupération de certificats
+
+
+  ### Module 7&#58; Implémentation des services AD RMS (Active Directory Rights Management Services)
+  Ce module décrit les fonctionnalités et caractéristiques AD RMS. Il explique l'utilisation de AD RMS pour configurer la protection du contenu, ainsi que le déploiement et la gestion d'une infrastructure d'AD RMS.
+  #### Leçons
+  - Vue d'ensemble d'AD RMS
+  - Déploiement et gestion d'une infrastructure d'AD RMS
+  - Configuration de la protection du contenu AD RMS
+  - Configuration d'un accès externe à AD RMS
+
+
+  #### Atelier &#58; Implémentation AD RMS
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Décrire AD RMS
+  - Déployer et gérer une infrastructure d'AD RMS
+  - Configurer la protection du contenu AD RMS
+  - Configurer un accès externe à AD RMS
+
+
+  ### Module 8&#58; Implémentation des services AD FS (Active Directory Federation Services)
+  Ce module fournit des scénarios d'application professionnelle de fédération d'identités et décrit l'utilisation des services AD FS pour répondre à de tels scénarios. Il explique comment configurer les conditions préalables à AD FS, déployer des services AD FS, activer l'authentification unique (SSO) pour une organisation et activer l'authentification unique entre des partenaires commerciaux fédérés.
+  #### Leçons
+  - Vue d'ensemble d'AD FS
+  - Déploiement d'AD FS
+  - Implémentation AD FS pour une organisation simple
+  - Déploiement AD FS dans un scénario de fédération B2B
+
+
+  #### Atelier &#58; Implémentation AD FS
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Décrire AD FS
+  - Déployer AD FS
+  - Implémenter AD FS pour une organisation simple
+  - Déployer AD FS dans un scénario de fédération interentreprises (B2B)
+
+
+  ### Module 9&#58; Implémentation de l'équilibrage de la charge réseau
+  Ce module décrit la planification et l'implémentation de l'équilibrage de la charge réseau (NLB). Il couvrira la gestion et la configuration d'un cluster NLB et la validation de la haute disponibilité pour un cluster NLB.
+  #### Leçons
+  - Vue d'ensemble de NLB
+  - Configuration d'un cluster NLB
+  - Planification d'une implémentation NLB
+
+
+  #### Atelier &#58; Implémentation de l'équilibrage de la charge réseau
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Configurer un cluster NLB
+  - Planifier une implémentation NLB
+
+
+  ### Module 10&#58; Implémentation du clustering avec basculement
+  Ce module décrit les fonctionnalités de clustering avec basculement dans Windows Server 2012. Il explique l'implémentation d'un cluster de basculement, la configuration des applications et services hautement disponibles sur un cluster de basculement, la maintenance d'un cluster de basculement et l'utilisation de nouvelles fonctionnalités de maintenance comme la mise à jour adaptée aux clusters (CAU). Il couvrira également l'implémentation d'un clustering avec basculement multisite.
+  #### Leçons
+  - Vue d'ensemble du clustering avec basculement
+  - Implémentation d'un clustering avec basculement
+  - Configuration d'applications et de services hautement disponibles sur un clustering avec basculement
+  - Maintenance d'un cluster de basculement
+  - Implémentation d'un cluster avec basculement multisite
+
+
+  #### Atelier &#58; Implémentation du clustering avec basculement
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Implémenter un cluster avec basculement
+  - Configurer des applications et des services hautement disponibles sur un clustering avec basculement
+  - Assurer la maintenance d'un cluster avec basculement
+  - Implémenter un cluster avec basculement multisite
+
+
+  ### Module 11&#58; Implémentation du clustering avec basculement à l'aide d'Hyper-V
+  Ce module décrit les options permettant de rendre les ordinateurs virtuels hautement disponibles. Il expliquel'implémentation des ordinateurs virtuels dans un cluster avec basculement déployé sur un hôte et le déplacement d'un ordinateur virtuel ou de son stockage. En outre, il fournit une vue d'ensemble générale de System Center Virtual Machine manager (SCVMM) 2012.
+  #### Leçons
+  - Vue d'ensemble de l'intégration d'Hyper-V au clustering avec basculement
+  - Implémentation des ordinateurs virtuels Hyper-V sur des clusters avec basculement
+  - Implémentation des déplacements d'ordinateurs virtuels Hyper-V
+  - Gestion des environnements virtuels Hyper-V à l'aide de VMM
+
+
+  #### Atelier &#58; Implémentation du clustering avec basculement à l'aide d'Hyper-V
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Décrire l'intégration d'Hyper-V au clustering avec basculement
+  - Implémenter des ordinateurs virtuels Hyper-V sur des clusters avec basculement
+  - Implémenter des déplacements d'ordinateurs virtuels Hyper-V
+  - Gérer des environnements virtuels Hyper-V à l'aide de VMM
+
+
+  ### Module 12&#58; Implémentation de la récupération d'urgence
+  Ce module décrit les considérations nécessaires pour implémenter une solution de récupération d'urgence ainsi que la planification et l'implémentation d'une solution de sauvegarde pour Windows Server 2012. En outre, il explique la planification et l'implémentation du serveur et de la récupération de données à l'aide de la sauvegarde de Windows Server et des services de sauvegarde Microsoft Online.
+  #### Leçons
+  - Vue d'ensemble de la récupération d'urgence
+  - Implémentation de l'utilitaire de sauvegarde de Windows Server
+  - Implémentation de la récupération de données et de serveurs
+
+
+  #### Atelier &#58; Implémentation des fonctionnalités de sauvegarde et de restauration de Windows Server
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - Décrire la récupération d'urgence
+  - Implémenter la sauvegarde de Windows Server à l'aide de la sauvegarde Windows Server et des services de sauvegarde Microsoft Online
+  - Implémenter la récupération de données et de serveurs

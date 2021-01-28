@@ -1,0 +1,273 @@
+### YamlMime:Course
+title: Verwalten von Windows Server® 2012
+metadata:
+  title: 'Course 21411-D: Verwalten von Windows Server® 2012'
+  description: 'Course 21411-D: Verwalten von Windows Server® 2012'
+uid: course.21411
+courseNumber: '21411-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Bereitstellen, Verwalten und Warten von Servern
+- skill: Einrichten von Datei- und Druckdiensten
+- skill: Konfigurieren von Netzwerkdiensten und -Zugriff
+- skill: Konfigurieren einer Netzwerkrichtlinien-Serverinfrastruktur
+- skill: Konfigurieren und Verwalten von Active Directory-Domänendiensten (AD DS)
+- skill: Konfigurieren und Verwalten der Gruppenrichtlinien
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-411
+summary: |-
+  In diesem fünftägigen Kurs erfahren Sie, wie Sie Windows Server 2012 verwalten. Dieser Kurs ist der zweite von drei Kursen, in denen die erforderlichen Fähigkeiten und Kenntnisse zum Implementieren einer Kerninfrastruktur von Windows Server 2012 in einer vorhandenen Unternehmensumgebung vermittelt werden. Kombiniert wird in diesen drei Kursen das Implementieren, Verwalten, Pflegen und Bereitstellen von Diensten und Infrastruktur in einer Windows Server 2012-Umgebung behandelt. Auch wenn es im Verlauf der drei Kurse zu Überschneidungen bei Fähigkeitsprofilen und Aufgaben kommt, befasst sich dieser Kurs primär mit den Verwaltungsaufgaben, die für die Wartung der Windows Server 2012-Infrastruktur erforderlich sind, z. B. das Implementieren von Serverimages, das Verwalten von Benutzern und Gruppen mit Active Directory-Domänendiensten (AD DS) sowie Gruppenrichtlinien, Remotezugriff und Netzwerkrichtlinien, Datensicherheit, Überwachung und Updateverwaltung.
+  
+  Dieser Kurs ist das direkte Vorbereitungsmaterial für Microsoft Certified Solutions Associate (MCSA)&#58; Windows Server 2012, Prüfung "70-411&#58; Verwalten von Windows Server 2012". Details dazu finden Sie unter&#58; https://www.microsoft.com/learning/exam-70-411.aspx
+
+  #### Audience profile
+  Dieser Kurs richtet sich an IT-Spezialisten, die über praktische Erfahrung in einer Umgebung mit Windows Server 2008 oder Windows Server 2012 verfügen und die Fähigkeiten und Kenntnisse erwerben möchten, um die Kerninfrastruktur, die innerhalb einer Windows Server 2012-Umgebung erforderlich ist, zu verwalten und zu warten. Der Schwerpunkt dieser Übungseinheit ist, dass die Kursteilnehmer die erste Bereitstellung der Windows Server 2012-Dienste und -Infrastruktur erweitern und die erforderlichen Fähigkeiten erwerben, um eine domänenbasierte Windows Server 2012-Umgebung, z. B. die Verwaltung von Benutzerkonten und Gruppen, Netzwerkzugriff und Datensicherheit, zu verwalten und zu warten.
+  
+  Die Kandidaten sind in der Regel bereits als Systemadministratoren beschäftigt oder möchten sich zum Systemadministrator weiterbilden. Sie müssen mindestens ein Jahr praktische Erfahrung in einer Umgebung mit Windows Server 2008 oder Windows Server 2012 gesammelt haben. Die Kandidaten müssen außerdem einen Wissensstand haben, der den im Kurs "21410A&#58; Installieren und Konfigurieren von Windows Server 2012" vermittelten Kenntnissen entspricht, da diese Kenntnisse in diesem Kurs vorausgesetzt werden.
+prerequisitesSection: |-
+  Für diesen Kurs sollten die Kursteilnehmer folgende Vorkenntnisse mitbringen&#58; Praxisnahe Erfahrung in der Verwendung von Windows Server 2008, Windows Server 2008 R2 oder Windows Server 2012. Fundierte und verinnerlichte Kenntnisse über Active Directory und Netzwerkinfrastrukturen Wissensstand, der den im Kurs "21410A&#58; Installieren und Konfigurieren von Windows Server 2012" vermittelten Kenntnissen entspricht.
+outlineSection: |-
+  ### Modul 1&#58; Bereitstellen und Verwalten von Serverimages
+  In dieser Unterrichtseinheit werden die Funktionen von Windows-Bereitstellungsdiensten erklärt und die Durchführung von Lite-Touch-Bereitstellungen mithilfe der Tools für Windows-Bereitstellungsdienste beschrieben.
+  #### Lektionen
+  - Übersicht über die Windows-Bereitstellungsdienste
+  - Implementieren von Bereitstellungen mit Windows-Bereitstellungsdiensten
+  - Verwalten von Windows-Bereitstellungsdiensten
+
+
+  #### Lab &#58; Bereitstellen von Windows Server 2012 mit Windows-Bereitstellungsdiensten
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der wichtigen Features und Funktionen von Windows-Bereitstellungsdiensten
+  - Konfigurieren der Windows-Bereitstellungsdienste in Windows Server 2012
+  - Durchführen von Bereitstellungen mit Windows-Bereitstellungsdiensten
+
+
+  ### Modul 2&#58; Konfigurieren und Problembehandlung von Domain Name System
+  In dieser Unterrichtseinheit wird das Domain Name System (DNS) und seine Funktion als Grundlagennamensdienst in Windows Server 2012 erklärt. Es bietet Namensauflösung und ermöglicht DNS-Clients die Suche nach Netzwerkdiensten wie z. B. AD DS-Domänencontrollern, globale Katalogserver und Messagingserver. Wenn Sie die DNS-Infrastruktur schlecht konfigurieren oder diese nicht ordnungsgemäß funktioniert, können Ihre Netzwerkserver und Clients nicht auf diese wichtigen Netzwerkdienste zugreifen. Folglich ist es äußerst wichtig, dass Sie verstehen, wie dieser wichtige Dienst bereitgestellt, konfiguriert und verwaltet wird und wie Probleme behandelt werden können.
+  #### Lektionen
+  - Installieren der DNS-Serverrolle
+  - Konfigurieren der DNS-Serverrolle
+  - Konfigurieren von DNS-Zonen
+  - Konfigurieren von DNS-Zonenübertragungen
+  - Verwalten von DNS und Behandeln von damit zusammenhängenden Problemen
+
+
+  #### Lab &#58; Konfigurieren von DNS und Behandeln von damit zusammenhängenden Problemen
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Installieren der DNS-Serverrolle
+  - Konfigurieren der DNS-Serverrolle
+  - Erstellen und Konfigurieren von DNS-Zonen
+  - Konfigurieren von DNS-Zonenübertragungen
+  - Überwachen und Verwalten von DNS
+
+
+  ### Modul 3&#58; Verwalten der Active Directory-Domänendienste
+  In dieser Unterrichtseinheit werden aktuelle Features wie das Klonen virtualisierter Domänencontroller, neue Features wie z. B. schreibgeschützte Domänencontroller (Read-Only Domain Controllers, RODCs) und zahlreiche andere Features und Tools, die Sie in der AD DS-Umgebung verwenden können, beschrieben.
+  #### Lektionen
+  - Übersicht über die AD DS
+  - Implementieren virtualisierter Domänencontroller
+  - Implementieren von RODC
+  - Verwalten von AD DS
+  - Verwalten der AD DS-Datenbank
+
+
+  #### Lab &#58; Verwalten von AD DS
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Erläutern der allgemeinen Struktur von AD DS
+  - Implementieren virtualisierter Domänencontroller
+  - Implementieren von RODCs
+  - Verwalten von AD DS
+  - Verwalten der AD DS-Datenbank
+
+
+  ### Modul 4&#58; Verwalten von Benutzer- und Dienstkonten
+  In dieser Unterrichtseinheit wird beschrieben, wie große Gruppen von Benutzerkonten verwaltet werden, außerdem werden die verschiedenen verfügbaren Optionen für das Bereitstellen von ausreichender Kennwortsicherheit für Konten in der Umgebung erläutert, und es wird gezeigt, wie Konten konfiguriert werden, um die Authentifizierung für Systemdienste und Hintergrundprozesse bereitzustellen.
+  #### Lektionen
+  - Automatisieren der Verwaltung von Benutzerkonten
+  - Konfigurieren von Kennwortrichtlinien und Benutzerkontosperrungseinstellungen
+  - Konfigurieren von verwalteten Dienstkonten
+
+
+  #### Lab &#58; Verwalten von Benutzer- und Dienstkonten
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Automatisieren der Benutzerkontoerstellung
+  - Konfigurieren von Kennwortrichtlinien und Kontosperrungseinstellungen
+  - Konfigurieren von verwalteten Dienstkonten
+
+
+  ### Modul 5&#58; Implementieren einer Gruppenrichtlinieninfrastruktur
+  In diesem Modul wird erläutert, was eine Gruppenrichtlinie ist, wie sie funktioniert und wie sie am besten in der Organisation implementiert wird.
+  #### Lektionen
+  - Einführung in Gruppenrichtlinien
+  - Implementieren und Verwalten von Gruppenrichtlinienobjekten (Group Policy Objects, GPOs)
+  - Gruppenrichtlinienbereich und Gruppenrichtlinienverarbeitung
+  - Behandeln von Problemen bei der Anwendung von Gruppenrichtlinienobjekten
+
+
+  #### Lab &#58; Implementieren einer Gruppenrichtlinieninfrastruktur
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Verstehen der Gruppenrichtlinie
+  - Implementieren und Verwalten der Gruppenrichtlinienobjekte
+  - Verwalten des Gruppenrichtlinienbereichs
+  - Verarbeiten von Gruppenrichtlinien
+  - Behandeln von Problemen bei der Anwendung von Gruppenrichtlinienobjekten
+
+
+  ### Modul 6&#58; Verwalten von Benutzerdesktops mit Gruppenrichtlinien
+  In dieser Unterrichtseinheit wird erläutert, wie administrative Vorlagen konfiguriert werden.
+  #### Lektionen
+  - Implementieren von administrativen Vorlagen
+  - Konfigurieren von Ordnerumleitung und Skripts
+  - Konfigurieren der Gruppenrichtlinienvoreinstellungen
+  - Verwalten der Software mithilfe von Gruppenrichtlinien
+
+
+  #### Lab &#58; Verwalten von Benutzerdesktops mit Gruppenrichtlinien
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben und Implementieren von administrativen Vorlagen
+  - Konfigurieren von Ordnerumleitung und Skripts mit GPOs
+  - Konfigurieren der Gruppenrichtlinienobjekteinstellungen
+  - Bereitstellen von Software mit GPOs
+
+
+  ### Modul 7&#58; Konfigurieren des Remotezugriffs und Behandeln von damit zusammenhängenden Problemen
+  In dieser Unterrichtseinheit wird erklärt, wie die RAS-Clients über das Netzwerk konfiguriert und gesichert werden.
+  #### Lektionen
+  - Konfigurieren des Netzwerkzugriffs
+  - Konfigurieren des Zugriffs über ein virtuelles privates Netzwerk (VPN)
+  - Übersicht über Netzwerkrichtlinien
+  - Behandeln von Routing- und RAS-Problemen
+  - Konfigurieren von DirectAccess
+
+
+  #### Lab &#58; Konfigurieren des Remotezugriffs
+
+  #### Lab &#58; Konfigurieren von DirectAccess
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Konfigurieren des Netzwerkzugriffs
+  - Erstellen und Konfigurieren einer VPN-Lösung
+  - Beschreiben der Funktion von Netzwerkrichtlinien
+  - Behandeln von Routing- und RAS-Problemen
+  - Konfigurieren von DirectAccess
+
+
+  ### Modul 8&#58; Installieren und Konfigurieren der Netzwerkrichtlinien-Serverrolle und Behandeln von damit zusammenhängenden Problemen
+  In dieser Unterrichtseinheit werden die Installation und Konfiguration des Netzwerkrichtlinienservers (Network Policy Server, NPS) und die Behandlung von damit zusammenhängenden Problemen erläutert.
+  #### Lektionen
+  - Installieren und Konfigurieren von NPS
+  - Konfigurieren von RADIUS (Remote Authentication Dial-In User Service)-Clients und -Servern
+  - NPS-Authentifizierungsmethoden
+  - Überwachen von NPS und Behandeln von damit zusammenhängenden Problemen
+
+
+  #### Lab &#58; Installieren und Konfigurieren eines Netzwerkrichtlinienservers
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Installieren und Konfigurieren von NPS
+  - Konfigurieren von RADIUS-Clients und -Servern
+  - Erklären der NPS-Authentifizierungsmethoden
+  - Überwachen des NPS und Behandeln von damit zusammenhängenden Problemen
+
+
+  ### Modul 9&#58; Netzwerkzugriffsschutz-Implementierung
+  In dieser Unterrichtseinheit wird erklärt, wie benutzerdefinierte Integritätsanforderungsrichtlinien mithilfe der Netzwerkzugriffsschutz-Implementierung (Network Access Protection, NAP) erstellt werden, mit denen vor dem Zulassen von Zugriffen oder Kommunikation die Computerintegrität überprüft werden kann.
+  #### Lektionen
+  - Übersicht über den Netzwerkzugriffsschutz
+  - Übersicht über NAP-Erzwingungsprozesse
+  - Konfigurieren von NAP
+  - Überwachen von NAP und Behandeln von damit zusammenhängenden Problemen
+
+
+  #### Lab &#58; Implementieren von NAP
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben, wie NAP helfen kann, das Netzwerk zu schützen
+  - Beschreiben der verschiedenen NAP-Erzwingungsprozesse
+  - Konfigurieren von NAP
+  - Überwachen von NAP und Behandeln von damit zusammenhängenden Problemen
+
+
+  ### Modul 10&#58; Optimieren von Dateidiensten
+  In dieser Unterrichtseinheit wird erklärt, wie der Ressourcen-Manager für Dateiserver (File Server Resource Manager, FSRM) verwendet wird, um Kontingente auf Speichervolumes anzuwenden, Dateien und Ordner zu überprüfen, umfassende Speicherberichte zu generieren, die Dateiklassifizierungsinfrastruktur zu steuern und mithilfe von Dateiverwaltungsaufgaben geplante Aktionen für mehrere Dateien auszuführen.
+  #### Lektionen
+  - Übersicht über FSRM
+  - Verwenden von FSRM zum Verwalten von Kontingenten, Dateiprüfungen und Speicherberichten
+  - Implementieren von Aufgaben zur Klassifikation und Dateiverwaltung
+  - Übersicht über das verteilte Dateisystem (Distributed File System, DFS)
+  - Konfigurieren von DFS-Namespaces
+  - Konfigurieren der DFS-Replikation (Distributed File System Replication, DFS-R) und Behandeln von damit zusammenhängenden Problemen
+
+
+  #### Lab &#58; Konfigurieren von Kontingenten und Dateiprüfungen mit FSRM
+
+  #### Lab &#58; Implementieren von DFS
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben von FSRM
+  - Verwenden von FSRM zum Verwalten von Kontingenten, Dateiprüfungen und Speicherberichten
+  - Implementieren von Aufgaben zur Klassifikation und Dateiverwaltung
+  - Beschreiben von DFS
+  - Konfigurieren von DFS-Namespaces
+  - Konfiguration und Problembehandlung bei der DFS-Replikation
+
+
+  ### Modul 11&#58; Konfigurieren der Verschlüsselung und erweiterten Überwachung
+  In dieser Unterrichtseinheit wird beschrieben, wie Windows Server 2012-Tools verwendet werden, um die die Dateisystemsicherheit auf den Servern zu erhöhen.
+  #### Lektionen
+  - Verschlüsseln von Dateien mithilfe eines verschlüsselnden Dateisystems (Encrypting File System, EFS)
+  - Konfigurieren von erweiterter Überwachung
+
+
+  #### Lab &#58; Konfigurieren der Verschlüsselung und erweiterten Überwachung
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Verschlüsseln von Dateien mithilfe eines verschlüsselnden Dateisystems (Encrypting File System, EFS)
+  - Konfigurieren von erweiterter Überwachung
+
+
+  ### Modul 12&#58; Implementieren von Updateverwaltung
+  In dieser Unterrichtseinheit werden die wichtigsten Features der Windows Server Update Services (WSUS)-Serverrolle vorgestellt.
+  #### Lektionen
+  - Übersicht über WSUS
+  - Bereitstellen von Updates mit WSUS
+
+
+  #### Lab &#58; Implementieren von Updateverwaltung
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der WSUS-Rolle
+  - Bereitstellen von Updates mit WSUS
+
+
+  ### Modul 13&#58; Überwachen von Windows Server 2012
+  In dieser Unterrichtseinheit wird erläutert, wie die Leistung verbessert werden kann, indem Leistungsüberwachungstools verwendet werden, um die Komponenten zu identifizieren, bei denen zusätzliche Anpassungen oder eine Problembehandlung erforderlich sind.
+  #### Lektionen
+  - Überwachungstools
+  - Verwenden des Systemmonitors
+  - Überwachen von Ereignisprotokollen
+
+
+  #### Lab &#58; Überwachen von Windows Server 2012
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Überwachungstools für Windows Server 2012
+  - Anzeigen und Analysieren von Leistungsstatistiken von Programmen, die auf den Servern ausgeführt werden, mithilfe des Systemmonitors
+  - Überwachen von Ereignisprotokollen, um die aufgetretenen Ereignisse anzuzeigen und zu interpretieren

@@ -1,0 +1,262 @@
+### YamlMime:Course
+title: Installation et configuration de Windows Server® 2012
+metadata:
+  title: 'Course 22410-B: Installation et configuration de Windows Server® 2012'
+  description: 'Course 22410-B: Installation et configuration de Windows Server® 2012'
+uid: course.22410
+courseNumber: '22410-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: installer et configurer Windows Server 2012
+- skill: décrire AD DS
+- skill: gérer des objets Active Directory
+- skill: automatiser l'administration d'Active Directory
+- skill: implémenter IPv4
+- skill: implémenter le protocole DHCP (Dynamic Host Configuration Protocol)
+- skill: implémenter le système DNS (Domain Name System)
+- skill: implémenter IPv6
+- skill: implémenter le stockage local
+- skill: partager des fichiers et des imprimantes
+- skill: implémenter une stratégie de groupe
+- skill: utiliser des objets de stratégie de groupe pour sécuriser les serveurs Windows Server
+- skill: implémenter la virtualisation de serveur avec Hyper-V
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- fr
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-410
+summary: |-
+  Ce cours constitue la première partie d’une série de trois cours qui apportent les qualifications et connaissances nécessaires pour implémenter une infrastructure Windows Server 2012 principale dans un environnement d’entreprise existant. L’intégralité des trois cours couvre l’implémentation, la gestion, la maintenance et la mise en route des services et de l’infrastructure dans un environnement Windows Server 2012. Même si certaines compétences et tâches se recoupent d'un cours à l'autre, celui-ci couvre principalement l'implémentation et la configuration initiales de services principaux tels qu'Active Directory Domain Services (AD DS), les services de mise en réseau et la configuration de Microsoft Hyper-V Server 2012.
+
+  #### Audience profile
+  Ce cours s'adresse aux professionnels des technologies de l'information qui ont une bonne connaissance et une bonne expérience des systèmes d'exploitation Windows et souhaitent acquérir les compétences et connaissances nécessaires pour implémenter des services d'infrastructure essentiels dans un environnement Windows Server 2012 existant.
+  
+  Il s'adresse accessoirement à toute personne souhaitant obtenir la certification à l'examen 70-410 intitulé Installation et configuration de Windows Server 2012.
+prerequisitesSection: |-
+  Pour suivre ce cours, les stagiaires doivent &#58;
+  - avoir une bonne compréhension des principes fondamentaux de la mise en réseau;
+  - comprendre la configuration de la sécurité et des tâches administratives dans un environnement d'entreprise et avoir de l'expérience en la matière;
+  - avoir de l'expérience en matière de prise en charge et de configuration des clients utilisant le système d'exploitation Windows;
+  - avoir une bonne expérience pratique des systèmes d'exploitation Windows Visa, Windows 7 ou Windows 8.
+  
+  Une expérience de systèmes d'exploitation Windows Server précédents serait également profitable aux stagiaires.
+outlineSection: |-
+  ### Module 1&#58; Déploiement et gestion de Windows Server 2012
+  Ce module présente la nouvelle interface d'administration de Windows Server 2012. Il couvre les différents rôles et fonctionnalités que vous propose le système d'exploitation Windows Server 2012. Il présente également les diverses options d'installation et de configuration que vous pouvez utiliser lors du déploiement et de la configuration de Windows Server 2012.
+  #### Leçons
+  - Vue d'ensemble de Windows Server 2012
+  - Vue d'ensemble de l'administration de Windows Server 2012
+  - Installation de Windows Server 2012
+  - Configuration post-installation de Windows Server 2012
+  - Présentation de Windows PowerShell
+
+
+  #### Atelier &#58; Déploiement et gestion de Windows Server 2012
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire Windows Server 2012
+  - décrire les outils de gestion disponibles dans Windows Server 2012
+  - installer Windows Server 2012
+  - effectuer la configuration post-installation de Windows Server 2012
+  - exécuter les tâches d'administration de base à l'aide de Windows PowerShell
+
+
+  ### Module 2&#58; Présentation des services de domaine Active Directory
+  Ce module présente les services de domaine Active Directory (AD DS) disponibles dans Windows Server 2012. Il couvre l'infrastructure générale d'AD DS, notamment les forêts, les arborescences, le schéma, le catalogue global et les maîtres d'opérations. Il s'intéresse également à l'installation et à la configuration des contrôleurs de domaine.
+  #### Leçons
+  - Vue d'ensemble d'AD DS
+  - Vue d'ensemble des contrôleurs de domaine
+  - Installation d'un contrôleur de domaine
+
+
+  #### Atelier &#58; Installation de contrôleurs de domaine
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire la structure d'AD DS
+  - décrire la fonction des contrôleurs de domaine
+  - expliquer comment installer un contrôleur de domaine
+
+
+  ### Module 3&#58; Gestion des objets de services de domaine Active Directory
+  Ce module couvre la configuration des objets Active Directory, tels que les utilisateurs, les groupes et les ordinateurs. La fonctionnalité des outils d'administration d'AD DS est abordée, en plus de la configuration des profils utilisateurs et du processus de délégation des autorisations d'exécution de l'administration d'AD DS.
+  #### Leçons
+  - Gestion de comptes d'utilisateurs
+  - Gestion des comptes de groupes
+  - Gestion des comptes d'ordinateurs
+  - Délégation de l'administration
+
+
+  #### Atelier &#58; Gestion des objets de services de domaine Active Directory
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - gérer les comptes d'utilisateurs avec les outils graphiques
+  - gérer les comptes de groupes avec les outils graphiques
+  - gérer les comptes d'ordinateurs
+  - déléguer les autorisations d'exécution de l'administration d'AD DS
+
+
+  ### Module 4&#58; Automatisation de l'administration des domaines de services Active Directory
+  Ce module couvre l'utilisation des outils en ligne de commande pour configurer et administrer AD DS. Il présente l'utilisation des applets de commande Windows PowerShell pour l'administration d'AD DS et l'utilisation de Windows PowerShell pour l'exécution des opérations administratives dans AD DS.
+  #### Leçons
+  - Utilisation des outils en ligne de commande pour l'administration d'AD DS
+  - Utilisation de Windows PowerShell pour l'administration d'AD DS
+  - Exécution d'opérations en bloc avec Windows PowerShell
+
+
+  #### Atelier &#58; Automatisation de l'administration d'AD DS à l'aide de Windows PowerShell
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - utiliser les outils en ligne de commande pour l'administration d'AD DS
+  - utiliser les applets de commande Windows PowerShell pour l'administration d'AD DS
+  - exécuter des opérations en bloc à l'aide de Windows PowerShell
+
+
+  ### Module 5&#58; Implémentation du protocole IPv4
+  Ce module couvre l'adressage du protocole Internet version 4 (IPv4). Il détaille les différents composants d'IPv4, couvre le sous-réseau et le super-réseau, et présente la configuration et la résolution générale des problèmes liés aux adresses IPv4.
+  #### Leçons
+  - Vue d'ensemble de TCP/IP
+  - Fonctionnement de l'adressage IPv4
+  - Sous-réseau et super-réseau
+  - Configuration et résolution des problèmes liés à IPv4
+
+
+  #### Atelier &#58; Implémentation du protocole IPv4
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire la suite de protocoles TCP/IP
+  - décrire l'adressage IPv4
+  - déterminer un masque de sous-réseau nécessaire pour le sous-réseau ou le super-réseau
+  - configurer IPv4 et résoudre les problèmes de communication liés à IPv4
+
+
+  ### Module 6&#58; Implémentation du protocole DHCP (Dynamic Host Configuration Protocol)
+  Ce module couvre l'installation et la configuration de DHCP ainsi que la gestion d'une base de données DHCP. Il aborde également la sécurité et la surveillance de DHCP, notamment l'audit et la journalisation.
+  #### Leçons
+  - Installation d'un rôle Serveur DHCP
+  - Configuration des étendues DHCP
+  - Gestion d'une base de données DHCP
+  - Sécurisation et surveillance DHCP
+
+
+  #### Atelier &#58; Implémentation de la réplication DHCP
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - installer le rôle Serveur DHCP
+  - configurer les étendues DHCP
+  - gérer une base de données DHCP
+  - sécuriser et surveiller le rôle Serveur DHCP
+
+
+  ### Module 7&#58; Implémentation du système DNS (Domain Name System)
+  Ce module couvre la résolution de noms pour les serveurs Windows Server et les clients Windows. Il détaille l'installation d'un serveur DNS et la configuration des zones DNS intégrées à Active Directory.
+  #### Leçons
+  - Résolution de noms pour les clients et les serveurs Windows
+  - Installation et gestion d'un serveur DNS
+  - Gestion des zones DNS
+
+
+  #### Atelier &#58; Implémentation de la réplication DNS
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire la résolution de noms pour les clients utilisant le système d'exploitation Windows et les serveurs Windows Server.
+  - installer et gérer le service Serveur DNS
+  - gérer les zones DNS
+
+
+  ### Module 8&#58; Implémentation d'IPv6
+  Ce module couvre le fonctionnement et l'implémentation de l'adressage IPv6. Il présente la configuration et la résolution des problèmes ainsi que la coexistence avec IPv4 à l'aide de technologies de transition.
+  #### Leçons
+  - Vue d'ensemble du protocole IPv6
+  - Adressage IPv6
+  - Cohabitation avec le protocole IPv6
+  - Technologies de transition IPv6
+
+
+  #### Atelier &#58; Implémentation d'IPv6
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les fonctionnalités et les avantages du protocole IPv6
+  - décrire l'adressage IPv6
+  - décrire la cohabitation d'IPv6 avec IPv4
+  - décrire les technologies de transition d'IPv6
+
+
+  ### Module 9&#58; Implémentation d'un système de stockage local
+  Ce module couvre les options de configuration du stockage pour Windows Server 2012, notamment la gestion des disques et des volumes et l'implémentation des systèmes de fichiers. Il présente également la création et la gestion des pools de stockage.
+  #### Leçons
+  - Vue d'ensemble du stockage
+  - Gestion des disques et des volumes
+  - Implémentation d'espaces de stockage
+
+
+  #### Atelier &#58; Implémentation d'un système de stockage local
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les différentes technologies de stockage
+  - expliquer comment gérer les disques et les volumes
+  - expliquer comment implémenter des espaces de stockage
+
+
+  ### Module 10&#58; Implémentation des services de fichier et d'impression
+  Ce module couvre la sécurisation des fichiers, des dossiers et des partages de fichiers réseau, ainsi que l'utilisation de clichés instantanés pour protéger les partages de fichiers réseau. Il présente également la configuration de l'impression réseau et la création d'un pool d'imprimantes.
+  #### Leçons
+  - Sécurisation des fichiers et des dossiers
+  - Protection des fichiers et des dossiers partagés à l'aide de clichés instantanés
+  - Configuration de l'impression réseau
+
+
+  #### Atelier &#58; Implémentation des services de fichier et d'impression
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - sécuriser les fichiers et les dossiers partagés
+  - protéger les fichiers et dossiers partagés à l'aide de clichés instantanés
+  - configurer l'impression réseau
+
+
+  ### Module 11&#58; Implémentation d'une stratégie de groupe
+  Ce module couvre l'utilisation d'une stratégie de groupe pour gérer et appliquer les paramètres de configuration de manière centralisée.
+  #### Leçons
+  - Vue d'ensemble d'une stratégie de groupe
+  - Traitement d'une stratégie de groupe
+  - Implémentation d'un magasin central pour les modèles d'administration
+
+
+  #### Atelier &#58; Implémentation d'une stratégie de groupe
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - créer et gérer des objets de stratégie de groupe
+  - décrire le traitement de stratégie de groupe
+  - implémenter un magasin central pour les modèles d'administration
+
+
+  ### Module 12&#58; Sécurisation des serveurs Windows à l'aide d'objets de stratégie de groupe
+  Renforcez la sécurité d'une infrastructure Windows Server 2012 en utilisant des objets de stratégie de groupe, AppLocker et le Pare-feu Windows.
+  #### Leçons
+  - Vue d'ensemble de la sécurité des systèmes d'exploitation Windows
+  - Configuration des paramètres de sécurité
+  - Restriction de l'accès aux logiciels
+  - Configuration du Pare-feu Windows avec sécurité avancée
+
+
+  #### Atelier &#58; Atelier pratique A &#58; Renforcement de la sécurité des ressources de serveur
+
+  #### Atelier &#58; Atelier pratique B &#58; Configuration d'AppLocker et du Pare-feu Windows
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire la sécurité du système d'exploitation Windows Server
+  - configurer les paramètres de sécurité à l'aide d'une stratégie de groupe
+  - empêcher l'exécution de logiciels non autorisés sur les serveurs et les clients
+  - configurer le Pare-feu Windows avec sécurité avancée
+
+
+  ### Module 13&#58; Implémentation de la virtualisation de serveur avec Hyper-V
+  Ce module décrit les technologies de virtualisation de Microsoft. Il présente également l'installation et la configuration d'ordinateurs virtuels Hyper-V, la configuration du stockage virtuel et la configuration des réseaux virtuels.
+  #### Leçons
+  - Vue d'ensemble des technologies de virtualisation
+  - Implémentation d'Hyper-V
+  - Gestion du stockage d'ordinateur virtuel
+  - Gestion des réseaux virtuels
+
+
+  #### Atelier &#58; Implémentation de la virtualisation de serveur avec Hyper-V
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les technologies de virtualisation
+  - implémenter Hyper-V
+  - gérer le stockage d'ordinateur virtuel
+  - gérer les réseaux virtuels

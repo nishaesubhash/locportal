@@ -1,0 +1,378 @@
+### YamlMime:Course
+title: Verwalten einer SQL-Datenbankinfrastruktur
+metadata:
+  title: 'Course 21764-C: Verwalten einer SQL-Datenbankinfrastruktur'
+  description: 'Course 21764-C: Verwalten einer SQL-Datenbankinfrastruktur'
+uid: course.21764
+courseNumber: '21764-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Authentifizieren und Autorisieren von Benutzern
+- skill: Zuweisen von Server- und Datenbankrollen
+- skill: Autorisieren von Benutzern für den Zugriff auf Ressourcen
+- skill: Schützen von Daten durch Verschlüsselung und Überwachung
+- skill: Erläutern von Wiederherstellungsmodellen und Sicherungsstrategien
+- skill: Sichern von SQL Server-Datenbanken
+- skill: Wiederherstellen von SQL Server-Datenbanken
+- skill: Automatisieren der Datenbankverwaltung
+- skill: Konfigurieren der Sicherheit für den SQL Server-Agent
+- skill: Verwalten von Warnungen und Benachrichtigungen
+- skill: Verwalten von SQL Server mithilfe von PowerShell
+- skill: Verfolgen des Zugriffs auf SQL Server
+- skill: Überwachen einer SQL Server-Infrastruktur
+- skill: Problembehandlung bei einer SQL Server-Infrastruktur
+- skill: Importieren und Exportieren von Daten
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-764
+summary: |-
+  Dieser fünftägige von einem Kursleiter durchgeführte Kurs versorgt Kursteilnehmer, die SQL Server-Datenbanken verwalten und pflegen, mit dem Wissen und den Fertigkeiten zum Verwalten einer SQL Server-Datenbankinfrastruktur. Darüber hinaus ist die Schulung sinnvoll für Personen, die Anwendungen entwickeln, die Inhalte für SQL Server-Datenbanken bereitstellen.
+
+  #### Audience profile
+  Die Hauptzielgruppe für diesen Kurs sind Personen, die SQL Server-Datenbanken verwalten und pflegen. Bei diesen Personen gehören die Verwaltung und Wartung von Datenbanken zu den Hauptverantwortungsbereichen, oder sie arbeiten in Umgebungen, in denen Datenbanken eine wichtige Rolle für ihre Haupttätigkeit spielen.
+  
+  Die sekundäre Zielgruppe für diesen Kurs sind Personen, die Anwendungen entwickeln, die Inhalte aus SQL Server-Datenbanken bereitstellen.
+prerequisitesSection: |-
+  Vor Kursbeginn müssen die Kursteilnehmer über Folgendes verfügen&#58;
+  - Grundkenntnisse des Microsoft Windows-Betriebssystems und der wichtigsten Funktionen
+  - Praktische Erfahrung mit Transact-SQL
+  - Gute Kenntnisse zu relationalen Datenbanken
+  - Etwas Erfahrung mit dem Aufbau von Datenbanken.
+outlineSection: |-
+  ### Modul 1&#58; SQL Server-Sicherheit
+  Der Schutz der Daten Ihrer Microsoft SQL Server-Datenbanken ist äußerst wichtig und dafür sind gute Kenntnisse der potenziellen Probleme und SQL Server-Sicherheitsfunktionen erforderlich.
+
+  In dieser Unterrichtseinheit werden die SQL Server-Sicherheitsmodelle, Anmeldungen, Benutzer, teilweise eigenständige Datenbanken und die serverübergreifende Autorisierung behandelt.
+
+  #### Lektionen
+  - Authentifizieren von Verbindungen mit SQL Server
+  - Autorisieren von Anmeldungen zum Herstellen von Verbindungen mit Datenbanken
+  - Serverübergreifende Autorisierung
+  - Teilweise eigenständige Datenbanken
+
+
+  #### Lab &#58; Authentifizieren von Benutzern
+  - Erstellen von Anmeldungen
+  - Erstellen von Datenbankbenutzern
+  - Beheben von Problemen bei der Anwendungsanmeldung
+  - Konfigurieren der Sicherheit für wiederhergestellte Datenbanken
+
+  Nach Abschluss dieser Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - SQL Server-Grundkonzepte
+  - SQLServer-Verbindungsauthentifizierung
+  - Benutzeranmeldungsautorisierung an den Datenbanken
+  - Teilweise eigenständige Datenbanken 
+  - Serverübergreifende Autorisierung
+
+  ### Modul 2&#58; Zuweisen von Server- und Datenbankrollen
+  Mit Rollen wird die Verwaltung der Benutzerberechtigungen vereinfacht. Mit Rollen können Sie den Zugriff authentifizierter Benutzer auf Systemressourcen auf Grundlage der einzelnen Auftragsfunktionen steuern – statt Benutzern die Berechtigungen einzeln zuweisen zu müssen, können Sie einer Rolle Berechtigungen gewähren und Benutzer zu Mitgliedern diese Rolle machen.
+  Microsoft SQL Server beinhaltet Unterstützung für Sicherheitsrollen, die auf Server- und Datenbankebene definiert wurden.
+  #### Lektionen
+  - Arbeiten mit Serverrollen
+  - Arbeiten mit festen Datenbankrollen
+  - Zuweisen von benutzerdefinierten Datenbankrollen
+
+
+  #### Lab &#58; Zuweisen von Server- und Datenbankrollen
+  - Zuweisen von Serverrollen
+  - Zuweisen von festen Datenbankrollen
+  - Zuweisen von benutzerdefinierten Datenbankrollen
+  - Überprüfen der Sicherheit
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Beschreiben und Verwenden von Serverrollen zur Verwaltung der Sicherheit auf Serverebene
+  - Beschreiben und Verwenden fester Datenbankrollen
+  - Verwenden benutzerdefinierter Datenbankrollen und Anwendungsrollen zur Verwaltung der Sicherheit auf Datenbankebene
+
+  ### Modul 3&#58; Autorisieren von Benutzern für den Zugriff auf Ressourcen
+  In den vorherigen Unterrichtseinheiten haben Sie erfahren, wie die Microsoft SQL Server Sicherheit organisiert ist und wie Berechtigungsgruppen auf Server- und Datenbankebene zugewiesen werden können, indem Sie feste Serverrollen, benutzerdefinierte Serverrollen, feste Datenbankrollen und Anwendungsrollen verwenden. Der letzte Schritt beim Autorisieren von Benutzern für den Zugriff auf SQL Server-Ressourcen ist die Autorisierung von Benutzern und Rollen für den Zugriff auf Server- und Datenbankobjekte.
+
+  In dieser Unterrichtseinheit erfahren Sie, wie diese Objektberechtigungen verwaltet werden. Zusätzlich zu den Zugriffsberechtigungen für Datenbankobjekte bietet SQL Server die Option zum Feststellen, welche Benutzer Code ausführen dürfen, wie z. B. gespeicherte Prozeduren und Funktionen. In vielen Fällen können diese Berechtigungen und Berechtigungen von Datenbankobjekten am besten auf Schemaebene konfiguriert werden, statt auf der Ebene der einzelnen Objekte. Das Gewähren von schemabasierten Berechtigungen kann Ihre Sicherheitsarchitektur vereinfachen. Das Gewähren von Berechtigungen auf Schemaebene erlernen Sie in der letzten Lektion dieser Unterrichtseinheit.
+
+  #### Lektionen
+  - Autorisieren des Benutzerzugriffs auf Objekte
+  - Autorisieren von Benutzern zum Ausführen von Code
+  - Konfigurieren von Berechtigungen auf Schemaebene
+
+
+  #### Lab &#58; Autorisieren von Benutzern für den Zugriff auf Ressourcen
+  - Gewähren, Verweigern und Widerrufen von Berechtigungen zu Objekten
+  - Gewähren von EXECUTE-Berechtigungen zu Code
+  - Gewähren von Berechtigungen auf Schemaebene
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Autorisieren des Benutzerzugriffs auf Objekte
+  - Autorisieren von Benutzern für das Ausführen von Code
+  - Konfigurieren von Berechtigungen auf Schemaebene
+
+  ### Modul 4&#58; Schützen von Daten durch Verschlüsselung und Überwachung
+  Bei der Konfiguration der Sicherheit für Ihre Microsoft SQL Server Systeme sollten Sie sicherstellen, dass Sie die Compliance-Anforderungen Ihres Unternehmens im Hinblick auf Datenschutz einhalten. Unternehmen müssen oftmals branchenspezifische Compliance-Richtlinien einhalten, die eine Überwachung des gesamten Datenzugriffs vorschreiben. Um diese Anforderung zu erfüllen, bietet SQL Server eine Vielzahl von Optionen für das Implementieren einer Überwachung.
+
+  Eine weitere gängige Compliance-Anforderung ist die Verschlüsselung von Daten zum Schutz vor unbefugtem Zugriff für den Fall, dass der Zugriff auf Datenbankdateien gefährdet ist. SQL Server unterstützt diese Anforderung durch die Bereitstellung von transparenter Datenverschlüsselung (TDE, (Transparent Data Encryption). Um das Risiko von Datenlecks durch Benutzer mit administrativem Zugriff auf eine Datenbank zu verringern, können Spalten, die vertrauliche Daten enthalten – z. B. Kreditkartennummern oder Ausweisnummern – mithilfe des Always Encrypted-Features verschlüsselt werden.
+
+  In dieser Unterrichtseinheit werden die verfügbaren Optionen für die Überwachung in SQL Server erläutert, wie das SQL Server Audit-Feature verwendet und verwaltet wird, und wie die Verschlüsselung implementiert werden kann.
+  #### Lektionen
+  - Optionen zum Überwachen des Datenzugriffs in SQL Server
+  - Implementieren von SQL Server Audit
+  - Verwalten von SQL Server Audit
+  - Schützen von Daten durch Verschlüsselung
+
+
+  #### Lab &#58; Verwenden der Überwachung und Verschlüsselung
+  - Arbeiten mit SQL Server Audit
+  - Verschlüsseln einer Spalte mit Always Encrypted
+  - Verschlüsseln einer Datenbank mithilfe der transparenten Datenverschlüsselung
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Beschreiben der Optionen zum Überwachen des Datenzugriffs
+  - Implementieren von SQL Server Audit
+  - Verwalten von SQL Server Audit
+  - Beschreiben und Implementieren von Methoden zum Verschlüsseln von Daten in SQL Server
+
+  ### Modul 5&#58; Wiederherstellungsmodelle und Sicherungsstrategien
+  Eine der wichtigsten Aufgaben eines Datenbankadministrators ist es, die zuverlässige Sicherung von Unternehmensdaten sicherzustellen, sodass die Daten im Fall eines Fehlers wiederhergestellt werden können. Obwohl die Notwendigkeit von zuverlässigen Sicherungsstrategien seit Jahrzehnten in der IT-Branche bekannt ist – und ausführlich diskutiert wurde – kommt es doch immer wieder zu Datenverlusten. Ein weiteres Problem liegt darin, dass selbst dann, wenn Strategien vorhanden sind und ordnungsgemäß funktionieren, die Ergebnisse regelmäßig hinter den betrieblichen Anforderungen von Unternehmen zurückbleiben.
+
+  In dieser Unterrichtseinheit erfahren Sie, wie Sie eine auf die Anforderungen eines Unternehmens ausgerichtete Strategie entwickeln, die auf den verfügbaren Sicherungsmodellen basiert, und welche Rolle die Transaktionsprotokolle bei der Aufrechterhaltung der Datenbankkonsistenz spielen.
+
+  #### Lektionen
+  - Grundlegendes zu Sicherungsstrategien
+  - SQL Server-Transaktionsprotokolle
+  - Planen von Sicherungsstrategien
+
+
+  #### Lab &#58; Grundlegendes zu SQL Server-Wiederherstellungsmodellen
+  - Planen einer Sicherungsstrategie
+  - Konfigurieren von Datenbank-Wiederherstellungsmodellen
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Beschreiben verschiedener Sicherungsstrategien
+  - Erläutern der Funktionsweise von Datenbank-Transaktionsprotokollen
+  - Planen von SQL Server-Sicherungsstrategien
+
+  ### Modul 6&#58; Sichern von SQL Server-Datenbanken
+  In der vorherigen Unterrichtseinheit haben Sie erfahren, wie eine Sicherungsstrategie für ein SQL Server-System geplant wird. Nun können Sie lernen, wie SQL Server-Sicherungen durchgeführt werden, z. B. vollständige und differenzielle Datenbanksicherungen, Transaktionsprotokollsicherungen und Teilsicherungen.
+
+  In dieser Unterrichtseinheit erfahren Sie, wie verschiedene Sicherungsstrategien angewendet werden.
+
+  #### Lektionen
+  - Sichern von Datenbanken und Transaktionsprotokollen
+  - Verwalten von Datenbanksicherungen
+  - Erweiterte Datenbankoptionen
+
+
+  #### Lab &#58; Sichern von Datenbanken
+  - Sichern von Datenbanken
+  - Durchführen von vollständigen und differenziellen Datenbanksicherungen und von Transaktionsprotokoll
+  - Durchführen einer Teilsicherung
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Sichern von SQL Server-Datenbanken und Transaktionsprotokollen
+  - Verwalten von Datenbanksicherungen
+  - Beschreiben erweiterter Sicherungsoptionen
+
+  ### Modul 7&#58; Wiederherstellen von SQL Server-Datenbanken
+  In der vorherigen Unterrichtseinheit haben Sie erfahren, wie Sicherungen von Microsoft SQL Server-Datenbanken erstellt werden. Eine Sicherungsstrategie kann viele verschiedene Sicherungstypen beinhalten, daher ist es wichtig, dass Sie diese effektiv wiederherstellen können.
+
+  Häufig ist die Wiederherstellung einer Datenbank eine dringende Angelegenheit. Sie müssen jedoch sicherstellen, dass Sie über einen klaren Plan verfügen, wie Sie vorgehen müssen, um den benötigten Zustand einer Datenbank erfolgreich wiederherzustellen. Ein durchdachter Plan und gute Kenntnisse des Wiederherstellungsprozesses können eine Verschlimmerung der Situation verhindern.
+
+  Einige Datenbankwiederherstellungen stehen mit einem Systemfehler in Zusammenhang. In diesen Fällen möchten Sie das System vermutlich auf möglichst genau den Zustand zurücksetzen, in dem es sich vor dem Fehler befand. Einige Fehler werden jedoch durch menschliches Versagen verursacht, und ggf. möchten Sie das System bis zu einem Punkt vor diesem Fehler wiederherstellen. Die SQL Server-Funktionen zur Zeitpunktwiederherstellung können Ihnen dabei helfen.
+
+  Da Benutzerdatenbanken in der Regel sehr viel größer sind als Systemdatenbanken, sind sie mit größerer Wahrscheinlichkeit von Systemfehlern betroffen als diese. Allerdings können auch in Systemdatenbanken Fehler auftreten. Bei ihrer Wiederherstellung ist besondere Vorsicht geboten. Insbesondere müssen Sie wissen, wie die einzelnen Systemdatenbanken wiederhergestellt werden, da das Verfahren nicht für alle Systemdatenbanken identisch ist.
+
+  In dieser Unterrichtseinheit erfahren Sie, wie Benutzer- und Systemdatenbanken wiederhergestellt werden und wie die Zeitpunktwiederherstellung implementiert wird.
+  #### Lektionen
+  - Grundlegendes zum Wiederherstellungsprozess
+  - Wiederherstellen von Datenbanken
+  - Erweiterte Wiederherstellungsszenarios
+  - Zeitpunktwiederherstellung
+
+
+  #### Lab &#58; Wiederherstellen von SQL Server-Datenbanken
+  - Wiederherstellen einer Datenbanksicherung
+  - Wiederherstellen von vollständigen, differenziellen und Transaktionsprotokollsicherungen
+  - Durchführen einer schrittweisen Wiederherstellung
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Erläutern des Wiederherstellungsprozesses
+  - Wiederherstellen von Datenbanken
+  - Durchführen erweiterter Wiederherstellungsvorgänge
+  - Durchführen einer Zeitpunktwiederherstellung
+
+  ### Modul 8&#58; Automatisieren der SQL Server-Verwaltung
+  Diese in Microsoft SQL Server enthaltenen Tools erleichtern die Verwaltung im Vergleich zu anderen Datenbank-Engines. Auch wenn eine Aufgabe einfach ist, kann es jedoch passieren, dass sie sehr häufig wiederholt werden muss. Effiziente Datenbankadministratoren lernen, repetitive Aufgaben zu automatisieren. Auf diese Weise vergisst ein Administrator nie wieder, eine bestimmte Aufgabe zur richtigen Zeit auszuführen. Außerdem können Sie mit automatisierten Aufgaben sicherstellen, dass diese Aufgaben jedes Mal absolut konsistent ausgeführt werden.
+
+  In dieser Unterrichtseinheit erfahren Sie, wie Sie mit dem SQL Server-Agent Aufträge automatisieren, Sicherheitskontexte für Aufträge konfigurieren und Multiserveraufträge implementieren können.
+
+  #### Lektionen
+  - Automatisieren der SQL Server-Verwaltung
+  - Arbeiten mit dem SQL Server-Agent
+  - Verwalten von Aufträgen des SQL Server-Agents
+  - Verwalten mehrerer Server
+
+
+  #### Lab &#58; Automatisieren der SQL Server-Verwaltung
+  - Erstellen eines SQL Server-Agent-Auftrags
+  - Testen eines Auftrags
+  - Planen eines Auftrags
+  - Konfigurieren von Master- und Zielservern
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Beschreiben von Methoden zum Automatisieren der SQL Server-Verwaltung
+  - Erstellen von Aufträgen, Arten von Auftragsschritten und Zeitplänen
+  - Verwalten von SQL Server-Agent-Aufträgen
+  - Konfigurieren von Master- und Zielservern
+
+  ### Modul 9&#58; Konfigurieren der Sicherheit für den SQL Server-Agent
+  In den anderen Unterrichtseinheiten in diesem Kurs haben Sie erfahren, warum es wichtig ist, die Berechtigungen der Benutzer auf der Grundlage der „geringsten Rechte“ zu minimieren. Die Benutzer erhalten also nur diejenigen Berechtigungen, die Sie zur Erfüllung ihrer Aufgaben brauchen. Dasselbe gilt für die Berechtigungen des SQL Server-Agents. Es ist zwar einfach, alle Aufträge im Kontext des SQL Server-Agent-Dienstkontos auszuführen und dieses Konto als Administratorkonto zu konfigurieren, allerdings führt diese Situation zu einer mangelhaft geschützten Umgebung. Es ist wichtig, dass Sie sich damit vertraut machen, wie Sie eine Sicherheitsumgebung mit minimalen Berechtigungen für die SQL Server-Agent-Aufträge erstellen.
+  #### Lektionen
+  - Grundlegendes zu den Sicherheitskonzepten des SQL Server-Agents
+  - Konfigurieren von Anmeldeinformationen
+  - Konfigurieren von Proxykonten
+
+
+  #### Lab &#58; Konfigurieren der Sicherheit für den SQL Server-Agent
+  - Analysieren von Problemen im SQL Server-Agent
+  - Konfigurieren von Anmeldeinformationen
+  - Konfigurieren eines Proxykontos
+  - Konfigurieren und Testen des Sicherheitskontexts für einen Auftrag
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Erklären der Sicherheitskonzepte des SQL Server-Agents
+  - Konfigurieren von Anmeldeinformationen
+  - Konfigurieren von Proxykonten
+
+  ### Modul 10&#58; Überwachen von SQL Server mithilfe von Warnungen und Benachrichtigungen
+  Achten Sie darauf, dass Sie Microsoft SQL Server immer proaktiv verwalten, um jederzeit über Probleme und Ereignisse im Server informiert zu werden, sobald diese auftreten. SQL Server protokolliert eine Vielzahl von Informationen zu Problemen. Mit Warnungen und Benachrichtigungen können Sie sich automatisch benachrichtigen lassen, wenn diese Probleme auftreten. SQL Server-Datenbankadministratoren lassen sich normalerweise per E-Mail über relevante Ereignisse informieren. Diese Unterrichtseinheit befasst sich mit der Konfiguration von Datenbank-E-Mail, Warnungen und Benachrichtigungen für eine SQL Server-Instanz und der Konfiguration von Warnungen für Microsoft Azure SQL-Datenbank.
+  #### Lektionen
+  - Überwachen von SQL Server-Fehlern
+  - Konfigurieren von Datenbank-E-Mail
+  - Operatoren, Warnungen und Benachrichtigungen
+  - Warnungen in Azure SQL-Datenbank
+
+
+  #### Lab &#58; Überwachen von SQL Server mithilfe von Warnungen und Benachrichtigungen
+  - Konfigurieren von Datenbank-E-Mail
+  - Konfigurieren von Operatoren
+  - Konfigurieren von Warnungen und Benachrichtigungen
+  - Testen von Warnungen und Benachrichtigungen
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Überwachen von SQL Server-Fehlern
+  - Konfigurieren von Datenbank-E-Mail
+  - Konfigurieren von Operatoren, Warnungen und Benachrichtigungen
+  - Arbeiten mit Warnungen in Azure SQL-Datenbank
+
+  ### Modul 11&#58; Einführung in die Verwaltung von SQL Server mithilfe von PowerShell
+  Diese Unterrichtseinheit behandelt den Einsatz von Windows PowerShell zusammen mit Microsoft SQL Server. Unternehmen sind darauf angewiesen, die Effizienz und Zuverlässigkeit der Wartung ihrer IT-Infrastruktur ständig zu verbessern. mit PowerShell können Sie die Effizienz und Zuverlässigkeit steigern, indem Sie Skripts für verschiedene Aufgaben erstellen. PowerShell-Skripts können getestet und mehrfach auf unterschiedlichen Servern ausgeführt werden, um Ihrem Unternehmen Zeit und Geld zu sparen.
+  #### Lektionen
+  - Erste Schritte mit Windows PowerShell
+  - Konfigurieren von SQL Server mithilfe von PowerShell
+  - Verwalten und Warten von SQL Server mit PowerShell
+  - Verwalten von Azure SQL-Datenbank mit PowerShell
+
+
+  #### Lab &#58; Verwalten von SQL Server mithilfe von PowerShell
+  - Erste Schritte mit PowerShell
+  - Ändern von SQL Server-Einstellungen mithilfe von PowerShell
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Beschreiben der Vorteile und Grundkonzepte von PowerShell 
+  - Konfigurieren von SQL Server mithilfe von PowerShell
+  - Verwalten und warten von SQL Server mithilfe von PowerShell
+  - Verwalten einer Azure SQL-Datenbank mithilfe von PowerShell
+
+  ### Modul 12&#58; Verfolgen des Zugriffs auf SQL Server mit erweiterten Ereignissen
+  Die Überwachung von Leistungsmetriken ist ein hervorragendes Mittel, um die Gesamtleistung einer Datenbanklösung zu beurteilen. Manchmal müssen Sie die Aktivitäten in einer Microsoft SQL Server-Instanz jedoch genauer unter die Lupe nehmen, um Probleme zu beheben und um Möglichkeiten zu finden, die Arbeitslastleistung zu optimieren.
+
+  Die erweiterten Ereignisse von SQL Server sind ein flexibles und schlankes Ereignisverarbeitungssystem, das in die Microsoft SQL Server-Datenbank-Engine integriert ist. Diese Unterrichtseinheit befasst sich mit Architekturkonzepten, Strategien für die Problembehandlung und Anwendungsszenarios für erweiterte Ereignisse.
+  #### Lektionen
+  - Grundkonzepte von erweiterten Ereignissen
+  - Arbeiten mit erweiterten Ereignissen
+
+
+  #### Lab &#58; Erweiterte Ereignisse
+  - Verwenden der erweiterten Ereignissitzung „System_Health“
+  - Nachverfolgen von Seitenteilungen mit erweiterten Ereignissen
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Beschreiben der Grundkonzepte von erweiterten 
+  - EreignissenErstellen und Abfragen von erweiterten Ereignissitzungen
+
+  ### Modul 13&#58; Überwachen von SQL Server
+  Die Microsoft SQL Server-Datenbank-Engine kann über lange Zeit unbeaufsichtigt betrieben werden. Wenn Sie jedoch die Aktivitäten im Datenbankserver regelmäßig überwachen, können Sie potenzielle Probleme bereits vor dem Auftreten beheben.
+  SQL Server bietet eine Vielzahl von Tools, mit denen Sie die aktuelle Aktivität überwachen und Details zu vorherigen Aktivitäten aufzeichnen können. Machen Sie sich mit der Funktionsweise und der Verwendung der einzelnen Tools vertraut.
+  Das Volumen der Ausgaben von Überwachungstools erscheint zunächst überwältigend, daher müssen Sie sich mit Techniken zum Analysieren der Ausgaben beschäftigen.
+  #### Lektionen
+  - Überwachen der Aktivität
+  - Erfassen und Verwalten von Leistungsdaten
+  - Analysieren der gesammelten Leistungsdaten
+  - SQL Server-Hilfsprogramm
+
+
+  #### Lab &#58; Überwachen von SQL Server
+  - Implementieren eines Steuerungspunkts für das Hilfsprogramm und Registrieren eines Servers
+  - Konfigurieren einer Integritätsrichtlinie
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Überwachen der aktuellen Aktivität
+  - Erfassen und verwalten von Leistungsdaten
+  - Analysieren der gesammelten Leistungsdaten
+  - Konfigurieren des SQL Server-Hilfsprogramms
+
+  ### Modul 14&#58; Problembehandlung für SQL Server
+  Datenbankadministratoren, die Microsoft SQL Server verwenden, müssen die wichtige Rolle der Problembehandlung übernehmen, wenn Probleme auftreten, insbesondere wenn Benutzer von unternehmenswichtigen Anwendungen, die auf SQL Server-Datenbanken basieren, von ihrer Arbeit abgehalten werden. Es ist wichtig, im Allgemeinen über eine zuverlässige Methodik für das Beheben von Problemen zu verfügen und mit den gängigsten Problemen vertraut zu sein, die beim Verwenden von SQL Server-Systemen auftreten können.
+  #### Lektionen
+  - Problembehandlungsmethodik für SQL Server
+  - Beheben von dienstbezogenen Problemen
+  - Beheben von Konnektivitäts- und Anmeldeproblemen
+
+
+  #### Lab &#58; Problembehandlung bei häufig auftretenden Problemen
+  - Problembehandlung und Behebung eines SQL-Anmeldeproblems
+  - Problembehandlung und Behebung eines dienstbezogenen Problems
+  - Problembehandlung und Behebung eines Windows-Anmeldeproblems
+  - Problembehandlung und Behebung eines Problems bei der Auftragsausführung
+  - Problembehandlung und Behebung eines leistungsbezogenen Problems
+
+  Nach Abschluss der Unterrichtseinheit werden Sie mit folgenden Themen vertraut sein&#58;
+  - Beschreiben einer Problembehandlungsmethodik für SQL Server
+  - Beheben dienstbezogener Probleme
+  - Beheben von Anmeldungs- und Konnektivitätsproblemen
+
+  ### Modul 15&#58; Importieren und Exportieren von Daten
+  Während ein Großteil der in einem Microsoft SQL Server-System abgelegten Daten direkt von Benutzern eingegeben werden, die Anwendungsprogramme ausführen, besteht oftmals die Notwendigkeit, Daten an andere Speicherorte zu verschieben, aus und nach SQL Server.
+
+  SQL Server bietet eine Reihe von Tools, mit denen Sie Daten übertragen können. Einige dieser Tools, wie z. B. das Hilfsprogramm bcp (Massenkopierprogramm) und SQL Server Integration Services, sind nicht Bestandteil der Datenbank-Engine. Andere Tools wie die BULK INSERT-Anweisung und die OPENROWSET-Funktion sind in die Datenbank-Engine implementiert. Mit SQL Server können Sie außerdem Datenschichtanwendungen erstellen, mit denen alle mit einer Benutzerdatenbank verknüpften Tabellen, Ansichten und Instanzobjekte in einer einzelnen Bereitstellung gebündelt werden können.
+
+  In dieser Unterrichtseinheit erfahren Sie mehr über diese Tools und Methoden, sodass Sie Daten in SQL Server importieren und daraus exportieren können.
+  #### Lektionen
+  - Übertragen von Daten in und aus SQL Server
+  - Importieren und Exportieren von Tabellendaten
+  - Verwenden von bcp und BULK INSERT zum Importieren von Daten
+  - Bereitstellen and Aktualisieren von Datenschichtanwendungen
+
+
+  #### Lab &#58; Importieren und Exportieren von Daten
+  - Importieren von Excel-Daten mithilfe des Import-Assistenten
+  - Importieren einer getrennten Textdatei mithilfe von bcp
+  - Importieren einer durch Trennzeichen getrennten Textdatei mithilfe von BULK INSERT
+  - Erstellen und Testen eines SSIS-Pakets zum Extrahieren von Daten
+  - Bereitstellen einer Datenschichtanwendung
+
+  Erläutern von Tools und Methoden zum Übertragen von Daten
+  
+  Importieren und Exportieren von Tabellendaten
+  
+  Verwenden von bcp und BULK INSERT zum Importieren von Daten
+  
+  Verwenden von Datenschichtanwendungen zum Importieren und Exportieren von Datenbankanwendungen

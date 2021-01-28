@@ -1,0 +1,252 @@
+### YamlMime:Course
+title: Konfigurieren von Advanced Windows Server® 2012 Services
+metadata:
+  title: 'Course 21412-D: Konfigurieren von Advanced Windows Server® 2012 Services'
+  description: 'Course 21412-D: Konfigurieren von Advanced Windows Server® 2012 Services'
+uid: course.21412
+courseNumber: '21412-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Implementieren erweiterter Netzwerkdienste.
+- skill: Implementieren erweiterter Dateidienste.
+- skill: Implementieren der dynamischen Zugriffssteuerung.
+- skill: Implementieren von verteilter Bereitstellung für Active Directory-Domänendienste (AD DS).
+- skill: Implementieren von AD DS-Standorten und ihrer Replikation.
+- skill: Implementieren von Active Directory-Zertifikatdiensten (AD CS).
+- skill: Implementieren der Active Directory-Rechteverwaltungsdienste (AD RMS).
+- skill: Implementieren der Active Directory-Verbunddienste (AD FS).
+- skill: Implementieren des Netzwerklastenausgleichs (NLB).
+- skill: Implementieren der Failover-Clusterunterstützung.
+- skill: Implementieren der Failover-Clusterunterstützung mit Hyper-V
+- skill: Implementieren der Notfallwiederherstellung.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-412
+summary: |-
+  Dieser Kurs basiert auf der endgültigen Verkaufsversion von Windows Server 2012.
+  In diesem fünftägigen Kurs erfahren Sie, wie Sie Advanced Services mit Windows Server 2012 bereitstellen und konfigurieren können. Dieser Kurs ist der dritte von drei Kursen, in denen die erforderlichen Fähigkeiten und Kenntnisse zum Implementieren einer Kerninfrastruktur von Windows Server 2012 in einer vorhandenen Unternehmensumgebung vermittelt werden. Kombiniert wird in diesen drei Kursen das Implementieren, Verwalten, Pflegen und Bereitstellen von Diensten und Infrastruktur in einer Windows Server 2012-Umgebung behandelt. Auch wenn es im Verlauf der drei Kurse zu Überschneidungen bei Fähigkeitsprofilen und Aufgaben kommt, befasst sich dieser Kurs primär mit der erweiterten Konfiguration von Diensten, die zur Bereitstellung, Verwaltung und Wartung einer Windows Server 2012-Infrastruktur erforderlich sind, z. B. erweiterte Netzwerkdienste, Active Directory-Domänendienste (AD DS), Identitätsverwaltung, Rechteverwaltung, Verbunddienste, Netzwerklastenausgleich, Failover-Clusterunterstützung, Geschäftskontinuität und Notfallwiederherstellung.
+  
+  Dieser Kurs ist das direkte Vorbereitungsmaterial für Microsoft Certified Solutions Associate (MCSA)&#58; Windows Server 2012, Prüfung "70-412&#58; Konfigurieren von Advanced Windows Server 2012 Services". Nähere Informationen finden Sie unter https://www.microsoft.com/learning/exam-70-411.aspx (in englischer Sprache).
+
+  #### Audience profile
+  Dieser Kurs richtet sich an IT-Fachleute, die über praktische Erfahrung mit dem Implementieren, Verwalten und Warten einer Windows Server 2012-Infrastruktur in einer vorhandenen Unternehmensumgebung verfügen und die Fähigkeiten und Kenntnisse für die erweiterte Verwaltung und Bereitstellung von Diensten innerhalb dieser Windows Server 2012-Umgebung erwerben möchten. Geeignete Kandidaten sind in der Regel erfahrene Systemadministratoren, die praktische Erfahrung mit der Arbeit in einer Windows Server 2008-, Windows Server 2008 R2- oder Windows Server 2012-Umgebung haben.
+  
+  Eine weitere Zielgruppe dieses Kurses sind Personen, die Prüfung 70-412&#58; "Konfigurieren von Advanced Windows Server 2012 Services" ablegen möchten, oder die die Qualifikation "Microsoft Certified Solutions Associate (MCSA)" erwerben möchten.
+prerequisitesSection: |-
+  Für diesen Kurs sollten die Kursteilnehmer folgende Vorkenntnisse mitbringen&#58;
+  - Gute praktische Erfahrung in einer Unternehmensumgebung mit Windows Server 2008, Windows Server 2008 R2 oder Windows Server 2012.
+  - Praktische Erfahrung mit dem Implementieren, Verwalten und Konfigurieren von AD DS und der Netzwerkinfrastruktur in einer Unternehmensumgebung.
+  - Kenntnisse vergleichbar zu den Kursen 21410B&#58; "Installieren und Konfigurieren von Windows Server 2012" und 21411B&#58; "Verwalten von Windows Server 2012".
+outlineSection: |-
+  ### Modul 1&#58; Implementieren erweiterter Netzwerkdienste
+  In dieser Unterrichtseinheit wird beschrieben, wie erweiterte Funktionen im Domain Name System (DNS) und Dynamic Host Configurations-Protokoll (DHCP) mit Windows Server 2012 konfiguriert werden; daneben wird IP-Adressen-Verwaltung (IPAM) behandelt.
+  #### Lektionen
+  - Konfigurieren von erweiterten DHCP-Features
+  - Konfigurieren von erweiterten DNS-Einstellungen
+  - Implementieren von IPAM
+
+
+  #### Lab &#58; Implementieren erweiterter Netzwerkdienste
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Konfigurieren von erweiterten DNS-Diensten.
+  - Konfigurieren von erweiterten DHCP-Diensten.
+  - Implementieren von IPAM
+
+
+  ### Modul 2&#58; Implementieren erweiterter Dateidienste
+  In dieser Unterrichtseinheit wird die Konfiguration und Verwaltung von iSCSI und BranchCache beschrieben und die Implementierung der Windows 2012-Funktionen zur Optimierung der Speicherauslastung erläutert, z. B. Ressourcen-Manager für Dateiserver, Dateiklassifizierung und Datenverdoppelung.
+  #### Lektionen
+  - Konfigurieren von iSCSI-Speicher
+  - Konfigurieren von BranchCache
+  - Optimieren der Speicherverwendung
+
+
+  #### Lab &#58; Implementieren erweiterter Dateidienste
+
+  #### Lab &#58; Implementieren von BranchCache
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Konfigurieren von iSCSI-Speicher
+  - Konfigurieren von BranchCache
+  - Optimieren der Speicherverwendung
+
+
+  ### Modul 3&#58; Implementieren der dynamischen Zugriffssteuerung
+  In dieser Unterrichtseinheit wird die Planung und Implementierung der dynamischen Zugriffssteuerung beschrieben.
+  #### Lektionen
+  - Übersicht über die dynamische Zugriffssteuerung
+  - Planen der dynamischen Zugriffssteuerung
+  - Bereitstellen der dynamischen Zugriffssteuerung
+
+
+  #### Lab &#58; Implementieren der dynamischen Zugriffssteuerung
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Planen der dynamischen Zugriffssteuerung
+  - Bereitstellen der dynamischen Zugriffssteuerung
+
+
+  ### Modul 4&#58; Implementieren von verteilter Bereitstellung für Active Directory-Domänendienste
+  In dieser Unterrichtseinheit werden die Komponenten einer sehr komplexen AD DS-Bereitstellung beschrieben, wozu das Implementieren einer verteilten AD DS-Bereitstellung und das Konfigurieren von AD DS-Gesamtstrukturvertrauensstellungen gehören.
+  #### Lektionen
+  - Überblick über verteilte AD DS-Bereitstellungen
+  - Bereitstellen einer verteilten AD DS-Umgebung
+  - Konfiguration von AD DS-Vertrauensstellungen
+
+
+  #### Lab &#58; Implementieren von komplexen AD DS-Bereitstellungen
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben und Verstehen verteilter AD DS-Bereitstellungen
+  - Implementieren verteilter AD DS-Bereitstellungen
+  - Konfigurieren von AD DS-Vertrauensstellungen
+
+
+  ### Modul 5&#58; Implementieren von Standorten und Replikation für Active Directory-Domänendienste
+  In dieser Unterrichtseinheit wird beschrieben, wie die Replikation in einer Windows Server 2012 AD DS-Umgebung funktioniert. Dabei wird auch erläutert, wie AD DS-Standorte zur Optimierung des AD DS-Netzwerkdatenverkehrs konfiguriert werden, und wie die AD DS-Replikation konfiguriert und überwacht wird.
+  #### Lektionen
+  - Übersicht über die AD DS-Replikation
+  - Konfigurieren von AD DS-Standorten
+  - Konfigurieren und Überwachen der AD DS-Replikation
+
+
+  #### Lab &#58; Implementieren von AD DS-Standorten und ihrer Replikation
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der AD DS-Replikation
+  - Konfigurieren von AD DS-Standorten
+  - Konfigurieren und Überwachen der AD DS-Replikation
+
+
+  ### Modul 6&#58; Implementieren von Active Directory-Zertifikatdiensten
+  In dieser Unterrichtseinheit werden die Public Key-Infrastruktur (PKI)-Komponenten und die zugrunde liegenden Konzepte beschrieben. Sie behandelt das Implementieren einer Zertifizierungsstelleninfrastruktur, das Planen und Implementieren einer Zertifikatvorlagenbereitstellung, die eine AD CS-Zertifizierungsstelle verwendet, und das Planen und Implementieren von Zertifikatverteilung und Sperrung.
+  #### Lektionen
+  - PKI-Übersicht
+  - Bereitstellen von Zertifizierungsstellen
+  - Bereitstellen und Konfigurieren einer Zertifizierungsstellenhierarchie
+  - Bereitstellen und Verwalten von Zertifikatsvorlagen
+  - Konfigurieren der Verteilung und Sperrung von Zertifikaten
+  - Verwalten von Zertifikatwiederherstellungen
+
+
+  #### Lab &#58; Bereitstellen und Verwalten von Zertifikaten
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Public Key-Infrastruktur (PKI)
+  - Bereitstellen von Zertifizierungsstellen
+  - Bereitstellen und Konfigurieren der Zertifizierungsstellenhierarchie
+  - Bereitstellen und Verwalten von Zertifikatvorlagen
+  - Implementieren der Zertifikatverteilung und -sperrung
+  - Verwalten von Zertifikatwiederherstellungen
+
+
+  ### Modul 7&#58; Implementieren der Active Directory-Rechteverwaltungsdienste
+  In dieser Unterrichtseinheit werden die Funktionen und Funktionalitäten der Active Directory-Rechteverwaltungsdienste (AD RMS) beschrieben. Besonders wird die Verwendung der Active Directory-Rechteverwaltungsdienste zur Konfiguration des Inhaltsschutzes und die Bereitstellung und Verwaltung einer AD RMS-Infrastruktur erläutert.
+  #### Lektionen
+  - Übersicht über die AD RMS
+  - Bereitstellen und Verwalten einer AD RMS-Infrastruktur
+  - Konfigurieren des AD RMS-Inhaltsschutzes
+  - Konfigurieren des externen Zugriffs auf die AD RMS
+
+
+  #### Lab &#58; Implementieren von AD RMS
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Active Directory-Rechteverwaltungsdienste (Active Directory Rights Management Services, AD RMS)
+  - Bereitstellen und Verwalten einer AD RMS-Infrastruktur
+  - Konfigurieren des AD RMS-Schutzes von Inhalten
+  - Konfigurieren des externen Zugriffs auf die AD RMS
+
+
+  ### Modul 8&#58; Implementieren der Active Directory-Verbunddienste
+  Diese Unterrichtseinheit stellt Geschäftsszenarien für einen Identitätsverbund vor und beschreibt die Verwendung der Active Directory-Verbunddienste (AD FS) zur Handhabung solcher Szenarien. Erläutert wird das Konfigurieren der AD FS-Voraussetzungen, die Bereitstellung der AD FS-Dienste, die Aktivierung des einmaligen Anmeldens (SSO) für eine Organisation und die Aktivierung von SSO zwischen Verbundgeschäftspartnern.
+  #### Lektionen
+  - Übersicht über die AD FS
+  - Bereitstellen von AD FS
+  - Implementieren von AD FS für eine einzelne Organisation
+  - Bereitstellen von AD FS in einem B2B-Verbundszenario
+
+
+  #### Lab &#58; Implementieren von AD FS
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben von AD FS
+  - Bereitstellen von AD FS
+  - Implementieren von AD FS für eine einzelne Organisation
+  - Bereitstellen von AD FS in einem Business-to-Business-Verbundszenario
+
+
+  ### Modul 9&#58; Implementieren des Netzwerklastenausgleichs
+  In dieser Unterrichtseinheit wird die Planung und Implementierung des Netzwerklastenausgleichs (NLB) erläutert. Sie behandelt das Verwalten und Konfigurieren wie auch das Überprüfen der Hochverfügbarkeit eines NLB-Clusters.
+  #### Lektionen
+  - Übersicht über den NLB
+  - Konfigurieren eines NLB-Clusters
+  - Planen einer NLB-Implementierung
+
+
+  #### Lab &#58; Implementieren des Netzwerklastenausgleichs
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Konfigurieren eines NLB-Clusters
+  - Planen einer NLB-Implementierung
+
+
+  ### Modul 10&#58; Implementieren der Failover-Clusterunterstützung
+  In dieser Unterrichtseinheit werden die Windows Server 2012-Funktionen für eine Failover-Clusterunterstützung beschrieben. Erläutert wird das Implementieren eines Failoverclusters, das Konfigurieren von Anwendungen und Diensten mit hoher Verfügbarkeit auf einem Failovercluster, die Wartung eines Failoverclusters und die Verwendung neuer Wartungsfunktionen wie etwa Clusterfähiges Aktualisieren (Cluster Aware Updating, CAU). Ebenso wird das Implementieren einer standortübergreifenden Failover-Clusterunterstützung behandelt.
+  #### Lektionen
+  - Übersicht über die Failover-Clusterunterstützung
+  - Implementieren eines Failoverclusters
+  - Konfigurieren von Anwendungen und Diensten mit hoher Verfügbarkeit auf einem Failovercluster
+  - Warten eines Failoverclusters
+  - Implementieren eines Failoverclusters für mehrere Standorte
+
+
+  #### Lab &#58; Implementieren der Failover-Clusterunterstützung
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Implementieren eines Failoverclusters
+  - Konfigurieren von Anwendungen und Diensten mit hoher Verfügbarkeit auf einem Failovercluster
+  - Warten eines Failoverclusters
+  - Implementieren eines Failoverclusters für mehrere Standorte
+
+
+  ### Modul 11&#58; Implementieren der Failover-Clusterunterstützung mit Hyper-V
+  In dieser Unterrichtseinheit werden Möglichkeiten beschrieben, virtuelle Computer hoch verfügbar zu machen. Es wird erläutert,wie virtuelle Computer in einem Failovercluster implementiert werden, der auf einem Host bereitgestellt wurde, und wie Sie einen virtuellen Computer oder seinen Speicher verschieben können. Zudem enthält es eine allgemeine Übersicht über System Center Virtual Machine Manager (SCVMM) 2012.
+  #### Lektionen
+  - Übersicht über das Integrieren von Hyper-V Server in Failover-Clusterunterstützung
+  - Implementieren von virtuellen Hyper-V-Computern auf Failoverclustern
+  - Implementieren der Verschiebung virtueller Hyper-V-Computer
+  - Verwalten von virtuellen Hyper-V-Umgebungen mittels VMM
+
+
+  #### Lab &#58; Implementieren der Failover-Clusterunterstützung mit Hyper-V
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Integration von Hyper-V in Failover-Clusterunterstützung
+  - Implementieren virtueller Hyper-V-Computer auf Failover-Clustern
+  - Implementieren virtueller Hyper-V-Computer-Bewegung
+  - Verwalten virtueller Hyper-V-Umgebungen mittels VMM
+
+
+  ### Modul 12&#58; Implementieren der Notfallwiederherstellung
+  In dieser Unterrichtseinheit werden Überlegungen zum Implementieren einer Lösung für die Notfallwiederherstellung beschrieben. Ebenso wird die Planung und Implementierung einer Sicherungslösung für Windows Server 2012 besprochen. Außerdem wird das Planen und Implementieren der Server- und Datenwiederherstellung mithilfe der Windows Server-Sicherung und der Microsoft-Onlinesicherung erklärt.
+  #### Lektionen
+  - Übersicht über die Notfallwiederherstellung
+  - Implementieren einer Windows Server-Sicherung
+  - Implementieren von Server- und Datenwiederherstellung
+
+
+  #### Lab &#58; Implementieren der Windows Server-Sicherung und -Wiederherstellung
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Notfallwiederherstellung
+  - Implementieren der Windows Server-Sicherung mittels Windows Server-Sicherung und Microsoft-Onlinesicherung
+  - Implementieren der Server- und Datenwiederherstellung

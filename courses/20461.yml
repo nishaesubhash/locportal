@@ -1,0 +1,356 @@
+### YamlMime:Course
+title: Querying Microsoft SQL Server® 2014
+metadata:
+  title: 'Course 20461-D: Querying Microsoft SQL Server® 2014'
+  description: 'Course 20461-D: Querying Microsoft SQL Server® 2014'
+uid: course.20461
+courseNumber: '20461-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the basic architecture and concepts of Microsoft SQL Server 2014.
+- skill: Understand the similarities and differences between Transact-SQL and other computer languages.
+- skill: Write SELECT queries
+- skill: Query multiple tables
+- skill: Sort and filter data
+- skill: Describe the use of data types in SQL Server
+- skill: Modify data using Transact-SQL
+- skill: Use built-in functions
+- skill: Group and aggregate data
+- skill: Use subqueries
+- skill: Use table expressions
+- skill: Use set operators
+- skill: Use window ranking, offset and aggregate functions
+- skill: Implement pivoting and grouping sets
+- skill: Execute stored procedures
+- skill: Program with T-SQL
+- skill: Implement error handling
+- skill: Implement transactions
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- database-administrator
+products:
+- sql-server
+exams:
+- uid: exam.70-461
+summary: |-
+  This 5-day instructor led course provides students with the technical skills required to write basic Transact-SQL queries for Microsoft SQL Server 2014. This course is the foundation for all SQL Server-related disciplines; namely, Database Administration, Database Development and Business Intelligence. The main purpose of the course is to prepare people for the exam "70-461&#58; Writing Queries Using Microsoft® SQL Server® 2014 Transact-SQL." This exam will be the underlying exam for all SQL Server-related disciplines; namely, Database Administration, Database Development and Business Intelligence. As such, the primary target audience for this course is&#58; Database Administrators, Database Developers and BI professionals..
+  
+  Note&#58; This course is designed for customers who are interested in learning SQL Server 2012 or SQL Server 2014. It covers the new features in SQL Server 2014, but also the important capabilities across the SQL Server data platform.
+
+  #### Audience profile
+  This course is intended for Database Administrators, Database Developers, and Business Intelligence professionals. The course will very likely be well attended by SQL power users who aren’t necessarily database-focused or plan on taking the exam; namely, report writers, business analysts and client application developers.
+prerequisitesSection: |-
+  - Working knowledge of relational databases.
+  - Basic knowledge of the Microsoft Windows operating system and its core functionality
+outlineSection: |-
+  ### Module 1&#58; Introduction to Microsoft SQL Server 2014
+  This module introduces the SQL Server platform and major tools. It discusses editions, versions, tools used to query, documentation sources, and the logical structure of databases.
+  #### Lessons
+  - The Basic Architecture of SQL Server
+  - SQL Server Editions and Versions
+  - Getting Started with SQL Server Management Studio
+
+
+  #### Lab &#58; Working with SQL Server 2014 Tools
+  After completing this module, you will be able to&#58;
+  - Describe the architecture and editions of SQL Server 2012.
+  - Work with SQL Server Management Studio.
+
+
+  ### Module 2&#58; Introduction to T-SQL Querying
+  This module introduces Transact SQL as the primary querying language of SQL Server. It discusses the basic structure of T-SQL queries, the logical flow of a SELECT statement, and introduces concepts such as predicates and set-based operations.
+  #### Lessons
+  - Introducing T-SQL
+  - Understanding Sets
+  - Understanding Predicate Logic
+  - Understanding the Logical Order of Operations in SELECT statements
+
+
+  #### Lab &#58; Introduction to Transact-SQL Querying
+  After completing this module, you will be able to&#58;
+  - Describe the elements of T-SQL and their role in writing queries
+  - Describe the use of sets in SQL Server
+  - Describe the use of predicate logic in SQL Server
+  - Describe the logical order of operations in SELECT statements
+
+
+  ### Module 3&#58; Writing SELECT Queries
+  This module introduces the fundamentals of the SELECT statement, focusing on queries against a single table.
+  #### Lessons
+  - Writing Simple SELECT Statements
+  - Eliminate Duplicates with DISTINCT
+  - Using Column and Table Aliases
+  - Write Simple CASE Expressions
+
+
+  #### Lab &#58; Writing Basic SELECT Statements
+  After completing this module, you will be able to&#58;
+  - Write simple SELECT statements.
+  - Eliminate duplicates using the DISTINCT clause.
+  - Use column and table aliases.
+  - Write simple CASE expressions.
+
+
+  ### Module 4&#58; Querying Multiple Tables
+  This module explains how to write queries which combine data from multiple sources in SQL Server. The module introduces the use of JOINs in T-SQL queries as a mechanism for retrieving data from multiple tables.
+  #### Lessons
+  - Understanding Joins
+  - Querying with Inner Joins
+  - Querying with Outer Joins
+  - Querying with Cross Joins and Self Joins
+
+
+  #### Lab &#58; Querying Multiple Tables
+  After completing this module, you will be able to&#58;
+  - Describe how multiple tables may be queried in a SELECT statement using joins.
+  - Write queries that use inner joins.
+  - Write queries that use outer joins.
+  - Write queries that use self-joins and cross joins.
+
+
+  ### Module 5&#58; Sorting and Filtering Data
+  This module explains how to enhance queries to limit the rows they return, and to control the order in which the rows are displayed. The module also discusses how to resolve missing and unknown results.
+  #### Lessons
+  - Sorting Data
+  - Filtering Data with Predicates
+  - Filtering with the TOP and OFFSET-FETCH
+  - Working with Unknown Values
+
+
+  #### Lab &#58; Sorting and Filtering Data
+  After completing this module, you will be able to&#58;
+  - Filter data with predicates in the WHERE clause.
+  - Sort data using ORDER BY.
+  - Filter data in the SELECT clause with TOP.
+  - Filter data with OFFSET and FETCH.
+
+
+  ### Module 6&#58; Working with SQL Server 2014 Data Types
+  This module explains the data types SQL Server uses to store data. It introduces the many types of numeric and special-use data types. It also explains conversions between data types, and the importance of type precedence.
+  #### Lessons
+  - Introducing SQL Server 2014 Data Types
+  - Working with Character Data
+  - Working with Date and Time Data
+
+
+  #### Lab &#58; Working with SQL Server 2014 Data Types
+  After completing this module, you will be able to&#58;
+  - Describe numeric data types, type precedence and type conversions.
+  - Write queries using character data types.
+  - Write queries using date and time data types.
+
+
+  ### Module 7&#58; Using DML to Modify Data
+  This module describes the use of Transact-SQL Data Manipulation Language to perform inserts, updates, and deletes to your data.
+  #### Lessons
+  - Inserting Data
+  - Modifying and Deleting Data
+
+
+  #### Lab &#58; Using DML to Modify Data
+  After completing this module, you will be able to&#58;
+  - Insert new data into your tables.
+  - Update and delete existing records in your tables.
+
+
+  ### Module 8&#58; Using Built-In Functions
+  This module introduces the use of functions that are built in to SQL Server Denali, and will discuss some common usages including data type conversion, testing for logical results and nullability.
+  #### Lessons
+  - Writing Queries with Built-In Functions
+  - Using Conversion Functions
+  - Using Logical Functions
+  - Using Functions to Work with NULL
+
+
+  #### Lab &#58; Using Built-In Functions
+  After completing this module, you will be able to&#58;
+  - Write queries with built-in scalar functions.
+  - Use conversion functions.
+  - Use logical functions.
+  - Use functions that work with NULL.
+
+
+  ### Module 9&#58; Grouping and Aggregating Data
+  This module introduces methods for grouping data within a query, aggregating the grouped data and filtering groups with HAVING. The module is designed to help the student grasp why a SELECT clause has restrictions placed upon column naming in the GROUP BY clause as well as which columns may be listed in the SELECT clause.
+  #### Lessons
+  - Using Aggregate Functions
+  - Using the GROUP BY Clause
+  - Filtering Groups with HAVING
+
+
+  #### Lab &#58; Grouping and Aggregating Data
+  After completing this module, you will be able to&#58;
+  - Write queries which summarize data using built-in aggregate functions.
+  - Use the GROUP BY clause to arrange rows into groups.
+  - Use the HAVING clause to filter out groups based on a search condition.
+
+
+  ### Module 10&#58; Using Subqueries
+  This module will introduce the use of subqueries in various parts of a SELECT statement. It will include the use of scalar and multi-result subqueries, and the use of the IN and EXISTS operators.
+  #### Lessons
+  - Writing Self-Contained Subqueries
+  - Writing Correlated Subqueries
+  - Using the EXISTS Predicate with Subqueries
+
+
+  #### Lab &#58; Using Subqueries
+  After completing this module, you will be able to&#58;
+  - Describe the uses of queries which are nested within other queries.
+  - Write self-contained subqueries which return scalar or multi-valued results.
+  - Write correlated subqueries which return scalar or multi-valued results.
+  - Use the EXISTS predicate to efficiently check for the existence of rows in a subquery.
+
+
+  ### Module 11&#58; Using Table Expressions
+  This module introduces T-SQL expressions which return a valid relational table, typically for further use in the query. The module discusses views, derived tables, common table expressions and inline table-valued functions.
+  #### Lessons
+  - Using Views
+  - Using Inline Table-Valued Functions
+  - Using Derived Tables
+  - Using Common Table Expressions
+
+
+  #### Lab &#58; Using Table Expressions
+  After completing this module, you will be able to&#58;
+  - Write queries which use derived tables.
+  - Write queries which use common table expressions.
+  - Create simple views and write queries against them.
+  - Create simple inline table-valued functions and write queries against them.
+
+
+  ### Module 12&#58; Using Set Operators
+  This module introduces the set operators UNION, INTERSECT, and EXCEPT to compare rows between two input sets
+  #### Lessons
+  - Writing Queries with the UNION Operator
+  - Using EXCEPT and INTERSECT
+  - Using APPLY
+
+
+  #### Lab &#58; Using Set Operators
+  After completing this module, you will be able to&#58;
+  - Write queries which combine data using the UNION operator
+  - Write queries which compare sets using the INTERSECT and EXCEPT operators
+  - Write queries which manipulate rows in a table by using APPLY with the results of a derived table or function
+
+
+  ### Module 13&#58; Using Window Ranking, Offset, and Aggregate Functions
+  This module introduces window functions including ranking, aggregate and offset functions. Much of this functionality is new to SQL Server 2012. It will cover the use of T-SQL functions such as ROW_NUMBER, RANK, DENSE_RANK, NTILE, LAG, LEAD, FIRST_VALUE and LAST_VALUE to perform calculations against a set, or window, of rows.
+  #### Lessons
+  - Creating Windows with OVER
+  - Exploring Window Functions
+
+
+  #### Lab &#58; Using Window Ranking, Offset and Aggregate Functions
+  After completing this module, you will be able to&#58;
+  - Describe the benefits to using window functions.
+  - Restrict window functions to rows defined in an OVER clause, including partitions and frames.
+  - Write queries which use window functions to operate on a window of rows and return ranking, aggregation and offset comparison results.
+
+
+  ### Module 14&#58; Pivoting and Grouping Sets
+  This module discusses techniques for pivoting data in T-SQL as well to introduce the fundamentals of the GROUPING SETS clause. It will also cover the use of GROUP BY ROLLUP and GROUP BY CUBE syntax in SQL Server.
+  #### Lessons
+  - Writing Queries with PIVOT and UNPIVOT
+  - Working with Grouping Sets
+
+
+  #### Lab &#58; Pivoting and Grouping Sets
+  After completing this module, you will be able to&#58;
+  - Write queries which pivot and unpivot result sets.
+  - Write queries which specify multiple groupings with grouping sets.
+
+
+  ### Module 15&#58; Querying data with Stored Procedures
+  This module introduces the use of existing stored procedures in a T-SQL querying environment. It discusses the use of EXECUTE, how to pass input and output parameters to a procedure, and how to invoke system stored procedures.
+  #### Lessons
+  - Writing Queries with PIVOT and UNPIVOT
+  - Passing Parameters to Stored Procedures
+  - Creating Simple Stored Procedures
+  - Working with Dynamic SQL
+
+
+  #### Lab &#58; Executing Stored Procedures
+  After completing this module, you will be able to&#58;
+  - Return results by executing stored procedures.
+  - Pass parameters to procedures.
+  - Create simple stored procedures which encapsulate a SELECT statement.
+  - Construct and execute dynamic SQL with EXEC and sp_executesql.
+
+
+  ### Module 16&#58; Programming with T-SQL
+  This module provides a basic introduction to T-SQL programming concepts and objects. It discusses batches, variables, control of flow elements such as loops and conditionals, how to create and execute dynamic SQL statements, and how to use synonyms.
+  #### Lessons
+  - T-SQL Programming Elements
+  - Controlling Program Flow
+
+
+  #### Lab &#58; Programming with T-SQL
+  After completing this module, you will be able to&#58;
+  - Describe the language elements of T-SQL used for simple programming tasks.
+  - Describe batches and how they are handled by SQL Server.
+  - Declare and assign variables and synonyms.
+  - Use IF and WHILE blocks to control program flow.
+
+
+  ### Module 17&#58; Implementing Error Handling
+  This module introduces the use of error handlers in T-SQL code. It will introduce the difference between compile errors and run-time errors, and will cover how errors affect batches. The module will also cover how to control error handling using TRY/CATCH blocks, the use of the ERROR class of functions, and the use of the new THROW statement.
+  #### Lessons
+  - Using TRY / CATCH Blocks
+  - Working with Error Information
+
+
+  #### Lab &#58; Implementing Error Handling
+  After completing this module, you will be able to&#58;
+  - Describe SQL Server's behavior when errors occur in T-SQL code.
+  - Implement structured exception handling in T-SQL.
+  - Return information about errors from system objects.
+  - Raise user-defined errors and pass system errors in T-SQL code.
+
+
+  ### Module 18&#58; Implementing Transactions
+  This module introduces the concepts of transaction management in SQL Server. It will provide a high-level overview of transaction properties, cover the basics of marking transactions with BEGIN, COMMIT and ROLLBACK.
+  #### Lessons
+  - Transactions and the Database Engine
+  - Controlling Transactions
+
+
+  #### Lab &#58; Implementing Transactions
+  After completing this module, you will be able to&#58;
+  - Describe transactions and the differences between batches and transactions.
+  - Describe batches and how they are handled by SQL Server.
+  - Create and manage transactions with transaction control language statements.
+  - Use SET XACT_ABORT to define SQL Server's handling of transactions outside TRY / CATCH blocks.
+  - Describe the effects of isolation levels on transactions.
+
+
+  ### Module 19&#58; Appendix 1&#58; Improving Query Performance
+  This module presents several key guidelines for writing well-performing queries, as well as ways to monitor the execution of your queries and their impact on Microsoft SQL Server
+  #### Lessons
+  - Factors in Query Performance
+  - Displaying Query Performance Data
+
+
+  #### Lab &#58; Improving Query Performance
+  After completing this module, you will be able to&#58;
+  - Describe components of well-performing queries.
+  - Display and interpret basic query performance data
+
+
+  ### Module 20&#58; Appendix 2&#58; Querying SQL Server Metadata
+  SQL Server provides access to structured metadata by using a variety of mechanisms, such as system catalog views, system functions, dynamic management objects, and system stored procedures. In this module, you will learn how to write queries to return system metadata using these mechanisms.
+  #### Lessons
+  - Querying System Catalog Views and Functions
+  - Executing System Stored Procedures
+  - Querying Dynamic Management Objects
+
+
+  #### Lab &#58; Querying SQL Server Metadata
+  After completing this module, you will be able to&#58;
+  - Write queries that retrieve system metadata using system views and functions.
+  - Execute system stored procedures to return system information.
+  - Write queries that retrieve system metadata and state information using system dynamic management views and functions.

@@ -1,0 +1,241 @@
+### YamlMime:Course
+title: Implementing Data Models and Reports with SQL Server 2014
+metadata:
+  title: 'Course 20466-D: Implementing Data Models and Reports with SQL Server 2014'
+  description: 'Course 20466-D: Implementing Data Models and Reports with SQL Server 2014'
+uid: course.20466
+courseNumber: '20466-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the components, architecture, and nature of a BI solution.
+- skill: Create a multidimensional database with Analysis Services.
+- skill: Implement dimensions in a cube.
+- skill: Implement measures and measure groups in a cube.
+- skill: UseMDX Syntax.
+- skill: Customize a cube.
+- skill: Implement a Tabular Data Model in SQL Server Analysis Services.
+- skill: UseDAX to enhance a tabular model.
+- skill: Create reports with Reporting Services.
+- skill: Enhance reports with charts and parameters.
+- skill: Manage report execution and delivery.
+- skill: Implement a dashboard in SharePoint Server with PerformancePoint Services.
+- skill: Use Data Mining for Predictive Analysis.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- database-administrator
+products:
+- sql-server
+exams:
+- uid: exam.70-466
+summary: |-
+  The focus of this five-day instructor-led course is on creating managed enterprise BI solutions. It describes how to implement multidimensional and tabular data models, deliver reports with Microsoft® SQL Server® Reporting Services, create dashboards with Microsoft SharePoint Server PerformancePoint Services, and discover business insights by using data mining.
+  
+  Note&#58; This course is designed for customers who are interested in learning SQL Server 2012 or SQL Server 2014. It covers the new features in SQL Server 2014, but also the important capabilities across the SQL Server data platform.
+
+  #### Audience profile
+  This course is intended for database professionals who need to fulfill a Business Intelligence Developer role to create analysis and reporting solutions. Primary responsibilities include&#58;
+  - Implementing analytical data models, such as OLAP cubes.
+  - Implementing reports, and managing report delivery.
+  - Creating business performance dashboards.
+  - Supporting data mining and predictive analysis.
+prerequisitesSection: |-
+  This course requires that you meet the following prerequisites&#58;
+  - At least 2 year's experience of working with relational databases, including&#58; 
+    - Designing a normalized database. 
+    - Creating tables and relationships. 
+    - Querying with Transact-SQL. 
+    - Some basic knowledge of data warehouse schema topology (including star and snowflake schemas). 
+    - Some exposure to basic programming constructs (such as looping and branching).
+    - An awareness of key business priorities such as revenue, profitability, and financial accounting is desirable.
+outlineSection: |-
+  ### Module 1&#58; Introduction to Business Intelligence and Data Modeling
+  As a SQL Server database professional, you may be required to participate in, or perhaps even lead, a project with the aim of implementing an effective enterprise BI solution. Therefore, it is important that you have a good understanding of the various elements that comprise a BI solution, the business and IT personnel typically involved in a BI project, and the Microsoft products that you can use to implement the solution.
+  #### Lessons
+  - Introduction to Business Intelligence
+  - The Microsoft Enterprise BI Platform
+
+
+  #### Lab &#58; Exploring a BI Solution
+  After completing this module, you will be able to&#58;
+  - Describe the elements of a typical BI solution. 
+  - Select appropriate Microsoft technologies for a BI solution.
+  - Describe key considerations for planning a BI project.
+
+
+  ### Module 2&#58; Creating Multidimensional Databases
+  This module provides an introduction to multidimensional databases and introduces the core components of an Online Analytical Processing (OLAP) cube.
+  #### Lessons
+  - Introduction to Multidimensional Analysis
+  - Creating Data Sources and Data Source Views
+  - Creating a Cube
+  - Overview of Cube Security
+
+
+  #### Lab &#58; Creating a Multidimensional Database
+  After completing this module, you will be able to&#58;
+  - Describe the considerations for a multidimensional database. 
+  - Create data sources and data source views.
+  - Create a cube.
+  - Implement security in a multidimensional database.
+
+
+  ### Module 3&#58; Working with Cubes and Dimensions
+  This module describes how to create and configure dimensions and dimension hierarchies in an Analysis Services multidimensional data model.
+  #### Lessons
+  - Configuring Dimensions
+  - Defining Attribute Hierarchies
+  - Sorting and Grouping Hierarchies
+
+
+  #### Lab &#58; Working with Cubes and Dimensions
+  After completing this module, you will be able to&#58;
+  - Configure dimensions. 
+  - Define attribute hierarchies.
+  - Sort and group attributes.
+
+
+  ### Module 4&#58; Working with Measures and Measure Groups
+  This module describes measures and measure groups. It also explains how you can use them to define fact tables and associate dimensions with measures.
+  #### Lessons
+  - Working with Measures
+  - Working with Measure Groups
+
+
+  #### Lab &#58; Configuring Measures and Measure Groups
+  After completing this module, you will be able to&#58;
+  - Configure measures.
+  - Configure measure groups.
+
+
+  ### Module 5&#58; Introduction to MDX
+  This module describes the fundamentals of MDX and explains how to build calculations, such as calculated members and named sets.
+  #### Lessons
+  - MDX Fundamentals
+  - Adding Calculations to a Cube
+  - Using MDX to Query a Cube
+
+
+  #### Lab &#58; Using MDX
+  After completing this module, you will be able to&#58;
+  - Describe MDX.
+  - Add calculations to a cube.
+  - Describe how to use MDX in client applications.
+
+
+  ### Module 6&#58; Customizing Cube Functionality
+  This module describes how to enhance a cube with Key Performance Indicators (KPIs), actions, perspectives, and translations.
+  #### Lessons
+  - Implementing Key Performance Indicators
+  - Implementing Actions
+  - Implementing Perspectives
+  - Implementing Translations
+
+
+  #### Lab &#58; Customizing a Cube
+  After completing this module, you will be able to&#58;
+  - Implement Key Performance Indicators.
+  - Implement Actions. 
+  - Implement Perspectives.
+  - Implement Translations.
+
+
+  ### Module 7&#58; Implementing an Analysis Services Tabular Data Model
+  This module describes Analysis Services tabular data models and explains how to develop a tabular data model using the SQL Server Data Tools for Business Intelligence (BI) add-in for Visual Studio.
+  #### Lessons
+  - Introduction to Tabular Data Models
+  - Creating a Tabular Data Model
+  - Using an Analysis Services Tabular Data Model in an Enterprise BI Solution
+
+
+  #### Lab &#58; Implementing an Analysis Services Tabular Data Model
+  After completing this module, you will be able to&#58;
+  - Describe Analysis Services tabular data model projects. 
+  - Implement an Analysis Services tabular data model.
+  - Use an Analysis Services tabular data model.
+
+
+  ### Module 8&#58; Introduction to Data Analysis Expression (DAX)
+  This module explains the fundamentals of the DAX language. It also explains how you can use DAX to create calculated columns and measures, and how you can use them in your tabular data models.
+  #### Lessons
+  - DAX Fundamentals
+  - Using DAX to Create calculated Columns and Measures in a Tabular Data Model
+
+
+  #### Lab &#58; Creating Calculated Columns and Measures by using DAX
+  After completing this module, you will be able to&#58;
+  - Describe the fundamentals of DAX.
+  - Use DAX to create calculated columns and measures.
+
+
+  ### Module 9&#58; Implementing Reports with SQL Server Reporting Services
+  This module introduces Microsoft SQL Server Reporting Services and discusses the tools and techniques that a professional BI developer can use to create and publish reports.
+  #### Lessons
+  - Introduction to Reporting Services
+  - Creating a Report with Report Designer
+  - Grouping and Aggregating Data in a Report
+  - Showing Data Graphically
+  - Filtering Reports Using Parameters
+
+
+  #### Lab &#58; Creating a Report with Report Designer
+  After completing this module, you will be able to&#58;
+  - Describe the key features of Reporting Services. 
+  - Use Report Designer to create a report.
+  - Group and aggregate data in a report.
+  - Publish and view a report.
+
+
+  ### Module 10&#58; Automating Report Execution and Delivery
+  This module describes how to apply security and report execution settings, and how to create subscriptions to deliver reports.
+  #### Lessons
+  - Managing Report Security
+  - Managing Report Execution
+  - Delivering Reports with Subscriptions and Data Alerts
+  - Troubleshooting Reporting Services
+
+
+  #### Lab &#58; Implementing Report Subscriptions
+  After completing this module, you will be able to&#58;
+  - Configure security settings for a report server. 
+  - Configure report execution settings to optimize performance. 
+  - Use subscriptions and alerts to automate report and data delivery.
+  - Troubleshoot reporting issues.
+
+
+  ### Module 11&#58; Delivering BI with SharePoint PerformancePoint Services
+  This module introduces Microsoft SharePoint Server as a platform for BI, and then focuses on building BI dashboards and scorecards with PerformancePoint Services.
+  #### Lessons
+  - Introduction to SharePoint Server as a BI Platform
+  - Planning Security for a SharePoint Server BI Solution
+  - Planning for PerformancePoint Services
+
+
+  #### Lab &#58; Implementing PerformancePoint Services
+  After completing this module, you will be able to&#58;
+  - Describe SharePoint Server as a BI platform.
+  - Use PerformancePoint Services to deliver BI functionality.
+  - Configure PerformancePoint Data Sources.
+  - Create Reports, Scorecards, and Dashboards.
+
+
+  ### Module 12&#58; Performing Predictive Analysis with Data Mining
+  This module introduces data mining, describes how to create a data mining solution, how to validate data mining models, how to use the Data Mining Add-ins for Microsoft Excel, and how to incorporate data mining results into Reporting Services reports.
+  #### Lessons
+  - Overview of Data Mining
+  - Using the Data Mining Add-in for Excel
+  - Creating a Custom Data Mining Solution
+  - Validating a Data Mining Model
+  - Connecting to and Consuming Data Mining Data
+
+
+  #### Lab &#58; Using Data Mining to Support a Marketing Campaign
+  After completing this module, you will be able to&#58;
+  - Describe the key data mining concepts and use the Data Mining Add-ins for Excel.
+  - Create a data mining solution.
+  - Validate data mining models.
+  - Use data mining data in a report.

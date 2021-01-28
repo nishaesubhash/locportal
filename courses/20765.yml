@@ -1,0 +1,230 @@
+### YamlMime:Course
+title: Provisioning SQL Databases
+metadata:
+  title: 'Course 20765-C: Provisioning SQL Databases'
+  description: 'Course 20765-C: Provisioning SQL Databases'
+uid: course.20765
+courseNumber: '20765-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Provision a Database Server
+- skill: Upgrade SQL Server
+- skill: Configure SQL Server
+- skill: Manage Databases and Files (shared)
+- skill: Provision, migrate and manage databases in the cloud
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- database-administrator
+products:
+- sql-server
+exams:
+- uid: exam.70-765
+summary: |-
+  This course is designed to teach students how to provision SQL Server databases both on premise and in SQL Azure.
+
+  #### Audience profile
+  The primary audience for this course is individuals who administer and maintain SQL Server databases. These individuals perform database administration and maintenance as their primary area of responsibility, or work in environments where databases play a key role in their primary job.
+  
+  The secondary audiences for this course are individuals who develop applications that deliver content from SQL Server databases.
+prerequisitesSection: |-
+  This course requires that you meet the following prerequisites&#58;
+  - Basic knowledge of the Microsoft Windows operating system and its core functionality.
+  - Working knowledge of Transact-SQL. 
+  - Working knowledge of relational databases. 
+  - Some experience with database design
+outlineSection: |-
+  ### Module 1&#58; SQL Server Components
+  This module describes the various SQL Server components and versions.
+  #### Lessons
+  - Introduction to the SQL Server Platform
+  - Overview of SQL Server Architecture
+  - SQL Server Services and Configuration Options
+
+  After completing this module, you will be able to&#58; 
+  - Describe SQL Server components and versions.
+  - Describe SQL Server architecture and resource usage.
+  - Describe SQL Server services and how you manage the configuration of those services.
+
+
+  ### Module 2&#58; Installing SQL Server
+  This modules describes the process to install SQL Server 2016.
+  #### Lessons
+  - Considerations for SQL Installing Server
+  - TempDB Files
+  - Installing SQL Server
+  - Automating Installation
+
+
+  #### Lab &#58; Installing SQL Server
+  - Preparing to install SQL Server
+  - Install an instance of SQL Server
+  - Perform post installation checks
+  - Automating Installation
+
+  After completing this module, you will be able to&#58; 
+  - Describe the considerations when installing SQL Server.
+  - Describe TempDB files.
+  - Install SQL Server.
+  - Automate a SQL Server installation.
+
+
+  ### Module 3&#58; Upgrading SQL Server to SQL Server 2017
+  This module describes the process for upgrading to SQL Server 2017.
+  #### Lessons
+  - Upgrade Requirements
+  - Upgrade SQL Server Services
+  - Side by Side Upgrade&#58; Migrating SQL Server Data and Applications
+
+
+  #### Lab &#58; Upgrading SQL Server
+  - Create the Application Logins
+  - Restore the backups of the TSQL Database
+  - Orphaned Users and Database Compatibility Level
+
+  After completing this module, you will be able to&#58; 
+  - Describe the upgrade requirements for SQL Server. 
+  - Upgrade SQL Server.
+  - Migrate SQL Server data and applications.
+
+
+  ### Module 4&#58; Working with Databases
+  This module describes the preinstalled system databases, the physical structure of databases and the most common configuration options related to them.
+  #### Lessons
+  - Introduction to Data Storage with SQL Server
+  - Managing Storage for System Databases
+  - Managing Storage for User Databases
+  - Moving and Copying Database Files
+  - Buffer Pool Extension
+
+
+  #### Lab &#58; Managing Database Storage
+  - Configuring tempdb Storage
+  - Creating Databases
+  - Attaching a Database
+  - Enable Buffer Pool Extension
+
+  After completing this module, you will be able to&#58; 
+  - Describe Data Storage with SQL Server.
+  - Manage Storage for System Databases.
+  - Manage Storage for User Databases.
+  - Move and Copy Database Files.
+  - Describe and use Buffer Pool Extensions.
+
+
+  ### Module 5&#58; Performing Database Maintenance
+  This module covers database maintenance plans.
+  #### Lessons
+  - Ensuring Database Integrity
+  - Maintaining Indexes
+  - Automating Routine Database Maintenance
+
+
+  #### Lab &#58; Performing Database Maintenance
+  - Use DBCC CHECKDB to Verify Database Integrity
+  - Rebuild Indexes
+  - Create a Database Maintenance Plan
+
+  After completing this module, you will be able to&#58; 
+  - Ensure Database Integrity.
+  - Maintain Indexes.
+  - Automate Routine Database Maintenance.
+
+
+  ### Module 6&#58; Database Storage Options
+  Describe SQL Server storage options.
+  #### Lessons
+  - SQL Server storage Performance
+  - SMB Fileshare
+  - SQL Server Storage in Microsoft Azure
+  - Stretch Databases
+
+
+  #### Lab &#58; Implementing Stretch Database
+  - Run Stretch Database Advisor
+  - Implement Stretch Database
+
+  After completing this module, you will be able to&#58; 
+  - Describe SQL Server Storage Performance.
+  - Describe SMB Fileshare. 
+  - Explain SQL Server Storage in Microsoft Azure.
+  - Describe Stretch Database.
+
+
+  ### Module 7&#58; Planning to Deploy SQL Server on Microsoft Azure
+  This module describes how to plan to deploy SQL Server on Azure.
+  #### Lessons
+  - SQL Server Virtual Machines in Azure
+  - Azure Storage
+  - Azure SQL Authentication
+  - Deploying an Azure SQL Database
+
+
+  #### Lab &#58; Plan and Deploy an Azure SQL Database
+  - Plan an Azure SQL Database, Networking, performance tiers, security
+  - Provision an Azure SQL Database
+  - Connect to an Azure SQL Database
+
+  After completing this module, you will be able to&#58; 
+  - Describe SQL Server Virtual Machines in Azure.
+  - Describe Azure Storage. 
+  - Explain Azure SQL Authentication, auditing and compliance.
+  - Deploy an Azure SQL Database.
+
+
+  ### Module 8&#58; Migrating Databases to Azure SQL Database
+  This module describes how to migrate databases to Azure SQL Database.
+  #### Lessons
+  - Database Migration Testing Tools
+  - Database Migration Compatibility Issues
+  - Migrating a SQL Server Database to Azure SQL Database
+
+
+  #### Lab &#58; Migrating SQL Server Databases to Azure
+  - Perform Migration Testing
+  - Migrate a SQL Server Database to Azure SQL Database
+  - Test a Migrated Database
+
+  After completing this module, students will be able to&#58;
+  - Describe various database migration testing tools.
+  - Explain database migration compatibility issues.
+  - Migrate a SQL Server database to Azure SQL database.
+
+  ### Module 9&#58; Deploying SQL Server on a Microsoft Azure Virtual Machine
+  This module describes how to deploy SQL Server on Microsoft Azure VMs.
+  #### Lessons
+  - Deploying SQL Server on an Azure VM
+  - The Deploy Database to a Microsoft Azure VM Wizard
+
+
+  #### Lab &#58; Deploying SQL Server on an Azure Virtual Machine
+  - Provision an Azure VM
+  - Use the Deploy Database to Azure VM Wizard
+
+  After completing this module, students will be able to&#58;
+  - Deploy SQL Server on an Azure VM.
+  - Use The Deploy Database to a Microsoft Azure VM Wizard.
+  - Configure SQL Server Connections
+
+
+  ### Module 10&#58; Managing databases in the Cloud
+  This module describes how to manage SQL Server on Azure.
+  #### Lessons
+  - Managing Azure SQL Database Security
+  - Configure Azure storage
+  - Azure Automation
+
+
+  #### Lab &#58; Managing Databases in the Cloud
+  - Add data masking
+  - Use Azure automation to stop Virtual Machines
+
+  After completing this module, students will be able to&#58;
+  - Manage Azure SQL Database Security.
+  - Configure Azure storage.
+  - Implement Azure Automation.
+

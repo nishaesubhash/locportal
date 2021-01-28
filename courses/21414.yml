@@ -1,0 +1,259 @@
+### YamlMime:Course
+title: Implementieren einer Advanced Server-Infrastruktur
+metadata:
+  title: 'Course 21414-B: Implementieren einer Advanced Server-Infrastruktur'
+  description: 'Course 21414-B: Implementieren einer Advanced Server-Infrastruktur'
+uid: course.21414
+courseNumber: '21414-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Dieser Kurs richtet sich an IT-Fachleute, die für das Planen, Entwerfen und Bereitstellen einer physischen und logischen Infrastruktur mit Windows Server 2012 Enterprise und Active Directory-Domänendiensten (Active Directory Domain Services, AD DS) einschließlich Netzwerkdienste zuständig sind. Die Kursteilnehmer haben für gewöhnlich bereits Erfahrung mit früheren Windows Server-Betriebssystemen und verfügen über die Zertifizierung zum Microsoft Certified Solutions Associate (MCSA) für Windows Server 2012 oder vergleichbare Kenntnisse.
+- skill: 'Dieser Kurs richtet sich in zweiter Linie auch an IT-Fachleute, die die Prüfung 70-414: Implementieren einer Advanced Server-Infrastruktur als eigenständige Zertifizierung oder als Teil der Anforderungen zur Zertifizierung zum Microsoft Certified Solutions Expert (MCSE) absolvieren möchten.'
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-414
+summary: |-
+  In diesem Kurs erfahren die Kursteilnehmer, wie sie einige der komplexeren Funktionen von Windows Server 2012 planen und implementieren. Kurs 21413B ist Voraussetzung für Kurs 21414B.
+prerequisitesSection: |-
+  Für diesen Kurs sollten die Kursteilnehmer folgende Vorkenntnisse mitbringen&#58;
+  - TCP/IP und Netzwerke
+  - Windows Server 2012 und AD DS, einschließlich Planung, Entwurf und Bereitstellung einer AD DS- und Netzwerkinfrastruktur
+  - Verwenden von Skripts und Batchdateien
+  - Sicherheitskonzepte, z. B. Authentifizierung und Autorisierung
+  - Tools für Bereitstellung, Paket- und Imageerstellung
+  - Arbeiten in einem Team oder mit einem virtuellen Team
+  - Erstellen von Vorschlägen und Abgeben von Budgetempfehlungen
+  - Die Kursteilnehmer sollten über die Zertifizierung zum Windows Server 2012 MCSA verfügen sowie den Kurs 21413B&#58; Entwerfen und Implementieren einer Serverinfrastruktur abgeschlossen haben oder über entsprechendes Wissen verfügen.
+outlineSection: |-
+  ### Modul 1&#58; Übersicht über die Verwaltung in einem Unternehmensrechenzentrum
+  In dieser Unterrichtseinheit werden einige der Änderungen und der neuen Anforderungen beschrieben, die in den Rechenzentren von Organisationen zu finden sind. Anschließend wird beschrieben, wie Sie diese Umgebung mithilfe von System Center 2012 verwalten können.
+  #### Lektionen
+  - Übersicht über das Unternehmensrechenzentrum
+  - Übersicht über die Microsoft System Center 2012-Komponenten
+  - Überlegungen zum Implementieren eines Unternehmensrechenzentrums
+
+
+  #### Lab &#58; Überlegungen zum Implementieren eines Unternehmensrechenzentrums
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Beschreiben des Unternehmensrechenzentrums
+  - Beschreiben der Verwendung von System Center 2012 zum Verwalten des Unternehmensrechenzentrums
+
+
+  ### Modul 2&#58; Planen und Implementieren einer Strategie zur Servervirtualisierung
+  Diese Unterrichtseinheit führt die Microsoft System Center 2012-Komponenten ein. Sie erfahren, wie die Komponenten integriert werden können, damit Sie eine Servervirtualisierungsumgebung konfigurieren, bereitstellen und verwalten können. Außerdem überprüfen Sie die Planungsschritte und die Überlegungen zur Bereitstellung von Microsoft System Center 2012 - Virtual Machine Manager (VMM).
+  #### Lektionen
+  - Planen einer VMM-Bereitstellung
+  - Planen und Implementieren einer Umgebung mit Servervirtualisierungshosts
+  - Planen und Implementieren einer Netzwerkinfrastruktur für die Virtualisierung
+
+
+  #### Lab &#58; Planen und Implementieren einer Strategie zur Servervirtualisierung
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Beschreiben der Verwendung von System Center 2012 zum Bereitstellen und Verwalten einer virtuellen Umgebung
+  - Planen und Implementieren einer Servervirtualisierungsstrategie mit Windows Server 2012 Hyper-V und VMM
+  - Bereitstellen von Hyper-V-Hosts, Konfigurieren von Hostgruppen und Implementieren von VMM-Bibliotheken
+
+
+  ### Modul 3&#58; Planen und Implementieren von Netzwerken und Speicher für die Virtualisierung
+  In dieser Unterrichtseinheit werden die Faktoren beschrieben, die Sie beachten müssen, wenn Sie die Speicher- und Netzwerkinfrastruktur für Ihre virtuelle Umgebung planen. Darüber hinaus enthält sie Informationen zum Bereitstellen dieser Komponenten in Windows Server 2012-Hyper-V und VMM.
+  #### Lektionen
+  - Planen einer Speicherinfrastruktur für die Virtualisierung
+  - Implementieren einer Speicherinfrastruktur für die Virtualisierung
+  - Planen und Implementieren einer Netzwerkinfrastruktur für die Virtualisierung
+
+
+  #### Lab &#58; Planen und Implementieren von Netzwerken und Speicher für die Virtualisierung
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Planen einer Speicherinfrastruktur für die Servervirtualisierung
+  - Implementieren einer Speicherinfrastruktur für die Servervirtualisierung
+  - Planen und Implementieren einer Netzwerkinfrastruktur für die Servervirtualisierung
+
+
+  ### Modul 4&#58; Planen und Bereitstellen von virtuellen Computern
+  In dieser Unterrichtseinheit erfahren Sie, wie virtuelle Computer sowie wiederverwendbare Profile und Vorlagen konfiguriert werden, die Sie bei der Bereitstellung unterstützen. Außerdem werden anwendungsspezifische Arbeitsauslastungen analysiert, und Sie erfahren mehr über die Optionen für die Migration physischer und virtueller Computer.
+  #### Lektionen
+  - Planen der Konfiguration virtueller Computer
+  - Vorbereiten einer Bereitstellung virtueller Computer mit VMM
+  - Bereitstellen von virtuellen Computern
+
+
+  #### Lab &#58; Planen und Implementieren einer Strategie für die Bereitstellung und Verwaltung virtueller Computer
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Planen der Konfigurationen virtueller Computer
+  - Planen und Konfigurieren von VMM-Profilen und -Vorlagen, mit denen Sie eine VMM-Bereitstellung implementieren können
+  - Planen und Implementieren einer Bereitstellung eines virtuellen Computers in VMM
+
+
+  ### Modul 5&#58; Planen und Implementieren einer Lösung für die virtuelle Verwaltung
+  Diese Unterrichtseinheit bereitet Sie auf das Entwerfen eines administrativen Modells zur Verwaltung der Virtualisierung mittels System Center 2012 vor. Sie arbeiten mit VMM, Microsoft System Center 2012 – Orchestrator (Orchestrator) und Microsoft System Center 2012 – App Controller (App Controller). Verwenden Sie diese Komponenten, um Administratorfunktionen zu delegieren, für einen grundlegenden Self-Service zu planen und eine Automatisierung zu entwerfen und zu implementieren. Die Fähigkeiten, die Sie durch das Absolvieren dieser Unterrichtseinheit erlangen, bilden die Basis für die Grundbausteine, mit denen eine IT-Infrastruktur aufrecht erhalten wird, die dem Cloud Computing gleicht oder ähnelt.
+  #### Lektionen
+  - Planen und Implementieren von Automatisierung mit System Center 2012
+  - Planen und Implementieren der System Center 2012-Verwaltung
+  - Planen und Implementieren von Self-Service-Optionen in System Center 2012
+
+
+  #### Lab &#58; Planen und Implementieren einer Administrationslösung für die Virtualisierung
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Planen der Automatisierung einer virtuellen Computerumgebung mittels Orchestrator- und System Center 2012-Integration
+  - Planen eines delegierten Verwaltungsmodells mit VMM
+  - Planen von Self-Service in einer virtuellen Computerumgebung mit VMM und App Controller
+
+
+  ### Modul 6&#58; Planen und Implementieren einer Serverüberwachungsstrategie
+  In dieser Unterrichtseinheit erfahren Sie, wie Sie die Überwachungstools aus Windows Server 2012 und Microsoft System Center 2012 – Operations Manager (Operations Manager) einsetzen.
+  #### Lektionen
+  - Planen der Überwachung in Windows Server 2012
+  - Übersicht über System Center Operations Manager
+  - Planen und Konfigurieren von Management Packs
+  - Planen und Konfigurieren von Benachrichtigungen und Berichterstellung
+  - Konfigurieren der Integration in VMM
+
+
+  #### Lab &#58; Implementieren einer Serverüberwachungsstrategie
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Planen der Überwachung in Windows Server 2012
+  - Beschreiben von Operations Manager
+  - Planen der Konfiguration von Management Packs
+  - Planen der Konfiguration von Benachrichtigungen und Berichterstellung
+  - Konfigurieren der Integration von Operations Manager und VMM.
+
+
+  ### Modul 7&#58; Planen und Implementieren hoher Verfügbarkeit für Dateidienste und Anwendungen
+  In dieser Unterrichtseinheit wird das Planen und Implementieren der Hochverfügbarkeit für Dateidienste und Anwendungen erläutert.
+  #### Lektionen
+  - Planen und Implementieren von Speicherplätzen
+  - Planen und Implementieren des verteilten Dateisystems (Distributed File System, DFS)
+  - Planen und Implementieren eines Netzwerklastenausgleichs (Network Load Balancing, NLB)
+
+
+  #### Lab &#58; Planen und Implementieren hoher Verfügbarkeit für Dateidienste und Anwendungen
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Erklären der Planung und Implementierung von Speicherplätzen
+  - Erklären der Planung und Implementierung eines DFS
+  - Erklären der Planung und Implementierung eines NLB
+  - Erklären der Planung und Implementierung einer Hochverfügbarkeit für Dateidienste und Anwendungen
+
+
+  ### Modul 8&#58; Planen und Implementieren einer Infrastruktur mit hoher Verfügbarkeit mithilfe von Failoverclustering
+  In dieser Unterrichtseinheit wird das Planen und Implementieren von Failoverclustering erläutert.
+  #### Lektionen
+  - Planen einer Infrastruktur für Failoverclustering
+  - Implementieren von Failoverclustering
+  - Integrieren von Failoverclustering in die Servervirtualisierung
+  - Planen eines Failoverclusters für mehrere Standorte
+
+
+  #### Lab &#58; Planen und Implementieren einer Infrastruktur mit hoher Verfügbarkeit mithilfe von Failoverclustering
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Planen einer Infrastruktur für Failoverclustering
+  - Implementieren von Failoverclustering
+  - Integrieren von Failoverclustering mit Servervirtualisierung
+  - Planen von Failoverclustering für mehrere Standorte
+
+
+  ### Modul 9&#58; Planen und Implementieren einer Infrastruktur für Serverupdates
+  In dieser Unterrichtseinheit wird das Planen und Implementieren einer Infrastruktur für Serverupdates mittels Windows  Server Update Service (WSUS), Configuration Manager und VMM erläutert.
+  #### Lektionen
+  - Planen und Implementieren einer WSUS-Bereitstellung
+  - Planen von Softwareupdates mit System Center 2012 Configuration Manager
+  - Planen und Implementieren von Updates in einer Servervirtualisierungsinfrastruktur
+  - Planen und Implementieren der Sicherung und Wiederherstellung von virtuellen Computern
+
+
+  #### Lab &#58; Planen und Implementieren einer Infrastruktur für die Updatewartung
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Planen und Implementieren einer WSUS-Bereitstellung
+  - Planen von Softwareupdates mit Configuration Manager
+  - Planen und Implementieren von Updates in einer Servervirtualisierungsinfrastruktur
+
+
+  ### Modul 10&#58; Planen und Implementieren einer Geschäftskontinuitätsstrategie
+  In dieser Unterrichtseinheit erfahren Sie, wie Sie eine Geschäftskontinuitätsstrategie für die Organisation planen und implementieren, und wie Sie Sicherungs- und Wiederherstellungsstrategien planen und implementieren, einschließlich der Sicherung und Wiederherstellung von virtuellen Computern.
+  #### Lektionen
+  - Übersicht über die Geschäftskontinuitätsplanung
+  - Planen und Implementieren von Sicherungsstrategien
+  - Planen und Implementieren der Wiederherstellung
+  - Planen und Implementieren der Sicherung und Wiederherstellung von virtuellen Computern
+
+
+  #### Lab &#58; Implementieren einer Sicherungsstrategie für virtuelle Computer mit Microsoft System Center 2012 – Data Protection Manager (DPM)
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Verstehen der Bedeutung der Geschäftskontinuitätsplanung.
+  - Planen und Implementieren von Sicherungsstrategien.
+  - Planen und Implementieren der Wiederherstellung.
+  - Planen und Implementieren der Sicherung und Wiederherstellung von virtuellen Computern.
+
+
+  ### Modul 11&#58; Planen und Implementieren einer Public Key-Infrastruktur
+  In dieser Unterrichtseinheit erfahren Sie, wie unterschiedliche Aspekte einer PKI geplant und implementiert werden und wie eine interne PKI mit den Active Directory-Zertifikatdiensten (AD CS) erstellt wird.
+  #### Lektionen
+  - Planen und Implementieren einer Zertifizierungsstellenbereitstellung
+  - Planen und Implementieren von Zertifikatvorlagen
+  - Planen und Implementieren der Zertifikatverteilung und -sperrung
+  - Planen und Implementieren der Schlüsselarchivierung und -wiederherstellung
+
+
+  #### Lab &#58; Planen und Implementieren einer AD CS-Infrastruktur
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Planen und Implementieren einer Bereitstellung von Zertifizierungsstellen
+  - Planen und Implementieren von Zertifikatvorlagen
+  - Planen und Implementieren der Zertifikatverteilung und -sperrung
+  - Planen und Implementieren der Schlüsselarchivierung und -wiederherstellung
+
+
+  ### Modul 12&#58; Planen und Implementieren einer Infrastruktur mit Identitätsverbund
+  In dieser Unterrichtseinheit wird die Planung und Implementierung einer Identitätsverbundinfrastruktur beschrieben.
+  #### Lektionen
+  - Planen und Implementieren einer Infrastruktur für Active Directory-Verbunddienste (Active Directory Federation Services, AD FS)
+  - Planen und Implementieren von AD FS-Anspruchsanbietern und vertrauenden Seiten
+  - Planen und Implementieren von AD FS-Ansprüchen und Anspruchsregeln
+
+
+  #### Lab &#58; Planen und Implementieren einer AD FS-Infrastruktur
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Planen und Implementieren einer Identitätsverbundinfrastruktur einschließlich des Zugriffs auf die Ansprüche unterstützende Anwendung.
+  - Planen und Implementieren einer Infrastruktur für Active Directory
+  - Planen und Konfigurieren von AD FS-Anspruchsanbietern und vertrauenden Seiten
+  - Entwerfen und Bereitstellen von AD FS-Ansprüchen und Anspruchsregeln
+
+
+  ### Modul 13&#58; Planen und Implementieren einer Infrastruktur mit Informationsrechteverwaltung
+  In dieser Unterrichtseinheit wird das Planen und Implementieren der Bereitstellung der Active Directory-Rechteverwaltungsdienste (Active Directory Rights Management Services, AD RMS) zum Schutz von Inhalten beschrieben.
+  #### Lektionen
+  - Planen und Implementieren eines AD RMS-Clusters
+  - Planen und Implementieren von AD RMS-Vorlagen und -Richtlinien
+  - Planen und Implementieren des externen Zugriffs auf AD RMS-Dienste
+  - Planen und Implementieren der AD RMS-Integration mit dynamischer Zugriffssteuerung (Dynamic Access Control, DAC)
+
+
+  #### Lab &#58; Planen und Implementieren einer AD RMS-Infrastruktur
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Planen und Implementieren einer RMS-Bereitstellung
+  - Planen und Implementieren von AD RMS-Vorlagen und -Zugriff
+  - Planen und Implementieren des externen Zugriffs auf AD RMS-Dienste
+  - Planen und Implementieren der AD RMS-Integration mit DAC
+
+  #### Additional ReadingAm Ende dieses Kurses werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Beschreiben der Überlegungen zum Verwalten eines Unternehmensrechenzentrums
+  - Planen und Implementieren einer Strategie zur Servervirtualisierung mit Microsoft System Center 2012
+  - Planen und Implementieren von Netzwerken und Speicher für die Virtualisierung
+  - Planen und Bereitstellen von virtuellen Computern
+  - Verwalten einer Bereitstellung virtueller Computer
+  - Planen und Implementieren einer Strategie zur Serverüberwachung
+  - Planen und Implementieren hoher Verfügbarkeit für Dateidienste und Anwendungen
+  - Planen und Implementieren einer Infrastruktur mit hoher Verfügbarkeit mithilfe von Failoverclustering
+  - Planen und Implementieren einer Infrastruktur für Serverupdates
+  - Planen und Implementieren einer Strategie zur Geschäftskontinuität
+  - Planen und Implementieren einer Public Key-Infrastruktur (PKI)
+  - Planen und Implementieren einer Infrastruktur mit Identitätsverbund
+  - Planen und Implementieren einer Infrastruktur mit Informationsrechteverwaltung (IRM)

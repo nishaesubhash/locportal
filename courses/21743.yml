@@ -1,0 +1,283 @@
+### YamlMime:Course
+title: 'Erweitern der Kenntnisse auf MCSA: Windows Server 2016'
+metadata:
+  title: 'Course 21743-B: Erweitern der Kenntnisse auf MCSA: Windows Server 2016'
+  description: 'Course 21743-B: Erweitern der Kenntnisse auf MCSA: Windows Server 2016'
+uid: course.21743
+courseNumber: '21743-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Installieren und Konfigurieren von Windows Server 2016
+- skill: Funktionsweise von Speicher in Windows Server 2016
+- skill: Implementieren von Verzeichnisdiensten
+- skill: Implementieren von Active Directory Federation Services (AD FS)
+- skill: Netzwerkfunktionalität
+- skill: Implementieren von Hyper-V
+- skill: Konfigurieren erweiterter Netzwerkfeatures
+- skill: Implementieren von Software-Defined Networking
+- skill: Implementieren von Remotezugriff
+- skill: Bereitstellen und Verwalten von Windows- und Hyper-V-Containern
+- skill: Implementieren von Failoverclustering
+- skill: Implementieren von Failoverclustering mithilfe von virtuellen Computern
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-743
+summary: |-
+  In diesem fünftägigen von einem Dozenten geleiteten Kurs wird die Implementierung und Konfiguration der neuen Features und Funktionalität von Windows Server 2016 erläutert. Der Kurs richtet sich an IT-Experten, die Windows Server 2008 oder Windows Server 2012 kennen und sich mit den neuen Funktionen von Windows Server 2016 vertraut machen möchten. Für diesen Kurs werden ein hoher Kenntnisstand in Bezug auf frühere Windows
+  Server-Technologien sowie Qualifikationen auf dem Niveau von Microsoft Certified Solutions Associate (MCSA)&#58; Anmeldeinformationen für Windows Server 2008 oder Windows Server 2012.
+  
+  Der Kurs bezieht sich nicht auf ein Produktupdate. Es geht nicht um die Migration und Aktualisierung der jeweiligen Umgebung des Kursteilnehmers auf Windows Server 2016. Stattdessen vermittelt der Kurs neue Kenntnisse und Fertigkeiten zu Windows Server, und hier spezifisch zu Windows Server 2016.
+
+  #### Audience profile
+  Der Kurs richtet sich an IT-Experten, die sich mit Windows Server 2012 auskennen, sowie an Windows Server 2008-Systemadministratoren, die eine Unternehmensumgebung auf Basis von Windows Server 2008 R2 oder Windows Server 2008 verwalten. Die Kursteilnehmer sollten über eine MCSA-Zertifizierung für Windows Server 2008 oder Windows Server 2012 bzw. über vergleichbare Kenntnisse verfügen.
+  
+  Der Kurs richtet sich auch an IT-Experten, die die Prüfung zum Microsoft Certified Solutions Expert (MCSE) ablegen möchten, und zwar vorbereitend zu den MCSA-Prüfungen, die eine Voraussetzung für die MCSE-Spezialisierung sind.
+prerequisitesSection: |-
+  Vor Kursbeginn müssen die Kursteilnehmer über Folgendes verfügen&#58;
+  - Zwei oder mehr Jahre Erfahrung in der Bereitstellung und Verwaltung von Windows Server 2012- oder Windows Server 2008-Umgebungen; NS-Erfahrung mit der täglichen Systemadministration und Wartungsaufgaben von Windows Server 2012 oder Windows Server 2008.
+  - Erfahrung mit den Netzwerktechnologien von Windows und deren Implementierung.
+  - Erfahrung mit den Technologien und der Implementierung von Active Directory.
+  - Erfahrung mit den Virtualisierungstechnologien und der Implementierung von Windows Server.
+  - Kenntnisse entsprechend der MCSA-Zertifizierungen für Windows Server 2008 oder Windows Server 2012.
+outlineSection: |-
+  ### Modul 1&#58; Installieren und Konfigurieren von Windows Server 2016
+  In dieser Unterrichtseinheit wird die Installation von Windows Server 2016-Servern und die Durchführung von Nachinstallationsaufgaben erläutert.
+  #### Lektionen
+  - Einführung in Windows Server 2016
+  - Windows Server 2016 wird installiert
+  - Konfigurieren von Windows Server 2016
+  - Vorbereiten auf Upgrades und Migrationen
+  - Migration von Serverrollen und Arbeitsauslastungen
+  - Aktivierungsmodelle für Windows Server
+
+
+  #### Lab &#58; Installieren und Konfigurieren von Nano-Server
+  - Installieren von Nano-Server
+  - Abschließen der Nachinstallationsaufgaben auf dem Nano-Server
+
+  Nach Abschluss des Kurses werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Definieren von Windows Server 2016.
+  - Installieren von Windows Server 2016.
+  - Konfigurieren von Windows Server 2016.
+  - Vorbereiten von Upgrades und Migrationen.
+  - Migration von Serverrollen und Arbeitsauslastungen.
+  - Aktivierungsmodelle für Windows Server.
+
+  ### Modul 2&#58; Übersicht über den Speicher in Windows Server 2016
+  In dieser Unterrichtseinheit wird erläutert, wie Speicher in Windows Server 2016 konfiguriert wird.
+  #### Lektionen
+  - Übersicht über den Speicher in Windows Server 2016
+  - Implementieren von Datendeduplizierung
+  - Konfigurieren von iSCSI-Speicher
+  - Konfigurieren des Speicherplätze-Features in Windows Server 2016
+
+
+  #### Lab &#58; Implementieren und Verwalten des Speichers
+  - Implementieren von File Server Resource Manager (FSRM)
+  - Konfigurieren von iSCSI-Speicher
+
+
+  #### Lab &#58; Implementieren und Verwalten erweiterter Speicherlösungen
+  - Konfigurieren redundanter Speicherplätze
+  - Implementieren des Features „Direkte Speicherplätze“
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Definieren von Speicher in Windows Server 2016.
+  - Implementieren von Datendeduplizierung.
+  - Konfigurieren von iSCSI-Speicher.
+  - Konfigurieren des Speicherplätze-Features in Windows Server 2016.
+
+  ### Modul 3&#58; Implementieren von Verzeichnisdiensten
+  In dieser Unterrichtseinheit wird erläutert, wie die Verzeichnisdienstfunktion implementiert wird.
+  #### Lektionen
+  - Bereitstellen von Active Directory-Domänencontrollern
+  - Implementieren von Dienstkonten
+  - Azure AD
+
+
+  #### Lab &#58; Implementieren und Verwalten von AD DS
+  - Klonen eines Domänencontrollers
+  - Implementieren von Dienstkonten
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Bereitstellen von AD DS-Domänencontrollern.
+  - Implementieren Sie Dienstkonten.
+  - Definieren von Azure AD.
+
+  ### Modul 4&#58; Implementieren von AD FS
+  In dieser Unterrichtseinheit wird die Implementierung von AD FS beschrieben.
+  #### Lektionen
+  - Übersicht über AD FS
+  - Bereitstellen von AD FS
+  - Implementieren von AD FS für eine einzelne Organisation
+  - Implementieren des Webanwendungsproxys
+  - Implementieren von SSO mit Microsoft-Onlinediensten
+
+
+  #### Lab &#58; Implementieren von AD FS
+  - Installieren und Konfigurieren von AD FS
+  - Konfigurieren einer internen Anwendung für AD FS
+
+
+  #### Lab &#58; Implementieren des Webanwendungsproxys
+  - Implementieren des Webanwendungsproxys
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben von AD FS.
+  - Bereitstellen von AD FS.
+  - Implementieren von AD FS für eine einzelne Organisation.
+  - Implementieren eines Webanwendungsproxys.
+  - Implementieren von SSO mit Microsoft-Onlinediensten.
+
+  ### Modul 5&#58; Implementieren von Netzwerkdiensten
+  In dieser Unterrichtseinheit wird die Konfiguration erweiterter DHCP-Funktionen (Dynamic Host Configuration Protocol) und die Konfiguration von IPAM (IP Address Management) beschrieben.
+  #### Lektionen
+  - Übersicht über Netzwerkverbesserungen
+  - Implementieren von IPAM
+  - Verwalten von IP-Adressbereichen mit IPAM
+
+
+  #### Lab &#58; Implementieren von Netzwerkdiensten
+  - Konfigurieren von DNS-Richtlinien
+  - Konfigurieren von DHCP-Failover
+  - Konfigurieren von IPAM
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben der Verbesserungen bei den Netzwerkfunktionen.
+  - Implementieren der IP-Adressverwaltung.
+  - IP-Adressbereiche mit IPAM verwalten.
+
+  ### Modul 6&#58; Implementieren von Hyper-V
+  In dieser Unterrichtseinheit wird die Konfiguration und Verwaltung von virtuellen Hyper-V-Computern erklärt.
+  #### Lektionen
+  - Konfigurieren der Hyper-V-Rolle in Windows Server 2016
+  - Hyper-V-Speicher konfigurieren
+  - Konfigurieren von Hyper-V-Netzwerken
+  - Konfigurieren von virtuellen Hyper-V-Computern
+
+
+  #### Lab &#58; Implementieren von Servervirtualisierung mit Hyper-V
+  - Installieren der Hyper-V-Serverrolle
+  - Konfigurieren virtueller Netzwerke
+  - Erstellen und Konfigurieren eines virtuellen Computers
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Konfigurieren Sie die Hyper-V-Rolle in Windows Server 2016.
+  - Konfigurieren Sie Hyper-V-Speicher.
+  - Konfigurieren Sie Hyper-V-Netzwerke.
+  - Virtuelle Hyper-V-Computer konfigurieren.
+
+  ### Modul 7&#58; Konfigurieren erweiterter Netzwerkfeatures
+  In dieser Unterrichtseinheit wird die Implementierung einer erweiterten Netzwerkinfrastruktur beschrieben.
+  #### Lektionen
+  - Übersicht der Hochleistungsnetzwerkfunktionen
+  - Konfigurieren der erweiterten Hyper-V-Netzwerkfeatures
+
+
+  #### Lab &#58; Konfigurieren der erweiterten Hyper-V-Netzwerkfeatures
+  - Erstellen und Verwenden von virtuellen Microsoft Hyper-V-Switches
+  - Konfigurieren und Verwenden der erweiterten Features eines virtuellen Switches
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben der Hochleistungsnetzwerkfunktionen.
+  - Konfigurieren der erweiterten Hyper-V-Netzwerkfeatures.
+
+  ### Modul 8&#58; Implementieren von Software-Defined Networking
+  In dieser Unterrichtseinheit wird die Implementierung von Software-Defined Networking beschrieben.
+  #### Lektionen
+  - Übersicht über Software-Defined Networking
+  - Implementieren einer Netzwerkvirtualisierung
+  - Implementieren eines Netzwerkcontrollers
+
+
+  #### Lab &#58; Bereitstellen eines Netzwerkcontrollers
+  - Vorbereiten der Bereitstellung eines Netzwerkcontrollers
+  - Bereitstellen eines Netzwerkcontrollers
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben Sie Software-Defined Networking.
+  - Netzwerkvirtualisierung implementieren.
+  - Implementieren Sie den Netzwerkcontroller.
+
+  ### Modul 9&#58; Implementieren von Remotezugriff
+  In dieser Unterrichtseinheit wird die Konfiguration von Remotezugriff über das DirectAccess-Feature erläutert.
+  #### Lektionen
+  - Übersicht über Remotezugriff
+  - Implementieren von DirectAccess
+  - Implementieren von VPN
+
+
+  #### Lab &#58; Implementieren von DirectAccess
+  - DirectAccess über den Assistenten für erste Schritte konfigurieren
+  - Testen von DirectAccess
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben gängiger Remotezugriffslösungen und -technologien.
+  - DirectAccess implementieren.
+  - VPNs implementieren.
+
+  ### Modul 10&#58; Bereitstellen und Verwalten von Windows Server- und Hyper-V-Containern
+  Diese Unterrichtseinheit bietet einen Überblick über Container in Windows Server 2016. Darüber hinaus wird erklärt, wie Container in Windows Server 2016 bereitgestellt, installiert, konfiguriert und verwaltet werden.
+  #### Lektionen
+  - Übersicht über Container in Windows Server 2016
+  - Bereitstellen von Windows Server- und Hyper V-Containern
+  - Installieren, Konfigurieren und Verwalten von Containern mithilfe von Docker
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Erläutern des Zwecks von Windows Server- und Hyper-V-Containern.
+  - Bereitstellen und Verwalten von Windows Server- und Hyper-V-Containern.
+  - Container mithilfe von Docker installieren, konfigurieren und verwalten.
+
+  ### Modul 11&#58; Implementieren von Failoverclustering
+  In dieser Unterrichtseinheit wird erläutert, wie Sie mithilfe von Failoverclustering die hohe Verfügbarkeit von Netzwerkdiensten und Anwendungen sicherstellen können
+  #### Lektionen
+  - Übersicht über Failoverclustering
+  - Implementieren eines Failoverclusters
+  - Konfigurieren hochverfügbarer Anwendungen und Dienste auf einem Failovercluster
+  - Warten eines Failoverclusters
+  - Implementieren eines Stretched-Clusters
+
+
+  #### Lab &#58; Implementieren von Failoverclustering
+  - Konfigurieren von iSCSI-Speicher
+  - Konfigurieren eines Failoverclusters
+  - Bereitstellen und Konfigurieren eines Dateiservers mit hoher Verfügbarkeit
+  - Überprüfen einer hochverfügbaren Dateiserverbereitstellung
+  - Konfigurieren von CAU auf dem Failovercluster
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Erläutern des Konzepts von Failoverclustering.
+  - Einen Failovercluster implementieren.
+  - Hochverfügbare Anwendungen und Dienste auf einem Failovercluster konfigurieren.
+  - Einen Failovercluster warten.
+  - Implementieren eines Stretched-Failoverclusters.
+
+  ### Modul 12&#58; Implementieren von Failoverclustering mit Windows Server 2016 Hyper-V
+  In dieser Unterrichtseinheit wird die Bereitstellung und Verwaltung von virtuellen Hyper-V-Computern in einem Failovercluster erklärt.
+  #### Lektionen
+  - Übersicht über die Integration von Hyper-V Server 2016 mit Failoverclustering
+  - Implementieren von virtuellen Hyper-V-Computer auf Failoverclustern
+  - Implementieren der Migration von virtuellen Computern unter Windows Server 2016 Hyper-V
+  - Implementieren von Hyper-V-Replikaten
+
+
+  #### Lab &#58; Implementieren von Failoverclustering mit Windows Server 2016 Hyper-V
+  - Die Testumgebung für Hyper-V-Failoverclustering
+  - Konfigurieren des Hyper-V-Replikats
+  - Konfigurieren eines Failoverclusters für Hyper-V
+  - Konfigurieren eines hochverfügbaren virtuellen Computers
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Integration von Windows Server 2016 Hyper-V mit Failoverclustering.
+  - Implementieren Sie virtuelle Hyper-V-Computer auf Failoverclustern.
+  - Migration von virtuellen Computern unter Hyper-V implementieren.
+  - Hyper-V-Replikate implementieren.

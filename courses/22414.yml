@@ -1,0 +1,260 @@
+### YamlMime:Course
+title: Implémentation d’une infrastructure de serveur avancé
+metadata:
+  title: 'Course 22414-B: Implémentation d’une infrastructure de serveur avancé'
+  description: 'Course 22414-B: Implémentation d’une infrastructure de serveur avancé'
+uid: course.22414
+courseNumber: '22414-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Décrire les éléments à prendre en compte pour la gestion d'un centre de données d'entreprise
+- skill: planifier et implémenter une stratégie de virtualisation de serveur à l'aide de Microsoft® System Center 2012
+- skill: planifier et implémenter les réseaux et le stockage pour la virtualisation
+- skill: gérer et déployer des ordinateurs virtuels
+- skill: gérer un déploiement d'ordinateur virtuel
+- skill: planifier et implémenter une stratégie d'analyse des serveurs
+- skill: planifier et implémenter la haute disponibilité pour des services et des applications de fichiers
+- skill: planifier et implémenter une infrastructure hautement disponible à l'aide du clustering avec basculement
+- skill: planifier et implémenter une infrastructure de mises à jour de serveurs
+- skill: planifier et implémenter une stratégie de continuité des activités de l'entreprise
+- skill: planifier et implémenter une infrastructure à clé publique (PKI)
+- skill: planifier et implémenter une infrastructure de fédération d'identités
+- skill: planifier et implémenter une infrastructure de gestion des droits relatifs à l'information (IRM)
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- fr
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-414
+summary: |-
+  Dans ce cours, les stagiaires vont apprendre à planifier et implémenter une partie des fonctionnalités les plus avancées disponibles dans Windows Server 2012. Le cours 22413B fournit les connaissances préalables requises pour le cours 22414B.
+
+  #### Audience profile
+  Ce cours s'adresse aux professionnels de l'informatique qui sont chargés de la planification, de la conception et du déploiement d'une infrastructure Windows Server 2012 physique et logique avec les services de domaine Active Directory en entreprise, y compris les services réseau. Les candidats disposent généralement de connaissances des systèmes d'exploitation Windows Server précédents et de la certification MCSA (Microsoft Certified Solutions Associate) Windows Server 2012 ou des compétences équivalentes.
+  
+  Le public secondaire visé par cette formation se compose de candidats professionnels de l'informatique qui souhaitent passer l'examen 70-414 &#58; Implémentation d'une infrastructure de serveur d'entreprise avancée, en tant qu'examen autonome ou dans le cadre de la condition requise à l'obtention de la certification MCSE (Microsoft Certified Solutions Expert).
+prerequisitesSection: |-
+  Pour suivre ce cours, les stagiaires doivent connaître&#58;
+  - le protocole TCP/IP et les concepts de mise en réseau
+  - Windows Server 2012 et AD DS, y compris la planification, la conception et le déploiement d'AD DS et d'une infrastructure de réseau
+  - l'utilisation de scripts et de fichiers de commandes
+  - les concepts de sécurité tels que l'authentification et l'autorisation
+  - les outils de déploiement, d'empaquetage et de création d'images
+  - le travail en équipe, ou en tant qu'équipe virtuelle
+  - la création de propositions et l'émission de recommandations en matière de budget
+  - Les stagiaires doivent avoir obtenu la certification Windows Server 2012 MCSA et terminé le cours 22413B&#58; Conception et implémentation d’une infrastructure Server, ou avoir des connaissances équivalentes.
+outlineSection: |-
+  ### Module 1&#58; Vue d'ensemble de la gestion dans un centre de données d'entreprise
+  Ce module décrit certaines des modifications et des nouvelles exigences que les organisations rencontrent dans leurs centres de données. Il explique ensuite comment utiliser System Center 2012 pour gérer cet environnement.
+  #### Leçons
+  - Vue d'ensemble du centre de données d'entreprise
+  - Vue d'ensemble des composants de Microsoft System Center 2012
+  - Éléments à prendre en compte pour implémenter un centre de données d'entreprise
+
+
+  #### Atelier &#58; Éléments à prendre en compte pour implémenter un centre de données d'entreprise
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - décrire le centre de données d'entreprise
+  - expliquer comment utiliser System Center 2012 pour gérer le centre de données d'entreprise
+
+
+  ### Module 2&#58; Planification et implémentation d'une stratégie de virtualisation de serveur
+  Ce module présente les composants Microsoft System Center 2012. Vous verrez comment ils peuvent s'intégrer pour vous permettre de configurer, déployer et gérer un environnement de virtualisation de serveur. Ultérieurement, vous examinerez la procédure de planification et les éléments à prendre en compte pour un déploiement Microsoft System Center 2012 - Virtual Machine Manager (VMM).
+  #### Leçons
+  - Planification d'un déploiement VMM
+  - Planification et implémentation d'un environnement hôte de virtualisation de serveur
+  - Planification et implémentation d'une infrastructure réseau pour la virtualisation
+
+
+  #### Atelier &#58; Planification et implémentation d'une stratégie de virtualisation de serveur
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - décrire comment utiliser System Center 2012 pour déployer et gérer un environnement de virtualisation
+  - planifier et implémenter une stratégie de virtualisation de serveur à l'aide de Windows Server 2012 Hyper-V et de VMM
+  - déployer des hôtes Hyper-V, configurer des groupes d'hôtes et implémenter des bibliothèques VMM
+
+
+  ### Module 3&#58; Planification et implémentation des réseaux et du stockage pour la virtualisation
+  Ce module décrit les facteurs que vous devez prendre en compte lorsque vous planifiez le stockage et l'infrastructure réseau pour votre environnement virtuel, et les détails du déploiement de ces composants de Windows Server 2012 Hyper-V et VMM.
+  #### Leçons
+  - Planification d'une infrastructure de stockage pour la virtualisation
+  - Implémentation d'une infrastructure de stockage pour la virtualisation
+  - Planification et implémentation d'une infrastructure réseau pour la virtualisation
+
+
+  #### Atelier &#58; Planification et implémentation des réseaux et du stockage de virtualisation
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - planifier une infrastructure de stockage pour la virtualisation de serveur
+  - implémenter une infrastructure de stockage pour la virtualisation de serveur
+  - planifier et implémenter une infrastructure réseau pour la virtualisation de serveur
+
+
+  ### Module 4&#58; Planification et déploiement d'ordinateurs virtuels
+  Dans ce module, vous allez apprendre à configurer des ordinateurs virtuels, des profils réutilisables et des modèles aidant au déploiement. Vous allez également examiner les charges de travail spécifiques des applications et découvrir les options relatives aux migrations d'ordinateurs physiques et virtuels.
+  #### Leçons
+  - Planification de la configuration des ordinateurs virtuels
+  - Préparation aux déploiements d'ordinateurs virtuels avec VMM
+  - Déploiement d'ordinateurs virtuels
+
+
+  #### Atelier &#58; Planification et implémentation d'une stratégie de déploiement et de gestion d'ordinateurs virtuels
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - planifier des configurations d'ordinateurs virtuels
+  - planifier et configurer les profils et modèles VMM que vous pouvez utiliser pour implémenter un déploiement VMM
+  - planifier et implémenter un déploiement d'ordinateur virtuel dans VMM
+
+
+  ### Module 5&#58; Planification et implémentation d'une solution d'administration de la virtualisation
+  Ce module vous préparera pour concevoir un modèle d'administration que vous pouvez utiliser pour gérer la virtualisation à l'aide de System Center 2012. Vous verrez et utiliserez les composants de VMM, Microsoft System Center 2012 – Orchestrator (Orchestrator) et Microsoft System Center 2012 – App Controller (App Controller). Utilisez ces composants pour déléguer des fonctions d'administration, planifier le libre-service de base, concevoir et implémenter l'automatisation. Les compétences acquises dans ce module sont le fondement des blocs de construction de base utilisés pour faire fonctionner une infrastructure informatique qui est semblable ou équivalente à celle du cloud computing.
+  #### Leçons
+  - Planification et implémentation de l'automatisation de System Center 2012
+  - Planification et implémentation de l'administration de System Center 2012
+  - Planification et implémentation des options de libre-service dans System Center 2012
+
+
+  #### Atelier &#58; Planification et implémentation d'une solution d'administration pour la virtualisation
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - planifier l'automatisation d'un environnement d'ordinateur virtuel à l'aide de l'intégration d'Orchestrator et de System Center 2012
+  - planifier un modèle d'administration délégué à l'aide de VMM
+  - planifier le libre-service dans un environnement d'ordinateur virtuel avec VMM et App Controller
+
+
+  ### Module 6&#58; Planification et implémentation d'une stratégie d'analyse des serveurs
+  Ce module explique comment utiliser les outils d'analyse inclus à Windows Server 2012 et à Microsoft System Center 2012 – Operations Manager (Operations Manager).
+  #### Leçons
+  - Planification de l'analyse dans Windows Server 2012
+  - Vue d'ensemble de System Center Operations Manager
+  - Planification et configuration de packs d'administration
+  - Planification et configuration des notifications et de la création de rapports
+  - Configuration de l'intégration à VMM
+
+
+  #### Atelier &#58; Implémentation d'une stratégie d'analyse des serveurs
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - planifier l'analyse dans Windows Server 2012
+  - décrire Operations Manager
+  - planifier la configuration des packs d'administration
+  - planifier la configuration des notifications et de la création de rapports
+  - Configurer l'intégration d'Operations Manager et de VMM
+
+
+  ### Module 7&#58; Planification et implémentation d'une haute disponibilité pour des services et des applications de fichiers
+  Ce module explique comment planifier et implémenter la haute disponibilité pour des services et des applications de fichiers.
+  #### Leçons
+  - Planification et implémentation d'espaces de stockage
+  - Planification et implémentation du système de fichiers distribués (DFS, Distributed File System)
+  - Planification et implémentation de l'équilibrage de la charge réseau (NLB)
+
+
+  #### Atelier &#58; Planification et implémentation d'une haute disponibilité pour des services et des applications de fichiers
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - expliquer comment planifier et implémenter des espaces de stockage
+  - expliquer comment planifier et implémenter le système de fichiers distribués (DFS)
+  - expliquer comment planifier et implémenter l'équilibrage de la charge réseau (NLB)
+  - Expliquer comment planifier et implémenter la haute disponibilité pour des services et des applications de fichiers
+
+
+  ### Module 8&#58; Planification et implémentation d'une infrastructure haute disponibilité à l'aide du clustering avec basculement
+  Ce module explique comment planifier et implémenter le clustering avec basculement.
+  #### Leçons
+  - Planification d'une infrastructure pour le clustering avec basculement
+  - Implémentation du clustering avec basculement
+  - Intégration du clustering avec basculement avec la virtualisation de serveur
+  - Planification d'un cluster de basculement multisite
+
+
+  #### Atelier &#58; Planification et implémentation d'une infrastructure hautement disponible à l'aide du clustering avec basculement
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - planifier une infrastructure pour le clustering avec basculement
+  - Implémenter un clustering avec basculement
+  - intégrer le clustering avec basculement avec la virtualisation de serveur
+  - Planifier le clustering avec basculement multisite
+
+
+  ### Module 9&#58; Planification et implémentation d'une infrastructure de mise à jour de serveur
+  Ce module explique comment planifier et implémenter l'infrastructure de mise à jour de serveur à l'aide du service WSUS (Windows Server Update Service), de Configuration Manager et de VMM.
+  #### Leçons
+  - Planification et implémentation d'un déploiement WSUS
+  - Planification des mises à jour logicielles avec System Center 2012 Configuration Manager
+  - Planification et implémentation des mises à jour dans une infrastructure de virtualisation de serveur
+  - Planification et implémentation de la sauvegarde et de la récupération des ordinateurs virtuels
+
+
+  #### Atelier &#58; Planification et implémentation d'une infrastructure de correction de serveur
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - planifier et implémenter un déploiement WSUS
+  - planifier des mises à jour logicielles avec Configuration Manager
+  - planifier et implémenter des mises à jour dans une infrastructure de virtualisation de serveur
+
+
+  ### Module 10&#58; Planification et implémentation d'une stratégie de continuité des activités de l'entreprise
+  Dans ce module, vous apprendrez comment planifier et implémenter une stratégie de continuité des activités pour votre organisation, et comment planifier et implémenter des stratégies de sauvegarde et de récupération, y compris la sauvegarde et la récupération des ordinateurs virtuels.
+  #### Leçons
+  - Vue d'ensemble de la planification de la continuité des activités de l'entreprise
+  - Planification et implémentation des stratégies de sauvegarde
+  - Planification et implémentation de la récupération
+  - Planification et implémentation de la sauvegarde et de la récupération des ordinateurs virtuels
+
+
+  #### Atelier &#58; Implémentation d'une stratégie de sauvegarde d'ordinateurs virtuels à l'aide de Microsoft System Center 2012 - Data Protection Manager (DPM)
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - comprendre l'importance de la planification de la continuité des activités de l'entreprise
+  - planifier et implémenter des stratégies de sauvegarde
+  - planifier et implémenter la récupération
+  - planifier et implémenter la sauvegarde et la récupération des ordinateurs virtuels
+
+
+  ### Module 11&#58; Planification et implémentation d'une infrastructure à clé publique
+  Ce module explique comment planifier et implémenter les divers aspects d'une PKI, et comment générer une PKI interne à l'aide des services de certificats Active Directory (AD CS).
+  #### Leçons
+  - Planification et implémentation d'un déploiement d'autorité de certification (AC)
+  - Planification et implémentation de modèles de certificats
+  - Planification et implémentation de la distribution et de la révocation de certificats
+  - Planification et implémentation de l'archivage et de la récupération de clé
+
+
+  #### Atelier &#58; Planification et implémentation d'une infrastructure AD CS
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - planifier et implémenter un déploiement d'autorité de certification
+  - planifier et implémenter des modèles de certificats
+  - planifier et implémenter la distribution et la révocation de certificats
+  - Planifier et implémenter l'archivage et la récupération de clé
+
+
+  ### Module 12&#58; Planification et implémentation d'une infrastructure de fédération d'identités
+  Ce module décrit la planification et l'implémentation d'une infrastructure de fédération d'identités.
+  #### Leçons
+  - Planification et implémentation d'une infrastructure de serveur des services ADFS (Active Directory Federation Services)
+  - Planification et implémentation des fournisseurs de revendications et parties de confiance AD FS
+  - Planification et implémentation des revendications et des règles de revendication AD FS
+
+
+  #### Atelier &#58; Planification et implémentation d'une infrastructure AD FS
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - planifier et implémenter une infrastructure de fédération d'identités, y compris l'accès à l'application prenant en charge les revendications
+  - planifier et implémenter une infrastructure de serveur AD FS
+  - planifier et configurer les fournisseurs de revendications et parties de confiance AD FS
+  - concevoir et déployer les revendications et les règles de revendication AD FS
+
+
+  ### Module 13&#58; Planification et implémentation d'une infrastructure de gestion des droits relatifs à l'information (IRM)
+  Ce module explique comment planifier et implémenter un déploiement des services AD RMS (Active Directory Rights Management Services) afin de protéger du contenu.
+  #### Leçons
+  - Planification et implémentation d'un cluster AD RMS
+  - Planification et implémentation de modèles et stratégies AD RMS
+  - Planification et implémentation de l'accès externe aux services AD RMS
+  - Planification et implémentation de l'intégration d'AD RMS au contrôle d'accès dynamique
+
+
+  #### Atelier &#58; Planification et implémentation d'une infrastructure AD RMS
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - planifier et implémenter un déploiement AD RMS
+  - planifier et gérer l'accès et les modèles AD RMS
+  - planifier et implémenter l'accès externe aux services AD RMS
+  - Planifier et implémenter l'intégration d'AD RMS au contrôle d'accès dynamique

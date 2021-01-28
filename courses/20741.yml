@@ -1,0 +1,283 @@
+### YamlMime:Course
+title: Networking with Windows Server 2016
+metadata:
+  title: 'Course 20741-B: Networking with Windows Server 2016'
+  description: 'Course 20741-B: Networking with Windows Server 2016'
+uid: course.20741
+courseNumber: '20741-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Plan and implement an IPv4 network.
+- skill: Implement Dynamic Host Configuration Protocol (DHCP).
+- skill: Implement IPv6.
+- skill: Implement Domain Name System (DNS).
+- skill: Implement and manage IP address management (IPAM).
+- skill: Plan for remote access.
+- skill: Implement DirectAccess.
+- skill: Implement virtual private networks (VPNs).
+- skill: Implement networking for branch offices.
+- skill: Configure advanced networking features.
+- skill: Implement Software Defined Networking.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- windows-server
+exams:
+- uid: exam.70-741
+summary: |-
+  This 5-day classroom-based course provides the fundamental networking skills required to deploy and support Windows Server 2016 in most organizations. It covers IP fundamentals, remote access technologies, and more advanced content including Software Defined Networking.
+
+  #### Audience profile
+  This course is intended for existing IT professionals who have some networking knowledge and experience and are looking for a single course that provides insight into core and advanced networking technologies in Windows Server 2016. This audience would typically include&#58;
+  - Network administrators who are looking to reinforce existing skills and learn about new networking technology changes and functionality in Windows Server 2016.
+  - System or Infrastructure Administrators with general networking knowledge who are looking to gain core and advanced networking knowledge and skills on Windows Server 2016.
+  
+  The secondary audience for this course is those IT professionals who are looking to take the MCSA 70-741&#58; Networking with Windows Server 2016 exam.
+prerequisitesSection: |-
+  In addition to professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - Experience working with Windows Server 2008 or Windows Server 2012
+  - Experience working in a Windows Server infrastructure enterprise environment
+  - Knowledge of the Open Systems Interconnection (OSI) model
+  - Understanding of core networking infrastructure components and technologies such as cabling, routers, hubs, and switches
+  - Familiarity with networking topologies and architectures such as local area networks (LANs), wide area networks (WANs) and wireless networking
+  - Some basic knowledge of the TCP/IP protocol stack, addressing and name resolution
+  - Experience with and knowledge of Hyper-V and virtualization
+  - Hands-on experience working with the Windows client operating systems such as Windows 8.1 or Windows 10
+  
+  Students can meet the prerequisites by attending the following course, or by having knowledge and skills equivalent to&#58;
+  - [10967A&#58; Fundamentals of a Windows Server Infrastructure](https://www.microsoft.com/learning/course.aspx?cid=10967)
+outlineSection: |-
+  ### Module 1&#58; Planning and implementing an IPv4 network
+  This module also explains how to use fundamental networking tools and techniques to configure and troubleshoot IPv4-based networks.
+  #### Lessons
+  - Planning IPv4 addressing
+  - Configuring an IPv4 host
+  - Managing and troubleshooting IPv4 network connectivity
+
+
+  #### Lab &#58; Planning an IPv4 network
+  - Planning the IPv4 address assignments
+
+
+  #### Lab &#58; Implementing and troubleshooting an IPv4 network
+  - Verifying IPv4
+  - Troubleshooting IPv4
+
+  After completing this module, students will be able to&#58;
+  - Plan IPv4 addressing.
+  - Configure an IPv4 host.
+  - Manage and troubleshoot IPv4 network connectivity
+
+
+  ### Module 2&#58; Implementing DHCP
+  This module explains how to plan and implement DHCP to support the IPv4 infrastructure.
+  #### Lessons
+  - Overview of the DHCP server role
+  - Deploying DHCP
+  - Managing and troubleshooting DHCP
+
+
+  #### Lab &#58; Implementing DHCP
+  - Planning a DHCP server implementation
+  - Implementing the DHCP configuration
+  - Validating the DHCP implementation
+
+  After completing this module, students will be able to&#58;
+  - Explain the DHCP server role.
+  - Deploy DHCP.
+  - Manage and troubleshoot DHCP.
+
+
+  ### Module 3&#58; Implementing IPv6
+  This module explains how to implement IPv6, and how to integrate IPv6 and IPv4 networks.
+  #### Lessons
+  - Overview of IPv6 addressing
+  - Configuring an IPv6 host
+  - Implementing IPv6 and IPv4 coexistence
+  - Transitioning from IPv4 to IPv6
+
+
+  #### Lab &#58; Configuring and evaluating IPv6 transition technologies
+  - Reviewing the default IPv6 configuration
+  - Implementing DHCPv6
+  - Configuring network integration by using ISATAP
+  - Configuring native IPv6 connectivity
+  - Configuring 6to4 connectivity
+
+  After completing this module, students will be able to&#58;
+  - Describe the features and benefits of IPv6.
+  - Configure an IPv6 host.
+  - Implement the coexistence between IPv4 and IPv6 networks.
+  - Transition from an IPv4 network to an IPv6 network.
+
+
+  ### Module 4&#58; Implementing DNS
+  This module explains how to install, configure, and troubleshoot  DNS within the organization's network.
+  #### Lessons
+  - Implementing DNS servers
+  - Configuring zones in DNS
+  - Configuring name resolution between DNS zones
+  - Configuring DNS integration with Active Directory Domain Services (AD DS)
+  - Configuring advanced DNS settings
+
+
+  #### Lab &#58; Planning and implementing name resolution by using DNS
+  - Planning DNS name resolution
+  - Implementing DNS servers and zones
+
+
+  #### Lab &#58; Integrating DNS with Active Directory
+  - Integrating DNS with Active Directory
+
+
+  #### Lab &#58; Configuring advanced DNS settings
+  - Configuring DNS policies
+  - Validating the DNS implementation
+  - Troubleshooting DNS
+
+  After completing this module, students will be able to&#58;
+  - Implement DNS servers.
+  - Configure zones in DNS.
+  - Configure name resolution between DNS zones.
+  - Configure DNS integration with AD DS.
+  - Configure advanced DNS settings
+
+
+  ### Module 5&#58; Implementing and managing IPAM
+  This module explains how to implement and manage the IPAM feature in Windows Server 2016. This module also explains how to use IPAM to manage services such as DHCP and DNS.
+  #### Lessons
+  - Overview of IPAM
+  - Deploying IPAM
+  - Managing IP address spaces by using IPAM
+
+
+  #### Lab &#58; Implementing IPAM
+  - Installing the IPAM Server feature
+  - Provisioning the IPAM Server
+  - Managing IP address spaces by using IPAM
+
+  After completing this module, students will be able to&#58;
+  - Describe the IPAM functionality and components.
+  - Deploy IPAM.
+  - Manage IP address spaces by using IPAM.
+
+
+  ### Module 6&#58; Remote access in Windows Server 2016
+  This module explains how to plan for remote access in Windows Server 2016 and how to implement Web Application Proxy.
+  #### Lessons
+  - Overview of remote access
+  - Implementing the Web Application Proxy
+
+
+  #### Lab &#58; Implementing Web Application Proxy
+  - Implementing Web Application Proxy
+  - Validating the Web Application Proxy deployment
+
+  After completing this module, students will be able to&#58;
+  - Describe remote access.
+  - Implement Web Application Proxy.
+
+
+  ### Module 7&#58; Implementing DirectAccess
+  This module explains how to implement and manage DirectAccess in Windows Server 2016.
+  #### Lessons
+  - Overview of DirectAccess
+  - Implementing DirectAccess by using the Getting Started Wizard
+  - Implementing and managing an advanced DirectAccess infrastructure
+
+
+  #### Lab &#58; Implementing DirectAccess by using the Getting Started Wizard
+  - Verifying readiness for a DirectAccess deployment
+  - Configuring DirectAccess
+  - Validating the DirectAccess deployment
+
+
+  #### Lab &#58; Deploying an advanced DirectAccess solution
+  - Preparing the environment for DirectAccess
+  - Implementing the advanced DirectAccess infrastructure
+  - Validating the DirectAccess deployment
+
+  After completing this module, students will be able to&#58;
+  - Explain DirectAccess and how it works.
+  - Implement DirectAccess by using the Getting Started Wizard.
+  - Implement and manage an advanced DirectAccess infrastructure.
+
+
+  ### Module 8&#58; Implementing VPNs
+  This module explains how to implement and manage remote access in Windows Server 2016 by using VPNs.
+  #### Lessons
+  - Planning VPNs
+  - Implementing VPNs
+
+
+  #### Lab &#58; Implementing VPN
+  - Implementing VPN
+  - Validating the VPN deployment
+  - Troubleshooting VPN access
+
+  After completing this module, students will be able to&#58;
+  - Plan a VPN solution.
+  - Implement VPNs.
+
+
+  ### Module 9&#58; Implementing networking for branch offices
+  This module explains how to implement network services for branch offices.
+  #### Lessons
+  - Networking features and considerations for branch offices
+  - Implementing Distributed File System (DFS) for branch offices
+  - Implementing BranchCache for branch offices
+
+
+  #### Lab &#58; Implementing DFS for branch offices
+  - Implementing DFS
+  - Validating the deployment
+
+
+  #### Lab &#58; Implementing BranchCache
+  - Implementing BranchCache
+  - Validating the deployment
+
+  After completing this module, students will be able to&#58;
+  - Describe the networking features and considerations for branch offices.
+  - Implement DFS for branch offices.
+  - Implement BranchCache for branch offices.
+
+
+  ### Module 10&#58; Configuring advanced networking features
+  This module explains how to implement an advanced networking infrastructure.
+  #### Lessons
+  - Overview of high performance networking features
+  - Configuring advanced Microsoft Hyper-V networking features
+
+
+  #### Lab &#58; Configuring advanced Hyper-V networking features
+  - Creating and using Hyper-V virtual switches
+  - Configuring and using the advanced features of a virtual switch
+
+  After completing this module, students will be able to&#58;
+  - Describe the high performance networking enhancements in Windows Server 2016.
+  - Configure the advanced Microsoft Hyper-V networking features.
+
+
+  ### Module 11&#58; Implementing Software Defined Networking
+  This module explains how to implement SDN.
+  #### Lessons
+  - Overview of SDN.
+  - Implementing network virtualization
+  - Implementing Network Controller
+
+
+  #### Lab &#58; Deploying Network Controller
+  - Preparing to deploy Network Controller
+  - Deploying Network Controller
+
+  After completing this module, students will be able to&#58;
+  - Describe SDN.
+  - Implement network virtualization.
+  - Implement Network Controller.

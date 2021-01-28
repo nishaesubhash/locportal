@@ -1,0 +1,293 @@
+### YamlMime:Course
+title: Administering Microsoft Exchange Server 2016/2019
+metadata:
+  title: 'Course 20345-1-B: Administering Microsoft Exchange Server 2016/2019'
+  description: 'Course 20345-1-B: Administering Microsoft Exchange Server 2016/2019'
+uid: course.20345-1
+courseNumber: '20345-1-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Deploy Exchange Server.
+- skill: Plan and configure storage for Exchange Server.
+- skill: Create and manage various recipient objects in Exchange Server.
+- skill: Perform recipient management and Exchange server management tasks by using Exchange Server cmdlets.
+- skill: Deploy Client Access services in Exchange Server.
+- skill: Manage high availability in Exchange Server.
+- skill: Implement disaster recovery for Exchange Server.
+- skill: Configure and manage message transport in Exchange Server.
+- skill: Configure message security in Exchange Server.
+- skill: Monitor and troubleshoot Exchange Server.
+- skill: Configure Exchange Server role-based access control permissions and configure audit logging for both administrators and users.
+- skill: Implement and manage integration with Exchange Online.
+learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365
+exams:
+- uid: exam.70-345
+summary: |-
+  This course teaches IT professionals how to administer and support Exchange Server. The course covers how install and configure Exchange Server. It also covers how to manage mail recipients and public folders, including how to perform bulk operations by using Exchange Management Shell. In addition, the course covers how to manage client connectivity, message transport and hygiene, and highly available Exchange Server deployments. It also covers how to implement disaster recovery solutions. Finally, the course covers how to maintain and monitor an Exchange Server deployment and how to administer Exchange Online in a Office 365 deployment.
+
+  #### Audience profile
+  The audience for this course includes enterprise-level messaging administrators on Exchange Server. IT generalists and helpdesk professionals who want to learn about Exchange Server may also take this course. Students taking this course are expected to have at least two years of experience working in the IT field—typically in the areas of Windows Server administration, network administration, helpdesk, or system administration. They are also expected to have some experience with Exchange Server concepts but previous experience managing Exchange Server is not a requirement.
+prerequisitesSection: |-
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - Minimum of two years of experience administering Windows Server.
+  - Minimum of two years of experience working with Active Directory Domain Services (AD DS).
+  - Minimum of two years of experience working with name resolution, including Domain Name System (DNS).
+  - Understanding of TCP/IP and networking concepts.
+  - Understanding of security concepts such as authentication and authorization.
+  - Understanding of Simple Mail Transfer Protocol (SMTP).
+  - Working knowledge of public key infrastructure (PKI) technologies, including Active Directory Certificate Services (AD CS).
+outlineSection: |-
+  ### Module  1&#58; Deploying Exchange Server
+  This module explains the key features and architecture of Exchange Server. It also explains the prerequisites and requirements for deploying Exchange Server. Additionally, it explains how to use the Exchange admin center and the Exchange management shell to manage Exchange Server.
+  #### Lessons
+  - Overview of Exchange Server
+  - Exchange Server architecture
+  - Requirements for Exchange Server
+  - Deploying Exchange Server Exchange Server
+  - Exchange Server Management Tools
+
+
+  #### Lab &#58; Deploying Exchange Server
+  - Evaluating requirements and prerequisites for an Exchange Server 2019 installation
+  - Deploying Exchange Server 2019
+  - Verifying Exchange Server functionality
+  - Installing Exchange Server 2019 on Windows Server Core 2019 (optional)
+
+  After completing this module, students will be able to&#58;
+  - Describe the key features and functionality of Exchange Server.
+  - Describe the Exchange Server architecture.
+  - Describe the requirements and options for deploying Exchange Server.
+  - Deploy Exchange Server.
+  - Describe how to use management tools to manage Exchange Server.
+
+
+  ### Module  2&#58; Managing Exchange Server 2016 storage
+  This module explains the features of Exchange Server mailbox databases and the storage options available for Exchange Server. It also explains how to configure Exchange Server mailbox databases and storage.
+  #### Lessons
+  - Exchange Server mailbox databases
+  - Exchange Server storage
+  - Configuring Exchange Server mailbox databases and storage
+
+
+  #### Lab &#58; Configuring Exchange Server storage
+  - Creating and configuring mailbox databases
+
+  After completing this module, students will be able to&#58;
+  - Describe the features of Exchange Server mailbox databases.
+  - Explain the storage options available for Exchange Server.
+  - Configure Exchange Server mailbox databases and storage.
+
+
+  ### Module  3&#58; Managing recipient objects
+  This module explains how to manage the user, shared, resource, public folder, arbitration mailboxes in Exchange Server. It also explains how to manage contacts, mail users, and distribution groups in Exchange Server. Finally, it explains how to configure address lists and email address and address book policies in Exchange Server.
+  #### Lessons
+  - Managing user mailboxes
+  - Managing other types of mailboxes
+  - Managing other recipients objects
+  - Configuring policies and adress lists
+
+
+  #### Lab &#58; Managing recipient objects
+  - Configuring recipient objects
+  - Managing public folder mailboxes
+
+
+  #### Lab &#58; Configuring address lists and policies
+  - Managing email address policies
+  - Managing address lists and address book policies
+
+  After completing this module, students will be able to&#58;
+  - Manage user mailboxes in Exchange Server.
+  - Manage shared, resource, public folder, and arbitration mailboxes in Exchange Server.
+  - Manage contacts, mail users, and distribution groups in Exchange Server.
+  - Configure address lists, and email address and address book policies in Exchange Server.
+
+
+  ### Module  4&#58; Managing recipients and Exchange servers by using Exchange Server cmdlets
+  This module describes how to manage recipients by using Exchange Server cmdlets. It also explains how to manage Exchange servers by using Exchange Server cmdlets and scripts.
+  #### Lessons
+  - Overview of the Exchange Management Shell
+  - Managing Exchange Servers by using Exchange Management Shell cmdlets
+  - Managing Exchange servers by using scripts
+
+
+  #### Lab &#58; Managing Exchange Server and recipient objects by using Exchange Management Shell
+  - Using Exchange Management Shell to manage recipients
+  - Using Exchange Management Shell to manage Exchange Server
+
+  After completing this module, students will be able to&#58;
+  - Manage recipients by using Exchange Server cmdlets.
+  - Manage Exchange servers by using Exchange Server cmdlets.
+  - Manage Exchange servers by using scripts.
+
+
+  ### Module  5&#58; Implementing client connectivity
+  This module explains how to configure and manage client access services in Exchange Server. It also explains the client connectivity options for Exchange Server and how to configure Outlook on the web. Additionally, it explains how to configure mobile messaging for Exchange Server.
+  #### Lessons
+  - Configuring client access services
+  - Managing client access services
+  - Client connectivity in Exchange Server
+  - Configuring Outlook on the web
+  - Configuring mobile messaging
+
+
+  #### Lab &#58; Configuring client access services
+  - Configuring namespaces for client access
+  - Configuring certificates for client access
+  - Configuring custom MailTips
+
+
+  #### Lab &#58; Deploying and configuring client access services on Exchange Server
+  - Configuring Exchange Server for Outlook
+  - Configuring Outlook on the web
+  - Configuring Microsoft Exchange ActiveSync
+
+  After completing this module, students will be able to&#58;
+  - Configure client access services in Exchange Server.
+  - Manage client access services.
+  - Describe client connectivity and publishing of Exchange Server services.
+  - Configure Outlook on the web.
+  - Configure mobile messaging on Exchange Server.
+
+
+  ### Module  6&#58; Managing high availability in Exchange Server
+  This module describes the high availability options for Exchange Server. It also explains how to configure highly available mailbox databases and Client Access services by using load balancing methods.
+  #### Lessons
+  - High availability on Exchange Server
+  - Configuring highly available mailbox databases
+  - Configuring high availability of Client Access services
+
+
+  #### Lab &#58; Implementing DAGs
+  - Creating and configuring a DAG
+
+
+  #### Lab &#58; Implementing and testing high availability
+  - Deploying a high availability solution for Client Access services
+  - Testing the high availability configuration
+
+  After completing this module, students will be able to&#58;
+  - Describe the high availability in Exchange Server.
+  - Configure highly available mailbox databases.
+  - Configure high available Client Access services.
+
+
+  ### Module  7&#58; Implementing disaster recovery for Exchange Server
+  This module describes Exchange Server backup and restore features and the details that you need to consider when you create a backup plan.
+  #### Lessons
+  - Implementing Exchange Server backup
+  - Implementing Exchange Server recovery
+
+
+  #### Lab &#58; Backing up Exchange Server data
+  - Backing up an Exchange Server mailbox database
+
+
+  #### Lab &#58; Restoring Exchange Server data
+  - Restoring Exchange Server mailbox
+  - Restoring a database availability group (DAG) member (optional)
+
+  After completing this module, students will be able to&#58;
+  - Back up Exchange Server data.
+  - Restore Exchange Server data by using the configured backups.
+
+
+  ### Module  8&#58; Configuring and managing message transport
+  This module explains messaging transport in Exchange Server. It also explains how to configure message transport in Exchange Server and manage transport rules in Exchange Server.
+  #### Lessons
+  - Overview of message transport
+  - Configuring message transport
+  - Managing transport rules
+
+
+  #### Lab &#58; Configuring and managing message transport
+  - Configuring message transport
+  - Monitoring and verifying message delivery
+  - Configuring a disclaimer transport rule
+  - Configuring a DLP policy for financial data
+
+  After completing this module, students will be able to&#58;
+  - Describe messaging transport in Exchange Server.
+  - Configure message transport in Exchange Server.
+  - Manage transport rules in Exchange Server.
+
+
+  ### Module  9&#58; Configuring message security
+  This module describes how to deploy and manage an Edge Transport server for message security. It also explains how to implement antivirus and antispam solutions for Exchange Server.
+  #### Lessons
+  - Deploying and managing an Edge Transport server for message security
+  - Implementing an antivirus solution for Exchange Server
+  - Implementing an antispam solution for Exchange Server
+
+
+  #### Lab &#58; Configuring message security in Exchange Server
+  - Configuring and testing EdgeSync
+  - Configuring antivirus, antispam and malware protection features
+
+  After completing this module, students will be able to&#58;
+  - Deploy and manage an Edge Transport server for message security.
+  - Implement an antivirus solution for Exchange Server.
+  - Implement an antispam solution for Exchange Server.
+
+
+  ### Module  10&#58; Monitoring and troubleshooting Exchange Server
+  This module explains how to configure performance monitoring and troubleshoot issues in Exchange Server.
+  #### Lessons
+  - Monitoring Exchange Server
+  - Troubleshooting Exchange Server
+
+
+  #### Lab &#58; Monitoring and troubleshooting Exchange Server
+  - Monitoring Exchange Server
+  - Troubleshooting database availability
+  - Troubleshooting Client Access servers
+
+  After completing this module, students will be able to&#58;
+  - Configure performance monitoring in Exchange Server.
+  - Troubleshoot issues in Exchange Server.
+
+
+  ### Module  11&#58; Securing and maintaining Exchange Server
+  This module explains how to secure Exchange Server by using role-based access control (RBAC). It also explains how to configure audit logging in Exchange Server and how to maintain and update Exchange Server.
+  #### Lessons
+  - Securing Exchange Server by using RBAC
+  - Configuring audit logging in Exchange Server
+  - Maintaining Exchange Server
+
+
+  #### Lab &#58; Securing and maintaining Exchange Server
+  - Configuring Exchange Server permissions
+  - Configuring audit logging
+  - Maintaining Exchange Server
+
+  After completing this module, students will be able to&#58;
+  - Secure Exchange Server by using RBAC.
+  - Configure audit logging in Exchange Server.
+  - Maintain and update Exchange Server.
+
+
+  ### Module  12&#58; Implementing and managing Exchange Online deployments
+  This module explains Exchange Online and Office 365 and how to manage it. It also explains how to implement a migration to Exchange Online.
+  #### Lessons
+  - Overview of Exchange Online and Office 365
+  - Managing Exchange Online
+  - Implementing the migration to Exchange Online
+  - Managing a hybrid environment
+
+
+  #### Lab &#58; Managing Exchange Online
+  - Managing Exchange Online
+
+  After completing this module, students will be able to&#58;
+  - Provide an overview of Exchange Online and Office 365.
+  - Manage Exchange Online.
+  - Implement a migration to Exchange Online.

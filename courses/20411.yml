@@ -1,0 +1,294 @@
+### YamlMime:Course
+title: Administering Windows Server® 2012
+metadata:
+  title: 'Course 20411-D: Administering Windows Server® 2012'
+  description: 'Course 20411-D: Administering Windows Server® 2012'
+uid: course.20411
+courseNumber: '20411-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Configure and Troubleshoot Domain Name System
+- skill: Maintain Active Directory Domain Services
+- skill: Manage User and Service Accounts
+- skill: Implement Group Policy Infrastructure
+- skill: Manage User Desktops using Group Policy
+- skill: Install, Configure and Troubleshoot Network Policy Server
+- skill: Implement Network Access Protection
+- skill: Implement Remote Access
+- skill: Optimize File Services
+- skill: Configure Encryption and Advanced Auditing
+- skill: Deploy and Maintain Server Images
+- skill: Implement Update Managements
+- skill: Monitor Windows Server 2012
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- windows-server
+exams:
+- uid: exam.70-411
+summary: |-
+  Get hands-on instruction and practice administering Windows Server 2012, including Windows Server 2012 R2, in this five-day Microsoft Official Course. This course is part two in a series of three courses that provides the skills and knowledge necessary to implement a core Windows Server 2012 infrastructure in an existing enterprise environment. 
+  
+  The three courses collectively cover implementing, managing, maintaining and provisioning services and infrastructure in a Windows Server 2012 environment. Although there is some cross-over of skills and tasks across these courses, this course focuses on the administration tasks necessary to maintain a Windows Server 2012 infrastructure such as configuring and troubleshooting name resolution, user and group management with Active Directory Domain Services (AD DS) and Group Policy, implementing Remote Access solutions such as DirectAccess, VPNs and Web Application Proxy, implementing Network Policies and Network Access Protection, Data Security, deployment and maintenance of server images, as well as update management and monitoring of Windows Server 2012 environments. 
+  
+  This course maps directly to and is the preferred choice for hands-on preparation for Microsoft Certified Solutions Associate (MCSA)&#58; Exam [411&#58; Administering Windows Server 2012](https://www.microsoft.com/learning/exam-70-411.aspx), which is the second of three exams required for [MCSA&#58; Windows Server 2012](https://www.microsoft.com/learning/mcsa-windows-server-certification.aspx) credential. 
+  
+  Labs in this course are based on Windows Server 2012 R2 and Windows 8.1.
+
+  #### Audience profile
+  This course is intended for Information Technology (IT) Professionals with hands on experience working in a Windows server 2008 or Windows Server 2012 environment who wish to acquire the skills and knowledge necessary to be able to manage and maintain the core infrastructure required for a Windows Server 2012 and Windows Server 2012 R2 environment. The key focus for students is to broaden the initial deployment of Windows Server 2012 services and infrastructure and provide the skills necessary to Manage and Maintain a domain based Windows Server 2012 environment, providing skills in areas such as User and Group management, Network Access and Data Security. Candidates typically interested in attending this course would be
+  - Windows Server Administrators experienced in working with Windows Server 2008 or Windows Server 2012 who wish to gain skills necessary to perform daily management and maintenance tasks in a Windows Server 2012 or Windows Server 2012 R2 environment.
+  - IT Professionals who are looking to take the [411, Administering Windows Server 2012](http://www.microsoft.com/learning/exam-70-411.aspx) exam
+  - IT professional wishing to take the Microsoft Certified Solutions Expert (MCSE) exams in DataCenter, Desktop Infrastructure, Messaging, Collaboration and Communications will also be interested in taking this course as they prepare for the Microsoft Certified Solutions Associate (MCSA) exams, which are a pre-requisite for their individual specialties.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Knowledge and skills concerning the initial implementation and configuration of core Windows Server services including Active Directory Domain Services (AD DS), Networking Services and Microsoft Hyper-V. 
+  
+  The course pre-requisites can be met by having knowledge equivalent to, or by attendance at, course [20410D&#58; Installing and Configuring Windows Server 2012](http://www.microsoft.com/learning/course.aspx?ID=20410D), as this course will build upon that knowledge and skills covered in that course.
+outlineSection: |-
+  ### Module 1&#58; Configuring and Troubleshooting Domain Name System
+  This module explains how to configure and troubleshoot DNS, including DNS replication and caching.
+  #### Lessons
+  - Configuring the DNS Server Role
+  - Configuring DNS Zones
+  - Configuring DNS Zone Transfers
+  - Managing and Troubleshooting DNS
+
+
+  #### Lab &#58; Configuring and Troubleshooting DNS
+
+  After completing this module, students will be able to&#58;
+
+  - Install and configure the DNS server role
+  - Create and configure DNS zones
+  - Configure DNS zone transfers
+  - Manage and troubleshoot DNS
+
+
+  ### Module 2&#58; Maintaining Active Directory Domain Services
+  This module explains how to implement virtualized domain controllers and read-only domain controller (RODCs). It also explains how to perform common AD DS administrative tasksand manage the AD DS Database.
+  #### Lessons
+  - Overview of AD DS
+  - Implementing Virtualized Domain Controllers
+  - Implementing RODCs
+  - Administering AD DS
+  - Managing the AD DS Database
+
+
+  #### Lab &#58; Maintaining AD DS
+
+  After completing this module, students will be able to&#58;
+  - Implement virtualized domain controllers
+  - Implement RODCs
+  - Administer AD DS
+  - Manage the AD DS database
+
+
+  ### Module 3&#58; Managing User and Service Accounts
+  This module explains how to create, configure and automate the creation of user accounts. It also explains how to configure account-related properties of user objects. It further explains how to create and administer Managed Service Accounts.
+  #### Lessons
+  - Configuring Password Policy and User Account Lockout Settings
+  - Configuring Managed Service Accounts
+
+
+  #### Lab &#58; Managing User and Service Accounts
+
+  After completing this module, students will be able to&#58;
+  - Configure password policy and user account lockout settings
+  - Configure managed service accounts
+
+
+  ### Module 4&#58; Implementing a Group Policy Infrastructure
+  This module explains how to implement a GPO infrastructure. This also teaches how to perform common GPO management tasks, and manage GPOs by using Windows PowerShell. It also focuses on troubleshooting the application of GPOs.
+  #### Lessons
+  - Introducing Group Policy
+  - Implementing and Administering GPOs
+  - Group Policy Scope and Group Policy Processing
+  - Troubleshooting the Application of GPOs
+
+
+  #### Lab &#58; Implementing a Group Policy Infrastructure
+
+  After completing this module, students will be able to&#58;
+
+  - Explain what Group Policy is
+  - Implement and administer Group Policy Objects (GPOs)
+  - Manage Group Policy scope and Group Policy processing
+  - Troubleshoot the application of GPOs
+
+
+  ### Module 5&#58; Managing User Desktops with Group Policy
+  This module explains how you can use Group Policy Objects (GPOs) to implement desktop environments across your organization by using Administrative Templates, Folder Redirection, Group Policy preferences, and where applicable, use software deployment to install and update application programs. It is important to know how to use these various GPO features so that you can configure your users’ computer settings properly.
+  #### Lessons
+  - Implementing Administrative Templates
+  - Configuring Folder Redirection and Scripts
+  - Configuring Group Policy Preferences
+  - Managing Software with Group Policy
+
+
+  #### Lab &#58; Managing User Desktops with Group Policy
+
+  After completing this module, students will be able to&#58;
+  - Configure folder redirection and scripts by using GPOs
+  - Describe and implement Administrative Templates
+  - Configure GPO preferences
+  - Deploy software by using GPOs
+
+
+  ### Module 6&#58; Installing, Configuring, and Troubleshooting the Network Policy Server Role
+  This module explains how to install and configure NPS, RADIUS Clients and servers. It also describes NPS authentication methods. It describe NPS authentication methods and how tomonitor and troubleshoot NPS.
+  #### Lessons
+  - Installing and Configuring a Network Policy Server
+  - Configuring RADIUS Clients and Servers
+  - NPS Authentication Methods
+  - Monitoring and Troubleshooting a Network Policy Server
+
+
+  #### Lab &#58; Installing and Configuring a Network Policy Server
+
+  After completing this module, students will be able to&#58;
+  - Install and configure a Network Policy Server (NPS)
+  - Configure clients and servers with the Remote Authentication Dial-In User Service (RADIUS) protocol
+  - Explain NPS authentication methods
+  - Monitor and troubleshoot NPS
+
+
+  ### Module 7&#58; Implementing Network Access Protection
+  This module explains how to configure, monitor, and troubleshoot NAP. It also explains how NAP can help to protect your network and the various NAP enforcement processes.
+  #### Lessons
+  - Overview of Network Access Protection
+  - Overview of NAP Enforcement Processes
+  - Configuring NAP
+  - Configuring IPSec Enforcement for NAP
+  - Monitoring and Troubleshooting NAP
+
+
+  #### Lab &#58; Implementing Network Access Protection
+
+  After completing this module, students will be able to&#58;
+  - Describe how NAP can help to protect your network
+  - Describe the various NAP enforcement processes
+  - Configure NAP
+  - Monitor and troubleshoot NAP
+
+
+  ### Module 8&#58; Implementing Remote Access
+  In this module, you will learn how to implement and manage remote access in Windows Server 2012. You will also learn how to implement DirectAccess by using the Getting Started wizard, implement and manage an advanced DirectAccess infrastructure, and implement VPN.
+  #### Lessons
+  - Overview of Remote Access
+  - Implementing DirectAccess by Using the Getting Started Wizard
+  - Implementing and Managing an Advanced DirectAccess Infrastructure
+  - Implementing VPN
+  - Implementing Web Application Proxy
+
+
+  #### Lab &#58; Implementing DirectAccess by Using the Getting Started Wizard
+
+  #### Lab &#58; Deploying an Advanced DirectAccess Solution
+
+  #### Lab &#58; Implementing VPN
+
+  #### Lab &#58; Implementing Web Application Proxy
+
+  After completing this module, students will be able to&#58;
+  - Install and manage the Remote Access role in Windows Server 2012 operating system
+  - Implement DirectAccess by using the Getting Started Wizard
+  - Implement and manage an advanced DirectAccess Infrastructure
+  - Implement VPN access
+  - Implement Web Application Proxy
+
+
+  ### Module 9&#58; Optimizing File Services
+  This module describes FSRM, configure quotas, file screening, and storage reports and implement classification management and file management tasks. It describes the components of the DFS. I also explains how to configure DFS namespaces and DFS replication.
+  #### Lessons
+  - Overview of FSRM
+  - Using FSRM to Manage Quotas, File Screens, and Storage Reports
+  - Implementing Classification and File Management Tasks
+  - Overview of DFS
+  - Configuring DFS Namespaces
+  - Configuring and Troubleshooting DFS Replication
+
+
+  #### Lab &#58; Configuring Quotas and File Screening Using File Server Resource Manager
+
+  #### Lab &#58; Implementing Distributed File System
+
+  After completing this module, students will be able to&#58;
+  - Describe the File Server Resource Manager (FSRM) in the Windows Server 2012 operating system
+  - Use FSRM to manage quotas, file screens, and storage reports
+  - Implement classification and file management tasks
+  - Describe Distributed File System (DFS)
+  - Configure DFS namespaces
+  - Configure and troubleshoot DFS Replication
+
+
+  ### Module 10&#58; Configuring Encryption and Advanced Auditing
+  This module explains how to encrypt files using EFS and configure advanced auditing features.
+  #### Lessons
+  - Encrypting Drives by Using BitLocker
+  - Encrypting Files by Using EFS
+  - Configuring Advanced Auditing
+
+
+  #### Lab &#58; Configuring Encryption and Advanced Auditing
+
+  After completing this module, students will be able to&#58;
+  - Secure data by using BitLocker Drive Encryption
+  - Encrypt files by using Encrypting File System (EFS)
+  - Configure advanced auditing
+
+
+  ### Module 11&#58; Deploying and Maintaining Server Images
+  This module explains how to create and manage server images by using Windows Deployment Services
+  #### Lessons
+  - Overview of Windows Deployment Services
+  - Managing Images
+  - Implementing Deployment with Windows Deployment Services
+  - Administering Windows Deployment Services
+
+
+  #### Lab &#58; Using Windows Deployment Services to Deploy Windows Server 2012
+
+  After completing this module, students will be able to&#58;
+  - Describe the important features and functionality of Windows Deployment Services (Windows DS)
+  - Manage images by using Windows Assessment and Deployment Kit (Windows ADK) Tools
+  - Configure Windows Deployment Services in Windows Server 2012
+  - Perform deployments with Windows Deployment Services
+
+
+  ### Module 12&#58; Implementing Update Management
+  This module explains how to use Windows Server Update Services (WSUS) to deploy updates to Windows servers and clients.
+  #### Lessons
+  - Overview of WSUS
+  - Deploying Updates with WSUS
+
+
+  #### Lab &#58; Implementing Update Management
+
+  After completing this module, students will be able to&#58;
+  - Describe the role of WSUS
+  - Describe the WSUS update management process
+  - Deploy updates with WSUS
+
+
+  ### Module 13&#58; Monitoring Windows Server 2012
+  This module explains the monitoring tools available in Windows Server 2012. it also explains how to use Performance Monitor and monitor events.
+  #### Lessons
+  - Monitoring Tools
+  - Using Performance Monitor
+  - Monitoring Event Logs
+
+
+  #### Lab &#58; Monitoring Windows Server 2012
+
+  After completing this module, students will be able to&#58;
+
+  - Describe the monitoring tools for the Windows Server 2012 operating system
+  - Use Performance Monitor to view and analyze performance statistics of programs that are running on their servers
+  - Monitor event logs to view and interpret the recorded events

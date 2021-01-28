@@ -1,0 +1,276 @@
+### YamlMime:Course
+title: Verwaltung von Microsoft Exchange Server 2016
+metadata:
+  title: 'Course 21345-1-A: Verwaltung von Microsoft Exchange Server 2016'
+  description: 'Course 21345-1-A: Verwaltung von Microsoft Exchange Server 2016'
+uid: course.21345-1
+courseNumber: '21345-1-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Durchführen der Bereitstellung und grundlegenden Verwaltung von Exchange Server 2016
+- skill: Verwalten von Exchange Server 2016
+- skill: Erstellen und Verwalten verschiedener Empfängerobjekte in Exchange Server 2016
+- skill: Verwenden der Exchange-Verwaltungsshell zum Erstellen und Verwalten verschiedener Empfängerobjekte in Exchange Server 2016 und Durchführen verschiedener Aufgaben zum Automatisieren von Exchange-Verwaltungsverfahren
+- skill: Konfigurieren der Clientkonnektivität mit Exchange Server 2016 und Verwalten von Clientzugriffsdiensten
+- skill: Implementieren und Verwalten der Hochverfügbarkeit
+- skill: Implementieren der Sicherung und Notfallwiederherstellung für Exchange Server 2016
+- skill: Konfigurieren der Optionen für den Nachrichtentransport
+- skill: Konfigurieren der Optionen für Nachrichtenschutz und Sicherheit
+- skill: Implementieren und Verwalten von Exchange Online-Bereitstellungen
+- skill: Durchführen der Überwachung und Problembehandlung für Exchange Server 2016
+- skill: Schützen und Warten von Exchange Server 2016
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+- en
+levels:
+- intermediate
+roles:
+- developer
+exams:
+- uid: exam.70-345
+summary: |-
+  In diesem fünftägigen Kurs mit Anleitung werden IT-Experten in der Verwaltung und Unterstützung von Exchange Server 2016 geschult. Die Kursteilnehmer erfahren, wie sie Exchange Server 2016 installieren sowie die Exchange Server-Umgebung konfigurieren und verwalten. Im Kurs werden die Verwaltung von E-Mail-Empfängern und öffentlichen Ordnern behandelt, einschließlich der Ausführung von Massenvorgängen mit der Exchange-Verwaltungsshell. Weitere Lerninhalte des Kurses sind die Verwaltung der Clientkonnektivität, der Nachrichtentransport
+  und -schutz, die Implementierung und Verwaltung von hoch verfügbaren Exchange Server-Bereitstellungen sowie die Implementierung von Lösungen zur Sicherung und Notfallwiederherstellung. Die Wartung und Überwachung einer Exchange Server 2016-Bereitstellung werden ebenfalls behandelt. Zudem lernen die Kursteilnehmer, wie Exchange Online in einer Office 365-Bereitstellung verwaltet wird.
+
+  #### Audience profile
+  Dieser Kurs ist in erster Linie für Personen vorgesehen, die Unternehmens-Messagingadministratoren für Exchange Server 2016 werden möchten. Der Kurs eignet sich auch für IT-Generalisten und Helpdesk-Mitarbeiter, die sich Kenntnisse über Exchange Server 2016 aneignen möchten. Für Kursteilnehmer werden mindestens zwei Jahre Berufserfahrung im IT-Bereich vorausgesetzt (z. B. in Bereichen wie Windows Server-Verwaltung, Netzwerkverwaltung, Helpdesk oder Systemverwaltung). Kenntnisse in vorherigen Exchange Server-Versionen werden nicht vorausgesetzt.Zur zweiten Zielgruppe des Kurses zählen IT-Experten, die diesen Kurs zur Vorbereitung auf die Prüfung 70-345 zum Entwerfen und Bereitstellen von Microsoft Exchange Server 2016 oder im Rahmen der Voraussetzungen für die MCSE-Zertifizierung für Microsoft Exchange Server 2016 absolvieren.
+prerequisitesSection: |-
+  Die Teilnehmer dieses Kurses müssen folgende Voraussetzungen erfüllen&#58;
+  - Mindestens zwei Jahre Erfahrung in der Verwaltung von Windows Server, einschließlich Windows Server 2012 R2 oder Windows Server 2016
+  - Mindestens zwei Jahre Erfahrung in der Verwendung von Active Directory Domain Services (AD DS)
+  - Mindestens zwei Jahre Erfahrung in der Verwendung der Namensauflösung, einschließlich Domain Name System (DNS)
+  - Kenntnisse von TCP/IP und Netzwerkkonzepten 
+  - Kenntnisse von Windows Server 2012 R2 oder höher und AD DS, einschließlich Planung, Entwurf und Bereitstellung 
+  - Kenntnisse von Sicherheitskonzepten wie Authentifizierung und Autorisierung
+  - Kenntnisse von Simple Mail Transfer Protocol (SMTP)
+  - Praktische Erfahrung mit PKI-Technologien (Public Key-Infrastruktur), einschließlich Active Directory-Zertifikatdienste (AD CS)
+outlineSection: |-
+  ### Modul 1&#58; Bereitstellen von Microsoft Exchange Server 2016
+  In dieser Unterrichtseinheit werden die wichtigsten Funktionen und Erweiterungen
+  von Exchange Server 2016 beschrieben. Außerdem werden die Anforderungen für die Bereitstellung und die Optionen für die Implementierung von Exchange Server 2016 erläutert.
+  #### Lektionen
+  - Übersicht über Exchange Server 2016
+  - Anforderungen und Bereitstellungsoptionen für Exchange Server 2016
+
+
+  #### Lab &#58; Bereitstellen von Microsoft Exchange Server 2016
+  - Prüfen der Anforderungen und Voraussetzungen für eine Exchange Server 2016-Installation
+  - Bereitstellen von Exchange Server 2016
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Die Funktionen und die Funktionalität von Microsoft Exchange Server 2016 beschreiben
+  - Die Anforderungen und Optionen für die Bereitstellung von Exchange Server 2016 beschreiben
+
+  ### Modul 2&#58; Verwalten von Exchange Server 2016-Servern
+  In dieser Unterrichtseinheit werden die integrierten Verwaltungstools beschrieben,
+  die Ihnen zum Verwalten und Warten von Exchange Server 2016 zur Verfügung stehen. Außerdem werden die Funktionen und die Funktionalität der Postfachserverrolle sowie Verfahren zum Konfigurieren eines Postfachservers erläutert.
+  #### Lektionen
+  - Verwaltung von Exchange Server 2016
+  - Übersicht über den Exchange 2016-Postfachserver
+  - Konfigurieren von Postfachservern
+
+
+  #### Lab &#58; Konfigurieren von Postfachservern
+  - Erstellen und Konfigurieren von Postfachdatenbanken
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Die Verwaltung von Microsoft Exchange Server 2016 beschreiben 
+  - Die Exchange Server 2016-Postfachserverrolle beschreiben
+  - Postfachserver konfigurieren
+
+  ### Modul 3&#58; Verwalten von Empfängerobjekten
+  In dieser Unterrichtseinheit werden die Arten von Empfängerobjekten in Exchange Server 2016 sowie die Verwaltung dieser Objekte erläutert. Außerdem wird beschrieben, wie Adresslisten und -richtlinien für die Postfachserverrolle verwaltet werden.
+  #### Lektionen
+  - Exchange Server 2016-Empfänger
+  - Verwalten von Exchange Server-Empfängern
+  - Konfigurieren von Adresslisten und -richtlinien
+
+
+  #### Lab &#58; Verwalten von Exchange Server-Empfängern und öffentlichen Ordnern
+  - Verwalten von Empfängern
+  - Verwalten von Postfächern für öffentliche Ordner
+
+
+  #### Lab &#58; Verwalten von Exchange Server-E-Mail-Adresslisten und -richtlinien
+  - Verwalten von E-Mail-Adressrichtlinien
+  - Verwalten von Adresslisten und Adressbuchrichtlinien
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Die unterschiedlichen Microsoft Exchange Server 2016-Empfänger beschreiben
+  - Exchange Server 2016-Empfänger verwalten
+  - Adresslisten und -richtlinien konfigurieren
+
+  ### Modul 4&#58; Verwalten von Microsoft Exchange Server 2016 und Empfängerobjekten mit der Exchange-Verwaltungsshell
+  Diese Unterrichtseinheit bietet eine Übersicht über die Exchange-Verwaltungsshell und ihre Verwendung zum Verwalten der Exchange Server 2016-Konfiguration und -Empfängerobjekte.
+  #### Lektionen
+  - Übersicht über die Exchange-Verwaltungsshell
+  - Verwalten von Exchange Server 2016 mit der Exchange-Verwaltungsshell
+  - Verwalten von Exchange Server 2016 mithilfe der Exchange-Verwaltungsshell-Skripte
+
+
+  #### Lab &#58; Verwalten von Exchange Server und Empfängerobjekten mit der Exchange-Verwaltungsshell
+  - Verwalten von Empfängern mit der Exchange-Verwaltungsshell
+  - Verwalten von Exchange Server mit der Exchange-Verwaltungsshell
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Die Cmdlets der Exchange-Verwaltungsshell erläutern, die zum Konfigurieren und Verwalten von Microsoft Exchange Server 2016 verwendet werden können 
+  - Exchange Server und Empfängerobjekte mit der Exchange-Verwaltungsshell verwalten
+  - Exchange Server und Empfängerobjekte mithilfe der Exchange-Verwaltungsshell-Skripte verwalten
+
+  ### Modul 5&#58; Implementieren der Clientkonnektivität
+  In dieser Unterrichtseinheit werden die Konfiguration und Verwaltung von Clientzugriffsdiensten in Exchange Server 2016 beschrieben. Außerdem werden die Optionen für die Konfiguration von Clientkonnektivität, Microsoft Outlook im Web und mobilem Messaging erläutert.
+  #### Lektionen
+  - Konfigurieren der Clientzugriffsdienste in Exchange Server 2016
+  - Verwalten von Clientdiensten
+  - Clientkonnektivität und Veröffentlichen von Exchange Server 2016-Diensten
+  - Konfigurieren von Outlook im Web
+  - Konfigurieren von mobilem Messaging in Exchange Server 2016
+
+
+  #### Lab &#58; Bereitstellen und Konfigurieren der Clientzugriffsdienste in Exchange Server 2016
+  - Konfigurieren von Zertifikaten für den Clientzugriff
+  - Konfigurieren der Clientzugriffsoptionen
+  - Konfigurieren von benutzerdefinierten E-Mail-Infos
+
+
+  #### Lab &#58; Bereitstellen und Konfigurieren der Clientzugriffsdienste in Exchange Server
+  - Konfigurieren von Exchange Server 2016 für Outlook
+  - Konfigurieren von Outlook im Web
+  - Konfigurieren von Microsoft Exchange ActiveSync
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Clientzugriffsdienste in Microsoft Exchange Server 2016 konfigurieren
+  - Clientdienste verwalten
+  - Die Clientkonnektivität und Veröffentlichung von Exchange Server 2016-Diensten beschreiben
+  - Microsoft Outlook im Web konfigurieren
+  - Mobiles Messaging in Exchange Server 2016 konfigurieren
+
+  ### Modul 6&#58; Verwalten der Hochverfügbarkeit in Exchange Server 2016
+  In dieser Unterrichtseinheit werden die integrierten Optionen für Hochverfügbarkeit
+  von Exchange Server 2016 beschrieben. Außerdem wird die Konfiguration der Hochverfügbarkeit für Postfachdatenbanken und Clientzugriffsdienste erläutert.
+
+  #### Lektionen
+  - Hochverfügbarkeit in Exchange Server 2016
+  - Konfigurieren hoch verfügbarer Postfachdatenbanken
+  - Konfigurieren der Hochverfügbarkeit von Clientzugriffsdiensten
+
+
+  #### Lab &#58; Implementieren von Database Availability Groups (DAGs)
+  - Erstellen und Konfigurieren einer Database Availability Group (DAG)
+
+
+  #### Lab &#58; Implementieren und Testen der Hochverfügbarkeit
+  - Bereitstellen einer Hochverfügbarkeitslösung für Clientzugriffsdienste
+  - Testen der Hochverfügbarkeitskonfiguration
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Die Hochverfügbarkeit in Microsoft Exchange Server 2016 beschreiben
+  - Hoch verfügbare Postfachdatenbanken konfigurieren
+  - Hochverfügbarkeit für Clientzugriffsdienste konfigurieren
+
+  ### Modul 7&#58; Implementieren der Notfallwiederherstellung für Microsoft Exchange Server 2016
+  In dieser Unterrichtseinheit werden die Sicherungs- und Notfallwiederherstellungsoptionen in Exchange Server 2016 beschrieben und die bei der Verwendung dieser Optionen zu berücksichtigenden Faktoren erläutert.
+  #### Lektionen
+  - Implementieren der Sicherung von Exchange Server 2016
+  - Implementieren der Wiederherstellung von Exchange Server 2016
+
+
+  #### Lab &#58; Sichern von Exchange Server 2016
+  - Sichern von Exchange Server 2016
+
+
+  #### Lab &#58; Implementieren der Notfallwiederherstellung für Exchange Server 2016
+  - Wiederherstellen von Exchange Server 2016-Daten
+  - Wiederherstellen eines Exchange Server-DAG-Mitglieds (optional)
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Die Implementierung der Sicherung von Microsoft Exchange Server 2016 erläutern
+  - Die Implementierung der Wiederherstellung von Exchange Server 2016 erläutern
+
+  ### Modul 8&#58; Konfigurieren und Verwalten des Nachrichtentransports
+  Diese Unterrichtseinheit bietet eine Übersicht über den Nachrichtentransport und erläutert die Konfiguration des Nachrichtentransports. Außerdem wird die Konfiguration von Transportregeln und DLP-Richtlinien zur Verwaltung des Nachrichtentransports erläutert.
+  #### Lektionen
+  - Übersicht über den Nachrichtentransport
+  - Konfigurieren des Nachrichtentransports
+  - Verwalten der Transportregeln
+
+
+  #### Lab &#58; Konfigurieren des Nachrichtentransports
+  - Konfigurieren des Nachrichtentransports
+  - Durchführen der Problembehandlung für die Nachrichtenzustellung
+  - Konfigurieren einer Haftungsausschluss-Transportregel
+  - Konfigurieren einer DLP-Richtlinie für Finanzdaten
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Den Nachrichtentransport beschreiben
+  - Den Nachrichtentransport konfigurieren
+  - Transportregeln verwalten
+
+  ### Modul 9&#58; Konfigurieren des Viren-, Spam- und Schadsoftwareschutzes
+  In dieser Unterrichtseinheit werden die wichtigsten Funktionen und die Funktionalität der Edge-Transport-Serverrolle in Exchange Server 2016 beschrieben. Außerdem wird erläutert, wie die Nachrichtensicherheit durch Implementieren einer Antiviren- und Antispamlösung konfiguriert werden kann.
+  #### Lektionen
+  - Bereitstellen und Verwalten eines Edge-Transport-Servers für die Nachrichtensicherheit
+  - Implementieren einer Antivirenlösung für Exchange Server 2016
+  - Implementieren einer Antispamlösung für Exchange Server 2016
+
+
+  #### Lab &#58; Konfigurieren der Nachrichtensicherheit
+  - Konfigurieren und Testen von EdgeSync
+  - Konfigurieren von Funktionen zum Schutz vor Viren, Spam und Schadsoftware in Exchange Server 2016
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Eine Edge-Transport-Serverrolle für die Nachrichtensicherheit bereitstellen und verwalten
+  - Eine Antivirenlösung für Microsoft Exchange Server 2016 implementieren
+  - Eine Antispamlösung für Exchange Server 2016 implementieren
+
+  ### Modul 10&#58; Implementieren und Verwalten von Exchange Online-Bereitstellungen
+  In dieser Unterrichtseinheit werden die wichtigsten Funktionen von Exchange Online und Office 365 beschrieben. Außerdem werden die Verwaltung von Exchange Online und die Migration zu Exchange Online erläutert.
+  #### Lektionen
+  - Übersicht über Exchange Online und Office 365
+  - Verwalten von Exchange Online
+  - Implementieren der Migration zu Exchange Online
+
+
+  #### Lab &#58; Verwalten von Exchange Online
+  - Verwalten von Exchange Online
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Eine Übersicht über Exchange Online und Office 365 geben
+  - Exchange Online verwalten
+  - Eine Migration zu Exchange Online implementieren
+
+  ### Modul 11&#58; Durchführen der Überwachung und Problembehandlung für Microsoft Exchange Server 2016
+  In dieser Unterrichtseinheit werden die Überwachung und Problembehandlung für Exchange Server 2016 beschrieben. Es wird erläutert, wie Leistungsdaten für verschiedene Exchange Server-Empfänger und -Objekte gesammelt und analysiert werden. Außerdem wird erläutert, wie Datenbank-, Konnektivitäts- und Leistungsprobleme behandelt werden können.
+  #### Lektionen
+  - Überwachen von Exchange Server 2016
+  - Durchführen der Problembehandlung für Exchange Server 2016
+
+
+  #### Lab &#58; Durchführen der Überwachung und Problembehandlung für Exchange Server 2016
+  - Überwachen von Exchange Server
+  - Durchführen der Problembehandlung für die Datenbankverfügbarkeit
+  - Durchführen der Problembehandlung für Clientzugriffsserver
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - Exchange Server 2016 überwachen
+  - Die Problembehandlung für Exchange Server 2016 durchführen
+
+  ### Modul 12&#58; Sichern und Warten von Exchange Server 2016
+  In dieser Unterrichtseinheit werden die Wartung und Aktualisierung einer Exchange Server-Organisation beschrieben. Es wird erläutert, wie die administrative Sicherheit und die administrative Überwachung in Exchange Server 2016 geplant und konfiguriert werden.
+  #### Lektionen
+  - Sichern von Exchange Server mit der rollenbasierten Zugriffssteuerung (RBAC)
+  - Konfigurieren der Überwachungsprotokollierung in Exchange Server 2016
+  - Warten von Exchange Server 2016
+
+
+  #### Lab &#58; Sichern und Warten von Exchange Server 2016
+  - Konfigurieren von Exchange Server-Berechtigungen
+  - Konfigurieren der Überwachungsprotokollierung
+  - Verwalten von Updates in Exchange Server 2016
+
+  Nach Abschluss dieser Unterrichtseinheit können die Kursteilnehmer&#58;
+  - RBAC in Microsoft Exchange Server 2016 konfigurieren
+  - Optionen im Zusammenhang mit der Benutzer- und Administrator-Überwachungsprotokollierung konfigurieren
+  - Exchange Server 2016 warten und aktualisieren

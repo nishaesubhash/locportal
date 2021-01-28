@@ -1,0 +1,246 @@
+### YamlMime:Course
+title: Implémentation d'un entrepôt de données avec Microsoft® SQL Server® 2012
+metadata:
+  title: "Course 22463-A: Implémentation d'un entrepôt de données avec Microsoft® SQL Server® 2012"
+  description: "Course 22463-A: Implémentation d'un entrepôt de données avec Microsoft® SQL Server® 2012"
+uid: course.22463
+courseNumber: '22463-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: décrire les concepts d'entrepôt de données et les considérations architecturales
+- skill: sélectionner une plateforme matérielle appropriée pour un entrepôt de données
+- skill: concevoir et implémenter un entrepôt de données
+- skill: Implémenter un flux de données dans un package SSIS
+- skill: implémenter un flux de contrôle dans un package SSIS
+- skill: déboguer et résoudre les problèmes liés aux packages SSIS
+- skill: implémenter une solution SSIS prenant en charge les charges d'entrepôt de données incrémentielles et la modification des données
+- skill: intégrer les données du cloud dans une infrastructure écosystémique d'entrepôt de données
+- skill: implémenter le nettoyage des données à l'aide de Microsoft Data Quality Services
+- skill: implémenter Master Data Services pour appliquer l'intégrité des données
+- skill: étendre SSIS à l'aide de scripts et de composants personnalisés
+- skill: déployer et configurer les packages SSIS
+- skill: décrire comment les professionnels de l'information peuvent utiliser les données de l'entrepôt de données.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- fr
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-463
+summary: |-
+  L'entreposage de données est une solution utilisée par les organisations pour centraliser les données d'entreprise pour la création de rapports et l'analyse. Ce cours dirigé par un instructeur et réparti sur cinq jours a pour objet d'apprendre aux stagiaires à créer un entrepôt de données à l'aide de SQL Server 2012, à implémenter une solution ETL à l'aide de SQL Server Integration Services et à valider et nettoyer les données à l'aide de SQL Server Data Quality Services et de SQL Server Master Data Services. Ce cours aide les stagiaires à préparer l'examen [70-463](https://www.microsoft.com/learning/exam-list.aspx?ID=70-463&Locale=en-us).
+
+  #### Audience profile
+  Ce cours s'adresse aux professionnels de base de données qui doivent remplir un rôle de développeur Business Intelligence. Ils devront se focaliser sur les travaux pratiques sur la création de solutions BI, notamment l'implémentation d'un entrepôt de données, le processus ETL et le nettoyage des données. Les principales responsabilités sont les suivantes&#58;
+  - implémentation d'un entrepôt de données
+  - développement de packages SQL Server Integration Services (SSIS) pour le processus d'extraction, de transformation et de chargement de données (ETL)
+  - application de l'intégrité des données à l'aide de Master Data Services
+  - nettoyage des données à l'aide de Data Quality Services
+prerequisitesSection: |-
+  Pour suivre ce cours, le stagiaire doit avoir &#58;
+  - au moins 2 ans d'expérience dans l'utilisation de bases de données relationnelles, notamment &#58;
+  - conception d'une base de données normalisée ;
+  - création de tables et de relations ;
+  - interrogation avec Transact-SQL.
+  - une connaissance des constructions de programmation de base (par exemple, le bouclage et le branchement) ;
+  - une connaissance des principales priorités de l'entreprise, par exemple les recettes, la rentabilité et la comptabilité financière.
+outlineSection: |-
+  ### Module 1&#58; Présentation de l'entreposage de données
+  Ce module présente les principaux composants d'une solution d'entreposage de données et les éléments clés que vous devez prendre en compte lorsque vous vous lancez dans un projet d'entreposage de données.
+  #### Leçons
+  - Vue d'ensemble de l'entreposage de données
+  - Éléments à prendre en compte pour une solution d'entreposage de données
+
+
+  #### Atelier &#58; Exploration d'une solution d'entreposage de données
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les principaux éléments d'une solution d'entreposage de données ;
+  - décrire les points clés à prendre en compte pour un projet d'entreposage de données.
+
+
+  ### Module 2&#58; Matériel d'entrepôt de données
+  Ce module décrit les caractéristiques des charges de travail classiques d'un entrepôt de données, et explique comment utiliser les architectures de référence et les appareils de l'entrepôt de données pour créer le système le mieux adapté aux besoins de votre entreprise.
+  #### Leçons
+  - Éléments à prendre en compte pour créer un entrepôt de données
+  - Appareils et architectures de référence d'un entrepôt de données
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire la configuration matérielle requise pour créer un entrepôt de données ;
+  - expliquer comment utiliser les architectures de référence et les appareils de l'entrepôt de données pour créer un entrepôt de données.
+
+
+  ### Module 3&#58; Conception et implémentation d'un entrepôt de données
+  Dans ce module, vous apprendrez à implémenter l'architecture logique et physique d'un entrepôt de données selon des règles de conception éprouvées.
+  #### Leçons
+  - Conception logique d'un entrepôt de données
+  - Conception physique d'un entrepôt de données
+
+
+  #### Atelier &#58; Implémentation d'un schéma d'entrepôt de données
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - implémenter une conception logique pour un entrepôt de données ;
+  - implémenter une conception physique pour un entrepôt de données.
+
+
+  ### Module 4&#58; Création d'une solution ETL à l'aide de SSIS
+  Ce module décrit les éléments à prendre en compte pour implémenter un processus ETL. Il présente ensuite SQL Server Integration Services (SSIS) en tant que plateforme pour créer des solutions ETL.
+  #### Leçons
+  - Présentation du processus ETL avec SSIS
+  - Exploration des données sources
+  - Implémentation d'un flux de données
+
+
+  #### Atelier &#58; Implémentation d'un flux de données dans un package SSIS
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les principales fonctionnalités de SSIS ;
+  - explorer les données sources d'une solution ETL ;
+  - implémenter un flux de données à l'aide de SSIS.
+
+
+  ### Module 5&#58; Implémentation d'un flux de contrôle dans un package SSIS
+  Le flux de contrôle des packages SQL Server Integration Services vous permet d'implémenter des solutions ETL complexes qui combinent plusieurs tâches et une logique de flux de travail. Ce module explique comment implémenter un flux de contrôle et concevoir des processus ETL fiables pour une solution d'entreposage de données qui coordonnent les opérations de flux de données avec d'autres tâches automatisées.
+  #### Leçons
+  - Présentation du flux de contrôle
+  - Création de packages dynamiques
+  - Utilisation de conteneurs
+  - Gestion de la cohérence
+
+
+  #### Atelier &#58; Implémentation d'un flux de contrôle dans un package SSIS
+
+  #### Atelier &#58; Utilisation de transactions et de points de contrôle
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - implémenter un flux de contrôle avec des tâches et des contraintes de précédence ;
+  - créer des packages dynamiques contenant des variables et des paramètres ;
+  - utiliser des conteneurs dans un flux de contrôle de package ;
+  - assurer la cohérence avec les transactions et les points de contrôle.
+
+
+  ### Module 6&#58; Débogage et résolution des problèmes liés aux packages SSIS
+  Ce module explique comment déboguer les packages SQL Server Integration Services (SSIS) pour identifier la cause des erreurs qui se produisent pendant l'exécution. Il présente la fonctionnalité de journalisation intégrée à SSIS que vous pouvez utiliser pour enregistrer des événements à des fins de dépannage. Enfin, il décrit les méthodes courantes pour gérer les erreurs dans le flux de contrôle et le flux de données.
+  #### Leçons
+  - Débogage d'un package SSIS
+  - Enregistrement des événements dans un package SSIS
+  - Gestion des erreurs dans un package SSIS
+
+
+  #### Atelier &#58; Débogage et résolution des problèmes liés à un package SSIS
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - déboguer un package SSIS ;
+  - implémenter la journalisation d'un package SSIS ;
+  - gérer les erreurs dans un package SSIS.
+
+
+  ### Module 7&#58; Implémentation d'un processus ETL incrémentiel
+  Ce module décrit les techniques permettant d'implémenter un processus d'actualisation d'entrepôt de données incrémentiel.
+  #### Leçons
+  - Présentation du processus ETL incrémentiel
+  - Extraction des données modifiées
+  - Chargement des données modifiées
+
+
+  #### Atelier &#58; Extraction des données modifiées
+
+  #### Atelier &#58; Chargement des modifications incrémentielles
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les éléments à prendre en compte pour implémenter une solution d'extraction, de transformation et de chargement (ETL) ;
+
+  - utiliser plusieurs techniques pour extraire des données nouvelles et modifiées à partir de systèmes sources ;
+
+  - utiliser plusieurs techniques pour insérer des données nouvelles et modifiées dans un entrepôt de données.
+
+
+  ### Module 8&#58; Incorporation de données du cloud à un entrepôt de données
+  Dans ce module, vous apprendrez comment utiliser le cloud computing dans votre infrastructure d'entrepôt de données, et découvrirez les outils et les services disponibles dans Microsoft Azure Marketplace.
+  #### Leçons
+  - Vue d'ensemble des sources de données du cloud
+  - Base de données SQL Server
+  - Windows Azure Marketplace
+
+
+  #### Atelier &#58; Utilisation des données du cloud dans une solution d'entrepôt de données
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les scénarios de données du cloud ;
+  - décrire Base de données SQL Windows Azure ;
+  - décrire Windows Azure Marketplace.
+
+
+  ### Module 9&#58; Mise en œuvre de la qualité des données
+  Assurer la haute qualité des données est primordial si les résultats de l'analyse des données doivent être approuvés. Ce module explique comment utiliser SQL Server 2012 Data Quality Services (DQS) pour fournir un processus assisté par ordinateur permettant de nettoyer les valeurs de données et d'identifier et de supprimer les entités de données en double.
+  #### Leçons
+  - Présentation de la qualité des données
+  - Utilisation de Data Quality Services pour nettoyer les données
+  - Utilisation de Data Quality Services pour faire correspondre les données
+
+
+  #### Atelier &#58; Nettoyage de données
+
+  #### Atelier &#58; Déduplication de données
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire comment Data Quality Services permet de gérer la qualité des données ;
+  - utiliser Data Quality Services pour nettoyer les données ;
+  - utiliser Data Quality Services pour faire correspondre les données.
+
+
+  ### Module 10&#58; Utilisation de Master Data Services
+  Ce module présente Master Data Services et explique les avantages de son utilisation dans un contexte d'entreposage de données. Il décrit également les principales options de configuration de Master Data Services, et explique comment importer et exporter des données. Enfin, il montre comment appliquer des règles pour préserver l'intégrité des données, et présente le nouveau complément Master Data Services pour Excel.
+  #### Leçons
+  - Présentation de Master Data Services
+  - Implémentation d'un modèle Master Data Services
+  - Utilisation du complément Master Data Services pour Excel
+
+
+  #### Atelier &#58; Implémentation de Master Data Services
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les principaux concepts de Master Data Services ;
+  - implémenter un modèle Master Data Services ;
+  - utiliser le complément Master Data Services pour Excel pour afficher et modifier un modèle.
+
+
+  ### Module 11&#58; Extension de SQL Server Integration Services
+  Ce module décrit les techniques permettant d'étendre SQL Server Integration Services (SSIS). Il n'est pas conçu pour servir de guide complet sur le développement de solutions SSIS personnalisées, mais pour faire connaître les étapes fondamentales requises pour utiliser des composants et des scripts personnalisés dans un processus TL basé sur SSIS.
+  #### Leçons
+  - Utilisation de composants personnalisés dans SSIS
+  - Utilisation de scripts dans SSIS
+
+
+  #### Atelier &#58; Utilisation de composants et de scripts personnalisés
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire comment les composants personnalisés peuvent être utilisés pour étendre SSIS ;
+  - décrire comment inclure des scripts personnalisés dans un package SSIS.
+
+
+  ### Module 12&#58; Déploiement et configuration de packages SSIS
+  SQL Server Integration Services fournit des outils qui facilitent le déploiement de packages sur un ordinateur. Les outils de déploiement gèrent également les dépendances, telles que les configurations et les fichiers dont le package a besoin. Dans ce module, vous apprendrez à utiliser ces outils pour installer des packages et leurs dépendances sur un ordinateur cible.
+  #### Leçons
+  - Vue d'ensemble du déploiement SSIS
+  - Déploiement de projets SSIS
+  - Planification de l'exécution d'un package SSIS
+
+
+  #### Atelier &#58; Déploiement et configuration de packages SSIS
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire le déploiement SSIS ;
+  - expliquer comment déployer des projets SSIS à l'aide du modèle de déploiement de projet ;
+  - planifier l'exécution d'un package SSIS.
+
+
+  ### Module 13&#58; Utilisation des données dans un entrepôt de données
+  Ce module présente Business Intelligence (BI), décrit les composants de SQL Server que vous pouvez utiliser pour créer une solution BI, et les outils clients permettant aux utilisateurs de créer des rapports et d'analyser les données.
+  #### Leçons
+  - Présentation de Business Intelligence
+  - Présentation de la création de rapports
+  - Présentation de l'analyse de données
+
+
+  #### Atelier &#58; Utilisation des outils Business Intelligence
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire BI et des scénarios BI courants ;
+  - expliquer les principales fonctionnalités de SQL Server Reporting Services ;
+  - expliquer les principales fonctionnalités de SQL Server Analysis Services.

@@ -1,0 +1,275 @@
+### YamlMime:Course
+title: Installing and Configuring Windows Server® 2012
+metadata:
+  title: 'Course 20410-D: Installing and Configuring Windows Server® 2012'
+  description: 'Course 20410-D: Installing and Configuring Windows Server® 2012'
+uid: course.20410
+courseNumber: '20410-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Install and configure Windows Server 2012.
+- skill: Describe AD DS.
+- skill: Manage Active Directory objects.
+- skill: Automate Active Directory administration.
+- skill: Implement IPv4.
+- skill: Implement Dynamic Host Configuration Protocol (DHCP).
+- skill: Implement Domain Name System (DNS).
+- skill: Implement IPv6.
+- skill: Implement local storage.
+- skill: Implement file and print services.
+- skill: Implement Group Policy.
+- skill: Secure Windows servers by using Group Policy Objects (GPOs).
+- skill: Implement server virtualization by using Hyper-V.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- windows-server
+exams:
+- uid: exam.70-410
+summary: |-
+  Get hands-on instruction and practice installing and configuring Windows Server 2012, including Windows Server 2012 R2, in this five-day Microsoft Official Course. This course is part one in a series of three courses that provides the skills and knowledge necessary to implement a core Windows Server 2012 infrastructure in an existing enterprise environment.  
+  
+  The three courses collectively cover implementing, managing, maintaining and provisioning services and infrastructure in a Windows Server 2012 environment. Although there is some cross-over of skills and tasks across these courses, this course focuses on the initial implementation and configuration of core services, such as Networking, Storage, Active Directory Domain Services (AD DS), Group Policy, File and Print Services, and Hyper-V.  
+  
+  This course maps directly to and is the preferred choice for hands-on preparation for the Microsoft Certified Solutions Associate (MCSA) Exam [410&#58; Installing and Configuring Windows Server 2012](https://www.microsoft.com/learning/exam-70-410.aspx), which is the first of three exams required for the MCSA&#58; Windows Server 2012 credential.  
+  
+  Labs in this course are based on Windows Server 2012 R2 and Windows 8.1.
+
+  #### Audience profile
+  This course is intended for information technology (IT) professionals who have some knowledge and experience working with Windows operating systems and who want to acquire the skills and knowledge necessary to install and perform the initial configuration of a Windows Server 2012 or Windows Server 2012 R2 server in an existing Windows server environment. Typically, candidates who are interested in attending this course include&#58;
+  - Windows Server administrators who are relatively new to Windows Server administration and related technologies who are looking to learn more about Windows Server 2012 and Windows Server 2012 R2.
+  - IT professionals who are experienced in other non-Microsoft technologies, who meet the course prerequisites and are looking to cross-train on Windows Server 2012 and Windows Server 2012 R2.
+  - IT professionals who are looking to take the Microsoft Certified Solutions Associate (MCSA) [410&#58; Installing and Configuring Windows Server 2012](https://www.microsoft.com/learning/exam-70-410.aspx) exam.
+  - IT professionals who want to take the Microsoft Certified Solutions Expert (MCSE) exams in DataCenter, Desktop Infrastructure, Messaging, Collaboration and Communications will also be interested in taking this course as they prepare for the Microsoft Certified Solutions Associate (MCSA) exams. These are a prerequisite for their individual specialties.
+prerequisitesSection: |-
+  This course requires that student meet the following prerequisites, including that they have&#58;
+  - An understanding of networking fundamentals.
+  - An understanding of basic AD DS concepts.
+  - An awareness and understanding of security best practices.
+  - Basic knowledge of server hardware.
+  - Experience working with, and configuring, Windows client operating systems, such as Windows 7 or Windows 8. 
+  
+  Additionally, students would benefit from having some previous Windows Server operating system experience. 
+  
+  All of the above prerequisites can be met by having knowledge equivalent to, or by attending, course [10967A&#58; Fundamentals of a Windows Server Infrastructure](http://www.microsoft.com/learning/course.aspx?ID=10967A&Locale=en-us&mc=US) because this course builds upon knowledge and skills covered in that course.
+outlineSection: |-
+  ### Module 1&#58; Deploying and Managing Windows Server 2012
+  This module introduces students to the editions of Windows Server 2012 and the new Windows Server 2012 management tools. It also covers how to install Windows Server 2012, how to perform post-deployment tasks, and how to perform basic administrative tasks.
+  #### Lessons
+  - Windows Server 2012 Overview
+  - Installing Windows Server 2012
+  - Post-Installation Configuration of Windows Server 2012
+  - Overview of Windows Server 2012 Management
+  - Introduction to Windows PowerShell
+
+
+  #### Lab &#58; Deploying and Managing Windows Server 2012
+  After completing this module, students will be able to&#58;
+  - Describe Windows Server 2012
+  - Install Windows Server 2012
+  - Perform post‑installation configuration of Windows Server 2012
+  - Describe the management tools available in Windows Server 2012
+  - Perform basic administrative tasks using Windows PowerShell
+
+
+  ### Module 2&#58; Introduction to Active Directory Domain Services
+  This module covers the structure of Active Directory Domain Services (AD DS) and its various components, such as forest, domain, and organizational units (OUs). It also gives an overview of domain controllers, in addition to choices that are available with Windows Server 2012 for installing AD DS on a server.
+  #### Lessons
+  - Overview of AD DS
+  - Overview of Domain Controllers
+  - Installing a Domain Controller
+
+
+  #### Lab &#58; Installing Domain Controllers
+  After completing this module, students will be able to&#58;
+  - Describe the structure of AD DS.
+  - Describe the purpose of domain controllers.
+  - Install a domain controller.
+
+
+  ### Module 3&#58; Managing Active Directory Domain Services Objects
+  This module describes how to manage user accounts and computer accounts, including how to manage various consumer devices that employees use. The module also covers how to manage an enterprise network by managing groups, and how to delegate administrative tasks to designated users or groups.
+  #### Lessons
+  - Managing User Accounts
+  - Managing Groups
+  - Managing Computer Accounts
+  - Delegating Administration
+
+
+  #### Lab &#58; Managing Active Directory Domain Services Objects
+  After completing this module, students will be able to&#58;
+  - Manage user accounts with graphical tools
+  - Manage group accounts with graphical tools
+  - Manage computer accounts.
+  - Delegate permissions to perform AD DS administration
+
+
+  ### Module 4&#58; Automating Active Directory Domain Services Administration
+  This module describes how to use command‑line tools and Windows PowerShell to automate AD DS administration. It discusses various command-line tools and Windows PowerShell commands, and then describes how to use these tools and commands to modify objects individually and in bulk operations.
+  #### Lessons
+  - Using Command-line Tools for AD DS Administration
+  - Using Windows PowerShell for AD DS Administration
+  - Performing Bulk Operations with Windows PowerShell
+
+
+  #### Lab &#58; Automating AD DS Administration by Using Windows PowerShell
+  After completing this module, students will be able to&#58;
+  - Use command‑line tools for AD DS administration
+  - Use Windows PowerShell cmdlets for AD DS administration
+  - Perform bulk operations by using Windows PowerShell
+
+
+  ### Module 5&#58; Implementing IPv4
+  This module discusses using IPv4, which is the network protocol used on the Internet and on local area networks. In this module, students learn how to implement an IPv4 addressing scheme and how to troubleshoot network communication. This module also covers how to determine and troubleshoot network-related problems.
+  #### Lessons
+  - Overview of TCP/IP
+  - Understanding IPv4 Addressing
+  - Subnetting and Supernetting
+  - Configuring and Troubleshooting IPv4
+
+
+  #### Lab &#58; Implementing IPv4
+  After completing this module, students will be able to&#58;
+  - Describe the TCP/IP protocol suite
+  - Describe IPv4 addressing
+  - Determine a subnet mask necessary for supernetting or subnetting
+  - Configure IPv4 and troubleshoot IPv4 communication
+
+
+  ### Module 6&#58; Implementing Dynamic Host Configuration Protocol
+  This module covers supporting and troubleshooting a Windows Server–based network infrastructure by deploying, configuring, and troubleshooting the Dynamic Host Configuration Protocol (DHCP) server role.
+  #### Lessons
+  - Overview of the DHCP Server Role
+  - Configuring DHCP Scopes
+  - Managing a DHCP Database
+  - Securing and Monitoring DHCP
+
+
+  #### Lab &#58; Implementing DHCP
+  After completing this module, students will be able to&#58;
+  - Explain the DHCP server role
+  - Configure DHCP scopes
+  - Manage a DHCP database
+  - Secure and monitor the DHCP server role
+
+
+  ### Module 7&#58; Implementing DNS
+  This module describes name resolution for Windows operating system clients and Windows Server servers. It also covers installing and configuring a DNS Server service and its components.
+  #### Lessons
+  - Name Resolution for Windows Clients and Servers
+  - Installing a DNS Server
+  - Managing DNS Zones
+
+
+  #### Lab &#58; Implementing DNS
+  After completing this module, students will be able to&#58;
+  - Describe name resolution for Windows operating system clients and Windows Server servers.
+  - Install and manage a DNS Server.
+  - Manage DNS zones.
+
+
+  ### Module 8&#58; Implementing IPv6
+  This module discusses the features and benefits of IPv6, how IPv6 affects IPv4 networks, and how to integrate IPv6 into IPv4 networks by using various transition technologies.
+  #### Lessons
+  - Overview of IPv6
+  - IPv6 Addressing
+  - Coexistence with IPv4
+  - IPv6 Transition Technologies
+
+
+  #### Lab &#58; Implementing IPv6
+  After completing this module, students will be able to&#58;
+  - Describe the features and benefits of IPv6
+  - Describe IPv6 addressing
+  - Describe IPv6 coexistence with IPv4
+  - Describe IPv6 transition technologies
+
+
+  ### Module 9&#58; Implementing Local Storage
+  This module introduces several different storage technologies. It discusses how to implement the storage solutions in Windows Server 2012, and how to use the new Storage Spaces feature, which enables you to combine disks into pools that you can configure for automatic management.
+  #### Lessons
+  - Overview of Storage
+  - Managing Disks and Volumes
+  - Implementing Storage Spaces
+
+
+  #### Lab &#58; Implementing Local Storage
+  After completing this module, students will be able to&#58;
+  - Describe various storage technologies
+  - Explain how to manage disks and volumes
+  - Explain how to implement Storage Spaces
+
+
+  ### Module 10&#58; Implementing File and Print Services
+  This module discusses how to provide file and print resources with Windows Server 2012. It describes how to secure files and folders, how to protect previous versions of files and folders by using shadow copies, and how to give workers remote access to corporate files by implementing the new Work Folders role service. It also describes new network printing features that help manage the network printing environment.
+  #### Lessons
+  - Securing Files and Folders
+  - Protecting Shared Files and Folders by Using Shadow Copies
+  - Configuring Work Folders
+  - Configuring Network Printing
+
+
+  #### Lab &#58; Implementing File and Print Services
+  After completing this module, students will be able to&#58;
+  - Secure shared files and folders
+  - Protect shared files and folders by using shadow copies
+  - Configure the Work Folders role service
+  - Configure network printing
+
+
+  ### Module 11&#58; Implementing Group Policy
+  This module provides an overview of Group Policy and provides details about how to implement Group Policy.
+  #### Lessons
+  - Overview of Group Policy
+  - Group Policy Processing
+  - Implementing a Central Store for Administrative Templates
+
+
+  #### Lab &#58; Implementing Group Policy
+  After completing this module, students will be able to&#58;
+  - Create and manage Group Policy Objects (GPOs)
+  - Describe Group Policy processing
+  - Implement a Central Store for Administrative Templates
+
+
+  ### Module 12&#58; Securing Windows Servers Using Group Policy Objects
+  This module describes Windows Server 2012 operating system security. It covers how to identify security threats, plan your strategy to mitigate security threats, and secure your Windows Server 2012 infrastructure.
+  #### Lessons
+  - Security Overview for Windows Operating Systems
+  - Configuring Security Settings
+  - Restricting Software
+  - Configuring Windows Firewall with Advanced Security
+
+
+  #### Lab &#58; Increasing Security for Server Resources
+
+  #### Lab &#58; Configuring AppLocker and Windows Firewall
+  After completing this module, students will be able to&#58;
+  - Describe WindowsServer operating system security
+  - Configure security settings by using Group Policy
+  - Increase security for server resources
+  - Restrict unauthorized software from running on servers and clients
+  - Configure Windows Firewall with Advanced Security
+
+
+  ### Module 13&#58; Implementing Server Virtualization with Hyper-V
+  This module describes virtualization technologies available on Windows, specifically focusing on the Hyper-V role in Windows Server 2012 and Windows Server 2012 R2. It covers the components of the Hyper-V role, configuring and deploying the role, in addition to and how to configure and manage key components of a Hyper-V implementation, such as Storage and Networking.
+  #### Lessons
+  - Overview of Virtualization Technologies
+  - Implementing Hyper-V
+  - Managing Virtual Machine Storage
+  - Managing Virtual Networks
+
+
+  #### Lab &#58; Implementing Server Virtualization with Hyper-V
+  After completing this module, students will be able to&#58;
+  - Describe virtualization technologies
+  - Implement Hyper‑V
+  - Manage virtual machine storage
+  - Manage virtual networks

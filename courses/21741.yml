@@ -1,0 +1,256 @@
+### YamlMime:Course
+title: Konfigurieren von Netzwerken mit Windows Server 2016
+metadata:
+  title: 'Course 21741-B: Konfigurieren von Netzwerken mit Windows Server 2016'
+  description: 'Course 21741-B: Konfigurieren von Netzwerken mit Windows Server 2016'
+uid: course.21741
+courseNumber: '21741-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Ein IPv4-Netzwerk planen und implementieren
+- skill: DHCP (Dynamic Host Configuration-Protokoll) implementieren IPv6 implementieren
+- skill: Domain Name System (DNS) implementieren
+- skill: IP-Adressverwaltung (IPAM) implementieren und verwalten
+- skill: Remotezugriff planen
+- skill: DirectAccess implementieren
+- skill: Virtuelle private Netzwerke (VPNs) implementieren
+- skill: Ein Netzwerk für Zweigstellen implementieren
+- skill: Erweiterte Netzwerkfeatures konfigurieren
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-741
+summary: |-
+  In dieser fünftägigen Präsenzschulung erwerben Sie die grundlegenden Kenntnisse über Netzwerke, die Sie für die Bereitstellung und Unterstützung von Windows Server 2016 in den meisten Organisationen benötigen. Die Schulung deckt IP-Grundlagen, Remotezugriffstechnologien und fortgeschrittene Themen wie Software-Defined Networking ab.
+
+  #### Audience profile
+  Dieser Kurs richtet sich an IT-Experten mit Netzwerkkenntnissen und -erfahrung, die in einem einzigen fünftägigen Kurs Einblicke in allgemeine und erweiterte Netzwerktechnologien in Windows Server 2016 erhalten möchten. Zu dieser Zielgruppe gehören in der Regel&#58;Netzwerkadministratoren, die ihren Wissensstand erweitern und die neuen und veränderten Funktionen in Windows Server 2016 kennenlernen möchten.System- oder Infrastrukturadministratoren mit allgemeinen Netzwerkkenntnissen, die grundlegende und erweiterte Netzwerkkenntnisse und -fähigkeiten unter Windows Server 2016 erlangen möchten.Die sekundäre Zielgruppe für diesen Kurs umfasst IT-Experten, die die Prüfung MCSA 70-741&#58; „Konfigurieren von Netzwerken mit Windows Server 2016“ ablegen möchten.
+prerequisitesSection: |-
+  Neben ihren beruflichen Erfahrungen sollten die Kursteilnehmer bereits über folgende technische Kenntnisse verfügen&#58;
+  Erfahrung bei der Arbeit mit Windows Server 2008 oder Windows Server 2012 Erfahrung bei der Arbeit in einer auf einer Windows Server-Infrastruktur aufsetzenden Unternehmensumgebung Das OSI-Modell (Open Systems Interconnection) Verständnis der grundlegenden Netzwerkinfrastrukturkomponenten und -technologien wie Verkabelung, Router, Hubs und Switches Vertrautheit mit Netzwerktechnologien und -architekturen wie LANs (Local Area Networks), WANs (Wide Area Networks) und Drahtlosnetzwerke Einige Grundkenntnisse des TCP/IP-Protokollstapels, Adressierung und Namensauflösung Erfahrung mit und Kenntnis von Hyper-V und irtualisierung Praktische Erfahrung mit den Windows-Clientbetriebssystemen wie Windows 8.1 oder Windows 10 Kursteilnehmer können die Voraussetzungen durch Teilnahme an einem der folgenden Kurse bzw. durch entsprechende Vorkenntnisse erfüllen&#58; 10967A&#58; Grundlagen einer Windows Server-Infrastruktur
+outlineSection: |-
+  ### Modul 1&#58; Planen und Implementieren eines IPv4-Netzwerks
+  In dieser Unterrichtseinheit wird die Planung und Implementierung eines IPv4-Adressschemas zur Unterstützung der Unternehmensanforderungen erläutert. In dieser Unterrichtseinheit wird außerdem die Verwendung grundlegender Tools und Techniken für die Konfiguration und Problembehandlung IPv4-basierter Netzwerke erklärt.
+  #### Lektionen
+  - Planen eines IPv4-Netzwerks
+  - Konfigurieren eines IPv4-Hosts
+  - Verwaltung und Problembehandlung einer IPv4-Netzwerkverbindung
+
+
+  #### Lab &#58; Planen eines IPv4-Netzwerks
+  - Planen eines IPv4-Netzwerks
+
+
+  #### Lab &#58; Implementierung und Problembehandlung eines IPv4-Netzwerks
+  - Überprüfen der IPv4-Kommunikation
+  - Problembehandlung von IPv4
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - IPv4-Adressierung planen
+  - Einen IPv4-Host konfigurieren
+  - Eine IPv4-Netzwerkverbindung verwalten und Probleme beheben
+
+  ### Modul 2&#58; Implementieren von DHCP
+  In dieser Unterrichtseinheit wird die Planung und Implementierung von DHCP zur Unterstützung der IPv4-Infrastruktur erläutert.
+  #### Lektionen
+  - Übersicht zur DHCP-Serverrolle
+  - Bereitstellen von DHCP
+  - Verwaltung und Problembehandlung von DHCP
+
+
+  #### Lab &#58; Implementieren von DHCP
+  - Planen einer DHCP-Serverimplementierung
+  - Implementieren der DHCP-Konfiguration
+  - Überprüfen der DHCP-Implementierung
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Merkmale der DHCP-Serverrolle
+  - DHCP bereitstellen DHCP verwalten und Probleme beheben
+
+  ### Modul 3&#58; Implementieren von IPv6
+  In dieser Unterrichtseinheit wird die Implementierung von IPv6 sowie die Integration von IPv6- und IPv4-Netzwerken erläutert.
+  #### Lektionen
+  - Übersicht zur IPv6-Adressierung
+  - Konfigurieren eines IPv6-Hosts
+  - Implementieren der IPv6- und IPv4-Koexistenz
+  - Übergang von IPv4 auf IPv6
+
+
+  #### Lab &#58; Konfigurieren und Bewerten von IPv6-Übergangstechnologien
+  - Überprüfung der IPv6-Standardkonfiguration
+  - Implementieren von DHCPv6
+  - Konfigurieren der Netzwerkintegration mithilfe von ISATAP
+  - Konfigurieren nativer IPv6-Konnektivität
+  - Konfigurieren von 6-zu-4-Konnektivität
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Features und Vorteile von IPv6
+  - Einen IPv6-Host konfigurieren
+  - Koexistenz von IPv4- und IPv6-Netzwerken implementieren
+  - Übergang von einem IPv4-Netzwerk auf ein IPv6-Netzwerk.
+
+  ### Modul 4&#58; Implementieren von DNS
+  In dieser Unterrichtseinheit wird die Installation, Konfiguration und Problembehandlung von DNS innerhalb des Unternehmensnetzwerks erläutert.
+  #### Lektionen
+  - Implementieren von DNS-Servern
+  - Konfigurieren von Zonen in DNS
+  - Konfigurieren der Namensauflösung zwischen DNS-Zonen
+  - Konfigurieren der DNS-Integration in Active Directory-Domänendienste (AD DS)
+  - Konfigurieren erweiterter DNS-Einstellungen
+
+
+  #### Lab &#58; Planen und Implementieren der Namensauflösung über DNS
+  - Planen der DNS-Namensauflösung
+  - Implementieren von DNS-Servern und Zonen
+
+
+  #### Lab &#58; Integrieren von DNS mit Active Directory
+  - Integrieren von DNS mit Active Directory
+
+
+  #### Lab &#58; Konfigurieren erweiterter DNS-Einstellungen
+  - Konfigurieren von DNS-Richtlinien
+  - Überprüfen der DNS-Implementierung
+  - Problembehandlung bei DNS
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - DNS-Server implementieren
+  - Zonen in DNS konfigurieren
+  - Namensauflösung zwischen DNS-Zonen konfigurieren
+  - DNS-Integration in ADDS konfigurieren
+  - Erweiterte DNS-Einstellungen konfigurieren
+
+  ### Modul 5&#58; Implementieren und Verwalten von IPAM
+  In dieser Unterrichtseinheit wird die Implementierung und Verwaltung des IPAM-Features in Windows Server 2016 erläutert. In dieser Unterrichtseinheit wird außerdem die Verwaltung von Diensten wie DHCP und DNS mit IPAM erklärt.
+  #### Lektionen
+  - Übersicht zu IPAM
+  - Bereitstellen von IPAM
+  - Verwalten von IP-Adressbereichen mit IPAM
+
+
+  #### Lab &#58; Implementieren von IPAM
+  - Installieren des IPAM-Server-Features
+  - Bereitstellen eines IPAM-Servers
+  - Verwalten von IP-Adressbereichen mit IPAM
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - IPAM-Funktion und -Komponenten beschreiben
+  - IPAM bereitstellen
+  - IP-Adressbereiche mit IPAM verwalten
+
+  ### Modul 6&#58; Remotezugriff in Windows Server 2016
+  In dieser Unterrichtseinheit wird die Planung des Remotezugriffs in Windows Server 2016 sowie die Implementierung des Webanwendungsproxys erläutert.
+  #### Lektionen
+  - Übersicht über den Remotezugriff
+  - Implementieren des Webanwendungsproxys
+
+
+  #### Lab &#58; Implementieren des Webanwendungsproxys
+  - Implementieren des Webanwendungsproxys
+  - Überprüfen der Webanwendungsproxy-Bereitstellung
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Remotezugriff beschreiben
+  - Einen Webanwendungsproxy implementieren
+
+  ### Modul 7&#58; Implementieren von DirectAccess
+  In dieser Unterrichtseinheit wird die Implementierung und Verwaltung des DirectAccess-Features in Windows Server 2016 erläutert.
+  #### Lektionen
+  - Überblick über DirectAccess
+  - Implementieren von DirectAccess über den Assistenten für erste Schritte
+  - Implementieren und Verwalten einer erweiterten DirectAccess-Infrastruktur
+
+
+  #### Lab &#58; Implementieren von DirectAccess über den Assistenten für erste Schritte
+  - Überprüfen der Bereitschaft für eine DirectAccess-Bereitstellung
+  - Konfigurieren von DirectAccess
+  - Überprüfen der DirectAccess-Bereitstellung
+
+
+  #### Lab &#58; Bereitstellen einer erweiterten DirectAccess-Lösung
+  - Vorbereiten der Umgebung für DirectAccess
+  - Implementieren der erweiterten DirectAccess-Infrastruktur
+  - Überprüfen der DirectAccess-Bereitstellung
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - DirectAccess und seine Funktionsweise erläutern
+  - DirectAccess über den Assistenten für erste Schritte implementieren
+  - Eine erweiterte DirectAccess-Infrastruktur implementieren und verwalten
+
+  ### Modul 8&#58; Implementieren von VPNs
+  In dieser Unterrichtseinheit wird die Implementierung und Verwaltung des Remotezugriffs in Windows Server 2016 mithilfe von VPNs erläutert.
+  #### Lektionen
+  - Planen von VPNs
+  - Implementieren von VPNs
+
+
+  #### Lab &#58; Implementieren von VPN
+  - Implementieren von VPN
+  - Überprüfen der VPN-Bereitstellung
+  - Problembehandlung des VPN-Zugriffs
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Eine VPN-Lösung planen
+  - VPNs implementieren
+
+  ### Modul 9&#58; Implementieren eines Netzwerks für Zweigstellen
+  In dieser Unterrichtseinheit wird die Implementierung von Netzwerkdiensten für Zweigstellen erläutert.
+  #### Lektionen
+  - Netzwerkfunktionen und Überlegungen bezüglich Zweigstellen
+  - DFS (Distributed File System) in Zweigstellen einführen
+  - Implementieren von BranchCache für Zweigstellen
+
+
+  #### Lab &#58; Implementieren von DFS für Zweigstellen
+  - Implementieren von DFS
+  - Überprüfen der Bereitstellung
+
+
+  #### Lab &#58; Implementieren von BranchCache
+  - Implementieren von BranchCache
+  - Überprüfen der Bereitstellung
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Netzwerkfunktionen und Überlegungen bezüglich Zweigstellen beschreiben
+  - DFS für Zweigstellen implementieren
+  - BranchCache für Zweigstellen implementieren
+
+  ### Modul 10&#58; Konfigurieren erweiterter Netzwerkfeatures
+  In dieser Unterrichtseinheit wird die Implementierung einer erweiterten Netzwerkinfrastruktur erläutert.
+  #### Lektionen
+  - Übersicht der Hochleistungsnetzwerkfunktionen
+  - Konfigurieren der erweiterten Microsoft Hyper-V-Netzwerkfeatures
+
+
+  #### Lab &#58; Konfigurieren der erweiterten Hyper-V-Netzwerkfeatures
+  - Erstellen und Verwenden von virtuellen Hyper-V-Switches
+  - Konfigurieren und Verwenden der erweiterten Features eines virtuellen Switches
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Die neuen Hochleistungsnetzwerkfunktionen von Windows Server 2016
+  - Erweiterte Microsoft Hyper-V-Netzwerkfeatures konfigurieren.
+
+  ### Modul 11&#58; Implementieren von Software-Defined Networking
+  In dieser Unterrichtseinheit wird die Implementierung von SDN erläutert.
+  #### Lektionen
+  - Übersicht über SDN
+  - Implementieren einer Netzwerkvirtualisierung
+  - Implementieren eines Netzwerkcontrollers
+
+
+  #### Lab &#58; Bereitstellen eines Netzwerkcontrollers
+  - Vorbereiten der Bereitstellung eines Netzwerkcontrollers
+  - Bereitstellen eines Netzwerkcontrollers
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Merkmale von SDN
+  - Netzwerkvirtualisierung implementieren
+  - Netzwerkcontroller implementieren

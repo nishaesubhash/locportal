@@ -1,0 +1,258 @@
+### YamlMime:Course
+title: Administering Microsoft® SQL Server® 2014 Databases
+metadata:
+  title: 'Course 20462-D: Administering Microsoft® SQL Server® 2014 Databases'
+  description: 'Course 20462-D: Administering Microsoft® SQL Server® 2014 Databases'
+uid: course.20462
+courseNumber: '20462-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe core database administration tasks and tools.
+- skill: Install and configure SQL Server 2014.
+- skill: ConfigureSQL Server databases and storage.
+- skill: Plan and implement a backup strategy.
+- skill: Restore databases from backups.
+- skill: Import and export data.
+- skill: Monitor SQL Server.
+- skill: TraceSQL Server activity.
+- skill: ManageSQL Server security.
+- skill: Audit data access and encrypt data.
+- skill: Perform ongoing database maintenance.
+- skill: AutomateSQL Server maintenance with SQL Server Agent Jobs.
+- skill: ConfigureDatabase Mail, alerts and notifications.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- database-administrator
+products:
+- sql-server
+exams:
+- uid: exam.70-462
+summary: |-
+  This five-day instructor-led course provides students with the knowledge and skills to maintain a Microsoft SQL Server 2014 database. The course focuses on teaching individuals how to use SQL Server 2014 product features and tools related to maintaining a database.
+ 
+  Note&#58; This course is designed for customers who are interested in learning SQL Server 2012 or SQL Server 2014. It covers the new features in SQL Server 2014, but also the important capabilities across the SQL Server data platform.
+
+  #### Audience profile
+  The primary audience for this course is individuals who administer and maintain SQL Server databases. These individuals perform database administration and maintenance as their primary area of responsibility, or work in environments where databases play a key role in their primary job.
+  
+  The secondary audience for this course is individuals who develop applications that deliver content from SQL Server databases.
+prerequisitesSection: |-
+  This course requires that you meet the following prerequisites&#58;
+  - Basic knowledge of the Microsoft Windows operating system and its core functionality.
+  - Working knowledge of Transact-SQL. 
+  - Working knowledge of relational databases. 
+  - Some experience with database design.
+outlineSection: |-
+  ### Module 1&#58; Introduction to SQL Server 2014 Database Administration
+  This module introduces the Microsoft SQL Server 2014 platform. It describes the components, editions, and versions of SQL Server 2014, and the tasks that a database administrator commonly performs for a SQL Server instance.
+  #### Lessons
+  - Database Administration Overview
+  - Introduction to the SQL Server Platform
+  - Database Management Tools and Techniques
+
+
+  #### Lab &#58; Using SQL Server Administrative Tools
+  After completing this module, you will be able to&#58; 
+  - Describe the SQL Server platform. 
+  - Describe common database administration tasks. 
+  - Use SQL Server administration tools.
+
+
+  ### Module 2&#58; Installing and Configuring SQL Server 2014
+  This module explains how to assess resource requirements for SQL Server 2014 and how to install it.
+  #### Lessons
+  - Planning SQL Server Installation
+  - Installing SQL Server 2014
+  - Post-Installation Configuration
+
+
+  #### Lab &#58; Installing SQL Server 2014
+  After completing this module, you will be able to&#58; 
+  - Plan a SQL Server 2014 installation. 
+  - Install SQL Server 2014. 
+  - Perform post-installation configuration tasks.
+
+
+  ### Module 3&#58; Working with Databases and Storage
+  This module describes how data is stored in databases, how to create databases, how to manage database files, and how to move them. Other tasks related to storage, include managing the tempdb database and using fast storage devices to extend the SQL Server buffer pool cache, are also discussed.
+  #### Lessons
+  - Introduction to Data Storage with SQL Server
+  - Managing Storage for System Databases
+  - Managing Storage for User Databases
+  - Moving Database Files
+  - Configuring the Buffer Pool Extension
+
+
+  #### Lab &#58; Managing Database Storage
+  After completing this module, you will be able to&#58; 
+  - Describe how SQL Server stores data. 
+  - Manage storage for system databases. 
+  - Manage storage for user databases. 
+  - Move database files. 
+  - Configure the buffer pool extension.
+
+
+  ### Module 4&#58; Planning and Implementing a Backup Strategy
+  In this module, you will consider how to create a backup strategy that is aligned with organizational needs, and learn how to perform the backup operations required by that strategy.
+  #### Lessons
+  - Understanding SQL Server Recovery Models
+  - Planning a Backup Strategy
+  - Backing up Databases and Transaction Logs
+  - Using Backup Options
+  - Ensuring Backup Reliability
+
+
+  #### Lab &#58; Backing Up SQL Server Databases
+  After completing this module, you will be able to&#58; 
+  - Describe how database transaction logs function, and how they affect database recovery. 
+  - Plan a backup strategy for a SQL Server database. 
+  - Back up databases and transactions logs. 
+  - Perform copy-only, compressed, and encrypted backups. 
+  - Maximize backup reliability.
+
+
+  ### Module 5&#58; Restoring SQL Server 2014 Databases
+  In this module, you will see how to restore user and system databases and how to implement point-in-time recovery.
+  #### Lessons
+  - Understanding the Restore Process
+  - Restoring Databases
+  - Advanced Restore Scenarios
+  - Working with Point-in-Time Recovery
+
+
+  #### Lab &#58; Restoring SQL Server Databases
+  After completing this module, you will be able to&#58; 
+  - Explain the restore process. 
+  - Restore databases. 
+  - Perform advanced restore operations. 
+  - Perform a point-in-time recovery.
+
+
+  ### Module 6&#58; Importing and Exporting Data
+  In this module, you will briefly explore tools and techniques so that you can import and export data to and from SQL Server.
+  #### Lessons
+  - Introduction to Transferring Data
+  - Importing and Exporting Table Data
+  - Copying or Moving a Database
+
+
+  #### Lab &#58; Importing and Exporting Data
+  After completing this module, you will be able to&#58; 
+  - Describe tools and techniques for transferring data.
+  - Import and export data.
+  - Copy or move a database.
+
+
+  ### Module 7&#58; Monitoring SQL Server 2014
+  This module explains how to use three of the most commonly used tools&#58; Activity Monitor, dynamic management views and functions (DMVs and DMFs), and Performance Monitor.
+  #### Lessons
+  - Introduction to Monitoring SQL Server
+  - Dynamic Management Views and Functions
+  - Performance Monitor
+
+
+  #### Lab &#58; Monitoring SQL Server 2014
+  After completing this module, you will be able to&#58; 
+  - Describe considerations for monitoring SQL Server and use Activity Monitor. 
+  - Use dynamic management views and functions to monitor SQL Server. 
+  - Use Performance Monitor to monitor SQL Server.
+
+
+  ### Module 8&#58; Tracing SQL Server Activity
+  This module describes how to use SQL Server Profiler and SQL Trace stored procedures to capture information about SQL Server, and how to use that information to troubleshoot and optimize SQL Server workloads.
+  #### Lessons
+  - Tracing SQL Server Workload Activity
+  - Using Traces
+
+
+  #### Lab &#58; Tracing SQL Server Workload Activity
+  After completing this module, you will be able to&#58; 
+  - Trace activity in SQL Server
+  - Use captured traces to test, troubleshoot, and optimize database performance.
+
+
+  ### Module 9&#58; Managing SQL Server Security
+  In this module, you will be learn about the core concepts on which the SQL Server security architecture is based, and how to manage security at the server and database levels.
+  #### Lessons
+  - Introduction to SQL Server Security
+  - Managing Server-Level Security
+  - Managing Database-Level Principals
+  - Managing Database Permissions
+
+
+  #### Lab &#58; Managing SQL Server Security
+  After completing this module, you will be able to&#58; 
+  - Describe core security concepts in the SQL Server security architecture. 
+  - Manage server-level security. 
+  - Manage database-level security principals. 
+  - Manage database permissions.
+
+
+  ### Module 10&#58; Auditing Data Access and Encrypting Data
+  This module describes the available options for auditing in SQL Server, how to use and manage the SQL Server audit feature, and how to implement encryption.
+  #### Lessons
+  - Auditing Data Access in SQL Server
+  - Implementing SQL Server Audit
+  - Implementing SQL Server Audit
+
+
+  #### Lab &#58; Auditing Data Access and Encrypting Data
+  After completing this module, you will be able to&#58; 
+  - Describe options for auditing data access. 
+  - Implement SQL Server audit. 
+  - Manage SQL Server audit. 
+  - Implement Transparent Data Encryption.
+
+
+  ### Module 11&#58; Performing Ongoing Database Maintenance
+  This module describes common database maintenance tasks that a DBA must perform, and demonstrates how to automate these tasks using maintenance plans.
+  #### Lessons
+  - Ensuring Database Integrity
+  - Maintaining Indexes
+  - Automating Routine Database Maintenance
+
+
+  #### Lab &#58; Performing Ongoing Database Maintenance
+  After completing this module, you will be able to&#58; 
+  - Ensure database integrity by using DBCC CHECKDB. 
+  - Maintain indexes. 
+  - Configure Database Maintenance Plans.
+
+
+  ### Module 12&#58; Automating SQL Server 2014 Management
+  This module describes how to use SQL Server Agent to automate jobs, how to configure security contexts for jobs, and how to implement multi-server jobs.
+  #### Lessons
+  - Automating SQL Server Management
+  - Implementing SQL Server Agent Jobs
+  - Managing SQL Server Agent Jobs
+  - Managing Job Step Security Contexts
+  - Managing Jobs on Multiple Servers
+
+
+  #### Lab &#58; Automating SQL Server Management
+  After completing this module, you will be able to&#58; 
+  - Describe methods for automating SQL Server management. 
+  - Create jobs, job step types, and schedules. 
+  - Manage SQL Server Agent jobs. 
+  - Configure job security contexts. 
+  - Configure master and target servers.
+
+
+  ### Module 13&#58; Monitoring SQL Server 2014 by Using Alerts and Notifications
+  This module covers the configuration of database mail, alerts, and notifications.
+  #### Lessons
+  - Monitoring SQL Server Errors
+  - Configuring Database Mail
+  - Configuring Operators, Alerts, and Notifications
+
+
+  #### Lab &#58; Monitoring SQL Server by Using Alerts and Notifications
+  After completing this module, you will be able to&#58; 
+  - Configure Database Mail. 
+  - Monitor SQL Server errors.
+  - Configure operators, alerts, and notifications

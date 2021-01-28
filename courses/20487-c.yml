@@ -1,0 +1,304 @@
+### YamlMime:Course
+title: Developing Microsoft Azure and Web Services
+metadata:
+  title: 'Course 20487-C: Developing Microsoft Azure and Web Services'
+  description: 'Course 20487-C: Developing Microsoft Azure and Web Services'
+uid: course.20487-c
+courseNumber: '20487-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the basic concepts of service development and data access strategies using the .NET platform.
+- skill: Describe the Microsoft Azure cloud platform and its compute, data, and application hosting offerings.
+- skill: Design and develop a data-centric application using Visual Studio 2017 and Entity Framework Core.
+- skill: Design, implement, and consume HTTP services using ASP.NET Core.
+- skill: Extend HTTP services using ASP.NET Core.
+- skill: Host services on-premises and in Microsoft Azure.
+- skill: Deploy services to both on-premises and cloud environments and manage the interface and policy for their services.
+- skill: Choose a data storage solution, cache, distribute, and synchronize data.
+- skill: Monitor, log, and troubleshoot services.
+- skill: Describe claim-based identity concepts and standards, and implement authentication and authorization with Azure Active Directory.
+- skill: Create scalable service applications.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- dotnet
+exams:
+- uid: exam.70-487
+summary: |-
+  In this course, students will learn how to design and develop services that access local and remote data from various sources. Students will also learn how to develop and deploy services to hybrid environments, including on-premises servers and Microsoft Azure.
+
+  #### Audience profile
+  Primary&#58; .NET developers who want to learn how to develop services and deploy them to hybrid environments.
+  
+  Secondary&#58; .NET developers with Web application development experience who are exploring developing new applications or porting existing applications to Microsoft Azure.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Experience with C# programming, and concepts such as lambda expressions, LINQ, and anonymous types
+  - Understanding the concepts of n-tier applications
+  - Experience with querying and manipulating data with ADO.NET
+outlineSection: |-
+  ### Module 1&#58; Overview of service and cloud technologies
+  This module provides an overview of service and cloud technologies using the Microsoft .NET Core and the Azure. The first lesson, “Key Components of Distributed Applications,” discusses characteristics that are common to distributed systems, regardless of the technologies they use. Lesson 2, “Data and Data Access Technologies” describes how data is used in distributed applications. Lesson 3, “Service Technologies,” discusses two of the most common protocols in distributed system and the .NET Core technologies used to develop services based on those protocols. Lesson 4, “Cloud Computing,” describes cloud computing and how it is implemented in Azure.
+  #### Lessons
+  - Key Components of Distributed Applications
+  - Data and Data Access Technologies
+  - Service Technologies
+  - Cloud Computing
+  - Manipulating Data
+
+
+  #### Lab &#58; Exploring the Work Environment
+  - Creating an ASP.NET Core project
+  - Create a simple Entity Framework model
+  - Create a web API class
+  - Deploy the web application to Azure
+
+  After completing this module, students will be able to&#58;
+  - Explain services architecture and hosting environments
+  - Explain cloud computing and the Microsoft Azure cloud platform
+  - Explain data access strategies
+
+
+  ### Module 2&#58; Querying and Manipulating Data Using Entity Framework
+  In this module, you will learn about the Entity Framework data model, and about how to create, read, update, and delete data. Entity Framework is a rich object-relational mapper, which provides a convenient and powerful application programming interface (API) to manipulate data.
+  This module focuses on the Code First approach with Entity Framework.
+  #### Lessons
+  - ADO.NET Overview
+  - Creating an Entity Data Model
+  - Querying Data
+
+
+  #### Lab &#58; Creating a Data Access Layer using Entity Framework
+  - Creating a data model
+  - Query the Database
+
+
+  #### Lab &#58; Manipulating Data
+  - Create repository methods
+  - Test the model using SQL Server and SQLite
+
+  After completing this module, students will be able to&#58;
+  - Describe basic objects in ADO.NET and explain how asynchronous operations work.
+  - Create an Entity Framework Core data model.
+  - Query data by using Entity Framework Core.
+  - Insert, delete, and update entities by using Entity Framework Core.
+
+
+  ### Module 3&#58; Creating and Consuming ASP.NET Core Web APIs
+  ASP.NET Core Web API provides a robust and modern framework for creating Hypertext Transfer Protocol (HTTP)-based services. In this module, you will be introduced to the HTTP-based services. You will learn how HTTP works and become familiar with HTTP messages, HTTP methods, status codes, and headers. You will also be introduced to the Representational State Transfer (REST) architectural style and hypermedia.
+
+  You will learn how to create HTTP-based services by using ASP.NET Core Web API. You will also learn how to consume them from various clients. After Lesson 3, in the lab "Creating an ASP.NET Core Web APIs", you will create a web API and consume it from a client.
+  #### Lessons
+  - HTTP Services
+  - Creating an ASP.NET Core Web API
+  - Consuming ASP.NET Core Web APIs
+  - Handling HTTP Requests and Responses
+  - Automatically Generating HTTP Requests and Responses
+
+
+  #### Lab &#58; Creating an ASP.NET Core Web API
+  - Create a controller class
+  - Use the API from a browser
+  - Create a client
+
+  After completing this module, students will be able to&#58;
+  - Design services by using the HTTP protocol.
+  - Create services by using ASP.NET Core Web API.
+  - Use the HttpRequest/IActionResult classes to control HTTP messages.
+  - Consume ASP.NET Web API services.
+
+
+  ### Module 4&#58; Extending ASP.NET Core HTTP Services
+  ASP.NET Core Web API provides a complete solution for building HTTP services, but services often have various needs and dependencies. In many cases, you will need to extend or customize the way ASP.NET Core Web API executes your service. Handling needs such as applying error handling and logging integrate with other components of your application and supporting other standards that are available in the HTTP world.
+  Understanding the way ASP.NET Core Web API works is important when you extend ASP.NET Core Web API. The division of responsibilities between components and the order of execution are important when intervening with the way ASP.NET Core Web API executes.
+  Finally, with ASP.NET Core Web API, you can also extend the way you interact with other parts of your system. With the dependency resolver mechanism, you can control how instances of your service are created, giving you complete control on managing dependencies of the services.
+  #### Lessons
+  - The ASP.NET Core Request Pipeline
+  - Customizing Controllers and Actions
+  - Injecting Dependencies into Controllers
+
+
+  #### Lab &#58; Customizing the ASP.NET Core Pipeline
+  - Use Dependency Injection to Get a Repository Object
+  - Create a Cache Filter
+  - Create a Debugging Middleware
+
+  After completing this module, students will be able to&#58;
+  - Extend the ASP.NET Web API request and response pipeline.
+  - Customize Controllers and Actions.
+  - Inject dependencies into ASP.NET Web API controllers.
+
+
+  ### Module 5&#58; Hosting Services On-Premises and in Azure
+  In this module you will learn how to host your application on-premises and on Azure.
+  You will also learn about Docker containers, and writing serverless applications with Azure functions.
+  #### Lessons
+  - Hosting Services on-premises
+  - Hosting Services in Azure App Service
+  - Packaging Services in Containers
+  - Implementing Serverless Services
+
+
+  #### Lab &#58; Host an ASP.NET Core service in a Windows Service
+  - Creating a new ASP.NET Core Application
+  - Registering the Windows Service
+
+
+  #### Lab &#58; Host an ASP.NET Core Web API in an Azure Web App
+  - Create a Web App in the Azure portal
+  - Deploy an ASP.NET Core Web API to the Web App
+
+
+  #### Lab &#58; Host an ASP.NET Core service in Azure Container Instances
+  - Publish the service to a Docker container
+  - Host the service in Azure Container Instances
+
+
+  #### Lab &#58; Implement an Azure Function
+  - Develop the service locally
+  - Deploy the service to Azure Functions
+
+  After completing this module, students will be able&#58;
+  - Host services on-premises by using Windows services and Microsoft Internet Information Services (IIS).
+  - Host services in the Azure cloud environment by using Web Apps, Docker containers, and Azure Functions.
+  - Package services in containers.
+  - Implement serverless services.
+
+
+  ### Module 6&#58; Deploying and Managing Services
+  In this module, you will learn about Web Deploy and how to deploy web applications by using Web Deploy in Visual Studio.
+  You will also learn how to define continuous integration and continuous delivery pipelines and how to use Azure API Management and OpenAPI to provide robust, secure, and reliable APIs to your customers.
+  #### Lessons
+  - Web Deployment with Visual Studio 2017
+  - Continuous Delivery with Visual Studio Team Services
+  - Deploying Applications to Staging and Production Environments
+  - Defining Service Interfaces with Azure API Management
+
+
+  #### Lab &#58; Deploying an ASP.NET Core web service on Linux
+  - Publish the ASP.NET Core web service for Linux
+  - Configure Nginx as a reverse proxy
+
+
+  #### Lab &#58; Deploying to Staging and Production
+  - Deploy the application to production
+  - Create a staging slot
+  - Swap the Environments
+
+
+  #### Lab &#58; Publishing a Web API with Azure API Management
+  - Creating an Azure API Management instance
+  - Testing and managing the API
+
+  After completing this module, students will be able to&#58;
+  - Explain Microsoft Internet Information Services (IIS) Web Deploy.
+  - Explain Azure Web Apps deployment by using a Microsoft Visual Studio Team Services build pipeline.
+  - Explain how to deploy web services to Azure Container Instances.
+  - Explain how to define service interfaces by using API Management and Swagger.
+  - Explain how to define policies by using API Management.
+  - Explain defining service interfaces using Azure API Management and Swagger
+
+
+  ### Module 7&#58; Implementing Data Storage in Azure
+  This module explains how to store and access data stored in Azure Storage. It also explains how to configure storage access rights for storage containers and content.
+  #### Lessons
+  - Choosing a Data Storage Mechanism
+  - Accessing Data in Azure Storage
+  - Working with Structured Data in Azure
+  - Geographically Distributing Data with Azure CDN
+  - Scaling with Out-of-Process Cache
+
+
+  #### Lab &#58; Storing Files in Azure Storage
+  - Store publicly accessible files in Azure Blobs
+  - Generate and store private files in Azure Blobs
+
+
+  #### Lab &#58; Querying Graph Data with CosmosDB
+  - Create the CosmosDB graph database
+  - Query the CosmosDB database
+
+
+  #### Lab &#58; Caching out-of-process with Azure Redis cache
+  - Create the Azure Redis Cache service
+  - Access the cache service from code
+  - Test the application
+
+  After completing this module, students will be able to&#58;
+  - Describe the architecture of Storage.
+  - Control access to your Storage items.
+  - Cache data using Azure Cache for Redis.
+  - Distribute data by using Microsoft Azure Content Delivery Network.
+
+
+  ### Module 8&#58; Diagnostics and Monitoring
+  This module explains how to monitor and log services, both on-premises and in Azure.
+  #### Lessons
+  - Logging in ASP.NET Core
+  - Diagnostic Tools
+  - Application Insights
+
+
+  #### Lab &#58; Monitoring ASP.NET Core with ETW and LTTng
+  - Collect and view ETW events
+  - Collect and view LTTng events
+
+
+  #### Lab &#58; Monitoring Azure Web Apps with Application Insights
+  - Add the Application Insights SDK
+  - Load test the web service
+  - Analyze the performance results
+
+  After completing this module, students will be able to&#58;
+  - Explain trace listeners
+  - Explain performance counters
+  - Explain ETW and LTTng events
+  - Demonstrate using App Insights to monitor services
+
+
+  ### Module 9&#58; Securing services on-premises and in Microsoft Azure
+  This module describes claim-based identity concepts and standards, and how to implement authentication and authorization by using Azure Active Directory to secure an ASP.NET Core Web API service.
+  #### Lessons
+  - Explaining Security Terminology
+  - Securing Services with ASP.NET Core Identity
+  - Securing Services with Azure Active Directory
+
+
+  #### Lab &#58; Using ASP.NET Core Identity
+  - Add ASP.NET Core Identity middleware
+  - Add authorization code
+  - Run a client application to test the server
+
+
+  #### Lab &#58; Using Azure Active Directory with ASP.NET Core
+  - Authenticate a client application using AAD B2C and MSAL.js
+
+
+  ### Module 10&#58; Scaling Services
+  This module explains how to create scalable services and applications and scale them automatically using Web Apps load balancers, Azure Application Gateway and Azure Traffic Manager.
+  #### Lessons
+  - Introduction to Scalability
+  - Automatic Scaling
+  - Azure Application Gateway and Traffic Manager
+
+
+  #### Lab &#58; Load Balancing Azure Web Apps
+  - Prepare the application for load-balancing
+  - Test the load balancing with instance affinity
+  - Test the load balancing without affinity
+
+
+  #### Lab &#58; Load Balancing with Azure Traffic Manager
+  - Deploy an Azure Web App to multiple regions
+  - Create an Azure Traffic Manager profile
+
+  After completing this module, students will be able to&#58;
+  - Explain the need for scalability.
+  - Describe how to use load balancing for scaling services.
+  - Explain Azure Load Balancer, Azure Application Gateway, and Azure Traffic Manager.

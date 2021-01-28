@@ -1,0 +1,261 @@
+### YamlMime:Course
+title: Configuring Advanced Windows Server® 2012 Services
+metadata:
+  title: 'Course 20412-D: Configuring Advanced Windows Server® 2012 Services'
+  description: 'Course 20412-D: Configuring Advanced Windows Server® 2012 Services'
+uid: course.20412
+courseNumber: '20412-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Configure advanced features for Dynamic Host Configuration Protocol (DHCP), Domain Name System (DNS), and configure IP Address Management (IPAM) with Windows Server 2012.
+- skill: Configure and manage iSCSI, BranchCache and FSRM.
+- skill: Configure DAC to manage and audit access to shared files.
+- skill: Plan and implement an AD DS deployment that includes multiple domains and forests.
+- skill: Plan and implement an AD DS deployment that includes locations.
+- skill: Implement and configure an Active Directory Certificate Services (AD CS) deployment.
+- skill: Implement an AD RMS deployment.
+- skill: Implement an AD FS deployment.
+- skill: Provide high availability and load balancing for web-based applications by implementing Network Load Balancing (NLB).
+- skill: Implement and validate high availability and load balancing for web-based applications by implementing NLB.
+- skill: Provide high availability for network services and applications by implementing failover clustering.
+- skill: Implement a failover cluster, and configure and validate a highly available network service.
+- skill: Deploy and manage Hyper-V virtual machines in a failover cluster.
+- skill: Implement a backup and disaster recovery solution based on business and technical requirements.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- windows-server
+exams:
+- uid: exam.70-412
+summary: |-
+  Get hands-on instruction and practice configuring advanced Windows Server 2012, including Windows Server 2012 R2, services in this five-day Microsoft Official Course. This course is part three in a series of three courses that provides the skills and knowledge necessary to implement a core Windows Server 2012 infrastructure in an existing enterprise environment. 
+  
+  The three courses collectively cover implementing, managing, maintaining and provisioning services and infrastructure in a Windows Server 2012 environment. Although there is some cross-over of skills and tasks across these courses, this course focuses on advanced configuration of services necessary to deploy, manage and maintain a Windows Server 2012 infrastructure, such as advanced networking services, Active Directory Domain Services (AD DS), Active Directory Rights Management Services (AD RMS), Active Directory Federation Services (AD FS), Network Load Balancing, Failover Clustering, business continuity and disaster recovery services as well as access and information provisioning and protection technologies such as Dynamic Access Control (DAC), and Web Application Proxy integration with AD FS and Workplace Join.
+  
+  This course maps directly to and is the preferred choice for hands-on preparation for Microsoft Certified Solutions Associate (MCSA)&#58; Exam [412&#58; Configuring Advanced Windows Server 2012 Services](https://www.microsoft.com/learning/course.aspx?cid=20412), which is the third of three exams required for MCSA&#58; Windows Server 2012 credential. 
+  
+  Note&#58; Labs in this course are based on Windows Server 2012 R2 and Windows 8.1.
+
+  #### Audience profile
+  This course is intended for Information Technology (IT) Professionals with hands on experience implementing, managing and maintaining a Windows Server 2012 or Windows Server 2012 R2 environment who wish to acquire the skills and knowledge necessary to perform advanced management and provisioning of services within that Windows Server 2012 environment. Candidates who would typically be interested in attending this course will be&#58;
+  - Experienced Windows Server Administrators who have real world experience working in a Windows Server 2008 or Windows Server 2012 enterprise environment.
+  - IT Professionals who are looking to take the exam [412&#58; Configuring Advanced Windows Server 2012](http://www.microsoft.com/learning/exam-70-412.aspx) Services.
+  - IT Professionals wishing to take the Microsoft Certified Solutions Expert (MCSE) exams in Datacenter, Desktop Infrastructure, Messaging, Collaboration and Communications will also be interested in taking this course as they prepare for the MCSA exams, which are a pre-requisite for their individual specialties.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Experience working with Windows Server 2008 or Windows Server 2012 servers day to day in an Enterprise environment.
+  
+  The course pre-requisites can be met by having knowledge equivalent to, or by attendance at, courses [20410C&#58; Installing and Configuring Windows Server 2012](http://www.microsoft.com/learning/course.aspx?ID=20410C&Locale=en-us) and [20411C&#58; Administering Windows Server 2012](http://www.microsoft.com/learning/course.aspx?ID=20411C) as this course will build upon the knowledge and skills covered in those courses.
+outlineSection: |-
+  ### Module 1&#58; Implementing Advanced Network Services
+  In this module students will be able to configure advanced features for Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS), and configure IP Address Management (IPAM).
+  #### Lessons
+  - Configuring Advanced DHCP Features
+  - Configuring Advanced DNS Settings
+  - Implementing IPAM
+  - Managing IP Address Spaces with IPAM
+
+
+  #### Lab &#58; Implementing Advanced Network Services
+  After completing this module, students will be able to&#58;
+  - Configure advanced features in DHCP with Windows Server 2012.
+  - Configure the advanced DNS settings in Windows Server 2012.
+  - Implement IP Address Management in Windows Server 2012.
+
+
+  ### Module 2&#58; Implementing Advanced File Services
+  In this module students will be able to configure file services to meet advanced business requirements.
+  #### Lessons
+  - Configuring iSCSI Storage
+  - Configuring BranchCache
+  - Optimizing Storage Usage
+
+
+  #### Lab &#58; Implementing Advanced File Services
+
+  #### Lab &#58; Implementing BranchCache
+  After completing this module, students will be able to&#58;
+  - Learn how to configure and manage iSCSI.
+  - Implement BranchCache using Windows Server 2012.
+  - Implement Windows Server 2012 features that optimize storage utilization.
+
+
+  ### Module 3&#58; Implementing Dynamic Access Control
+  In this module students will be able to configure Dynamic Access Control (DAC) to manage and audit access to shared files.
+  #### Lessons
+  - Overview of DAC
+  - Implementing DAC Components
+  - Implementing DAC for Access Control
+  - Implementing Access Denied Assistance
+  - Implementing and Managing Work Folders
+
+
+  #### Lab &#58; Implementing Secure Data Access
+  After completing this module, students will be able to&#58;
+  - Describe DAC.
+  - Implement and configure components of DAC.
+  - Implement DAC on file servers.
+  - Describe and implement access- denied assistance.
+  - Implement the integration of Work Folders with DAC.
+
+
+  ### Module 4&#58; Implementing Distributed Active Directory Domain Services Deployments
+  In this module students will be able to plan and implement an Active Directory Domain Services (AD DS) deployment that includes multiple domains and forests.
+  #### Lessons
+  - Overview of Distributed AD DS Deployments
+  - Deploying a Distributed AD DS Environment
+  - Configuring AD DS Trusts
+
+
+  #### Lab &#58; Implementing Distributed AD DS Deployments
+  After completing this module, students will be able to&#58;
+  - Describe the components of a highly complex AD DS deployment.
+  - Implement a complex AD DS deployment.
+  - Configure AD DS trusts.
+
+
+  ### Module 5&#58; Implementing Active Directory Domain Services Sites and Replication
+  In this module students will be able to plan and implement an AD DS deployment that includes multiple locations.
+  #### Lessons
+  - AD DS Replication Overview
+  - Configuring AD DS Sites
+  - Configuring and Monitoring AD DS Replication
+
+
+  #### Lab &#58; Implementing AD DS Sites and Replication
+  After completing this module, students will be able to&#58;
+  - Describe how replication works in a Windows Server 2012 AD DS environment.
+  - Configure AD DS sites in order to optimize AD DS network traffic.
+  - Configure and monitor AD DS replication.
+
+
+  ### Module 6&#58; Implementing AD CS
+  In this module students will be able to implement an Active Directory Certificate Services (AD CS) deployment.
+  #### Lessons
+  - Using Certificates in a Business Environment
+  - PKI Overview
+  - Deploying CAs
+  - Deploying and Managing Certificate Templates
+  - Implementing Certificate Distribution and Revocation
+  - Managing Certificate Recovery
+
+
+  #### Lab &#58; Deploying and Configuring CA Hierarchy
+
+  #### Lab &#58; Deploying and Managing Certificates
+  After completing this module, students will be able to&#58;
+  - Describe and use certificates in business environments.
+  - Describe the Public Key Infrastructure (PKI) components and concepts, and describe the options for implementing a certification authority infrastructure.
+  - Plan and implement an AD CS certification authority infrastructure.
+  - Plan and implement a certificate template deployment using an AD CS certification authority.
+  - Plan and implement certificate distribution and revocation.
+  - Configure and manage key archival and recovery.
+
+
+  ### Module 7&#58; Implementing Active Directory Rights Management Services
+  In this module students will be able to implement an AD RMS deployment.
+  #### Lessons
+  - AD RMS Overview
+  - Deploying and Managing an AD RMS Infrastructure
+  - Configuring AD RMS Content Protection
+  - Configuring External Access to AD RMS
+
+
+  #### Lab &#58; Implementing AD RMS
+  After completing this module, students will be able to&#58;
+  - Describe what AD RMS is, and how it can be used to achieve content protection.
+  - Deploy and manage an AD RMS infrastructure.
+  - Configure content protection using AD RMS.
+  - Enable users outside the organization to access content protected by using AD RMS.
+
+
+  ### Module 8&#58; Implementing and Administering AD FS
+  In this module students will be able to implement an Active Directory Federation Services (AD FS) deployment.
+  #### Lessons
+  - Overview of AD FS
+  - Deploying AD FS
+  - Implementing AD FS for a Single Organization
+  - Deploying AD FS in a Business-to-Business Federation Scenario
+  - Extending AD FS to External Clients
+
+
+  #### Lab &#58; Implementing AD FS
+
+  #### Lab &#58; Implementing AD FS for External Partners and Users
+  After completing this module, students will be able to&#58;
+  - Describe the identity federation business scenarios and how AD FS can be used to address the scenarios.
+  - Configure the AD FS prerequisites and deploy the AD FS services.
+  - Implement AD FS to enable SSO in a single organization.
+  - Implement AD FS to enable SSO between federated partners.
+  - Implement the Web Application Proxy and describe WorkPlace Join integration with AD FS.
+
+
+  ### Module 9&#58; Implementing Network Load Balancing
+  In this module students will be able to provide high availability and load balancing for web-based applications by implementing Network Load Balancing (NLB).
+  #### Lessons
+  - Overview of NLB
+  - Configuring an NLB Cluster
+  - Planning an NLB Implementation
+
+
+  #### Lab &#58; Implementing NLB
+  After completing this module, students will be able to&#58;
+  - Describe how NLB works.
+  - Configure an NLB cluster.
+  - Plan an NLB implementation.
+
+
+  ### Module 10&#58; Implementing Failover Clustering
+  In this module students will be able to provide high availability for network services and applications by implementing failover clustering.
+  #### Lessons
+  - Overview of Failover Clustering
+  - Implementing a Failover Cluster
+  - Configuring Highly Available Applications and Services on a Failover Cluster
+  - Maintaining a Failover Cluster
+  - Implementing a Multi-Site Failover Cluster
+
+
+  #### Lab &#58; Implementing Failover Clustering
+  After completing this module, students will be able to&#58;
+  - Explain failover clustering features in Windows Server 2012.
+  - Describe how to implement a failover cluster.
+  - Explain how to configure highly available applications and services on a failover cluster.
+  - Explain how to maintain a failover cluster and how to use new maintenance features.
+  - Describe how to implement multi-site failover cluster.
+
+
+  ### Module 11&#58; Implementing Failover Clustering with Hyper-V
+  In this module students will be able to deploy and manage Hyper-V virtual machines in a failover cluster.
+  #### Lessons
+  - Overview of Integrating Hyper-V with Failover Clustering
+  - Implementing Hyper-V Virtual Machines on Failover Clusters
+  - Implementing Hyper-V Virtual Machine Movement
+
+
+  #### Lab &#58; Implementing Failover Clustering with Hyper-V
+  After completing this module, students will be able to&#58;
+  - Explain options for making virtual machines highly available.
+  - Describe how to implement virtual machines in a failover cluster deployed on a host.
+  - Explain options for moving a virtual machine or its storage.
+  - Explain a high level overview of Microsoft System Center 2012- Virtual Machine Manager (VMM) 2012.
+
+
+  ### Module 12&#58; Implementing Business Continuity and Disaster Recovery
+  In this module students will be able to implement a backup and disaster recovery solution based on business and technical requirements
+  #### Lessons
+  - Data Protection Overview
+  - Implementing Windows Server Backup
+  - Implementing Server and Data Recovery
+
+
+  #### Lab &#58; Implementing Windows Server Backup and Restore
+  After completing this module, students will be able to&#58;
+  - Describe the considerations that must be included when you are implementing a disaster recovery solution.
+  - Plan and implement a backup solution for Windows Server 2012.
+  - Plan and implement server and data recovery.

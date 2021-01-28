@@ -1,0 +1,398 @@
+### YamlMime:Course
+title: Administering System Center Configuration Manager
+metadata:
+  title: 'Course 20703-1-B: Administering System Center Configuration Manager'
+  description: 'Course 20703-1-B: Administering System Center Configuration Manager'
+uid: course.20703-1
+courseNumber: '20703-1-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the features Configuration Manager and Intune include, and explain how you can use these features to manage PCs and mobile devices in an enterprise environment.
+- skill: Analyze data by using queries and reports.
+- skill: Prepare a management infrastructure, including configuring boundaries, boundary groups, and resource discovery, and integrating mobile-device management with Microsoft Exchange Server.
+- skill: Deploy and manage the Configuration Manager client.
+- skill: Configure, manage, and monitor hardware and software inventory, and use Asset Intelligence and software metering.
+- skill: Identify and configure the most appropriate method to distribute and manage content used for deployments.
+- skill: Distribute, deploy, and monitor applications for managed users and systems.
+- skill: Maintain software updates for PCs that Configuration Manager manages.
+- skill: Implement Endpoint Protection for managed PCs.
+- skill: Manage configuration items, baselines, and profiles to assess and configure compliance settings and data access for users and devices.
+- skill: Configure an operating-system deployment strategy by using Configuration Manager.
+- skill: Manage and maintain a Configuration Manager site.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-system-center
+exams:
+- uid: exam.70-703
+summary: |-
+  This five-day course describes how to use Configuration Manager and its associated site systems to efficiently manage network resources. In this five-day course, you will learn day-to-day management tasks, including how to manage applications, client health, hardware and software inventory, operating system deployment, and software updates by using Configuration Manager. You also will learn how to optimize System Center Endpoint Protection, manage compliance, and create management queries and reports. Additionally, this course, in conjunction with Microsoft Official Course 20703-2B, helps certification candidates prepare for Exam 70-703&#58; Administering System Center Configuration Manager and Cloud Services Integration.
+
+  #### Audience profile
+  This course is for experienced information technology (IT) professionals, typically described as Enterprise Desktop Administrators (EDAs). These EDAs deploy, manage, and maintain PCs, devices, and applications across medium, large, and enterprise organizations. A significant portion of this audience uses, or intends to use, the latest release of Configuration Manager to manage and deploy PCs, devices, and applications. 
+  
+  This course also is for individuals who are interested in taking Exam 70-703&#58; Administering System Center Configuration Manager and Cloud Services Integration. Courses 20703-1B and 20703-2B, or equivalent knowledge and skills, are necessary to prepare for this exam.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Networking fundamentals, including common networking protocols, topologies, hardware, media, routing, switching, and addressing.
+  - Active Directory Domain Services (AD DS) principles and fundamentals of AD DS management.
+  - Installation, configuration, and troubleshooting for Windows-based personal computers.
+  - Basic concepts of public key infrastructure (PKI) security.
+  - Basic understanding of scripting and Windows PowerShell syntax.
+  - Basic understanding of Windows Server roles and services.
+  - Basic understanding of the configuration options foriOS, Android, and Windows Mobile device platforms. 
+  
+  Students who attend this training can meet the prerequisites by attending the following courses or by obtaining equivalent knowledge and skills through hands-on activities&#58;
+  - Course 20697-1&#58; Installing and Configuring Windows 10
+  - Course 20697-2&#58; Deploying and Managing Windows 10 UsingEnterprise Services
+  - Course 20411&#58; Administering Windows Server 2012
+outlineSection: |-
+  ### Module 1&#58; Managing computers and mobile devices in the enterprise
+  This module describes the features of Configuration Manager that you can use to perform complex management tasks, including the following tasks; Hardware and software inventory, Application management, Operating system deployment, Settings management, Software update management, Remote client troubleshooting, and Protection from malware.
+
+  Microsoft System Center Configuration Manager (Configuration Manager) provides various features that can help you manage devices and users both on-premises and in the cloud. Organizations that use Configuration Manager find that they can provide more effective IT services in relation to software deployment, settings management, and asset management.
+
+  This module introduces you to the primary features, architecture, and management tools used with Configuration Manager. This module also provides a foundation that relates to all other features and management tasks discussed in the modules that follow this one.
+
+  #### Lessons
+  - Overview of systems management by using enterprise management solutions
+  - Overview of the Configuration Manager architecture
+  - Overview of the Configuration Manager administrative tools
+  - Tools for monitoring and troubleshooting a Configuration Manager site
+
+
+  #### Lab &#58; Exploring the Configuration Manager tools
+  - Searching in the Configuration Manager console
+  - Using Windows PowerShell with Configuration Manager
+  - Using Configuration Manager Service Manager to manage components
+  - Monitoring site and component status
+  - Reviewing log files by using the Configuration Manager Trace tool
+
+  After completing this module, students will be able to&#58;
+  - Explain how Configuration Manager addresses the challenges of managing systems and users in today's enterprise.
+  - Describe the Configuration Manager architecture.
+  - Describe the management tools that you use to perform administrative functions for Configuration Manager.
+  - Describe the tools that you use to monitor and troubleshoot a Configuration Manager site.
+
+
+  ### Module 2&#58; Analyzing data using queries, reports, and CMPivot
+  The Microsoft System Center Configuration Manager database stores a large amount of data about the resources in your environment. You might not always want to perform all management tasks on all resources simultaneously. Therefore, to help you locate devices or user objects in your environment that meet specific criteria, you can create queries. You then can use these queries to create collections or to find additional information about specific resources. This module describes queries and methods of creating and running them.
+
+  In addition to queries, you can run reports to view various types of information related to your Configuration Manager environment. To run Configuration Manager reports, you must install and configure a reporting services point, which this module details.
+
+  This module also covers CMPivot, which allows you to collect and view real-time data on all the connected devices in your environment. It will enable you to make real-time decisions.
+  #### Lessons
+  - Introduction to queries
+  - Configuring SQL Server Reporting Services
+  - Analyzing the real-time state of a device by using CMPivot
+
+
+  #### Lab &#58; Creating and running queries
+  - Creating data queries
+  - Creating subselect queries
+
+
+  #### Lab &#58; Configuring SSRS
+  - Configuring a reporting services point
+
+
+  #### Lab &#58; Analyzing the real-time state of a device by using CMPivot
+  - Using CMPivot to Analyze the current state of devices
+
+  After completing this module, students will be able to&#58;
+  - Create and configure data and status message queries.
+  - Configure and manage Microsoft SQL Server Reporting Services (SSRS) and the reporting services point.
+  - Use CMPivot to query and view the real-time state of the connected devices in your environment.
+
+
+  ### Module 3&#58; Preparing the Configuration Manager management infrastructure
+  You can manage computer and user resources within a Microsoft System Center Configuration Manager (Configuration Manager) environment only when Configuration Manager has discovered these resources and assigned them to a site.
+
+  In this module, you will learn about boundaries and boundary groups that help create logical network locations containing computer devices that you need to manage in your Configuration Manager infrastructure. You can use these boundary configurations for automatic site assignment and to help clients find content and services from associated site systems. You will also learn about the discovery processes that you can use to identify computers, users, and the network infrastructure within your network environment.
+
+  You will then learn about collections that support logical groupings of resources. You use these groupings for management tasks, such as targeting software updates, managing application deployments, or deploying compliance settings to resources.
+  #### Lessons
+  - Configuring site boundaries and boundary groups
+  - Configuring resource discovery
+  - Organizing resources using device and user collections
+
+
+  #### Lab &#58; Configuring boundaries and resource discovery
+  - Configuring boundaries, boundary groups, and fallback relationships
+  - Configuring Active Directory discovery methods
+
+
+  #### Lab &#58; Configuring user and device collections
+  - Creating a device collection
+  - Creating a user collection
+  - Configuring a maintenance window
+
+  After completing this module, students will be able to&#58;
+  - Configure boundaries and boundary groups.
+  - Configure resource discovery.
+  - Organize resources using device and user collections.
+
+
+  ### Module 4&#58; Deploying and managing the Configuration Manager client
+  You can install the Microsoft System Center Configuration Manager (Configuration Manager) client software on windows-based devices such as servers, workstations, and laptops. You then can manage these devices and perform operations such as reporting hardware and software inventory information, installing and updating software, and configuring settings required for compliance.
+
+  Configuration Manager provides several options for installing the client software. This module explains the supported operating systems and devices, software requirements, and different methods for installing the client software. This module also describes some of the default and custom client settings that you can configure. After installing the client software, you can configure client settings and control how the various client components interact between the managed device and the Configuration Manager environment.
+  #### Lessons
+  - Overview of the Configuration Manager client
+  - Deploying the Configuration Manager client
+  - Configuring and monitoring client status
+  - Managing client settings and performing management operations
+
+
+  #### Lab &#58; Deploying the Microsoft System Center Configuration Manager client software
+  - Preparing the site for client installation
+  - Deploying the Configuration Manager client software by using client push installation
+
+
+  #### Lab &#58; Configuring and monitoring client status
+  - Configuring and monitoring client health status
+
+
+  #### Lab &#58; Managing client settings
+  - Configuring client settings
+  - Performing management operations
+
+  After completing this module, students will be able to&#58;
+  - Describe the requirements and considerations for installing the Configuration Manager client software.
+  - Deploy the Configuration Manager client software.
+  - Manage Configuration Manager client settings.
+
+
+  ### Module 5&#58; Managing inventory for PCs and applications
+  This module provides an overview of inventory collection, and explains how you can manage the information collected. You also will learn about the process of collecting hardware and software inventory, initiating inventory cycles, and initiating and securing inventory collection. This module also covers the use of software metering to monitor program usage, and the configuration and management of Asset Intelligence.
+  #### Lessons
+  - Overview of inventory collection
+  - Configuring hardware and software inventory
+  - Managing inventory collection
+  - Configuring software metering
+  - Configuring and managing Asset Intelligence
+
+
+  #### Lab &#58; Configuring and managing inventory collection
+  - Configuring and managing hardware inventory
+
+
+  #### Lab &#58; Configuring software metering
+  - Configuring software metering
+
+
+  #### Lab &#58; Configuring and managing Asset Intelligence
+  - Preparing the site for Asset Intelligence
+  - Configuring Asset Intelligence
+  - Monitoring license agreements by using Asset Intelligence
+  - Viewing Asset Intelligence reports
+
+  After completing this module, students will be able to&#58;
+  - Describe inventory collection.
+  - Configure and collect hardware and software inventory.
+  - Manage inventory collection.
+  - Configure software metering.
+  - Configure Asset Intelligence.
+
+
+  ### Module 6&#58; Distributing and managing content used for deployments
+  Microsoft System Center Configuration Manager (Configuration Manager) clients obtain content, such as packages, applications, software updates, and even operating system images, from a content infrastructure made up of distribution points and peer cache sources. In this module, you will review the content distribution and management features, configure distribution points, and learn how to distribute and monitor content. You also will perform content validation and content prestaging.
+  #### Lessons
+  - Preparing the infrastructure for content management
+  - Distributing and managing content on distribution points
+
+
+  #### Lab &#58; Distributing and managing content for deployments
+  - Installing a new distribution point
+  - Managing content distribution
+
+  After completing this module, students will be able to&#58;
+  - Prepare the infrastructure for content management.
+  - Distribute and manage content on distribution points.
+
+
+  ### Module 7&#58; Deploying and managing applications
+  In this module, you will learn about the methods for creating, deploying, and managing applications with Configuration Manager. You also will learn to use the Software Center and the Application Catalog to install available applications. You will learn about managing deployments on unconventional applications. In addition, you will learn to install Windows 10 apps and virtualized applications.
+  #### Lessons
+  - Overview of application management
+  - Creating applications
+  - Deploying applications
+  - Managing applications
+  - Deploying virtual applications by using System Center Configuration Manager (Optional)
+  - Deploying and managing Windows Store apps
+
+
+  #### Lab &#58; Creating and deploying applications
+  - Creating applications with requirements
+  - Deploying applications
+
+
+  #### Lab &#58; Managing application supersedence and removal
+  - Managing application supersedence
+  - Uninstalling the Excel Viewer application
+
+
+  #### Lab &#58; Deploying virtual applications by using Configuration Manager (Optional)
+  - Deploying virtual applications
+
+
+  #### Lab &#58; Using Configuration Manager to deploy Windows Store apps
+  - Configuring support for sideloading Windows Store apps
+  - Configuring a Windows Store app
+  - Deploying Windows 10 apps to users
+
+  After completing this module, students will be able to&#58;
+  - Describe the application management features of Configuration Manager.
+  - Create applications.
+  - Deploy applications.
+  - Manage applications.
+  - Configure and deploy virtual applications.
+  - Configure and deploy Windows Store apps.
+
+
+  ### Module 8&#58; Maintaining software updates for managed PCs
+  This module explains how to use the software updates feature in Configuration Manager to implement an end-to-end management process for the complex task of identifying, deploying, and monitoring Microsoft and third-party software updates to your Configuration Manager clients.
+  #### Lessons
+  - The software updates process
+  - Preparing a Configuration Manager site for software updates
+  - Managing software updates
+  - Configuring automatic deployment rules
+  - Monitoring and troubleshooting software updates
+  - Enabling third-party updates
+
+
+  #### Lab &#58; Configuring the site for software updates
+  - Configuring and synchronizing the software update point
+
+
+  #### Lab &#58; Deploying and managing software updates
+  - Determining software update compliance
+  - Deploying software updates to clients
+  - Configuring automatic deployment rules
+
+  After completing this module, students will be able to&#58;
+  - Describe how the software updates feature integrates with Configuration Manager.
+  - Prepare the Configuration Manager site for software updates.
+  - Manage software updates by using Configuration Manager.
+  - Configure automatic deployment rules.
+  - Monitor and troubleshoot software updates.
+  - Describe how to enable third-party updates.
+
+
+  ### Module 9&#58; Implementing Endpoint Protection for managed PCs
+  This module explains how to use the security-related features provided by Configuration Manager to help protect client computers from malware threats, and to configure specific Windows Defender Firewall settings for clients. Based on System Center Endpoint Protection (Endpoint Protection) functionality, Endpoint Protection in Configuration Manager supports the deployment, management, and monitoring of antimalware policies, Windows Defender Firewall settings, Windows Defender Application Guard policies, Windows Defender Exploit Guard policies, and Windows Defender Application Control policies on client computers.
+  #### Lessons
+  - Overview of Endpoint Protection in Configuration Manager
+  - Configuring, deploying, and monitoring Endpoint Protection policies
+  - Configuring and deploying advanced threat policies
+
+
+  #### Lab &#58; Implementing Microsoft System Center Endpoint Protection
+  - Configuring the System Center Endpoint Protection point and client settings
+  - Configuring and deploying Endpoint Protection policies
+  - Monitoring Endpoint Protection
+
+
+  #### Lab &#58; Implementing advanced threat policies
+  - Creating and deploying advanced threat protection policies
+
+  After completing this module, students will be able to&#58;
+  - Configure Endpoint Protection to detect and remediate malware and security vulnerabilities.
+  - Configure, deploy, and manage Endpoint Protection policies.
+  - Configure and deploy advanced threat protection policies.
+
+
+  ### Module 10&#58; Managing compliance and secure data access
+  Many enterprise organizations require systems, such as servers, laptops, desktop computers, and mobile devices, to meet specific configuration and compliance requirements. Compliance settings in Configuration Manager can play a key role in identifying existing configurations, discovering systems that have adverse configuration changes, and remediating these settings automatically when necessary.
+
+  Compliance settings also can help control how users manage and access data in the enterprise network environment. For computers that run Windows 8 and newer operating systems, you can manage data using folder redirection, offline files, and roaming profiles. You also can control access to data using remote connection profiles, virtual private network (VPN) profiles, Wi-Fi profiles, and certificate profiles.
+
+  This module describes the compliance settings that you can manage using Configuration Manager. You will learn to use these settings to maintain configuration requirements and to provide secure data access to enterprise resources.
+  #### Lessons
+  - Overview of Compliance Settings
+  - Configuring compliance settings
+  - Viewing compliance results
+  - Managing resource and data access
+
+
+  #### Lab &#58; Managing compliance settings
+  - Managing configuration items and baselines
+  - Viewing compliance settings and reports
+  - Configuring remediation in compliance settings
+  - Using compliance information to create collections
+
+  After completing this module, students will be able to&#58;
+  - Describe the features of compliance settings.
+  - Configure compliance settings.
+  - View compliance results.
+  - Manage resource and data access.
+
+
+  ### Module 11&#58; Managing operating system deployment
+  This module explains how to use the operating system deployment feature in Configuration Manager to create operating system images that you can deploy to unmanaged computers and those managed by Configuration Manager. There are several scenarios in which you can deploy operating systems by using Configuration Manager, including when you are working with new systems or when you are upgrading existing ones. Operating system deployment uses both Configuration Manager and Windows components to manage and deliver operating system images. You can configure settings on a reference computer prior to capturing an image of its operating system or by using task sequences that Configuration Manager creates after you deploy the image to a target system.
+
+  This module also explains how to use Configuration Manager to create a strategy for operating-system deployments. And also, it explains and how to manage Windows as a service.
+
+
+  This module explains how to manage Windows as a service.
+  #### Lessons
+  - An overview of operating system deployment
+  - Preparing a site for operating system deployment
+  - Deploying an operating system
+  - Managing Windows as a service
+
+
+  #### Lab &#58; Preparing thea site for operating -system deployment
+  - Managing the site system roles used to support operating system deployment
+  - Managing packages to support operating system deployment
+
+
+  #### Lab &#58; Deploying operating -system images for bare-metal installations
+  - Preparing the operating system image
+  - Creating a task sequence to deploy an image
+  - Deploying an image
+
+  After completing this module, students will be able to&#58;
+  - Describe the terminology, components, and scenarios used to deploy operating systems by using Configuration Manager.
+  - Prepare a site for operating system deployment.
+  - Deploy an operating system image.
+  - Describe how to manage Windows as a service.
+
+
+  ### Module 12&#58; Managing and maintaining a Configuration Manager site
+  This module describes role-based administration, Remote Tools, and the site maintenance tasks that you can manage by using Configuration Manager. This module also describes how to back up and recover a Configuration Manager site system and use the recommendation(s) from Management Insights to simplify administration.
+  #### Lessons
+  - Configuring role-based administration
+  - Configuring Remote Tools
+  - Overview of Configuration Manager site maintenance and Management Insights
+  - Backing up and recovering a Configuration Manager site
+  - Updating the Configuration Manager infrastructure
+
+
+  #### Lab &#58; Configuring role-based administration
+  - Configuring a new scope for Toronto administrators
+  - Configuring a new administrative user
+
+
+  #### Lab &#58; Configuring Remote Tools
+  - Configuring the Remote Tools client settings and permissions
+  - Managing desktops by using Remote Control
+
+
+  #### Lab &#58; Maintaining a Configuration Manager site
+  - Configuring maintenance tasks in Configuration Manager
+  - Configuring the Backup Site Server task
+  - Recovering a site from a backup
+
+  After completing this module, students will be able to&#58;
+  - Configure role-based administration.
+  - Configure Remote Tools to support client activity.
+  - Identify Configuration Manager site Maintenance tasks.
+  - Back up and recover a Configuration Manager site.
+  - Use Updates and Servicing to install updates to the Configuration Manager infrastructure.

@@ -1,0 +1,276 @@
+### YamlMime:Course
+title: Administration de Windows Server® 2012
+metadata:
+  title: 'Course 22411-B: Administration de Windows Server® 2012'
+  description: 'Course 22411-B: Administration de Windows Server® 2012'
+uid: course.22411
+courseNumber: '22411-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Déployer, gérer et maintenir les serveurs
+- skill: Configurer les fichiers et les services d'impression
+- skill: Configurer les services et l'accès réseau
+- skill: Configurer une infrastructure de serveur de stratégie réseau
+- skill: configurer et gérer les services de domaine Active Directory (AD DS)
+- skill: configurer et gérer la stratégie de groupe
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- fr
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-411
+summary: |-
+  Apprenez à administrer Windows Server 2012 avec ce cours en cinq jours. Ce cours constitue la deuxième partie d'une série de trois cours, qui fournit les qualifications et connaissances nécessaires pour implémenter une infrastructure principale de Windows Server 2012 dans un environnement d'entreprise existant. L'intégralité des trois cours couvre l'implémentation, la gestion, la maintenance et la mise en route des services et de l'infrastructure dans un environnement Windows Server 2012. Même si certaines compétences et tâches se recoupent d'un cours à l'autre, celui-ci couvre principalement les tâches d'administration nécessaires pour maintenir une infrastructure Windows Server 2012 telle que l'implémentation des images du serveur, la gestion d'utilisateur et de groupe avec des services de domaine Active Directory (AD DS) et la stratégie de groupe, l'accès à distance et les stratégies réseau, la sécurité des données, la surveillance et la gestion des mises à jour.
+  
+  Ce cours est destiné à préparer l'examen de Microsoft Certified Solutions Associate (MCSA) pour Windows Server 2012 &#58; « 70-411 &#58; Administration de Windows Server 2012, dont les détails sont disponibles ici http://www.microsoft.com/learning/exam-70-411.aspx
+
+  #### Audience profile
+  Ce cours s'adresse aux professionnels de l'informatique possédant une expérience de travail pratique dans un environnement Windows Server 2008 ou Windows Server 2012, et qui souhaitent acquérir les compétences et connaissances nécessaires pour gérer et maintenir l'infrastructure principale requise pour un environnement Windows Server 2012. L'objectif principal de ce cours est d'élargir le déploiement initial des services et de l'infrastructure de Windows Server 2012, et de fournir les qualifications nécessaires pour gérer et maintenir un domaine basé sur un environnement Windows Server 2012, telles que la gestion d'utilisateur et de groupe, l'accès réseau et la sécurité des données.
+  
+  Les candidats sont généralement des administrateurs système ou aspirent à être des administrateurs système. Ils doivent posséder une expérience de travail pratique d'au moins un an dans un environnement Windows Server 2008 ou Windows Server 2012. Les candidats doivent également posséder les connaissances correspondant aux sujets abordés dans « 22410A &#58; Installation et configuration de Windows Server 2012 » étant donné que ce cours se basera sur ces connaissances.
+prerequisitesSection: |-
+  Pour suivre ce cours, les stagiaires doivent posséder&#58;
+  - une expérience de travail pratique avec Windows Server 2008, Windows Server 2008 R2 ou Windows Server 2012
+  - une bonne connaissance et compréhension d'Active Directory et de l'infrastructure réseau
+  - des connaissances correspondant aux sujets abordés dans « 22410A &#58; Installation et configuration de Windows Server 2012 ».
+outlineSection: |-
+  ### Module 1&#58; Déploiement et maintenance des images de serveur
+  Ce module explore les fonctionnalités des services de déploiement Windows et explique comment les utiliser pour effectuer des déploiements de type Lite Touch.
+  #### Leçons
+  - Vue d'ensemble des services de déploiement Windows
+  - Implémentation d'un déploiement avec les services de déploiement Windows
+  - Administration des services de déploiement Windows
+
+
+  #### Atelier &#58; Utilisation des services de déploiement Windows pour déployer Windows Server 2012
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - Décrire les principales fonctionnalités et caractéristiques des services de déploiement Windows.
+  - Configurer les services de déploiement Windows dans Windows Server 2012.
+  - Exécuter des déploiements avec les services de déploiement Windows.
+
+
+  ### Module 2&#58; Configuration et dépannage du système DNS
+  Ce module explique que le système DNS est le service de nom de base dans Windows Server 2012. Il fournit la résolution de noms et permet aux clients DNS de localiser des services réseau, tels que les contrôleurs de domaine AD DS, les serveurs de catalogue global et les serveurs de messagerie. Si vous configurez mal votre infrastructure DNS ou que celle-ci ne fonctionne pas correctement, ces services réseau importants seront inaccessibles à vos serveurs réseau et clients. Par conséquent, il est essentiel que vous compreniez comment déployer, configurer, gérer et dépanner ce service critique.
+  #### Leçons
+  - Installation du rôle de serveur DNS
+  - Configuration du rôle de serveur DNS
+  - Configuration des zones DNS
+  - Configuration des transferts de zone DNS
+  - Gestion et dépannage du système DNS
+
+
+  #### Atelier &#58; Configuration et dépannage du système DNS
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - installer le rôle serveur DNS
+  - configurer le rôle de serveur DNS
+  - créer et configurer des zones DNS
+  - configurer des transferts de zone DNS
+  - gérer et dépanner le système DNS
+
+
+  ### Module 3&#58; Gestion des services de domaine Active Directory
+  Ce module explique les nouvelles fonctionnalités, telles que le clonage virtualisé de contrôleur de domaine, les fonctionnalités récentes comme les contrôleurs de domaine en lecture seule (RODC), et bien d'autres fonctionnalités et outils que vous pouvez utiliser dans l'environnement d'AD DS.
+  #### Leçons
+  - Vue d'ensemble d'AD DS
+  - Implémentation des contrôleurs de domaine virtualisés
+  - Implémentation de la réplication RODC
+  - Administration d'AD DS
+  - Gestion de la base de données AD DS
+
+
+  #### Atelier &#58; Gestion d'AD DS
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - Expliquer la structure générale d'AD DS
+  - Implémenter des contrôleurs de domaine virtualisés
+  - Implémenter des contrôleurs de domaine en lecture seule
+  - Administrer AD DS
+  - Gérer la base de données AD DS
+
+
+  ### Module 4&#58; Gestion des comptes d'utilisateurs et de service
+  Ce module explique comment gérer de grands groupes de comptes d'utilisateurs, expliquer les différentes options disponibles pour fournir la sécurité par mot de passe adéquate pour des comptes dans votre environnement, et comment configurer des comptes pour fournir l'authentification pour des services système et des processus en arrière-plan.
+  #### Leçons
+  - Automatisation de la gestion des comptes d'utilisateurs
+  - Configuration des paramètres de stratégie de mot de passe et de verrouillage de compte d'utilisateur
+  - Configuration des comptes de service gérés
+
+
+  #### Atelier &#58; Gestion des comptes d'utilisateurs et de service
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - Automatiser la création de compte d'utilisateur
+  - Configurer les paramètres de stratégie de mot de passe et de verrouillage de compte d'utilisateur
+  - Configurer des comptes de service gérés
+
+
+  ### Module 5&#58; Implémentation d'une infrastructure de stratégie de groupe
+  Ce module expliquera ce qu'est la stratégie de groupe, comment elle fonctionne et comment l'implémenter au mieux dans votre organisation.
+  #### Leçons
+  - Présentation de la stratégie de groupe
+  - Implémentation et administration des objets de stratégie de groupe (GPO)
+  - Étendue de la stratégie de groupe et traitement de la stratégie de groupe
+  - Dépannage de l'application des objets de stratégie de groupe
+
+
+  #### Atelier &#58; Implémentation d'une infrastructure de stratégie de groupe
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - comprendre la stratégie de groupe
+  - implémenter et administrer les objets de stratégie de groupe
+  - gérer l'étendue de la stratégie de groupe
+  - traiter la stratégie de groupe
+  - résoudre les problèmes liés à l'application des objets de stratégie de groupe
+
+
+  ### Module 6&#58; Gestion des bureaux des utilisateurs avec la stratégie de groupe
+  Ce module explique comment configurer des modèles d'administration.
+  #### Leçons
+  - Implémentation des modèles d'administration
+  - Configuration de la redirection de dossiers et des scripts
+  - Configuration des préférences de stratégies de groupe
+  - Gestion des logiciels à l'aide de la stratégie de groupe
+
+
+  #### Atelier &#58; Gestion des bureaux des utilisateurs avec la stratégie de groupe
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - Décrire et implémenter des modèles d'administration
+  - Configurer la redirection de dossiers et les scripts à l'aide des objets de stratégie de groupe
+  - Configurer les préférences des objets de stratégie de groupe
+  - Déployer le logiciel à l'aide des objets de stratégie de groupe
+
+
+  ### Module 7&#58; Configuration et résolution des problèmes d'accès à distance
+  Ce module explique comment configurer et sécuriser vos clients d'accès à distance à l'aide du réseau.
+  #### Leçons
+  - Configuration de l'accès réseau
+  - Configuration de l'accès à un réseau privé virtuel (VPN)
+  - Vue d'ensemble des stratégies réseau
+  - Dépannage du service de routage et d'accès à distance
+  - Configuration de DirectAccess
+
+
+  #### Atelier &#58; Configuration de l'accès à distance
+
+  #### Atelier &#58; Configuration de DirectAccess
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - configurer l'accès réseau
+  - créer et configurer une solution VPN
+  - décrire le rôle des stratégies réseau
+  - dépanner le service de routage et d'accès à distance
+  - configurer DirectAccess
+
+
+  ### Module 8&#58; Installation, configuration et dépannage du rôle de serveur NPS
+  Ce module explique comment installer, configurer et dépanner le rôle de serveur NPS (Network Policy Server).
+  #### Leçons
+  - Installation et configuration d'un NPS
+  - Configuration des clients et serveurs RADIUS (Remote Authentication Dial-In User Service)
+  - Méthodes d'authentification NPS
+  - Analyse et dépannage d'un NPS
+
+
+  #### Atelier &#58; Installation et configuration d'un serveur NPS
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - Installer et configurer le système NPS
+  - Configurer des clients et des serveurs RADIUS
+  - Expliquer les méthodes d'authentification NPS
+  - Analyser le service NPS et résoudre les problèmes éventuels
+
+
+  ### Module 9&#58; Implémentation de la protection d'accès réseau
+  Ce module explique comment créer des stratégies personnalisées de spécifications d'intégrité pour valider l'intégrité des ordinateurs avant de permettre l'accès ou la communication avec la protection d'accès réseau (NAP).
+  #### Leçons
+  - Vue d'ensemble de la protection d'accès réseau
+  - Vue d'ensemble des processus de contrainte de mise en conformité NAP
+  - Configuration de la protection d'accès réseau
+  - Analyse et dépannage de la protection d'accès réseau
+
+
+  #### Atelier &#58; Implémentation de la protection d'accès réseau
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - Décrire comment la protection d'accès réseau (NAP) peut aider à protéger votre réseau
+  - Décrire les divers processus de contrainte de mise en conformité NAP
+  - configurer la protection d'accès réseau
+  - analyser et dépanner la protection d'accès réseau
+
+
+  ### Module 10&#58; Optimisation des services de fichiers
+  Ce module explique comment utiliser le Gestionnaire de ressources du serveur de fichiers (FSRM, File Server Resource Manager) pour placer des quotas sur les volumes de stockage, filtrer les fichiers et dossiers, générer des rapports de stockage complets, contrôler l'infrastructure de classification des fichiers, et utiliser des tâches de gestion de fichiers pour réaliser des actions programmées sur des ensembles de fichiers.
+  #### Leçons
+  - Vue d'ensemble de FSRM
+  - Utilisation de FSRM pour gérer les quotas, les filtres de fichiers et les rapports de stockage
+  - Implémentation des tâches de classification et de gestion de fichiers
+  - Vue d'ensemble du système de fichiers distribués (DFS, Distributed File System)
+  - Configuration des espaces de noms DFS
+  - Configuration et dépannage de la réplication du système de fichiers distribués (DFS-R)
+
+
+  #### Atelier &#58; Configuration des quotas et du filtrage des fichiers à l'aide de FSRM
+
+  #### Atelier &#58; Implémentation de DFS
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - décrire FSRM
+  - Utiliser FSRM pour gérer les quotas, les filtres de fichiers et les rapports de stockage
+  - Implémenter des tâches de classification et de gestion de fichiers
+  - décrire le système de fichiers DFS
+  - Configurer des espaces de noms DFS
+  - Configurer et dépanner la réplication DFS
+
+
+  ### Module 11&#58; Configuration du chiffrement et de l'audit avancé
+  Ce module décrit comment utiliser des outils de Windows Server 2012 pour vous aider à fournir une sécurité de système de fichiers accrue sur vos serveurs.
+  #### Leçons
+  - Chiffrement des fichiers à l'aide du système EFS (Encrypting File System)
+  - Configuration de l'audit avancé
+
+
+  #### Atelier &#58; Configuration du chiffrement et de l'audit avancé
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - Chiffrer des fichiers à l'aide du système EFS (Encrypting File System) 
+  - Configurer l'audit avancé
+
+
+  ### Module 12&#58; Implémentation de la gestion des mises à jour
+  Ce module présente les fonctionnalités clés du rôle de serveur Windows Server Update Services (WSUS).
+  #### Leçons
+  - Vue d'ensemble de WSUS
+  - Déploiement des mises à jour avec WSUS
+
+
+  #### Atelier &#58; Implémentation de la gestion des mises à jour
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - Décrire le rôle de WSUS
+  - Déployer des mises à jour avec WSUS
+
+
+  ### Module 13&#58; Analyse de Windows Server 2012
+  Ce module explique comment améliorer les performances à l'aide des outils d'analyse des performances pour identifier les composants qui doivent être réglés et dépannés.
+  #### Leçons
+  - Outils d'analyse
+  - Utilisation de l'outil d'analyse des performances
+  - Analyse des journaux d'événements
+
+
+  #### Atelier &#58; Analyse de Windows Server 2012
+
+  À la fin de ce module, les stagiaires seront à même d'effectuer les tâches suivantes&#58;
+  - Décrire les outils d'analyse pour Windows Server 2012
+  - Utiliser l'outil d'analyse des performances pour afficher et analyser les statistiques de performance des programmes qui s'exécutent sur vos serveurs
+  - surveiller les journaux des événements pour afficher et interpréter les événements survenus

@@ -1,0 +1,301 @@
+### YamlMime:Course
+title: Installation, Speicher und Compute mit Windows Server 2016
+metadata:
+  title: 'Course 21740-B: Installation, Speicher und Compute mit Windows Server 2016'
+  description: 'Course 21740-B: Installation, Speicher und Compute mit Windows Server 2016'
+uid: course.21740
+courseNumber: '21740-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Vorbereiten und Installieren von Nano-Server und Server Core sowie Planen einer Upgrade- und Migrationsstrategie für Server
+- skill: Beschreiben Sie die verschiedenen Speicheroptionen, einschließlich Partitionstabellenformate, Basis- und dynamische Datenträger, Dateisysteme, virtuelle Festplatten und Laufwerkshardware und beschreiben Sie die Verwaltung von Festplatten und Volumes
+- skill: Beschreiben Sie Unternehmensspeicherlösungen und wählen Sie die geeignete Lösung für eine bestimmte Situation aus
+- skill: Implementieren und verwalten Sie Speicherplätze und Datendeduplizierung
+- skill: Installieren und konfigurieren Sie Microsoft Hyper-V und konfigurieren Sie virtuelle Computer
+- skill: Stellen Sie Windows- und Hyper-V-Container bereit sowie konfigurieren und verwalten Sie sie
+- skill: Beschreiben Sie die Hochverfügbarkeits- und Notfallwiederherstellungstechnologien von Windows Server 2016
+- skill: Planen, erstellen und verwalten Sie einen Failovercluster
+- skill: Implementieren Sie Failoverclustering für virtuelle Hyper-V-Computer
+- skill: Konfigurieren Sie einen Cluster für Network Load Balancing (NLB) und planen Sie eine NLB-Implementierung
+- skill: Erstellen und verwalten Sie Implementierungsimages
+- skill: Verwalten, überwachen und warten Sie Installationen virtueller Computer
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-740
+summary: |-
+  Dieser fünftägige Kurs ist in erster Linie für IT-Experten gedacht, die bereits erste Erfahrungen mit Windows Server gesammelt haben. Er wurde für Fachleute entwickelt, die für die Verwaltung von Speicher- und Compute-Ressourcen mithilfe von Windows Server 2016 verantwortlich sind und die Szenarien, Anforderungen sowie Speicher- und Compute-Optionen kennen müssen, die in Windows Server 2016 verfügbar und anwendbar sind.
+
+  #### Audience profile
+  Dieser Kurs hilft ihnen bei der Auffrischung des Wissens und der Fähigkeiten in Bezug auf Speicher und Compute für Windows Server 2016. Der Kurs richtet sich an folgende Personengruppen&#58;
+  - Administratoren für Windows Server, die im Bereich der Administration von Windows Server und den dazugehörigen Technologien relativ neu sind und mehr über die Speicher- und Compute-Funktionen von Windows Server 2016 erfahren möchten.
+  - IT-Experten mit allgemeinen IT-Kenntnissen, die sich Informationen über Windows Server verschaffen möchten – besonders hinsichtlich der Speicher- und Computetechnologien in Windows Server 2016.
+  - Die zweite Zielgruppe für diesen Kurs besteht aus IT-Experten, die die Microsoft 70-740-Zertifizierungsprüfung „Installation, Speicher und Compute mit Windows Server 2016“ ablegen möchten.
+prerequisitesSection: |-
+  Vor Kursbeginn müssen die Kursteilnehmer über Folgendes verfügen&#58;
+  - Grundkenntnisse der Netzwerkgrundlagen.
+  - Kenntnisse und Verständnis bewährter Sicherheitsmethoden.
+  - Verständnis grundlegender AD DS-Konzepte.
+  - Grundkenntnisse der Serverhardware.
+  - Erfahrung mit der Unterstützung und Konfiguration von Windows-Client-Betriebssystemen wie Windows 8 oder Windows 10.
+
+  Die Kursteilnehmer würden zudem von Vorkenntnissen mit dem Betriebssystem Windows Server profitieren, wie zum Beispiel als Windows Server-Systemadministrator.
+outlineSection: |-
+  ### Modul 1&#58; Installieren, Aktualisieren und Migrieren von Servern und Arbeitsauslastungen
+  In dieser Unterrichtseinheit werden die neuen Leistungsmerkmale von Windows Server 2016 sowie die Vorbereitungen zur Installation von Nano-Server und Server Core beschrieben. Außerdem wird in der Unterrichtseinheit erläutert, wie Sie eine Upgrade- und Migrationsstrategie für Server planen und eine Migration von Serverrollen und Arbeitsauslastungen in und über Domänen hinweg vornehmen können. In diesem Modul wird schließlich die Auswahl eines Aktivierungsmodells basierend auf den Eigenschaften Ihrer Umgebung erläutert.
+  #### Lektionen
+  - Einführung in Windows Server 2016
+  - Vorbereiten und Installieren von Nano-Server und Server Core
+  - Vorbereiten auf Upgrades und Migrationen
+  - Migration von Serverrollen und Arbeitsauslastungen
+  - Aktivierungsmodelle für Windows Server
+
+
+  #### Lab &#58; Installieren und Konfigurieren von Nano-Server
+  - Installieren von Nano-Server
+  - Abschließen der Nachinstallationsaufgaben auf Nano Server
+  - Durchführen der Remoteverwaltung
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Die neuen Features von Windows Server 2016 beschreiben.
+  - Die Installation von Nano-Server und Server Core vorbereiten und durchführen.
+  - Ein Serverupgrade und eine Migrationsstrategie planen.
+  - Serverrollen und Arbeitsauslastungen innerhalb einer Domäne sowie domänenübergreifend migrieren.
+  - Ein geeignetes Aktivierungsmodell auswählen.
+
+  ### Modul 2&#58; Konfigurieren des lokalen Speichers
+  In dieser Unterrichtseinheit wird erläutert, wie sich in Windows Server 2016 Datenträger und Volumes verwalten lassen.
+  #### Lektionen
+  - Verwalten von Datenträgern in Windows Server
+  - Verwalten von Volumes in Windows Server
+
+
+  #### Lab &#58; Konfigurieren des lokalen Speichers
+  - Erstellen und Verwalten von Volumes
+  - Ändern der Größe von Volumes
+  - Verwalten von virtuellen Festplatten
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Datenträger in Windows Server verwalten.
+  - Volumes in Windows Server verwalten.
+
+  ### Modul 3&#58; Implementieren von Unternehmensspeicherlösungen
+  In dieser Unterrichtseinheit werden DAS (Direct Attached Storage), NAS (Network Attached Storage) und SANs (Storage Area Networks) beschreiben. Es wird auch der Zweck von Microsoft Internet Storage Name Service (iSNS) Server, Data Center Bridging (DCB) und Multipath I/O (MPIO) erklärt. Zudem werden in dieser Unterrichtseinheit Fibre Channel, Internet Small Computer System Interface (iSCSI) und Fibre Channel Over Ethernet (FCoE) miteinander verglichen und die Konfiguration von Freigaben unter Windows Server 2016 beschrieben.
+  #### Lektionen
+  - Übersicht zu DAS, NAS und SANs
+  - Vergleich von Fibre Channel, iSCSI und Fibre Channel over Ethernet
+  - Hintergrundwissen zu iSNS, DCB und MPIO
+  - Konfigurieren von Freigaben in Windows Server 2016
+
+
+  #### Lab &#58; Planen und Konfigurieren von Speichertechnologien und Speicherkomponenten
+  - Planen der Speicheranforderungen
+  - Konfigurieren von iSCSI-Speicher
+  - Konfigurieren und Verwalten der Freigabeinfrastruktur
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben von DAS, NAS und SANs
+  - Vergleichen von Fibre Channel, iSCSI und FCoE
+  - Erläutern der Verwendung von iSNS, DCB und MPIO
+  - Konfigurieren von Freigaben in Windows Server
+
+  ### Modul 4&#58; Implementieren von Speicherplätzen und Datendeduplizierung
+  In diesem Modul wird zudem die Implementierung von Datendeduplizierung erklärt.
+  #### Lektionen
+  - Implementieren von Speicherplätzen
+  - Verwalten von Speicherplätzen
+  - Implementieren von Datendeduplizierung
+
+
+  #### Lab &#58; Implementieren von Speicherplätzen
+  - Erstellen eines Speicherplatzes
+
+
+  #### Lab &#58; Implementieren von Datendeduplizierung
+  - Installieren von Datendeduplizierung
+  - Konfigurieren der Datendeduplizierung
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Das Speicherplätze-Feature im Kontext des Unternehmensspeicherbedarfs erklären.
+  - Speicherplätze verwalten und warten.
+  - Datendeduplizierung erklären und implementieren.
+
+  ### Modul 5&#58; Installieren und Konfigurieren von Hyper-V und virtuellen Computern
+  Diese Unterrichtseinheit liefert eine Übersicht über Hyper-V und Virtualisierung. Die Installation von Hyper-V sowie die Konfiguration von Speicher und Netzwerken auf Hyper-V-Hostservern werden erklärt. Außerdem wird die Konfiguration und Verwaltung von virtuellen Hyper-V-Computern erklärt.
+  #### Lektionen
+  - Übersicht über Hyper-V
+  - Installieren von Hyper-V
+  - Konfigurieren des Speichers auf Hyper-V-Hostservern
+  - Konfigurieren des Netzwerks auf Hyper-V-Hostservern
+  - Konfigurieren von virtuellen Hyper-V-Computern
+  - Verwalten von virtuellen Computern
+
+
+  #### Lab &#58; Installieren und Konfigurieren von Hyper-V
+  - Überprüfen der Installation der Hyper-V-Serverrolle
+  - Konfigurieren von Hyper-V-Netzwerken
+  - Erstellen und Verwalten von virtuellen Computern
+  - Aktivieren einer verschachtelten Virtualisierung für einen virtuellen Computer
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Hyper-V und Virtualisierung beschreiben.
+  - Hyper-V installieren.
+  - Speicher auf den Hyper-V-Hostservern konfigurieren.
+  - Das Netzwerk auf den Hyper-V-Hostservern konfigurieren.
+  - Virtuelle Hyper-V-Computer konfigurieren.
+  - Virtuelle Hyper-V-Computer verwalten.
+
+  ### Modul 6&#58; Bereitstellen und Verwalten von Windows- und Hyper-V-Containern
+  Diese Unterrichtseinheit liefert eine Übersicht über Container in Windows Server 2016. Außerdem wird erklärt, wie sich Windows Server- und Hyper-V-Container bereitstellen lassen. Zudem wird die Installation, Konfiguration und Verwaltung von Containern mithilfe von Docker beschrieben.
+  #### Lektionen
+  - Übersicht über Container in Windows Server 2016
+  - Bereitstellen von Windows Server-Containern und Hyper‑V-Containern
+  - Installieren, Konfigurieren und Verwalten von Containern mithilfe von Docker
+
+
+  #### Lab &#58; Installieren und Konfigurieren von Containern
+  - Installieren und Konfigurieren von Windows Server-Containern mit Windows PowerShell
+  - Installieren und Konfigurieren von Windows Server-Containern mit Docker
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben von Containern in Windows Server2016.
+  - Erklären Sie, wie Container bereitgestellt werden.
+  - Beschreiben der Installation, Konfiguration und Verwaltung von Containern mithilfe von Docker.
+
+  ### Modul 7&#58; Übersicht über hohe Verfügbarkeit und Notfallwiederherstellung
+  Diese Unterrichtseinheit liefert eine Übersicht über Hochverfügbarkeit und Hochverfügbarkeit mit Failoverclustering in Windows Server 2016. Des Weiteren wird die Planung von Hochverfügbarkeits- und Notfallwiederherstellungslösungen mit virtuellen Hyper-V-Computern beschrieben. Außerdem wird in diesem Modul die Sicherung und Wiederherstellung von Windows Server 2016 und Daten mithilfe der Windows Server-Sicherung beschrieben.
+  #### Lektionen
+  - Festlegen von Verfügbarkeitsebenen
+  - Hochverfügbarkeits- und Notfallwiederherstellungslösungen mit virtuellen Hyper-V-Computern planen
+  - Sicherung und Wiederherstellung mit Windows Server-Sicherung
+  - Hohe Verfügbarkeit mit Failoverclustering in Windows Server 2016.
+
+
+  #### Lab &#58; Planen und Implementieren einer Hochverfügbarkeits- und Notfallwiederherstellungslösung
+  - Bestimmen einer angemessenen Hochverfügbarkeits- und Notfallwiederherstellungslösung
+  - Implementieren einer Speichermigration
+  - Konfigurieren von Hyper-V-Replikaten
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Verfügbarkeitsebenen festlegen.
+  - Hochverfügbarkeits- und Notfallwiederherstellungslösungen mit virtuellen Hyper-V-Computern planen.
+  - Daten per Windows Server-Sicherung sichern und wiederherstellen.
+  - Hohe Verfügbarkeit mit Failoverclustering in Windows Server 2016 beschreiben.
+
+  ### Modul 8&#58; Implementieren von Failoverclustering
+  In dieser Unterrichtseinheit wird erläutert, wie sich Failoverclustering planen lässt. Außerdem wird beschrieben, wie sich ein Failovercluster erstellen und verwalten lässt und Fehler behoben werden.
+  #### Lektionen
+  - Planen eines Failoverclusters
+  - Erstellen und Konfigurieren eines neuen Failoverclusters
+  - Warten eines Failoverclusters
+  - Problembehandlung für einen Failovercluster
+  - Implementieren von hoher Verfügbarkeit mit Stretched-Clustering für einen Standort
+
+
+  #### Lab &#58; Implementieren von Failoverclustering
+  - Erstellen eines Failoverclusters
+  - Überprüfen der Quorumeinstellungen und Hinzufügen eines Knotens
+
+
+  #### Lab &#58; Verwalten eines Failoverclusters
+  - Entfernen eines Knotens und Überprüfen der Quorumeinstellungen
+  - Ändern des Quorums vom Datenträgerzeugen auf den Dateifreigabenzeugen und Definieren der Knotenvotie
+  - Überprüfen von hoher Verfügbarkeit
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Eine Failoverclustering-Implementierung planen.
+  - Einen Failovercluster erstellen und konfigurieren.
+  - Einen Failovercluster warten.
+  - Probleme bei einem Failovercluster beheben.
+  - Hochverfügbarkeit und Stretched-Clustering für einen Standort implementieren.
+
+  ### Modul 9&#58; Implementieren von Failoverclustering mit Windows Server 2016 Hyper-V
+  In dieser Unterrichtseinheit wird die Integration von Hyper-V mit Failoverclustering beschrieben. Außerdem wird erläutert, wie sich virtuelle Hyper-V-Computer (VMs) in Failoverclustern implementieren lassen.
+  #### Lektionen
+  - Übersicht über die Integration von Hyper-V Server 2016 mit Failoverclustering
+  - Implementieren von virtuellen Hyper-V-Computern auf Failoverclustern
+  - Schlüsselfeatures für virtuelle Computer in einer Clusterumgebung
+
+
+  #### Lab &#58; Implementieren von Failoverclustering mit Windows Server 2016 Hyper-V
+  - Konfigurieren von iSCSI-Speicher
+  - Konfigurieren eines Failoverclusters für Hyper-V
+  - Eine hoch verfügbare VM konfigurieren
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Die Integration von Hyper-V mit Failoverclustering beschreiben.
+  - Virtuelle Hyper-V-Computer in Failoverclustern implementieren.
+  - Die Schlüsselfeatures für virtuelle Computer in einer Clusterumgebung beschreiben.
+
+  ### Modul 10&#58; Implementieren von Netzwerklastenausgleich
+  Diese Unterrichtseinheit liefert eine Übersicht über NLB-Custer. Es wird auch erklärt, wie eine NLB-Clusterimplementierung zu planen und zu konfigurieren ist.
+  #### Lektionen
+  - Übersicht über NLB
+  - Konfigurieren eines NLB-Clusters
+  - Planen einer NLB-Implementierung
+
+
+  #### Lab &#58; Implementieren von NLB
+  - Implementieren eines Netzwerklastenausgleichsclusters
+  - Konfigurieren und Verwalten des NLB-Clusters
+  - Überprüfen der Hochverfügbarkeit des NLB-Clusters
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - NLB beschreiben.
+  - Einen NLB-Cluster konfigurieren.
+  - Die Planung einer NLB-Implementierung erläutern.
+
+  ### Modul 11&#58; Erstellen und Verwalten von Bereitstellungsimages
+  Diese Unterrichtseinheit liefert eine Übersicht über das Bereitstellungsverfahren für Windows Server 2016-Images. Die Erstellung und Verwaltung von Bereitstellungsimages mithilfe des Microsoft Deployment Toolkits (MDT) wird erläutert. Zudem werden verschiedene Workloads in der virtuellen Computerumgebung beschrieben.
+  #### Lektionen
+  - Einführung zu Bereitstellungsimages
+  - Erstellen und Verwalten von Bereitstellungsimages mit MDT
+  - Virtuelle Computerumgebungen für verschiedene Arbeitsauslastungen
+
+
+  #### Lab &#58; Bereitstellen von Windows Server 2016 mithilfe von MDT
+  - Konfigurieren von MDT
+  - Erstellen und Bereitstellen eines Images
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben Sie den Windows Server 2016-Imagebereitstellungsprozess.
+  - Mit MDT Bereitstellungsimages erstellen und verwalten.
+  - Die verschiedenen Arbeitsauslastungen in der virtuellen Computerumgebung beschreiben.
+
+  ### Modul 12&#58; Verwalten, Überwachen und Warten von Installationen virtueller Computer
+  Diese Unterrichtseinheit liefert eine Übersicht über Windows Server Update Services (WSUS) und die Anforderungen an eine Implementierung von WSUS. Die Verwaltung des Updateprozesses mit WSUS wird beschrieben. Außerdem bietet dieses Modul eine Übersicht über die Windows PowerShell-Konfiguration für den gewünschten Zustand und Überwachungstools für Windows Server 2016. In diesem Modul wird schließlich der Einsatz der Leistungsüberwachung und die Verwaltung von Ereignisprotokollen beschrieben.
+  #### Lektionen
+  - WSUS-Übersicht und Bereitstellungsoptionen
+  - Updateverwaltungsprozess mit WSUS
+  - Übersicht über Windows PowerShell DSC
+  - Übersicht über Windows Server 2016-Überwachungstools
+  - Verwenden der Leistungsüberwachung
+  - Überwachen von Ereignisprotokollen
+
+
+  #### Lab &#58; Implementieren von WSUS und Bereitstellen von Updates
+  - Implementieren von WSUS
+  - Konfigurieren der Updateeinstellungen
+  - Genehmigen und Bereitstellen eines Updates mithilfe von WSUS
+
+
+  #### Lab &#58; Überwachung und Problembehandlung von Windows Server 2016
+  - Einrichten einer Leistungsbasislinie
+  - Ermitteln der Ursache eines Leistungsproblems
+  - Anzeigen und Konfigurieren zentralisierter Ereignisprotokolle
+
+  Nach Abschluss dieser Unterrichtseinheit werden Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben Sie den Zweck von WSUS und die Implementierungsanforderungen.
+  - Verwalten Sie den Updateprozess mit WSUS.
+  - Beschreiben Sie den Zweck und die Vorteile von Windows PowerShell DSC.
+  - Beschreiben Sie die Überwachungstools, die in Windows Server 2016 zur Verfügung stehen.
+  - Leistungsüberwachungverwenden.
+  - Ereignisprotokolle verwalten.

@@ -1,0 +1,349 @@
+### YamlMime:Course
+title: Advanced Technologies of SharePoint 2016
+metadata:
+  title: 'Course 20339-2-A: Advanced Technologies of SharePoint 2016'
+  description: 'Course 20339-2-A: Advanced Technologies of SharePoint 2016'
+uid: course.20339-2
+courseNumber: '20339-2-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the core SharePoint 2016 architecture and its new and improved features.
+- skill: Describe the key hybrid features in SharePoint 2016.
+- skill: Plan and design a SharePoint 2016 environment to meet requirements for high availability and disaster recovery.
+- skill: Plan and implement Business Connectivity Services and Secure Store Service.
+- skill: Configure and manage productivity services for a SharePoint 2016 deployment.
+- skill: Manage solutions in a SharePoint 2016 deployment.
+- skill: Plan and configure social computing features.
+- skill: Plan and configure web content management for an Internet-facing environment.
+- skill: Plan and configure Enterprise Content Management in a SharePoint 2016 deployment.
+- skill: Plan and configure business intelligence solutions.
+- skill: Plan and configure work management, productivity, and collaboration platforms and features.
+- skill: Perform an upgrade or migration to SharePoint 2016.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365
+exams:
+- uid: exam.70-339
+summary: |-
+  This five-day
+  course will teach you how to plan, configure, and manage the advanced features
+  in a SharePoint 2016 environment. The special areas of focus for this course
+  include implementing high availability, disaster recovery, service application
+  architecture, and Microsoft Business Connectivity Services. This course also
+  focuses on social computing features, productivity, and collaboration platforms
+  and features. Students also will learn about business intelligence solutions,
+  Enterprise Content Management, web content management infrastructure,
+  solutions, and apps. This course also covers how to develop and implement a
+  governance plan, and how to perform an upgrade or a migration to SharePoint
+  2016.
+
+  This is the second in a
+  sequence of two courses for IT Professionals and is aligned with the SharePoint
+  2016 IT Pro certification.
+
+  #### Audience profile
+  The course is targeted at experienced IT Professionals who are interested in learning how to install, configure, deploy, and manage SharePoint 2016 installations either in a data center or in the cloud. 
+  
+  Students typically should have more than four years of hands-on experience* planning and maintaining SharePoint Server and other core technologies upon which SharePoint depends, including Windows Server 2012 R2 or later, Internet Information Services (IIS), Microsoft SQL Server 2014 R2 or later, Active Directory Domain Services (AD DS), and networking infrastructure services.
+  
+  Students should have completed Course 20339-1A&#58; Planning and Administering Microsoft SharePoint 2016, or have gained equivalent knowledge and experience before taking this course. The minimally qualified candidate typically&#58;
+  
+  - Has a working knowledge of, and preferably hands-on experience, with Microsoft SharePoint Online.
+  - Has broad familiarity with SharePoint Server workloads.
+  - Has experience with business continuity   management, including data backup, restoration, and high availability.
+  - Has experience with authentication and security technologies.
+  - Has experience with Windows PowerShell.
+  
+  The hands-on experience or job experience should be from a solutions-based role where the candidate has worked on multiple solutions in the SharePoint Server space that includes document management, content management, and search.
+  
+prerequisitesSection: |-
+  An ideal candidate for this course must have at least one year experience with deploying and administering multiple SharePoint Server 2013 farms across a large enterprise. The candidate should have completed Course 20339-1A&#58; Planning and Administering Microsoft SharePoint 2016, or should demonstrate equivalent skills.
+  
+  Before attending this course, students must demonstrate the following skills&#58;
+  - At least a one-year experience of mapping business requirements to both logical and physical technical designs.
+  - Working knowledge of network design, including network security.
+  - Software management experience in a Windows Server 2012 R2 enterprise server or Windows Server 2016 environment.
+  - Deploying and managing applications natively, virtually, and in the cloud.
+  - Administering IIS.
+  - Configuring AD DS for use in authentication and authorization, and as a user store.
+  - Managing an application remotely by using Windows PowerShell 2.0 or later.
+  - Connecting applications to SQL Server.
+  - Implementing claims-based security.
+outlineSection: |-
+  ### Module  1&#58; Introduction to SharePoint 2016
+  This module describes the core architectural components of a SharePoint Server environment, and also helps to identify the new depreciated and removed features in SharePoint 2016.
+  #### Lessons
+  - Core components of the SharePoint 2016 architecture
+  - New, deprecated, and removed features in SharePoint 2016
+  - SharePoint 2016 and SharePoint Online editions
+
+
+  #### Lab &#58; Reviewing the core Microsoft SharePoint 2016 concepts
+  - Configuring SharePoint 2016 farms
+  - Creating and configuring site collections and sites
+  - Provisioning service applications by using the SharePoint 2016 Management Shell
+
+  After completing this module, students will be able to&#58;
+  - Describe the architectural features of a Microsoft-SharePoint 2016.
+  - Identify the new, deprecated, and removed features in SharePoint 2016.
+  - Describe the editions for SharePoint 2016 on-premises
+  and Microsoft SharePoint Online.
+
+
+  ### Module  2&#58; Introduction to hybrid scenarios for SharePoint 2016
+  This module describes the key hybrid features in SharePoint 2016, and helps you to prepare for a hybrid SharePoint 2016 deployment.
+  #### Lessons
+  - Exploring the hybrid features in SharePoint 2016
+  - Preparing for a hybrid SharePoint 2016 deployment
+
+
+  #### Lab &#58; Configuring an Office 365 tenant
+  - Creating an Office 365 tenant
+
+
+  #### Lab &#58; Creating hybrid team sites
+  - Preparing the SharePoint environment
+  - Running the SharePoint Hybrid picker
+
+  After completing this module, students will be able to&#58;
+  - Describe the key hybrid features in SharePoint Server 2016.
+  - Prepare for a hybrid SharePoint 2016 deployment.
+
+
+  ### Module  3&#58; Designing business continuity management strategies
+  This module explains how to select an appropriate database server configuration to meet availability requirements. It also describes how to design a physical architecture and infrastructure to meet high-availability requirements. Finally, this module explains how to develop and implement a backup and restore strategy.
+  #### Lessons
+  - Designing database topologies for high availability and disaster recovery
+  - Designing a SharePoint infrastructure for high availability
+  - Planning for disaster recovery
+
+
+  #### Lab &#58; Planning and performing backup and restore
+  - Create a backup and restore plan
+  - Test the backup and restore process
+
+  After completing this module, students will be able to&#58;
+  - Select an appropriate database server configuration to meet availability requirements.
+  - Design a physical architecture and infrastructure to meet high-availability requirements.
+  - Develop and implement a backup and restore strategy.
+
+
+  ### Module  4&#58; Planning and implementing Business Connectivity Services and Secure Store Service
+  This module explains how to configure Business Connectivity Services (BCS), and describes how to configure and manage the Secure Store Service application. It also explains how you can configure and manage BCS models.
+  #### Lessons
+  - Planning and configuring BCS
+  - Configuring the Secure Store Service
+  - Managing BCS models
+
+
+  #### Lab &#58; Configuring BCS and the Secure Store Service
+  - Configuring the BDC Service Application
+  - Configuring the Secure Store Service
+
+
+  #### Lab &#58; Managing BDC models
+  - Configuring a Secure Store Service target application
+  - Importing and configuring BDC models
+
+  After completing this module, students will be able to&#58;
+  - Plan and Configure Business Connectivity service application.
+  - Plan and configure the Secure Store Service application.
+  - Manage the Business Data Connectivity models.
+
+
+  ### Module  5&#58; Configuring productivity services for a SharePoint 2016 deployment
+  This module describes SharePoint Add-in architecture. This module also explains how to provision and manage SharePoint apps and App Catalogs. Additionally, this module describes how to provision Microsoft Access Services, Visio Services, Word Automation Services, PowerPoint Automation Services, and SharePoint Translation Services.
+  #### Lessons
+  - Understanding the SharePoint Add-in architecture
+  - Provisioning and managing apps and App Catalogs
+  - Provisioning productivity services
+
+
+  #### Lab &#58; Configuring and managing SharePoint Add-ins
+  - Configuring a SharePoint farm to support apps
+  - Creating and configuring a corporate App Catalog
+  - Deploying and monitoring apps
+
+  After completing this module, students will be able to&#58;
+  - Describe Microsoft SharePoint Add-ins and the supporting SharePoint infrastructure.
+  - Provision and configure SharePoint Add-ins and App Catalogs.
+  - Manage how apps are used within a SharePoint 2016 deployment.
+
+
+  ### Module  6&#58; Managing solutions in  Microsoft SharePoint 2016
+  This module describes the purpose and structure of SharePoint 2016 features and solutions. In addition, it explains how to manage sandbox solutions in Microsoft SharePoint 2016.
+  #### Lessons
+  - Understanding the SharePoint 2016 solution architecture
+  - Managing sandboxed solutions
+
+
+  #### Lab &#58; Managing solutions
+  - Configuring a SharePoint farm to support sandboxed solutions
+  - Configuring a SharePoint site to support sandboxed solutions
+  - Deploying farm solutions
+
+  After completing this module, students will be able to&#58;
+  - Manage features and solutions in Microsoft SharePoint
+  2016.
+  - Manage sandboxed solutions in a SharePoint 2016
+  deployment.
+
+
+  ### Module  7&#58; Connecting people
+  This module explains how to manage user profiles and how to plan and configure My Site and social features. This module also describes how to configure community sites.
+  #### Lessons
+  - Managing user profiles
+  - Enabling social interaction
+  - Building communities
+
+
+  #### Lab &#58; Configuring profile synchronization and My Sites
+  - Configuring profile synchronization
+  - Configuring My Sites
+
+
+  #### Lab &#58; Configuring community sites
+  - Creating a community site infrastructure
+  - Configuring Community Site participation
+
+  After completing this module, students will be able to&#58;
+  - Manage user profiles in Microsoft SharePoint 2016 and
+  configure user profile synchronization by using Microsoft Identity Manager
+  (MIM) 2016.
+  - Enable social interaction in SharePoint 2016.
+  - Build communities and community sites in SharePoint 2016.
+
+
+  ### Module  8&#58; Planning and configuring web content management
+  This module explains how to plan and configure a web content management infrastructure to meet business requirements. This module also describes how to configure managed navigation and product catalog sites, and how to configure support for multilingual sites. Additionally, it explains and how to plan and manage design and customization for publishing sites, and how to plan and configure support for mobile users.
+  #### Lessons
+  - Planning and implementing a web content management infrastructure
+  - Configuring managed navigation and catalog sites
+  - Supporting multiple languages and locales
+  - Enabling design and customization
+  - Supporting mobile users
+
+
+  #### Lab &#58; Configuring managed navigation and catalog sites
+  - Configuring a product catalog site
+  - Configuring Cross-Site Publishing
+  - Configuring publishing sites
+
+
+  #### Lab &#58; Configuring device channels
+  - Configuring device channels
+
+  After completing this module, students will be able to&#58;
+  - Plan and configure a web content management infrastructure.
+  - Configure managed navigation and product catalog sites.
+  - Plan and Configure support for multilingual
+  sites and locales.
+  - Manage design and customization for
+  publishing sites.
+  - Plan and configure support for mobile users.
+
+
+  ### Module  9&#58; Planning and configuring Enterprise Content Management
+  This module explains how to plan for management of content and documents, and how to plan for and configure eDiscovery. Additionally, it describes how to plan for records management and compliance.
+  #### Lessons
+  - Planning Enterprise Content Management
+  - Planning and configuring eDiscovery
+  - Planning records management
+
+
+  #### Lab &#58; Configuring eDiscovery in SharePoint 2016
+  - Creating and configuring an eDiscovery Center
+  - Discovering and preserving content
+  - Querying and exporting content
+
+
+  #### Lab &#58; Configuring records management in SharePoint Server 2016
+  - Configuring in-place records management
+
+  After completing this module, students will be able to&#58;
+  - Plan how to manage content and documents.
+  - Plan and configure eDiscovery.
+  - Plan records management and compliance.
+
+
+  ### Module  10&#58; Planning and configuring business intelligence solutions
+  This module explains how to plan business intelligence (BI) architecture for  SharePoint 2016, and how to deploy and manage BI services. Additionally, this module explains how to plan and configure advanced analysis tools.
+  #### Lessons
+  - Planning BI architecture
+  - Planning, deploying, and managing BI services
+  - Planning and configuring advanced analysis tools
+
+
+  #### Lab &#58; Installing Office Online Server
+  - Deploy Office Online Server
+
+
+  #### Lab &#58; Configuring PowerPivot and Power View for SharePoint 2016
+  - Configuring PowerPivot for SharePoint 2016
+  - Configuring Power View for SharePoint
+
+  After completing this module, students will be able to&#58;
+  - Explain the Microsoft SharePoint business intelligence
+  (BI) architecture, its components, and plan for business intelligence.
+  - Plan, deploy, and manage the core Microsoft SharePoint
+  2016 BI services.
+  - Configure the advanced BI options available in
+  SharePoint 2016 and Microsoft SQL Server 2014.
+
+
+  ### Module  11&#58; Planning and configuring productivity and collaboration
+  This module explains how to plan and configure productivity and collaboration features. This module also explains how to plan and configure composite solutions in SharePoint 2016.
+  #### Lessons
+  - Planning and configuring collaboration features
+  - Planning and configuring composites
+
+
+  #### Lab &#58; Configuring and working with project sites
+  - Creating an Office Online Server farm and configuring integration in SharePoint 2016
+  - Creating project sites
+  - Configuring project sites
+  - Engaging project teams
+  - Configuring Project Server integration
+
+
+  #### Lab &#58; Configuring a workflow
+  - Configuring Microsoft Azure Workflow and Microsoft SharePoint Workflow Services
+  - Creating and testing a workflow
+
+  After completing this module, students will be able to&#58;
+  - Describe how to plan and configure SharePoint
+  collaborative and coauthoring options.
+  - Configure project sites and engage teams.
+  - Plan and configure composites.
+  - Configure workflows in SharePoint 2016.
+
+
+  ### Module  12&#58; Upgrading and migrating to SharePoint 2016
+  This module explains how to prepare for  upgrade or migration to SharePoint 2016. In addition, it explains how to manage site collections are how to upgrade them to SharePoint 2016. Finally, the module describes how to upgrade advanced content from SharePoint Server 2013 to SharePoint 2016.
+  #### Lessons
+  - Preparing for an upgrade or migration
+  - Upgrade to SharePoint 2016
+  - Planning and managing a site-collection upgrade
+
+
+  #### Lab &#58; Performing a content database migration and upgrade from Microsoft SharePoint Server 2013
+  - Migrating SharePoint Server 2013 Managed Metadata Service
+  - Upgrading a SharePoint Server 2013 content database
+
+
+  #### Lab &#58; Managing site-collection upgrades
+  - Preparing site collections for upgrade
+  - Upgrading site collections
+
+  After completing this module, students will be able to&#58;
+  - Plan and prepare for an upgrade.
+  - Perform upgrades to data and service applications.
+  - Upgrade site collections.
+  - Upgrade advanced content from SharePoint Server 2013 to SharePoint 2016.

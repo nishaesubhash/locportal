@@ -1,0 +1,281 @@
+### YamlMime:Course
+title: Developing Microsoft SQL Server 2014 Databases
+metadata:
+  title: 'Course 20464-D: Developing Microsoft SQL Server 2014 Databases'
+  description: 'Course 20464-D: Developing Microsoft SQL Server 2014 Databases'
+uid: course.20464
+courseNumber: '20464-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Introduce the entire SQL Server platform and its major tools. It will cover editions, versions, basics of network listeners, and concepts of services and service accounts.
+- skill: Determine appropriate data types to be used when designing tables, convert data between data types, and create alias data types.
+- skill: 'Be aware of good design practices regarding SQL Server tables and be able to create tables using T-SQL. (Note: partitioned tables are not covered).'
+- skill: Implement PRIMARY KEY, FOREIGN KEY, DEFAULT, CHECK and UNIQUE constraints, and investigate cascading FOREIGN KEY constraints.
+- skill: Determine appropriate single column and composite indexes strategies.
+- skill: Create tables as heaps and tables with clustered indexes.Also consider the design of a table and suggest an appropriate structure.
+- skill: Read and interpret details of common elements from execution plans.
+- skill: Design effective non-clustered indexes.
+- skill: Design and implement views
+- skill: Design and implement stored procedures.
+- skill: Work with table types, table valued parameters and use theMERGE statement to create stored procedures that update data warehouses.
+- skill: Design and implement functions, both scalar and table-valued. (Also describe where they can lead to performance issues).
+- skill: Perform basic investigation of a deadlock situation and learn how transaction isolation levels affect application concurrency.
+- skill: Use both traditional T-SQL error handling code and structured exception handling.
+- skill: Design and implement DML triggers
+- skill: Learn appropriate uses for SQL CLR integration and implement an existing .NET assembly within SQL Server.
+- skill: Store XML data and schemas in SQL Server.
+- skill: Perform basic queries on XML data in SQL Server.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- database-administrator
+products:
+- sql-server
+exams:
+- uid: exam.70-464
+summary: |-
+  This 5-day instructor-led course introduces SQL Server 2014 and describes logical table design, indexing and query plans. It also focusses on the creation of database objects including views, stored procedures, along with parameters, and functions. Other common aspects of procedure coding, such as indexes, concurrency, error handling, and triggers are also covered in this course. Also this course helps you prepare for the Exam 70-464.
+ 
+  Note&#58; This course is designed for customers who are interested in learning SQL Server 2012 or SQL Server 2014. It covers the new features in SQL Server 2014, but also the important capabilities across the SQL Server data platform.
+
+  #### Audience profile
+  The primary audience for this course is IT Professionals who want to become skilled on SQL Server 2014 product features and technologies for implementing a database. 
+  
+  The secondary audiences for this course are individuals who are developers from other product platforms or previous versions of SQL Server looking to become skilled in the implementation of a SQL Server 2014 database.
+prerequisitesSection: |-
+  This course requires that you meet the following prerequisites&#58;
+  - Knowledge of writing T-SQL queries.
+  - Knowledge of basic relational database concepts.
+outlineSection: |-
+  ### Module 1&#58; Introduction to Database Development
+  This module introduces database development and the key tasks that a database developer would typically perform.
+  #### Lessons
+  - Introduction to the SQL Server Platform
+  - SQL Server Database Development Tasks
+
+
+  #### Lab &#58; Introduction to Database Development
+  After completing this module, you will be able to&#58;
+  - Describe the architecture and editions of SQL Server 2012. 
+  - Work with SQL Server tools.
+  - Configure SQL Server Services.
+
+
+  ### Module 2&#58; Designing and Implementing Tables
+  This module explains how to design, create, and alter tables. Also it focusses on working with schemas.
+  #### Lessons
+  - Designing Tables
+  - Data Types
+  - Working with Schemas
+  - Creating and Altering Tables
+  - Partitioning Data
+  - Compressing Data
+
+
+  #### Lab &#58; Designing and Implementing Tables
+  After completing this module, you will be able to&#58;
+  - Design Tables.
+  - Work with Schemas.
+  - Create and Alter Tables.
+
+
+  ### Module 3&#58; Ensuring Data Integrity through Constraints
+  This module explains how to enforce data integrity, and implement domain integrity to maintain high quality data. Also it focusses on implementing Entity and Referential Integrity.
+  #### Lessons
+  - Enforcing Data Integrity
+  - Implementing Domain Integrity
+  - Implementing Entity and Referential Integrity
+
+
+  #### Lab &#58; Ensuring Data Integrity through Constraints
+  After completing this module, you will be able to&#58;
+  - Explain the available options for enforcing data integrity and the levels at which they should be applied.
+  - Implement domain integrity.
+  - Implement entity and referential integrity.
+
+
+  ### Module 4&#58; Introduction to Indexing
+  This module describes the concept of an index and discusses selectivity, density and statistics. It covers appropriate data type choices and choices around composite index structures.
+  #### Lessons
+  - Core Indexing Concepts
+  - Data Types and Indexes
+  - Single Column and Composite Indexes
+
+
+  #### Lab &#58; Implementing Indexes
+  After completing this module, you will be able to&#58;
+  - Describe core indexing concepts. 
+  - Choose appropriate data types for indexes.
+  - Design and implement clustered and non clustered indexes.
+
+
+  ### Module 5&#58; Designing Optimized Index Strategies
+  This module explains covering indexes and the INCLUDE clause as well as the use of padding, hints and statistics. The module also covers the use of the Database Engine Tuning Advisor and index-related dynamic management views to assess indexing strategies.
+  #### Lessons
+  - Covering Indexes
+  - Managing Indexes
+  - Working with Execution Plans
+  - Using the DTE
+
+
+  #### Lab &#58; Designing Optimized Index Strategies
+  After completing this module, you will be able to&#58;
+  - Describe the elements of an execution plan. 
+  - Design effective indexing strategies.
+  - Monitor your system to assess the performance of your indexing strategy.
+
+
+  ### Module 6&#58; Columnstore Indexes
+  This module explains columnstore indexes and how to use them to maximize the performance and scalability of database applications.
+  #### Lessons
+  - Introduction to Columnstore indexes
+  - Creating Columnstore Indexes
+  - Working with Columnstore Indexes
+
+
+  #### Lab &#58; Using Columnstore Indexes
+  After completing this module, you will be able to&#58;
+  - Create columnstore indexes.
+  - Describe the considerations for updating tables with non-clustered columnstore indexes.
+
+
+  ### Module 7&#58; Designing and Implementing Views
+  This module introduces Views, and explains how to create and manage Views. Also it focuses on the performance consideration for Views.
+  #### Lessons
+  - Introduction to Views
+  - Creating and Managing Views
+  - Performance Considerations for Views
+
+
+  #### Lab &#58; Designing and Implementing Views
+  After completing this module, you will be able to&#58;
+  - Explain the role of views in database development. 
+  - Implement views.
+  - Describe the performance related impacts of views.
+
+
+  ### Module 8&#58; Designing and Implementing Stored Procedures
+  This module describes the potential advantages of the use of stored procedures along with guidelines on creating them.
+  #### Lessons
+  - Introduction to Stored Procedures
+  - Working With Stored Procedures
+  - Implementing Parameterized Stored Procedures
+  - Controlling Execution Context
+
+
+  #### Lab &#58; Designing and Implementing Stored Procedures
+  After completing this module, you will be able to&#58;
+  - Describe the role of stored procedures and the potential benefits of using them. 
+  - Work with stored procedures. 
+  - Implement parameterized stored procedures.
+  - Control the execution context of a stored procedure.
+
+
+  ### Module 9&#58; Designing and Implementing User-Defined Functions
+  This module explains how to design and implement user-defined functions that enforce business rules or data consistency, and modify and maintain existing functions written by other developers.
+  #### Lessons
+  - Overview of Functions
+  - Designing and Implementing Scalar Functions
+  - Designing and Implementing Table-Valued Functions
+  - Implementation Considerations for Functions
+  - Alternatives to Functions
+
+
+  #### Lab &#58; Designing and Implementing User-Defined Functions
+  After completing this module, you will be able to&#58;
+  - Design and implement scalar functions. 
+  - Design and implement table-valued functions. 
+  - Describe implementation considerations for functions.
+  - Describe alternatives to functions.
+
+
+  ### Module 10&#58; Responding to Data Manipulation via Triggers
+  This module, explains what DML triggers are and how they enforce data integrity. Also it focusses on the different types of triggers available, and how to define triggers in a database.
+  #### Lessons
+  - Designing DML Triggers
+  - Implementing DML Triggers
+  - Advanced Trigger Concepts
+
+
+  #### Lab &#58; Responding to Data Manipulation via Triggers
+  After completing this module, you will be able to&#58;
+  - Design DML triggers. 
+  - Implement DML triggers.
+  - Explain advanced DML trigger concepts.
+
+
+  ### Module 11&#58; Using In-Memory Tables
+  This module covers the creation of in-memory tables and native stored procedures and discusses the advantages and disadvantages of using in-memory tables.
+  #### Lessons
+  - In-Memory Tables
+  - Native Stored Procedures
+
+
+  #### Lab &#58; In-Memory OLTP
+  After completing this module, you will be able to&#58;
+  - Design and implement memory-optimized tables.
+  - Create native stored procedures.
+
+
+  ### Module 12&#58; Implementing Managed Code in SQL Server 2014
+  This module explains how to use CLR integrated code to create user-defined database objects that are managed by the .NET Framework.
+  #### Lessons
+  - Introduction to SQL CLR Integration
+  - Importing and Configuring Assemblies
+  - Implementing SQL CLR Integration
+
+
+  #### Lab &#58; Implementing Managed Code in SQL Server 2014
+  After completing this module, you will be able to&#58;
+  - Explain the importance of SQL Server CLR Integration. 
+  - Import and configure assemblies.
+  - Implement objects that have been created within .NET assemblies.
+
+
+  ### Module 13&#58; Storing and Querying XML Data in SQL Server
+  This module introduces XML and shows how XML data can be stored within SQL Server and then queried, including queries written in a language called XQuery.
+  #### Lessons
+  - Introduction to XML and XML Schemas
+  - Storing XML Data and Schemas in SQL Server
+  - Implementing the XML Data Type
+  - Using the T-SQL FOR XML Statement
+  - Getting Started with XQuery
+
+
+  #### Lab &#58; Storing and Querying XML Data in SQL Server 2014
+  After completing this module, you will be able to&#58;
+  - Describe XML and XML schemas.
+  - Store XML data and associated XML schemas in SQL Server.
+  - Implement the XML data type within SQL Server. 
+  - Use the T-SQL FOR XML Statement. 
+  - Work with basic XQuery queries.
+  - Shred XML to a relational form.
+
+
+  ### Module 14&#58; Working with SQL Server 2014 Spatial Data
+  This module introduces Spatial Data, and explains how to work with SQL Server Spatial Data Types.
+  #### Lessons
+  - Introduction to Spatial Data
+  - Working with SQL Server Spatial Data Types
+  - Using Spatial Data in Applications
+
+
+  #### Lab &#58; Working with SQL Server Spatial Data
+  After completing this module, you will be able to&#58;
+  - Describe the importance of spatial data and the industry standards related to it. 
+  - Explain how to store spatial data in SQL Server.
+  - Perform calculations on and query SQL Server spatial data.
+
+
+  ### Module 15&#58; Incorporating Data Files into Databases
+  #### Lessons
+  - Querying Data with Stored Procedures
+  - Implementing FILESTREAM and File Tables
+  - Searching Data Files
+
+
+  #### Lab &#58; Implementing a Solution for Storing Data Files

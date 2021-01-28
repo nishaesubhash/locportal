@@ -1,0 +1,396 @@
+### YamlMime:Course
+title: Planning and Administering SharePoint 2016
+metadata:
+  title: 'Course 20339-1A: Planning and Administering SharePoint 2016'
+  description: 'Course 20339-1A: Planning and Administering SharePoint 2016'
+uid: course.20339-1
+courseNumber: '20339-1A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the key features of SharePoint 2016.
+- skill: Design an information architecture for a SharePoint 2016 deployment.
+- skill: Design a logical architecture for a SharePoint 2016 deployment.
+- skill: Design the physical architecture for a SharePoint 2016 deployment.
+- skill: Install and configure SharePoint 2016.
+- skill: Create and configure web applications and site collections.
+- skill: Plan and configure service applications for a SharePoint 2016 deployment.
+- skill: Manage users and permissions, and secure content in a SharePoint 2016 deployment.
+- skill: Configure authentication in a SharePoint 2016 deployment.
+- skill: Configure platform and farm-level security in a SharePoint 2016 deployment.
+- skill: Manage information taxonomy in SharePoint web applications and site collections.
+- skill: Configure and manage user profiles and audiences.
+- skill: Configure and manage the search experience in SharePoint 2016.
+- skill: Monitor, maintain, and troubleshoot a SharePoint 2016 deployment.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365
+exams:
+- uid: exam.70-339
+summary: |-
+  This five-day course will provide you with the knowledge and
+  skills to plan and administer a Microsoft SharePoint 2016 environment. The
+  course teaches you how to deploy, administer, and troubleshoot your SharePoint
+  environment. This course also provides guidelines, best practices, and
+  considerations that help you optimize your SharePoint deployment.
+
+  This is the first in a
+  sequence of two courses for IT professionals and is aligned with the SharePoint
+  2016 IT Pro certification.
+
+  #### Audience profile
+  The course is
+  targeted at experienced IT professionals who are interested in learning how to
+  install, configure, deploy, and manage SharePoint 2016 installations either in
+  a data center or in the cloud. Students typically have more than one year of hands-on experience* with planning and maintaining
+  SharePoint and two years’ experience with other core technologies on which
+  SharePoint depends, including Windows Server 2012 R2 or later, Internet
+  Information Services (IIS), Microsoft SQL Server 2014 or later, Active
+  Directory Domain Services (AD DS), and networking infrastructure services.  
+  The minimally qualified candidate typically&#58;
+  Is an IT professional who plans, implements,
+  and maintains a multi-server deployment of SharePoint 2016; Has a working knowledge of, and preferably
+  hands-on experience, with SharePoint Online; Has broad familiarity with SharePoint
+  workloads; Has experience with business continuity
+  management, including data backup, restoration, and high availability; Has experience with authentication and
+  security technologies; Has experience with Windows PowerShell.
+  * The hands-on experience or job experience should
+  be from a solutions-based role where the candidate has worked on multiple solutions
+  in the SharePoint space that includes document management, content management,
+  and search.
+prerequisitesSection: |-
+  Before attending this course,
+  students must have knowledge of&#58;
+  - Software management in a Windows Server 2012 or Windows Server 2012 R2 enterprise server environment.
+  - Deploying and managing applications natively, virtually, and in the cloud.
+  - Administering IIS.
+  - Configuring AD DS for use in authentication, authorization, and as a user store.
+  - Managing an application remotely by using Windows PowerShell 4.0.
+  - Managing databases and server roles in SQL Server.
+  - Connecting applications to SQL Server.
+  - Implementing claims-based security.
+  - Using Microsoft Hyper-V virtual machines.
+
+  An ideal candidate for this course must have at least one year of experience
+  with deploying and administering multiple SharePoint 2013 farms across a large
+  enterprise. Because many customers have not upgraded from SharePoint 2010, a candidate
+  can also have at least two years of experience with SharePoint 2010. However,
+  they also must understand the differences between SharePoint 2010 and
+  SharePoint 2013, particularly in terms of hybridization.
+outlineSection: |-
+  ### Module  1&#58; Introducing SharePoint 2016
+  This module describes the structure and capabilities of a SharePoint environment, and the major changes for IT professionals in SharePoint 2016. This module also describes the options available for deploying SharePoint 2016.
+  #### Lessons
+  - Key components of a SharePoint deployment
+  - New features in SharePoint 2016
+  - SharePoint 2016 deployment options
+
+  After completing this module, students will be able to&#58;
+  - Identify the architecture and capabilities of SharePoint 2016.
+  - Identify new and deprecated features in SharePoint 2016.
+  - Identify deployment options for SharePoint 2016.
+
+
+  ### Module  2&#58; Designing an information architecture
+  This module describes how to gather business requirements, and the key elements of a successful information architecture project. This module also explains how to structure information within a SharePoint 2016 deployment and make it easy to find and retrieve.
+  #### Lessons
+  - Identifying business requirements
+  - Understanding business requirements
+  - Organizing information in SharePoint 2016
+  - Planning for discoverability
+
+
+  #### Lab &#58; Designing an information architecture - Part one
+  - Identifying site columns and content types
+
+
+  #### Lab &#58; Creating an information architecture - Part two
+  - Designing a business taxonomy
+
+  After completing this module, students will be able to&#58;
+  - Explain how understanding business requirements drives
+  the design of an organizational information architecture.
+  - Describe the key components available in SharePoint
+  2016 to deploy an information architecture.
+  - Plan for discoverability as part of an information
+  architecture deployment.
+
+
+  ### Module  3&#58; Designing a logical architecture
+  This module explains how to approach a logical architecture design and how to document it.
+  #### Lessons
+  - Overview of the SharePoint 2016 logical architecture
+  - Documenting your logical architecture
+
+
+  #### Lab &#58; Designing a logical architecture
+  - Planning a logical architecture
+  - Producing a logical architecture diagram
+
+  After completing this module, students will be able to&#58;
+  - Map business requirements to SharePoint 2016 architecture components.
+  - Explain the importance of documentation and describe the options for
+  documenting the logical architecture.
+
+
+  ### Module  4&#58; Designing a physical architecture
+  This module describes the physical design requirements for SharePoint 2016, and the physical components necessary to fulfill the physical architecture design. It also explains the SharePoint farm topologies, and describes how to map a logical architecture design to a physical architecture design.
+  #### Lessons
+  - Designing physical components for SharePoint deployments
+  - Designing supporting components for SharePoint deployments
+  - SharePoint farm topologies
+  - Mapping a logical architecture design to a physical architecture design
+
+
+  #### Lab &#58; Designing a physical architecture
+  - Designing a physical architecture
+  - Developing a physical architecture design diagram
+
+  After
+  completing this module, students will be able to&#58;
+  - Describe the requirements for the physical
+  components that are needed for a SharePoint 2016 deployment.
+  - Describe the requirements for the supporting
+  components that are needed for a successful SharePoint 2016 deployment.
+  - Identify SharePoint farm topologies.
+  - Map a logical architecture design to a physical architecture design.
+
+
+  ### Module  5&#58; Installing and configuring SharePoint 2016
+  This module explains how to install SharePoint 2016 in different topologies, script the installation, and configure a SharePoint 2016 environment. This module also explains how to configure the core farm-level settings in a SharePoint 2016 deployment.
+  #### Lessons
+  - Installing SharePoint 2016
+  - Scripting installation and configuration of SharePoint
+  - Configuring SharePoint 2016 farm settings
+
+
+  #### Lab &#58; Deploying and configuring SharePoint 2016 – Part one
+  - Provisioning a SharePoint 2016 farm
+
+
+  #### Lab &#58; Deploying and configuring SharePoint 2016 – Part two
+  - Configuring incoming email
+  - Configuring outgoing email
+  - Configuring integration with Office Online Server
+
+  After
+  completing this module, students will be able to&#58;
+  - Install SharePoint 2016.
+  - Deploy and configure SharePoint 2016.
+  - Script the installation and configuration of
+  SharePoint 2016.
+  - Configure SharePoint 2016 farm settings.
+
+
+  ### Module  6&#58; Creating web applications and site collections
+  This module explains how to create web applications in SharePoint 2016 and how to configure these applications. It also explains how to create and configure site collections in SharePoint 2016 and SharePoint Online.
+  #### Lessons
+  - 	Creating web applications
+  - 	Configuring web applications
+  - 	Creating and configuring site collections
+
+
+  #### Lab &#58; Creating and configuring web applications
+  - Creating a web application
+  - Configuring a web application
+
+
+  #### Lab &#58; Creating and configuring site collections
+  - Creating and configuring site collections
+  - Creating a site collection in a new content database
+  - Using Fast Site Collection Creation
+
+  After
+  completing this module, students will be able to&#58;
+  - Create web applications.
+  - Configure web applications.
+  - Create and configure site collections.
+
+
+  ### Module  7&#58; Planning and configuring service applications
+  This module describes the service application architecture in SharePoint 2016, and how to provision and manage service applications.
+  #### Lessons
+  - Introduction to the service application architecture
+  - Creating and configuring service applications
+
+
+  #### Lab &#58; Planning and configuring service applications
+  - Provisioning a Managed Metadata Service application with Central Administration
+  - Provisioning a Managed Metadata Service application with Windows PowerShell
+  - Configuring the Word Automation Services service application for document conversion
+  - Configuring service application proxy groups
+
+  After completing this module, students will be able to&#58;
+  - Explain the key components and topologies for a SharePoint 2016 service application architecture.
+  - Plan for service accounts and service application dependencies.
+  - Understand the purpose of mapping service applications to business requirements.
+  - Describe how to provision and manage SharePoint 2016 service applications
+
+
+  ### Module  8&#58; Managing users and permissions, and securing content
+  This module explains how to configure authorization in SharePoint 2016. It also explains how to configure site collection security in SharePoint 2016.
+  #### Lessons
+  - Configuring authorization in SharePoint 2016
+  - Managing access to content
+
+
+  #### Lab &#58; Managing users and groups
+  - Creating a web-application policy
+  - Creating and managing SharePoint groups
+  - Creating custom permission levels
+
+
+  #### Lab &#58; Securing content in SharePoint sites
+  - Managing permissions and inheritance
+  - Managing site-collection security
+  - Enabling anonymous access to a site
+
+  After completing this module, students will be able to&#58;
+  - Manage users and permissions in SharePoint 2016.
+  - Manage access to content in SharePoint 2016.
+
+
+  ### Module  9&#58; Configuring authentication for SharePoint 2016
+  This module explains about the SharePoint 2016 authentication infrastructure, and how to configure claims, providers, and identity federation for SharePoint 2016. It also explains how to configure server-to-server authentication for SharePoint 2016.
+  #### Lessons
+  - Overview of authentication
+  - Configuring federated authentication
+  - Configuring server-to-server authentication
+
+
+  #### Lab &#58; Extend your SharePoint 2016 to support Secure Sockets Layer (SSL)
+  - Configuring Microsoft SharePoint 2016 to use federated identities
+  - Configuring Active Directory Federation Services (AD FS) to enable a web application a relying party
+  - Configuring SharePoint to trust AD FS as an identity provider
+  - Configuring a web application to use the AD FS identity provider
+
+  After completing this module, students will be able to&#58;
+  - Explain the authentication infrastructure of SharePoint 2016.
+  - Configure claims providers and identity federation for SharePoint 2016.
+  - Configure server-to-server authentication for SharePoint 2016.
+
+
+  ### Module  10&#58; Securing a SharePoint 2016 deployment
+  This module explains how to secure a SharePoint 2016 deployment at the platform level, and how to configure farm-level security settings for a SharePoint 2016 deployment.
+  #### Lessons
+  - Securing the platform
+  - Configuring farm-level security
+
+
+  #### Lab &#58; Securing a SharePoint 2016 deployment
+  - Configuring SharePoint Server communication security
+  - Hardening a SharePoint server farm
+  - Configuring blocked file types
+  - Configuring Web Part security
+  - Implementing security auditing
+
+  After completing this module, students will be able to&#58;
+  - Secure a SharePoint 2016 deployment at the platform level.
+  - Configure farm-level security settings for a SharePoint 2016 deployment.
+
+
+  ### Module  11&#58; Managing taxonomy
+  This module explains how to create and manage content types and content-type propagation. Additionally, it explains how to implement managed metadata in SharePoint web applications and site collections. It also explains how to configure the managed metadata service application in SharePoint 2016.
+  #### Lessons
+  - Managing content types
+  - Understanding managed metadata
+  - Configuring the managed metadata service
+
+
+  #### Lab &#58; Configuring content-type propagation
+  - Creating content types for propagation
+  - Publishing content types across site collections
+
+
+  #### Lab &#58; Configuring and using the managed metadata service
+  - Configuring the managed metadata service
+  - Creating term sets and terms
+  - Consuming term sets
+
+  After completing this module, students will be able to&#58;
+  - Create and manage content types and content-type propagation.
+  - Explain how to implement managed metadata in SharePoint web applications and site collections.
+  - Configure the managed metadata service application in SharePoint 2016.
+
+
+  ### Module  12&#58; Configuring user profiles
+  This module explains how to configure the User Profile service application, and how to manage user profiles and audiences.
+  #### Lessons
+  - Configuring the User Profile Service Application
+  - Managing user profiles and audiences
+
+
+  #### Lab &#58; Configuring user profiles
+  - Configuring the User Profile Service Application
+  - Configuring directory import and synchronization
+
+
+  #### Lab &#58; Configuring My Sites and audiences
+  - Configuring My Sites
+  - Configuring audiences
+
+  After completing this module, students will be able to&#58;
+  - Configure the User Profile service application.
+  - Manage user profiles and audiences.
+
+
+  ### Module  13&#58; Configuring Enterprise Search
+  This module describes the Search Service Application and explains how to configure the Search service in SharePoint 2016. It also explains how to manage the search experience in SharePoint 2016.
+  #### Lessons
+  - Understanding the Search Service Application architecture
+  - Configuring Enterprise Search
+  - Managing Enterprise Search
+
+
+  #### Lab &#58; Configuring Enterprise Search
+  - Configuring the Search Service Application
+  - Configuring a file share content source
+  - Configuring a local SharePoint content source
+  - Creating a search center
+
+
+  #### Lab &#58; Optimizing the search experience
+  - Configuring a result source and a query rule
+  - Customizing the search experience
+  - Creating and deploying a thesaurus
+  - Configuring entity extractors and refiners
+  - Managing query spelling correction
+
+  After completing this module, students will be able to&#58;
+  - Describe the Search service architecture in SharePoint 2016.
+  - Configure the Search service in SharePoint 2016.
+  - Manage the search experience in SharePoint 2016.
+
+
+  ### Module  14&#58; Monitoring and maintaining a SharePoint 2016 environment
+  This module explains how to implement a monitoring plan for SharePoint 2016, and how to optimize the performance of a SharePoint 2016 deployment. It also explains how to plan for and configure SharePoint caching. Further, it explains how to identify and resolve problems in a SharePoint 2016 environment.
+  #### Lessons
+  - Monitoring a SharePoint 2016 environment
+  - Tuning and optimizing a SharePoint 2016 environment
+  - Planning and configuring caching
+  - Troubleshooting a SharePoint 2016 environment
+
+
+  #### Lab &#58; Monitoring a SharePoint 2016 deployment
+  - Configuring usage and health data collection
+  - Configuring Sharepoint diagnostic logging
+  - Configuring Health Analyzer rules
+  - Reviewing usage and health data
+
+
+  #### Lab &#58; Investigating page load times
+  - Analyzing network traffic
+  - Analyzing SharePoint page performance
+
+  After completing this module, students will be able to&#58;
+  - Develop and implement a monitoring plan for a SharePoint 2016 environment.
+  - Tune and optimize a SharePoint 2016 server farm on an ongoing basis.
+  - Plan and configure caching to improve the performance of a SharePoint 2016 deployment.
+  
+  Troubleshoot errors and other issues in a SharePoint 2016 deployment

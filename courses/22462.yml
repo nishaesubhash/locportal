@@ -1,0 +1,377 @@
+### YamlMime:Course
+title: Administration de bases de données Microsoft® SQL Server® 2012
+metadata:
+  title: 'Course 22462-A: Administration de bases de données Microsoft® SQL Server® 2012'
+  description: 'Course 22462-A: Administration de bases de données Microsoft® SQL Server® 2012'
+uid: course.22462
+courseNumber: '22462-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: planifier et installer SQL Server
+- skill: décrire les bases de données système, la structure physique des bases de données et les options de configuration les plus courantes associées
+- skill: expliquer le concept du journal des transactions et des modes de récupération SQL Server et implémenter différentes stratégies de sauvegarde avec SQL Server
+- skill: créer des sauvegardes SQL Server
+- skill: restaurer des bases de données SQL Server
+- skill: utiliser des assistants d'importation/exportation et expliquer leur relation avec SSIS
+- skill: utiliser des modèles de sécurité, des connexions et des utilisateurs SQL Server
+- skill: utiliser des rôles de serveur fixes, des rôles définis par l'utilisateur, ainsi que des rôles de base de données fixes et des rôles de base de données définis par l'utilisateur
+- skill: utiliser des autorisations et l'attribution des autorisations
+- skill: utiliser SQL Server Audit
+- skill: utiliser des travaux et l'historique des travaux SQL Server Agent
+- skill: implémenter la sécurité, les comptes proxy et les informations d'identification de SQL Server Agent
+- skill: configurer la messagerie de base de données, les alertes et les notifications
+- skill: créer des plans de maintenance de base de données
+- skill: utiliser le Générateur de profils SQL et les procédures stockées de Trace SQL
+- skill: présenter les vues de gestion dynamique et la configuration de la collecte de données
+- skill: utiliser des serveurs de gestion centralisée et des requêtes multiserveurs, la virtualisation de SQL Server et des applications de la couche Données
+- skill: résoudre les problèmes de données SQL Server
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- fr
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- office-forefront
+exams:
+- uid: exam.70-462
+summary: |-
+  Ce cours dirigé par un instructeur et réparti sur cinq journées permet aux stagiaires d'acquérir les connaissances et les compétences nécessaires à la maintenance d'une base de données Microsoft SQL Server 2012. L'objectif de ce cours consiste à apprendre aux stagiaires à utiliser les fonctionnalités et outils SQL Server 2012 permettant d'assurer la maintenance d'une base de données. Ce cours a également pour but de vous aider à préparer l' [examen 70-462](http://www.microsoft.com/learning/exam-70-462.aspx)
+  
+  Tous les ateliers pratiques de ce cours peuvent être réalisés sur les ordinateurs virtuels fournis. Toutefois, si vous disposez d'un compte Microsoft Windows Azure, et si les ordinateurs virtuels de la classe sont connectés à Internet, vous pourrez vous connecter à votre serveur et à votre base de données Azure. La plupart des ateliers de ce cours peuvent être réalisés en étant connecté à votre propre base de données Azure dans le cloud. Le formateur doit pouvoir vous fournir la liste des ateliers actuellement compatibles avec Azure. Pour obtenir un compte d'essai Windows Azure, cliquez [ici](http://www.windowsazure.com/en-us/pricing/free-trial/)..
+  
+  Voici certaines des nouvelles fonctionnalités de SQL Server ayant fait l'objet d'une discussion dans ce cours
+  - Discussion autour de la maintenance de SQL Server (Service Packs, mises à jour cumulatives, correctifs logiciels)
+  - La compréhension de la relation entre les différents niveaux de mises à jour du produit SQL Server est très importante pour ceux qui les utilisent. Le cours fournit désormais les informations sur les correctifs logiciels, les mises à jour cumulatives et les service packs qui sont associés, et indique à quel moment chaque type de mise à jour doit être appliqué.
+  - Mise à jour automatisée de SQL Server
+  - La maintenance de SQL Server peut maintenant s'effectuer via Windows Update. Le cours montre comment activer les mises à jour automatisées et quand ces mises à jour doivent ou ne doivent pas être utilisées.
+  - Relation contenant-contenu de base de données partielle
+  - La grande difficulté lors de la migration des bases de données entre les serveurs est la gestion d'objets tels que les connexions qui ne sont pas contenues dans la base de données. Le cours présente désormais les options de relation contenant-contenu partielle qui sont fournies par SQL Server 2012. Les changements liés à l'authentification y sont traités de manière spécifique.
+  - Utilisateurs avec mots de passe (utilisateurs contenus)
+  - Le cours montre comment SQL Server 2012 permet aux utilisateurs d'être authentifiés au niveau de la base de données, plutôt qu'au niveau du serveur. Il s'agit d'une première étape importante dans la relation contenant-contenu de base de données
+  - Rôles serveur définis par l'utilisateur
+  - Dans les versions antérieures de SQL Server, les rôles définis par l'utilisateur pouvaient être créés au niveau de la base de données mais pas au niveau du serveur. Dans SQL Server 2012, les rôles définis par l'utilisateur peuvent également être définis au niveau du serveur. Cela peut être utile pour accroître la sécurité des systèmes. Avoir la capacité de configurer des autorisations plus affinées permet d'assigner les autorisations qu'en fonction des connexions nécessaires pour l'exécution d'une tâche.
+  - Mises à niveau sur place des applications de la couche Données
+  - Dans les versions antérieures de SQL Server, une mise à niveau d'une application de la couche Données impliquait la migration de toutes les données d'une base de données vers une nouvelle base de données. Dans SQL Server 2012, cela n'est plus nécessaire et le cours montre comment les applications de la couche Données peuvent être mises à niveau beaucoup plus rapidement avec moins de ressources système.
+  - Annexe avec introduction aux concepts AlwaysOn, Haute disponibilité et Réplication
+  - Les stagiaires souhaitant passer l'examen de certification lié à ce cours, doivent avoir des connaissances en matière de haute disponibilité et de réplication. Dans les versions antérieures de ce cours, ces sujets n'étaient pas traités. Dans cette version du cours, une annexe qui couvre les concepts de base de la haute disponibilité (notamment les technologies AlwaysOn de SQL Server 2012) et de la réplication, est fournie.
+
+  #### Audience profile
+  Ce cours est destiné en priorité aux personnes chargées de l'administration et de la maintenance des bases de données SQL Server. Le champ de responsabilités de ces personnes s'étend principalement à l'administration et la maintenance de bases de données, ou ces personnes travaillent dans des environnements où les bases de données jouent un rôle clé dans leur fonction principale.
+  
+  Ce cours s'adresse également aux personnes qui développent des applications qui fournissent du contenu provenant de bases de données SQL Server.
+prerequisitesSection: |-
+  Outre une expérience professionnelle, les stagiaires qui assistent à cette formation doivent posséder les connaissances techniques préalables suivantes&#58;
+  - Connaissances de base du système d'exploitation Microsoft Windows et de ses fonctionnalités principales.
+  - Avoir une expérience professionnelle de Transact-SQL.
+  - Connaissances pratiques en matière de bases de données relationnelles
+  - Expérience en matière de conception de bases de donnéesLes stagiaires qui suivent cette formation peuvent obtenir 
+  
+  Les connaissances préalables requises en assistant aux cours suivants ou en obtenant les connaissances ou les compétences équivalentes &#58;
+  - 22461A &#58; Écriture de requêtes T-SQL pour Microsoft SQL Server 2012
+outlineSection: |-
+  ### Module 1&#58; Présentation de SQL Server 2012 et de son ensemble d'outils
+  Ce module présente la plateforme SQL Server complète, ainsi que ses principaux outils. Il couvre les éditions, versions ou notions de base des écouteurs de réseau, ainsi que les concepts des services et comptes de service.
+  #### Leçons
+  - Présentation de la plateforme SQL Server
+  - Utilisation des outils SQL Server
+  - Configuration de Services SQL Server
+
+
+  #### Atelier &#58; Présentation de SQL Server et de son ensemble d'outils
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire la plateforme SQL Server
+  - utiliser les outils SQL Server
+  - configurer les services SQL Server
+
+
+  ### Module 2&#58; Préparation des systèmes pour SQL Server 2012
+  Ce module traite de la planification d'une installation liée à la configuration requise pour l'E/S SQL Server, des spécificités des versions 32 bits et 64 bits, des options de configuration de mémoire et des vérifications de pré-installation du sous-système E/S à l'aide de SQLIOSim et SQLIO.
+  #### Leçons
+  - Vue d'ensemble de l'architecture SQL Server
+  - Planification des besoins en ressources serveur
+  - Tests de pré-installation pour SQL Server
+
+
+  #### Atelier &#58; Préparation des systèmes pour SQL Server
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire l'architecture SQL Server
+  - planifier les besoins en ressources serveur
+  - effectuer le test de contrainte de pré-installation de SQL Server
+
+
+  ### Module 3&#58; Installation et configuration de SQL Server 2012
+  Ce module détaille l'installation et la configuration de SQL Server.
+  #### Leçons
+  - Préparation pour l'installation de SQL Server
+  - Installation de SQL Server
+  - Mise à niveau et automatisation de l'installation
+
+
+  #### Atelier &#58; Installation et configuration de SQL Server
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - préparer l'installation de SQL Server
+  - installer SQL Server
+  - mettre à niveau et automatiser l'installation de SQL Server
+
+
+  ### Module 4&#58; Utilisation des bases de données
+  Ce module décrit comment les données sont stockées dans les bases de données, comment créer des bases de données et comment déplacer des bases de données au sein d'un serveur ou entre des serveurs.
+  #### Leçons
+  - Vue d'ensemble des bases de données SQL Server
+  - Utilisation des fichiers et des groupes de fichiers
+  - Déplacement des fichiers de base de données
+
+
+  #### Atelier &#58; Utilisation des bases de données
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire le rôle et la structure des bases de données SQL Server
+  - utiliser des fichiers et des groupes de fichiers
+  - déplacer des bases de données au sein d'un serveur et entre des serveurs
+
+
+  ### Module 5&#58; Description des modes de récupération SQL Server 2012
+  Ce module décrit le concept du journal de transactions et des modes de récupération SQL Server. Il présente les différentes stratégies de sauvegarde disponibles dans SQL Server.
+  #### Leçons
+  - Stratégies de sauvegarde
+  - Description de la journalisation des transactions SQL Server
+  - Planification d'une stratégie de sauvegarde SQL Server
+
+
+  #### Atelier &#58; Description des modes de récupération SQL Server
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les concepts importants qui entourent les stratégies de sauvegarde
+  - expliquer les fonctions de journalisation des transactions dans le moteur de base de données SQL Server
+  - planifier une stratégie de sauvegarde SQL Server
+
+
+  ### Module 6&#58; Sauvegarde des bases de données SQL Server 2012
+  Ce module décrit la sauvegarde et les types de sauvegarde SQL Server.
+  #### Leçons
+  - Sauvegarde des bases de données et des journaux de transactions
+  - Gestion des sauvegardes de base de données
+  - Utilisation des options de sauvegarde
+
+
+  #### Atelier &#58; Sauvegarde des bases de données SQL Server
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - sauvegarder les bases de données et les journaux de transactions
+  - gérer les sauvegardes de base de données
+  - utiliser les options d'enregistrement avancées
+
+
+  ### Module 7&#58; Restauration des bases de données SQL Server 2012
+  Ce module décrit la restauration des bases de données.
+  #### Leçons
+  - Présentation du processus de restauration
+  - Restauration des bases de données
+  - Utilisation de la récupération limitée dans le temps
+  - Restauration des bases de données système et des fichiers individuels
+
+
+  #### Atelier &#58; Restauration des bases de données SQL Server 2012
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - comprendre le processus de restauration
+  - restaurer des bases de données
+  - utiliser la récupération limitée dans le temps
+  - restaurer des bases de données système et des fichiers individuels
+
+
+  ### Module 8&#58; Importation et exportation de données
+  Ce module traite de l'utilisation des assistants d'importation et d'exportation et explique leur relation avec SSIS. Il présente également le programme de copie en bloc (BCP, Bulk Copy Program).
+  #### Leçons
+  - Transfert des données vers/à partir de SQL Server
+  - Importation et exportation des données de table
+  - Insertion de données en bloc
+
+
+  #### Atelier &#58; Importation et exportation de données
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - transférer des données vers et à partir de SQL Server
+  - importer et exporter des données de table
+  - insérer des données en bloc et optimiser le processus d'insertion en bloc
+
+
+  ### Module 9&#58; Authentification et autorisation des utilisateurs
+  Ce module traite des modèles de sécurité, des connexions et des utilisateurs SQL Server.
+  #### Leçons
+  - Authentification des connexions à SQL Server
+  - Autorisation des connexions pour accéder aux bases de données
+  - Autorisation sur plusieurs serveurs
+
+
+  #### Atelier &#58; Authentification et autorisation des utilisateurs
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire comment SQL Server authentifie les connexions
+  - décrire comment les connexions sont autorisées à accéder aux bases de données
+  - expliquer les conditions requises par les autorisations sur plusieurs serveurs
+
+
+  ### Module 10&#58; Attribution de rôles de serveur et de base de données
+  Ce module traite des rôles de serveur fixes, des rôles définis par l'utilisateur, ainsi que des rôles de base de données fixes et des rôles de base de données définis par l'utilisateur.
+  #### Leçons
+  - Utilisation de rôles de serveur
+  - Utilisation de rôles de base de données fixes
+  - Création de rôles de base de données définis par l'utilisateur
+
+
+  #### Atelier &#58; Attribution de rôles de serveur et de base de données
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - utiliser des rôles de serveur
+  - utiliser des rôles de base de données fixes
+  - créer des rôles de base de données définis par l'utilisateur
+
+
+  ### Module 11&#58; Autorisation de l'accès des utilisateurs aux ressources
+  Ce module traite des autorisations et de l'attribution des autorisations.
+  #### Leçons
+  - Autorisation de l'accès des utilisateurs aux objets
+  - Autorisation des utilisateurs à exécuter le code
+  - Configuration des autorisations au niveau du schéma
+
+
+  #### Atelier &#58; Autorisation de l'accès des utilisateurs aux ressources
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - autoriser l'accès des utilisateurs aux objets
+  - autoriser les utilisateurs à exécuter le code
+  - configurer les autorisations au niveau du schéma
+
+
+  ### Module 12&#58; Audit des environnements SQL Server
+  Ce module présente SQL Server Audit.
+  #### Leçons
+  - Options d'audit de l'accès aux données dans SQL
+  - Implémentation de SQL Server Audit
+  - Gestion de SQL Server Audit
+
+
+  #### Atelier &#58; Audit des environnements SQL Server
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - décrire les options d'audit de l'accès aux données dans SQL Server
+  - implémenter SQL Server Audit
+  - gérer SQL Server Audit
+
+
+  ### Module 13&#58; Automatisation de la gestion de SQL Server 2012
+  Ce module traite des travaux et de l'historique des travaux de SQL Server Agent.
+  #### Leçons
+  - Automatisation de la gestion de SQL Server
+  - Utilisation de SQL Server Agent
+  - Gestion des travaux de SQL Server Agent
+
+
+  #### Atelier &#58; Automatisation de la gestion de SQL Server
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - automatiser la gestion de SQL Server
+  - utiliser SQL Server Agent
+  - gérer les travaux de SQL Server Agent
+
+
+  ### Module 14&#58; Configuration de la sécurité pour SQL Server Agent
+  Ce module traite de la sécurité, des comptes proxy et des informations d'identification de SQL Server Agent.
+  #### Leçons
+  - Comprendre la sécurité de SQL Server Agent
+  - Configuration des informations d'identification
+  - Configuration des comptes proxy
+
+
+  #### Atelier &#58; Configuration de la sécurité pour SQL Server Agent
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - expliquer la sécurité de SQL Server Agent
+  - configurer les informations d'identification
+  - configurer des comptes proxy
+
+
+  ### Module 15&#58; Surveillance de SQL Server 2012 avec alertes et notifications
+  Ce module traite de la configuration de la messagerie de base de données, des alertes et des notifications.
+  #### Leçons
+  - Configuration de la messagerie de base de données
+  - Surveillance des erreurs SQL Server
+  - Configuration des opérateurs, des alertes et des notifications
+
+
+  #### Atelier &#58; Surveillance des travaux de l'agent SQL avec alertes et notifications
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - configurer la messagerie de base de données
+  - surveiller les erreurs de SQL Server
+  - configurer les opérateurs, les alertes et les notifications
+
+
+  ### Module 16&#58; Exécution de la maintenance régulière des bases de données
+  Ce module traite des plans de maintenance de base de données.
+  #### Leçons
+  - Vérification de l'intégrité de la base de données
+  - Gestion des index
+  - Automatisation de la maintenance régulière des bases de données
+
+
+  #### Atelier &#58; Exécution de la maintenance régulière des bases de données
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - vérifier l'intégrité de la base de données
+  - entretenir les index
+  - automatiser la maintenance régulière des bases de données
+
+
+  ### Module 17&#58; Traçage de l'accès à SQL Server 2012
+  Ce module traite des procédures stockées du Générateur de profils SQL et de Trace SQL
+  #### Leçons
+  - Capture de l'activité à l'aide de SQL Server Profiler
+  - Amélioration des performances avec l'Assistant Paramétrage du moteur de base de données
+  - Utilisation des options de traçage
+
+
+  #### Atelier &#58; Traçage de l'accès à SQL Server 2012
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - capturer l'activité avec SQL Server Profiler et le générateur de profils des événements étendus
+  - améliorer les performances avec l'Assistant Paramétrage du moteur de base de données
+  - utiliser les options de traçage
+
+
+  ### Module 18&#58; Surveillance de SQL Server 2012
+  Ce module présente les vues de gestion dynamique et la configuration de la collecte de données.
+  #### Leçons
+  - Surveillance de l'activité
+  - Capture et gestion des données de performances
+  - Analyse des données de performances collectées
+
+
+  #### Atelier &#58; Surveillance de SQL Server 2012
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - surveiller l'activité en cours
+  - capturer et gérer les données de performances
+  - analyser les données de performances collectées
+
+
+  ### Module 19&#58; Gestion de plusieurs serveurs
+  Ce module traite des serveurs de gestion centralisée et des requêtes multiserveurs, de la virtualisation de SQL Server et des applications de la couche Données.
+  #### Leçons
+  - Utilisation de plusieurs serveurs
+  - Virtualisation de SQL Server
+  - Déploiement et mise à niveau des applications de la couche Données
+
+
+  #### Atelier &#58; Gestion de plusieurs serveurs
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - utiliser plusieurs serveurs
+  - décrire les options de virtualisation de SQL Server
+  - déployer et mettre à niveau des applications de la couche Données
+
+
+  ### Module 20&#58; Résolution des problèmes courants liés à l'administration de SQL Server 2012
+  Ce module traite des problèmes courants nécessitant un dépannage et fournit des instructions sur les points de recherche de solutions.
+  #### Leçons
+  - Méthodologie de résolution des problèmes SQL Server
+  - Résolution des problèmes liés aux services
+  - Résolution des problèmes liés aux accès concurrentiels
+  - Résolution des problèmes de connexion et de connectivité
+
+
+  #### Atelier &#58; Résolution des problèmes courants
+  À la fin de ce module, les stagiaires seront à même d'effectuer les opérations suivantes&#58;
+  - expliquer la méthodologie de résolution des problèmes SQL Server
+  - résoudre les problèmes liés aux services
+  - résoudre les problèmes liés aux accès concurrentiels
+  - résoudre les problèmes de connexion et de connectivité

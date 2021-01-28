@@ -1,0 +1,260 @@
+### YamlMime:Course
+title: Installieren und Konfigurieren von Windows Server® 2012
+metadata:
+  title: 'Course 21410-D: Installieren und Konfigurieren von Windows Server® 2012'
+  description: 'Course 21410-D: Installieren und Konfigurieren von Windows Server® 2012'
+uid: course.21410
+courseNumber: '21410-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Installieren und Konfigurieren von Windows Server 2012
+- skill: Beschreiben von AD DS
+- skill: Verwalten von Active Directory-Objekten
+- skill: Automatisieren von Active Directory-Verwaltung
+- skill: Implementieren von IPv4
+- skill: Implementieren von Dynamic Host Configuration Protocol (DHCP)
+- skill: Implementieren von DNS (Domain Name System)
+- skill: Implementieren von IPv6
+- skill: Implementieren des lokalen Speichers
+- skill: Freigeben von Dateien und Druckern
+- skill: Implementieren von Gruppenrichtlinien
+- skill: Verwenden von Gruppenrichtlinienobjekten (GPOs) zum Sichern von Windows-Servern
+- skill: Implementieren von Servervirtualisierung mit Hyper-V
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-410
+summary: |-
+  Dieser Kurs ist der erste Kurs in einer dreiteiligen Serie von drei Kursen, in denen die erforderlichen Fähigkeiten und Kenntnisse zum Implementieren einer Kerninfrastruktur von Windows Server 2012 in einer vorhandenen Unternehmensumgebung vermittelt werden. Kombiniert wird in diesen drei Kursen das Implementieren, Verwalten, Pflegen und Bereitstellen von Diensten und Infrastruktur in einer Windows Server 2012-Umgebung behandelt. Auch wenn es im Verlauf der Kurse zu Überschneidungen bei Fähigkeiten und Aufgaben kommt, befasst sich dieser Kurs primär mit der erstmaligen Implementierung und Konfiguration dieser Kerndienste, einschließlich AD DS (Active Directory Domain Services)-Netzwerkdienste und Microsoft Hyper-V Server 2012-Konfiguration.
+
+  #### Audience profile
+  Dieser Kurs richtet sich an IT-Spezialisten, die fundierte Kenntnisse und Erfahrung in Bezug auf Windows-Betriebssystemwissen besitzen und neue Fähigkeiten und Kenntnisse erwerben möchten, die zum Implementieren der Kerninfrastrukturdienste in einer vorhandenen Windows Server 2012-Umgebung erforderlich sind.Die sekundäre Zielgruppe besteht aus Personen, die Zertifizierung in der Prüfung 70-410, Installieren und Konfigurieren von Windows Server 2012 anstreben.
+prerequisitesSection: |-
+  Für diesen Kurs sollten die Kursteilnehmer folgende Vorkenntnisse mitbringen&#58;
+  - Gute Kenntnisse von Netzwerkgrundlagen
+  - Kenntnisse über und Erfahrung im Konfigurieren von Sicherheit und Verwaltungsaufgaben in einer Unternehmensumgebung.
+  - Erfahrung in der Unterstützung und im Konfigurieren von Windows-Betriebssystemclients
+  - Gute praktische Erfahrung im Umgang mit Windows-Clientbetriebssystemen mit Windows Vista, Windows 7 oder Windows 8
+ 
+  Idealerweise haben die Kursteilnehmer zudem schon Erfahrung im Umgang mit dem Windows Server-Betriebssystem.
+outlineSection: |-
+  ### Modul 1&#58; Bereitstellen und Verwalten von Windows Server 2012
+  In dieser Unterrichtseinheit wird die neue Verwaltungsschnittstelle für Windows Server 2012 vorgestellt. In dieser Unterrichtseinheit werden die einzelnen Rollen und Features behandelt, die im Betriebssystem Windows Server 2012 zur Verfügung stehen. Außerdem werden die verschiedenen Installations- und Konfigurationsoptionen behandelt, die Sie beim Bereitstellen und Konfigurieren von Windows Server 2012 verwenden können.
+  #### Lektionen
+  - Übersicht über Windows Server 2012
+  - Übersicht über die Windows Server 2012-Verwaltung
+  - Installieren von Windows Server 2012
+  - Konfiguration nach der Installation von Windows Server 2012
+  - Einführung in Windows PowerShell
+
+
+  #### Lab &#58; Bereitstellen und Verwalten von Windows Server 2012
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben von Windows Server 2012
+  - Beschreiben der verfügbaren Verwaltungstools in Windows Server 2012
+  - Installieren von Windows Server 2012
+  - Durchführen der Konfiguration nach der Installation von Windows Server 2012
+  - Durchführen von grundlegenden administrativen Aufgaben mit Windows PowerShell
+
+
+  ### Modul 2&#58; Einführung in die Active Directory-Domänendienste
+  Diese Unterrichtseinheit führt Active Directory-Domänendienste (AD DS) in Windows Server 2012 ein. Darin wird allgemeine AD DS-Infrastruktur einschließlich Gesamtstrukturen, Strukturen, Schemas, Globaler Katalog und Betriebsmaster behandelt. Darüber hinaus wird das Installieren und Konfigurieren von Domänencontrollern behandelt.
+  #### Lektionen
+  - Übersicht über die AD DS
+  - Übersicht über Domänencontroller
+  - Installieren eines Domänencontrollers
+
+
+  #### Lab &#58; Installieren von Domänencontrollern
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Struktur von AD DS
+  - Beschreiben des Verwendungszwecks des Domänencontrollers
+  - Erklären, wie ein Domänencontroller installiert wird
+
+
+  ### Modul 3&#58; Verwalten der Objekte für die Active Directory-Domänendienste
+  In dieser Unterrichtseinheit werden Active Directory-Objekte wie Benutzer, Gruppen und Computer behandelt. Es wird auf die Funktionalität von AD DS-Verwaltungsprogrammen eingegangen sowie auf die Konfiguration von Benutzerprofilen und den Prozess zum Delegieren von Berechtigungen zum Durchführen von AD DS-Verwaltung.
+  #### Lektionen
+  - Verwalten von Benutzerkonten
+  - Verwalten von Gruppenkonten
+  - Verwalten von Computerkonten
+  - Delegieren der Verwaltung
+
+
+  #### Lab &#58; Verwalten der Objekte für die Active Directory-Domänendienste
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Verwalten von Benutzerkonten mit grafischen Tools
+  - Verwalten von Gruppenkonten mit grafischen Tools
+  - Verwalten von Computerkonten
+  - Delegieren von Berechtigungen zur Durchführung von AD DS-Verwaltung
+
+
+  ### Modul 4&#58; Automatisierung der Active Directory-Domänendiensteverwaltung
+  In dieser Unterrichtseinheit werden Befehlszeilentools zum Konfigurieren und Verwalten von AD DS behandelt. In ihr wird das Verwenden von Windows PowerShell-Cmdlets zur AD DS-Verwaltung und das Verwenden von Windows PowerShell zum Durchführen administrativer AD DS-Massenvorgänge behandelt.
+  #### Lektionen
+  - Verwenden von Befehlszeilentools für die Active Directory-Domänendiensteverwaltung
+  - Verwenden von Windows PowerShell für die AD DS-Verwaltung
+  - Ausführen von Massenvorgängen mit Windows PowerShell
+
+
+  #### Lab &#58; Automatisieren der AD DS-Verwaltung mit Windows PowerShell
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Verwenden von Befehlszeilentools für die AD DS-Verwaltung
+  - Verwenden von Windows PowerShell-Cmdlets für die AD DS-Verwaltung
+  - Ausführen von Massenvorgängen mit Windows PowerShell.
+
+
+  ### Modul 5&#58; Implementieren von IPv4
+  In dieser Unterrichtseinheit wird Internetprotokoll Version 4 (IPv4) Adressierung behandelt. In ihr werden die verschiedenen IPv4-Komponenten aufgeführt, Subnetting und Supernetting behandelt und das Konfigurieren sowie allgemeine Fehlerbehandlung von IPv4-Adressen besprochen.
+  #### Lektionen
+  - Übersicht über TCP/IP
+  - Verstehen von IPv4-Adressierung
+  - Subnetting und Supernetting
+  - Konfigurieren von IPv4 und Behandeln von damit zusammenhängenden Problemen
+
+
+  #### Lab &#58; Implementieren von IPv4
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben Sie die TCP/IP-Protokollsuite.
+  - Beschreiben Sie die IPv4-Adressierung.
+  - Bestimmen Sie eine Subnetzmaske, die für Supernetting oder Subnetting notwendig ist.
+  - Konfigurieren Sie IPv4, und beheben Sie Fehler in der IPv4-Kommunikation.
+
+
+  ### Modul 6&#58; Implementieren des Dynamic Host Configuration-Protokolls
+  In dieser Unterrichtseinheit werden die Installation und die Konfiguration von DHCP sowie das Verwalten einer DHCP-Datenbank behandelt. Darüber hinaus werden Sicherheit und Überwachung von DHCP behandelt, einschließlich Überwachung und das Protokollierung.
+  #### Lektionen
+  - Installieren einer DHCP-Serverrolle
+  - Konfigurieren von DHCP-Bereichen
+  - Verwalten einer DHCP-Datenbank
+  - Sichern und Überwachen von DHCP
+
+
+  #### Lab &#58; Implementieren von DHCP
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Installieren der DHCP-Serverrolle.
+  - Konfigurieren von DHCP-Bereichen
+  - Verwalten einer DHCP-Datenbank
+  - Sichern und Überwachen der DHCP-Serverrolle
+
+
+  ### Modul 7&#58; Implementieren von DNS (Domain Name System)
+  In dieser Unterrichtseinheit wird Namensauflösung für Windows-Server und -Clients behandelt. In ihr wird auf die Installation eines DNS- (Domain Name System)-Servers und das Konfigurieren von Active Directory-integrierten DNS-Zonen eingegangen.
+  #### Lektionen
+  - Namensauflösung für Windows-Clients und -Server
+  - Installieren und Verwalten eines DNS-Servers
+  - Verwalten von DNS-Zonen
+
+
+  #### Lab &#58; Implementieren von DNS
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben von Namensauflösung für Windows-Betriebssystemclients und Windows Server-Server
+  - Installieren und Verwalten des DNS-Server-Diensts
+  - Verwalten von DNS-Zonen
+
+
+  ### Modul 8&#58; Implementieren von IPv6
+  In dieser Unterrichtseinheit wird das Verstehen und Implementieren von IPv6-Adressierung behandelt. Darin wird auf Konfiguration und Problembehandlung sowie auf eine gleichzeitige Verwendung von IPv4-verwendende, Übergangstechnologien eingegangen.
+  #### Lektionen
+  - Übersicht über IPv6
+  - IPv6-Adressierung
+  - Gleichzeitige Verwendung mit IPv6
+  - IPv6-Übergangstechnologien
+
+
+  #### Lab &#58; Implementieren von IPv6
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Features und Vorteile von IPv6
+  - Beschreiben der IPv6-Adressierung
+  - Beschreiben der Koexistenz von IPv6 mit IPv4
+  - Beschreiben der IPv6-Übergangstechnologien
+
+
+  ### Modul 9&#58; Implementieren des lokalen Speichers
+  In dieser Unterrichtseinheit werden die Speicherkonfigurationsoptionen für Windows Server 2012 behandelt, einschließlich des Verwaltens von Datenträgern und Volumes und des Implementierens von Dateisystemen. Darüber hinaus wird auf das Erstellen und Verwalten von Speicherpools eingegangen.
+  #### Lektionen
+  - Übersicht über Speicher
+  - Verwalten von Datenträgern und Volumes
+  - Implementieren von Speicherplätzen
+
+
+  #### Lab &#58; Implementieren des lokalen Speichers
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der verschiedenen Speichertechnologien
+  - Erklären, wie Datenträger und Volumes verwaltet werden
+  - Erklären, wie Speicherplätze implementiert werden
+
+
+  ### Modul 10&#58; Implementieren von Datei- und Druckdiensten
+  In dieser Unterrichtseinheit wird das Sichern von Dateien, Ordnern und Netzwerkdateifreigaben behandelt sowie das Verwenden von Schattenkopien zum Schützen von Netzwerkdateifreigaben. Darüber wird auf das Konfigurieren von Netzwerkdruck und das Erstellen eines Druckerpools eingegangen.
+  #### Lektionen
+  - Absichern von Dateien und Ordnern
+  - Schützen von freigegebenen Dateien oder Ordnern durch das Verwenden von Schattenkopien
+  - Konfigurieren von Netzwerkdruck
+
+
+  #### Lab &#58; Implementieren von Datei- und Druckdiensten
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Sichern von freigegebenen Dateien und Ordnern
+  - Schützen von freigegebenen Dateien und Ordnern durch das Verwenden von Schattenkopien
+  - Konfigurieren von Netzwerkdruck
+
+
+  ### Modul 11&#58; Implementieren von Gruppenrichtlinien
+  In dieser Unterrichtseinheit wird das Verwenden von Gruppenrichtlinien zum zentralen Verwalten und Anwenden von Konfigurationseinstellungen behandelt.
+  #### Lektionen
+  - Übersicht über Gruppenrichtlinien
+  - Verarbeitung von Gruppenrichtlinien
+  - Implementieren eines zentralen Speichers für Administrative Vorlagen
+
+
+  #### Lab &#58; Implementieren von Gruppenrichtlinien
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Erstellen und Verwalten von Gruppenrichtlinienobjekten
+  - Beschreiben der Verarbeitung von Gruppenrichtlinien
+  - Implementieren eines zentralen Speichers für Administrative Vorlagen
+
+
+  ### Modul 12&#58; Sichern von Windows-Servern mit Gruppenrichtlinienobjekten
+  Erhöhen der Sicherheit in einer Windows Server 2012-Infrastruktur durch Verwendung von Gruppenrichtlinienobjekten, AppLocker und Windows-Firewall.
+  #### Lektionen
+  - Übersicht über die Sicherheit in Windows-Betriebssystemen
+  - Konfigurieren von Sicherheitseinstellungen
+  - Einschränkende Software
+  - Konfigurieren der Windows-Firewall mit erweiterter Sicherheit
+
+
+  #### Lab &#58; Übungseinheit A&#58; Vergrößern von Sicherheit für Serverressourcen
+
+  #### Lab &#58; Übungseinheit B&#58; Konfigurieren von AppLocker und Windows-Firewall
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Sicherheit des Windows-Betriebssystems
+  - Konfigurieren von Sicherheitseinstellungen mit der Gruppenrichtlinie
+  - Einschränken der Ausführung nicht autorisierter Software auf Servern und Clients
+  - Konfigurieren der Windows-Firewall mit erweiterter Sicherheit
+
+
+  ### Modul 13&#58; Implementieren von Servervirtualisierung mit Hyper-V
+  In dieser Unterrichtseinheit wird die Microsoft Virtualization-Technologie erläutert. In ihr wird das Installieren und Konfigurieren von virtuellen Hyper-V-Computern, das Konfigurieren von virtuellem Speicher und das Konfigurieren virtueller Netzwerke behandelt.
+  #### Lektionen
+  - Übersicht über Virtualisierungstechnologien
+  - Implementieren von Hyper-V
+  - Verwalten von virtuellem Computerspeicher
+  - Verwalten virtueller Netzwerke
+
+
+  #### Lab &#58; Implementieren von Servervirtualisierung mit Hyper-V
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben von Virtualisierungstechnologien
+  - Implementieren von Hyper-V
+  - Verwalten von virtuellem Computerspeicher
+  - Verwalten virtueller Netzwerke

@@ -1,0 +1,276 @@
+### YamlMime:Course
+title: Entwerfen und Implementieren einer Server-Infrastruktur
+metadata:
+  title: 'Course 21413-B: Entwerfen und Implementieren einer Server-Infrastruktur'
+  description: 'Course 21413-B: Entwerfen und Implementieren einer Server-Infrastruktur'
+uid: course.21413
+courseNumber: '21413-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Planen eines Serverupgrades und einer Servermigration
+- skill: Planen und Implementieren einer Infrastruktur für die Serverbereitstellung
+- skill: Entwerfen und Warten einer IP-Konfigurations- und Adressverwaltungslösung
+- skill: Entwerfen und Implementieren der Namensauflösung
+- skill: Entwerfen und Implementieren einer Gesamtstruktur- und Domäneninfrastruktur für AD DS
+- skill: Entwerfen und Implementieren einer Active Directory-Organisationseinheitsinfrastruktur
+- skill: Entwerfen und Implementieren einer Strategie für Gruppenrichtlinienobjekte (Group Policy Object, GPO)
+- skill: Entwerfen und Implementieren einer AD DS-Topologie
+- skill: Planen und Implementieren von Speicher
+- skill: Planen und Implementieren von Dateidiensten
+- skill: Entwerfen und Implementieren von Netzwerkzugriffsdiensten
+- skill: Entwerfen und Implementieren eines Netzwerkschutzes
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-413
+summary: |-
+  Dieser fünftägige von einem Kursleiter durchgeführte Kurs vermittelt die Fähigkeiten und Kenntnisse, der erforderlich sind, um eine physische und logische Windows-Server 2012-Infrastruktur mit Active Directory Domänendienste (AD DS) zu planen, zu entwerfen und bereitzustellen. Der Kurs vermittelt auch die Fähigkeiten zum Durchführen einer Namensauflösung, einer Anwendungsintegration, einer Optimierung der automatisierten Wartung sowie der Ausführung von Wartungs- und Netzwerkdiensten.
+
+  #### Audience profile
+  Kandidaten für diesen Kurs bringen gute Kenntnisse des Windows-Client- und Serverbetriebssystems mit, haben Grundkenntnisse in AD DS, kennen sich mit Netzwerken sowohl großer als auch kleiner Unternehmen (SMB) aus und sind erfahren in der Anwendungskonfiguration. Dieser Kurs richtet sich an IT-Fachleute, die für das Planen, Entwerfen und Bereitstellen einer physischen und logischen Windows Server 2012 Enterprise-AD DS-Infrastruktur einschließlich der erforderlichen Netzwerkdienste zuständig sind. Die Kursteilnehmer haben bereits Erfahrungen mit Windows Server-Betriebssystemen und verfügen über ein Windows Server 2012 Microsoft Certified Solution Associate (MCSA)-Zertifikat oder vergleichbare Fähigkeiten. Dieser Kurs richtet sich auch an IT-Fachleute, die die Prüfung 70-413 absolvieren möchten&#58; Entwerfen und Implementieren einer Serverinfrastruktur, separat oder als Teil der Anforderung für den Microsoft Certified Solution Expert (MCSE)&#58; Serverinfrastrukturzertifizierung
+prerequisitesSection: |-
+  Für diesen Kurs sollten die Kursteilnehmer folgende Vorkenntnisse mitbringen&#58;
+  - Gute Kenntnisse der Transmission Control Protocol/Internet Protocol (TCP/IP)-Grundlagen und -Netzwerkkonzepte
+  - Gute praktische Erfahrung sowohl mit Windows Server 2012 als auch mit AD DS. Beispielsweise Kenntnisse über Domänenbenutzerkonten, Unterschiede zwischen Domänen- und lokalen Benutzerkonten, Benutzerprofile und Gruppenmitgliedschaft
+  - Ein gutes Verständnis sowohl von Skripts und Batchdateien.
+  - Ein sicheres Verständnis von Sicherheitsbegriffen, z. B. Authentifizierung und Autorisierung.
+  - Fähigkeit, in einem Team oder einem virtuellen Team zu arbeiten
+  - Kenntnisse vergleichbar mit Windows 2012 MCSA.
+  Kursteilnehmer, die dieses Kurs besuchen, sollten die folgenden Prüfungen absolviert haben oder über vergleichbare Kenntnisse verfügen&#58;
+  - 21410B&#58; Installieren und Konfigurieren von Windows Server 2012
+  - 21411B&#58; Verwalten von Windows Server 2012
+  - 21412B&#58; Konfigurieren von Advanced Windows Server 2012 ServicesODER
+  - 21417B&#58; Erweitern der Kenntnisse auf MCSA für Windows Server 2012
+outlineSection: |-
+  ### Modul 1&#58; Planen eines Serverupgrades und einer Servermigration
+  Diese Unterrichtseinheit erläutert das Planen einer Strategie für ein Serverupgrade und eine Servermigration.
+  #### Lektionen
+  - Überlegungen zu Upgrade und Migration
+  - Erstellen eines Plans für ein Serverupgrade und eine Servermigration
+  - Planen für die Virtualisierung
+
+
+  #### Lab &#58; Planen eines Serverupgrades und einer Servermigration
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Beschreiben der Überlegungen zum Durchführen eines Serverupgrades und einer Servermigration
+  - Erklären, wie ein Serverupgrade- und ein Migrationsplan erstellt wird
+  - Beschreiben der Servervirtualisierungsplanung
+
+
+  ### Modul 2&#58; Planen und Implementieren einer Infrastruktur für die Serverbereitstellung
+  In dieser Unterrichtseinheit wird das Entwerfen einer automatisierten Serverinstallationsstrategie und das Planen und Implementieren einer Serverbereitstellungsinfrastruktur erläutert.
+  #### Lektionen
+  - Auswählen einer geeigneten Serverimage-Erstellungsstrategie
+  - Auswählen einer Bereitstellungsautomatisierungsstrategie
+  - Implementieren einer automatisierten Bereitstellungsstrategie
+
+
+  #### Lab &#58; Planen und Implementieren einer Infrastruktur für die Serverbereitstellung
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Auswählen einer geeigneten Serverabbild-Erstellungsstrategie.
+  - Auswählen einer Bereitstellungsautomatisierungsstrategie.
+  - Implementieren einer automatisierten Bereitstellungsstrategie.
+
+
+  ### Modul 3&#58; Entwerfen und Warten einer IP-Konfigurations- und -Adressverwaltungslösung
+  In dieser Unterrichtseinheit wird das Entwerfen und Warten der IP-Adressverwaltung (IPAM) und einer Dynamic Host Configurations-Protokoll (DHCP)-Lösung erläutert.
+  #### Lektionen
+  - Entwerfen und Implementieren von DHCP
+  - Planen und Implementieren von DHCP-Bereichen
+  - Planen und Implementieren einer IPAM-Bereitstellungsstrategie
+
+
+  #### Lab &#58; Entwerfen und Warten einer IP-Konfigurations- und IP-Adressverwaltungslösung
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Entwerfen und Implementieren von DHCP
+  - Planen und Implementieren von DHCP-Bereichskonfiguration und -Optionen
+  - Entwerfen und Implementieren einer IPAM-Bereitstellungsstrategie
+
+
+  ### Modul 4&#58; Entwerfen und Implementieren der Namensauflösung
+  Diese Unterrichtseinheit erklärt, wie eine Namensauflösungsstrategie entworfen wird.
+  #### Lektionen
+  - Entwerfen einer DNS (Domain Name System)-Serverimplementierungsstrategie
+  - Entwerfen des DNS-Namespaces
+  - Entwerfen und Implementieren von DNS-Zonen
+  - Entwerfen und Konfigurieren einer DNS-Zonenreplikation und -delegierung
+  - Optimieren von DNS-Servern
+  - Entwerfen von DNS für hohe Verfügbarkeit und Sicherheit
+
+
+  #### Lab &#58; Entwerfen und Implementieren der Namensauflösung
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Entwerfen einer Implementierungsstrategie für DNS-Server
+  - Entwerfen eines DNS-Namespace
+  - Entwerfen und Implementieren einer DNS-Zonenstrategie
+  - Entwerfen und Konfigurieren der DNS-Zonenreplikation
+  - Optimieren der DNS-Serverkonfiguration
+  - Entwerfen von DNS für hohe Verfügbarkeit und Sicherheit
+
+
+  ### Modul 5&#58; Entwerfen und Implementieren einer Gesamtstruktur- und Domäneninfrastruktur für Active Directory-Domänendienste
+  Diese Unterrichtseinheit erklärt das Entwerfen und Implementieren einer Gesamtstruktur- und einer Domäneninfrastruktur für Active Directory-Domänendienste.
+  #### Lektionen
+  - Entwerfen einer AD DS-Gesamtstruktur
+  - Entwerfen und Implementieren von AD DS-Gesamtstrukturvertrauensstellungen
+  - Entwerfen und Implementieren von AD DS-Domänen
+  - Entwerfen von DNS-Namespaces in AD DS-Umgebungen
+  - Entwerfen von AD DS-Domänenvertrauensstellungen
+
+
+  #### Lab &#58; Entwerfen und Implementieren einer Gesamtstrukturinfrastruktur für Active Directory-Domänendienste
+
+  #### Lab &#58; Entwerfen und Implementieren einer AD DS-Domäneninfrastruktur
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+  - Entwerfen einer AD DS-Gesamtstruktur
+  - Entwerfen und Implementieren von AD DS-Gesamtstrukturvertrauensstellungen
+  - Entwerfen von AD DS-Domänen
+  - Entwerfen von DNS-Namespaces in einer AD DS-Umgebung
+  - Entwerfen und Implementieren von AD DS-Domänenvertrauensstellungen
+
+
+  ### Modul 6&#58; Entwerfen und Implementieren einer Active Directory-Organisationseinheiteninfrastruktur
+  Diese Unterrichtseinheit erklärt das Entwerfen und Implementieren einer Organisationseinheitsinfrastruktur (OU - Organisational Unit) sowie eines AD DS-Berechtigungsmodells.
+  #### Lektionen
+  - Planen des Delegierungsmodells für administrative Aufgabe von Active Directory
+  - Entwerfen der Organisationseinheitenstruktur
+  - Planen und Implementieren einer Active Directory-Gruppeninfrastruktur
+
+
+  #### Lab &#58; Entwerfen und Implementieren eines Infrastruktur- und Delegierungsmodells für Active Directory-Organisationseinheiten
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Planen eines Delegierungsmodells für administrative AD DS-Aufgaben
+  - Entwerfen einer OU-Struktur
+  - Entwerfen und Implementieren einer AD DS-Gruppenstrategie
+
+
+  ### Modul 7&#58; Entwerfen und Implementieren einer Strategie für Gruppenrichtlinienobjekte
+  Diese Unterrichtseinheit erklärt das Entwerfen und Implementieren einer Strategie für ein Gruppenrichtlinienobjekt (GPO - Group Policy Object).
+  #### Lektionen
+  - Sammeln der erforderlichen Informationen für einen Entwurf für Gruppenrichtlinienobjekte
+  - Entwerfen und Implementieren von Gruppenrichtlinienobjekten
+  - Entwerfen der Verarbeitung von Gruppenrichtlinienobjekten
+  - Planen der Gruppenrichtlinienverwaltung
+
+
+  #### Lab &#58; Entwerfen und Implementieren einer Strategie für Gruppenrichtlinienobjekte
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Sammeln und Analysieren der Informationen, die erforderlich sind, um Gruppenrichtlinienobjekte einfacher zu entwerfen
+  - Erstellen und Implementieren eines Entwurfs für Gruppenrichtlinienobjekte
+  - Erstellen eines Entwurfs für die Verarbeitung von Gruppenrichtlinienobjekten
+  - Planen der Verwaltung von Gruppenrichtlinienobjekten
+
+
+  ### Modul 8&#58; Entwerfen und Implementieren einer Topologie für Active Directory-Domänendienste
+  Diese Unterrichtseinheit erklärt, wie eine Strategie für eine AD DS-Standorttopologie und eine Domänencontrollerplatzierung entworfen wird.
+  #### Lektionen
+  - Entwerfen und Implementieren von AD DS-Standorten
+  - Entwerfen der AD DS-Replikation
+  - Entwerfen der Platzierung von Domänencontrollern
+  - Überlegungen zur Virtualisierung von Domänencontrollern
+  - Entwerfen von Domänencontrollern mit hoher Verfügbarkeit
+
+
+  #### Lab &#58; Entwerfen und Implementieren einer physischen Topologie für Active Directory-Domänendienste
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Entwerfen von AD DS-Standorten
+  - Entwerfen der AD DS-Replikation
+  - Entwerfen der Platzierung von Domänencontrollern
+  - Entwerfen von Domänencontrollerbereitstellungen auf virtuellen Computern
+  - Entwerfen einer Domänencontrollerbereitstellung mit hoher Verfügbarkeit
+
+
+  ### Modul 9&#58; Planen und Implementieren von Speicher
+  In dieser Unterrichtseinheit wird die Planung und Implementierung des Netzwerklastenausgleichs (NLB) erläutert.
+  #### Lektionen
+  - Speicherüberlegungen
+  - Planen und Implementieren von iSCSI-SANs
+  - Speicherplätze in Windows Server 2012
+
+
+  #### Lab &#58; Planen und Implementieren von Speicher
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Planen von effizientem Speicher
+  - Planen und Implementieren eines iSCSI (Internet Small Computer System Interface)-SAN (Storage Area Network)
+  - Planen und Implementieren von Speicherplätzen
+
+
+  ### Modul 10&#58; Planen und Implementieren von Dateidiensten
+  In dieser Unterrichtseinheit wird die Planung und Implementierung von Dateidiensten erläutert.
+  #### Lektionen
+  - Planen und Implementieren von DFS
+  - Planen und Implementieren von BranchCache
+  - Planen und Implementieren der dynamischen Zugriffssteuerung
+
+
+  #### Lab &#58; Entwerfen und Implementieren von Dateidiensten
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Planen und Implementieren eines verteilten Dateisystems (Distributed File System, DFS)
+  - Planen und implementieren von Windows BranchCache.
+  - Planen und Implementieren der dynamischen Zugriffssteuerung
+
+
+  ### Modul 11&#58; Entwerfen und Implementieren von Netzwerkzugriffsdiensten
+  In dieser Unterrichtseinheit wird das Entwerfen und Implementieren von Netzwerkzugriffsdiensten erläutert.
+  #### Lektionen
+  - Entwerfen und Implementieren von RAS-Diensten
+  - Entwerfen der RADIUS-Authentifizierung mit NPS
+  - Entwerfen eines Umkreisnetzwerks
+  - Planen und Implementieren von DirectAccess
+
+
+  #### Lab &#58; Entwerfen und Implementieren von Netzwerkzugriffsdiensten
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Entwerfen und Implementieren von Remotezugriffsdiensten
+  - Entwerfen einer RADIUS-Lösung (Remote Authentication Dial-In User Services)
+  - Entwerfen eines Umkreisnetzwerks
+  - Planen und Implementieren der Windows 8-DirectAccess-Funktion
+
+
+  ### Modul 12&#58; Entwerfen und Implementieren von Netzwerkschutz
+  In dieser Unterrichtseinheit wird das Entwerfen und Implementieren des Netzwerkschutzes erläutert.
+  #### Lektionen
+  - Übersicht über Netzwerksicherheitsaspekte
+  - Identifizieren und Minimieren von gängigen Netzwerksicherheitsrisiken
+  - Entwerfen und Implementieren einer Windows-Firewall-Strategie
+  - Entwerfen und Implementieren einer NAP-Infrastruktur
+
+
+  #### Lab &#58; Entwerfen und Implementieren von Netzwerkschutz
+
+  Am Ende dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, die folgenden Aufgaben auszuführen&#58;
+
+  - Beschreiben des Entwurfsprozesses für eine Netzwerksicherheit
+  - Beschreiben der Identifizierung und Minimierung von Netzwerksicherheitsrisiken
+  - Entwerfen und Implementieren einer Windows-Firewall-Implementierung
+  - Entwerfen und Implementieren von NAP (Network Acces Protection)

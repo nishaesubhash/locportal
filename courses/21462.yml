@@ -1,0 +1,377 @@
+### YamlMime:Course
+title: Verwalten von Microsoft® SQL Server® 2012-Datenbanken
+metadata:
+  title: 'Course 21462-A: Verwalten von Microsoft® SQL Server® 2012-Datenbanken'
+  description: 'Course 21462-A: Verwalten von Microsoft® SQL Server® 2012-Datenbanken'
+uid: course.21462
+courseNumber: '21462-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Planen und Installieren von SQL Server 2005
+- skill: Beschreiben der Systemdatenbank, der physischen Struktur von Datenbanken und deren häufigsten Konfigurationsoptionen.
+- skill: Erklären des Transaktionsprotokollkonzepts sowie des SQL Server-Wiederherstellungsmodells und implementieren verschiedener in SQL Server verfügbaren Sicherungsstrategien.
+- skill: Erstellen von SQL Server-Sicherungen
+- skill: Wiederherstellen von SQL Server 2012-Datenbanken
+- skill: Verwenden Sie die Assistenten zum Importieren/Exportieren und erläutern Sie ihrer Beziehung zu SSIS.
+- skill: Arbeiten mit SQL Server-Sicherheitsmodellen, Anmeldungen und Benutzern.
+- skill: Arbeiten mit festen Serverrollen, benutzerdefinierten Serverrollen, festen Datenbankrollen und benutzerdefinierten Datenbankrollen.
+- skill: Arbeiten mit Berechtigungen und Berechtigungszuweisungen.
+- skill: Arbeiten mit der SQL Serverüberwachung
+- skill: Arbeiten mit SQL Server-Agenten, Aufträgen und dem Auftragsverlauf.
+- skill: Implementieren der Sicherheit des SQL Server-Agenten, Proxykonten und Anmeldeinformationen.
+- skill: Konfigurieren von Datenbank-E-Mail, Warnungen und Benachrichtigungen
+- skill: Erstellen von Datenbankwartungsplänen
+- skill: Arbeiten mit SQL-Profiler und gespeicherten SQL-Ablaufverfolgungsprozeduren.
+- skill: Vorstellen von DMVs und die Konfiguration von Datensammlungen
+- skill: Arbeiten mit zentralen Verwaltungsservern sowie Multiserverabfragen, der Visualisierung von SQL Server und Datenbankanwendungen.
+- skill: Behandeln von SQL Server-Datenbanken
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- office-forefront
+exams:
+- uid: exam.70-462
+summary: |-
+  In diesem fünftägigen, von einem Kursleiter durchgeführten Kurs werden den Teilnehmern die Kenntnisse und Fähigkeiten vermittelt, die zum Verwalten einer Microsoft SQL Server 2012-Datenbank erforderlich sind. Der Schwerpunkt des Kurses besteht darin, die Kursteilnehmer in der Verwendung von SQL Server 2012-Produktfeatures und -tools zur Verwaltung einer Datenbank zu unterrichten. Dieser Kurs unterstützt Sie zudem bei der Vorbereitung auf [Prüfung 70-462](http://www.microsoft.com/learning/exam-70-462.aspx)
+  
+  Alle Übungseinheiten für diesen Kurs können mithilfe der bereitgestellten virtuellen Computer durchgearbeitet werden. Wenn Sie jedoch ein Microsoft Windows Azure-Konto haben und die virtuellen Computer im Schulungsraum über eine Internetverbindung verfügen, können Sie vor Ort ggf. eine Verbindung mit dem Windows Azure-Server und der -Datenbank herstellen. Viele der Übungseinheiten in diesem Kurs können Sie durcharbeiten, während Sie mit Ihrer eigenen Azure-Datenbank in der Cloud verbunden sind. Ihr Kursleiter sollte Ihnen eine aktuelle Liste der von Azure unterstützten Übungseinheiten zur Verfügung stellen können. Um sich für ein Windows Azure-Testkonto zu registrieren, klicken Sie [hier](http://www.windowsazure.com/en-us/pricing/free-trial/).
+  
+  Im Folgenden werden eine der neuen, in diesem Kurs behandelten, SQL Server-Features vorgestellt.
+  - Diskussion zur Wartung von SQL Server (Service Packs, Kumulative Updates, Hotfixes)
+  - Die Grundlagen der Zusammenhänge zwischen den verschiedenen Updateebenen für das SQL Server-Produkt ist für die Arbeit damit sehr wichtig. Im Kurs wird nun der Zusammenhang von Hotfixes, kumulativen Updates und Service Packs und die Anwendung jedes Updatetyps detailliert behandelt.
+  - Verwendung des automatischen Updates für SQL Server
+  - SQL Server kann jetzt das Windows Update zur Wartung nutzen. In diesem Kurs wird veranschaulicht, wie automatische Updates aktiviert werden und wann die Verwendung dieser Updates genutzt werden sollte, und wann nicht.
+  - Teilweiser Datenbankeinschluss
+  - Die Verwaltung von nicht in der Datenbank enthaltener Objekte, wie beispielsweise Anmeldungen, stellt eine bedeutsame Herausforderung bei der Datenbankmigration dar. In diesem Kurs werden jetzt die von SQL Server 2012 bereitgestellten Optionen zum teilweisen Einschluss erläutert. Im Besonderen wird auf die authentifizierungsrelevanten Änderungen eingegangen.
+  - Benutzer mit Kennwörtern (enthaltene Benutzer)
+  - Im Kurs wird veranschaulicht, wie Benutzer mit SQL Server 2012 auf Datenbankebene anstelle der Serverebene authentifiziert werden können. Das ist ein wichtiger erster Schritt beim Datenbankeinschluss.
+  - Benutzerdefinierte Serverrollen
+  - Bei früheren SQL Server-Versionen konnten benutzerdefinierte Rollen auf Datenbankebene aber nicht auf Serverebene erstellt werden. In SQL Server 2012 können benutzerdefinierte Rollen auch auf Serverebene definiert werden. Dadurch kann die Systemsicherheit gesteigert werden. Die Möglichkeit, Berechtigungen genauer zu konfigurieren, gestattet die Anmeldezuweisung entsprechend der erforderlichen Berechtigungen für die jeweils zu erledigende Arbeit.
+  - Direkte Upgrades von Datenebenenanwendungen
+  - Bei früheren SQL Server-Versionen war es bei einem Upgrade der Datenbankanwendungen eine Migration aller Daten innerhalb der Datenbank in eine neue Datenbank erforderlich. Das ist bei SQL Server 2012 nicht mehr notwendig und im Kurs wird veranschaulicht, wie ein Upgrade für Datenbankanwendungen schneller und mit weniger Systemressourcen durchgeführt werden kann.
+  - Anhang mit Einführung zu den Konzepten "AlwaysOn", "Hohe Verfügbarkeit" und "Replikation"
+  - Kursteilnehmer, die an der relevanten Zertifizierungsprüfung zu diesem Kurs teilnehmen möchten, benötigen Kenntnisse der Themengebiete "Hohe Verfügbarkeit" und "Replikation". Keine dieser Details wurde in früheren Versionen dieses Kurses behandelt. In dieser Version des Kurses, werden die Kernkonzepte hinter hoher Verfügbarkeit (einschließlich der AlwaysOn-Technologien von SQL Server 2012) und Replikation in einem Anhang besprochen.
+
+  #### Audience profile
+  Dieser Kurs richtet sich in erster Linie an Personen, die SQL Server-Datenbanken verwalten und pflegen. Diese Personen sind hauptsächlich für die Verwaltung und Pflege von Datenbanken verantwortlich, oder sind in Bereichen tätig, in denen Datenbanken eine zentrale Rolle spielen.
+  
+  Die sekundäre Zielgruppe dieses Kurses sind Entwickler von Anwendungen, die Inhalte mithilfe von SQL Server-Datenbanken bereitstellen.
+prerequisitesSection: |-
+  Über ihre Berufserfahrung hinaus sollten die Teilnehmer an diesem Kurs bereits über die folgenden technischen Kenntnisse verfügen&#58;
+  - Grundlegende Kenntnisse des Microsoft Windows-Betriebssystems und seiner Kernfunktionen,
+  - Praktische Erfahrungen mit Transact-SQL
+  - Praktische Erfahrungen mit relationalen Datenbanken
+  - Erfahrung mit dem Entwurf von Datenbanken
+  
+  Kursteilnehmer, die an diesem Training teilnehmen möchten, können die sich die erforderlichen Voraussetzungen mithilfe des folgenden Kurses aneignen, oder entsprechende Kenntnisse und Fähigkeiten erwerben&#58;
+  - 21461A&#58; Schreiben von T SQL-Abfragen für Microsoft SQL Server 2012
+outlineSection: |-
+  ### Modul 1&#58; Einführung in SQL Server 2012 und das Toolset
+  In dieser Unterrichtseinheit wird die gesamte SQL Server-Plattform und ihre wichtigsten Tools vorgestellt. Es werden die Themen Editionen, Versionen, Grundlagen der Netzwerklistener und Dienst- sowie Dienstkontenkonzepte behandelt.
+  #### Lektionen
+  - Einführung in die SQL Server-Plattform
+  - Arbeiten mit SQL Server-Tools
+  - Konfigurieren von SQL Server-Diensten
+
+
+  #### Lab &#58; Einführung in SQL Server und das Toolset
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der SQL Server-Plattform
+  - Verwenden von SQL Server-Tools
+  - Konfigurieren von SQL Server-Diensten
+
+
+  ### Modul 2&#58; Vorbereiten von Systemen für SQL Server 2012
+  In dieser Unterrichtseinheit werden die Planung einer Installation in Bezug auf SQL Server E/A-Anforderungen, ein Vergleich zwischen den Optionen für 32 Bit und 64 Bit-Speicherkonfiguration sowie E/A-Subsystemüberprüfungen vor der Installation mit SQLIOSim und SQLIO behandelt.
+  #### Lektionen
+  - Übersicht über die SQL Server-Architektur
+  - Planen der Anforderungen an Serverressourcen
+  - Tests für SQL Server vor der Installation
+
+
+  #### Lab &#58; Vorbereiten von Systemen für SQL Server
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der SQL Server-Architektur
+  - Planen der Anforderungen an Serverressourcen
+  - Durchführen von Belastungstests für SQL Server vor der Installation
+
+
+  ### Modul 3&#58; Installieren und Konfigurieren von SQL Server 2012
+  In dieser Unterrichtseinheit wird das Installieren und Konfigurieren von SQL Server näher behandelt.
+  #### Lektionen
+  - Vorbereiten der Installation von SQL Server
+  - Installieren von SQL Server
+  - Aktualisieren und Automatisieren der Installation
+
+
+  #### Lab &#58; Installieren und Konfigurieren von SQL Server
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Vorbereiten der Installation von SQL Server
+  - Installieren von SQL Server
+  - Aktualisieren und Automatisieren der Installation von SQL Server
+
+
+  ### Modul 4&#58; Arbeiten mit Datenbanken
+  In dieser Unterrichtseinheit wird veranschaulicht, wie Daten in Datenbanken gespeichert werden, wie Datenbanken erstellt werden und wie sie innerhalb eines Servers oder zwischen Servern verschoben werden.
+  #### Lektionen
+  - Übersicht über SQL Server-Datenbanken
+  - Arbeiten mit Dateien und Dateigruppen
+  - Verschieben von Datenbankdateien
+
+
+  #### Lab &#58; Arbeiten mit Datenbanken
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Rolle und Struktur von SQL Server-Datenbanken
+  - Arbeiten mit Dateien und Dateigruppen
+  - Verschieben von Datenbankdateien innerhalb von Servern und zwischen Servern
+
+
+  ### Modul 5&#58; Grundlegendes zu Wiederherstellungsmodellen in SQL Server 2012
+  In dieser Unterrichtseinheit wird das Konzept eines Transaktionsprotokolls und des SQL Server-Wiederherstellungsmodells beschrieben. Die verschiedenen in SQL Server verfügbaren Sicherungsstrategien werden eingeführt.
+  #### Lektionen
+  - Sicherungsstrategien
+  - Grundlegendes zur Protokollierung von Transaktionen in SQL Server
+  - Planen einer SQL Server-Sicherungsstrategie
+
+
+  #### Lab &#58; Grundlegendes zu Wiederherstellungsmodellen in SQL Server
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der entscheidenden Konzepte im Zusammenhang mit Sicherungsstrategien
+  - Erläutern der Funktionen zur Protokollierung von Transaktionen innerhalb des SQL Server-Datenbankmoduls
+  - Planen einer SQL Server-Sicherungsstrategie
+
+
+  ### Modul 6&#58; Sichern von SQL Server 2012-Datenbanken
+  In dieser Unterrichtseinheit werden die SQL Server-Sicherung und die Sicherungstypen beschrieben.
+  #### Lektionen
+  - Sichern von Datenbanken und Transaktionsprotokollen
+  - Verwalten von Datenbanksicherungen
+  - Verwenden von Sicherungsoptionen
+
+
+  #### Lab &#58; Sichern von SQL Server-Datenbanken
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Sichern von Datenbanken und Transaktionsprotokollen
+  - Verwalten von Datenbanksicherungen
+  - Arbeiten mit erweiterten Sicherungsoptionen
+
+
+  ### Modul 7&#58; Wiederherstellen von SQL Server 2012-Datenbanken
+  In dieser Unterrichtseinheit wird die Wiederherstellung von Datenbanken beschrieben.
+  #### Lektionen
+  - Verstehen des Wiederherstellungsvorgangs
+  - Wiederherstellen von Datenbanken
+  - Arbeiten mit der Zeitpunktwiederherstellung
+  - Wiederherstellen von Systemdatenbanken und einzelnen Dateien
+
+
+  #### Lab &#58; Wiederherstellen von SQL Server 2012-Datenbanken
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Verstehen des Wiederherstellungsvorgangs
+  - Wiederherstellen von Datenbanken
+  - Arbeiten mit der Zeitpunktwiederherstellung
+  - Wiederherstellen von Systemdatenbanken und einzelnen Dateien
+
+
+  ### Modul 8&#58; Importieren und Exportieren von Daten
+  In dieser Unterrichtseinheit wird das Importieren und Exportieren von Assistenten und ihre Beziehung zu SSIS erläutert. Auch wird BCP eingeführt.
+  #### Lektionen
+  - Übertragen von Daten zu/von SQL Server
+  - Importieren und Exportieren von Tabellendaten
+  - Masseneinfügung von Daten
+
+
+  #### Lab &#58; Importieren und Exportieren von Daten
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Übertragen von Daten zu und von SQL Server
+  - Importieren und Exportieren von Tabellendaten
+  - Masseneinfügen von Daten und Optimieren des Einfügeprozesses
+
+
+  ### Modul 9&#58; Authentifizieren und Autorisieren von Benutzern
+  In dieser Unterrichtseinheit werden SQL Server-Sicherheitsmodelle, Anmeldungen und Benutzer behandelt.
+  #### Lektionen
+  - Authentifizieren von Verbindungen mit SQL Server
+  - Autorisieren von Anmeldekonten für den Datenbankzugriff
+  - Serverübergreifende Autorisierung
+
+
+  #### Lab &#58; Authentifizieren und Autorisieren von Benutzern
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben, wie Verbindungen von SQL Server authentifiziert werden
+  - Beschreiben Sie, wie Anmeldekonten für den Datenbankzugriff autorisiert werden
+  - Erläutern der Anforderungen an die serverübergreifende Autorisierung
+
+
+  ### Modul 10&#58; Zuweisen von Server- und Datenbankrollen
+  In dieser Unterrichtseinheit werden feste Serverrollen, benutzerdefinierte Serverrollen, feste Datenbankrollen und benutzerdefinierte Datenbankrollen behandelt.
+  #### Lektionen
+  - Arbeiten mit Serverrollen
+  - Arbeiten mit festen Datenbankrollen
+  - Erstellen von benutzerdefinierten Datenbankrollen
+
+
+  #### Lab &#58; Zuweisen von Server- und Datenbankrollen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Arbeiten mit Serverrollen
+  - Arbeiten mit festen Datenbankrollen
+  - Erstellen von benutzerdefinierten Datenbankrollen
+
+
+  ### Modul 11&#58; Autorisieren von Benutzern für den Zugriff auf Ressourcen
+  In dieser Unterrichtseinheit werden Berechtigungen und Berechtigungszuweisungen behandelt.
+  #### Lektionen
+  - Autorisieren von Benutzerzugriff auf Objekte
+  - Autorisieren von Benutzern für die Ausführung von Code
+  - Konfigurieren von Berechtigungen auf der Schemaebene
+
+
+  #### Lab &#58; Autorisieren von Benutzern für den Zugriff auf Ressourcen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Autorisieren von Benutzerzugriff auf Objekte
+  - Autorisieren von Benutzern für die Ausführung von Code
+  - Konfigurieren von Berechtigungen auf der Schemaebene
+
+
+  ### Modul 12&#58; Überwachen von SQL Server-Umgebungen
+  In dieser Unterrichtseinheit wird SQL Server Audit behandelt.
+  #### Lektionen
+  - Optionen zum Überwachen des Datenzugriffs in SQL
+  - Implementieren von SQL Server Audit
+  - Verwalten von SQL Server Audit
+
+
+  #### Lab &#58; Überwachen von SQL Server-Umgebungen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Optionen zum Überwachen des Datenzugriffs in SQL Server
+  - Implementieren von SQL Server Audit
+  - Verwalten von SQL Server Audit
+
+
+  ### Modul 13&#58; Automatisieren der SQL Server-Verwaltung 2012
+  In dieser Unterrichtseinheit werden der SQL Server-Agent sowie Aufträge und der Auftragsverlauf behandelt.
+  #### Lektionen
+  - Automatisieren der Verwaltung in SQL Server
+  - Arbeiten mit dem SQL Server-Agent
+  - Verwalten von Aufträgen des SQL Server-Agents
+
+
+  #### Lab &#58; Automatisieren der Verwaltung in SQL Server
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Automatisieren der SQL Server-Verwaltung
+  - Arbeiten mit dem SQL Server-Agent
+  - Verwalten von Aufträgen des SQL Server-Agents
+
+
+  ### Modul 14&#58; Konfigurieren der Sicherheit für den SQL Server-Agent
+  In dieser Unterrichtseinheit wird die Sicherheit des SQL Server-Agenten, Proxykonten und Anmeldeinformationen behandelt.
+  #### Lektionen
+  - Verstehen der SQL Server-Agent-Sicherheit
+  - Konfigurieren von Anmeldeinformationen
+  - Konfigurieren von Proxykonten
+
+
+  #### Lab &#58; Konfigurieren der Sicherheit für den SQL Server-Agent
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Erläutern der SQL Server-Agent-Sicherheit
+  - Konfigurieren von Anmeldeinformationen
+  - Konfigurieren von Proxykonten
+
+
+  ### Modul 15&#58; Überwachung von SQL Server 2012 mit Warnungen und Benachrichtigungen
+  In dieser Unterrichtseinheit wird die Konfiguration von Datenbank-E-Mail, Warnungen und Benachrichtigungen behandelt.
+  #### Lektionen
+  - Konfigurieren der Datenbank-E-Mail
+  - Überwachen von SQL Server-Fehlern
+  - Konfigurieren von Operatoren, Warnungen und Benachrichtigungen
+
+
+  #### Lab &#58; Überwachen von SQL Agent-Aufträgen mit Warnungen und Benachrichtigungen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Konfigurieren von Datenbank-E-Mail
+  - Überwachen von SQL Server-Fehlern
+  - Konfigurieren von Operatoren, Warnungen und Benachrichtigungen
+
+
+  ### Modul 16&#58; Ausführen der laufenden Datenbankwartung
+  In dieser Unterrichtseinheit werden SQL Server-Datenbankwartungspläne behandelt.
+  #### Lektionen
+  - Sicherstellen der Datenbankintegrität
+  - Verwalten von Indizes
+  - Automatisieren der Routinewartung der Datenbank
+
+
+  #### Lab &#58; Ausführen der laufenden Datenbankwartung
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Sicherstellen der Datenbankintegrität
+  - Verwalten von Indizes
+  - Automatisieren der Routinewartung der Datenbank
+
+
+  ### Modul 17&#58; Verfolgen des Zugriffs auf SQL Server 2012
+  In dieser Unterrichtseinheit werden SQL-Profiler und gespeicherte SQL-Ablaufverfolgungsprozeduren behandelt.
+  #### Lektionen
+  - Aufzeichnen von Aktivität mithilfe des SQL Server Profilers
+  - Verbessern der Leistung mit dem Datenbankoptimierungsratgeber
+  - Arbeiten mit Ablaufverfolgungsoptionen
+
+
+  #### Lab &#58; Verfolgen des Zugriffs auf SQL Server 2012
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Aufzeichnen von Aktivität mithilfe des SQL Server Profilers und des Profilers für erweiterte Ereignisse
+  - Verbessern der Leistung mit dem Datenbankoptimierungsratgeber
+  - Arbeiten mit Ablaufverfolgungsoptionen
+
+
+  ### Modul 18&#58; Überwachen von SQL Server 2012
+  Diese Unterrichtseinheit stellt DMVs und die Konfiguration von Datensammlungen vor.
+  #### Lektionen
+  - Überwachen der Aktivität
+  - Aufzeichnen und Verwalten von Leistungsdaten
+  - Analysieren der gesammelten Leistungsdaten
+
+
+  #### Lab &#58; Überwachen von SQL Server 2012
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Überwachen der aktuellen Aktivität
+  - Aufzeichnen und Verwalten von Leistungsdaten
+  - Analysieren der gesammelten Leistungsdaten
+
+
+  ### Modul 19&#58; Verwalten mehrerer Server
+  In dieser Unterrichtseinheit werden zentrale Verwaltungsserver sowie Multiserverabfragen, die Visualisierung von SQL Server und Datenbankanwendungen behandelt.
+  #### Lektionen
+  - Arbeiten mit mehreren Servern
+  - Virtualisieren von SQL Server
+  - Bereitstellen und Aktualisieren von Datenebenenanwendungen
+
+
+  #### Lab &#58; Verwalten mehrerer Server
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Arbeiten mit mehreren Servern
+  - Beschreiben der Optionen zum Virtualisieren von SQL Server
+  - Bereitstellen und Aktualisieren von Datenebenenanwendungen
+
+
+  ### Modul 20&#58; Behandeln von häufig auftretenden Problemen bei der Verwaltung von SQL Server 2012
+  In dieser Unterrichtseinheit werden allgemeine Probleme, die einer Behandlung erfordern, und ein Leitfaden mit Hinweisen zum Beginn der Lösung behandelt.
+  #### Lektionen
+  - Problembehandlungsmethodik für SQL Server
+  - Beheben von dienstbezogenen Problemen
+  - Beheben von Parallelitätsproblemen
+  - Beheben von Anmelde- und Konnektivitätsproblemen
+
+
+  #### Lab &#58; Behandeln von häufig auftretenden Problemen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Erläutern der Problembehandlungsmethodik für SQL Server
+  - Beheben von dienstbezogenen Problemen
+  - Beheben von Parallelitätsproblemen
+  - Beheben von Anmelde- und Konnektivitätsproblemen

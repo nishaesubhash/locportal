@@ -1,0 +1,257 @@
+### YamlMime:Course
+title: Virtualizing Enterprise Desktops and Apps
+metadata:
+  title: 'Course 20694-B: Virtualizing Enterprise Desktops and Apps'
+  description: 'Course 20694-B: Virtualizing Enterprise Desktops and Apps'
+uid: course.20694
+courseNumber: '20694-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe desktop and application virtualization.
+- skill: Plan and implement user state virtualization.
+- skill: Plan and implement App-V.
+- skill: Plan and deploy App-V clients.
+- skill: Manage and administer application virtualization.
+- skill: Understand application sequencing.
+- skill: Configure client Hyper-V.
+- skill: Plan and deploy session-based desktops.
+- skill: Publish and configure RemoteApp programs.
+- skill: Plan pooled personal desktops.
+- skill: Plan and implement pooled and personal desktops.
+- skill: Implement Remote Access.
+- skill: Understand health monitoring of VDI infrastructure.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- developer
+products:
+- windows
+exams:
+- uid: exam.70-694
+summary: |-
+  This five-day, hands-on training course is designed to teach you the breadth of Microsoft virtual desktop technology, and the course will compare and contrast the various technologies with use cases and best practices. This course builds your skills in Microsoft Application Virtualization (App-V) Service Pack 2 (SP2), Microsoft User Experience Virtualization (UE-V), and Virtual Desktop Infrastructure (VDI) as part of Windows Server 2012 R2. Throughout this course, you will learn how to manage, monitor, support, and troubleshoot various Windows-based desktop virtualization solutions.
+
+  #### Audience profile
+  This course is intended for the IT administrators, and implementers, of large and midsized organizations who want to understand and get hands on experience with the latest Microsoft desktop and application virtualization technologies and how to plan, implement, and manage virtual infrastructure solutions based on these technologies.
+prerequisitesSection: |-
+  Before attending this course, students must have a system administrator–level working knowledge of&#58;
+  - Networking fundamentals, including Transmission Control Protocol /Internet Protocol (TCP/IP), User Datagram Protocol (UDP), and Domain Name System (DNS).
+  - Active Directory Domain Services (AD DS) principles and fundamentals of AD DS management.
+  - Installation, configuration, and troubleshooting for Windows-based personal computers.
+  - Basic understanding of scripting and Windows PowerShell syntax.
+  - Desired&#58; Basic understanding of Windows Server roles and services.
+outlineSection: |-
+  ### Module 1&#58; Overview of Desktop and Application Virtualization
+  This module explains virtualization technologies that they can use to meet the needs of your organization. Which technologies are relevant to their organization will vary with their needs. To use these virtualization technologies properly in the student's organization, they will need to understand which technologies are available and when to use them.
+  #### Lessons
+  - Overview of Virtualization Technologies
+  - Usage Scenarios for Virtualization
+  - Considerations for Implementing Virtualization
+
+
+  #### Lab &#58; Overview of Desktop and Application Virtualization
+
+  After completing this module, students will be able to&#58;
+  - Identify Microsoft virtualization technologies.
+  - Identify usage scenarios for virtualization technologies.
+  - Identify desktop and application virtualization considerations.
+
+
+  ### Module 2&#58; Planning and Implementing User State Virtualization
+  This module explains user state virtualization, and which technologies are part of it and what are benefits of user state virtualization. They will also be able to plan and implement user state virtualization technologies.
+  #### Lessons
+  - Understanding and Planning for User State Virtualization
+  - Configuring Roaming User Profiles and Folder Redirection
+  - Configuring UE-V
+
+
+  #### Lab &#58; Configuring Roaming User Profiles and Folder Redirection
+
+  #### Lab &#58; Planning and Implementing User State Virtualization
+
+  After completing this module, students will be able to&#58;
+  - Understand and plan for user state virtualization.
+  - Configure roaming user profiles and folder redirection.
+  - Configure UE-V.
+
+
+  ### Module 3&#58; Planning and Implementing App-V
+  This module explains application virtualization and describes App-V components. This module also describes App-V infrastructure, deployment scenarios, and procedures for installing and configuring Microsoft Server Application Virtualization agents (App-V agents).
+  #### Lessons
+  - Overview of Application Virtualization
+  - App-V Architecture
+  - Planning App-V Infrastructure
+  - Deploying App-V Infrastructure
+
+
+  #### Lab &#58; App-V Introduction and Architecture
+
+  After completing this module, students will be able to&#58;
+  - Understand application virtualization.
+  - Understand App-V Architecture.
+  - Plan App-V infrastructure.
+  - Deploy App-V infrastructure.
+
+
+  ### Module 4&#58; Managing and Administering Application Virtualization
+  This module provides an overview of the App-V Management Console and the permissions that users must have to administer an App-V Management Server. The module also covers the steps you must take to perform these administrative tasks and how to manage packages and connection groups.
+  #### Lessons
+  - Managing and Administering App-V
+  - Modifying Published Application and Configuration Upgrades
+  - Implementing App-V Reporting
+
+
+  #### Lab &#58; Managing and Administering Application Virtualization
+
+  After completing this module, students will be able to&#58;
+  - Manage and administer application virtualization.
+  - Modify published application and configuration upgrades.
+  - Implement App-V reporting.
+
+
+  ### Module 5&#58; Planning and Deploying App-V Clients
+  This module explains the recommendations for deploying and managing the App-V Client. This module also provides students with an overview of the App-V Desktop Client, App-V Remote Desktop Client, and the several installation methods for each.
+  #### Lessons
+  - Overview of the App-V Client
+  - Installing and Configuring the App-V Client
+  - Managing App-V Client Properties
+
+
+  #### Lab &#58; Planning and Deploying App-V Clients
+
+  After completing this module, students will be able to&#58;
+  - Understand the App-V Client.
+  - Install and configure the App-V Client.
+  - Manage App-V Client Properties.
+
+
+  ### Module 6&#58; Application Sequencing
+  This module explains how to install and configure the App-V Sequencer to create application packages.
+  #### Lessons
+  - Overview of Application Sequencing
+  - Planning for Application Sequencing
+  - Sequencing an Application
+  - Advanced Application Sequencing
+
+
+  #### Lab &#58; Application Sequencing
+
+  After completing this module, students will be able to&#58;
+  - Understand application sequencing.
+  - Plan for application sequencing.
+  - Sequence an application.
+  - Understand application sequencing.
+
+
+  ### Module 7&#58; Configuring Client Hyper-V
+  This module explains Client Hyper-V in Windows 8.1 and explain the fundamentals of working with virtual machines (VMs) in a Client Hyper-V environment. You should be aware that all the features that are covered in this module are also available in Hyper-V on Windows Server 2012 R2.
+  #### Lessons
+  - Overview of Client Hyper-V
+  - Creating VMs
+  - Managing Virtual Hard Disks
+  - Managing Checkpoints
+
+
+  #### Lab &#58; Configuring Client Hyper-V
+
+  After completing this module, students will be able to&#58;
+  - Understand Client Hyper-V.
+  - Create virtual machines.
+  - Manage virtual hard disks.
+  - Manage checkpoints.
+
+
+  ### Module 8&#58; Planning and Deploying Session-Based Virtual Desktops
+  This module explains how to plan for session-based desktop deployment of Remote Desktop Services (RDS). They will also learn to perform session-based desktop deployment.
+  #### Lessons
+  - Overview of Remote Desktop Services
+  - Planning an Infrastructure for Session-Based Desktop Deployments
+  - Deploying Session-Based Desktops
+  - Overview of Remote Desktop Services High Availability
+
+
+  #### Lab &#58; Planning and Deploying Session-Based Desktops
+
+  After completing this module, students will be able to&#58;
+  - Understand RDS.
+  - Plan infrastructure for session-based desktops.
+  - Deploy session-based desktops.
+  - Describe RDS high availability.
+
+
+  ### Module 9&#58; Configuring and Managing RemoteApp Programs
+  This module explains how to publish and work with RemoteApp programs.
+  #### Lessons
+  - Publishing and Configuring RemoteApp Programs
+  - Working with RemoteApp Programs
+
+
+  #### Lab &#58; Configuring and Managing RemoteApp Programs
+
+  After completing this module, students will be able to&#58;
+  - Publish and configure RemoteApp programs.
+  - Work with RemoteApp programs.
+
+
+  ### Module 10&#58; Planning Personal and Pooled Virtual Desktops
+  This module explains how to plan the implementation of pooled and personal desktops.
+  #### Lessons
+  - Overview of Personal and Pooled Virtual Desktops
+  - Planning and Optimizing Virtual Desktop Templates
+
+
+  #### Lab &#58; Planning Personal and Pooled Virtual Desktops
+
+  After completing this module, students will be able to&#58;
+  - Understand personal and pooled desktops.
+  - Plan and optimize desktop templates.
+
+
+  ### Module 11&#58; Planning and Implementing Infrastructures for Personal and Pooled Virtual Desktops
+  This module explains how to implement and manage pooled and personal desktops.
+  #### Lessons
+  - Planning Storage for Personal and Pooled Virtual Desktops
+  - Capacity Planning for Personal and Pooled Virtual Desktops
+  - Implementing Personal and Pooled Virtual Desktops
+  - Implementing RemoteApp for Hyper-V
+
+
+  #### Lab &#58; Planning and Implementing Infrastructures for Personal and Pooled Virtual Desktops
+
+  After completing this module, students will be able to&#58;
+  - Plan storage for personal and pooled desktops.
+  - Understand capacity planning for pooled and personal desktops.
+  - Implement pooled and personal desktops.
+  - Implementing RemoteApp for Hyper-V.
+
+
+  ### Module 12&#58; Implementing Remote Access for Remote Desktop Services
+  This module explains how to plan and implement RD Gateway.
+  #### Lessons
+  - Extending Remote Desktop Services Outside the Organization
+  - Controlling RD Gateway Access
+
+
+  #### Lab &#58; Implementing Remote Access for RDS
+
+  After completing this module, students will be able to&#58;
+  - Describe how to extend RDS outside the organization.
+  - Explain how to control RD Gateway access.
+
+
+  ### Module 13&#58; Performance and Health Monitoring of VDI
+  This module explains how to monitor the performance of virtual desktop infrastructure to ensure performance.
+  #### Lessons
+  - Overview of Monitoring Desktop and Application Virtualization
+  - Monitoring a Desktop Virtualization Infrastructure
+
+
+  #### Lab &#58; Performance and Health Monitoring of VDI
+
+  After completing this module, students will be able to&#58;
+  - Understand desktop monitoring and application virtualization.
+  - Monitor desktop virtualization infrastructure.

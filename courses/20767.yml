@@ -1,0 +1,336 @@
+### YamlMime:Course
+title: Implementing a SQL Data Warehouse
+metadata:
+  title: 'Course 20767-C: Implementing a SQL Data Warehouse'
+  description: 'Course 20767-C: Implementing a SQL Data Warehouse'
+uid: course.20767
+courseNumber: '20767-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the key elements of a data warehousing solution
+- skill: Describe the main hardware considerations for building a data warehouse
+- skill: Implement a logical design for a data warehouse
+- skill: Implement a physical design for a data warehouse
+- skill: Create columnstore indexes
+- skill: Implementing an Azure SQL Data Warehouse
+- skill: Describe the key features of SSIS
+- skill: Implement a data flow by using SSIS
+- skill: Implement control flow by using tasks and precedence constraints
+- skill: Create dynamic packages that include variables and parameters
+- skill: Debug SSIS packages
+- skill: Describe the considerations for implement an ETL solution
+- skill: Implement Data Quality Services
+- skill: Implement a Master Data Services model
+- skill: Describe how you can use custom components to extend SSIS
+- skill: Deploy SSIS projects
+- skill: Describe BI and common BI scenarios
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- database-administrator
+products:
+- sql-server
+exams:
+- uid: exam.70-767
+summary: |-
+  This five-day instructor-led course provides students with the knowledge and skills to provision a Microsoft SQL Server database. The course covers SQL Server provision both on-premise and in Azure, and covers installing from new and migrating from an existing install.
+
+  #### Audience profile
+  The primary audience for this course are database professionals who need to fulfil a Business Intelligence Developer role. They will need to focus on hands-on work creating BI solutions including Data Warehouse implementation, ETL, and data cleansing.
+prerequisitesSection: |-
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - Basic knowledge of the Microsoft Windows operating system and its core functionality.
+  - Working knowledge of relational databases.
+  - Some experience with database design.
+outlineSection: |-
+  ### Module 1&#58; Introduction to Data Warehousing
+  This module describes data warehouse concepts and architecture consideration.
+  #### Lessons
+  - Overview of Data Warehousing
+  - Considerations for a Data Warehouse Solution
+
+
+  #### Lab &#58; Exploring a Data Warehouse Solution
+  - Exploring data sources
+  - Exploring an ETL process
+  - Exploring a data warehouse
+
+  After completing this module, you will be able to&#58; 
+  - Describe the key elements of a data warehousing solution
+  - Describe the key considerations for a data warehousing solution
+
+
+  ### Module 2&#58; Planning Data Warehouse Infrastructure
+  This module describes the main hardware considerations for building a data warehouse.
+  #### Lessons
+  - Considerations for data warehouse infrastructure.
+  - Planning data warehouse hardware.
+
+
+  #### Lab &#58; Planning Data Warehouse Infrastructure
+  - Planning data warehouse hardware
+
+  After completing this module, you will be able to&#58; 
+  - Describe the main hardware considerations for building a data warehouse
+  - Explain how to use reference architectures and data warehouse appliances to create a data warehouse
+
+
+  ### Module 3&#58; Designing and Implementing a Data Warehouse
+  This module describes how you go about designing and implementing a schema for a data warehouse.
+  #### Lessons
+  - Data warehouse design overview
+  - Designing dimension tables
+  - Designing fact tables
+  - Physical Design for a Data Warehouse
+
+
+  #### Lab &#58; Implementing a Data Warehouse Schema
+  - Implementing a star schema
+  - Implementing a snowflake schema
+  - Implementing a time dimension table
+
+  After completing this module, you will be able to&#58; 
+  - Implement a logical design for a data warehouse
+  - Implement a physical design for a data warehouse
+
+
+  ### Module 4&#58; Columnstore Indexes
+  This module introduces Columnstore Indexes.
+  #### Lessons
+  - Introduction to Columnstore Indexes
+  - Creating Columnstore Indexes
+  - Working with Columnstore Indexes
+
+
+  #### Lab &#58; Using Columnstore Indexes
+  - Create a Columnstore index on the FactProductInventory table
+  - Create a Columnstore index on the FactInternetSales table
+  - Create a memory optimized Columnstore table
+
+  After completing this module, you will be able to&#58; 
+  - Create Columnstore indexes
+  - Work with Columnstore Indexes
+
+
+  ### Module 5&#58; Implementing an Azure SQL Data Warehouse
+  This module describes Azure SQL Data Warehouses and how to implement them.
+  #### Lessons
+  - Advantages of Azure SQL Data Warehouse
+  - Implementing an Azure SQL Data Warehouse
+  - Developing an Azure SQL Data Warehouse
+  - Migrating to an Azure SQ Data Warehouse
+  - Copying data with the Azure data factory
+
+
+  #### Lab &#58; Implementing an Azure SQL Data Warehouse
+  - Create an Azure SQL data warehouse database
+  - Migrate to an Azure SQL Data warehouse database
+  - Copy data with the Azure data factory
+
+  After completing this module, you will be able to&#58; 
+  - Describe the advantages of Azure SQL Data Warehouse
+  - Implement an Azure SQL Data Warehouse
+  - Describe the considerations for developing an Azure SQL Data
+  - WarehousePlan for migrating to Azure SQL Data Warehouse
+
+
+  ### Module 6&#58; Creating an ETL Solution
+  At the end of this module you will be able to implement data flow in a SSIS package.
+  #### Lessons
+  - Introduction to ETL with SSIS
+  - Exploring Source Data
+  - Implementing Data Flow
+
+
+  #### Lab &#58; Implementing Data Flow in an SSIS Package
+  - Exploring source data
+  - Transferring data by using a data row task
+  - Using transformation components in a data row
+
+  After completing this module, you will be able to&#58; 
+  - Describe ETL with SSIS
+  - Explore Source Data
+  - Implement a Data Flow
+
+
+  ### Module 7&#58; Implementing Control Flow in an SSIS Package
+  This module describes implementing control flow in an SSIS package.
+  #### Lessons
+  - Introduction to Control Flow
+  - Creating Dynamic Packages
+  - Using Containers
+  - Managing consistency.
+
+
+  #### Lab &#58; Implementing Control Flow in an SSIS Package
+  - Using tasks and precedence in a control flow
+  - Using variables and parameters
+  - Using containers
+
+
+  #### Lab &#58; Using Transactions and Checkpoints
+  - Using transactions
+  - Using checkpoints
+
+  After completing this module, you will be able to&#58; 
+  - Describe control flow
+  - Create dynamic packages
+  - Use containers
+
+
+  ### Module 8&#58; Debugging and Troubleshooting SSIS Packages
+  This module describes how to debug and troubleshoot SSIS packages.
+  #### Lessons
+  - Debugging an SSIS Package
+  - Logging SSIS Package Events
+  - Handling Errors in an SSIS Package
+
+
+  #### Lab &#58; Debugging and Troubleshooting an SSIS Package
+  - Debugging an SSIS package
+  - Logging SSIS package execution
+  - Implementing an event handler
+  - Handling errors in data flow
+
+  After completing this module, you will be able to&#58; 
+  - Debug an SSIS package
+  - Log SSIS package events
+  - Handle errors in an SSIS package
+
+
+  ### Module 9&#58; Implementing a Data Extraction Solution
+  This module describes how to implement an SSIS solution that supports incremental DW loads and changing data.
+  #### Lessons
+  - Introduction to Incremental ETL
+  - Extracting Modified Data
+  - Loading modified data
+  - Temporal Tables
+
+
+  #### Lab &#58; Extracting Modified Data
+  - Using a datetime column to incrementally extract data
+  - Using change data capture
+  - Using the CDC control task
+  - Using change tracking
+
+
+  #### Lab &#58; Loading a data warehouse
+  - Loading data from CDC output tables
+  - Using a lookup transformation to insert or update dimension data
+  - Implementing a slowly changing dimension
+  - Using the merge statement
+
+  After completing this module, you will be able to&#58; 
+  - Describe incremental ETL
+  - Extract modified data
+  - Load modified data
+  - Describe temporal tables
+
+
+  ### Module 10&#58; Enforcing Data Quality
+  This module describes how to implement data cleansing by using Microsoft Data Quality services.
+  #### Lessons
+  - Introduction to Data Quality
+  - Using Data Quality Services to Cleanse Data
+  - Using Data Quality Services to Match Data
+
+
+  #### Lab &#58; Cleansing Data
+  - Creating a DQS knowledge base
+  - Using a DQS project to cleanse data
+  - Using DQS in an SSIS package
+
+
+  #### Lab &#58; De-duplicating Data
+  - Creating a matching policy
+  - Using a DS project to match data
+
+  After completing this module, you will be able to&#58; 
+  - Describe data quality services
+  - Cleanse data using data quality services
+  - Match data using data quality services
+  - De-duplicate data using data quality services
+
+
+  ### Module 11&#58; Using Master Data Services
+  This module describes how to implement master data services to enforce data integrity at source.
+  #### Lessons
+  - Introduction to Master Data Services
+  - Implementing a Master Data Services Model
+  - Hierarchies and collections
+  - Creating a Master Data Hub
+
+
+  #### Lab &#58; Implementing Master Data Services
+  - Creating a master data services model
+  - Using the master data services add-in for Excel
+  - Enforcing business rules
+  - Loading data into a model
+  - Consuming master data services data
+
+  After completing this module, you will be able to&#58; 
+  - Describe the key concepts of master data services
+  - Implement a master data service model
+  - Manage master data
+  - Create a master data hub
+
+
+  ### Module 12&#58; Extending SQL Server Integration Services (SSIS)
+  This module describes how to extend SSIS with custom scripts and components.
+  #### Lessons
+  - Using scripting in SSIS
+  - Using custom components in SSIS
+
+
+  #### Lab &#58; Using scripts
+  - Using a script task
+
+  After completing this module, you will be able to&#58; 
+  - Use custom components in SSIS
+  - Use scripting in SSIS
+
+
+  ### Module 13&#58; Deploying and Configuring SSIS Packages
+  This module describes how to deploy and configure SSIS packages.
+  #### Lessons
+  - Overview of SSIS Deployment
+  - Deploying SSIS Projects
+  - Planning SSIS Package Execution
+
+
+  #### Lab &#58; Deploying and Configuring SSIS Packages
+  - Creating an SSIS catalog
+  - Deploying an SSIS project
+  - Creating environments for an SSIS solution
+  - Running an SSIS package in SQL server management studio
+  - Scheduling SSIS packages with SQL server agent
+
+  After completing this module, you will be able to&#58; 
+  - Describe an SSIS deployment
+  - Deploy an SSIS package
+  - Plan SSIS package execution
+
+
+  ### Module 14&#58; Consuming Data in a Data Warehouse
+  This module describes how to debug and troubleshoot SSIS packages.
+  #### Lessons
+  - Introduction to Business Intelligence
+  - An Introduction to Data Analysis
+  - Introduction to reporting
+  - Analyzing Data with Azure SQL Data Warehouse
+
+
+  #### Lab &#58; Using a data warehouse
+  - Exploring a reporting services report
+  - Exploring a PowerPivot workbook
+  - Exploring a power view report
+
+  After completing this module, you will be able to&#58; 
+  - Describe at a high level business intelligence
+  - Show an understanding of reporting
+  - Show an understanding of data analysis
+  - Analyze data with Azure SQL data warehouse

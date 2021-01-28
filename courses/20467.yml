@@ -1,0 +1,217 @@
+### YamlMime:Course
+title: Designing Business Intelligence Solutions with Microsoft SQL Server 2014
+metadata:
+  title: 'Course 20467-D: Designing Business Intelligence Solutions with Microsoft SQL Server 2014'
+  description: 'Course 20467-D: Designing Business Intelligence Solutions with Microsoft SQL Server 2014'
+uid: course.20467
+courseNumber: '20467-D'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Plan a BI solution.
+- skill: Plan SQL Server BI infrastructure.
+- skill: Design a data warehouse.
+- skill: Design an extract, transform and load (ETL) solution.
+- skill: Design analytical data models.
+- skill: Plan a BI delivery solution.
+- skill: Design a Reporting Services solution.
+- skill: Design a Microsoft Excel-based reporting solution.
+- skill: Plan a SharePoint Server BI solution.
+- skill: Monitor and optimize a BI solution.
+- skill: Operate a BI solution.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- database-administrator
+products:
+- sql-server
+exams:
+- uid: exam.70-467
+summary: |-
+  This training course teaches database and business intelligence (BI) professionals how to plan and design a BI solution that is based on Microsoft SQL Server 2014 and other Microsoft BI technologies.
+
+  #### Audience profile
+  This course is not designed for students who are new to SQL Server 2014 BI technologies; it is targeted at BI professionals with experience of implementing solutions with SQL Server database Engine, SQL Server Integration Services, SQL Server Analysis Services, and SQL Server Reporting Services.
+prerequisitesSection: |-
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - A basic understanding of dimensional modeling (star schema) for data warehouses
+  - Basic server hardware knowledge
+  - The ability to create Integration Services packages that include control flows and data flows
+  - The ability to create a basic multidimensional cube with Analysis Services
+  - The ability to create a basic tabular model with PowerPivot and Analysis Services
+  - The ability to create Reporting Services reports with Report Designer
+  - The ability to implement authentication and permissions in the SQL Server database engine, Analysis Services, and Reporting Services
+  - Familiarity with SharePoint Server and Microsoft Office applications - particularly Excel
+outlineSection: |-
+  ### Module 1&#58; Planning a BI Solution
+  This module enables students to plan the components of a BI Solution.
+  #### Lessons
+  - Elements of a BI Solution
+  - Planning a BI Project
+  - The Microsoft BI Platform
+
+
+  #### Lab &#58; Planning BI Solutions
+  After completing this module, you will be able to&#58;
+  - Describe the components of a BI Solution.
+  - Identify the components of a BI Solution.
+  - Plan a BI Project.
+
+
+  ### Module 2&#58; Planning SQL Server Business Intelligence Infrastructure
+  This module describes how to use plan appropriate BI Infrastructure given a set of BI Parameters.
+  #### Lessons
+  - Considerations of BI Infrastructure
+  - Planning Data Warehouse Hardware
+
+
+  #### Lab &#58; Planning BI Infrastructure
+  After completing this module, you will be able to&#58;
+  - Describe the components of a BI Infrastructure and where you would use them.
+  - Plan for the hardware requirements of a data warehouse implementation.
+
+
+  ### Module 3&#58; Designing a Data Warehouse
+  This module describes how to design a data warehouse given a set of user requirements.
+  #### Lessons
+  - Data Warehouse Design Overview
+  - Designing Dimension Tables
+  - Design FACT tables
+
+
+  #### Lab &#58; Designing a Data Warehouse Logical Schema
+  After completing this module, you will be able to&#58;
+  - Design a data warehouse.
+  - Design dimension tables.
+  - Design Fact tables.
+  - Design a logical schema for a data warehouse.
+
+
+  ### Module 4&#58; Designing an ETL solution
+  This lesson describes how to design an extract, transform and load (ETL) solution.
+  #### Lessons
+  - ETL Overview
+  - Planning for Data Extraction
+  - Planning for Data Transformations
+  - Planning for Data Loading
+
+
+  #### Lab &#58; Designing an ETL Solution
+  After completing this module, you will be able to&#58; 
+  - Describe the components of an ETL solution.
+  - Design an ETL solution.
+
+
+  ### Module 5&#58; Designing Analytical Data Models
+  This module describes how to design analytical data models for specific BI scenarios.
+  #### Lessons
+  - Introduction to Analytical data Models
+  - Designing Analytical Data Models
+
+
+  #### Lab &#58; Designing Analytical Data Model
+
+  #### Lab &#58; Designing Dimensions and Hierarchies
+  After completing this module, you will be able to&#58;
+  - Describe the features of an analytical data model.
+  - Design an analytical data model.
+
+
+  ### Module 6&#58; Planning a BI Delivery Solution
+  This module describes how to choose an appropriate delivery solution for a given scenario.
+  #### Lessons
+  - Considerations for BI delivery
+  - Common Reporting Scenarios
+  - Choosing a Reporting Tool
+
+
+  #### Lab &#58; Planning a BI Delivery Solution
+  After completing this module, you will be able to&#58;
+  - Describe the components of a BI delivery solution.
+  - Describe some common reporting scenarios.
+  - Choose an appropriate delivery solution for a given scenario.
+
+
+  ### Module 7&#58; Designing a Reporting Services Solution
+  This module describes how to design a reporting services solution.
+  #### Lessons
+  - Planning a Reporting Solution
+  - Designing Reports
+  - Planning Report Consistency
+
+
+  #### Lab &#58; Designing a Reporting Services Solution
+  After completing this module, you will be able to&#58;
+  - Plan for a reporting Services solution.
+  - Design reports for a reporting services solutions.
+  - Plan for consistency of reporting
+
+
+  ### Module 8&#58; Designing an Excel Based reporting Solution
+  In this module students will learn how to design a reporting solution using Excel.
+  #### Lessons
+  - Using Excel for Data Reporting and Analysis
+  - PowerPivot in Excel
+  - Power View in Excel
+
+
+  #### Lab &#58; Designing and Excel Reporting Solution
+  After completing this module, you will be able to&#58;
+  - Describe key features of excel reporting solutions.
+  - Use PowerPivot in Excel to create reports.
+  - Use Power View in excel to create reports.
+
+
+  ### Module 9&#58; Planning a SharePoint Server BI Solution
+  This module introduces the use of SharePoint Server as a BI solution.
+  #### Lessons
+  - Introduction to SharePoint Server as a BI Platform
+  - Planning Security for a SharePoint Server BI Solution
+  - Planning Reporting Services Configuration
+  - Planning PowerPivot Configuration
+  - Planning for PerformancePoint Services
+
+
+  #### Lab &#58; Implementing a SharePoint Server BI Solution
+
+  #### Lab &#58; Implementing PerformancePoint Services
+  After completing this module, you will be able to&#58;
+  - Describe the components of a SharePoint Server BI solution.
+  - Plan security for a SharePoint Server BI solution.
+  - Plan reporting solutions for a SharePoint Server BI solution.
+  - Describe the components of a PerformancePoint Solution.
+  - Implement PerformancePoint services.
+
+
+  ### Module 10&#58; Monitoring and Optimizing a BI Solution
+  At the conclusion of this module you will be able to optimize and monitor a BI solution.
+  #### Lessons
+  - Overview of BI Monitoring
+  - Monitoring and Optimizing the Data Warehouse
+  - Monitoring and Analyzing Analysis Services
+  - Monitoring and Optimizing Reporting Services
+
+
+  #### Lab &#58; Monitoring and Optimizing a BI Solution
+  After completing this module, you will be able to&#58;
+  - Describe the options for monitoring and optimizing a BI solution.
+  - Be able to monitor and optimize a BI solution.
+
+
+  ### Module 11&#58; Operating a BI Solution
+  At the conclusion of this module you will be able to plan management and maintenance operations of a BI solution.
+  #### Lessons
+  - Overview of BI Operations
+  - ETL Operations
+  - Data Warehouse Operations
+  - Analysis Services Operations
+  - Reporting Services Operations
+
+
+  #### Lab &#58; Operating a BI Solution
+  After completing this module, you will be able to&#58;
+  - Describe the components to be managed in a BI Solution.
+  - Be able to manage the components of a BI solution.

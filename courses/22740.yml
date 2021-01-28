@@ -1,0 +1,313 @@
+### YamlMime:Course
+title: Installation, stockage et calcul avec Windows Server 2016
+metadata:
+  title: 'Course 22740-C: Installation, stockage et calcul avec Windows Server 2016'
+  description: 'Course 22740-C: Installation, stockage et calcul avec Windows Server 2016'
+uid: course.22740
+courseNumber: '22740-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Préparer et installer Windows Server 2016, y compris Server Core, et planifier une stratégie de mise à niveau et de migration de serveur.
+- skill: Décrire les différentes options de stockage, y compris les formats de la table de partition, les disques de base et dynamiques, les systèmes de fichiers, les disques durs virtuels, les disques durs physiques, et expliquer également comment gérer les disques et les volumes
+- skill: Décrire les solutions de stockage d’entreprise et choisir la solution appropriée pour une situation donnée
+- skill: Mettre en œuvre et gérer les espaces de stockage et la déduplication des données
+- skill: Installer et configurer Microsoft Hyper-V et configurer des ordinateurs virtuels
+- skill: Déployer, configurer et gérer les conteneurs Windows et Hyper-V
+- skill: Décrire les technologies de haute disponibilité et de récupération d’urgence dans Windows Server 2016
+- skill: Planifier, créer et gérer un cluster de basculement
+- skill: Mettre en œuvre un clustering de basculement pour les machines virtuelles Hyper-V
+- skill: Configurer un cluster d’équilibrage de la charge réseau (NLB) et planifier une mise en œuvre de NLB
+- skill: Créer et gérer des images de déploiement
+- skill: Créeré, surveiller et maintenir les installations de machines virtuelles
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- fr
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows-server
+exams:
+- uid: exam.70-740
+summary: |-
+  Ce cours de cinq jours est conçu principalement pour les professionnels de l’informatique qui ont une certaine expérience de Windows Server. Il est conçu pour les professionnels responsables de la gestion du stockage et du calcul à l’aide de Windows Server 2016, et qui ont besoin de comprendre les scénarios, les exigences et les options de stockage et de calcul disponibles et applicables à Windows Server 2016.
+
+  #### Audience profile
+  Ce cours est destiné aux professionnels de l’informatique familiarisés avec Windows Server, à la recherche d’un cours unique sur cinq jours qui couvre les technologies de stockage et de calcul dans Windows serveur 2016. Ce cours les aide à mettre à jour leurs connaissances et leurs compétences en matière de stockage et de calcul pour Windows Server 2016.
+  - Administrateurs de Windows Server qui sont relativement novices dans l’administration de Windows Server et les technologies connexes, et qui veulent en savoir plus sur les fonctions de stockage et de calcul sous Windows Server 2016
+  - Professionnels de l’informatique ayant des connaissances générales en informatique, qui veulent acquérir des connaissances sur Windows Server, en particulier autour des technologies de stockage et de calcul dans Windows Server 2016
+  
+  Ce cours s’adresse aussi aux professionnels de l’informatique qui veulent passer l’examen de certification Microsoft 70-740, Installation, stockage et calcul avec Windows Server 2016.
+prerequisitesSection: |-
+  Pour suivre ce cours, les stagiaires doivent posséder&#58;
+  - Une compréhension élémentaire des fondamentaux de la mise en réseau
+  - Des notions et une compréhension des meilleures pratiques en matière de sécurité
+  - Une compréhension des concepts de base de Active Directory Domain Services (AD DS)
+  - Une connaissance de base du matériel serveur
+  - Une expérience en support et configuration de systèmes d’exploitation client Windows, tels que Windows 8 ou Windows 10.
+  
+  En outre, les stagiaires tireraient profit d’avoir une certaine expérience préalable du système d’exploitation Windows Server, ainsi qu’une expérience en tant qu’administrateur des systèmes de Windows Server.
+outlineSection: |-
+  ### Module 1&#58; Installation, mise à niveau et migration des serveurs et des charges de travail
+  Ce module présente les nouvelles fonctionnalités de Windows Server 2016 et explique comment préparer et installer Windows Server 2016, dont Server Core. Ce module décrit également comment planifier une stratégie de mise à niveau et de migration de serveur, et explique comment effectuer une migration des rôles serveur et des charges de travail dans et entre les domaines. Enfin, ce module explique comment choisir un modèle d’activation en fonction des caractéristiques de votre environnement.
+  #### Leçons
+  - Introduction à Windows Server 2016
+  - Préparation et installation de Server Core
+  - Préparation pour les mises à niveau et les migrations
+  - Migration des rôles de serveur et des charges de travail
+  - Modèles d’activation de Windows Server
+
+
+  #### Atelier &#58; Installation et configuration de Server Core
+  - Installation de Server Core
+  - Réalisation de tâches de post-installation sur Windows Server 2016 Core
+  - Gestion à distance
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire les nouvelles fonctionnalités de Windows Server 2016.
+  - Préparer et installer Server Core.
+  - Planifier la stratégie de mise à niveau et de migration du serveur.
+  - Effectuer une migration des rôles de serveur et des charges de travail dans un domaine et entre les domaines.
+  - Choisir un modèle d’activation approprié.
+
+
+  ### Module 2&#58; Configuration du stockage local
+  Il explique comment gérer les disques et les volumes dans Windows Server 2016.
+  #### Leçons
+  - Gestion des disques dans Windows Server
+  - Gestion des volumes dans Windows Server
+
+
+  #### Atelier &#58; Configuration du stockage local
+  - Création et gestion des volumes
+  - Redimensionnement des volumes
+  - Gestion des disques durs virtuels
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Gérer les disques sous Windows Server.
+  - Gérer les volumes sous Windows Server.
+
+
+  ### Module 3&#58; Mise en œuvre de solutions de stockage d’entreprise
+  Il compare le stockage en attachement direct (DAS), le stockage en réseau (NAS) et les réseaux de stockage (SAN). Il explique également le but du serveur iSNS Microsoft, du Data Center Bridging (DCB) et de Multipath I/O (MPIO). En outre, ce module compare Fibre Channel, Internet Small Computer System Interface (iSCSI) et Fibre Channel over Ethernet (FCoE), et décrit comment configurer le partage dans Windows Server 2016.
+  #### Leçons
+  - Vue d’ensemble de DAS, NAS et SAN
+  - Comparaison de Fibre Channel, iSCSI et Fibre Channel over Ethernet
+  - Présentation d’iSNS, de DCB et MPIO
+  - Configuration du partage dans Windows Server 2016
+
+
+  #### Atelier &#58; Planification et configuration des technologies et des composants de stockage
+  - Planification des besoins de stockage
+  - Configuration du stockage iSCSI
+  - Configuration et gestion de l’infrastructure de partage
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire les stockages DAS, NAS et SAN.
+  - Comparer Fibre Channel, iSCSI et FCoE.
+  - Expliquer l’utilisation de iSNS, DCB et MPIO.
+  - Configurer le partage dans Windows Server.
+
+
+  ### Module 4&#58; Mise en œuvre des espaces de stockage et déduplication des données
+  Il explique comment mettre en œuvre et gérer des espaces de stockage. Ce module explique également comment mettre en œuvre la déduplication des données.
+  #### Leçons
+  - Mise en œuvre d’espaces de stockage
+  - Gestion des espaces de stockage
+  - Mise en œuvre de la déduplication des données
+
+
+  #### Atelier &#58; Mise en œuvre d’espaces de stockage
+  - Création d’un espace de stockage
+
+
+  #### Atelier &#58; Mise en œuvre de la déduplication des données
+  - Installation de la déduplication des données
+  - Configuration de la déduplication des données
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire et mettre en œuvre la fonctionnalité Espaces de stockage dans le contexte des besoins de stockage d’entreprise.
+  - Gérer et entretenir les espaces de stockage.
+  - Décrire et mettre en œuvre la déduplication des données.
+
+
+  ### Module 5&#58; Installation et configuration d’Hyper-V et des ordinateurs virtuels
+  Il donne un aperçu de Hyper-V et de la virtualisation. Il explique comment installer Hyper-V et configurer le stockage et la mise en réseau sur des serveurs hôtes Hyper-V. Il explique aussi comment configurer et gérer les machines virtuelles Hyper-V.
+  #### Leçons
+  - Vue d’ensemble d’Hyper-V
+  - Installation d’Hyper-V
+  - Configuration du stockage sur les serveurs hôtes Hyper-V
+  - Configuration de la mise en réseau sur les serveurs hôtes Hyper-V
+  - Configuration des ordinateurs virtuels Hyper-V
+  - Gestion des ordinateurs virtuels
+
+
+  #### Atelier &#58; Installation et configuration d’Hyper-V
+  - Vérification de l’installation du rôle de serveur Hyper-V
+  - Configuration des réseaux Hyper-V
+  - Création et configuration des ordinateurs virtuels
+  - Activation de la virtualisation imbriquée pour un ordinateur virtuel
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire Hyper-V et la virtualization.
+  - Installer Hyper-V.
+  - Configurer le stockage sur les serveurs hôtes Hyper-V.
+  - Configurer la mise en réseau sur les serveurs hôtes Hyper-V.
+  - Configurer les ordinateurs virtuels Hyper-V.
+  - Gérer les ordinateurs virtuels Hyper-V.
+
+
+  ### Module 6&#58; Déploiement et gestion de Windows et des conteneurs Hyper-V
+  Il donne une vue d’ensemble des conteneurs dans Windows Server 2016. En outre, ce module explique comment déployer Windows Server et les conteneurs Hyper-V, notamment les conteneurs Nano Server. Il explique également comment installer, configurer et gérer des conteneurs à l’aide de Windows PowerShell et Docker.
+  #### Leçons
+  - Vue d’ensemble des conteneurs dans Windows Server 2016
+  - Préparation pour les conteneurs
+  - Installation, configuration et gestion des conteneurs en utilisant Docker
+
+
+  #### Atelier &#58; Installation et configuration de conteneurs
+  - Installation de Docker Enterprise Edition sur Windows Server 2016
+  - Installation et configration d’un conteneur IIS
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire les conteneurs dans Windows Server 2016.
+  - Expliquer comment déployer des conteneurs.
+  - Expliquer comment installer, configurer et gérer des conteneurs en utilisant Docker.
+
+
+  ### Module 7&#58; Vue d’ensemble de la haute disponibilité et de la récupération d’urgence
+  Ce module donne un aperçu de la haute disponibilité et de la haute disponibilité avec clustering de basculement dans Windows Server 2016. Il explique en outre comment planifier des solutions de haute disponibilité et de récupération d’urgence avec des machines virtuelles Hyper-V. Par ailleurs, ce module explique comment sauvegarder et restaurer le système d’exploitation Windows Server 2016 ainsi que les données à l’aide de la sauvegarde Windows Server.
+  #### Leçons
+  - Définition des niveaux de disponibilité
+  - Planification des solutions de haute disponibilité et de récupération d’urgence avec des ordinateurs
+  - Sauvegarde et restauration à l'aide de la sauvegarde Windows Server
+  - Haute disponibilité avec le clustering de basculement dans Windows Server 2016
+
+
+  #### Atelier &#58; Planification et mise en œuvre d’une solution de haute disponibilité et de récupération d’urgence
+  - Détermination de la solution de haute disponibilité et de récupération d’urgence appropriée
+  - Mise en œuvre de la migration de stockage
+  - Configuration de réplicas Hyper-V
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Définir les niveaux de disponibilité.
+  - Planifier des solutions de haute disponibilité et de récupération d’urgence avec des ordinateurs virtuels Hyper-V.
+  - Sauvegarder et restaurer avec la Sauvegarde Windows Server.
+  - Décrire la haute disponibilité à l'aide d’un clustering avec basculement dans Windows Server 2016.
+
+
+  ### Module 8&#58; Mise en œuvre d’un clustering de basculement
+  Il explique comment planifier le clustering de basculement. Il explique également comment créer, gérer et dépanner un cluster de basculement.
+  #### Leçons
+  - Planification d’un cluster de basculement
+  - Création et configuration d’un nouveau cluster de basculement
+  - Maintien d’un cluster de basculement
+  - Dépannage d’un cluster de basculement
+  - Mise en œuvre de la haute disponibilité d’un site avec le clustering extensible
+
+
+  #### Atelier &#58; Mise en œuvre d’un clustering de basculement
+  - Création d’un cluster de basculement
+  - Vérification des paramètres de quorum et ajout d’un nœud
+
+
+  #### Atelier &#58; Gestion d’un cluster de basculement
+  - Expulsion d’un nœud et vérifier les paramètres de quorum
+  - Modification du quorum de témoin de disque à témoin de partage de fichiers et définition du nœud vot
+  - Vérification du haut niveau de disponibilité
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Planifier la mise en œuvre d’un clustering avec basculement.
+  - Créer et configurer un cluster de basculement.
+  - Assurer la maintenance d’un cluster de basculement.
+  - Dépanner un cluster de basculement.
+  - Mettre en œuvre la haute disponibilité et le clustering extensible pour un site.
+
+
+  ### Module 9&#58; Mise en œuvre d’un clustering de basculement avec Windows Server 2016 Hyper-V
+  Il décrit comment Hyper-V s’intègre avec le clustering de basculement. Il explique également comment mettre en œuvre des ordinateurs virtuels Hyper-V dans les clusters de basculement.
+  #### Leçons
+  - Vue d’ensemble de l’intégration d’Hyper-V Server 2016 avec clustering de basculement
+  - Mise en œuvre d’ordinateurs virtuels Hyper-V sur des clusters de basculement
+  - Principales fonctionnalités des ordinateurs virtuels dans un environnement en cluster
+
+
+  #### Atelier &#58; Mise en œuvre d’un clustering de basculement avec Windows Server 2016 Hyper-V
+  - Configuration du stockage iSCSI
+  - Configuration d’un cluster avec basculement pour Hyper-V
+  - Définition de la haute disponibilité d'un ordinateur virtuel
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire comment Hyper-V intègre avec le clustering de basculement.
+  - Mettre en œuvre des ordinateurs virtuels Hyper-V sur des clusters de basculement.
+  - Décrire les principales caractéristiques des ordinateurs virtuels dans un environnement en cluster.
+
+
+  ### Module 10&#58; Mise en œuvre de l’équilibrage de la charge réseau
+  Il donne un aperçu des clusters d’équilibrage de la charge réseau (NLB). Il explique également comment planifier et configurer une mise en œuvre de cluster NLB.
+  #### Leçons
+  - Vue d’ensemble de l’équilibrage de la charge réseau (NLB)
+  - Configuration d’un cluster NLB
+  - Planification de la mise en œuvre de l'équilibrage de la charge réseau (NLB)
+
+
+  #### Atelier &#58; Mise en œuvre de l'équilibrage de la charge réseau (NLB)
+  - Mise en œuvre d’un cluster d’équilibrage de la charge réseau (NLB)
+  - Configuration et gestion du cluster NLB
+  - Validation de la haute disponibilité pour le cluster NLB
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire la fonctionnalité d’équilibrage de la charge réseau (NLB).
+  - Configurer un cluster NLB.
+  - Expliquer comment planifier la mise en œuvre de l'équilibrage de la charge réseau.
+
+
+  ### Module 11&#58; Création et gestion des images de déploiement
+  Il donne un aperçu du processus de déploiement des images Windows Server 2016. Il explique également comment créer et gérer des images de déploiement en utilisant le Microsoft Deployment Toolkit (MDT). En outre, il décrit les différentes charges de travail dans l’environnement de machines virtuelles.
+  #### Leçons
+  - Introduction aux images de déploiement
+  - Création et gestion des images de déploiement en utilisant MDT
+  - Environnements d’ordinateur virtuel pour les différentes charges de travail
+
+
+  #### Atelier &#58; Utilisation de MDT pour déployer Windows Server 2016
+  - Configuration de MDT
+  - Création et déploiement d’une image
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire le processus de déploiement d’images Windows Server 2016.
+  - Créer et gérer des images de déploiement à l’aide de MDT.
+  - Décrire les différentes charges de travail dans l’environnement de l’ordinateur virtuel.
+
+
+  ### Module 12&#58; Gestion, analyse et maintenance des installations d’ordinateurs virtuels
+  Il donne un aperçu de Windows Server Update Services (WSUS) et des conditions requises pour mettre en œuvre WSUS. Il explique comment gérer le processus de mise à jour avec WSUS. En outre, ce module donne un aperçu de la Configuration d’état souhaité Windows PowerShell et des outils de surveillance de Windows Server 2016. Enfin, ce module décrit comment utiliser l’Analyseur de performances et comment gérer les journaux d’événements.
+  #### Leçons
+  - Vue d’ensemble de WSUS et des options de déploiement
+  - Processus de gestion des mises à jour avec WSUS
+  - Vue d’ensemble de DSC Windows PowerShell
+  - Vue d’ensemble des outils d’analyse Windows Server 2016
+  - Utilisation de l’Analyseur de performances
+  - Surveillance des journaux d’événements
+
+
+  #### Atelier &#58; Mise en œuvre de WSUS et déploiement des mises à jour
+  - Mise en œuvre de WSUS
+  - Configuration des paramètres des mises à jour
+  - Approbation et déploiement d’une mise à jour à l’aide de WSUS
+
+
+  #### Atelier &#58; Analyse et dépannage de Windows Server 2016
+  - Définition d’une ligne de base des performances
+  - Identification de la source d’un problème de performance
+  - Affichage et configuration des journaux d’événements centralisés
+
+  À la fin de ce module, les stagiaires seront à même de&#58;
+  - Décrire le but de Windows Server Update Services (WSUS) et les conditions requises pour mettre en œuvre WSUS.
+  - Gérer le processus de mise à jour avec WSUS.
+  - Décrire le but et les avantages de Windows PowerShell DSC.
+  - Décrire les outils de surveillance inclus dans Windows Server 2016.
+  - Utiliser l’Analyseur de performances.
+  - Gérer les journaux d’événements.

@@ -1,0 +1,359 @@
+### YamlMime:Course
+title: Abfragen in Microsoft® SQL Server® 2012
+metadata:
+  title: 'Course 21461-A: Abfragen in Microsoft® SQL Server® 2012'
+  description: 'Course 21461-A: Abfragen in Microsoft® SQL Server® 2012'
+uid: course.21461
+courseNumber: '21461-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Schreiben von SELECT-Abfragen
+- skill: Abfragen mehrerer Tabellen
+- skill: Verwenden von integrierten Funktionen
+- skill: Verwenden von Unterabfragen
+- skill: Ausführen von gespeicherten Prozeduren
+- skill: Verwenden von Mengenoperatoren
+- skill: Implementieren der Fehlerbehandlung
+- skill: Implementieren von Transaktionen
+- skill: Verwenden von Tabellenausdrücken
+- skill: Sortieren und Filtern von Daten
+- skill: Verwenden von Fensterrangfolge-, Offset- und Aggregationsfunktionen
+- skill: Abfragen von SQL Server-Metadaten
+- skill: Programmieren mit T-SQL
+- skill: Verbessern der Abfrageleistung
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-461
+summary: |-
+  Dieser fünftägige von einem Kursleiter durchgeführte Kurs vermittelt Kursteilnehmern die technischen Fähigkeiten, die erforderlich sind, um grundlegende Transact-SQL-Abfragen für Microsoft SQL Server 2012 zu schreiben. Dieser Kurs stellt die Grundlage für alle SQL Server-bezogenen Disziplinen dar&#58; Datenbankverwaltung, Datenbankentwicklung und Business Intelligence. Dieser Kurs unterstützt die Kursteilnehmer bei der Vorbereitung auf die Prüfung [70-461](http://www.microsoft.com/learning/exam-70-461.aspx).
+  
+  Alle Übungseinheiten für diesen Kurs können mithilfe der bereitgestellten virtuellen Computer durchgearbeitet werden. Wenn Sie jedoch ein Microsoft Windows® Azure™-Konto haben und die virtuellen Computer im Schulungsraum über eine Internetverbindung verfügen, können Sie vor Ort ggf. eine Verbindung mit dem Windows Azure-Server und der -Datenbank herstellen. Viele der Übungseinheiten in diesem Kurs können Sie durcharbeiten, während Sie mit Ihrer eigenen Windows Azure-Datenbank in der Cloud verbunden sind. Ihr Kursleiter sollte Ihnen eine aktuelle Liste der von Windows Azure unterstützten Übungseinheiten zur Verfügung stellen können. Um sich für ein Windows Azure-Testkonto zu registrieren, klicken Sie [hier](http://www.windowsazure.com/en-us/pricing/free-trial/).
+
+  #### Audience profile
+  Dieser Kurs ist für Datenbankadministratoren, Datenbankentwickler und Business Intelligence-Spezialisten vorgesehen. Teilnehmer werden mit hoher Wahrscheinlichkeit SQL-Poweruser sein, die nicht unbedingt auf Datenbanken fokussiert sind oder die Prüfung ablegen wollen, beispielsweise Berichtentwickler, Business Analysts und Clientanwendungsentwickler.
+prerequisitesSection: |-
+  Für diesen Kurs müssen die Kursteilnehmer folgende Vorkenntnisse mitbringen&#58;
+  - Praktische Erfahrungen mit relationalen Datenbanken
+  - Grundlegende Kenntnisse des Microsoft Windows-Betriebssystems und seiner Kernfunktionen
+  
+  Für diesen Kurs sollten die Kursteilnehmer folgende Vorkenntnisse mitbringen&#58;
+  - Grundlegende Kenntnisse in Virtualisierungstechnologie (bei den Übungen im Schulungsraum werden virtuelle Maschinen verwendet) 
+  
+  Zur Kursvorbereitung stehen folgende Ressourcen zur Verfügung&#58;
+  - Buch&#58; T-SQL-Grundlagen für Microsoft SQL Server 2012 und die Windows Azure SQL-Datenbank
+  - Autodidaktisches MCTS-Schulungskit 70-461
+outlineSection: |-
+  ### Modul 1&#58; Einführung in Microsoft SQL Server 2012
+  In dieser Unterrichtseinheit werden die SQL Server-Plattform und wichtige Tools vorgestellt. Dabei werden Editionen, Versionen, Abfragetools, Dokumentationsquellen und die logische Struktur von Datenbanken beschrieben.
+  #### Lektionen
+  - Einführung in Microsoft SQL Server 2012
+  - Erste Schritte mit SQL Server Management Studio
+
+
+  #### Lab &#58; Arbeiten mit Tools für SQL Server 2012
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Architektur und der Editionen von SQL Server 2012
+  - Arbeiten mit SQL Server Management Studio
+
+
+  ### Modul 2&#58; Erste Schritte mit der Windows Azure SQL-Datenbank
+  In dieser Unterrichtseinheit werden die Konzepte der Windows Azure SQL-Datenbank erläutert. Wenn die virtuellen Computer im Schulungsraum über eine Internetverbindung verfügen und Sie ein Windows Azure-Konto haben, können Sie ggf. eine Verbindung mit dem Azure-Server und der -Datenbank herstellen. Viele der Übungseinheiten in diesem Kurs können Sie durcharbeiten, während Sie mit Ihrer eigenen Azure-Datenbank in der Cloud verbunden sind.
+  #### Lektionen
+  - Übersicht über die Windows Azure SQL-Datenbank
+  - Arbeiten mit der Windows Azure SQL-Datenbank
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der grundlegenden Funktionen der Windows Azure SQL-Datenbank
+  - Bereitstellen eines Windows Azure SQL-Datenbank-Servers und Konfigurieren der entsprechenden Sicherheitseinstellungen
+
+
+  ### Modul 3&#58; Einführung in T-SQL-Abfragen
+  In dieser Unterrichtseinheit erhalten die Kursteilnehmer eine Einführung zu Transact SQL als primäre Abfragesprache von SQL Server. Dabei werden die grundlegende Struktur von T-SQL-Abfragen, der logische Ablauf einer SELECT-Anweisung und Konzepte wie Prädikate und auf Mengen basierende Vorgänge beschrieben.
+  #### Lektionen
+  - Einführung in T-SQL
+  - Grundlegendes zu Mengen
+  - Grundlegendes zu Prädikatlogik
+  - Grundlegendes zur logischen Reihenfolge der Vorgänge in SELECT-Anweisungen
+
+
+  #### Lab &#58; Einführung in Transact-SQL-Abfragen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Elemente von T-SQL und ihrer Rolle beim Schreiben von Abfragen
+  - Beschreiben der Verwendung von Mengen in SQL Server
+  - Beschreiben der Verwendung der Prädikatlogik in SQL Server
+  - Beschreiben der logischen Reihenfolge von Vorgängen in SELECT-Anweisungen
+
+
+  ### Modul 4&#58; Schreiben von SELECT-Abfragen
+  Diese Unterrichtseinheit umfasst eine Einführung in die Grundlagen von SELECT-Anweisungen. Dabei wird hauptsächlich auf Abfragen eingegangen, die auf einzelne Tabellen ausgerichtet sind.
+  #### Lektionen
+  - Schreiben von einfachen SELECT-Anweisungen
+  - Entfernen von Duplikaten mit DISTINCT
+  - Verwenden von Spalten- und Tabellenaliasen
+  - Schreiben von einfachen CASE-Ausdrücken
+
+
+  #### Lab &#58; Schreiben von grundlegenden SELECT-Anweisungen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Schreiben von einfachen SELECT-Anweisungen
+  - Löschen von Duplikaten mithilfe der DISTINCT-Klausel
+  - Verwenden von Spalten- und Tabellenaliasen
+  - Schreiben von einfachen CASE-Ausdrücken
+
+
+  ### Modul 5&#58; Abfragen mehrerer Tabellen
+  In dieser Unterrichtseinheit wird das Schreiben von Abfragen erläutert, die Daten aus mehreren Quellen in SQL Server kombinieren. Darüber hinaus wird die Verwendung von JOINs in T-SQL-Abfragen als Mechanismus zum Abrufen von Daten aus mehreren Tabellen beschrieben.
+  #### Lektionen
+  - Grundlegendes zu Joins
+  - Abfragen mit inneren Joins
+  - Abfragen mit äußeren Joins
+  - Abfragen mit Kreuzjoins and Selbstjoins
+
+
+  #### Lab &#58; Abfragen mehrerer Tabellen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben, wie mehrere Tabellen in einer SELECT-Anweisung mit Joins abgefragt werden können
+  - Schreiben von Abfragen, die innere Joins verwenden
+  - Schreiben von Abfragen, die äußere Joins verwenden
+  - Schreiben von Abfragen, die Selbstjoins und Kreuzjoins verwenden
+
+
+  ### Modul 6&#58; Sortieren und Filtern von Daten
+  In dieser Unterrichtseinheit wird erläutert, wie Abfragen optimiert werden können, um die Zahl der zurückgegebenen Zeilen zu begrenzen und um die Reihenfolge zu steuern, in der die Zeilen angezeigt werden. Außerdem wird in dieser Unterrichtseinheit darauf eingegangen, wie mit fehlenden oder unbekannten Ergebnissen verfahren wird.
+  #### Lektionen
+  - Sortieren von Daten
+  - Filtern von Daten mit einer WHERE-Klausel
+  - Filtern mit den TOP- und OFFSET-FETCH-Optionen
+  - Arbeiten mit unbekannten und fehlenden Werten
+
+
+  #### Lab &#58; Sortieren und Filtern von Daten
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Filtern von Daten mit Prädikaten in der WHERE-Klausel
+  - Sortieren von Daten mithilfe von ORDER BY
+  - Filtern von Daten in der SELECT-Klausel mit TOP
+  - Filtern von Daten mit OFFSET und FETCH
+
+
+  ### Modul 7&#58; Arbeiten mit SQL Server 2012-Datentypen
+  In dieser Unterrichtseinheit werden die Datentypen erläutert, die SQL Server zum Speichern von Daten verwendet. Außerdem werden die unterschiedlichen Typen von numerischen Datentypen und Datentypen für spezielle Zwecke vorgestellt. Darüber hinaus werden Konvertierungen zwischen Datentypen und die Wichtigkeit der Datentyprangfolge erklärt.
+  #### Lektionen
+  - Einführung in SQL Server 2012-Datentypen
+  - Arbeiten mit Zeichendaten
+  - Arbeiten mit Datums- und Uhrzeitdaten
+
+
+  #### Lab &#58; Arbeiten mit SQL Server 2012-Datentypen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben von numerischen Datentypen, Datentyprangfolge und Datentypkonvertierungen
+  - Schreiben von Abfragen mithilfe von Zeichendatentypen
+  - Schreiben von Abfragen mithilfe von Datums- und Zeitdatentypen
+
+
+  ### Modul 8&#58; Verwenden von integrierten Funktionen
+  In dieser Unterrichtseinheit wird die Verwendung von Funktionen beschrieben, die in SQL Server Denali integriert sind. Darüber hinaus werden einige häufige Verwendungsszenarien erläutert, einschließlich Datentypkonvertierung, Testen von logischen Ergebnissen und NULL-Zulässigkeit.
+  #### Lektionen
+  - Schreiben von Abfragen mit integrierten Funktionen
+  - Verwenden der Konvertierungsfunktionen
+  - Verwenden von logischen Funktionen
+  - Verwenden von Funktionen zum Arbeiten mit NULL-Werten
+
+
+  #### Lab &#58; Verwenden von integrierten Funktionen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Schreiben von Abfragen mit integrierten Skalarfunktionen
+  - Verwenden von Konvertierungsfunktionen
+  - Verwenden von logischen Funktionen
+  - Verwenden von Funktionen, bei denen ein NULL-Wert verwendet werden kann
+
+
+  ### Modul 9&#58; Gruppieren und Aggregieren von Daten
+  Diese Unterrichtseinheit umfasst eine Einführung in die Methoden für das Gruppieren von Daten in einer Abfrage, das Aggregieren der gruppierten Daten und das Filtern von Gruppen mit HAVING. Die Unterrichtseinheit soll den Kursteilnehmern ein Verständnis dafür vermitteln, warum bei einer SELECT-Klausel Beschränkungen bei der Spaltenbenennung in der GROUP BY-Klausel gelten und welche Spalten in der SELECT-Klausel aufgeführt werden können.
+  #### Lektionen
+  - Verwenden von Aggregatfunktionen
+  - Verwenden der GROUP BY-Klausel
+  - Filtern von Gruppen mit HAVING
+
+
+  #### Lab &#58; Gruppieren und Aggregieren von Daten
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Schreiben von Abfragen, die Daten mithilfe der integrierten Aggregatfunktionen zusammenfassen
+  - Verwenden der GROUP BY-Klausel, um Zeilen in Gruppen anzuordnen
+  - Verwenden der HAVING-Klausel, um Gruppen basierend auf einer Suchbedingung herauszufiltern
+
+
+  ### Modul 10&#58; Verwenden von Unterabfragen
+  In dieser Unterrichtseinheit wird die Verwendung von Unterabfragen in verschiedenen Teilen einer SELECT-Anweisung beschrieben. Dabei wird auch die Verwendung von skalaren Unterabfragen und Unterabfragen mit mehreren Ergebnissen sowie die Verwendung der IN- und EXISTS-Operatoren behandelt.
+  #### Lektionen
+  - Schreiben von eigenständigen Unterabfragen
+  - Schreiben von korrelierten Unterabfragen
+  - Verwenden des EXISTS-Prädikats mit Unterabfragen
+
+
+  #### Lab &#58; Verwenden von Unterabfragen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Verwendung von Abfragen, die in anderen Abfragen geschachtelt sind
+  - Schreiben von eigenständigen Unterabfragen, die Skalarergebnisse oder Ergebnisse mit mehreren Werten zurückgeben
+  - Schreiben von korrelierten Unterabfragen, die Skalarergebnisse oder Ergebnisse mit mehreren Werten zurückgeben
+  - Verwenden des EXISTS-Prädikats, um das Vorhandensein von Zeilen in einer Unterabfrage effizient zu überprüfen
+
+
+  ### Modul 11&#58; Verwenden von Tabellenausdrücken
+  Diese Unterrichtseinheit umfasst eine Einführung in T-SQL-Ausdrücke, die eine gültige relationale Tabelle zurückgeben, in der Regel zur weiteren Verwendung in der Abfrage. Dabei werden Ansichten, abgeleitete Tabellen, allgemeine Tabellenausdrücke und Inline-Tabellenwertfunktionen behandelt.
+  #### Lektionen
+  - Verwenden von abgeleiteten Tabellen
+  - Verwenden allgemeiner Tabellenausdrücke
+  - Verwenden von Ansichten
+  - Verwenden von Inline-Tabellenwertfunktionen
+
+
+  #### Lab &#58; Verwenden von Tabellenausdrücken
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Schreiben von Abfragen, die abgeleitete Tabellen verwenden
+  - Schreiben von Abfragen, die allgemeine Tabellenausdrücke verwenden
+  - Erstellen einfacher Ansichten und Schreiben von Abfragen für diese Ansichten
+  - Erstellen einfacher Inline-Tabellenwertfunktionen und Schreiben von Abfragen für diese Funktionen
+
+
+  ### Modul 12&#58; Verwenden von Mengenoperatoren
+  In dieser Unterrichtseinheit werden Vorgänge vorgestellt, die mehrere Datensätze umfassen. Dabei wird die Verwendung der Operatoren UNION, UNION ALL, APPLY, CROSS APPLY, OUTER APPLY sowie die Verwendung der Operatoren EXCEPT und INTERSECTS behandelt.
+  #### Lektionen
+  - Schreiben von Abfragen mit dem UNION-Operator
+  - Verwenden von EXCEPT und INTERSECT
+  - Verwenden von APPLY
+
+
+  #### Lab &#58; Verwenden von Mengenoperatoren
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Schreiben von Abfragen, die Daten mithilfe des UNION-Operators kombinieren
+  - Schreiben von Abfragen, die Mengen mithilfe der INTERSECT- und EXCEPT-Operatoren vergleichen
+  - Schreiben von Abfragen, die mithilfe von APPLY Zeilen in einer Tabelle basierend auf den Ergebnissen einer abgeleiteten Tabelle oder Funktion bearbeiten
+
+
+  ### Modul 13&#58; Verwenden von Fensterrangfolge-, Offset- und Aggregationsfunktionen
+  Diese Unterrichtseinheit umfasst eine Einführung in Fensterfunktionen, einschließlich Rangfolge-, Aggregations- und Offset-Funktionen. Ein Großteil dieser Funktionalität wurde in SQL Server 2012 neu eingeführt. Die Unterrichtseinheit befasst sich zudem mit der Verwendung von T-SQL-Funktionen wie ROW_NUMBER, RANK, DENSE_RANK, NTILE, LAG, LEAD, FIRST_VALUE und LAST_VALUE zur Durchführung von Berechnungen für eine Gruppe oder ein Fenster von Zeilen.
+  #### Lektionen
+  - Erstellen von Fenstern mit OVER
+  - Kennenlernen der Fensterfunktionen
+
+
+  #### Lab &#58; Verwenden von Fensterrangfolge-, Offset- und Aggregationsfunktionen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Vorteile, die die Verwendung von Fensterfunktionen hat
+  - Beschränken von Fensterfunktionen auf Zeilen, die in einer OVER-Klausel definiert sind, einschließlich Partitionen und Frames
+  - Schreiben von Abfragen, die Fensterfunktionen zum Verarbeiten eines Fensters von Zeilen verwenden und Rangfolge-, Aggregations- und Offset-Vergleichsergebnisse zurückgeben
+
+
+  ### Modul 14&#58; Pivotieren und Groupingsets
+  In dieser Unterrichtseinheit werden Techniken zum Pivotieren von Daten in T-SQL erläutert und die Grundlagen der GROUPING SETS-Klausel vorgestellt. Darüber hinaus wird die Verwendung der GROUP BY ROLLUP- und GROUP BY CUBE-Syntax in SQL Server 2012 behandelt.
+  #### Lektionen
+  - Schreiben von Abfragen mit PIVOT und UNPIVOT
+  - Arbeiten mit Groupingsets
+
+
+  #### Lab &#58; Pivotieren und Groupingsets
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Schreiben von Abfragen, die Resultsets pivotieren und entpivotieren
+  - Schreiben von Abfragen, die mehrere Gruppierungen mit Groupingsets angeben
+
+
+  ### Modul 15&#58; Abfragen von SQL Server-Metadaten
+  In dieser Unterrichtseinheit wird die Verwendung von SQL Server-Systemobjekten in T-SQL-Abfragen beschrieben. Darüber hinaus wird die Verwendung von Systemkatalogsichten, gespeicherten Systemprozeduren, Systemfunktionen und dynamischen Verwaltungsobjekten erläutert.
+  #### Lektionen
+  - Abfragen von Systemkatalogsichten und Systemfunktionen
+  - Ausführen von gespeicherten Systemprozeduren
+  - Abfragen von dynamischen Verwaltungsobjekten
+
+
+  #### Lab &#58; Abfragen von SQL Server-Metadaten
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Schreiben von Abfragen, die Systemmetadaten mithilfe von Systemsichten und -funktionen abrufen
+  - Ausführen von gespeicherten Systemprozeduren, um Systeminformationen zurückzugeben
+  - Schreiben von Abfragen, die Systemmetadaten und Statusinformationen mithilfe von systemdynamischen Verwaltungssichten und -funktionen abrufen
+
+
+  ### Modul 16&#58; Ausführen von gespeicherten Systemprozeduren
+  In dieser Unterrichtseinheit wird die Verwendung vorhandener gespeicherter Prozeduren in einer T-SQL-Abfrageumgebung beschrieben. Darüber hinaus wird die Verwendung von EXECUTE erläutert und es wird darauf eingegangen, wie Eingabe- und Ausgabeparameter an eine Prozedur übergeben werden und wie gespeicherte Systemprozeduren aufgerufen werden.
+  #### Lektionen
+  - Abfragen von Daten mit gespeicherten Prozeduren
+  - Übergeben von Parametern an gespeicherte Prozeduren
+  - Erstellen von einfachen gespeicherten Prozeduren
+  - Arbeiten mit dynamischen SQL-Anweisungen
+
+
+  #### Lab &#58; Ausführen von gespeicherten Systemprozeduren
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Zurückgeben von Ergebnissen durch Ausführen von gespeicherten Prozeduren
+  - Übergeben von Parametern an Prozeduren
+  - Erstellen von einfachen gespeicherten Prozeduren, die eine SELECT-Anweisung kapseln
+  - Erstellen und Ausführen von dynamischen SQL-Anweisungen mit EXEC und sp_executesql
+
+
+  ### Modul 17&#58; Programmieren mit T-SQL
+  Diese Unterrichtseinheit bietet eine grundlegende Einführung in T-SQL-Programmierbegriffe und Objekte. Dabei werden Batches, Variablen und Ablaufsteuerungselemente wie Schleifen und bedingte Anweisungen beschrieben und es wird darauf eingegangen, wie dynamische SQL-Anweisungen erstellt und ausgeführt und wie Synonyme verwendet werden.
+  #### Lektionen
+  - T-SQL-Programmierelemente
+  - Steuern des Programmablaufs
+
+
+  #### Lab &#58; Programmieren mit T-SQL
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Sprachelemente von T-SQL, die für einfache Programmieraufgaben verwendet werden
+  - Beschreiben von Batches und deren Verarbeitung durch SQL Server
+  - Deklarieren und Zuweisen von Variablen und Synonymen
+  - Verwenden von IF- und WHILE-Blöcken zur Steuerung des Programmflusses
+
+
+  ### Modul 18&#58; Implementieren der Fehlerbehandlung
+  In dieser Unterrichtseinheit wird die Verwendung von Fehlerhandlern in T-SQL-Code beschrieben. Außerdem wird der Unterschied zwischen Kompilierungsfehlern und Laufzeitfehlern erläutert und es wird darauf eingegangen, wie Fehler sich auf Batches auswirken. Darüber hinaus behandelt die Unterrichtseinheit die Vorgehensweise zur Fehlerbehandlung mit TRY/CATCH-Blöcken, die Verwendung der ERROR-Funktionsklasse und die Verwendung der neuen THROW-Anweisung.
+  #### Lektionen
+  - Verwenden von TRY/CATCH-Blöcken
+  - Arbeiten mit Fehlerinformationen
+
+
+  #### Lab &#58; Implementieren der Fehlerbehandlung
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben des Verhaltens von SQL Server, wenn Fehler in T-SQL-Code auftreten
+  - Implementieren einer strukturierten Ausnahmebehandlung in T-SQL
+  - Zurückgeben von Informationen zu Fehlern von Systemobjekten
+  - Heraufstufen von benutzerdefinierten Fehlern und Übergeben von Systemfehlern in T-SQL-Code
+
+
+  ### Modul 19&#58; Implementieren von Transaktionen
+  In dieser Unterrichtseinheit werden die Konzepte der Transaktionsverwaltung in SQL Server beschrieben. Die Kursteilnehmer erhalten einen allgemeinen Überblick über Transaktionseigenschaften und die Grundlagen zum Markieren von Transaktionen mit BEGIN, COMMIT und ROLLBACK.
+  #### Lektionen
+  - Transaktionen und das Datenbankmodul
+  - Steuern von Transaktionen
+
+
+  #### Lab &#58; Implementieren von Transaktionen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben von Transaktionen und der Unterschiede zwischen Batches und Transaktionen
+  - Beschreiben von Batches und deren Verarbeitung durch SQL Server
+  - Erstellen und Verwalten von Transaktionen mit Anweisungen für die Transaktionssteuersprache
+  - Verwenden von SET XACT_ABORT, um die Verarbeitung von Transaktionen außerhalb von TRY/CATCH-Blöcken in SQL Server zu definieren
+
+
+  ### Modul 20&#58; Verbessern der Abfrageleistung
+  In dieser Unterrichtseinheit werden die Konzepte der Systemressourcenverwendung und die Auswirkungen auf die Leistung beim Abfragen von SQL Server 2012 behandelt. Die Kursteilnehmer erhalten einen allgemeinen Überblick über die Verwendung von Indizes in SQL Server, die Verwendung von Ausführungsplänen in SQL Server Management Studio und die Verwendung von SET-Optionen zum Anzeigen der Systemressourcenverwendung beim Ausführen von Abfragen. Außerdem erfolgt ein Vergleich von satzbasierten Vorgängen mit cursorbasierten Vorgängen.
+  #### Lektionen
+  - Faktoren der Abfrageleistung
+  - Anzeigen von Abfrageleistungsdaten
+
+
+  #### Lab &#58; Verbessern der Abfrageleistung
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Komponenten von gut funktionierenden Abfragen
+  - Beschreiben der Rolle von Indizes und Statistiken in SQL Server
+  - Anzeigen und Interpretieren von grundlegenden Abfrageplänen
+  - Anzeigen und Interpretieren von grundlegenden Abfrageleistungsdaten

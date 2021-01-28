@@ -1,0 +1,275 @@
+### YamlMime:Course
+title: Designing and Implementing a Server Infrastructure
+metadata:
+  title: 'Course 20413-C: Designing and Implementing a Server Infrastructure'
+  description: 'Course 20413-C: Designing and Implementing a Server Infrastructure'
+uid: course.20413
+courseNumber: '20413-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Plan server upgrade and migration.
+- skill: Plan and implement a server deployment strategy.
+- skill: Plan and deploy servers by using System Center 2012 R2 Virtual Machine Manager (VMM).
+- skill: Design and maintain an IP configuration and address management solution.
+- skill: Design and implement name resolution.
+- skill: Design and implement an AD DS forest and domain infrastructure.
+- skill: Design and implement an AD DS organizational unit (OU) infrastructure.
+- skill: Design and implement a Group Policy Object (GPO) strategy.
+- skill: Design and implement an AD DS physical topology.
+- skill: Plan and implement storage and file services.
+- skill: Design and implement network protection.
+- skill: Design and implement remote access services.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- administrator
+products:
+- windows-server
+exams:
+- uid: exam.70-413
+summary: |-
+  Get hands-on instruction and practice planning, designing and deploying a physical and logical Windows Server® 2012 R2 enterprise infrastructure in this 5-day Microsoft Official course. This course is part one in a series of two courses that provides the skills and knowledge necessary to design and implement a Windows Server 2012 R2 infrastructure in an enterprise environment. The two courses collectively cover designing, planning, deploying, securing, monitoring, automating, and virtualizing an enterprise server infrastructure. This course covers the knowledge and skills needed to provide an enterprise solution that supports manual and automated server installations in a physical and virtual environment including the supporting file and storage services. You will also learn the skills necessary to provide enterprise networking solutions such as DHCP, IPAM, VPN, and DirectAccess. You will also learn the skills necessary to design and implement a forest and domain infrastructure including multi domains/forest and branch office scenarios. This course maps directly to and is the preferred choice for hands-on preparation for Microsoft Certified Solutions Expert (MCSE)&#58; Exam 413&#58; Designing and Implementing and Server Infrastructure, which is the fourth of five exams required for MCSE&#58; Server Infrastructure certification. 
+  
+  NOTE&#58; Labs in this course are based on Windows Server 2012 R2 and System Center 2012 R2. This course is designed for experienced IT professionals who support medium to large enterprises and have experience administering Windows Server 2012 R2 and have an MCSA&#58; Windows Server 2012 certification or equivalent skills.
+
+  #### Audience profile
+  This course is intended for IT professionals who are responsible for planning, designing, and deploying a physical and a logical Windows Server 2012 enterprise Active Directory® Domain Services (AD DS) infrastructure including the network services necessary. They have experience of previous Windows Server operating systems and possess Windows Server 2012 certification Microsoft Certified Solutions Associate (MCSA) or equivalent skills. The course is also intended for IT professionals who are looking to take the exam 70-413&#58; Designing and Implementing a Server Infrastructure, as a stand-alone, or as part of the requirement for the Microsoft Certified Solutions Expert (MCSE)&#58; Server Infrastructure Certification.
+prerequisitesSection: |-
+  Candidates for this course have good Windows client and server operating system knowledge and basic AD DS and networking experience in an enterprise/small business (SMB) environment together with application configuration experience.
+  
+  In addition to their professional experience, students who attend this training should already have the following technical knowledge&#58;
+  - A good understanding of Transmission Control Protocol/Internet Protocol (TCP/IP) fundamentals and networking concepts.
+  - A good working knowledge of both Windows Server 2012 R2 and Active Directory® Domain Services (AD DS). For example, domain user accounts, domain vs. local user accounts, user profiles, and group membership.
+  - A good understanding of both scripts and batch files.
+  - A solid understanding of security concepts, such as authentication and authorization.
+  - Familiarity with deployment, packaging, and imaging tools.
+  - Ability to work in a team/virtual team.
+  - Ability to produce good documentation and have the appropriate communication skills to create proposals and make budget recommendations.
+  - Knowledge equivalent to Windows 2012 R2 MCSA.
+  
+  Students who attend this training can meet the prerequisites by attending the following courses, or obtaining equivalent knowledge and skills&#58;
+  - 20410D&#58; Installing and Configuring Windows Server 2012
+  - 20411D&#58; Administering Windows Server 2012
+  - 20412D&#58; Configuring Advanced Windows Server 2012 Services
+  
+  OR
+  
+  - 20417D&#58; Upgrading Your Skills to MCSA Windows Server 2012
+outlineSection: |-
+  ### Module 1&#58; Planning Server Upgrade and Migration
+  This module explains how to plan a server upgrade and migration strategy.
+  #### Lessons
+  - Considerations for Upgrades and Migrations
+  - Creating a Server Upgrade and Migration Plan
+  - Planning for Virtualization
+
+
+  #### Lab &#58; Planning a Server Upgrade and Migration
+
+  After completing this module, students will be able to&#58;
+  - Describe the factors to consider when performing a server upgrade and migration.
+  - Create a plan for a server upgrade and migration.
+  - Plan for server virtualization.
+
+
+  ### Module 2&#58; Planning and Implementing a Server Deployment Strategy
+  This module explains how to design an automated server installation strategy and plan and implement a server deployment infrastructure.
+  #### Lessons
+  - Selecting an Appropriate Server Deployment Strategy
+  - Implementing an Automated Deployment Strategy
+
+
+  #### Lab &#58; Planning and Implementing a Server Deployment Infrastructure
+
+  After completing this module, students will be able to&#58;
+  - Select an appropriate server deployment strategy.
+  - Implement an automated deployment strategy.
+
+
+  ### Module 3&#58; Planning and Deploying Servers Using Virtual Machine Manager
+  This module explains how to plan and deploy a Virtual Machine Manager (VMM) infrastructure for deploying servers.
+  #### Lessons
+  - System Center 2012 R2 Virtual Machine Manager Overview
+  - Implementing a Virtual Machine Manager Library and Profiles
+  - Planning and Deploying Virtual Machine Manager Services
+
+
+  #### Lab &#58; Planning and Deploying Virtual Machines by Using Virtual Machine Manager
+
+  After completing this module, students will be able to&#58;
+  - Describe the core VMM architecture and components.
+  - Implement VMM libraries and profiles.
+  - Plan and deploy VMM services.
+
+
+  ### Module 4&#58; Designing and Maintaining an IP Configuration and Address Management Solution
+  This module explains how to design and maintain IP address management (IPAM) and a Dynamic Host Configuration Protocol (DHCP) solution.
+  #### Lessons
+  - Designing DHCP Servers
+  - Planning DHCP Scopes
+  - Designing an IPAM Provisioning Strategy
+  - Managing Servers and Address Spaces by Using IPAM
+
+
+  #### Lab &#58; Designing and Maintaining an IP Configuration and IP Address Management Solution
+
+  After completing this module, students will be able to&#58;
+  - Design a DHCP server implementation.
+  - Plan DHCP scope configuration and options.
+  - Design an IPAM provisioning strategy.
+  - Manage servers and address spaces by using IPAM.
+
+
+  ### Module 5&#58; Designing and Implementing Name Resolution
+  This module explains how to design a name resolution strategy.
+  #### Lessons
+  - Designing a DNS Server Implementation Strategy
+  - Designing the DNS Namespace
+  - Designing DNS Zones
+  - Designing DNS Zone Replication and Delegation
+  - Optimizing DNS Servers
+  - Designing DNS for High Availability and Security
+
+
+  #### Lab &#58; Designing and Implementing Name Resolution
+
+  After completing this module, students will be able to&#58;
+  - Design a Domain Name System (DNS) server-implementation strategy.
+  - Design a DNS namespace.
+  - Design and implement a DNS zone strategy.
+  - Design and configure DNS zone replication and delegation.
+  - Optimize the DNS server configuration.
+  - Design DNS for high availability and security.
+
+
+  ### Module 6&#58; Designing and Implementing an Active Directory Domain Services Forest and Domain Infrastructure
+  This module explains how to design and implement an AD DS forest and domain infrastructure.
+  #### Lessons
+  - Designing an Active Directory Forest
+  - Designing and Implementing Active Directory Forest Trusts
+  - Designing Active Directory Integration with Windows Azure Active Directory
+  - Designing and Implementing Active Directory Domains
+  - Designing DNS Namespaces in Active Directory Environments
+  - Designing Active Directory Domain Trusts
+
+
+  #### Lab &#58; Designing and Implementing an Active Directory Domain Services Forest Infrastructure
+
+  #### Lab &#58; Designing and Implementing an Active Directory Domain Infrastructure
+
+  After completing this module, students will be able to&#58;
+  - Design an Active Directory forest.
+  - Design and implement Active Directory forest trusts.
+  - Design Active Directory integration with Windows Azure Active Directory.
+  - Design and implement Active Directory domains.
+  - Design DNS namespaces in an Active Directory environment.
+  - Design and implement Active Directory domain trusts.
+
+
+  ### Module 7&#58; Designing and Implementing an AD DS Organizational Unit Infrastructure
+  This module explains how to design and implement an OU infrastructure and an AD DS permissions model.
+  #### Lessons
+  - Planning the Active Directory Administrative Tasks Delegation Model
+  - Designing an OU Structure
+  - Designing and Implementing an AD DS Group Strategy
+
+
+  #### Lab &#58; Designing and Implementing an Active Directory OU Infrastructure and Delegation Model
+
+  After completing this module, students will be able to&#58;
+  - Plan an Active Directory administrative tasks delegation model.
+  - Design an OU structure.
+  - Design and implement an AD DS group strategy.
+
+
+  ### Module 8&#58; Designing and Implementing a Group Policy Object Strategy
+  This module explains how to design and implement a Group Policy Object (GPO) strategy.
+  #### Lessons
+  - Collecting the Information Required for a GPO Design
+  - Designing and Implementing GPOs
+  - Designing GPO Processing
+  - Planning Group Policy Management
+
+
+  #### Lab &#58; Designing and Implementing a Group Policy Object Strategy
+
+  After completing this module, students will be able to&#58;
+  - Collect and analyze the information required to facilitate a GPO design.
+  - Create a GPO design and implement it.
+  - Create a GPO processing design.
+  - Plan GPO management.
+
+
+  ### Module 9&#58; Designing and Implementing an AD DS Physical Topology
+  This module explains how to design an AD DS sites topology and a domain controller placement strategy.
+  #### Lessons
+  - Designing and Implementing Active Directory Sites
+  - Designing Active Directory Replication
+  - Designing the Placement of Domain Controllers
+  - Virtualization Considerations for Domain Controllers
+  - Designing Highly Available Domain Controllers
+
+
+  #### Lab &#58; Designing and Implementing an Active Directory Domain Services Physical Topology
+
+  After completing this module, students will be able to&#58;
+  - Design and implement Active Directory sites.
+  - Design and configure Active Directory replication.
+  - Design domain controller placement.
+  - Plan for virtualization of the domain controller role.
+  - Design domain controller deployments for high availability.
+
+
+  ### Module 10&#58; Planning and Implementing Storage and File Services
+  This module explains how to plan and implement storage and file services.
+  #### Lessons
+  - Planning and Implementing iSCSI SANs
+  - Planning and Implementing Storage Spaces
+  - Optimizing File Services for Branch Offices
+
+
+  #### Lab &#58; Planning and Implementing Storage
+
+  After completing this module, students will be able to&#58;
+  - Plan and implement an Internet Small Computer System Interface (iSCSI) SAN.
+  - Plan and implement storage spaces.
+  - Optimize file services for branch offices.
+
+
+  ### Module 11&#58; Designing and Implementing Network Protection
+  This module explains how to design and implement network protection.
+  #### Lessons
+  - Overview of Network Security Design
+  - Designing and Implementing a Windows Firewall Strategy
+  - Designing and Implementing a NAP Infrastructure
+
+
+  #### Lab &#58; Designing and Implementing Network Protection
+
+  After completing this module, students will be able to&#58;
+
+  - Describe the design process for network security.
+  - Design and implement a Windows Firewall strategy.
+  - Design and implement Network Access Protection (NAP).
+
+
+  ### Module 12&#58; Designing and Implementing Remote Access Services
+  This module explains how to design and implement remote access services.
+  #### Lessons
+  - Planning and Implementing DirectAccess
+  - Planning and Implementing VPN
+  - Planning and Implementing Web Application Proxy
+  - Planning a Complex Remote Access Infrastructure
+
+
+  #### Lab &#58; Designing and Implementing Network Access Services
+
+  After completing this module, students will be able to&#58;
+  - Plan and implement DirectAccess.
+  - Plan and implement a virtual private network (VPN).
+  - Plan and implement a Web Application Proxy.
+  - Plan a complex remote access infrastructure.

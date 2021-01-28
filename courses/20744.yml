@@ -1,0 +1,315 @@
+### YamlMime:Course
+title: Securing Windows Server 2016
+metadata:
+  title: 'Course 20744-C: Securing Windows Server 2016'
+  description: 'Course 20744-C: Securing Windows Server 2016'
+uid: course.20744
+courseNumber: '20744-C'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Secure Windows Server.
+- skill: Protect credentials and implement privileged access workstations.
+- skill: Limit administrator rights with Just Enough Administration.
+- skill: Manage privileged access.
+- skill: Mitigate malware and threats.
+- skill: Analyze activity with advanced auditing and log analytics.
+- skill: Deploy and configure Advanced Threat Analytics and Microsoft Operations Management Suite.
+- skill: Configure Guarded Fabric virtual machines (VMs).
+- skill: Use the Security Compliance Toolkit (SCT) and containers to improve security.
+- skill: Plan and protect data.
+- skill: Optimize and secure file services.
+- skill: Secure network traffic with firewalls and encryption.
+- skill: Secure network traffic by using DNSSEC and Message Analyzer.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- administrator
+products:
+- windows-server
+exams:
+- uid: exam.70-744
+summary: |-
+  This five-day, instructor-led course teaches IT professionals how they can enhance the security of the IT infrastructure that they administer. This course begins by emphasizing the importance of assuming that network breaches have occurred already, and then teaches you how to protect administrative credentials and rights to help ensure that administrators can perform only the tasks that they need to, when they need to.
+  
+  This course explains how you can use auditing and the Advanced Threat Analysis feature in Windows Server 2016 to identify security issues. You will also learn how to mitigate malware threats, secure your virtualization platform, and use deployment options such as Nano server and containers to enhance security. The course also explains how you can help protect access to files by using encryption and dynamic access control, and how you can enhance your network’s security.
+
+  #### Audience profile
+  This course is for IT professionals who need to securely administer Windows Server 2016 networks. These professionals typically work with networks that are configured as Windows Server domain-based environments, with managed access to the internet and cloud services. 
+  
+  Students who seek certification in the 70-744 Securing Windows server exam also will benefit from this course.
+prerequisitesSection: |-
+  Students should have at least two years of experience in the IT field and should have&#58;
+  - Completed courses 740, 741, and 742, or the equivalent.
+  - A solid, practical understanding of networking fundamentals, including TCP/IP, User Datagram Protocol (UDP), and Domain Name System (DNS).
+  - A solid, practical understanding of Active Directory Domain Services (AD DS) principles.
+  - A solid, practical understanding of Microsoft Hyper-V virtualization fundamentals.
+  - An understanding of Windows Server security principles.
+outlineSection: |-
+  ### Module 1&#58; Attacks, breach detection, and Sysinternals tools
+  This module frames the course so that students are thinking about security in environments where the infrastructure’s basis is predominantly Microsoft products. The module begins with teaching students about the “assume breach” philosophy and getting them to understand the different types of attacks that can occur, including attack timelines and vectors. Additionally, it gets students thinking about key resources, how they respond when they detect an incident, and how an organization’s direct needs and legislative requirements dictate its security policy.
+  #### Lessons
+  - Understanding attacks
+  - Detecting security breaches
+  - Examining activity with the Sysinternals tools
+
+
+  #### Lab &#58; Basic breach detection and incident response strategies
+  - Identifying attack types
+  - Exploring Sysinternals tools
+
+  After completing this module, students will be able to&#58;
+  - Describe the types of attacks that can occur.
+  - Explain how to detect security breaches.
+  - Explain how to examine activity by using the Sysinternals suite of tools.
+
+
+  ### Module 2&#58; Protecting credentials and privileged access
+  This module covers user accounts and rights, computer and service accounts, credentials, Privileged Access Workstations, and the Local Administrator Password Solution. In this module, students will learn about configuring user rights and security options, protecting credentials by using Credential Guard, implementing Privileged Access Workstations, and managing and deploying Local Administrator Password Solution to manage local administrator account passwords.
+  #### Lessons
+  - Understanding user rights
+  - Computer and service accounts
+  - Protecting credentials
+  - Privileged Access Workstations and jump servers
+  - Local administrator password solution
+
+
+  #### Lab &#58; Implementing user rights, security options, and group managed service accounts
+  - Configuring user rights and account-security options
+  - Delegating privileges
+  - Creating group Managed Service Accounts
+  - Locating problematic accounts
+
+
+  #### Lab &#58; Configuring and deploying LAPs
+  - Installing and configuring LAPs
+  - Deploying and testing LAPs
+
+  After completing this module, students will be able to&#58;
+  - Configure user rights.
+  - Implement computer and service accounts.
+  - Protect credentials.
+  - Describe how to configure Privileged Access Workstations and jump servers.
+  - Configure the Local Administrator Password Solution (LAPS).
+
+
+  ### Module 3&#58; Limiting administrator rights with Just Enough Administration
+  This module explains how to deploy and configure Just Enough Administration (JEA), which is an administrative technology that allows students to apply role-based access control (RBAC) principles through Windows PowerShell remote sessions.
+  #### Lessons
+  - Understanding JEA
+  - Verifying and deploying JEA
+
+
+  #### Lab &#58; Limiting administrator privileges with JEA
+  - Creating a role-capability file
+  - Creating a session-configuration file
+  - Creating a JEA endpoint
+  - Connecting and testing a JEA endpoint
+  - Deploying a JEA configuration to another computer
+
+  After completing this module, students will be able to&#58;
+  - Understand JEA.
+  - Verify and deploy JEA.
+
+
+  ### Module 4&#58; Privileged access management and administrative forests
+  This module explains the concepts of Enhanced Security Administrative Environment (ESAE) forests, Microsoft Identity Manager (MIM), and Just In Time (JIT) Administration, or Privileged Access Management (PAM).
+  #### Lessons
+  - ESAE forests
+  - Overview of Microsoft Identity Manager
+  - Overview of JIT administration and PAM
+
+
+  #### Lab &#58; Limiting administrator privileges with PAM
+  - Layered approach to security
+  - Configuring trust relationships and shadow principals
+  - Requesting privileged access
+  - Managing PAM roles
+
+  After completing this module, students will be able to&#58;
+  - Describe ESAE forests.
+  - Describe MIM.
+  - Understand JIT administration and PAM.
+
+
+  ### Module 5&#58; Mitigating malware and threats
+  This module explains how to use tools such as Windows Defender, Windows AppLocker, Microsoft Device Guard, Windows Defender Application Guard, and Windows Defender Exploit Guard.
+  #### Lessons
+  - Configuring and managing Windows Defender
+  - Restricting software
+  - Configuring and using the Device Guard feature
+
+
+  #### Lab &#58; Securing applications with Windows Defender, AppLocker, and Device Guard Rules
+  - Configuring Windows Defender
+  - Configuring AppLocker
+  - Configuring Device Guard
+
+  After completing this module, students will be able to&#58;
+  - Configure and manage Windows Defender.
+  - Use software restriction policies and AppLocker.
+  - Configure and use the Device Guard feature.
+
+
+  ### Module 6&#58; Analyzing activity with advanced auditing and log analytics
+  This module provides an overview of auditing, and then goes into detail about how to configure advanced auditing and Windows PowerShell auditing and logging.
+  #### Lessons
+  - Overview of auditing
+  - Advanced auditing
+  - Windows PowerShell auditing and logging
+
+
+  #### Lab &#58; Configuring advanced auditing
+  - Configuring the auditing of file system access
+  - Auditing domain sign-ins
+  - Managing advanced audit policy configuration
+  - Windows PowerShell logging and auditing
+
+  After completing this module, students will be able to&#58;
+  - Describe auditing.
+  - Understand advanced auditing.
+  - Configure Windows PowerShell auditing and logging.
+
+
+  ### Module 7&#58; Deploying and configuring Advanced Threat Analytics and Microsoft Operations Management Suite
+  This module explains the Microsoft Advanced Threat Analytics tool and the Microsoft Operations Management suite (OMS). It also explains how you can use them to monitor and analyse the security of a Windows Server deployment. You will also learn about Microsoft Azure Security Center, which allows you to manage and monitor the security configuration of workloads both on-premises and in the cloud.
+  #### Lessons
+  - Deploying and configuring ATA
+  - Deploying and configuring Microsoft Operations Management Suite
+  - Deploying and configuring Azure Security Center
+
+
+  #### Lab &#58; Deploying ATA, Microsoft Operations Management Suite, and Azure Security Center
+  - Preparing and deploying ATA
+  - Preparing and deploying Microsoft Operations Management Suite
+  - Deploying and configuring Azure Security Center
+
+  After completing this module, students will be able to&#58;
+  - Deploy and configure ATA.
+  - Deploy and configure Microsoft Operations Management Suite.
+  - Deploy and configure Azure Security Center.
+
+
+  ### Module 8&#58; Secure Virtualization Infrastructure
+  This module explains how to configure Guarded Fabric VMs, including the requirements for shielded and encryption-supported VMs.
+  #### Lessons
+  - Guarded fabric
+  - Shielded and encryption-supported virtual machines
+
+
+  #### Lab &#58; Guarded fabric with Admin-trusted attestation and shielded VMs
+  - Deploying a guarded fabric with admin-trusted attestation
+  - Deploying a shielded VM
+
+  After completing this module, students will be able to&#58;
+  - Configure the guarded fabric.
+  - Describe shielded and encryption-supported VMs.
+
+
+  ### Module 9&#58; Securing application development and server-workload infrastructure
+  This module describes the SCT, which is a free, downloadable set of tools that you can use to create and apply security settings. You will also learn about improving platform security by reducing the size and scope of application and compute resources by containerizing workloads.
+  #### Lessons
+  - Using SCT
+  - Understanding containers
+
+
+  #### Lab &#58; Using SCT
+  - Configuring a security baseline for Windows Server 2016
+  - Deploying the security baseline for Windows Server 2016
+
+
+  #### Lab &#58; Deploying and configuring containers
+  - Deploying and managing a Windows container
+
+  After completing this module, students will be able to&#58;
+  - Install SCT, and create and deploy security baselines.
+  - Configure Windows and Hyper-V containers in Windows Server 2016.
+
+
+  ### Module 10&#58; Planning and protecting data
+  This module explains how to configure Encrypting File System (EFS) and BitLocker drive encryption to protect data at rest. You will also learn about extending protection into the cloud by using Azure Information Protection.
+  #### Lessons
+  - Planning and implementing encryption
+  - Planning and implementing BitLocker
+  - Protecting data by using Azure Information Protection
+
+
+  #### Lab &#58; Protecting data by using encryption and BitLocker
+  - Encrypting and recovering access to encrypted files
+  - Using BitLocker to protect data
+
+  After completing this module, students will be able to&#58;
+  - Plan and implement encryption.
+  - Plan and implement BitLocker.
+  - Plan and implement Azure Information Protection.
+
+
+  ### Module 11&#58; Optimizing and securing file services
+  This module explains how to optimize file services by configuring File Server Resource Manager (FSRM) and Distributed File System (DFS). Students also will learn how to manage access to shared files by configuring Dynamic Access Control (DAC).
+  #### Lessons
+  - File Server Resource Manager
+  - Implementing classification and file management tasks
+  - Dynamic Access Control
+
+
+  #### Lab &#58; Quotas and file screening
+  - Configuring File Server Resource Manager quotas
+  - Configuring file screening and storage reports
+
+
+  #### Lab &#58; Implementing Dynamic Access Control
+  - Preparing for implementing Dynamic Access Control
+  - Implementing Dynamic Access Control
+  - Validating and remediating Dynamic Access Control
+
+  After completing this module, students will be able to&#58;
+  - Describe File Server Resource Manager.
+  - Implement classification and file management tasks.
+  - Implement Dynamic Access Control.
+
+
+  ### Module 12&#58; Securing network traffic with firewalls and encryption
+  This module explains how you can use Windows Firewall as an important part of an organization’s protection strategy. It explains the use of Internet Protocol security (IPsec) to encrypt network traffic and to establish security zones on your network. You will also learn about the Datacenter Firewall feature that you can use to help protect your on-premises virtual environments.
+  #### Lessons
+  - Understanding network-related security threats
+  - Understanding Windows Firewall with Advanced Security
+  - Configuring IPsec
+  - Datacenter Firewall
+
+
+  #### Lab &#58; Configuring Windows Firewall with Advanced Security
+  - Creating and testing inbound rules
+  - Creating and testing outbound rules
+  - Creating and testing connection security rules
+
+  After completing this module, students will be able to&#58;
+  - Describe network-related security threats and how to mitigate them.
+  - Configure Windows Firewall with Advanced Security.
+  - Configure IPsec.
+  - Describe Datacenter Firewall.
+
+
+  ### Module 13&#58; Securing network traffic
+  This module explores some of the Windows Server 2016 technologies that you can use to help mitigate network-security threats. It explains how you can configure DNSSEC to help protect network traffic, and use Microsoft Message Analyzer to monitor network traffic. The module also describes how to secure Server Message Block (SMB) traffic.
+  #### Lessons
+  - Configuring advanced DNS settings
+  - Examining network traffic with Message Analyzer
+  - Securing and analyzing SMB traffic
+
+
+  #### Lab &#58; Securing DNS
+  - Configuring and testing DNSSEC
+  - Configuring DNS policies and RRL
+
+
+  #### Lab &#58; Microsoft Message Analyzer and SMB encryption
+  - Installing and using the Message Analyzer
+  - Configuring and verifying SMB encryption on SMB shares
+
+  After completing this module, students will be able to&#58;
+  - Configure advanced DNS settings.
+  - Use the Message Analyzer.
+  - Secure SMB traffic.

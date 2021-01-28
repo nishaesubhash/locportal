@@ -1,0 +1,309 @@
+### YamlMime:Course
+title: Installieren und Konfigurieren von Windows 10
+metadata:
+  title: 'Course 21697-1-B: Installieren und Konfigurieren von Windows 10'
+  description: 'Course 21697-1-B: Installieren und Konfigurieren von Windows 10'
+uid: course.21697-1
+courseNumber: '21697-1-B'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Beschreibender wichtigsten neuen Funktionen von Windows10.
+- skill: Installierenvon Windows10.
+- skill: Konfiguriereneines Geräts, auf dem Windows10 ausgeführt wird.
+- skill: Konfigurierender Netzwerkkonnektivität für ein Windows10-Gerät.
+- skill: Verwaltenvon Speicher in Windows10.
+- skill: Verwaltenvon Ordnern und Druckern.
+- skill: Verwaltenvon Apps.
+- skill: Verwaltender Datensicherheit.
+- skill: Verwaltender Gerätesicherheit.
+- skill: Implementierenvon Windows10-Features zur Verbesserung der Netzwerksicherheit.
+- skill: Wiederherstellenvon Dateien, Zurücksetzen von Treibern und Wiederherstellen vonWindows10-Geräten.
+- skill: Überwachenund Aktualisieren von Windows10-Geräten.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+levels:
+- intermediate
+roles:
+- developer
+products:
+- windows
+exams:
+- uid: exam.70-697
+summary: |-
+  Dieser
+  Kurs vermittelt den Kursteilnehmern die Kenntnisse und Fertigkeiten, die sie zum Installieren und Konfigurieren von Windows10-Desktops und -Geräten in einer unternehmensweiten WindowsServer-Domänenumgebung benötigen. In diesem Kurs lernen Sie, wie man das Betriebssystem Windows10 und die zugehörigen Anwendungen installiert und individuell konfiguriert sowie die lokale und die Remotenetzwerk-verbindung und den Speicher einrichtet. Des Weiteren lernen die Kursteilnehmer, wie sie die Sicherheit für Daten, Geräte und Netzwerke konfigurieren und Windows10 verwalten, aktualisieren und wiederherstellen können.
+
+  #### Audience profile
+  Dieser Kurs richtet sich an IT-Fachleute, die Windows 10-basierte Desktops und Geräte, Benutzer und zugehörige Netzwerk- und Sicherheitsressourcen verwalten und unterstützen. Die Netzwerke, mit denen diese Fachleute normalerweise arbeiten, werden als Umgebungen konfiguriert, die auf einer Windows Server-Domäne basieren, mit verwaltetem Zugriff auf Internet und Clouddienste. Für Personen, die eine Zertifizierung in der Prüfung 70-697, Konfigurieren von Windows 10, ablegen möchten, ist dieser Kurs ebenfalls geeignet. Für Supporttechniker von Enterprise-Desktops/Geräten, die Benutzern von Windows 10-Desktops und -Geräten innerhalb einer Windows-Domänenumgebung in mittleren und größeren Organisationen Support auf Ebene 2 bieten.
+prerequisitesSection: |-
+  Vor Kursbeginn müssen die Kursteilnehmer über Folgendes verfügen&#58;
+  - Technisches Wissen zu Netzwerkgrundlagen, einschließlich TCP/IP, User Datagram-Protokoll (UDP) und
+  Domain Name System (DNS).
+  - Erfahrung mit den Prinzipien von Active Directory Domain Services (AD DS) und den Grundlagen der AD DS-Verwaltung. 
+  - Kenntnis über die zertifikatsbasierte Sicherheit.
+  - Kenntnis der Grundlagen von Windows Server 2008 oder Windows Server 2012.
+  
+  Kenntnis der wesentlichen Grundlagen des Windows Client Betriebssystems, wie praktische Kenntnisse über   Windows Vista, Windows 7 bzw. Windows 8.
+outlineSection: |-
+  ### Modul 1&#58; Unterrichtseinheit 1&#58; Übersicht über Windows 10
+  Dieses Tool ist Bestandteil des Betriebssystems Windows 10. Beschreibt die neuen Funktionen und Merkmale in Windows 10 und alle wichtigen Änderungen seit Windows 8.1. Beschreibt die Nutzung, Navigation und individuelle Einstellung der verbesserten Windows 10-Benutzeroberfläche. Des Weiteren werden in Unterrichtseinheit 1 die Funktionen von Windows 10 beschrieben, die das Betriebssystem für Unternehmen unterschiedlicher Größe vorteilhaft machen.
+  #### Lektionen
+  - Einführung in Windows 10
+  - Navigieren der Windows 10-Benutzeroberfläche
+
+
+  #### Lab &#58; Navigieren der Windows 10-Benutzeroberfläche
+  - Navigieren der Windows 10-Benutzeroberfläche
+  - Konfigurieren des Startmenüs
+  - Konfigurieren des Desktops
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben der wichtigsten neuen Funktionen von Windows10. 
+  - Navigieren und Anpassen der Windows10-Oberfläche.
+
+
+  ### Modul 2&#58; Unterrichtseinheit 2&#58; Installieren von Windows 10
+  Unterrichtseinheit 2 bietet eine Einführung in die verschiedenen Editionen von Windows 10 und deren Unterschiede. Es werden die Voraussetzungen und verfügbaren Optionen für die Installation von Windows 10 auf einem Gerät beschrieben und Anweisungen für die Installation von bzw. das Upgrade auf Windows 10 bereitgestellt. Außerdem wird in Unterrichtseinheit 2 erläutert, was Sie bei der Wahl zwischen einem Upgrade und einer Migration auf Windows 10 beachten müssen und welche Upgradepfade von älteren Versionen des Windows-Betriebssystems unterstützt warden.
+  #### Lektionen
+  - Installieren von Windows 10
+  - Upgrade auf Windows 10
+
+
+  #### Lab &#58; Installieren von Windows 10
+  - Aktualisieren von Windows 7 auf Windows 10
+  - Migrieren von Benutzereinstellungen
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Entscheiden Sie, wie Windows10 installiert werden soll.
+  - Beschreiben Sie das Upgrade-Verfahren für Windows10.
+
+
+  ### Modul 3&#58; Unterrichtseinheit 3&#58; Konfigurieren Ihres Geräts
+  In Unterrichtseinheit 3 wird die Konfiguration von Windows 10 mithilfe von Tools wie der App „Einstellungen“, der Systemsteuerung, Windows PowerShell, Remote Server Administration Tools (RSAT) und Gruppenrichtlinienobjekten (GPOs) detailliert erklärt. Beschreibt die unterschiedlichen Arten von Benutzerkonten und die Vorteile eines Microsoft Kontos. Unterrichtseinheit 4 beschreibt ferner Microsoft OneDrive und seine Integration in Windows 10.
+  #### Lektionen
+  - Überblick über die Tools, die Sie zur Konfiguration von Windows 10 verwenden können
+  - Häufig verwendete Konfigurationsoptionen
+  - Verwalten von Benutzerkonten
+  - Verwenden von OneDrive
+
+
+  #### Lab &#58; Konfigurieren von Windows 10
+  - Verwenden der App „Einstellungen“
+  - Verwenden der Systemsteuerung
+  - Verwenden von Windows PowerShell
+  - Verwenden von Gruppenrichtlinienobjekten
+
+
+  #### Lab &#58; Synchronisieren von Einstellungen mit OneDrive
+  - Verknüpfen eines Microsoft-Kontos
+  - Synchronisieren von Einstellungen zwischen Geräten
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Erläutern der unterschiedlichen Tools zur Konfiguration von Windows10.
+  - Erläutern Sie häufig verwendete Konfigurationsoptionen.
+  - Verwalten Sie Benutzerkonten.
+  Verwenden Sie OneDrive mit Windows10.
+
+  ### Modul 4&#58; Unterrichtseinheit 4&#58; Konfigurieren der Netzwerkkonnektivität
+  In dieser Unterrichtseinheit wird erläutert, wie Sie die Netzwerkeinstellungen mit Tools wie der App „Einstellungen“, dem Netzwerk- und Freigabecenter und Windows PowerShell konfigurieren. Es werden die Unterschiede zwischen den Einstellungen für Internet-protokoll, Version 4 (IPv4) und Internetprotokoll, Version 6 (IPv6) sowie die Vorzüge von IPv6 beschrieben. Ferner wird die Namensauflösung beschrieben und ein Überblick über den DNS- bzw. Domain Name System-Dienst geboten. Abschließend wird in Unterrichtseinheit 4 beschrieben, wie Sie unter Windows 10 die Funkkonnektivität konfigurieren, und es werden Remotezugriffsverfahren erläutert, die unter Windows 10 verfügbar sind, wie beispielsweise VPN (Virtual Private Networks), DirectAccess und Remotedesktop.
+  #### Lektionen
+  - Konfigurieren der IP-Netzwerkkonnektivität
+  - Implementieren der Namensauflösung
+  - Implementieren der Konnektivität von Drahtlosnetzwerken
+  - Überblick über Remotezugriff
+
+
+  #### Lab &#58; Konfigurieren der Netzwerkkonnektivität
+  - Überprüfen und Testen der IPv4-Einstellungen
+  - Konfigurieren automatischer IPv4-Einstellungen
+  - Konfigurieren und Testen der Namensauflösung
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Erklären Sie, wie man die Konnektivität von IP-Netzwerken konfiguriert. 
+  - Implementieren Sie die Namensauflösung. 
+  - Implementieren Sie die Konnektivität des Drahtlosnetzwerks. 
+  - Beschreiben Sie Optionen für den Remotezugriff in Windows10.
+
+
+  ### Modul 5&#58; Unterrichtseinheit 5&#58; Verwalten von Speicher
+  Unterrichtseinheit 5, „Verwalten des Speichers“, bietet eine Übersicht über Speicheroptionen, einschließlich Festplatten, serverbasierter Speicher und virtueller Festplatten. Sie befasst sich mit den Netzwerkspeicheroptionen, darunter NAS und SANs, sowie den Cloud-basierten Speichermöglichkeiten wie OneDrive und Microsoft Azure Storage. Unterrichtseinheit 5 beschreibt ferner die Verwaltung und Wartung von Datenträgern, Partitionen und Volumes sowie die Konfiguration und Verwendung der Speicherplatzfunktion.
+  #### Lektionen
+  - Übersicht über Speicheroptionen
+  - Verwalten von Datenträgern, Partitionen und Volumes
+  - Warten von Datenträgern und Volumes
+  - Verwalten von Speicherplätzen
+
+
+  #### Lab &#58; Verwalten von Speicher
+  - Hinzufügen eines Datenträgers
+  - Erstellen eines einfachen Volume
+  - Komprimieren eines Ordners
+  - Aktivieren von Datenträgerkontingenten
+  - Erstellen eines Speicherplatzes
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben Sie die verschiedenen Speicheroptionen in Windows10.
+  - Verwalten Sie Datenträger, Partitionen und Volumes.
+  - Pflegen Sie Datenträger, Partitionen und Volumes.
+  - Verwalten Sie Speicherplätze.
+
+
+  ### Modul 6&#58; Unterrichtseinheit 6&#58; Verwalten von Dateien und Druckern
+  Unterrichtseinheit 6, „Verwalten von Dateien und Druckern“, bietet eine Übersicht über die unter Windows 10 unterstützten Dateisysteme. Es erklärt, wie Dateiberechtigungen konfiguriert werden, welche Auswirkungen diese haben, wie explizite und vererbte Berechtigungsstufen funktionieren und wie Benutzer- und Geräteansprüche in Zugriffsberechtigungen eingebunden werden können. In dieser Unterrichtseinheit wird ferner erläutert, wie und mit welchen Tools Sie Ordner freigeben und welche effektiven Berechtigungen gelten, wenn ein Benutzer versucht, auf Daten in einem durch Dateiberechtigungen geschützten freigegebenen Ordner zuzugreifen. In der letzten Lektion in Unterrichtseinheit 6 wird beschrieben, wie Sie einen Drucker hinzufügen und freigeben und wie Sie client- und serverseitiges Drucken verwalten.
+  #### Lektionen
+  - Überblick über Dateisysteme
+  - Konfigurieren und Verwalten von Dateizugriff
+  - Konfigurieren und Verwalten von freigegebenen Ordnern
+  - Arbeitsordner
+  - Verwalten von Druckern
+
+
+  #### Lab &#58; Konfigurieren und Verwalten von Berechtigungen und Freigaben
+  - Erstellen, Verwalten und Freigeben eines Ordners
+  - Verwenden von Bedingungen für die Zugriffssteuerung und effektive Berechtigungen
+
+
+  #### Lab &#58; Konfigurieren und Verwenden von Arbeitsordnern
+  - Konfigurieren von Arbeitsordnern
+
+
+  #### Lab &#58; Installieren und Verwalten eines Druckers
+  - Verwalten und Verwenden eines Druckers
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben und erstellen Sie Dateisysteme, die von Windows10 unterstützt werden.
+  - Konfigurieren Sie Dateiberechtigungen.
+  - Erläutern Sie, wie die Vererbung von Berechtigungen funktioniert.
+  - Implementieren Sie Bedingungen zur Begrenzung des Zugriffs auf Dateien und Ordner.
+  - Erstellen und verwalten Sie Freigaben.
+  - Erstellen und verwenden Sie Arbeitsordner.
+  - Konfigurieren und verwalten Sie Drucker.
+
+
+  ### Modul 7&#58; Unterrichtseinheit 7&#58; Verwalten von Apps auf Windows 10
+  In Unterrichtseinheit 7 wird beschrieben, wie man Desktop- und Windows Store-Apps unter Windows 10 installiert und konfiguriert. Es wird erläutert, wie Sie Apps manuell und automatisch installieren und wie Sie mit Microsoft System Center Configuration Manager und Microsoft Intune Apps bereitstellen. Darüber hinaus wird der Windows Store und die Zugriffsmöglichkeiten darauf erläutert. Unterrichtseinheit 7 beschreibt die Browser Internet Explorer 11 und Edge und erläutert deren Konfiguration und Verwaltung.
+
+  #### Lektionen
+  - Übersicht über die Bereitstellung von Apps an Benutzer
+  - Der Windows Store
+  - Web-Browser
+
+
+  #### Lab &#58; Installieren und Aktualisieren von Apps aus dem Windows Store
+  - Querladen einer App
+  - Anmelden mit einem Microsoft-Konto
+  - Installieren und Aktualisieren von Apps aus dem Windows Store.
+
+
+  #### Lab &#58; Konfigurieren von Windows 10-Web-Browsern
+  - Konfigurieren und Verwenden von Microsoft Edge
+  - Konfigurieren und Verwenden des Internet Explorer
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben Sie die Windows10-Optionen für die App-Bereitstellung.
+  - Installieren und Verwalten von Apps aus dem Windows Store.
+  - Konfigurieren Sie die Windows10-Web-Browser.
+
+
+  ### Modul 8&#58; Unterrichtseinheit 8&#58; Verwalten der Datensicherheit
+  In dieser Unterrichtseinheit wird erläutert, wie Technologien in Windows 10 vor datenbezogenen Sicherheitsrisiken schützen. Sie liefert eine Übersicht über die Risiken und erläutert potenzielle Schutzmechanismen und bewährte Möglichkeiten für den richtigen Umgang. Des Weiteren werden eine mehrstufige Verteidigungsstrategie sowie das verschlüsselnde Dateisystem (Encrypting File System, EFS) erläutert und wie Sie mithilfe dieser Verfahren Sicherheitsrisiken begegnen können. Darüber hinaus wird in Unterrichtseinheit 8 beschrieben, wie Sie die BitLocker-Laufwerkverschlüsselung konfigurieren, verwalten und überwachen.
+  #### Lektionen
+  - Übersicht über datenbezogene Sicherheitsrisiken
+  - Sichern von Daten mit EFS
+  - Implementieren und Verwalten von BitLocker
+
+
+  #### Lab &#58; Verwalten der Datensicherheit
+  - Verwenden von EFS
+  - Verwenden von BitLocker
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Verstehen der datenbezogenen Sicherheitsrisiken
+  - Sichern von Daten mit dem Encrypting File System (EFS).
+  - Implementieren und verwalten der BitLocker-Laufwerkverschlüsselung.
+
+
+  ### Modul 9&#58; Unterrichtseinheit 9&#58; Verwalten der Gerätesicherheit
+  In Unterrichtseinheit 9 wird erläutert, wie man Sicherheitsbedrohungen mittels Security Compliance Manager, Enhanced Mitigation Experience Toolkit und Sicherheitse-instellungen in Gruppenrichtlinienobjekten minimieren kann. Es werden zudem die Benutzerkontensteuerung (UAC) und deren Konfigurationsmöglichkeiten erläutert.
+  Des Weiteren wird in dieser Unterrichtseinheit die Verwendung von AppLocker zum Konfigurieren der Nutzung und zur Beschränkung von Anwendungen erläutert.
+
+  #### Lektionen
+  - Verwenden der Sicherheitseinstellungen zur Verringerung der Risiken.
+  - Konfigurieren der UAC.
+  - Konfigurieren der Anwendungsbeschränkungen
+
+
+  #### Lab &#58; Verwalten der Gerätesicherheit
+  - Erstellen von Sicherheitsrichtlinien
+  - Testen von Sicherheitsrichtlinien
+  - Konfigurieren von UAC-Eingabeaufforderungen
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Verwenden der Sicherheitseinstellungen zur Verringerung der Risiken.
+  - Konfigurieren der UAC.
+  - Konfigurieren der Anwendungsbeschränkungen.
+
+
+  ### Modul 10&#58; Unterrichtseinheit 10&#58; Verwalten von Netzwerksicherheit
+  In Unterrichtseinheit 10 werden häufige netzwerkbezogene Sicherheitsbedrohungen und Möglichkeiten beschrieben, wie sich diese minimieren lassen. Außerdem werden Tools wie die Windows-Firewall, Verbindungssicherheitsregeln zur Internetprotokollsicherheit (IPsec) und Windows Defender sowie die Konfiguration dieser Tools zur Verwaltung der Netzwerksicherheit beschrieben.
+  #### Lektionen
+  - Übersicht über netzwerkbezogene Sicherheitsrisiken
+  - Windows-Firewall
+  - Verbindungssicherheitsregeln
+  - Was ist Windows Defender?
+
+
+  #### Lab &#58; Verwalten der Netzwerksicherheit
+  - Erstellen und Testen von eingehenden Regeln
+  - Erstellen und Testen von ausgehenden Regeln
+  - Erstellen und Testen von Regeln zur Verbindungssicherheit
+  - Konfigurieren von Windows Defender
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben netzwerkbezogener Sicherheitsrisiken.
+  - Verwalten der Windows-Firewall.
+  - Konfigurieren der Verbindungssicherheitsregeln.
+  - Verwalten von Windows Defender.
+
+
+  ### Modul 11&#58; Unterrichtseinheit 11&#58; Problembehandlung und Wiederherstellung
+  Unterrichtseinheit 11 beschreibt Gerätetreiber und erläutert, wie man diese mit dem Geräte-Manager anzeigen, konfigurieren, aktualisieren und zurücksetzen kann. Es werden die Methoden zur Dateiwiederherstellung in Windows 10 erläutert, wie Sichern und Wiederherstellen, Dateiversionsverlauf und Vorgängerversionen. Diese Unterrichtseinheit behandelt darüber hinaus Features wie Systemwiederherstellung, Startwiederherstellung und System-Image-Wiederherstellung und beschreibt, wie man mit Wiederherstellungspunkten eine Gerätekonfiguration zurücksetzen kann.
+  #### Lektionen
+  - Verwalten von Geräten und Treibern
+  - Wiederherstellung von Dateien
+  - Wiederherstellen von Geräten
+
+
+  #### Lab &#58; Problembehandlung und Wiederherstellung
+  - Verwalten von Gerätetreibern
+  - Wiederherstellen von Dateien mit dem Dateiversionsverlauf
+  - Wiederherstellen von Dateien aus Vorgängerversionen
+  - Wiederherstellen eines Geräts über einen Wiederherstellungspunkt
+  - Verwenden der erweiterten Startoptionen zur Wiederherstellung eines Geräts
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Beschreiben und Verwalten von Gerätetreibern.
+  - Konfigurieren der Dateiwiederherstellung und Wiederherstellung der Vorgängerversionen von Dateien.
+  - Beschreiben und Verwenden von Wiederherstellungsfunktionen in Windows10.
+
+
+  ### Modul 12&#58; Unterrichtseinheit 12&#58; Warten von Windows 10
+  In Unterrichtseinheit 12 werden Windows Update und Windows Update for Business beschrieben, und es wird erklärt, wie man Einstellungen für Updates konfiguriert. Es wird die Anwendung von Windows Server Update Services (WSUS), dem Configuration Manager und Intune zur Verteilung von Updates innerhalb eines Unternehmens beschrieben. Ferner wird in dieser Unterrichtseinheit erklärt, wie man das Info-Center, die Ereignisanzeige und den Systemmonitor in Windows 10 verwendet.
+  #### Lektionen
+  - Aktualisieren von Windows
+  - Überwachung von Windows 10.
+  - Optimieren der Leistung
+
+
+  #### Lab &#58; Warten von Windows 10
+  - Konfigurieren von Updates für einen Computer
+  - Konfigurieren von Updates mit GPOs
+  - Überwachung von Ereignissen
+  - Überwachung von Zuverlässigkeit und Leistung
+
+  Nach Abschluss dieser Unterrichtseinheit werden die Kursteilnehmer mit folgenden Themen vertraut sein&#58;
+  - Erläuterung, wie man Windows10 aktualisiert.
+  - Überwachung von Windows10.
+  - Optimierung der Leistung von Windows10.

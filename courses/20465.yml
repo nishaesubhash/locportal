@@ -1,0 +1,175 @@
+### YamlMime:Course
+title: Designing Solutions for Microsoft SQL Server 2014
+metadata:
+  title: 'Course 20465-D: Designing Solutions for Microsoft SQL Server 2014'
+  description: 'Course 20465-D: Designing Solutions for Microsoft SQL Server 2014'
+uid: course.20465
+courseNumber: '20465-D'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Assess an existing enterprise environment.
+- skill: Plan and implement Policy-Based Management.
+- skill: Describe the considerations for consolidating workloads with SQL Server 2014.
+- skill: Describe considerations for including SQL Server 2014 in a private cloud.
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- advanced
+roles:
+- database-administrator
+products:
+- sql-server
+exams:
+- uid: exam.70-465
+summary: |-
+  The focus of this three-day instructor-led course is on planning and implementing enterprise database infrastructure solutions by using SQL Server 2014 and other Microsoft technologies. It describes how to consolidate SQL Server workloads and how to plan and implement high availability and disaster recovery solutions.
+  
+  Note&#58; This course is designed for customers who are interested in learning SQL Server 2012 or SQL Server 2014. It covers the new features in SQL Server 2014, but also the important capabilities across the SQL Server data platform.
+
+  #### Audience profile
+  This course is intended for database professionals who need who plan, implement, and manage database solutions. Primary responsibilities include&#58; 
+  - Planning and implementing database infrastructure. 
+  - Planning and implementing consolidation strategies. 
+  - Planning and implementing high availability solutions. 
+  - Planning and implementing disaster recovery solutions.
+prerequisitesSection: |-
+  This course requires that you meet the following prerequisites&#58;
+  - At least 2 year's experience of working with relational databases, including&#58; 
+    - Planning and implementing databases
+    - Managing databases
+    - Querying with Transact-SQL 
+    - Some basic knowledge of high availability and disaster recovery
+outlineSection: |-
+  ### Module 1&#58; Introduction to Enterprise Data Architecture
+  As organizations grow to enterprise scale, their IT infrastructure requirements become more complex and the network environment often includes an increasing number of servers, client computers, network segments, and other components. Because data is fundamental to most IT operations, careful thought must be given to the provisioning and management of databases across the enterprise.
+  #### Lessons
+  - Considerations for Enterprise Data
+  - Assessing an Existing Infrastructure
+
+
+  #### Lab &#58; Assessing an Existing Enterprise Data Infrastructure
+  After completing this module, you will be able to&#58; 
+  - Describe the considerations for enterprise data infrastructure. 
+  - Use the MAP Toolkit to assess an existing enterprise data environment.
+
+
+  ### Module 2&#58; Multi-Server Configuration Management
+  When an enterprise infrastructure includes multiple database servers, it can be useful to standardize and enforce configuration settings in order to ensure compliance and manageability. This module discusses Policy-Based Management in SQL Server, and describes how it can be used together with enterprise configuration management tools such as Microsoft System Center to aid enterprise database server management.
+  #### Lessons
+  - Policy-Based Management
+  - Microsoft System Center
+
+
+  #### Lab &#58; Planning and Implementing Policy-Based Management
+  After completing this module, you will be able to&#58; 
+  - Implement Policy-Based Management 
+  - Describe how System Center can be used to manage database infrastructure
+
+
+  ### Module 3&#58; Monitoring SQL Server 2014 Health
+  This module describes Data Collector and the SQL Server Utility Control Point (UCP), two features of SQL Server 2014 that enable you to perform in-depth health monitoring across the enterprise.
+  #### Lessons
+  - Introduction to Health Monitoring
+  - Data Collector
+  - SQL Server Utility
+
+
+  #### Lab &#58; Monitoring SQL Server Health
+  After completing this module, you will be able to&#58; 
+  - Describe the options for multi-server health monitoring in SQL Server 2014. 
+  - Describe and configure Data Collector. 
+  - Describe and configure SQL Server Utility.
+
+
+  ### Module 4&#58; Consolidating Database Workloads with SQL Server 2014
+  This module provides an overview of the benefits of consolidating database workloads by using SQL Server 2014, and describes the different options for implementing a consolidation strategy. It also describes how you can manage a consolidated infrastructure in various scenarios.
+  #### Lessons
+  - Considerations for Database Server Consolidation
+  - Managing Resources in a Consolidated Database Infrastructure
+
+
+  #### Lab &#58; SQL Server Consolidation
+  After completing this module, you will be able to&#58; 
+  - Describe the considerations for consolidating databases and database servers. 
+  - Explain the options for managing resources in various consolidation scenarios.
+
+
+  ### Module 5&#58; Introduction to Cloud Data Solutions
+  Cloud computing has risen to prominence very rapidly within the world of IT, and many organizations have implemented or are planning to implement cloud-based solutions that encompass all or part of their infrastructure. This module describes some of the fundamental concepts of cloud computing and outlines how to include SQL Server 2014 in a private cloud infrastructure.
+  #### Lessons
+  - Overview of Cloud Computing
+  - SQL Server in a Private Cloud
+
+
+  #### Lab &#58; Preparing a SQL Server Installation in a Virtual Machine Template
+  After completing this module, you will be able to&#58; 
+  - Explain the fundamental concepts behind cloud computing, and describe the technologies that underpin Microsoft cloud solutions. 
+  - Describe how to provide SQL Server based data services in a private cloud infrastructure.
+
+
+  ### Module 6&#58; Introduction to High Availability in SQL Server 2014
+  Maintaining highly available database services is vital in a 24 hour operating environment. SQL Server 2014 includes many features that can help organizations to deliver the levels of service they require to drive their businesses. This module explains the different ways that you can implement high availability by using SQL Server 2014. It also describes how to use log shipping to promote resilience for individual user databases.
+  #### Lessons
+  - High Availability Concepts and Options in SQL Server 2014
+  - Log Shipping
+
+
+  #### Lab &#58; Using Log Shipping
+  After completing this module, you will be able to&#58; 
+  - Describe the core concepts and options for implementing high availability in SQL Server 2014. 
+  - Describe how to implement high availability for individual databases by using log shipping.
+
+
+  ### Module 7&#58; Clustering with Windows Server and SQL Server 2014
+  SQL Server 2014 is closely integrated with the Windows Server Failover Clustering feature in Windows Server 2012 and Windows Server 2012 R2, enabling you to create enterprise-class clustering solutions that can deliver comprehensive high availability and disaster recovery solutions. This module explains how Windows Server Failover Clustering and SQL Server AlwaysOn Failover Cluster Instances work, and describes how to implement clustering to protect service availability.
+  #### Lessons
+  - Introduction to Windows Server Failover Clustering
+  - SQL Server AlwaysOn Failover Cluster Instances
+
+
+  #### Lab &#58; Implementing an AlwaysOn Failover Cluster Instance
+  After completing this module, you will be able to&#58; 
+  - Describe the key benefits and features of Windows Server Failover Clustering. 
+  - Describe how to use SQL Server AlwaysOn Failover Cluster Instances to maintain high availability for SQL Server instances.
+
+
+  ### Module 8&#58; AlwaysOn Availability Groups
+  SQL Server 2014 includes AlwaysOn Availability Groups to provide high availability for groups of databases. This module describes AlwaysOn Availability Groups in SQL Server 2014, explains the key concepts of AlwaysOn Availability Groups, and describes how you can use them to maintain highly available databases.
+  #### Lessons
+  - Introduction to AlwaysOn Availability Groups
+  - Working with AlwaysOn Availability Groups
+  - Considerations for Using AlwaysOn Availability Groups
+
+
+  #### Lab &#58; Implementing and Testing an AlwaysOn Availability Group
+  After completing this module, you will be able to&#58; 
+  - Describe the fundamental concepts and terminology for AlwaysOn Availability Groups. 
+  - Explain how work with AlwaysOn Availability Groups.
+
+
+  ### Module 9&#58; Planning High Availability and Disaster Recovery
+  This module describes the planning considerations for high availability and disaster recovery, and provides common implementation scenarios for on-premises, hybrid, and Microsoft Azure environments.
+  #### Lessons
+  - High Availability and Disaster Recovery with SQL Server 2014
+  - SQL Server High Availability and Disaster Recovery Solutions
+
+
+  #### Lab &#58; Planning High Availability and Disaster Recovery
+  After completing this module, you will be able to&#58; 
+  - Explain the considerations for implementing high availability and disaster recovery by using SQL Server 2014, and describe some common scenarios. 
+  - Explain the considerations for implementing high availability and disaster recovery by using SQL Server 2014 and Microsoft Azure services, and describe some common scenarios.
+
+
+  ### Module 10&#58; Replicating Data
+  SQL Server replication enables you to copy and distribute data and database objects to other computers and locations in your enterprise, which can improve availability and scalability. This module provides an overview of SQL Server replication and explains the agents used to implement replication. It also describes some common replication scenarios, how to design an appropriate replication system for your requirements, and how to monitor and troubleshoot replication.
+  #### Lessons
+  - SQL Server Replication
+  - Planning Replication
+
+
+  #### Lab &#58; Planning and Implementing Replication
+  After completing this module, you will be able to&#58; 
+  - Describe SQL Server replication. 
+  - Identify an appropriate replication solution for a particular scenario.

@@ -1,0 +1,222 @@
+### YamlMime:Course
+title: Developing SQL Data Models
+metadata:
+  title: 'Course 20768-C: Developing SQL Data Models'
+  description: 'Course 20768-C: Developing SQL Data Models'
+uid: course.20768
+courseNumber: '20768-C'
+hoursToComplete: 72
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Describe the components, architecture, and nature of a BI solution
+- skill: Create a multidimensional database with Analysis Services
+- skill: Implement dimensions in a cube
+- skill: Implement measures and measure groups in a cube
+- skill: Use MDX syntax
+- skill: Customize a cube
+- skill: Implement a tabular database
+- skill: Use DAX to query a tabular model
+- skill: Use data mining for predictive analysis
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- en
+levels:
+- intermediate
+roles:
+- data-engineer
+products:
+- sql-server
+exams:
+- uid: exam.70-768
+summary: |-
+  The focus of this 3-day instructor-led course is on creating managed enterprise BI solutions. It describes how to implement both multidimensional and tabular data models and how to create cubes, dimensions, measures, and measure groups. This course helps you prepare for the Exam 70-768.
+
+  #### Audience profile
+  The primary audience for this course are database professionals who need to fulfil BI Developer role to create enterprise BI solutions. 
+  Primary responsibilities will include&#58;
+  - Implementing multidimensional databases by using SQL Server Analysis Services
+  - Creating tabular semantic data models for analysis by using SQL Server Analysis Services
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Experience of querying data using Transact-SQL
+outlineSection: |-
+  ### Module 1&#58; Introduction to Business Intelligence and Data Modeling
+  This module introduces key BI concepts and the Microsoft BI product suite.
+  #### Lessons
+  - Introduction to Business Intelligence
+  - The Microsoft business intelligence platform
+
+
+  #### Lab &#58; Exploring a BI Solution
+  - Exploring a Data Warehouse
+  - Exploring a data model
+
+  After completing this module, students will be able to&#58;
+  - Describe BI scenarios, trends, and project roles.
+  - Describe the products that make up the Microsoft BI platform.
+
+
+  ### Module 2&#58; Creating Multidimensional Databases
+  This module describes how to create multidimensional databases using SQL Server Analysis Services.
+  #### Lessons
+  - Introduction to Multidimensional Analysis
+  - Data Sources and Data Source Views
+  - Cubes
+  - Overview of Cube Security
+  - Configure SSAS
+  - Monitoring SSAS
+
+
+  #### Lab &#58; Creating a multidimensional database
+  - Creating a Data Source
+  - Creating and Configuring a data Source View
+  - Creating and Configuring a Cube
+  - Adding a Dimension to a Cube
+
+  After completing this module, you will be able to&#58; 
+  - Describe considerations for a multidimensional database.
+  - Create data sources and data source views.
+  - Create a cube
+  - Implement security in a multidimensional database.
+  - Configure SSAS to meet requirements including memory limits, NUMA and disk layout.
+  - Monitor SSAS performance.
+
+
+  ### Module 3&#58; Working with Cubes and Dimensions
+  This module describes how to implement dimensions in a cube.
+  #### Lessons
+  - Configuring Dimensions
+  - Defining Attribute Hierarchies
+  - Implementing Sorting and Grouping Attributes
+  - Slowly Changing Dimensions
+
+
+  #### Lab &#58; Working with Cubes and Dimensions
+  - Configuring Dimensions
+  - Defining Relationships and Hierarchies
+  - Sorting and Grouping Dimension Attributes
+
+  After completing this module, you will be able to&#58; 
+  - Configure dimensions.
+  - Define attribute hierarchies.
+  - Implement sorting and grouping for attributes.
+  - Implement slowly changing dimensions.
+
+
+  ### Module 4&#58; Working with Measures and Measure Groups
+  This module describes how to implement measures and measure groups in a cube.
+  #### Lessons
+  - Working with Measures
+  - Working with Measure Groups
+
+
+  #### Lab &#58; Configuring Measures and Measure Groups
+  - Configuring Measures
+  - Defining Regular Relationships
+  - Configuring Measure Group Storage
+
+  After completing this module, you will be able to&#58; 
+  - Configure measures.
+  - Configure measure groups.
+
+
+  ### Module 5&#58; Introduction to MDX
+  This module describes the MDX syntax and how to use MDX.
+  #### Lessons
+  - MDX fundamentals
+  - Adding Calculations to a Cube
+  - Using MDX to Query a Cube
+
+
+  #### Lab &#58; Using MDX
+  - Querying a cube using MDX
+  - Adding a Calculated Member
+
+  After completing this module, you will be able to&#58; 
+  - Use basic MDX functions.
+  - Use MDX to add calculations to a cube.
+  - Use MDX to query a cube.
+
+
+  ### Module 6&#58; Customizing Cube Functionality
+  This module describes how to customize a cube.
+  #### Lessons
+  - Implementing Key Performance Indicators
+  - Implementing Actions
+  - Implementing Perspectives
+  - Implementing Translations
+
+
+  #### Lab &#58; Customizing a Cube
+  - Implementing an action
+  - Implementing a perspective
+  - Implementing a translation
+
+  After completing this module, you will be able to&#58; 
+  - Implement KPIs in a Multidimensional database
+  - Implement Actions in a Multidimensional database
+  - Implement perspectives in a Multidimensional database
+  - Implement translations in a Multidimensional database
+
+
+  ### Module 7&#58; Implementing a Tabular Data Model by Using Analysis Services
+  This module describes how to implement a tabular data model in Power Pivot.
+  #### Lessons
+  - Introduction to Tabular Data Models
+  - Creating a Tabular Data Model
+  - Using an Analysis Services Tabular Data Model in an Enterprise BI Solution
+
+
+  #### Lab &#58; Working with an Analysis Services Tabular Data Model
+  - Creating an Analysis Services Tabular Data Model
+  - Configure Relationships and Attributes
+  - Configuring Data Model for an Enterprise BI Solution.
+
+  After completing this module, students will be able to&#58;
+  - Describe tabular data models
+  - Describe how to create a tabular data model
+  - Use an Analysis Services Tabular Model in an enterprise BI solution
+
+
+  ### Module 8&#58; Introduction to Data Analysis Expression (DAX)
+  This module describes how to use DAX to create measures and calculated columns in a tabular data model.
+  #### Lessons
+  - DAX Fundamentals
+  - Using DAX to Create Calculated Columns and Measures in a Tabular Data Model
+
+
+  #### Lab &#58; Creating Calculated Columns and Measures by using DAX
+  - Creating Calculated Columns
+  - Creating Measures
+  - Creating a KPI
+  - Creating a Parent - Child Hierarchy
+
+  After completing this module, students will be able to&#58;
+  - Describe the key features of DAX
+  - Create calculated columns and measures by using DAX
+
+
+  ### Module 9&#58; Performing Predictive Analysis with Data Mining
+  This module describes how to use data mining for predictive analysis.
+  #### Lessons
+  - Overview of Data Mining
+  - Creating a Custom Data Mining Solution
+  - Validating a Data Mining Model
+  - Connecting to and Consuming a Data-Mining Model
+  - Using the Data Mining add-in for Excel
+
+
+  #### Lab &#58; Using Data Mining
+  - Creating a Data Mining Structure and Model
+  - Exploring Data Mining Models
+  - Validating Data Mining Models
+  - Consuming a Data Mining Model
+  - Using the Excel Data Mining add-in
+  
+  
+  After completing this module, students will be able to&#58;
+  - Describe considerations for data mining
+  - Create a data mining model
+  - Validate a data mining model
+  - Connect to a data-mining model
+  - Use the data mining add-in for Excel

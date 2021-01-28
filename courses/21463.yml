@@ -1,0 +1,244 @@
+### YamlMime:Course
+title: Implementieren eines Data Warehouse mit Microsoft® SQL Server® 2012
+metadata:
+  title: 'Course 21463-A: Implementieren eines Data Warehouse mit Microsoft® SQL Server® 2012'
+  description: 'Course 21463-A: Implementieren eines Data Warehouse mit Microsoft® SQL Server® 2012'
+uid: course.21463
+courseNumber: '21463-A'
+hoursToComplete: 120
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Beschreiben von Data Warehouse-Konzepten und Überlegungen zur Architektur
+- skill: Auswählen einer entsprechenden Hardwareplattform für ein Data Warehouse
+- skill: Entwerfen und Implementieren eines Data Warehouse
+- skill: Implementieren des Datenflusses in einem SSIS-Paket
+- skill: Implementieren der Ablaufsteuerung in einem SSIS-Paket
+- skill: Debugging und Fehlerbehandlung bei SSIS-Paketen
+- skill: Implementieren einer SSIS-Lösung, die inkrementelle Data Warehouse-Lasten und sich ändernde Daten unterstützt
+- skill: Integrieren von Cloud-Daten in eine Data Warehouse-Ökosysteminfrastruktur
+- skill: Implementieren der Datenbereinigung mithilfe von Microsoft Data Quality Services
+- skill: Implementieren von Master Data Services zum Erzwingen von Datenintegrität
+- skill: Erweitern von SSIS mit benutzerdefinierten Skripts und Komponenten
+- skill: Bereitstellen und Konfigurieren von SSIS-Paketen
+- skill: Beschreiben, wie Information Worker Daten aus dem Data Warehouse nutzen können
+learningPartnersLink: https://www.microsoft.com/learning/partners.aspx
+locales:
+- de
+- en
+levels:
+- intermediate
+roles:
+- developer
+products:
+- sql-server
+exams:
+- uid: exam.70-463
+summary: |-
+  Bei Data Warehousing handelt es sich um eine Lösung, die Organisationen zum Zentralisieren von Geschäftsdaten zur Berichterstellung und Analyse verwenden können. Der Schwerpunkt dieses fünftägigen, von einem Kursleiter durchgeführten Kurses besteht darin, die Kursteilnehmer in der Erstellung eines Data Warehouse mit SQL Server 2012, der Implementierung von ETL mit SQL Server Integration Services und der Validierung und Bereinigung von Daten mit SQL Server Data Quality Services und SQL Server Master Data Services zu unterrichten. Dieser Kurs unterstützt die Kursteilnehmer bei der Vorbereitung auf die Prüfung [70-463](https://www.microsoft.com/learning/exam-70-463.aspx).
+
+  #### Audience profile
+  Dieser Kurs ist für Datenbankprofis vorgesehen, die die Rolle eines Business Intelligence-Entwicklers ausüben. Diese müssen sich auf praktische Übungen zur Erstellung von BI-Lösungen einschließlich Data Warehouse-Implementierung, ETL und Datenbereinigung konzentrieren. Zu den Hauptaufgaben gehören&#58;
+  - Implementieren eines Data Warehouse
+  - Entwickeln eines SQL Server Integration Services (SSIS)-Pakets für das Extrahieren, Transformieren und Laden von Daten (ETL)
+  - Erzwingen von Datenintegrität mithilfe von Master Data Services
+  - Bereinigen von Daten mithilfe von Data Quality Services
+prerequisitesSection: |-
+  Für diesen Kurs sollten die Kursteilnehmer folgende Vorkenntnisse mitbringen&#58;
+  - Mindestens 2 Jahre Erfahrung in der Arbeit mit relationalen Datenbanken, einschließlich&#58;
+  - Entwerfen einer normalisierten Datenbank
+  - Erstellen von Tabellen und Beziehungen
+  - Abfragen mit Transact-SQL
+  - Erfahrung mit einfachen Programmierungskonstrukten (wie Schleifen und Verzweigung)
+  - Ein grundlegendes Verständnis von zentralen Geschäftsprioritäten wie Umsatz, Rentabilität und Finanzbuchhaltung ist wünschenswert.
+outlineSection: |-
+  ### Modul 1&#58; Einführung in Data Warehousing
+  Diese Unterrichtseinheit enthält eine Einführung in die relevanten Komponenten einer Data Warehousing-Lösung sowie Erwägungen auf oberster Ebene, die Sie zu Beginn eines Data Warehousing-Projekts berücksichtigen müssen.
+  #### Lektionen
+  - Übersicht über Data Warehousing
+  - Überlegungen zu einer Data Warehousing-Lösung
+
+
+  #### Lab &#58; Kennenlernen einer Data Warehousing-Lösung
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der wichtigsten Elemente einer Data Warehousing-Lösung
+  - Beschreiben der wichtigsten Aspekte, die bei einem Data Warehousing-Projekt berücksichtigt werden müssen
+
+
+  ### Modul 2&#58; Data Warehouse-Hardware
+  Diese Unterrichtseinheit beschreibt die Eigenschaften typischer Data Warehouse-Arbeitslasten und erläutert, wie Sie Bezugsarchitekturen und Data Warehouse-Anwendungen nutzen können, um sicherzustellen, dass Sie das für Ihre Organisation geeignete System erstellen.
+  #### Lektionen
+  - Überlegungen zum Aufbau einer Data Warehouse-Lösung
+  - Bezugsarchitekturen und Anwendungen für Data Warehouses
+
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der wichtigsten Hardwareüberlegungen zum Erstellen eines Data Warehouse
+  - Erläutern der Verwendung von Bezugsarchitekturen und Data Warehouse-Anwendungen zur Erstellung eines Data Warehouse
+
+
+  ### Modul 3&#58; Entwerfen und Implementieren eines Data Warehouse
+  In dieser Unterrichtseinheit erfahren Sie, wie Sie die logische und physische Architektur eines Data Warehouse auf Grundlage von in der Industrie bewährten Gestaltungsprinzipien implementieren.
+  #### Lektionen
+  - Logischer Entwurf eines Data Warehouse
+  - Physischer Entwurf eines Data Warehouse
+
+
+  #### Lab &#58; Implementieren eines Data Warehouse-Schemas
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Implementieren eines logischen Entwurfs für ein Data Warehouse
+  - Implementieren eines physischen Entwurfs für ein Data Warehouse
+
+
+  ### Modul 4&#58; Erstellen einer ETL-Lösung mit SSIS
+  In dieser Unterrichtseinheit werden zunächst Aspekte zum Implementieren eines ETL-Prozesses erörtert. Anschließend wird SQL Server Integration Services (SSIS) als Plattform zum Erstellen von ETL-Lösungen vorgestellt.
+  #### Lektionen
+  - Einführung in ETL mit SSIS
+  - Untersuchen von Quelldaten
+  - Implementieren des Datenflusses
+
+
+  #### Lab &#58; Implementieren des Datenflusses in einem SSIS-Paket
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der wichtigsten Funktionen von SSIS
+  - Untersuchen von Quelldaten für eine ETL-Lösung
+  - Implementieren eines Datenflusses mit SSIS
+
+
+  ### Modul 5&#58; Implementieren der Ablaufsteuerung in einem SSIS-Paket
+  Die Ablaufsteuerung in SQL Server Integration Services-Paketen ermöglicht Ihnen die Implementierung komplexer ETL-Lösungen, die mehrere Tasks und Workflowlogik kombinieren. In dieser Unterrichtseinheit wird erläutert, wie die Ablaufsteuerung implementiert wird und wie stabile ETL-Prozesse für eine Data Warehousing-Lösung entworfen werden, die Datenflussvorgänge mit anderen automatisierten Tasks koordiniert.
+  #### Lektionen
+  - Einführung in die Ablaufsteuerung
+  - Erstellen von dynamischen Paketen
+  - Verwenden von Containern
+  - Verwalten der Konsistenz
+
+
+  #### Lab &#58; Implementieren der Ablaufsteuerung in einem SSIS-Paket
+
+  #### Lab &#58; Verwenden von Transaktionen und Prüfpunkten
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Implementieren der Ablaufsteuerung mit Tasks und Rangfolgeneinschränkungen
+  - Erstellen von dynamischen Paketen, die Variablen und Parameter enthalten
+  - Verwenden von Containern in einer Paketablaufsteuerung
+  - Erzwingen von Konsistenz mit Transaktionen und Prüfpunkten
+
+
+  ### Modul 6&#58; Debugging und Problembehandlung bei SSIS-Paketen
+  Diese Unterrichtseinheit beschreibt, wie Sie SQL Server Integration Services (SSIS)-Pakete debuggen können, um die Ursache von Fehlern zu finden, die während der Ausführung auftreten. Darüber hinaus wird die in SSIS integrierte Protokollierungsfunktion behandelt, mit der Sie Ereignisse zur Problembehandlung protokollieren können. Abschließend werden in der Unterrichtseinheit allgemeine Vorgehensweisen zum Behandeln von Fehlern in der Ablaufsteuerung und im Datenfluss behandelt.
+  #### Lektionen
+  - Debuggen eines SSIS-Pakets
+  - Protokollieren von SSIS-Paketereignissen
+  - Behandeln von Fehlern in einem SSIS-Paket
+
+
+  #### Lab &#58; Debugging und Problembehandlung bei einem SSIS-Paket
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Debuggen eines SSIS-Pakets
+  - Implementieren der Protokollierung für ein SSIS-Paket
+  - Behandeln von Fehlern in einem SSIS-Paket
+
+
+  ### Modul 7&#58; Implementieren eines inkrementellen ETL-Prozesses
+  In dieser Unterrichtseinheit werden die Verfahren beschrieben, die Sie zum Implementieren eines inkrementellen Aktualisierungsprozesses für ein Data Warehouse verwenden können.
+  #### Lektionen
+  - Einführung in inkrementelles ETL
+  - Extrahieren von geänderten Daten
+  - Laden von geänderten Daten
+
+
+  #### Lab &#58; Extrahieren von geänderten Daten
+
+  #### Lab &#58; Laden von inkrementellen Änderungen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der Überlegungen zum Implementieren einer inkrementellen Lösung zum Extrahieren, Transformieren und Laden (ETL-Lösung)
+  - Verwenden von verschiedenen Verfahren zum Extrahieren von neuen und geänderten Daten aus Quellsystemen
+  - Verwenden von verschiedenen Verfahren zum Einfügen von neuen und geänderten Daten in ein Data Warehouse
+
+
+  ### Modul 8&#58; Integrieren von Daten aus der Cloud in ein Data Warehouse
+  In dieser Unterrichtseinheit erfahren Sie, wie Sie Cloud Computing in der Data Warehouse-Infrastruktur verwenden können. Darüber hinaus werden die Tools und Dienste beschrieben, die auf der Microsoft Azure Marketplace-Website verfügbar sind.
+  #### Lektionen
+  - Übersicht über Cloud-Datenquellen
+  - SQL Server-Datenbank
+  - Windows Azure Marketplace
+
+
+  #### Lab &#58; Verwenden von Cloud-Daten in einer Data Warehouse-Lösung
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben von Szenarios mit Cloud-Daten
+  - Beschreiben der Windows Azure SQL-Datenbank
+  - Beschreiben des Windows Azure Marketplace
+
+
+  ### Modul 9&#58; Erzwingen von Datenqualität
+  Die Sicherstellung einer hohen Qualität von Daten ist unverzichtbar, wenn die Ergebnisse der Datenanalyse als vertrauenswürdig eingestuft werden sollen. In dieser Unterrichtseinheit wird erläutert, wie die SQL Server 2012 Data Quality Services (DQS) verwendet werden, um einen computergestützten Prozess zum Bereinigen von Datenwerten und zum Identifizieren und Entfernen von doppelten Datenentitäten bereitzustellen.
+  #### Lektionen
+  - Einführung in die Datenqualität
+  - Verwenden von Data Quality Services zum Bereinigen von Daten
+  - Verwenden von Data Quality Services zum Abgleichen von Daten
+
+
+  #### Lab &#58; Bereinigen von Daten
+
+  #### Lab &#58; Deduplizieren von Daten
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben, wie Data Quality Services dabei helfen können, die Datenqualität zu verwalten
+  - Verwenden von Data Quality Services zum Bereinigen von Daten
+  - Verwenden von Data Quality Services zum Abgleichen von Daten
+
+
+  ### Modul 10&#58; Verwenden von Master Data Services
+  Diese Unterrichtseinheit gibt eine Einführung in Master Data Services und erläutert die Vorteile der Verwendung dieser Dienste im Data Warehousing-Kontext. Darüber hinaus werden die wesentlichen Konfigurationsoptionen für Master Data Services beschrieben und es wird erklärt, wie Daten importiert und exportiert werden. Abschließend befasst sich die Unterrichtseinheit mit der Anwendung von Regeln, mit denen die Datenintegrität gewährleistet werden kann, und bietet eine Einführung in das Master Data Services-Add-In für Excel.
+  #### Lektionen
+  - Einführung in Master Data Services
+  - Implementieren eines Master Data Services-Modells
+  - Verwenden des Master Data Services-Add-Ins für Excel
+
+
+  #### Lab &#58; Implementieren von Master Data Services
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben von Master Data Services-Konzepten
+  - Implementieren eines Master Data Services-Modells
+  - Verwenden des Master Data Services-Add-Ins für Excel zum Anzeigen und Ändern eines Modells
+
+
+  ### Modul 11&#58; Erweitern der SQL Server Integration Services
+  In dieser Unterrichtseinheit werden die Verfahren beschrieben, mit denen Sie die SQL Server Integration Services (SSIS) erweitern können. Die Unterrichtseinheit stellt keine umfassenden Anleitungen zur Entwicklung von benutzerdefinierten SSIS-Lösungen bereit. Sie soll vielmehr ein Verständnis der grundlegenden Schritte vermitteln, die für die Verwendung von benutzerdefinierten Komponenten und Skripts in einem auf SSIS basierenden ETL-Prozess erforderlich sind.
+  #### Lektionen
+  - Verwenden von benutzerdefinierten Komponenten in SSIS
+  - Verwenden von Skripts in SSIS
+
+
+  #### Lab &#58; Verwenden von benutzerdefinierten Komponenten und Skripts
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben, wie benutzerdefinierte Komponenten zum Erweitern von SSIS verwendet werden können
+  - Beschreiben, wie benutzerdefinierte Skripts in ein SSIS-Paket eingebunden werden können
+
+
+  ### Modul 12&#58; Bereitstellen und Konfigurieren von SSIS-Paketen
+  SQL Server Integration Services umfasst Tools, die die Bereitstellung von Paketen auf einem anderen Computer vereinfachen. Mit den Bereitstellungstools werden auch Abhängigkeiten verwaltet, wie Konfigurationen und Dateien, die für das Paket erforderlich sind. In dieser Unterrichtseinheit wird beschrieben, wie Sie mithilfe dieser Tools Pakete und ihre Abhängigkeiten auf einem Zielrechner installieren.
+  #### Lektionen
+  - Übersicht über die SSIS-Bereitstellung
+  - Bereitstellen von SSIS Projekten
+  - Planen der SSIS-Paketausführung
+
+
+  #### Lab &#58; Bereitstellen und Konfigurieren von SSIS-Paketen
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben der SSIS-Bereitstellung
+  - Erläutern, wie SSIS-Projekte mithilfe des Projektbereitstellungsmodells bereitgestellt werden
+  - Planen der SSIS-Paketausführung
+
+
+  ### Modul 13&#58; Verarbeiten von Daten in einem Data Warehouse
+  Diese Unterrichtseinheit gibt eine Einführung in Business Intelligence (BI) und beschreibt die Komponenten von SQL Server, mit denen Sie eine BI-Lösung erstellen können, sowie die Clienttools, mit denen Benutzer Berichte erstellen und Daten analysieren können.
+  #### Lektionen
+  - Einführung in Business Intelligence
+  - Einführung in die Berichterstellung
+  - Einführung in die Datenanalyse
+
+
+  #### Lab &#58; Verwenden von Business Intelligence-Tools
+  Nach dieser Unterrichtseinheit werden die Kursteilnehmer in der Lage sein, folgende Aufgaben auszuführen&#58;
+  - Beschreiben von BI und gängigen BI-Szenarios
+  - Erläutern der wichtigsten Funktionen von SQL Server Reporting Services
+  - Erläutern der wichtigsten Funktionen von SQL Server Analysis Services
