@@ -12,9 +12,10 @@ summary: |-
   
   Responsibilities for this role include implementing, managing, and monitoring identity, governance, (new change) storage, compute, and virtual networks in a cloud environment, plus provision, size, monitor, and adjust resources, when needed.
   
-  An Azure Administrator often serves as part of a larger team dedicated to implementing your organization's cloud infrastructure.
+  An Azure Administrator often serves as part of a larger team dedicated to implementing your organization
+  's cloud infrastructure.
   
-  Adding new line to see the differnece.
+  Adding new line to see the difference and moew change is added in this commit.
   
   A candidate for this certification should have at least six months of hands-on experience administering Azure, along with a strong understanding of core Azure services, Azure workloads, security, and governance. In addition, this role should have experience using PowerShell, Azure CLI, Azure portal, and Azure Resource Manager templates.
 subTitle: Azure Administrators implement, manage, and monitor an organization’s Microsoft Azure environment.
