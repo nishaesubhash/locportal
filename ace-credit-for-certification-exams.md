@@ -1,6 +1,6 @@
 ---
 title: 'ACE college credit for certification exams | Microsoft Docs'
-description: 'ACE college credit for certification exams' 
+description: 'ACE college credit for certification exams and update' 
 documentationcenter: NA 
 author: micsullivan
 ms.topic: article
